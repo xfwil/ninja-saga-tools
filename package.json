@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "dump": "node dump-game-data.mjs",
+    "dump:skills": "node dump-game-data.mjs skills",
+    "dump:talents": "node dump-game-data.mjs talents",
+    "dump:senjutsu": "node dump-game-data.mjs senjutsu"
   },
   "dependencies": {
     "next": "16.1.6",

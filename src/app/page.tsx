@@ -19,6 +19,15 @@ const tools = [
     tags: ["EXP", "Level", "Calculator"],
     available: true,
   },
+  {
+    href: "/tools/encyclopedia",
+    icon: "📖",
+    title: "Encyclopedia",
+    description:
+      "Database lengkap Skills, Talents, dan Senjutsu. Cari berdasarkan nama, tipe, level, dan harga. Lihat detail setiap skill dengan level selector.",
+    tags: ["Skills", "Talents", "Senjutsu", "Database"],
+    available: true,
+  },
 ];
 
 export default function HomePage() {
