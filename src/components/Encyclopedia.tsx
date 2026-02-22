@@ -377,7 +377,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
                   : "border-white/10 text-slate-500 hover:text-slate-300 hover:border-white/20"
               }`}
             >
-              {v === "all" ? "Semua" : v === "free" ? "🪙 Gratis" : "💎 Premium"}
+              {v === "all" ? "Semua" : v === "free" ? "G Gratis" : "💎 Premium"}
             </button>
           ))}
         </div>
@@ -480,7 +480,7 @@ function SkillCard({ skill, highlight = "" }: { skill: Skill; highlight?: string
       {(skill.price_gold > 0 || skill.price_tokens > 0) && (
         <div className="flex gap-2 pt-2 border-t border-white/5">
           {skill.price_gold > 0 && (
-            <span className="text-[11px] text-amber-500">🪙 {skill.price_gold.toLocaleString("id-ID")}</span>
+            <span className="text-[11px] text-amber-500">G {skill.price_gold.toLocaleString("id-ID")}</span>
           )}
           {skill.price_tokens > 0 && (
             <span className="text-[11px] text-blue-400">💎 {skill.price_tokens} token</span>
