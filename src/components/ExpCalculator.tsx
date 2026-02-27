@@ -7,6 +7,13 @@ function fmt(n: number) {
   return n.toLocaleString("id-ID");
 }
 
+function parseLocalizedNumber(value: string): number {
+  const digitsOnly = value.replace(/\D/g, "");
+  if (!digitsOnly) return 0;
+  const parsed = Number.parseInt(digitsOnly, 10);
+  return Number.isNaN(parsed) ? 0 : parsed;
+}
+
 function formatDuration(days: number): string {
   if (days <= 0) return "Sudah tercapai!";
   if (days < 1) return "< 1 hari";
@@ -21,8 +28,6 @@ function formatDuration(days: number): string {
   const r = d % 30;
   return r === 0 ? `${m} bulan` : `${m} bulan ${r} hari`;
 }
-
-const LEVEL_RANGE = Array.from({ length: MAX_LEVEL - MIN_LEVEL + 1 }, (_, i) => MIN_LEVEL + i);
 
 export default function ExpCalculator() {
   const [currentLevel, setCurrentLevel] = useState(1);
@@ -55,10 +60,7 @@ export default function ExpCalculator() {
     return { neededTotal, remaining, daysNeeded, progressPct, levelSteps };
   }, [currentLevel, targetLevel, progressXP, dailyXP]);
 
-  // XP within current level = user's total XP - threshold of current level
-  const currentLevelThreshold = levelXP[currentLevel] ?? 0;
-  const nextLevelThreshold = levelXP[currentLevel + 1] ?? 0;
-  const xpToNextLevel = nextLevelThreshold - currentLevelThreshold;
+  const xpToNextLevel = levelXP[currentLevel] ?? 0;
 
   return (
     <div className="flex flex-col gap-6">
@@ -82,13 +84,12 @@ export default function ExpCalculator() {
           <div className="flex flex-col gap-1">
             <label className="text-xs text-slate-600">XP Progress dalam level ini</label>
             <input
-              type="number"
-              min={0}
-              max={xpToNextLevel}
-              value={progressXP}
+              type="text"
+              inputMode="numeric"
+              value={progressXP === 0 ? "" : fmt(progressXP)}
               onChange={(e) => {
-                const v = parseInt(e.target.value, 10);
-                setProgressXP(isNaN(v) ? 0 : clamp(v, 0, xpToNextLevel));
+                const v = parseLocalizedNumber(e.target.value);
+                setProgressXP(clamp(v, 0, xpToNextLevel));
               }}
               placeholder="0"
               className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-white outline-none focus:border-blue-600/50 transition-all [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
@@ -116,12 +117,11 @@ export default function ExpCalculator() {
           <div className="flex flex-col gap-1">
             <label className="text-xs text-slate-600">XP per hari (opsional)</label>
             <input
-              type="number"
-              min={0}
+              type="text"
+              inputMode="numeric"
               value={dailyXP === 0 ? "" : dailyXP}
               onChange={(e) => {
-                const v = parseInt(e.target.value, 10);
-                setDailyXP(isNaN(v) || v < 0 ? 0 : v);
+                setDailyXP(parseLocalizedNumber(e.target.value));
               }}
               placeholder="Masukkan XP harian kamu..."
               className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-white outline-none focus:border-green-600/50 transition-all [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"

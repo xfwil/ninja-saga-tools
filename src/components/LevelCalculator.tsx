@@ -7,6 +7,13 @@ function formatNumber(n: number) {
   return n.toLocaleString("id-ID");
 }
 
+function parseLocalizedNumber(value: string): number {
+  const digitsOnly = value.replace(/\D/g, "");
+  if (!digitsOnly) return 0;
+  const parsed = Number.parseInt(digitsOnly, 10);
+  return Number.isNaN(parsed) ? 0 : parsed;
+}
+
 function formatDays(days: number): string {
   if (days < 1) return "< 1 hari";
   if (days === 1) return "1 hari";
@@ -80,12 +87,11 @@ export default function LevelCalculator({ xpPerSession }: { xpPerSession: number
             XP Saat Ini
           </label>
           <input
-            type="number"
-            min={0}
-            value={currentXP}
+            type="text"
+            inputMode="numeric"
+            value={currentXP === 0 ? "" : formatNumber(currentXP)}
             onChange={(e) => {
-              const v = parseInt(e.target.value, 10);
-              setCurrentXP(isNaN(v) || v < 0 ? 0 : v);
+              setCurrentXP(parseLocalizedNumber(e.target.value));
             }}
             placeholder="0"
             className="rounded-lg border border-white/10 bg-white/5 px-3 py-2.5 text-sm text-white outline-none focus:border-violet-600/60 focus:bg-violet-950/20 transition-all [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"

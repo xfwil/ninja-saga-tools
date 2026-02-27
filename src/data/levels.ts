@@ -1,4 +1,4 @@
-// Cumulative XP required to reach each level
+// XP required to go from level N to level N+1
 export const levelXP: Record<number, number> = {
   1: 15, 2: 304, 3: 493, 4: 711, 5: 961, 6: 1247, 7: 1574, 8: 1945, 9: 2366, 10: 2843,
   11: 3382, 12: 3989, 13: 4673, 14: 5542, 15: 6306, 16: 7273, 17: 8537, 18: 9569, 19: 10922, 20: 12433,
@@ -18,5 +18,9 @@ export const MAX_LEVEL = 95;
 
 export function xpBetween(fromLevel: number, toLevel: number): number {
   if (fromLevel >= toLevel) return 0;
-  return (levelXP[toLevel] ?? 0) - (levelXP[fromLevel] ?? 0);
+  let total = 0;
+  for (let level = fromLevel; level < toLevel; level++) {
+    total += levelXP[level] ?? 0;
+  }
+  return total;
 }
