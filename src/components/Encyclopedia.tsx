@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import skillsJson from "../../dump/skills.json";
 import talentsJson from "../../dump/talents.json";
 import senjutsuJson from "../../dump/senjutsu.json";
+import skillEffectsJson from "../../dump/skill-effect.json";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -22,6 +23,24 @@ type Skill = {
   price_tokens: number;
   premium: boolean;
   buyable: boolean;
+};
+
+type SkillEffectEntry = {
+  target?: string;
+  type?: string;
+  effect?: string;
+  effect_name?: string;
+  duration?: number;
+  calc_type?: string;
+  amount?: number;
+  chance?: number;
+  reduce_type?: string;
+  passive?: boolean;
+};
+
+type SkillEffectRecord = {
+  skill_id: string;
+  skill_effect: SkillEffectEntry[];
 };
 
 type Talent = {
@@ -199,6 +218,174 @@ const EFFECT_TAGS = [
   { label: "Curse",         keyword: "curse" },
 ];
 
+// ─── Skill effects lookup ─────────────────────────────────────────────────────
+
+const SKILL_EFFECTS_MAP = Object.fromEntries(
+  (skillEffectsJson as SkillEffectRecord[]).map((e) => [e.skill_id, e.skill_effect ?? []])
+);
+
+// ─── Skill Detail Modal ───────────────────────────────────────────────────────
+
+function SkillModal({ skill, onClose }: { skill: Skill; onClose: () => void }) {
+  const typeInfo = SKILL_TYPE_MAP[skill.type] ?? { label: `Type ${skill.type}`, icon: "❓", badge: "bg-slate-800/40 border-slate-600/40 text-slate-400" };
+  const seasonNum = getSeasonNumber(skill.name);
+  const effects = SKILL_EFFECTS_MAP[skill.id] ?? [];
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
+    document.addEventListener("keydown", handler);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", handler);
+      document.body.style.overflow = "";
+    };
+  }, [onClose]);
+
+  const effectColor = (entry: SkillEffectEntry) => {
+    if (entry.type === "Buff")   return "bg-emerald-950/50 border-emerald-700/40 text-emerald-300";
+    if (entry.type === "Debuff") return "bg-red-950/50 border-red-700/40 text-red-300";
+    return "bg-slate-800/50 border-slate-600/40 text-slate-300";
+  };
+
+  const formatEffect = (entry: SkillEffectEntry) => {
+    const name  = entry.effect_name ?? entry.effect ?? "—";
+    const parts: string[] = [];
+    if (entry.target) parts.push(entry.target === "enemy" ? "Musuh" : entry.target === "self" ? "Diri" : entry.target);
+    if (entry.amount != null && entry.amount > 0) {
+      parts.push(entry.calc_type === "percent" ? `${entry.amount}%` : `+${entry.amount}`);
+    }
+    if (entry.chance != null && entry.chance < 100) parts.push(`${entry.chance}% chance`);
+    if (entry.duration != null && entry.duration > 0)  parts.push(`${entry.duration} turn`);
+    return { name, detail: parts.join(" · ") };
+  };
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4"
+      onClick={onClose}
+    >
+      {/* Backdrop */}
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+
+      {/* Panel */}
+      <div
+        className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="sticky top-0 z-10 flex items-start justify-between gap-3 p-5 pb-4 border-b border-white/[0.07] bg-[#0e0e14]">
+          <div className="flex-1 min-w-0">
+            <div className="flex flex-wrap items-center gap-1.5 mb-2">
+              <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${typeInfo.badge}`}>
+                {typeInfo.icon} {typeInfo.label}
+              </span>
+              {seasonNum !== null && (
+                <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold bg-rose-900/40 border-rose-700/40 text-rose-300">
+                  🎴 S{seasonNum}
+                </span>
+              )}
+              {skill.premium && (
+                <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-bold bg-amber-900/40 border-amber-700/40 text-amber-400">
+                  💎 Premium
+                </span>
+              )}
+              <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">
+                Lv. {skill.level}
+              </span>
+            </div>
+            <h2 className="text-base font-bold text-white leading-snug">{skill.name}</h2>
+          </div>
+          <button
+            onClick={onClose}
+            className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm mt-0.5"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div className="p-5 space-y-5">
+          {/* Description */}
+          <div>
+            <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Deskripsi</p>
+            <p className="text-sm text-slate-300 leading-relaxed">{skill.description}</p>
+          </div>
+
+          {/* Stats */}
+          <div>
+            <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Stats</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+              {skill.damage > 0 && <StatLarge label="Damage" value={`${skill.damage}%`} />}
+              <StatLarge label="CP Cost" value={skill.cp_cost} />
+              <StatLarge label="Cooldown" value={`${skill.cooldown} turn`} />
+              <StatLarge label="Target" value={skill.target} />
+              {skill.hit_chance != null && skill.hit_chance > 0 && (
+                <StatLarge label="Hit Chance" value={`${skill.hit_chance}%`} />
+              )}
+            </div>
+          </div>
+
+          {/* Effects */}
+          {effects.length > 0 && (
+            <div>
+              <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Efek</p>
+              <div className="flex flex-col gap-2">
+                {effects.map((entry, i) => {
+                  const { name, detail } = formatEffect(entry);
+                  return (
+                    <div key={i} className={`flex items-start justify-between gap-3 rounded-lg border px-3 py-2 ${effectColor(entry)}`}>
+                      <div className="flex items-center gap-2 min-w-0">
+                        <span className="text-xs font-semibold truncate">{name}</span>
+                        {entry.type && (
+                          <span className="shrink-0 text-[10px] opacity-60 font-medium">
+                            {entry.type === "Buff" ? "Buff" : entry.type === "Debuff" ? "Debuff" : entry.type}
+                          </span>
+                        )}
+                      </div>
+                      {detail && (
+                        <span className="shrink-0 text-[11px] opacity-80 text-right">{detail}</span>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* Price */}
+          {(skill.price_gold > 0 || skill.price_tokens > 0) && (
+            <div>
+              <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Harga</p>
+              <div className="flex gap-3">
+                {skill.price_gold > 0 && (
+                  <div className="flex items-center gap-1.5 rounded-lg border border-amber-700/30 bg-amber-950/20 px-3 py-2">
+                    <span className="text-amber-400 text-xs">G</span>
+                    <span className="text-sm font-bold text-amber-300">{skill.price_gold.toLocaleString("id-ID")}</span>
+                  </div>
+                )}
+                {skill.price_tokens > 0 && (
+                  <div className="flex items-center gap-1.5 rounded-lg border border-blue-700/30 bg-blue-950/20 px-3 py-2">
+                    <span className="text-blue-400 text-xs">💎</span>
+                    <span className="text-sm font-bold text-blue-300">{skill.price_tokens} token</span>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function StatLarge({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div className="flex flex-col gap-0.5 rounded-lg bg-white/[0.04] border border-white/[0.07] px-3 py-2">
+      <span className="text-[10px] text-slate-600">{label}</span>
+      <span className="text-sm font-bold text-slate-200">{value}</span>
+    </div>
+  );
+}
+
 // ─── Skills Tab ───────────────────────────────────────────────────────────────
 
 function SkillsTab({ skills }: { skills: Skill[] }) {
@@ -208,6 +395,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
   const [seasonFilter, setSeasonFilter] = useState<number | "all">("all");
   const [premFilter, setPremFilter] = useState<"all" | "premium" | "free">("all");
   const [page, setPage] = useState(1);
+  const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
 
   const resetPage = useCallback(() => setPage(1), []);
 
@@ -394,7 +582,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {paginated.map((skill) => (
-            <SkillCard key={skill.id} skill={skill} highlight={effectSearch} />
+            <SkillCard key={skill.id} skill={skill} highlight={effectSearch} onSelect={setSelectedSkill} />
           ))}
         </div>
       )}
@@ -402,6 +590,11 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
       {/* Pagination */}
       {totalPages > 1 && (
         <Pagination page={page} total={totalPages} onChange={setPage} />
+      )}
+
+      {/* Detail Modal */}
+      {selectedSkill && (
+        <SkillModal skill={selectedSkill} onClose={() => setSelectedSkill(null)} />
       )}
     </div>
   );
@@ -422,17 +615,20 @@ function highlightText(text: string, query: string): React.ReactNode {
   );
 }
 
-function SkillCard({ skill, highlight = "" }: { skill: Skill; highlight?: string }) {
+function SkillCard({ skill, highlight = "", onSelect }: { skill: Skill; highlight?: string; onSelect?: (s: Skill) => void }) {
   const typeInfo = SKILL_TYPE_MAP[skill.type] ?? { label: `Type ${skill.type}`, icon: "❓", badge: "bg-slate-800/40 border-slate-600/40 text-slate-400" };
   const seasonNum = getSeasonNumber(skill.name);
   const hasHighlight = highlight && skill.description.toLowerCase().includes(highlight.toLowerCase());
 
   return (
-    <div className={`group flex flex-col gap-3 rounded-xl border p-4 transition-all ${
-      hasHighlight
-        ? "border-violet-700/40 bg-violet-950/10 hover:border-violet-600/50"
-        : "border-white/[0.07] bg-white/[0.025] hover:border-white/15 hover:bg-white/[0.04]"
-    }`}>
+    <div
+      className={`group flex flex-col gap-3 rounded-xl border p-4 transition-all cursor-pointer ${
+        hasHighlight
+          ? "border-violet-700/40 bg-violet-950/10 hover:border-violet-600/50 hover:bg-violet-950/20"
+          : "border-white/[0.07] bg-white/[0.025] hover:border-white/15 hover:bg-white/[0.04]"
+      }`}
+      onClick={() => onSelect?.(skill)}
+    >
       {/* Header */}
       <div className="flex items-start justify-between gap-2">
         <div className="flex-1 min-w-0">
@@ -462,8 +658,8 @@ function SkillCard({ skill, highlight = "" }: { skill: Skill; highlight?: string
         </div>
       </div>
 
-      {/* Description — expanded when highlight active, clamped otherwise */}
-      <p className={`text-xs text-slate-500 leading-relaxed ${hasHighlight ? "" : "line-clamp-2"}`}>
+      {/* Description */}
+      <p className={`text-xs text-slate-500 leading-relaxed line-clamp-2`}>
         {highlightText(skill.description, highlight)}
       </p>
 
@@ -476,9 +672,9 @@ function SkillCard({ skill, highlight = "" }: { skill: Skill; highlight?: string
         {skill.hit_chance !== undefined && skill.hit_chance > 0 && <Stat label="Hit%" value={`${skill.hit_chance}%`} />}
       </div>
 
-      {/* Price */}
-      {(skill.price_gold > 0 || skill.price_tokens > 0) && (
-        <div className="flex gap-2 pt-2 border-t border-white/5">
+      {/* Price + detail hint */}
+      <div className="flex items-center justify-between pt-2 border-t border-white/5 gap-2">
+        <div className="flex gap-2">
           {skill.price_gold > 0 && (
             <span className="text-[11px] text-amber-500">G {skill.price_gold.toLocaleString("id-ID")}</span>
           )}
@@ -486,7 +682,10 @@ function SkillCard({ skill, highlight = "" }: { skill: Skill; highlight?: string
             <span className="text-[11px] text-blue-400">💎 {skill.price_tokens} token</span>
           )}
         </div>
-      )}
+        <span className="text-[10px] text-slate-700 group-hover:text-slate-400 transition-colors shrink-0">
+          Klik detail →
+        </span>
+      </div>
     </div>
   );
 }
