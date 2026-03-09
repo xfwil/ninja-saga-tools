@@ -427,6 +427,8 @@ function StatLarge({ label, value }: { label: string; value: string | number }) 
 
 // ─── Skills Tab ───────────────────────────────────────────────────────────────
 
+type ViewMode = "grid" | "list" | "compact";
+
 function SkillsTab({ skills }: { skills: Skill[] }) {
   const [nameSearch, setNameSearch] = useState("");
   const [effectSearch, setEffectSearch] = useState("");
@@ -435,6 +437,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
   const [premFilter, setPremFilter] = useState<"all" | "premium" | "free">("all");
   const [page, setPage] = useState(1);
   const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
+  const [viewMode, setViewMode] = useState<ViewMode>("grid");
 
   const resetPage = useCallback(() => setPage(1), []);
 
@@ -613,19 +616,51 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
           ))}
         </div>
 
-        {/* Result count */}
-        <p className="text-xs text-slate-600">
-          Menampilkan {filtered.length.toLocaleString("id-ID")} dari {skills.length.toLocaleString("id-ID")} skill
-        </p>
+        {/* Result count + view toggle */}
+        <div className="flex items-center justify-between gap-2">
+          <p className="text-xs text-slate-600">
+            Menampilkan {filtered.length.toLocaleString("id-ID")} dari {skills.length.toLocaleString("id-ID")} skill
+          </p>
+          <div className="flex items-center gap-1 rounded-lg border border-white/10 bg-white/[0.03] p-1">
+            {(["grid", "list", "compact"] as ViewMode[]).map((mode) => (
+              <button
+                key={mode}
+                onClick={() => setViewMode(mode)}
+                title={mode === "grid" ? "Grid" : mode === "list" ? "List" : "Compact"}
+                className={`rounded-md px-2 py-1 text-[11px] font-medium transition-all flex items-center gap-1 ${
+                  viewMode === mode
+                    ? "bg-red-600/80 text-white"
+                    : "text-slate-500 hover:text-slate-300"
+                }`}
+              >
+                {mode === "grid"    && <><GridIcon /><span className="hidden sm:inline">Grid</span></>}
+                {mode === "list"    && <><ListIcon /><span className="hidden sm:inline">List</span></>}
+                {mode === "compact" && <><CompactIcon /><span className="hidden sm:inline">Compact</span></>}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
 
-      {/* Grid */}
+      {/* Content */}
       {paginated.length === 0 ? (
         <EmptyState text="Tidak ada skill yang cocok dengan filter." />
-      ) : (
+      ) : viewMode === "grid" ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {paginated.map((skill) => (
             <SkillCard key={skill.id} skill={skill} highlight={effectSearch} onSelect={setSelectedSkill} />
+          ))}
+        </div>
+      ) : viewMode === "list" ? (
+        <div className="flex flex-col gap-2">
+          {paginated.map((skill) => (
+            <SkillRow key={skill.id} skill={skill} highlight={effectSearch} onSelect={setSelectedSkill} />
+          ))}
+        </div>
+      ) : (
+        <div className="flex flex-col divide-y divide-white/[0.04] rounded-xl border border-white/[0.07] overflow-hidden">
+          {paginated.map((skill) => (
+            <SkillCompactRow key={skill.id} skill={skill} highlight={effectSearch} onSelect={setSelectedSkill} />
           ))}
         </div>
       )}
@@ -738,6 +773,147 @@ function SkillCard({ skill, highlight = "", onSelect }: { skill: Skill; highligh
         <span className="text-[10px] text-slate-700 group-hover:text-slate-400 transition-colors shrink-0">
           Klik detail →
         </span>
+      </div>
+    </div>
+  );
+}
+
+// ─── View Icons ───────────────────────────────────────────────────────────────
+
+function GridIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
+      <rect x="0" y="0" width="6" height="6" rx="1" /><rect x="8" y="0" width="6" height="6" rx="1" />
+      <rect x="0" y="8" width="6" height="6" rx="1" /><rect x="8" y="8" width="6" height="6" rx="1" />
+    </svg>
+  );
+}
+
+function ListIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
+      <rect x="0" y="0" width="14" height="3" rx="1" /><rect x="0" y="5.5" width="14" height="3" rx="1" />
+      <rect x="0" y="11" width="14" height="3" rx="1" />
+    </svg>
+  );
+}
+
+function CompactIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
+      <rect x="0" y="0" width="14" height="2" rx="0.5" /><rect x="0" y="4" width="14" height="2" rx="0.5" />
+      <rect x="0" y="8" width="14" height="2" rx="0.5" /><rect x="0" y="12" width="14" height="2" rx="0.5" />
+    </svg>
+  );
+}
+
+// ─── List Row ─────────────────────────────────────────────────────────────────
+
+function SkillRow({ skill, highlight = "", onSelect }: { skill: Skill; highlight?: string; onSelect?: (s: Skill) => void }) {
+  const typeInfo = SKILL_TYPE_MAP[skill.type] ?? { label: `Type ${skill.type}`, icon: "❓", badge: "bg-slate-800/40 border-slate-600/40 text-slate-400" };
+  const seasonNum = getSeasonNumber(skill.name);
+  const hlLower = highlight.toLowerCase();
+  const matchDesc   = !!highlight && skill.description.toLowerCase().includes(hlLower);
+  const matchEffect = !!highlight && effectMatchesQuery(skill.id, hlLower);
+  const hasHighlight = matchDesc || matchEffect;
+
+  return (
+    <div
+      className={`group flex items-start gap-3 rounded-xl border px-4 py-3 cursor-pointer transition-all ${
+        hasHighlight
+          ? "border-violet-700/40 bg-violet-950/10 hover:border-violet-600/50 hover:bg-violet-950/20"
+          : "border-white/[0.07] bg-white/[0.025] hover:border-white/15 hover:bg-white/[0.04]"
+      }`}
+      onClick={() => onSelect?.(skill)}
+    >
+      {/* Type icon pill */}
+      <span className={`shrink-0 mt-0.5 inline-flex items-center justify-center w-8 h-8 rounded-lg border text-base ${typeInfo.badge}`}>
+        {typeInfo.icon}
+      </span>
+
+      {/* Main content */}
+      <div className="flex-1 min-w-0">
+        <div className="flex flex-wrap items-center gap-1.5 mb-1">
+          <span className={`text-[10px] font-bold border rounded-full px-1.5 py-0.5 ${typeInfo.badge}`}>
+            {typeInfo.label}
+          </span>
+          {seasonNum !== null && (
+            <span className="text-[10px] font-bold border rounded-full px-1.5 py-0.5 bg-rose-900/40 border-rose-700/40 text-rose-300">
+              S{seasonNum}
+            </span>
+          )}
+          {skill.premium && (
+            <span className="text-[10px] font-bold border rounded-full px-1.5 py-0.5 bg-amber-900/40 border-amber-700/40 text-amber-400">
+              💎
+            </span>
+          )}
+          {matchEffect && !matchDesc && (
+            <span className="text-[10px] font-semibold border rounded-full px-1.5 py-0.5 border-violet-700/40 bg-violet-950/30 text-violet-300">
+              ✦ efek
+            </span>
+          )}
+        </div>
+        <p className="text-sm font-semibold text-white leading-snug mb-1 truncate">{skill.name}</p>
+        <p className="text-[11px] text-slate-500 leading-relaxed line-clamp-1">
+          {highlightText(skill.description, matchDesc ? highlight : "")}
+        </p>
+      </div>
+
+      {/* Stats column */}
+      <div className="shrink-0 flex flex-col items-end gap-1 text-[11px]">
+        <span className="text-slate-600">Lv.{skill.level}</span>
+        <div className="flex flex-wrap justify-end gap-x-2 gap-y-0.5">
+          {skill.damage > 0 && <span className="text-orange-400">DMG {skill.damage}%</span>}
+          <span className="text-blue-400">CP {skill.cp_cost}</span>
+          <span className="text-slate-400">CD {skill.cooldown}t</span>
+          <span className="text-slate-500">{skill.target}</span>
+        </div>
+        <span className="text-[10px] text-slate-700 group-hover:text-slate-400 transition-colors">detail →</span>
+      </div>
+    </div>
+  );
+}
+
+// ─── Compact Row ──────────────────────────────────────────────────────────────
+
+function SkillCompactRow({ skill, highlight = "", onSelect }: { skill: Skill; highlight?: string; onSelect?: (s: Skill) => void }) {
+  const typeInfo = SKILL_TYPE_MAP[skill.type] ?? { label: `Type ${skill.type}`, icon: "❓", badge: "bg-slate-800/40 border-slate-600/40 text-slate-400" };
+  const seasonNum = getSeasonNumber(skill.name);
+  const hlLower = highlight.toLowerCase();
+  const matchDesc   = !!highlight && skill.description.toLowerCase().includes(hlLower);
+  const matchEffect = !!highlight && effectMatchesQuery(skill.id, hlLower);
+  const hasHighlight = matchDesc || matchEffect;
+
+  return (
+    <div
+      className={`group flex items-center gap-2 px-3 py-2 cursor-pointer transition-all ${
+        hasHighlight ? "bg-violet-950/20 hover:bg-violet-950/30" : "bg-transparent hover:bg-white/[0.03]"
+      }`}
+      onClick={() => onSelect?.(skill)}
+    >
+      {/* Type icon */}
+      <span className="shrink-0 text-base w-5 text-center" title={typeInfo.label}>
+        {typeInfo.icon}
+      </span>
+
+      {/* Name */}
+      <p className="flex-1 min-w-0 text-xs font-medium text-slate-200 truncate">
+        {skill.name}
+        {seasonNum !== null && (
+          <span className="ml-1.5 text-[10px] text-rose-400 font-bold">S{seasonNum}</span>
+        )}
+        {skill.premium && <span className="ml-1 text-[10px] text-amber-400">💎</span>}
+        {matchEffect && !matchDesc && <span className="ml-1.5 text-[10px] text-violet-400 font-bold">✦</span>}
+      </p>
+
+      {/* Inline stats */}
+      <div className="shrink-0 flex items-center gap-3 text-[11px]">
+        {skill.damage > 0 && <span className="text-orange-400 w-14 text-right">DMG {skill.damage}%</span>}
+        {!(skill.damage > 0) && <span className="w-14" />}
+        <span className="text-blue-400 w-12 text-right">CP {skill.cp_cost}</span>
+        <span className="text-slate-500 w-10 text-right">CD {skill.cooldown}t</span>
+        <span className="text-slate-600 w-12 text-right hidden sm:inline">{skill.target}</span>
+        <span className="text-slate-700 group-hover:text-slate-400 transition-colors text-[10px]">→</span>
       </div>
     </div>
   );
