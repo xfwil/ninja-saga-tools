@@ -196,27 +196,35 @@ function isSeasonal(name: string): boolean {
 // ─── Effect quick-tags ────────────────────────────────────────────────────────
 
 const EFFECT_TAGS = [
-  { label: "Stun",          keyword: "stun" },
-  { label: "Burn",          keyword: "burn" },
-  { label: "Bleed",         keyword: "bleed" },
-  { label: "Recover HP",    keyword: "recover" },
-  { label: "Dodge",         keyword: "dodge" },
-  { label: "Critical",      keyword: "critical" },
-  { label: "Reduce",        keyword: "reduce" },
-  { label: "Poison",        keyword: "poison" },
-  { label: "Sleep",         keyword: "sleep" },
-  { label: "Seal",          keyword: "seal" },
-  { label: "Agility",       keyword: "agility" },
-  { label: "Blind",         keyword: "blind" },
-  { label: "Freeze",        keyword: "freeze" },
-  { label: "Debuff",        keyword: "debuff" },
-  { label: "Buff",          keyword: "buff" },
-  { label: "Absorb",        keyword: "absorb" },
-  { label: "Ignore DEF",    keyword: "ignore defense" },
-  { label: "All Attack",    keyword: "all attack" },
-  { label: "Heal",          keyword: "heal" },
-  { label: "Curse",         keyword: "curse" },
-];
+  { label: "Stun",            keyword: "stun" },
+  { label: "Burn",            keyword: "burn" },
+  { label: "Bleed",           keyword: "bleed" },
+  { label: "Blind",           keyword: "blind" },
+  { label: "Sleep",           keyword: "sleep" },
+  { label: "Poison",          keyword: "poison" },
+  { label: "Freeze",          keyword: "frozen" },
+  { label: "Slow",            keyword: "slow" },
+  { label: "Fear",            keyword: "fear" },
+  { label: "Disorient",       keyword: "disorient" },
+  { label: "Darkness",        keyword: "darkness" },
+  { label: "Dark Curse",      keyword: "dark curse" },
+  { label: "Demonic Curse",   keyword: "demonic curse" },
+  { label: "Meridian Seal",   keyword: "meridian seal" },
+  { label: "Internal Injury", keyword: "internal injury" },
+  { label: "Disperse",        keyword: "disperse" },
+  { label: "Drain HP",        keyword: "drain hp" },
+  { label: "Drain CP",        keyword: "drain cp" },
+  { label: "Reduce MAX HP",   keyword: "reduce max hp" },
+  { label: "Reduce MAX HP",   keyword: "insta reduce max hp" },
+  { label: "Recover HP",      keyword: "recover hp" },
+  { label: "Critical",        keyword: "critical" },
+  { label: "Absorb HP",       keyword: "absorb hp" },
+  { label: "Seal/Lock",       keyword: "seal" },
+  { label: "Agility",         keyword: "agility" },
+  { label: "Heal",            keyword: "heal" },
+  { label: "Debuff Resist",   keyword: "debuff resist" },
+  { label: "Instant Kill",    keyword: "instant kill" },
+].filter((tag, idx, arr) => arr.findIndex(t => t.label === tag.label) === idx);
 
 // ─── Skill effects lookup ─────────────────────────────────────────────────────
 
@@ -224,12 +232,24 @@ const SKILL_EFFECTS_MAP = Object.fromEntries(
   (skillEffectsJson as SkillEffectRecord[]).map((e) => [e.skill_id, e.skill_effect ?? []])
 );
 
+/** Returns true if any effect of this skill matches the query string. */
+function effectMatchesQuery(skillId: string, query: string): boolean {
+  const fxList = SKILL_EFFECTS_MAP[skillId] ?? [];
+  const q = query.toLowerCase();
+  return fxList.some((fx) => {
+    const name = (fx.effect_name ?? "").toLowerCase();
+    const key  = (fx.effect ?? "").toLowerCase().replace(/_/g, " ");
+    return name.includes(q) || key.includes(q);
+  });
+}
+
 // ─── Skill Detail Modal ───────────────────────────────────────────────────────
 
-function SkillModal({ skill, onClose }: { skill: Skill; onClose: () => void }) {
+function SkillModal({ skill, onClose, highlight = "" }: { skill: Skill; onClose: () => void; highlight?: string }) {
   const typeInfo = SKILL_TYPE_MAP[skill.type] ?? { label: `Type ${skill.type}`, icon: "❓", badge: "bg-slate-800/40 border-slate-600/40 text-slate-400" };
   const seasonNum = getSeasonNumber(skill.name);
   const effects = SKILL_EFFECTS_MAP[skill.id] ?? [];
+  const hlLower = highlight.toLowerCase();
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
@@ -331,18 +351,37 @@ function SkillModal({ skill, onClose }: { skill: Skill; onClose: () => void }) {
               <div className="flex flex-col gap-2">
                 {effects.map((entry, i) => {
                   const { name, detail } = formatEffect(entry);
+                  const nameKey  = (entry.effect_name ?? "").toLowerCase();
+                  const effectKey = (entry.effect ?? "").toLowerCase().replace(/_/g, " ");
+                  const isMatched = hlLower && (nameKey.includes(hlLower) || effectKey.includes(hlLower));
                   return (
-                    <div key={i} className={`flex items-start justify-between gap-3 rounded-lg border px-3 py-2 ${effectColor(entry)}`}>
+                    <div
+                      key={i}
+                      className={`flex items-start justify-between gap-3 rounded-lg border px-3 py-2 transition-all ${
+                        isMatched
+                          ? "border-violet-500/60 bg-violet-950/40 ring-1 ring-violet-500/20"
+                          : effectColor(entry)
+                      }`}
+                    >
                       <div className="flex items-center gap-2 min-w-0">
-                        <span className="text-xs font-semibold truncate">{name}</span>
-                        {entry.type && (
+                        <span className={`text-xs font-semibold truncate ${isMatched ? "text-violet-200" : ""}`}>
+                          {name}
+                        </span>
+                        {isMatched && (
+                          <span className="shrink-0 text-[9px] font-bold text-violet-400 bg-violet-900/40 border border-violet-700/40 rounded px-1">
+                            match
+                          </span>
+                        )}
+                        {entry.type && !isMatched && (
                           <span className="shrink-0 text-[10px] opacity-60 font-medium">
                             {entry.type === "Buff" ? "Buff" : entry.type === "Debuff" ? "Debuff" : entry.type}
                           </span>
                         )}
                       </div>
                       {detail && (
-                        <span className="shrink-0 text-[11px] opacity-80 text-right">{detail}</span>
+                        <span className={`shrink-0 text-[11px] text-right ${isMatched ? "text-violet-300 opacity-100" : "opacity-80"}`}>
+                          {detail}
+                        </span>
                       )}
                     </div>
                   );
@@ -416,7 +455,11 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
     const eq = effectSearch.toLowerCase();
     return skills.filter((s) => {
       if (nq && !s.name.toLowerCase().includes(nq)) return false;
-      if (eq && !s.description.toLowerCase().includes(eq)) return false;
+      if (eq) {
+        const inDesc   = s.description.toLowerCase().includes(eq);
+        const inEffect = effectMatchesQuery(s.id, eq);
+        if (!inDesc && !inEffect) return false;
+      }
       if (isSeasonal_filter) {
         if (!isSeasonal(s.name)) return false;
         if (seasonFilter !== "all" && getSeasonNumber(s.name) !== seasonFilter) return false;
@@ -486,7 +529,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
               const active = effectSearch === keyword;
               return (
                 <button
-                  key={keyword}
+                  key={label}
                   onClick={() => handleEffectTag(keyword)}
                   className={`rounded-full px-2.5 py-0.5 text-[11px] font-medium border transition-all ${
                     active
@@ -594,7 +637,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
 
       {/* Detail Modal */}
       {selectedSkill && (
-        <SkillModal skill={selectedSkill} onClose={() => setSelectedSkill(null)} />
+        <SkillModal skill={selectedSkill} onClose={() => setSelectedSkill(null)} highlight={effectSearch} />
       )}
     </div>
   );
@@ -618,7 +661,10 @@ function highlightText(text: string, query: string): React.ReactNode {
 function SkillCard({ skill, highlight = "", onSelect }: { skill: Skill; highlight?: string; onSelect?: (s: Skill) => void }) {
   const typeInfo = SKILL_TYPE_MAP[skill.type] ?? { label: `Type ${skill.type}`, icon: "❓", badge: "bg-slate-800/40 border-slate-600/40 text-slate-400" };
   const seasonNum = getSeasonNumber(skill.name);
-  const hasHighlight = highlight && skill.description.toLowerCase().includes(highlight.toLowerCase());
+  const hlLower = highlight.toLowerCase();
+  const matchDesc   = !!highlight && skill.description.toLowerCase().includes(hlLower);
+  const matchEffect = !!highlight && effectMatchesQuery(skill.id, hlLower);
+  const hasHighlight = matchDesc || matchEffect;
 
   return (
     <div
@@ -658,9 +704,16 @@ function SkillCard({ skill, highlight = "", onSelect }: { skill: Skill; highligh
         </div>
       </div>
 
+      {/* Effect-match badge */}
+      {matchEffect && !matchDesc && (
+        <span className="inline-flex items-center gap-1 self-start rounded-full border border-violet-700/40 bg-violet-950/30 px-2 py-0.5 text-[10px] font-semibold text-violet-300">
+          ✦ match di efek
+        </span>
+      )}
+
       {/* Description */}
-      <p className={`text-xs text-slate-500 leading-relaxed line-clamp-2`}>
-        {highlightText(skill.description, highlight)}
+      <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">
+        {highlightText(skill.description, matchDesc ? highlight : "")}
       </p>
 
       {/* Stats */}
