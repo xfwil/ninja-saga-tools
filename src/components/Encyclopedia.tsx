@@ -5,6 +5,7 @@ import skillsJson from "../../dump/skills.json";
 import talentsJson from "../../dump/talents.json";
 import senjutsuJson from "../../dump/senjutsu.json";
 import skillEffectsJson from "../../dump/skill-effect.json";
+import gamedataJson from "../../dump/gamedata.json";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -41,6 +42,13 @@ type SkillEffectEntry = {
 type SkillEffectRecord = {
   skill_id: string;
   skill_effect: SkillEffectEntry[];
+};
+
+type GameEffect = {
+  name: string;
+  description: string;
+  category: "offense" | "defense" | "hybrid" | "control";
+  kind: "buff" | "debuff";
 };
 
 type Talent = {
@@ -135,16 +143,17 @@ function groupByBaseId<T extends { id: string }>(items: T[]) {
 // ─── Main Component ───────────────────────────────────────────────────────────
 
 export default function Encyclopedia() {
-  const [activeTab, setActiveTab] = useState<"skills" | "talents" | "senjutsu">("skills");
+  const [activeTab, setActiveTab] = useState<"skills" | "talents" | "senjutsu" | "effects">("skills");
 
   const skills = skillsJson as Skill[];
   const talents = talentsJson as Talent[];
   const senjutsu = senjutsuJson as Senjutsu[];
 
   const tabs = [
-    { key: "skills",   label: "Skills",   count: skills.length,                         icon: "⚔️" },
-    { key: "talents",  label: "Talents",  count: [...groupByBaseId(talents).keys()].length, icon: "💫" },
-    { key: "senjutsu", label: "Senjutsu", count: [...groupByBaseId(senjutsu).keys()].length, icon: "🍃" },
+    { key: "skills",   label: "Skills",   count: skills.length,                                 icon: "⚔️" },
+    { key: "talents",  label: "Talents",  count: [...groupByBaseId(talents).keys()].length,      icon: "💫" },
+    { key: "senjutsu", label: "Senjutsu", count: [...groupByBaseId(senjutsu).keys()].length,     icon: "🍃" },
+    { key: "effects",  label: "Efek",     count: GAME_EFFECTS.length,                           icon: "✨" },
   ] as const;
 
   return (
@@ -176,6 +185,7 @@ export default function Encyclopedia() {
       {activeTab === "skills"   && <SkillsTab   skills={skills} />}
       {activeTab === "talents"  && <TalentsTab  talents={talents} />}
       {activeTab === "senjutsu" && <SenjutsuTab senjutsu={senjutsu} />}
+      {activeTab === "effects"  && <EffectsTab  />}
     </div>
   );
 }
@@ -241,6 +251,42 @@ function effectMatchesQuery(skillId: string, query: string): boolean {
     const key  = (fx.effect ?? "").toLowerCase().replace(/_/g, " ");
     return name.includes(q) || key.includes(q);
   });
+}
+
+// ─── Game Effects (Buffs & Debuffs) ──────────────────────────────────────────
+
+type _GDEntry = { id: string; data: Record<string, unknown> };
+const _gdEnc = (gamedataJson as unknown as _GDEntry[]).find((e) => e.id === "encyclopedia");
+const _effData = _gdEnc?.data?.["effect"] as { buffs: Omit<GameEffect,"kind">[]; debuffs: Omit<GameEffect,"kind">[] } | undefined;
+const _rawBuffs:  Omit<GameEffect,"kind">[] = _effData?.buffs  ?? [];
+const _rawDebuffs: Omit<GameEffect,"kind">[] = _effData?.debuffs ?? [];
+
+const GAME_EFFECTS: GameEffect[] = [
+  ..._rawBuffs.map((e)  => ({ ...e, kind: "buff"   as const })),
+  ..._rawDebuffs.map((e) => ({ ...e, kind: "debuff" as const })),
+];
+
+/** Normalize a string for fuzzy matching (lowercase, collapse spaces/underscores) */
+function normEffect(s: string): string {
+  return s.toLowerCase().replace(/[_\s-]+/g, " ").trim();
+}
+
+/** Pre-built map: normalized effect name → array of skill names */
+const _skillMap = Object.fromEntries((skillsJson as { id: string; name: string }[]).map((s) => [s.id, s.name]));
+
+const EFFECT_SKILLS_MAP: Record<string, string[]> = {};
+for (const eff of GAME_EFFECTS) {
+  const n = normEffect(eff.name);
+  const matching: string[] = [];
+  for (const [skillId, fxList] of Object.entries(SKILL_EFFECTS_MAP)) {
+    const hits = fxList.some((fx) => {
+      const fxName = normEffect(fx.effect_name ?? "");
+      const fxKey  = normEffect(fx.effect ?? "");
+      return fxName === n || fxKey === n || fxName.includes(n) || (n.includes(fxKey) && fxKey.length > 3);
+    });
+    if (hits) matching.push(_skillMap[skillId] ?? skillId);
+  }
+  EFFECT_SKILLS_MAP[eff.name] = matching;
 }
 
 // ─── Skill Detail Modal ───────────────────────────────────────────────────────
@@ -1173,6 +1219,295 @@ function SenjutsuGroupCard({ group }: { group: SenjutsuGroup }) {
         </div>
       )}
     </div>
+  );
+}
+
+// ─── Effects Tab ──────────────────────────────────────────────────────────────
+
+const EFFECT_CATEGORY_MAP = {
+  offense: { label: "Offense",  icon: "⚔️",  badge: "bg-red-900/40 border-red-700/40 text-red-300",         bg: "border-red-900/30 bg-red-950/10" },
+  defense: { label: "Defense",  icon: "🛡️",  badge: "bg-emerald-900/40 border-emerald-700/40 text-emerald-300", bg: "border-emerald-900/30 bg-emerald-950/10" },
+  hybrid:  { label: "Hybrid",   icon: "⚡",  badge: "bg-blue-900/40 border-blue-700/40 text-blue-300",       bg: "border-blue-900/30 bg-blue-950/10" },
+  control: { label: "Control",  icon: "🔒",  badge: "bg-purple-900/40 border-purple-700/40 text-purple-300",  bg: "border-purple-900/30 bg-purple-950/10" },
+} as const;
+
+const EFFECT_KIND_MAP = {
+  buff:   { label: "Buff",   badge: "bg-emerald-950/50 border-emerald-600/40 text-emerald-300" },
+  debuff: { label: "Debuff", badge: "bg-red-950/50 border-red-600/40 text-red-300" },
+} as const;
+
+function EffectsTab() {
+  const [search, setSearch]       = useState("");
+  const [kindFilter, setKind]     = useState<"all" | "buff" | "debuff">("all");
+  const [catFilter,  setCat]      = useState<"all" | "offense" | "defense" | "hybrid" | "control">("all");
+
+  const filtered = useMemo(() => {
+    const q = search.toLowerCase();
+    return GAME_EFFECTS.filter((e) => {
+      if (q && !e.name.toLowerCase().includes(q) && !e.description.toLowerCase().includes(q)) return false;
+      if (kindFilter !== "all" && e.kind !== kindFilter) return false;
+      if (catFilter  !== "all" && e.category !== catFilter) return false;
+      return true;
+    });
+  }, [search, kindFilter, catFilter]);
+
+  return (
+    <div className="space-y-6">
+      {/* Filters */}
+      <div className="flex flex-col gap-3">
+        <input
+          type="text"
+          placeholder="🔎 Cari nama atau deskripsi efek..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
+        />
+
+        {/* Kind filter */}
+        <div className="flex flex-wrap gap-2">
+          {(["all", "buff", "debuff"] as const).map((k) => (
+            <button
+              key={k}
+              onClick={() => setKind(k)}
+              className={`rounded-full px-3 py-1 text-xs font-medium border transition-all ${
+                kindFilter === k
+                  ? "bg-red-600/80 border-red-500 text-white"
+                  : "border-white/10 text-slate-500 hover:text-slate-300 hover:border-white/20"
+              }`}
+            >
+              {k === "all" ? "🗂️ Semua" : k === "buff" ? "✅ Buff" : "❌ Debuff"}
+            </button>
+          ))}
+        </div>
+
+        {/* Category filter */}
+        <div className="flex flex-wrap gap-2">
+          <TypeChip active={catFilter === "all"} onClick={() => setCat("all")}>🗂️ Semua Kategori</TypeChip>
+          {(Object.entries(EFFECT_CATEGORY_MAP) as [keyof typeof EFFECT_CATEGORY_MAP, typeof EFFECT_CATEGORY_MAP[keyof typeof EFFECT_CATEGORY_MAP]][]).map(([key, val]) => (
+            <TypeChip key={key} active={catFilter === key} onClick={() => setCat(key)}>
+              {val.icon} {val.label}
+            </TypeChip>
+          ))}
+        </div>
+
+        <p className="text-xs text-slate-600">
+          Menampilkan {filtered.length} dari {GAME_EFFECTS.length} efek
+          <span className="ml-2 text-slate-700">({_rawBuffs.length} buff · {_rawDebuffs.length} debuff)</span>
+        </p>
+      </div>
+
+      {/* Grid */}
+      {filtered.length === 0 ? (
+        <EmptyState text="Tidak ada efek yang cocok dengan filter." />
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {filtered.map((eff) => (
+            <EffectCard key={eff.name} effect={eff} highlight={search} />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// Pre-built skill lookup by name for the modal
+const SKILL_BY_NAME: Record<string, Skill> = Object.fromEntries(
+  (skillsJson as Skill[]).map((s) => [s.name, s])
+);
+
+function EffectCard({ effect, highlight }: { effect: GameEffect; highlight?: string }) {
+  const [showModal, setShowModal] = useState(false);
+  const catInfo  = EFFECT_CATEGORY_MAP[effect.category] ?? EFFECT_CATEGORY_MAP.hybrid;
+  const kindInfo = EFFECT_KIND_MAP[effect.kind];
+  const skillNames = EFFECT_SKILLS_MAP[effect.name] ?? [];
+
+  return (
+    <>
+      <div className={`group flex flex-col gap-3 rounded-xl border p-4 transition-all ${catInfo.bg}`}>
+        {/* Header */}
+        <div className="flex items-start justify-between gap-2">
+          <div className="flex-1 min-w-0">
+            <div className="flex flex-wrap items-center gap-1.5 mb-1.5">
+              <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${kindInfo.badge}`}>
+                {effect.kind === "buff" ? "✅" : "❌"} {kindInfo.label}
+              </span>
+              <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${catInfo.badge}`}>
+                {catInfo.icon} {catInfo.label}
+              </span>
+            </div>
+            <h3 className="text-sm font-bold text-white leading-snug">
+              {highlightText(effect.name, highlight ?? "")}
+            </h3>
+          </div>
+        </div>
+
+        {/* Description */}
+        <p className="text-xs text-slate-400 leading-relaxed flex-1">
+          {highlightText(effect.description, highlight ?? "")}
+        </p>
+
+        {/* Footer */}
+        <div className="flex items-center justify-between pt-2 border-t border-white/[0.06] gap-2">
+          {skillNames.length > 0 ? (
+            <span className="text-[11px] text-slate-500">
+              <span className="font-bold text-slate-300">{skillNames.length}</span> skill dapat mengaplikasikan
+            </span>
+          ) : (
+            <span className="text-[11px] text-slate-700 italic">Tidak ada skill terdeteksi</span>
+          )}
+          {skillNames.length > 0 && (
+            <button
+              onClick={() => setShowModal(true)}
+              className="shrink-0 flex items-center gap-1 rounded-lg border border-violet-700/40 bg-violet-950/20 px-3 py-1 text-[11px] font-semibold text-violet-300 hover:bg-violet-950/40 hover:border-violet-600/50 transition-all"
+            >
+              Lihat skill →
+            </button>
+          )}
+        </div>
+      </div>
+
+      {showModal && (
+        <EffectSkillsModal
+          effect={effect}
+          skillNames={skillNames}
+          onClose={() => setShowModal(false)}
+        />
+      )}
+    </>
+  );
+}
+
+function EffectSkillsModal({
+  effect,
+  skillNames,
+  onClose,
+}: {
+  effect: GameEffect;
+  skillNames: string[];
+  onClose: () => void;
+}) {
+  const [search, setSearch]       = useState("");
+  const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
+  const catInfo  = EFFECT_CATEGORY_MAP[effect.category] ?? EFFECT_CATEGORY_MAP.hybrid;
+  const kindInfo = EFFECT_KIND_MAP[effect.kind];
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") { if (selectedSkill) setSelectedSkill(null); else onClose(); } };
+    document.addEventListener("keydown", handler);
+    document.body.style.overflow = "hidden";
+    return () => { document.removeEventListener("keydown", handler); document.body.style.overflow = ""; };
+  }, [onClose, selectedSkill]);
+
+  const filtered = useMemo(() => {
+    const q = search.toLowerCase();
+    return skillNames
+      .map((name) => SKILL_BY_NAME[name])
+      .filter((s): s is Skill => !!s)
+      .filter((s) => !q || s.name.toLowerCase().includes(q))
+      .sort((a, b) => a.cooldown - b.cooldown);
+  }, [skillNames, search]);
+
+  return (
+    <>
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
+        <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+        <div
+          className="relative z-10 w-full max-w-xl max-h-[90vh] flex flex-col rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+          onClick={(e) => e.stopPropagation()}
+        >
+          {/* Modal header */}
+          <div className="flex items-start justify-between gap-3 p-5 pb-4 border-b border-white/[0.07]">
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap items-center gap-1.5 mb-1.5">
+                <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${kindInfo.badge}`}>
+                  {effect.kind === "buff" ? "✅" : "❌"} {kindInfo.label}
+                </span>
+                <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${catInfo.badge}`}>
+                  {catInfo.icon} {catInfo.label}
+                </span>
+              </div>
+              <h2 className="text-base font-bold text-white">{effect.name}</h2>
+              <p className="text-xs text-slate-500 mt-1 leading-relaxed">{effect.description}</p>
+            </div>
+            <button
+              onClick={onClose}
+              className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm"
+            >
+              ✕
+            </button>
+          </div>
+
+          {/* Search + count */}
+          <div className="px-5 pt-4 pb-3 border-b border-white/[0.06] space-y-2">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="🔎 Cari skill..."
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-white placeholder:text-slate-600 focus:border-violet-700/60 focus:outline-none focus:ring-1 focus:ring-violet-700/40"
+                autoFocus
+              />
+              {search && (
+                <button onClick={() => setSearch("")} className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-300 text-xs">✕</button>
+              )}
+            </div>
+            <p className="text-[11px] text-slate-600">
+              {filtered.length} dari {skillNames.length} skill · diurutkan berdasarkan CD terpendek
+            </p>
+          </div>
+
+          {/* Skill list */}
+          <div className="flex-1 overflow-y-auto divide-y divide-white/[0.04]">
+            {filtered.length === 0 ? (
+              <div className="py-10 text-center text-slate-600 text-sm">Tidak ada skill yang cocok.</div>
+            ) : (
+              filtered.map((skill) => {
+                const typeInfo = SKILL_TYPE_MAP[skill.type] ?? { icon: "❓", label: "?", badge: "bg-slate-800/40 border-slate-600/40 text-slate-400" };
+                const seasonNum = getSeasonNumber(skill.name);
+                return (
+                  <button
+                    key={skill.id}
+                    onClick={() => setSelectedSkill(skill)}
+                    className="w-full flex items-center gap-3 px-5 py-3 hover:bg-white/[0.04] transition-colors text-left group"
+                  >
+                    {/* Type icon */}
+                    <span className={`shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border text-base ${typeInfo.badge}`}>
+                      {typeInfo.icon}
+                    </span>
+
+                    {/* Name + badges */}
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-semibold text-white truncate leading-snug">
+                        {skill.name}
+                        {seasonNum !== null && (
+                          <span className="ml-1.5 text-[10px] text-rose-400 font-bold">S{seasonNum}</span>
+                        )}
+                        {skill.premium && <span className="ml-1 text-[10px] text-amber-400">💎</span>}
+                      </p>
+                      <div className="flex items-center gap-2 mt-0.5 text-[11px]">
+                        {skill.damage > 0 && <span className="text-orange-400">DMG {skill.damage}%</span>}
+                        <span className="text-blue-400">CP {skill.cp_cost}</span>
+                        <span className="text-slate-500">CD {skill.cooldown}t</span>
+                        <span className="text-slate-600">{skill.target}</span>
+                      </div>
+                    </div>
+
+                    {/* Arrow */}
+                    <span className="shrink-0 text-slate-700 group-hover:text-slate-400 transition-colors text-xs">→</span>
+                  </button>
+                );
+              })
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Nested skill detail modal */}
+      {selectedSkill && (
+        <SkillModal skill={selectedSkill} onClose={() => setSelectedSkill(null)} />
+      )}
+    </>
   );
 }
 
