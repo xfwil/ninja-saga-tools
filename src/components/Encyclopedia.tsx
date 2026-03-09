@@ -6,6 +6,9 @@ import talentsJson from "../../dump/talents.json";
 import senjutsuJson from "../../dump/senjutsu.json";
 import skillEffectsJson from "../../dump/skill-effect.json";
 import gamedataJson from "../../dump/gamedata.json";
+import libraryJson from "../../dump/library.json";
+import weaponEffectJson from "../../dump/weapon-effect.json";
+import backEffectJson from "../../dump/back_item-effect.json";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -50,6 +53,47 @@ type GameEffect = {
   category: "offense" | "defense" | "hybrid" | "control";
   kind: "buff" | "debuff";
 };
+
+type LibItem = {
+  id: string;
+  name: string;
+  type: string;
+  category: string;
+  description: string;
+  level: number;
+  damage: number;
+  price_gold: number;
+  price_tokens: number;
+  price_prestige: number;
+  price_merit?: number;
+  premium: boolean;
+  buyable: boolean;
+  buyable_clan?: boolean;
+  sellable?: boolean;
+};
+
+type ItemEffect = {
+  passive?: boolean;
+  type?: string;
+  target?: string;
+  effect?: string;
+  effect_name?: string;
+  duration?: number;
+  calc_type?: string;
+  amount?: number;
+  chance?: number;
+};
+
+type SeasonGroup = {
+  season: number;
+  weapons:     LibItem[];
+  backs:       LibItem[];
+  costumes:    { baseId: string; name: string; variants: LibItem[] }[];
+  hairs:       { baseId: string; name: string; variants: LibItem[] }[];
+  accessories: LibItem[];
+};
+
+type SeasonalCategory = "clan" | "crew" | "shadowwar";
 
 type Talent = {
   id: string;
@@ -123,6 +167,51 @@ const SENJUTSU_TYPE_MAP: Record<string, { label: string; icon: string; chip: str
 
 const PAGE_SIZE = 24;
 
+// ─── Seasonal Rewards Data ────────────────────────────────────────────────────
+
+const _libItems = libraryJson as LibItem[];
+const _wfxMap: Record<string, ItemEffect[]> = Object.fromEntries(
+  (weaponEffectJson as { id: string; effects?: ItemEffect[] }[]).map((e) => [e.id, e.effects ?? []])
+);
+const _bfxMap: Record<string, ItemEffect[]> = Object.fromEntries(
+  (backEffectJson as { id: string; effects?: ItemEffect[] }[]).map((e) => [e.id, e.effects ?? []])
+);
+
+function _parseSeasonNum(name: string): number | null {
+  const m = name.match(/^S(\d+)\s+(Clan|Crew|Shadow War)/i);
+  return m ? parseInt(m[1], 10) : null;
+}
+
+function _buildSeasonMap(cat: SeasonalCategory): Map<number, SeasonGroup> {
+  const items = _libItems.filter((i) => i.category === cat);
+  const map = new Map<number, SeasonGroup>();
+  for (const item of items) {
+    const s = _parseSeasonNum(item.name);
+    if (s === null) continue;
+    if (!map.has(s)) map.set(s, { season: s, weapons: [], backs: [], costumes: [], hairs: [], accessories: [] });
+    const g = map.get(s)!;
+    if (item.type === "wpn")       g.weapons.push(item);
+    else if (item.type === "back") g.backs.push(item);
+    else if (item.type === "accessory") g.accessories.push(item);
+    else if (item.type === "set" || item.type === "hair") {
+      // group by base id (remove _0, _1 suffix)
+      const baseId = item.id.replace(/_\d+$/, "");
+      const baseName = item.name.replace(/\s+\(?(male|female|m|f)\)?$/i, "").trim();
+      const arr = item.type === "set" ? g.costumes : g.hairs;
+      const existing = arr.find((x) => x.baseId === baseId);
+      if (existing) existing.variants.push(item);
+      else arr.push({ baseId, name: baseName, variants: [item] });
+    }
+  }
+  return new Map([...map.entries()].sort((a, b) => a[0] - b[0]));
+}
+
+const SEASONAL_MAPS: Record<SeasonalCategory, Map<number, SeasonGroup>> = {
+  clan:      _buildSeasonMap("clan"),
+  crew:      _buildSeasonMap("crew"),
+  shadowwar: _buildSeasonMap("shadowwar"),
+};
+
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
 function parseLevelFromId(id: string): number {
@@ -143,17 +232,20 @@ function groupByBaseId<T extends { id: string }>(items: T[]) {
 // ─── Main Component ───────────────────────────────────────────────────────────
 
 export default function Encyclopedia() {
-  const [activeTab, setActiveTab] = useState<"skills" | "talents" | "senjutsu" | "effects">("skills");
+  const [activeTab, setActiveTab] = useState<"skills" | "talents" | "senjutsu" | "effects" | "seasonal">("skills");
 
   const skills = skillsJson as Skill[];
   const talents = talentsJson as Talent[];
   const senjutsu = senjutsuJson as Senjutsu[];
+
+  const totalSeasonal = SEASONAL_MAPS.clan.size + SEASONAL_MAPS.crew.size + SEASONAL_MAPS.shadowwar.size;
 
   const tabs = [
     { key: "skills",   label: "Skills",   count: skills.length,                                 icon: "⚔️" },
     { key: "talents",  label: "Talents",  count: [...groupByBaseId(talents).keys()].length,      icon: "💫" },
     { key: "senjutsu", label: "Senjutsu", count: [...groupByBaseId(senjutsu).keys()].length,     icon: "🍃" },
     { key: "effects",  label: "Efek",     count: GAME_EFFECTS.length,                           icon: "✨" },
+    { key: "seasonal", label: "Seasonal", count: totalSeasonal,                                  icon: "🏆" },
   ] as const;
 
   return (
@@ -186,6 +278,7 @@ export default function Encyclopedia() {
       {activeTab === "talents"  && <TalentsTab  talents={talents} />}
       {activeTab === "senjutsu" && <SenjutsuTab senjutsu={senjutsu} />}
       {activeTab === "effects"  && <EffectsTab  />}
+      {activeTab === "seasonal" && <SeasonalTab />}
     </div>
   );
 }
@@ -1218,6 +1311,268 @@ function SenjutsuGroupCard({ group }: { group: SenjutsuGroup }) {
           ))}
         </div>
       )}
+    </div>
+  );
+}
+
+// ─── Seasonal Tab ─────────────────────────────────────────────────────────────
+
+const SEASONAL_CAT_CONFIG: Record<SeasonalCategory, { label: string; icon: string; color: string; badge: string; border: string }> = {
+  clan:      { label: "Clan",       icon: "🏯", color: "text-amber-300",  badge: "bg-amber-900/40 border-amber-700/40 text-amber-300",    border: "border-amber-900/30 bg-amber-950/10" },
+  crew:      { label: "Crew",       icon: "⚓", color: "text-cyan-300",   badge: "bg-cyan-900/40 border-cyan-700/40 text-cyan-300",       border: "border-cyan-900/30 bg-cyan-950/10" },
+  shadowwar: { label: "Shadow War", icon: "⚔️", color: "text-red-300",    badge: "bg-red-900/40 border-red-700/40 text-red-300",          border: "border-red-900/30 bg-red-950/10" },
+};
+
+const ITEM_TYPE_CONFIG: Record<string, { label: string; icon: string; badge: string }> = {
+  wpn:       { label: "Weapon",    icon: "🗡️",  badge: "bg-orange-900/40 border-orange-700/40 text-orange-300" },
+  back:      { label: "Back Item", icon: "🎒",  badge: "bg-violet-900/40 border-violet-700/40 text-violet-300" },
+  set:       { label: "Kostum",    icon: "👘",  badge: "bg-pink-900/40 border-pink-700/40 text-pink-300" },
+  hair:      { label: "Rambut",    icon: "💇",  badge: "bg-teal-900/40 border-teal-700/40 text-teal-300" },
+  accessory: { label: "Aksesori",  icon: "💍",  badge: "bg-yellow-900/40 border-yellow-700/40 text-yellow-300" },
+};
+
+function SeasonalTab() {
+  const [cat, setCat] = useState<SeasonalCategory>("clan");
+  const [season, setSeason] = useState<number>(0);
+
+  const seasonMap = SEASONAL_MAPS[cat];
+  const seasons   = useMemo(() => [...seasonMap.keys()], [seasonMap]);
+
+  // Keep selected season in range when switching category
+  const validSeason = seasons.includes(season) ? season : (seasons[0] ?? 0);
+  const group = seasonMap.get(validSeason);
+
+  const cfg = SEASONAL_CAT_CONFIG[cat];
+
+  return (
+    <div className="space-y-6">
+      {/* Category sub-tabs */}
+      <div className="flex gap-1 rounded-xl border border-white/10 bg-white/[0.03] p-1">
+        {(Object.entries(SEASONAL_CAT_CONFIG) as [SeasonalCategory, typeof SEASONAL_CAT_CONFIG[SeasonalCategory]][]).map(([key, val]) => (
+          <button
+            key={key}
+            onClick={() => { setCat(key); setSeason(SEASONAL_MAPS[key].keys().next().value ?? 0); }}
+            className={`flex-1 flex items-center justify-center gap-1.5 rounded-lg px-2 py-2.5 text-xs sm:text-sm font-semibold transition-all ${
+              cat === key
+                ? "bg-red-600/80 text-white shadow-lg shadow-red-900/30"
+                : "text-slate-400 hover:text-white hover:bg-white/5"
+            }`}
+          >
+            <span>{val.icon}</span>
+            <span>{val.label}</span>
+            <span className={`hidden sm:inline-flex rounded-full px-2 py-0.5 text-[10px] font-bold ${cat === key ? "bg-white/20 text-white" : "bg-white/5 text-slate-500"}`}>
+              S{seasons[0]}–S{seasons[seasons.length - 1]}
+            </span>
+          </button>
+        ))}
+      </div>
+
+      {/* Season selector */}
+      <div className={`rounded-xl border p-3 ${cfg.border}`}>
+        <p className={`text-[11px] font-semibold mb-2 uppercase tracking-wider ${cfg.color} opacity-70`}>
+          {cfg.icon} {cfg.label} — pilih season
+        </p>
+        <div className="flex gap-1.5 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [-webkit-overflow-scrolling:touch]">
+          {seasons.map((s) => (
+            <button
+              key={s}
+              onClick={() => setSeason(s)}
+              className={`shrink-0 rounded-md px-2.5 py-1 text-xs font-bold border transition-all ${
+                validSeason === s
+                  ? "bg-red-600 border-red-500 text-white"
+                  : "border-white/10 text-slate-500 hover:text-slate-300 hover:border-white/20"
+              }`}
+            >
+              S{s}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Season content */}
+      {group ? (
+        <SeasonDetail group={group} cat={cat} />
+      ) : (
+        <EmptyState text="Season tidak ditemukan." />
+      )}
+    </div>
+  );
+}
+
+function SeasonDetail({ group, cat }: { group: SeasonGroup; cat: SeasonalCategory }) {
+  const cfg = SEASONAL_CAT_CONFIG[cat];
+
+  return (
+    <div className="space-y-6">
+      {/* Season header */}
+      <div className="flex items-center gap-3">
+        <span className={`text-2xl`}>{cfg.icon}</span>
+        <div>
+          <h2 className={`text-lg font-bold ${cfg.color}`}>Season {group.season}</h2>
+          <p className="text-xs text-slate-600">{cfg.label} Reward</p>
+        </div>
+      </div>
+
+      {/* Weapons */}
+      {group.weapons.length > 0 && (
+        <SeasonSection title="Weapon" icon="🗡️" count={group.weapons.length}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {group.weapons.map((item) => (
+              <SeasonItemCard key={item.id} item={item} effects={_wfxMap[item.id] ?? []} />
+            ))}
+          </div>
+        </SeasonSection>
+      )}
+
+      {/* Back Items */}
+      {group.backs.length > 0 && (
+        <SeasonSection title="Back Item" icon="🎒" count={group.backs.length}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {group.backs.map((item) => (
+              <SeasonItemCard key={item.id} item={item} effects={_bfxMap[item.id] ?? []} />
+            ))}
+          </div>
+        </SeasonSection>
+      )}
+
+      {/* Accessories */}
+      {group.accessories.length > 0 && (
+        <SeasonSection title="Aksesori" icon="💍" count={group.accessories.length}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {group.accessories.map((item) => (
+              <SeasonItemCard key={item.id} item={item} effects={[]} />
+            ))}
+          </div>
+        </SeasonSection>
+      )}
+
+      {/* Costumes */}
+      {group.costumes.length > 0 && (
+        <SeasonSection title="Kostum" icon="👘" count={group.costumes.length}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {group.costumes.map((c) => (
+              <SeasonCostumeCard key={c.baseId} name={c.name} variants={c.variants} type="set" />
+            ))}
+          </div>
+        </SeasonSection>
+      )}
+
+      {/* Hairs */}
+      {group.hairs.length > 0 && (
+        <SeasonSection title="Hairstyle" icon="💇" count={group.hairs.length}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {group.hairs.map((h) => (
+              <SeasonCostumeCard key={h.baseId} name={h.name} variants={h.variants} type="hair" />
+            ))}
+          </div>
+        </SeasonSection>
+      )}
+    </div>
+  );
+}
+
+function SeasonSection({ title, icon, count, children }: { title: string; icon: string; count: number; children: React.ReactNode }) {
+  return (
+    <div>
+      <div className="flex items-center gap-2 mb-3">
+        <span>{icon}</span>
+        <h3 className="text-sm font-bold text-white">{title}</h3>
+        <span className="text-[11px] text-slate-600 bg-white/5 border border-white/10 rounded-full px-2 py-0.5">{count}</span>
+      </div>
+      {children}
+    </div>
+  );
+}
+
+function SeasonItemCard({ item, effects }: { item: LibItem; effects: ItemEffect[] }) {
+  const [expanded, setExpanded] = useState(false);
+
+  const formatFx = (fx: ItemEffect) => {
+    const name = fx.effect_name ?? fx.effect ?? "—";
+    const parts: string[] = [];
+    if (fx.target) parts.push(fx.target === "enemy" ? "Musuh" : fx.target === "self" ? "Diri" : fx.target);
+    if (fx.amount != null && fx.amount > 0) parts.push(fx.calc_type === "percent" ? `${fx.amount}%` : `+${fx.amount}`);
+    if (fx.chance != null && fx.chance < 100) parts.push(`${fx.chance}% chance`);
+    if (fx.duration != null && fx.duration > 0) parts.push(`${fx.duration}t`);
+    return { name, detail: parts.join(" · "), isDebuff: fx.type === "Debuff" };
+  };
+
+  return (
+    <div className="flex flex-col gap-3 rounded-xl border border-white/[0.07] bg-white/[0.025] p-4">
+      {/* Name + type */}
+      <div className="flex items-start gap-2">
+        <div className="flex-1 min-w-0">
+          <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold mb-1.5 ${ITEM_TYPE_CONFIG[item.type]?.badge ?? ""}`}>
+            {ITEM_TYPE_CONFIG[item.type]?.icon} {ITEM_TYPE_CONFIG[item.type]?.label}
+          </span>
+          <h4 className="text-sm font-bold text-white leading-snug">{item.name}</h4>
+        </div>
+        {item.damage > 0 && (
+          <span className="shrink-0 text-[11px] font-bold text-orange-400 bg-orange-950/20 border border-orange-800/30 rounded-md px-2 py-0.5">
+            {item.damage} DMG
+          </span>
+        )}
+      </div>
+
+      {/* Description */}
+      <p className="text-xs text-slate-500 leading-relaxed">{item.description}</p>
+
+      {/* Effects */}
+      {effects.length > 0 && (
+        <div>
+          <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-1.5">Efek Pasif</p>
+          <div className="flex flex-col gap-1.5">
+            {(expanded ? effects : effects.slice(0, 3)).map((fx, i) => {
+              const { name, detail, isDebuff } = formatFx(fx);
+              return (
+                <div key={i} className={`flex items-center justify-between gap-2 rounded-md border px-2.5 py-1.5 text-xs ${
+                  isDebuff ? "bg-red-950/30 border-red-800/30 text-red-300" : "bg-emerald-950/30 border-emerald-800/30 text-emerald-300"
+                }`}>
+                  <span className="font-medium truncate">{name}</span>
+                  {detail && <span className="shrink-0 text-[11px] opacity-70">{detail}</span>}
+                </div>
+              );
+            })}
+            {effects.length > 3 && (
+              <button
+                onClick={() => setExpanded(p => !p)}
+                className="text-[10px] text-violet-400 hover:text-violet-300 transition-colors text-left"
+              >
+                {expanded ? "Sembunyikan" : `+${effects.length - 3} efek lainnya`}
+              </button>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Level */}
+      {item.level > 1 && (
+        <p className="text-[10px] text-slate-700">Req. Lv. {item.level}</p>
+      )}
+    </div>
+  );
+}
+
+function SeasonCostumeCard({ name, variants, type }: { name: string; variants: LibItem[]; type: string }) {
+  const typeCfg = ITEM_TYPE_CONFIG[type] ?? ITEM_TYPE_CONFIG.set;
+  return (
+    <div className="flex flex-col gap-2 rounded-xl border border-white/[0.07] bg-white/[0.025] p-4">
+      <div className="flex items-start gap-2">
+        <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${typeCfg.badge}`}>
+          {typeCfg.icon} {typeCfg.label}
+        </span>
+      </div>
+      <h4 className="text-sm font-bold text-white leading-snug">{name}</h4>
+      {variants[0]?.description && (
+        <p className="text-xs text-slate-500 leading-relaxed">{variants[0].description}</p>
+      )}
+      <div className="flex gap-1 flex-wrap">
+        {variants.map((v, i) => (
+          <span key={v.id} className="text-[10px] px-2 py-0.5 rounded border border-white/[0.08] bg-white/[0.04] text-slate-500">
+            {i === 0 ? "♂ Male" : "♀ Female"}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }
