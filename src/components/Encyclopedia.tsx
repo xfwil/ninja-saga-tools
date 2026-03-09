@@ -1237,9 +1237,10 @@ const EFFECT_KIND_MAP = {
 } as const;
 
 function EffectsTab() {
-  const [search, setSearch]       = useState("");
-  const [kindFilter, setKind]     = useState<"all" | "buff" | "debuff">("all");
-  const [catFilter,  setCat]      = useState<"all" | "offense" | "defense" | "hybrid" | "control">("all");
+  const [search, setSearch]   = useState("");
+  const [kindFilter, setKind] = useState<"all" | "buff" | "debuff">("all");
+  const [catFilter,  setCat]  = useState<"all" | "offense" | "defense" | "hybrid" | "control">("all");
+  const [viewMode, setView]   = useState<ViewMode>("grid");
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -1290,19 +1291,50 @@ function EffectsTab() {
           ))}
         </div>
 
-        <p className="text-xs text-slate-600">
-          Menampilkan {filtered.length} dari {GAME_EFFECTS.length} efek
-          <span className="ml-2 text-slate-700">({_rawBuffs.length} buff · {_rawDebuffs.length} debuff)</span>
-        </p>
+        {/* Result count + view toggle */}
+        <div className="flex items-center justify-between gap-2">
+          <p className="text-xs text-slate-600">
+            Menampilkan {filtered.length} dari {GAME_EFFECTS.length} efek
+            <span className="ml-2 text-slate-700">({_rawBuffs.length} buff · {_rawDebuffs.length} debuff)</span>
+          </p>
+          <div className="flex items-center gap-1 rounded-lg border border-white/10 bg-white/[0.03] p-1">
+            {(["grid", "list", "compact"] as ViewMode[]).map((mode) => (
+              <button
+                key={mode}
+                onClick={() => setView(mode)}
+                title={mode === "grid" ? "Grid" : mode === "list" ? "List" : "Compact"}
+                className={`rounded-md px-2 py-1 text-[11px] font-medium transition-all flex items-center gap-1 ${
+                  viewMode === mode ? "bg-red-600/80 text-white" : "text-slate-500 hover:text-slate-300"
+                }`}
+              >
+                {mode === "grid"    && <><GridIcon /><span className="hidden sm:inline">Grid</span></>}
+                {mode === "list"    && <><ListIcon /><span className="hidden sm:inline">List</span></>}
+                {mode === "compact" && <><CompactIcon /><span className="hidden sm:inline">Compact</span></>}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
 
-      {/* Grid */}
+      {/* Content */}
       {filtered.length === 0 ? (
         <EmptyState text="Tidak ada efek yang cocok dengan filter." />
-      ) : (
+      ) : viewMode === "grid" ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {filtered.map((eff) => (
             <EffectCard key={eff.name} effect={eff} highlight={search} />
+          ))}
+        </div>
+      ) : viewMode === "list" ? (
+        <div className="flex flex-col gap-2">
+          {filtered.map((eff) => (
+            <EffectRow key={eff.name} effect={eff} highlight={search} />
+          ))}
+        </div>
+      ) : (
+        <div className="flex flex-col divide-y divide-white/[0.04] rounded-xl border border-white/[0.07] overflow-hidden">
+          {filtered.map((eff) => (
+            <EffectCompactRow key={eff.name} effect={eff} highlight={search} />
           ))}
         </div>
       )}
@@ -1372,6 +1404,115 @@ function EffectCard({ effect, highlight }: { effect: GameEffect; highlight?: str
           skillNames={skillNames}
           onClose={() => setShowModal(false)}
         />
+      )}
+    </>
+  );
+}
+
+// ─── Effect List Row ──────────────────────────────────────────────────────────
+
+function EffectRow({ effect, highlight }: { effect: GameEffect; highlight?: string }) {
+  const [showModal, setShowModal] = useState(false);
+  const catInfo  = EFFECT_CATEGORY_MAP[effect.category] ?? EFFECT_CATEGORY_MAP.hybrid;
+  const kindInfo = EFFECT_KIND_MAP[effect.kind];
+  const skillNames = EFFECT_SKILLS_MAP[effect.name] ?? [];
+
+  return (
+    <>
+      <div className={`group flex items-start gap-3 rounded-xl border px-4 py-3 transition-all ${catInfo.bg}`}>
+        {/* Kind icon */}
+        <span className={`shrink-0 mt-0.5 w-8 h-8 flex items-center justify-center rounded-lg border text-sm ${kindInfo.badge}`}>
+          {effect.kind === "buff" ? "✅" : "❌"}
+        </span>
+
+        {/* Main */}
+        <div className="flex-1 min-w-0">
+          <div className="flex flex-wrap items-center gap-1.5 mb-1">
+            <span className={`text-[10px] font-bold border rounded-full px-1.5 py-0.5 ${kindInfo.badge}`}>{kindInfo.label}</span>
+            <span className={`text-[10px] font-bold border rounded-full px-1.5 py-0.5 ${catInfo.badge}`}>{catInfo.icon} {catInfo.label}</span>
+          </div>
+          <p className="text-sm font-semibold text-white leading-snug mb-1">
+            {highlightText(effect.name, highlight ?? "")}
+          </p>
+          <p className="text-[11px] text-slate-500 line-clamp-1 leading-relaxed">
+            {highlightText(effect.description, highlight ?? "")}
+          </p>
+        </div>
+
+        {/* Right side */}
+        <div className="shrink-0 flex flex-col items-end gap-1.5">
+          {skillNames.length > 0 && (
+            <>
+              <span className="text-[11px] text-slate-500">
+                <span className="font-bold text-slate-300">{skillNames.length}</span> skill
+              </span>
+              <button
+                onClick={() => setShowModal(true)}
+                className="text-[11px] font-semibold text-violet-400 border border-violet-700/40 bg-violet-950/20 rounded-lg px-2.5 py-1 hover:bg-violet-950/40 transition-all"
+              >
+                Lihat →
+              </button>
+            </>
+          )}
+          {skillNames.length === 0 && (
+            <span className="text-[10px] text-slate-700 italic">—</span>
+          )}
+        </div>
+      </div>
+
+      {showModal && (
+        <EffectSkillsModal effect={effect} skillNames={skillNames} onClose={() => setShowModal(false)} />
+      )}
+    </>
+  );
+}
+
+// ─── Effect Compact Row ───────────────────────────────────────────────────────
+
+function EffectCompactRow({ effect, highlight }: { effect: GameEffect; highlight?: string }) {
+  const [showModal, setShowModal] = useState(false);
+  const catInfo  = EFFECT_CATEGORY_MAP[effect.category] ?? EFFECT_CATEGORY_MAP.hybrid;
+  const kindInfo = EFFECT_KIND_MAP[effect.kind];
+  const skillNames = EFFECT_SKILLS_MAP[effect.name] ?? [];
+
+  return (
+    <>
+      <div className="group flex items-center gap-2 px-3 py-2 hover:bg-white/[0.03] transition-all">
+        {/* Kind icon */}
+        <span className="shrink-0 text-sm w-5 text-center" title={kindInfo.label}>
+          {effect.kind === "buff" ? "✅" : "❌"}
+        </span>
+
+        {/* Category icon */}
+        <span className={`shrink-0 text-sm w-5 text-center`} title={catInfo.label}>
+          {catInfo.icon}
+        </span>
+
+        {/* Name */}
+        <p className="flex-1 min-w-0 text-xs font-medium text-slate-200 truncate">
+          {highlightText(effect.name, highlight ?? "")}
+        </p>
+
+        {/* Skill count + button */}
+        <div className="shrink-0 flex items-center gap-2">
+          {skillNames.length > 0 ? (
+            <>
+              <span className="text-[11px] text-slate-600 hidden sm:inline">{skillNames.length} skill</span>
+              <button
+                onClick={() => setShowModal(true)}
+                className="text-[10px] font-semibold text-violet-400 border border-violet-700/40 bg-violet-950/20 rounded px-2 py-0.5 hover:bg-violet-950/40 transition-all"
+              >
+                Lihat →
+              </button>
+            </>
+          ) : (
+            <span className="text-[10px] text-slate-700">—</span>
+          )}
+        </div>
+      </div>
+
+      {showModal && (
+        <EffectSkillsModal effect={effect} skillNames={skillNames} onClose={() => setShowModal(false)} />
       )}
     </>
   );
