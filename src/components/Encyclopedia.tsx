@@ -593,6 +593,8 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
   const [typeFilter, setTypeFilter] = useState("all");
   const [seasonFilter, setSeasonFilter] = useState<number | "all">("all");
   const [premFilter, setPremFilter] = useState<"all" | "premium" | "free">("all");
+  const [cpMin, setCpMin] = useState<number | "">("");
+  const [cpMax, setCpMax] = useState<number | "">("");
   const [page, setPage] = useState(1);
   const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
@@ -614,6 +616,8 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
   const filtered = useMemo(() => {
     const nq = nameSearch.toLowerCase();
     const eq = effectSearch.toLowerCase();
+    const minCp = cpMin !== "" ? cpMin : null;
+    const maxCp = cpMax !== "" ? cpMax : null;
     return skills.filter((s) => {
       if (nq && !s.name.toLowerCase().includes(nq)) return false;
       if (eq) {
@@ -629,9 +633,11 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
       }
       if (premFilter === "premium" && !s.premium) return false;
       if (premFilter === "free" && s.premium) return false;
+      if (minCp !== null && s.cp_cost < minCp) return false;
+      if (maxCp !== null && s.cp_cost > maxCp) return false;
       return true;
     });
-  }, [skills, nameSearch, effectSearch, typeFilter, isSeasonal_filter, seasonFilter, premFilter]);
+  }, [skills, nameSearch, effectSearch, typeFilter, isSeasonal_filter, seasonFilter, premFilter, cpMin, cpMax]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const paginated  = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
@@ -645,6 +651,9 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
   function handleType(v: string)   { setTypeFilter(v); setSeasonFilter("all"); resetPage(); }
   function handlePrem(v: typeof premFilter) { setPremFilter(v); resetPage(); }
   function handleSeason(v: number | "all") { setSeasonFilter(v); resetPage(); }
+  function handleCpPreset(min: number | "", max: number | "") { setCpMin(min); setCpMax(max); resetPage(); }
+  function clearCp() { setCpMin(""); setCpMax(""); resetPage(); }
+  const cpActive = cpMin !== "" || cpMax !== "";
 
   return (
     <div className="space-y-6">
@@ -772,6 +781,73 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
               {v === "all" ? "Semua" : v === "free" ? "G Gratis" : "💎 Premium"}
             </button>
           ))}
+        </div>
+
+        {/* CP Cost filter */}
+        <div className={`rounded-xl border p-3 transition-colors ${cpActive ? "border-cyan-800/50 bg-cyan-950/10" : "border-white/[0.06] bg-white/[0.02]"}`}>
+          <div className="flex items-center justify-between mb-2.5">
+            <p className={`text-[10px] font-semibold uppercase tracking-wider ${cpActive ? "text-cyan-400" : "text-slate-600"}`}>
+              💧 Filter CP Cost
+            </p>
+            {cpActive && (
+              <button onClick={clearCp} className="text-[10px] text-slate-500 hover:text-red-400 transition-colors">
+                ✕ Reset
+              </button>
+            )}
+          </div>
+          {/* Preset chips */}
+          <div className="flex flex-wrap gap-1.5 mb-2.5">
+            {([
+              { label: "Gratis (0)",    min: 0,   max: 0   },
+              { label: "≤ 100",         min: "",  max: 100  },
+              { label: "≤ 200",         min: "",  max: 200  },
+              { label: "200 – 400",     min: 200, max: 400  },
+              { label: "400 – 600",     min: 400, max: 600  },
+              { label: "600+",          min: 600, max: ""   },
+            ] as { label: string; min: number | ""; max: number | "" }[]).map(({ label, min, max }) => {
+              const isActive = cpMin === min && cpMax === max;
+              return (
+                <button
+                  key={label}
+                  onClick={() => isActive ? clearCp() : handleCpPreset(min, max)}
+                  className={`rounded-full px-2.5 py-0.5 text-[11px] font-medium border transition-all ${
+                    isActive
+                      ? "bg-cyan-600 border-cyan-500 text-white"
+                      : "border-white/10 text-slate-500 hover:text-cyan-300 hover:border-cyan-700/50"
+                  }`}
+                >
+                  {label}
+                </button>
+              );
+            })}
+          </div>
+          {/* Manual min/max inputs */}
+          <div className="flex items-center gap-2">
+            <input
+              type="number"
+              min={0}
+              placeholder="Min CP"
+              value={cpMin}
+              onChange={(e) => { setCpMin(e.target.value === "" ? "" : Math.max(0, parseInt(e.target.value))); resetPage(); }}
+              className="w-24 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs text-white placeholder:text-slate-600 focus:border-cyan-700/60 focus:outline-none focus:ring-1 focus:ring-cyan-700/30 [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+            />
+            <span className="text-slate-600 text-xs">—</span>
+            <input
+              type="number"
+              min={0}
+              placeholder="Max CP"
+              value={cpMax}
+              onChange={(e) => { setCpMax(e.target.value === "" ? "" : Math.max(0, parseInt(e.target.value))); resetPage(); }}
+              className="w-24 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-1.5 text-xs text-white placeholder:text-slate-600 focus:border-cyan-700/60 focus:outline-none focus:ring-1 focus:ring-cyan-700/30 [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+            />
+            {cpActive && (
+              <span className="text-[11px] text-cyan-400 ml-1">
+                {cpMin !== "" && cpMax !== "" ? `${cpMin}–${cpMax} CP`
+                  : cpMin !== "" ? `≥ ${cpMin} CP`
+                  : `≤ ${cpMax} CP`}
+              </span>
+            )}
+          </div>
         </div>
 
         {/* Result count + view toggle */}
