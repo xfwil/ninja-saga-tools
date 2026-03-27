@@ -9,18 +9,21 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # needed to commit & push updated data
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
+  # ── Job 1: Download data, diff, commit if changed ──────────────────────────
   update:
     runs-on: ubuntu-latest
+    outputs:
+      has_changes: ${{ steps.changes.outputs.has_changes }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Use default GITHUB_TOKEN so the resulting push
-          # triggers the nextjs.yml deploy workflow
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
@@ -32,44 +35,45 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # ── Step 1: Download latest game data ──────────────────────────
-      - name: Download game data from server
-        id: dump
-        run: |
-          node dump-game-data.mjs
-          echo "exit_code=$?" >> $GITHUB_OUTPUT
+      - name: Download latest game data from server
+        run: node dump-game-data.mjs
 
-      # ── Step 2: Run changelog sync ─────────────────────────────────
       - name: Run changelog sync
         run: node scripts/sync-dump.js
 
-      # ── Step 3: Detect if anything changed ────────────────────────
       - name: Check for changes
         id: changes
         run: |
           git add dump/ data/snapshot.json public/data/
           if git diff --cached --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "No changes detected — skipping commit."
+            echo "⏭  No changes — skipping commit."
           else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            # Count changed files for commit message
             CHANGED=$(git diff --cached --name-only | wc -l | tr -d ' ')
-            echo "changed_count=$CHANGED" >> $GITHUB_OUTPUT
-            echo "Changes detected in $CHANGED file(s)."
+            SYNC_CHANGES=$(node -e "
+              const fs = require('fs');
+              try {
+                const syncs = JSON.parse(fs.readFileSync('public/data/syncs.json','utf8'));
+                const latest = syncs[0];
+                process.stdout.write(latest ? String(latest.changes) : '0');
+              } catch { process.stdout.write('0'); }
+            ")
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "changed_files=$CHANGED" >> $GITHUB_OUTPUT
+            echo "sync_changes=$SYNC_CHANGES" >> $GITHUB_OUTPUT
+            echo "✅  $CHANGED file(s) changed, $SYNC_CHANGES game data change(s) detected."
           fi
 
-      # ── Step 4: Commit & push if changes exist ─────────────────────
       - name: Commit and push updated data
         if: steps.changes.outputs.has_changes == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore(data): auto-update game data [$(date -u +%Y-%m-%d)]
-
-          - Downloaded latest .bin assets from game server
-          - Synced changelog: $(cat public/data/syncs.json | node -e "
-              const d=JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
-              const s=d[0]; if(s) process.stdout.write(s.changes+' change(s) detected');
-            " 2>/dev/null || echo 'see public/data/syncs.json')"
+          git commit -m "chore(data): auto-update $(date -u +%Y-%m-%d) — ${{ steps.changes.outputs.sync_changes }} game change(s)"
           git push
+
+  # ── Job 2: Rebuild & redeploy site only if data changed ────────────────────
+  deploy:
+    needs: update
+    if: needs.update.outputs.has_changes == 'true'
+    uses: ./.github/workflows/nextjs.yml
