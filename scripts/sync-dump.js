@@ -109,13 +109,17 @@ function sync() {
   const backEffects       = readDump("back_item-effect.json");
   const accessoryEffects  = readDump("accessory-effect.json");
 
+  // Build name lookup maps for effect entities
+  const skillNameMap    = Object.fromEntries(skills.map((s) => [s.id, s.name]));
+  const libraryNameMap  = Object.fromEntries(library.map((i) => [i.id, i.name]));
+
   const allEntities = [
     ...buildEntities(skills,           "skill",            (x) => x.id,       (x) => x.name),
     ...buildEntities(library,          "library",          (x) => x.id,       (x) => x.name),
-    ...buildEntities(skillEffects,     "skill_effect",     (x) => x.skill_id, (x) => x.skill_id),
-    ...buildEntities(weaponEffects,    "weapon_effect",    (x) => x.id,       (x) => x.id),
-    ...buildEntities(backEffects,      "back_effect",      (x) => x.id,       (x) => x.id),
-    ...buildEntities(accessoryEffects, "accessory_effect", (x) => x.id,       (x) => x.id),
+    ...buildEntities(skillEffects,     "skill_effect",     (x) => x.skill_id, (x) => skillNameMap[x.skill_id] ?? x.skill_id),
+    ...buildEntities(weaponEffects,    "weapon_effect",    (x) => x.id,       (x) => libraryNameMap[x.id] ?? x.id),
+    ...buildEntities(backEffects,      "back_effect",      (x) => x.id,       (x) => libraryNameMap[x.id] ?? x.id),
+    ...buildEntities(accessoryEffects, "accessory_effect", (x) => x.id,       (x) => libraryNameMap[x.id] ?? x.id),
   ];
 
   console.log(`📊  Total entities: ${allEntities.length.toLocaleString()}`);

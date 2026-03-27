@@ -81,15 +81,122 @@ function timeAgo(iso: string) {
   return `${Math.floor(h / 24)} hari lalu`;
 }
 
-function formatValue(v: unknown): string {
-  if (v === undefined || v === null) return "—";
-  if (typeof v === "string" && v.startsWith("[")) {
-    try {
-      const arr = JSON.parse(v) as unknown[];
-      return arr.length > 2 ? `[${arr.length} item]` : JSON.stringify(arr);
-    } catch { /* empty */ }
+// ─── Smart Value Renderer ────────────────────────────────────────────────────
+
+type ParsedEffect = {
+  effect_name?: string;
+  effect?: string;
+  type?: string;
+  target?: string;
+  amount?: number;
+  calc_type?: string;
+  duration?: number;
+  chance?: number;
+  passive?: boolean;
+};
+
+function tryParseJson(v: unknown): unknown {
+  if (typeof v !== "string") return v;
+  try { return JSON.parse(v); } catch { return v; }
+}
+
+function isEffectsArray(arr: unknown[]): arr is ParsedEffect[] {
+  return arr.length > 0 && typeof arr[0] === "object" && arr[0] !== null && ("effect" in arr[0] || "effect_name" in arr[0]);
+}
+
+function EffectRow({ fx, tone }: { fx: ParsedEffect; tone: "red" | "green" }) {
+  const isDebuff = fx.type === "Debuff";
+  const name     = fx.effect_name ?? fx.effect ?? "—";
+  const parts: string[] = [];
+  if (fx.target)   parts.push(fx.target === "enemy" ? "Musuh" : fx.target === "self" ? "Diri" : fx.target);
+  if (fx.amount != null && fx.amount > 0)
+    parts.push(fx.calc_type === "percent" ? `${fx.amount}%` : `+${fx.amount}`);
+  if (fx.chance != null && fx.chance < 100) parts.push(`${fx.chance}% chance`);
+  if (fx.duration != null && fx.duration > 0) parts.push(`${fx.duration}t`);
+
+  const toneClass = tone === "red"
+    ? (isDebuff ? "text-red-400" : "text-red-300")
+    : (isDebuff ? "text-emerald-400" : "text-emerald-300");
+
+  return (
+    <div className="flex items-center gap-1.5 py-0.5">
+      <span className={`text-[10px] font-bold shrink-0 ${isDebuff ? "text-red-500" : "text-emerald-500"}`}>
+        {isDebuff ? "↓" : "↑"}
+      </span>
+      <span className={`text-xs font-medium ${toneClass}`}>{name}</span>
+      {parts.length > 0 && (
+        <span className="text-[10px] opacity-60 ml-auto shrink-0">{parts.join(" · ")}</span>
+      )}
+    </div>
+  );
+}
+
+function ObjectRow({ obj, tone }: { obj: Record<string, unknown>; tone: "red" | "green" }) {
+  const colorClass = tone === "red" ? "text-red-300" : "text-emerald-300";
+  const dimClass   = tone === "red" ? "text-red-500/60" : "text-emerald-500/60";
+  return (
+    <div className="border border-white/[0.06] rounded-md px-2 py-1.5 space-y-0.5">
+      {Object.entries(obj).map(([k, v]) => (
+        <div key={k} className="flex gap-1.5 text-[11px]">
+          <span className={`shrink-0 font-mono ${dimClass}`}>{k}:</span>
+          <span className={`break-all ${colorClass}`}>
+            {v === null ? "null" : typeof v === "object" ? JSON.stringify(v) : String(v)}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function SmartValue({ value, tone }: { value: unknown; tone: "red" | "green" }) {
+  const colorClass = tone === "red" ? "text-red-300" : "text-emerald-300";
+  const dimClass   = tone === "red" ? "text-red-500" : "text-emerald-500";
+
+  const parsed = tryParseJson(value);
+
+  // null / undefined
+  if (parsed === null || parsed === undefined) {
+    return <span className="text-slate-600 italic text-xs">kosong</span>;
   }
-  return String(v);
+
+  // Array
+  if (Array.isArray(parsed)) {
+    if (parsed.length === 0) {
+      return <span className="text-slate-600 italic text-xs">[ ]</span>;
+    }
+
+    return (
+      <div>
+        <span className={`text-[10px] font-mono ${dimClass}`}>[{parsed.length} item]</span>
+        <div className="mt-1 space-y-1 pl-2 border-l border-white/[0.08]">
+          {parsed.map((item, i) => {
+            if (typeof item === "object" && item !== null) {
+              const obj = item as Record<string, unknown>;
+              // Effects array — special display
+              if (isEffectsArray([item as ParsedEffect])) {
+                return <EffectRow key={i} fx={item as ParsedEffect} tone={tone} />;
+              }
+              return <ObjectRow key={i} obj={obj} tone={tone} />;
+            }
+            return (
+              <div key={i} className="flex gap-2 text-xs">
+                <span className={`shrink-0 font-mono text-[10px] ${dimClass} opacity-50`}>[{i}]</span>
+                <span className={`break-all ${colorClass}`}>{String(item)}</span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
+  // Plain object
+  if (typeof parsed === "object") {
+    return <ObjectRow obj={parsed as Record<string, unknown>} tone={tone} />;
+  }
+
+  // Primitive
+  return <span className={`text-xs font-mono break-all ${colorClass}`}>{String(parsed)}</span>;
 }
 
 // ─── Components ───────────────────────────────────────────────────────────────
@@ -160,14 +267,14 @@ function ChangeCard({ entry }: { entry: ChangeEntry }) {
               <p className="text-[11px] text-slate-600">
                 Field: <span className="font-mono text-slate-400 bg-white/[0.04] px-1.5 py-0.5 rounded">{entry.field}</span>
               </p>
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 <div className="rounded-lg border border-red-900/40 bg-red-950/20 px-2.5 py-2">
-                  <p className="text-[9px] text-red-500 font-bold mb-1 uppercase tracking-wider">Sebelum</p>
-                  <p className="text-xs text-red-300 font-mono break-all leading-relaxed">{formatValue(entry.oldValue)}</p>
+                  <p className="text-[9px] text-red-500 font-bold mb-1.5 uppercase tracking-wider">Sebelum</p>
+                  <SmartValue value={entry.oldValue} tone="red" />
                 </div>
                 <div className="rounded-lg border border-emerald-900/40 bg-emerald-950/20 px-2.5 py-2">
-                  <p className="text-[9px] text-emerald-500 font-bold mb-1 uppercase tracking-wider">Sesudah</p>
-                  <p className="text-xs text-emerald-300 font-mono break-all leading-relaxed">{formatValue(entry.newValue)}</p>
+                  <p className="text-[9px] text-emerald-500 font-bold mb-1.5 uppercase tracking-wider">Sesudah</p>
+                  <SmartValue value={entry.newValue} tone="green" />
                 </div>
               </div>
             </div>
