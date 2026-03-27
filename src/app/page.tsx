@@ -28,6 +28,15 @@ const tools = [
     tags: ["Skills", "Talents", "Senjutsu", "Database"],
     available: true,
   },
+  {
+    href: "/tools/changelog",
+    icon: "📋",
+    title: "Game Data Changelog",
+    description:
+      "Lacak semua perubahan data game secara otomatis. Skill baru, buff/debuff, item diupdate atau dihapus — semuanya tercatat di database dengan timestamp.",
+    tags: ["Changelog", "Tracker", "Database", "MongoDB"],
+    available: true,
+  },
 ];
 
 export default function HomePage() {
