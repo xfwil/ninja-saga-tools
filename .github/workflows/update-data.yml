@@ -1,9 +1,9 @@
 name: Auto Update Game Data
 
 on:
-  # Run daily at 03:00 UTC — adjust to your preference
+  # Run every hour
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 * * * *"
 
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
