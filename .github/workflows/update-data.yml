@@ -1,0 +1,75 @@
+name: Auto Update Game Data
+
+on:
+  # Run daily at 03:00 UTC — adjust to your preference
+  schedule:
+    - cron: "0 3 * * *"
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write  # needed to commit & push updated data
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Use default GITHUB_TOKEN so the resulting push
+          # triggers the nextjs.yml deploy workflow
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # ── Step 1: Download latest game data ──────────────────────────
+      - name: Download game data from server
+        id: dump
+        run: |
+          node dump-game-data.mjs
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+
+      # ── Step 2: Run changelog sync ─────────────────────────────────
+      - name: Run changelog sync
+        run: node scripts/sync-dump.js
+
+      # ── Step 3: Detect if anything changed ────────────────────────
+      - name: Check for changes
+        id: changes
+        run: |
+          git add dump/ data/snapshot.json public/data/
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected — skipping commit."
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            # Count changed files for commit message
+            CHANGED=$(git diff --cached --name-only | wc -l | tr -d ' ')
+            echo "changed_count=$CHANGED" >> $GITHUB_OUTPUT
+            echo "Changes detected in $CHANGED file(s)."
+          fi
+
+      # ── Step 4: Commit & push if changes exist ─────────────────────
+      - name: Commit and push updated data
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): auto-update game data [$(date -u +%Y-%m-%d)]
+
+          - Downloaded latest .bin assets from game server
+          - Synced changelog: $(cat public/data/syncs.json | node -e "
+              const d=JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
+              const s=d[0]; if(s) process.stdout.write(s.changes+' change(s) detected');
+            " 2>/dev/null || echo 'see public/data/syncs.json')"
+          git push
