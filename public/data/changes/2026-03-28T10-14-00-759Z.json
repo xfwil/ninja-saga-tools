@@ -1,0 +1,13 @@
+[
+  {
+    "syncId": "2026-03-28T10-14-00-759Z",
+    "detectedAt": "2026-03-28T10:14:00.759Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_1097",
+    "entityName": "Subtle Ninja Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"cp_recover\",\"effect_name\":\"Recover CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":5,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":27,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"cp_recover\",\"effect_name\":\"Recover CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":7,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":20,\"chance\":100}]"
+  }
+]
