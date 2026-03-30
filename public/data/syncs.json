@@ -1,5 +1,19 @@
 [
   {
+    "id": "2026-03-30T10-36-33-719Z",
+    "syncedAt": "2026-03-30T10:36:33.719Z",
+    "initial": false,
+    "changes": 1,
+    "totals": {
+      "skills": 1158,
+      "library": 5563,
+      "skillEffects": 838,
+      "weaponEffects": 955,
+      "backEffects": 694,
+      "accessoryEffects": 173
+    }
+  },
+  {
     "id": "2026-03-30T09-41-03-217Z",
     "syncedAt": "2026-03-30T09:41:03.217Z",
     "initial": false,
