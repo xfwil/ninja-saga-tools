@@ -86,6 +86,52 @@ function makeSyncId(date) {
   return date.toISOString().replace(/[:.]/g, "-");
 }
 
+/**
+ * Create a fingerprint for a single change entry (ignoring syncId / detectedAt).
+ * Used to detect duplicate / flip-flop changes across consecutive syncs.
+ */
+function changeFingerprint(c) {
+  return JSON.stringify({
+    category:   c.category,
+    action:     c.action,
+    entityId:   c.entityId,
+    field:      c.field ?? null,
+    oldValue:   c.oldValue ?? null,
+    newValue:   c.newValue ?? null,
+  });
+}
+
+/**
+ * Check if the *exact same set of changes* was already recorded in the
+ * most recent previous sync.  If so, the data is flip-flopping and we
+ * should skip writing a duplicate entry.
+ */
+function isDuplicateOfLastSync(newChanges) {
+  const syncs = readJson(SYNCS_FILE, []);
+  if (syncs.length === 0) return false;
+
+  // Find the most recent non-initial sync
+  const lastSync = syncs.find((s) => !s.initial && s.changes > 0);
+  if (!lastSync) return false;
+
+  const lastFile = path.join(CHANGES_DIR, `${lastSync.id}.json`);
+  const lastChanges = readJson(lastFile, null);
+  if (!lastChanges || !Array.isArray(lastChanges)) return false;
+
+  // Different number of changes → not a duplicate
+  if (lastChanges.length !== newChanges.length) return false;
+
+  // Compare fingerprints (order-independent)
+  const lastSet = new Set(lastChanges.map(changeFingerprint));
+  const newSet  = new Set(newChanges.map(changeFingerprint));
+
+  if (lastSet.size !== newSet.size) return false;
+  for (const fp of newSet) {
+    if (!lastSet.has(fp)) return false;
+  }
+  return true;
+}
+
 // ─── Entity builders ──────────────────────────────────────────────────────────
 
 function buildEntities(arr, type, getId, getName) {
@@ -197,6 +243,15 @@ function sync() {
         });
       }
     }
+  }
+
+  // ─── Deduplication: skip if changes are identical to the last sync ────────
+  if (!isFirstSync && changes.length > 0 && isDuplicateOfLastSync(changes)) {
+    console.log(`\n⏭  Skipped — ${changes.length} change(s) are identical to the previous sync (flip-flop detected).`);
+    console.log(`   The snapshot is NOT updated so the next real change will still be detected.`);
+    // Do NOT update snapshot — keep the previous one so a genuine new change
+    // will still be caught in a future sync.
+    return;
   }
 
   // Write per-sync changes file (even if empty, for consistency)
