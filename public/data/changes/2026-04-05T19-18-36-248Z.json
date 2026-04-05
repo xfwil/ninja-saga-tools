@@ -1,0 +1,197 @@
+[
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_1097",
+    "entityName": "Subtle Ninja Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"cp_recover\",\"effect_name\":\"Recover CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":5,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":27,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"cp_recover\",\"effect_name\":\"Recover CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":7,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":20,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_569",
+    "entityName": "back_569"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2424",
+    "entityName": "back_2424"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2425",
+    "entityName": "back_2425"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2426",
+    "entityName": "back_2426"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2427",
+    "entityName": "back_2427"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2428",
+    "entityName": "back_2428"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2429",
+    "entityName": "back_2429"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2430",
+    "entityName": "back_2430"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2431",
+    "entityName": "back_2431"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2432",
+    "entityName": "back_2432"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2433",
+    "entityName": "back_2433"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2434",
+    "entityName": "back_2434"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2435",
+    "entityName": "back_2435"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2436",
+    "entityName": "back_2436"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2437",
+    "entityName": "back_2437"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2438",
+    "entityName": "back_2438"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2439",
+    "entityName": "back_2439"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2440",
+    "entityName": "back_2440"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2441",
+    "entityName": "back_2441"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2442",
+    "entityName": "back_2442"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2443",
+    "entityName": "back_2443"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_6049",
+    "entityName": "back_6049"
+  },
+  {
+    "syncId": "2026-04-05T19-18-36-248Z",
+    "detectedAt": "2026-04-05T19:18:36.248Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_7018",
+    "entityName": "back_7018"
+  }
+]
