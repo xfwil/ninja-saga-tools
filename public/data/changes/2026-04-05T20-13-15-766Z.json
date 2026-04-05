@@ -1,0 +1,1066 @@
+[
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_401",
+    "entityName": "Kinjutsu: Scatter Sakura",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Not Available.",
+    "newValue": "(Kinjutsu) Understand the enemys movement with the aid of Sakuras Power. Instantly removes all negative status to the user and ignores the opponents dodge rate by 100%. (1 turn)"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_401",
+    "entityName": "Kinjutsu: Scatter Sakura",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_401",
+    "entityName": "Kinjutsu: Scatter Sakura",
+    "field": "anims.fullscreen.add",
+    "oldValue": null,
+    "newValue": 20
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_401",
+    "entityName": "Kinjutsu: Scatter Sakura",
+    "field": "anims.fullscreen.remove",
+    "oldValue": null,
+    "newValue": 187
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_402",
+    "entityName": "Kinjutsu: Tensakura Sanka",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Not Available.",
+    "newValue": "(Kinjutsu) Understand the enemys movement with the aid of Sakuras Power. Instantly remove all negative status for once; Ignore 100% of targets dodge in next 3 turns."
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_402",
+    "entityName": "Kinjutsu: Tensakura Sanka",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_402",
+    "entityName": "Kinjutsu: Tensakura Sanka",
+    "field": "attack_hit_position",
+    "oldValue": "meele_1",
+    "newValue": "startpos"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_402",
+    "entityName": "Kinjutsu: Tensakura Sanka",
+    "field": "anims.fullscreen.add",
+    "oldValue": null,
+    "newValue": 20
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_402",
+    "entityName": "Kinjutsu: Tensakura Sanka",
+    "field": "anims.fullscreen.remove",
+    "oldValue": null,
+    "newValue": 193
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_498",
+    "entityName": "Kinjutsu: Sakura Aura",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Not Available.",
+    "newValue": "(Kinjutsu) Understand the enemys movement with the aid of Sakuras Power. Instantly remove all negative status for once; Ignore 100% of targets dodge in next 4 turns."
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_498",
+    "entityName": "Kinjutsu: Sakura Aura",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_498",
+    "entityName": "Kinjutsu: Sakura Aura",
+    "field": "anims.fullscreen.add",
+    "oldValue": null,
+    "newValue": 20
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_498",
+    "entityName": "Kinjutsu: Sakura Aura",
+    "field": "anims.fullscreen.remove",
+    "oldValue": null,
+    "newValue": 193
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2347",
+    "entityName": "Kinjutsu: Earthshatter Twin Cleave",
+    "field": "description",
+    "oldValue": "Drain 85% of the target CP. Target cannot recover CP for 2 turns. This effect cannot be purified.",
+    "newValue": "(Kinjutsu) Drain 85% of the target CP. Target cannot recover CP for 2 turns. This effect cannot be purified."
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2348",
+    "entityName": "Kinjutsu: 7 Path of Samsara"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2349",
+    "entityName": "Kinjutsu: 5 Sakura Emergence"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2350",
+    "entityName": "Kinjutsu: Sakura Tree Vein"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2351",
+    "entityName": "Kinjutsu: Sakura Tree Buff"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2352",
+    "entityName": "Kinjutsu: Sakura Petal Strike"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2353",
+    "entityName": "Kinjutsu: Sakura Blessing"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_6097",
+    "entityName": "S48 Kinjutsu: Life Immolation Onslaught"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_6098",
+    "entityName": "S48 Kinjutsu: Advance Life Immolation Onslaught"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7048",
+    "entityName": "S23 Kinjutsu: Dark Sea Flood"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7049",
+    "entityName": "S23 Kinjutsu: Advanced Dark Sea Flood"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_1288",
+    "entityName": "Sword of Holy Beast"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2428",
+    "entityName": "Soul Catcher Sword"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2429",
+    "entityName": "Sakura Royal Sword"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2430",
+    "entityName": "Sakura Splinter Spear"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2431",
+    "entityName": "Sakura Nature Hatchet"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2432",
+    "entityName": "Sakura Battle-Axe"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2433",
+    "entityName": "Sakura Vanguard Estoc"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2434",
+    "entityName": "Sakura Vanguard Katana"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_6085",
+    "entityName": "S48 Clan: Royal Scorching Jian"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_569",
+    "entityName": "Shield of Holy Beast"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2424",
+    "entityName": "Kamaitachi Ravager Mantle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2425",
+    "entityName": "Chains of the Hellsteed"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2426",
+    "entityName": "Kabutomushi Royal Wingframe"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2427",
+    "entityName": "Kinkaku Spirit Gourd"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2428",
+    "entityName": "Ginkaku Spirit Gourd"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2429",
+    "entityName": "Stormcrest Wings"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2430",
+    "entityName": "Bloodtusk Sovereign Crest"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2431",
+    "entityName": "Abyssal Queen's Embrace"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2432",
+    "entityName": "Echo of the Spectral Vanguard"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2433",
+    "entityName": "Aegis of the Battle Angel"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2434",
+    "entityName": "Mantle of the Infernal Triad"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2435",
+    "entityName": "Jade Array of Taowu"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2436",
+    "entityName": "Crimson Array of Taotie"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2437",
+    "entityName": "Soul Catcher Circle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2438",
+    "entityName": "Sakura Nature Bow"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2439",
+    "entityName": "Wood Sakura Fan"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2440",
+    "entityName": "Sakura Branch"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2441",
+    "entityName": "Eternal Bloom Sigil"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2442",
+    "entityName": "Secret Sakura Scroll"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2443",
+    "entityName": "Spirit Bloom Wish-Bonsai"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_6049",
+    "entityName": "S48 Clan: Titans Hammer"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_7018",
+    "entityName": "S23 Shadow War: Mask of Nightmare"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2246",
+    "entityName": "Sakura Petal"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2247",
+    "entityName": "Spirit Hand"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2248",
+    "entityName": "Withered Leg"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2249",
+    "entityName": "Duelist Branch"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1109_0",
+    "entityName": "Holy Beast Hunter Suit"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1109_1",
+    "entityName": "Holy Beast Hunter Suit"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1138_0",
+    "entityName": "Undercover Ninja Suit "
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1138_1",
+    "entityName": "Undercover Ninja Suit "
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2433_0",
+    "entityName": "Soul Catcher Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2433_1",
+    "entityName": "Soul Catcher Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2434_0",
+    "entityName": "Sakura Royal Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2434_1",
+    "entityName": "Sakura Royal Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2435_0",
+    "entityName": "Splinter Wood Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2435_1",
+    "entityName": "Splinter Wood Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2436_0",
+    "entityName": "Sakura Debara Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2436_1",
+    "entityName": "Sakura Debara Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2437_0",
+    "entityName": "Sakura Festival Duelist Garb"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2437_1",
+    "entityName": "Sakura Festival Duelist Garb"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2438_0",
+    "entityName": "Blossom Vanguard Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2438_1",
+    "entityName": "Blossom Vanguard Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6192_0",
+    "entityName": "S48 Champion"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6192_1",
+    "entityName": "S48 Champion"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6193_0",
+    "entityName": "S48 Runner Up"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6193_1",
+    "entityName": "S48 Runner Up"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6194_0",
+    "entityName": "S48 Runner Up"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6194_1",
+    "entityName": "S48 Runner Up"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6195_0",
+    "entityName": "S48 Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6195_1",
+    "entityName": "S48 Costume"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7069_0",
+    "entityName": "S23 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7069_1",
+    "entityName": "S23 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7070_0",
+    "entityName": "S23 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7070_1",
+    "entityName": "S23 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7071_0",
+    "entityName": "S23 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7071_1",
+    "entityName": "S23 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_293_0",
+    "entityName": "Holy Beast Hunter Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_293_1",
+    "entityName": "Holy Beast Hunter Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_302_0",
+    "entityName": "Undercover Ninja Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_302_1",
+    "entityName": "Undercover Ninja Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2392_0",
+    "entityName": "Soul Catcher Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2392_1",
+    "entityName": "Soul Catcher Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2393_0",
+    "entityName": "Sakura Royal Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2393_1",
+    "entityName": "Sakura Royal Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2394_0",
+    "entityName": "Floral Antler Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2394_1",
+    "entityName": "Floral Antler Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2395_0",
+    "entityName": "Sakura Rabbit Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2395_1",
+    "entityName": "Sakura Rabbit Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2396_0",
+    "entityName": "Sakura Festival Duelist Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2396_1",
+    "entityName": "Sakura Festival Duelist Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2397_0",
+    "entityName": "Blossom Vanguard Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2397_1",
+    "entityName": "Blossom Vanguard Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7009_0",
+    "entityName": "S23 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7009_1",
+    "entityName": "S23 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2349",
+    "entityName": "Kinjutsu: 5 Sakura Emergence"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2350",
+    "entityName": "Kinjutsu: Sakura Tree Vein"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2351",
+    "entityName": "Kinjutsu: Sakura Tree Buff"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2352",
+    "entityName": "Kinjutsu: Sakura Petal Strike"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2353",
+    "entityName": "Kinjutsu: Sakura Blessing"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_6097",
+    "entityName": "S48 Kinjutsu: Life Immolation Onslaught",
+    "field": "skill_effect",
+    "oldValue": "[{\"type\":\"Debuff\",\"target\":\"self\",\"effect\":\"sacrifice_self_health\",\"effect_name\":\"Sacrifice Self Health\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":10},{\"target\":\"self\",\"type\":\"Buff\",\"effect\":\"protection\",\"effect_name\":\"Protection\",\"duration\":3,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100}]",
+    "newValue": "[{\"type\":\"Debuff\",\"target\":\"self\",\"effect\":\"sacrifice_self_health\",\"effect_name\":\"Sacrifice Self Health\",\"reduce_type\":\"CURRENT\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":10},{\"target\":\"self\",\"type\":\"Buff\",\"effect\":\"protection\",\"effect_name\":\"Protection\",\"duration\":2,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_6098",
+    "entityName": "S48 Kinjutsu: Advance Life Immolation Onslaught"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7048",
+    "entityName": "S23 Kinjutsu: Dark Sea Flood"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7049",
+    "entityName": "S23 Kinjutsu: Advanced Dark Sea Flood"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_1097",
+    "entityName": "Subtle Ninja Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"cp_recover\",\"effect_name\":\"Recover CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":5,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":27,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"cp_recover\",\"effect_name\":\"Recover CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":7,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":20,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_1288",
+    "entityName": "Sword of Holy Beast"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2428",
+    "entityName": "Soul Catcher Sword"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2429",
+    "entityName": "Sakura Royal Sword"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2430",
+    "entityName": "Sakura Splinter Spear"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2431",
+    "entityName": "Sakura Nature Hatchet"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2432",
+    "entityName": "Sakura Battle-Axe"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2433",
+    "entityName": "Sakura Vanguard Estoc"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2434",
+    "entityName": "Sakura Vanguard Katana"
+  },
+  {
+    "syncId": "2026-04-05T20-13-15-766Z",
+    "detectedAt": "2026-04-05T20:13:15.766Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_6085",
+    "entityName": "S48 Clan: Royal Scorching Jian"
+  }
+]
