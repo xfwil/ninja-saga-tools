@@ -45,11 +45,15 @@ const CATEGORIES = [
   { key: "accessory_effect", label: "Aksesori FX",  icon: "💍" },
 ] as const;
 
-const ACTION_CONFIG: Record<string, { label: string; color: string; bg: string; border: string; icon: string }> = {
+type ActionKey = "added" | "modified" | "removed";
+
+const ACTION_CONFIG: Record<ActionKey, { label: string; color: string; bg: string; border: string; icon: string }> = {
   added:    { label: "Baru",   color: "text-emerald-300", bg: "bg-emerald-950/40", border: "border-emerald-700/50", icon: "➕" },
   modified: { label: "Diubah",  color: "text-amber-300",  bg: "bg-amber-950/40",   border: "border-amber-700/50",   icon: "✏️" },
   removed:  { label: "Hapus",   color: "text-red-300",    bg: "bg-red-950/40",     border: "border-red-700/50",     icon: "➖" },
 };
+
+const ACTION_KEYS: ActionKey[] = ["added", "modified", "removed"];
 
 const CAT_ICON: Record<string, string> = {
   skill:            "⚔️",
@@ -205,82 +209,81 @@ function SyncBadge({ run, active, onClick }: { run: SyncRun; active: boolean; on
   return (
     <button
       onClick={onClick}
-      className={`w-full flex flex-col gap-1.5 rounded-xl border p-3 text-left transition-all ${
+      className={`w-full rounded-2xl border p-3.5 text-left transition-all duration-200 ${
         active
-          ? "border-red-600/60 bg-red-950/20"
-          : "border-white/[0.07] bg-white/[0.02] hover:border-white/15 hover:bg-white/[0.04]"
+          ? "border-red-500/60 bg-red-950/25 shadow-[0_0_0_1px_rgba(239,68,68,0.2)]"
+          : "border-white/[0.08] bg-slate-900/35 hover:border-slate-500/40 hover:bg-slate-900/60"
       }`}
     >
-      <div className="flex items-center justify-between gap-2">
-        <span className={`text-[11px] font-semibold truncate ${active ? "text-red-300" : "text-slate-400"}`}>
-          {timeAgo(run.syncedAt)}
-        </span>
-        {run.initial ? (
-          <span className="shrink-0 rounded-full border border-slate-700/40 bg-slate-900/40 px-2 py-0.5 text-[10px] text-slate-500">
-            Initial
-          </span>
-        ) : (
-          <span className={`shrink-0 rounded-full border px-2 py-0.5 text-[10px] font-bold ${
-            run.changes === 0
+      <div className="flex items-start justify-between gap-3">
+        <div className="space-y-1">
+          <p className={`text-[11px] font-semibold uppercase tracking-wide ${active ? "text-red-300" : "text-slate-400"}`}>
+            {run.initial ? "Snapshot awal" : "Sesi sinkronisasi"}
+          </p>
+          <p className="text-sm font-semibold text-slate-100">{timeAgo(run.syncedAt)}</p>
+          <p className="text-[11px] text-slate-500">{formatDate(run.syncedAt)}</p>
+        </div>
+
+        <span className={`shrink-0 rounded-full border px-2.5 py-1 text-[10px] font-bold ${
+          run.initial
+            ? "border-slate-700/50 bg-slate-900/60 text-slate-400"
+            : run.changes === 0
               ? "border-slate-700/40 bg-slate-900/40 text-slate-500"
               : "border-amber-700/50 bg-amber-950/40 text-amber-300"
-          }`}>
-            {run.changes} changes
-          </span>
-        )}
+        }`}>
+          {run.initial ? "Initial" : `${run.changes} perubahan`}
+        </span>
       </div>
-      <p className="text-[10px] text-slate-600">{formatDate(run.syncedAt)}</p>
-      <div className="flex gap-1.5 flex-wrap">
-        <span className="text-[9px] text-slate-700 bg-white/[0.03] border border-white/[0.05] rounded px-1.5 py-0.5">⚔️ {run.totals.skills}</span>
-        <span className="text-[9px] text-slate-700 bg-white/[0.03] border border-white/[0.05] rounded px-1.5 py-0.5">📦 {run.totals.library}</span>
+
+      <div className="mt-2 flex flex-wrap gap-1.5">
+        <span className="rounded-md border border-white/[0.08] bg-white/[0.03] px-1.5 py-0.5 text-[10px] text-slate-400">⚔️ {run.totals.skills}</span>
+        <span className="rounded-md border border-white/[0.08] bg-white/[0.03] px-1.5 py-0.5 text-[10px] text-slate-400">📦 {run.totals.library}</span>
+        <span className="rounded-md border border-white/[0.08] bg-white/[0.03] px-1.5 py-0.5 text-[10px] text-slate-500">✨ {run.totals.skillEffects + run.totals.weaponEffects + run.totals.backEffects + run.totals.accessoryEffects}</span>
       </div>
     </button>
   );
 }
 
-function ChangeCard({ entry }: { entry: ChangeEntry }) {
-  const cfg = ACTION_CONFIG[entry.action];
+function ChangeCard({ entry, density }: { entry: ChangeEntry; density: "comfortable" | "compact" }) {
+  const cfg = ACTION_CONFIG[entry.action as ActionKey];
   const showDiff = entry.action === "modified" && entry.field;
+  const compact = density === "compact";
 
   return (
-    <div className={`rounded-xl border p-4 ${cfg.border} ${cfg.bg}`}>
-      <div className="flex items-start gap-3">
-        <span className="shrink-0 text-base leading-none mt-0.5">{cfg.icon}</span>
+    <div className={`rounded-2xl border shadow-sm ${cfg.border} ${cfg.bg} ${compact ? "p-3 sm:p-3.5" : "p-4 sm:p-5"}`}>
+      <div className={`flex items-start ${compact ? "gap-2.5" : "gap-3"}`}>
+        <span className="mt-0.5 shrink-0 text-base leading-none">{cfg.icon}</span>
         <div className="flex-1 min-w-0">
-          {/* Badges row */}
-          <div className="flex items-center gap-2 flex-wrap mb-1.5">
-            <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border ${cfg.border} ${cfg.color}`}>
+          <div className={`flex flex-wrap items-center gap-2 ${compact ? "mb-1.5" : "mb-2"}`}>
+            <span className={`rounded-full border px-2 py-0.5 text-[10px] font-bold ${cfg.border} ${cfg.color}`}>
               {cfg.label}
             </span>
-            <span className="text-[11px] text-slate-600">
+            <span className="rounded-full border border-white/10 bg-black/20 px-2 py-0.5 text-[10px] text-slate-400">
               {CAT_ICON[entry.category]} {entry.category.replace(/_/g, " ")}
             </span>
-            <span className="ml-auto text-[10px] text-slate-700 font-mono shrink-0">{entry.entityId}</span>
+            <span className="ml-auto text-[10px] text-slate-500">{formatDate(entry.detectedAt)}</span>
           </div>
 
-          {/* Entity name */}
-          <h4 className="text-sm font-semibold text-white leading-snug">{entry.entityName}</h4>
+          <h4 className={`font-semibold leading-snug text-white ${compact ? "text-sm" : "text-sm sm:text-base"}`}>{entry.entityName}</h4>
+          <p className={`mt-0.5 font-mono text-slate-500 ${compact ? "text-[10px]" : "text-[11px]"}`}>ID: {entry.entityId}</p>
 
-          {/* Field diff */}
           {showDiff && (
-            <div className="mt-2.5 space-y-1.5">
-              <p className="text-[11px] text-slate-600">
-                Field: <span className="font-mono text-slate-400 bg-white/[0.04] px-1.5 py-0.5 rounded">{entry.field}</span>
+            <div className={`space-y-2 ${compact ? "mt-2" : "mt-3"}`}>
+              <p className="text-[11px] text-slate-500">
+                Field diubah: <span className="rounded bg-white/[0.05] px-1.5 py-0.5 font-mono text-slate-300">{entry.field}</span>
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                <div className="rounded-lg border border-red-900/40 bg-red-950/20 px-2.5 py-2">
+              <div className={`grid grid-cols-1 sm:grid-cols-2 ${compact ? "gap-1.5" : "gap-2"}`}>
+                <div className={`rounded-xl border border-red-900/40 bg-red-950/20 ${compact ? "px-2.5 py-2" : "px-3 py-2.5"}`}>
                   <p className="text-[9px] text-red-500 font-bold mb-1.5 uppercase tracking-wider">Sebelum</p>
                   <SmartValue value={entry.oldValue} tone="red" />
                 </div>
-                <div className="rounded-lg border border-emerald-900/40 bg-emerald-950/20 px-2.5 py-2">
+                <div className={`rounded-xl border border-emerald-900/40 bg-emerald-950/20 ${compact ? "px-2.5 py-2" : "px-3 py-2.5"}`}>
                   <p className="text-[9px] text-emerald-500 font-bold mb-1.5 uppercase tracking-wider">Sesudah</p>
                   <SmartValue value={entry.newValue} tone="green" />
                 </div>
               </div>
             </div>
           )}
-
-          <p className="text-[10px] text-slate-700 mt-2">{formatDate(entry.detectedAt)}</p>
         </div>
       </div>
     </div>
@@ -296,6 +299,7 @@ export default function ChangelogPage() {
   const [page, setPage]               = useState(1);
   const [category, setCategory]       = useState("all");
   const [action, setAction]           = useState("all");
+  const [density, setDensity]         = useState<"comfortable" | "compact">("comfortable");
   const [search, setSearch]           = useState("");
   const [syncsLoading, setSyncsLoading] = useState(true);
   const [entriesLoading, setEntriesLoading] = useState(false);
@@ -347,9 +351,13 @@ export default function ChangelogPage() {
   const activeSync = syncs.find((s) => s.id === activeSyncId);
 
   const actionCounts = useMemo(() =>
-    filtered.reduce((acc, e) => { acc[e.action] = (acc[e.action] ?? 0) + 1; return acc; }, {} as Record<string, number>),
+    filtered.reduce((acc, e) => { acc[e.action] = (acc[e.action] ?? 0) + 1; return acc; }, {} as Record<ActionKey, number>),
     [filtered]
   );
+
+  const totalEntities = activeSync
+    ? Object.values(activeSync.totals).reduce((a, b) => a + b, 0)
+    : 0;
 
   function handleFilter<T>(setter: (v: T) => void, v: T) {
     setter(v);
@@ -357,23 +365,37 @@ export default function ChangelogPage() {
   }
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
-      {/* Header */}
-      <div className="mb-8">
-        <div className="inline-flex items-center gap-2 rounded-full border border-amber-800/40 bg-amber-950/20 px-3 py-1 text-xs text-amber-400 mb-4">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+      <div className="mb-7 rounded-3xl border border-white/[0.08] bg-[radial-gradient(circle_at_20%_20%,rgba(245,158,11,0.08),transparent_40%),radial-gradient(circle_at_85%_0%,rgba(239,68,68,0.12),transparent_42%),rgba(2,6,23,0.7)] p-6 sm:p-7">
+        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-700/40 bg-amber-950/20 px-3 py-1 text-xs text-amber-300">
           <span className="h-1.5 w-1.5 rounded-full bg-amber-500 animate-pulse inline-block" />
           Game Data Tracker
         </div>
-        <h1 className="text-3xl sm:text-4xl font-black text-white mb-2">
+        <h1 className="mb-2 text-3xl font-black text-white sm:text-4xl">
           Changelog{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">
             Database
           </span>
         </h1>
-        <p className="text-slate-400 text-sm max-w-xl">
+        <p className="max-w-2xl text-sm leading-relaxed text-slate-300">
           Lacak semua perubahan data game — skill baru, buff/debuff, item diupdate, atau dihapus.
           Setiap kali dump files diperbarui dan sync dijalankan, perubahan tercatat di sini.
         </p>
+
+        <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-3">
+          <div className="rounded-2xl border border-white/10 bg-black/20 p-3.5">
+            <p className="text-[11px] uppercase tracking-wide text-slate-500">Perubahan tampil</p>
+            <p className="mt-1 text-xl font-bold text-white">{entriesLoading ? "..." : filtered.length.toLocaleString("id-ID")}</p>
+          </div>
+          <div className="rounded-2xl border border-white/10 bg-black/20 p-3.5">
+            <p className="text-[11px] uppercase tracking-wide text-slate-500">Sync aktif</p>
+            <p className="mt-1 text-xl font-bold text-white">{activeSync ? formatDate(activeSync.syncedAt) : "-"}</p>
+          </div>
+          <div className="rounded-2xl border border-white/10 bg-black/20 p-3.5">
+            <p className="text-[11px] uppercase tracking-wide text-slate-500">Total entitas</p>
+            <p className="mt-1 text-xl font-bold text-white">{activeSync ? totalEntities.toLocaleString("id-ID") : "-"}</p>
+          </div>
+        </div>
       </div>
 
       {error && (
@@ -382,21 +404,20 @@ export default function ChangelogPage() {
         </div>
       )}
 
-      <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-6">
-        {/* ── Sidebar ──────────────────────────────────────────────────── */}
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[300px_1fr]">
         <div className="space-y-4">
-          <div className="lg:sticky lg:top-4 space-y-4">
+          <div className="space-y-4 lg:sticky lg:top-4">
             {/* Sync list */}
-            <div className="rounded-xl border border-white/[0.07] bg-white/[0.02] p-4">
-              <h2 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">📅 Riwayat Sync</h2>
+            <div className="rounded-2xl border border-white/[0.08] bg-slate-900/45 p-4">
+              <h2 className="mb-3 text-xs font-bold uppercase tracking-wider text-slate-300">📅 Riwayat Sync</h2>
               {syncsLoading ? (
                 <div className="space-y-2">
                   {[...Array(4)].map((_, i) => (
-                    <div key={i} className="h-16 rounded-xl bg-white/[0.03] animate-pulse" />
+                    <div key={i} className="h-20 animate-pulse rounded-2xl bg-white/[0.04]" />
                   ))}
                 </div>
               ) : syncs.length === 0 ? (
-                <div className="py-6 text-center space-y-2">
+                <div className="space-y-2 py-6 text-center">
                   <p className="text-2xl">📭</p>
                   <p className="text-slate-600 text-sm">Belum ada sync.</p>
                   <p className="text-slate-700 text-xs leading-relaxed">
@@ -407,7 +428,7 @@ export default function ChangelogPage() {
                   </code>
                 </div>
               ) : (
-                <div className="space-y-2 max-h-[50vh] overflow-y-auto pr-1 [scrollbar-width:thin]">
+                <div className="max-h-[52vh] space-y-2 overflow-y-auto pr-1 [scrollbar-width:thin]">
                   {syncs.map((run) => (
                     <SyncBadge
                       key={run.id}
@@ -422,11 +443,11 @@ export default function ChangelogPage() {
 
             {/* Active sync stats */}
             {activeSync && (
-              <div className="rounded-xl border border-white/[0.07] bg-white/[0.02] p-4">
-                <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">📊 Ringkasan Sync</h3>
+              <div className="rounded-2xl border border-white/[0.08] bg-slate-900/45 p-4">
+                <h3 className="mb-3 text-xs font-bold uppercase tracking-wider text-slate-400">📊 Ringkasan Sync</h3>
                 {activeSync.initial ? (
-                  <p className="text-xs text-slate-600">
-                    Initial snapshot — {Object.values(activeSync.totals).reduce((a, b) => a + b, 0).toLocaleString()} entities diindeks.
+                  <p className="text-xs leading-relaxed text-slate-500">
+                    Initial snapshot - {Object.values(activeSync.totals).reduce((a, b) => a + b, 0).toLocaleString()} entities diindeks.
                   </p>
                 ) : (
                   <div className="space-y-1.5 text-xs">
@@ -440,12 +461,12 @@ export default function ChangelogPage() {
                         ["💍 Accessory FX", activeSync.totals.accessoryEffects],
                       ] as [string, number][]
                     ).map(([label, val]) => (
-                      <div key={label} className="flex justify-between">
-                        <span className="text-slate-600">{label}</span>
-                        <span className="font-mono text-slate-400">{val.toLocaleString()}</span>
+                      <div key={label} className="flex items-center justify-between rounded-md border border-white/[0.06] bg-black/20 px-2.5 py-1.5">
+                        <span className="text-slate-500">{label}</span>
+                        <span className="font-mono text-slate-300">{val.toLocaleString()}</span>
                       </div>
                     ))}
-                    <div className="border-t border-white/[0.06] pt-1.5 flex justify-between font-semibold">
+                    <div className="flex justify-between border-t border-white/[0.06] pt-2 font-semibold">
                       <span className="text-amber-400">Perubahan</span>
                       <span className="text-amber-300">{activeSync.changes.toLocaleString()}</span>
                     </div>
@@ -455,66 +476,66 @@ export default function ChangelogPage() {
             )}
 
             {/* How to sync */}
-            <div className="rounded-xl border border-white/[0.05] bg-white/[0.01] p-4">
-              <h3 className="text-xs font-bold text-slate-600 uppercase tracking-wider mb-2">🚀 Cara Sync</h3>
-              <p className="text-[11px] text-slate-600 mb-2">
+            <div className="rounded-2xl border border-white/[0.08] bg-slate-900/35 p-4">
+              <h3 className="mb-2 text-xs font-bold uppercase tracking-wider text-slate-500">🚀 Cara Sync</h3>
+              <p className="mb-2 text-[11px] text-slate-500">
                 Perbarui dump files, lalu jalankan:
               </p>
-              <code className="block text-[11px] font-mono text-slate-500 bg-black/30 rounded-lg px-3 py-2">
+              <code className="block rounded-lg bg-black/30 px-3 py-2 text-[11px] font-mono text-slate-400">
                 node scripts/sync-dump.js
               </code>
-              <p className="text-[10px] text-slate-700 mt-2">
+              <p className="mt-2 text-[10px] text-slate-600">
                 Lalu commit <code className="font-mono">public/data/</code> ke repo.
               </p>
             </div>
           </div>
         </div>
 
-        {/* ── Main ─────────────────────────────────────────────────────── */}
         <div className="space-y-4">
-
-          {/* Filters */}
-          <div className="rounded-xl border border-white/[0.07] bg-white/[0.02] p-4 space-y-3">
+          <div className="rounded-2xl border border-white/[0.08] bg-slate-900/45 p-4 sm:p-5 space-y-4">
             <input
               type="text"
               placeholder="🔎 Cari nama skill / item…"
               value={search}
               onChange={(e) => handleFilter(setSearch, e.target.value)}
-              className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:border-amber-700/60 focus:outline-none focus:ring-1 focus:ring-amber-700/30"
+              className="w-full rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:border-amber-700/60 focus:outline-none focus:ring-1 focus:ring-amber-700/30"
             />
 
-            {/* Category chips */}
-            <div className="flex flex-wrap gap-1.5">
+            <div>
+              <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-500">Kategori</p>
+              <div className="flex flex-wrap gap-1.5">
               {CATEGORIES.map(({ key, label, icon }) => (
                 <button
                   key={key}
                   onClick={() => handleFilter(setCategory, key)}
-                  className={`rounded-full px-2.5 py-1 text-xs font-medium border transition-all ${
+                  className={`rounded-full border px-2.5 py-1 text-xs font-medium transition-all ${
                     category === key
-                      ? "bg-red-600/80 border-red-500 text-white"
-                      : "border-white/10 text-slate-500 hover:text-slate-300 hover:border-white/20"
+                      ? "border-red-500 bg-red-600/80 text-white"
+                      : "border-white/10 text-slate-500 hover:border-white/20 hover:text-slate-300"
                   }`}
                 >
                   {icon} {label}
                 </button>
               ))}
+              </div>
             </div>
 
-            {/* Action chips */}
-            <div className="flex flex-wrap gap-1.5">
-              {(["all", "added", "modified", "removed"] as const).map((key) => {
+            <div>
+              <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-500">Aksi</p>
+              <div className="flex flex-wrap gap-1.5">
+              {(["all", ...ACTION_KEYS] as const).map((key) => {
                 const cfg = key === "all" ? null : ACTION_CONFIG[key];
                 const count = key !== "all" ? actionCounts[key] : filtered.length;
                 return (
                   <button
                     key={key}
                     onClick={() => handleFilter(setAction, key)}
-                    className={`rounded-full px-2.5 py-1 text-xs font-semibold border transition-all ${
+                    className={`rounded-full border px-2.5 py-1 text-xs font-semibold transition-all ${
                       action === key
                         ? key === "all"
                           ? "bg-white/10 border-white/20 text-white"
                           : `${cfg!.bg} ${cfg!.border} ${cfg!.color}`
-                        : "border-white/10 text-slate-500 hover:text-slate-300 hover:border-white/20"
+                        : "border-white/10 text-slate-500 hover:border-white/20 hover:text-slate-300"
                     }`}
                   >
                     {key === "all" ? "🗂️ Semua" : `${cfg!.icon} ${cfg!.label}`}
@@ -524,11 +545,37 @@ export default function ChangelogPage() {
                   </button>
                 );
               })}
+              </div>
+            </div>
+
+            <div>
+              <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-500">Mode tampilan</p>
+              <div className="flex flex-wrap gap-1.5">
+                <button
+                  onClick={() => setDensity("comfortable")}
+                  className={`rounded-full border px-2.5 py-1 text-xs font-semibold transition-all ${
+                    density === "comfortable"
+                      ? "border-white/20 bg-white/10 text-white"
+                      : "border-white/10 text-slate-500 hover:border-white/20 hover:text-slate-300"
+                  }`}
+                >
+                  Nyaman
+                </button>
+                <button
+                  onClick={() => setDensity("compact")}
+                  className={`rounded-full border px-2.5 py-1 text-xs font-semibold transition-all ${
+                    density === "compact"
+                      ? "border-white/20 bg-white/10 text-white"
+                      : "border-white/10 text-slate-500 hover:border-white/20 hover:text-slate-300"
+                  }`}
+                >
+                  Ringkas
+                </button>
+              </div>
             </div>
           </div>
 
-          {/* Result count */}
-          <div className="flex items-center justify-between text-xs text-slate-600">
+          <div className="flex items-center justify-between rounded-xl border border-white/[0.06] bg-black/20 px-3 py-2 text-xs text-slate-500">
             <span>
               {entriesLoading ? "Memuat…" : `${filtered.length.toLocaleString("id-ID")} perubahan`}
               {totalPages > 1 && ` · Halaman ${page}/${totalPages}`}
@@ -536,7 +583,7 @@ export default function ChangelogPage() {
             {(search || category !== "all" || action !== "all") && (
               <button
                 onClick={() => { setSearch(""); setCategory("all"); setAction("all"); setPage(1); }}
-                className="text-red-500 hover:text-red-400 transition-colors"
+                className="text-red-400 transition-colors hover:text-red-300"
               >
                 ✕ Reset filter
               </button>
@@ -547,16 +594,16 @@ export default function ChangelogPage() {
           {entriesLoading ? (
             <div className="space-y-3">
               {[...Array(8)].map((_, i) => (
-                <div key={i} className="h-20 rounded-xl bg-white/[0.03] animate-pulse" />
+                <div key={i} className="h-24 animate-pulse rounded-2xl bg-white/[0.04]" />
               ))}
             </div>
           ) : !activeSyncId ? (
-            <div className="rounded-xl border border-white/[0.07] bg-white/[0.02] py-16 text-center">
+            <div className="rounded-2xl border border-white/[0.08] bg-slate-900/35 py-16 text-center">
               <p className="text-3xl mb-2">👈</p>
               <p className="text-slate-500 text-sm">Pilih sync run di sidebar.</p>
             </div>
           ) : paginated.length === 0 ? (
-            <div className="rounded-xl border border-white/[0.07] bg-white/[0.02] py-16 text-center">
+            <div className="rounded-2xl border border-white/[0.08] bg-slate-900/35 py-16 text-center">
               <p className="text-3xl mb-2">📭</p>
               <p className="text-slate-500 text-sm">
                 {activeSync?.initial
@@ -565,20 +612,19 @@ export default function ChangelogPage() {
               </p>
             </div>
           ) : (
-            <div className="space-y-2.5">
+            <div className={density === "compact" ? "space-y-2" : "space-y-3"}>
               {paginated.map((entry, i) => (
-                <ChangeCard key={`${entry.entityId}-${entry.field ?? entry.action}-${i}`} entry={entry} />
+                <ChangeCard key={`${entry.entityId}-${entry.field ?? entry.action}-${i}`} entry={entry} density={density} />
               ))}
             </div>
           )}
 
-          {/* Pagination */}
           {totalPages > 1 && (
-            <div className="flex items-center justify-center gap-1 pt-2 flex-wrap">
+            <div className="flex flex-wrap items-center justify-center gap-1.5 pt-2">
               <button
                 onClick={() => setPage(p => Math.max(1, p - 1))}
                 disabled={page === 1}
-                className="rounded-lg border border-white/10 px-3 py-1.5 text-xs text-slate-400 hover:text-white disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                className="rounded-xl border border-white/10 px-3 py-1.5 text-xs text-slate-400 transition-all hover:text-white disabled:cursor-not-allowed disabled:opacity-30"
               >
                 ← Prev
               </button>
@@ -589,23 +635,23 @@ export default function ChangelogPage() {
                 else if (page >= totalPages - 4) pg = totalPages - 8 + i;
                 else pg = page - 4 + i;
                 return (
-                  <button
-                    key={pg}
-                    onClick={() => setPage(pg)}
-                    className={`rounded-lg border px-3 py-1.5 text-xs font-medium transition-all ${
-                      pg === page
-                        ? "bg-red-600 border-red-500 text-white"
-                        : "border-white/10 text-slate-500 hover:text-slate-300"
-                    }`}
-                  >
-                    {pg}
+                    <button
+                      key={pg}
+                      onClick={() => setPage(pg)}
+                      className={`rounded-xl border px-3 py-1.5 text-xs font-medium transition-all ${
+                        pg === page
+                          ? "border-red-500 bg-red-600 text-white"
+                          : "border-white/10 text-slate-500 hover:text-slate-300"
+                      }`}
+                    >
+                      {pg}
                   </button>
                 );
               })}
               <button
                 onClick={() => setPage(p => Math.min(totalPages, p + 1))}
                 disabled={page === totalPages}
-                className="rounded-lg border border-white/10 px-3 py-1.5 text-xs text-slate-400 hover:text-white disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                className="rounded-xl border border-white/10 px-3 py-1.5 text-xs text-slate-400 transition-all hover:text-white disabled:cursor-not-allowed disabled:opacity-30"
               >
                 Next →
               </button>
