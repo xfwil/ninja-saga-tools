@@ -4,6 +4,7 @@ import { useState, useMemo, useCallback, useEffect } from "react";
 import skillsJson from "../../dump/skills.json";
 import talentsJson from "../../dump/talents.json";
 import senjutsuJson from "../../dump/senjutsu.json";
+import petJson from "../../dump/pet.json";
 import skillEffectsJson from "../../dump/skill-effect.json";
 import gamedataJson from "../../dump/gamedata.json";
 import libraryJson from "../../dump/library.json";
@@ -140,6 +141,40 @@ type SenjutsuGroup = {
   levels: Senjutsu[];
 };
 
+type PetAttackEffect = {
+  type?: string;
+  effect?: string;
+  target?: string;
+  amount?: number;
+  duration?: number;
+  chance?: number;
+  calc_type?: string;
+};
+
+type PetAttack = {
+  level: number;
+  name: string;
+  description: string;
+  cooldown: number;
+  dmg: number;
+  effects?: PetAttackEffect[];
+};
+
+type Pet = {
+  id: string;
+  level: number;
+  name: string;
+  hp: number;
+  cp: number;
+  dodge: number;
+  critical: number;
+  purify: number;
+  accuracy: number;
+  agility: number;
+  description: string;
+  attacks?: PetAttack[];
+};
+
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const SKILL_TYPE_MAP: Record<string, { label: string; icon: string; chip: string; badge: string }> = {
@@ -251,11 +286,12 @@ function groupByBaseId<T extends { id: string }>(items: T[]) {
 // ─── Main Component ───────────────────────────────────────────────────────────
 
 export default function Encyclopedia() {
-  const [activeTab, setActiveTab] = useState<"skills" | "talents" | "senjutsu" | "effects" | "seasonal">("skills");
+  const [activeTab, setActiveTab] = useState<"skills" | "talents" | "senjutsu" | "pets" | "effects" | "seasonal">("skills");
 
   const skills = skillsJson as Skill[];
   const talents = talentsJson as Talent[];
   const senjutsu = senjutsuJson as Senjutsu[];
+  const pets = petJson as Pet[];
 
   const totalSeasonal = SEASONAL_MAPS.clan.size + SEASONAL_MAPS.crew.size + SEASONAL_MAPS.shadowwar.size;
 
@@ -263,6 +299,7 @@ export default function Encyclopedia() {
     { key: "skills",   label: "Skills",   count: skills.length,                                 icon: "⚔️" },
     { key: "talents",  label: "Talents",  count: [...groupByBaseId(talents).keys()].length,      icon: "💫" },
     { key: "senjutsu", label: "Senjutsu", count: [...groupByBaseId(senjutsu).keys()].length,     icon: "🍃" },
+    { key: "pets",     label: "Pets",     count: pets.length,                                     icon: "🐾" },
     { key: "effects",  label: "Efek",     count: GAME_EFFECTS.length,                           icon: "✨" },
     { key: "seasonal", label: "Seasonal", count: totalSeasonal,                                  icon: "🏆" },
   ] as const;
@@ -296,6 +333,7 @@ export default function Encyclopedia() {
       {activeTab === "skills"   && <SkillsTab   skills={skills} />}
       {activeTab === "talents"  && <TalentsTab  talents={talents} />}
       {activeTab === "senjutsu" && <SenjutsuTab senjutsu={senjutsu} />}
+      {activeTab === "pets"     && <PetsTab pets={pets} />}
       {activeTab === "effects"  && <EffectsTab  />}
       {activeTab === "seasonal" && <SeasonalTab />}
     </div>
@@ -1406,6 +1444,199 @@ function SenjutsuGroupCard({ group }: { group: SenjutsuGroup }) {
           ))}
         </div>
       )}
+    </div>
+  );
+}
+
+// ─── Pets Tab ─────────────────────────────────────────────────────────────────
+
+function formatPetAttackEffects(effects: PetAttackEffect[] = []): string {
+  if (effects.length === 0) return "Tanpa efek tambahan";
+
+  return effects
+    .map((fx) => {
+      const name = (fx.effect ?? "effect").replace(/_/g, " ");
+      const amount = fx.amount != null
+        ? fx.calc_type === "percent"
+          ? `${fx.amount}%`
+          : `${fx.amount}`
+        : null;
+      const dur = fx.duration != null && fx.duration > 0 ? `${fx.duration}t` : null;
+      const chance = fx.chance != null && fx.chance < 100 ? `${fx.chance}%` : null;
+      const detail = [amount, dur, chance].filter(Boolean).join(" · ");
+      return `${name}${detail ? ` (${detail})` : ""}`;
+    })
+    .join("; ");
+}
+
+function PetsTab({ pets }: { pets: Pet[] }) {
+  const [search, setSearch] = useState("");
+  const [attackFilter, setAttackFilter] = useState<"all" | "has-skills" | "no-skills">("all");
+  const [selectedPet, setSelectedPet] = useState<Pet | null>(null);
+  const [page, setPage] = useState(1);
+  const resetPage = useCallback(() => setPage(1), []);
+
+  const filtered = useMemo(() => {
+    const q = search.toLowerCase();
+    return [...pets]
+      .filter((pet) => {
+        const attacks = pet.attacks ?? [];
+        if (q && !pet.name.toLowerCase().includes(q) && !pet.description.toLowerCase().includes(q)) return false;
+        if (attackFilter === "has-skills" && attacks.length === 0) return false;
+        if (attackFilter === "no-skills" && attacks.length > 0) return false;
+        return true;
+      })
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [pets, search, attackFilter]);
+
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  return (
+    <div className="space-y-6">
+      <div className="flex flex-col gap-3">
+        <input
+          type="text"
+          placeholder="Cari nama atau deskripsi pet..."
+          value={search}
+          onChange={(e) => { setSearch(e.target.value); resetPage(); }}
+          className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
+        />
+        <div className="flex flex-wrap gap-2">
+          <TypeChip active={attackFilter === "all"} onClick={() => { setAttackFilter("all"); resetPage(); }}>
+            🗂️ Semua
+          </TypeChip>
+          <TypeChip active={attackFilter === "has-skills"} onClick={() => { setAttackFilter("has-skills"); resetPage(); }}>
+            ⚔️ Punya Skill
+          </TypeChip>
+          <TypeChip active={attackFilter === "no-skills"} onClick={() => { setAttackFilter("no-skills"); resetPage(); }}>
+            💤 Tanpa Skill
+          </TypeChip>
+        </div>
+        <p className="text-xs text-slate-600">Menampilkan {filtered.length} dari {pets.length} pet</p>
+      </div>
+
+      {filtered.length === 0 ? (
+        <EmptyState text="Tidak ada pet yang cocok dengan filter." />
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {paginated.map((pet) => {
+            const attacks = [...(pet.attacks ?? [])].sort((a, b) => a.level - b.level);
+            return (
+              <div key={pet.id} className="flex flex-col gap-3 rounded-xl border border-white/[0.07] bg-white/[0.025] p-4 hover:border-white/15 hover:bg-white/[0.04] transition-all">
+                <div className="flex items-start justify-between gap-2">
+                  <div className="flex-1 min-w-0">
+                    <span className="inline-flex items-center gap-1 rounded-full border border-emerald-700/40 bg-emerald-950/30 px-2 py-0.5 text-[10px] font-bold text-emerald-300 mb-1.5">
+                      🐾 Pet
+                    </span>
+                    <h3 className="text-sm font-bold text-white leading-snug">{pet.name}</h3>
+                  </div>
+                  <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">Lv. {pet.level}</span>
+                </div>
+
+                <p className="text-xs text-slate-400 leading-relaxed line-clamp-3">{pet.description}</p>
+
+                <div className="grid grid-cols-2 gap-1.5">
+                  <Stat label="HP" value={pet.hp} />
+                  <Stat label="CP" value={pet.cp} />
+                  <Stat label="Agi" value={pet.agility} />
+                  <Stat label="Acc" value={pet.accuracy} />
+                  <Stat label="Crit" value={`${pet.critical}%`} />
+                  <Stat label="Dodge" value={`${pet.dodge}%`} />
+                </div>
+
+                <div className="pt-2 border-t border-white/[0.06] mt-auto">
+                  <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-1.5">Skill Pet</p>
+                  {attacks.length === 0 ? (
+                    <p className="text-[11px] text-slate-700 italic">Belum ada skill.</p>
+                  ) : (
+                    <div className="flex items-center justify-between gap-2">
+                      <p className="text-[11px] text-slate-400">{attacks.length} skill tersedia</p>
+                      <button
+                        onClick={() => setSelectedPet(pet)}
+                        className="shrink-0 rounded-lg border border-cyan-700/40 bg-cyan-950/20 px-2.5 py-1 text-[11px] font-semibold text-cyan-300 hover:border-cyan-600/50 hover:bg-cyan-950/35 transition-all"
+                      >
+                        Lihat detail →
+                      </button>
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {totalPages > 1 && (
+        <Pagination page={page} total={totalPages} onChange={setPage} />
+      )}
+
+      {selectedPet && (
+        <PetSkillsModal pet={selectedPet} onClose={() => setSelectedPet(null)} />
+      )}
+    </div>
+  );
+}
+
+function PetSkillsModal({ pet, onClose }: { pet: Pet; onClose: () => void }) {
+  const attacks = useMemo(() => [...(pet.attacks ?? [])].sort((a, b) => a.level - b.level), [pet]);
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
+    document.addEventListener("keydown", handler);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", handler);
+      document.body.style.overflow = "";
+    };
+  }, [onClose]);
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+      <div
+        className="relative z-10 w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="sticky top-0 z-10 flex items-start justify-between gap-3 p-5 pb-4 border-b border-white/[0.07] bg-[#0e0e14]">
+          <div className="flex-1 min-w-0">
+            <div className="flex flex-wrap items-center gap-1.5 mb-1.5">
+              <span className="inline-flex items-center gap-1 rounded-full border border-emerald-700/40 bg-emerald-950/30 px-2 py-0.5 text-[10px] font-bold text-emerald-300">
+                🐾 Pet
+              </span>
+              <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">Lv. {pet.level}</span>
+            </div>
+            <h2 className="text-base font-bold text-white">{pet.name} — Skill Detail</h2>
+            <p className="text-xs text-slate-500 mt-1 leading-relaxed">{pet.description}</p>
+          </div>
+          <button
+            onClick={onClose}
+            className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div className="p-5 space-y-3">
+          {attacks.length === 0 ? (
+            <p className="text-sm text-slate-600 italic">Pet ini belum memiliki skill.</p>
+          ) : (
+            attacks.map((attack) => (
+              <div key={`${pet.id}-${attack.level}-${attack.name}`} className="rounded-xl border border-cyan-800/35 bg-cyan-950/12 p-3">
+                <div className="flex items-center justify-between gap-2">
+                  <p className="text-sm font-semibold text-cyan-300 truncate">Lv.{attack.level} {attack.name}</p>
+                  <div className="flex items-center gap-1.5 shrink-0">
+                    <span className="text-[10px] px-1.5 py-0.5 rounded border border-blue-800/35 bg-blue-950/20 text-blue-300">CD {attack.cooldown}t</span>
+                    <span className="text-[10px] px-1.5 py-0.5 rounded border border-orange-800/35 bg-orange-950/20 text-orange-300">DMG x{attack.dmg}</span>
+                  </div>
+                </div>
+                <p className="text-xs text-slate-400 mt-1.5 leading-relaxed">{attack.description}</p>
+                <p className="text-xs text-emerald-300/90 mt-2 leading-relaxed">Efek: {formatPetAttackEffects(attack.effects ?? [])}</p>
+              </div>
+            ))
+          )}
+        </div>
+      </div>
     </div>
   );
 }
