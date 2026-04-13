@@ -108,11 +108,15 @@ function isEffectsArray(arr: unknown[]): arr is ParsedEffect[] {
   return arr.length > 0 && typeof arr[0] === "object" && arr[0] !== null && ("effect" in arr[0] || "effect_name" in arr[0]);
 }
 
-function EffectRow({ fx, tone }: { fx: ParsedEffect; tone: "red" | "green" }) {
+function effectToKey(fx: ParsedEffect): string {
+  return [fx.effect_name ?? fx.effect ?? "", fx.target ?? "", fx.type ?? ""].join("|");
+}
+
+function EffectRow({ fx, tone, changed }: { fx: ParsedEffect; tone: "red" | "green"; changed?: boolean }) {
   const isDebuff = fx.type === "Debuff";
   const name     = fx.effect_name ?? fx.effect ?? "—";
   const parts: string[] = [];
-  if (fx.target)   parts.push(fx.target === "enemy" ? "Musuh" : fx.target === "self" ? "Diri" : fx.target);
+  if (fx.target)   parts.push(fx.target);
   if (fx.amount != null && fx.amount > 0)
     parts.push(fx.calc_type === "percent" ? `${fx.amount}%` : `+${fx.amount}`);
   if (fx.chance != null && fx.chance < 100) parts.push(`${fx.chance}% chance`);
@@ -123,7 +127,7 @@ function EffectRow({ fx, tone }: { fx: ParsedEffect; tone: "red" | "green" }) {
     : (isDebuff ? "text-emerald-400" : "text-emerald-300");
 
   return (
-    <div className="flex items-center gap-1.5 py-0.5">
+    <div className={`flex items-center gap-1.5 py-0.5 rounded px-1 ${changed ? (tone === "red" ? "bg-red-500/15 ring-1 ring-red-500/30" : "bg-emerald-500/15 ring-1 ring-emerald-500/30") : ""}`}>
       <span className={`text-[10px] font-bold shrink-0 ${isDebuff ? "text-red-500" : "text-emerald-500"}`}>
         {isDebuff ? "↓" : "↑"}
       </span>
@@ -152,11 +156,35 @@ function ObjectRow({ obj, tone }: { obj: Record<string, unknown>; tone: "red" | 
   );
 }
 
-function SmartValue({ value, tone }: { value: unknown; tone: "red" | "green" }) {
+function buildChangedSet(thisSide: unknown[], otherSide: unknown[]): Set<number> {
+  const changed = new Set<number>();
+  if (!isEffectsArray(thisSide) || !isEffectsArray(otherSide)) return changed;
+
+  const otherKeys = new Map<string, string>();
+  for (const fx of otherSide) {
+    otherKeys.set(effectToKey(fx), JSON.stringify(fx));
+  }
+
+  for (let i = 0; i < thisSide.length; i++) {
+    const key = effectToKey(thisSide[i]);
+    const otherJson = otherKeys.get(key);
+    if (otherJson == null) {
+      // This effect doesn't exist on the other side at all
+      changed.add(i);
+    } else if (otherJson !== JSON.stringify(thisSide[i])) {
+      // Same effect but values differ
+      changed.add(i);
+    }
+  }
+  return changed;
+}
+
+function SmartValue({ value, tone, counterpart }: { value: unknown; tone: "red" | "green"; counterpart?: unknown }) {
   const colorClass = tone === "red" ? "text-red-300" : "text-emerald-300";
   const dimClass   = tone === "red" ? "text-red-500" : "text-emerald-500";
 
   const parsed = tryParseJson(value);
+  const parsedOther = counterpart != null ? tryParseJson(counterpart) : undefined;
 
   // null / undefined
   if (parsed === null || parsed === undefined) {
@@ -169,6 +197,9 @@ function SmartValue({ value, tone }: { value: unknown; tone: "red" | "green" }) 
       return <span className="text-slate-600 italic text-xs">[ ]</span>;
     }
 
+    const otherArr = Array.isArray(parsedOther) ? parsedOther : [];
+    const changedIndices = buildChangedSet(parsed, otherArr);
+
     return (
       <div>
         <span className={`text-[10px] font-mono ${dimClass}`}>[{parsed.length} item]</span>
@@ -178,7 +209,7 @@ function SmartValue({ value, tone }: { value: unknown; tone: "red" | "green" }) 
               const obj = item as Record<string, unknown>;
               // Effects array — special display
               if (isEffectsArray([item as ParsedEffect])) {
-                return <EffectRow key={i} fx={item as ParsedEffect} tone={tone} />;
+                return <EffectRow key={i} fx={item as ParsedEffect} tone={tone} changed={changedIndices.has(i)} />;
               }
               return <ObjectRow key={i} obj={obj} tone={tone} />;
             }
@@ -199,8 +230,14 @@ function SmartValue({ value, tone }: { value: unknown; tone: "red" | "green" }) 
     return <ObjectRow obj={parsed as Record<string, unknown>} tone={tone} />;
   }
 
-  // Primitive
-  return <span className={`text-xs font-mono break-all ${colorClass}`}>{String(parsed)}</span>;
+  // Primitive — highlight if different from counterpart
+  const parsedOtherPrim = parsedOther != null && !Array.isArray(parsedOther) && typeof parsedOther !== "object" ? parsedOther : undefined;
+  const isDiff = parsedOtherPrim !== undefined && String(parsed) !== String(parsedOtherPrim);
+  return (
+    <span className={`text-xs font-mono break-all ${colorClass} ${isDiff ? (tone === "red" ? "bg-red-500/15 px-1 rounded ring-1 ring-red-500/30" : "bg-emerald-500/15 px-1 rounded ring-1 ring-emerald-500/30") : ""}`}>
+      {String(parsed)}
+    </span>
+  );
 }
 
 // ─── Components ───────────────────────────────────────────────────────────────
@@ -275,11 +312,11 @@ function ChangeCard({ entry, density }: { entry: ChangeEntry; density: "comforta
               <div className={`grid grid-cols-1 sm:grid-cols-2 ${compact ? "gap-1.5" : "gap-2"}`}>
                 <div className={`rounded-xl border border-red-900/40 bg-red-950/20 ${compact ? "px-2.5 py-2" : "px-3 py-2.5"}`}>
                   <p className="text-[9px] text-red-500 font-bold mb-1.5 uppercase tracking-wider">Sebelum</p>
-                  <SmartValue value={entry.oldValue} tone="red" />
+                  <SmartValue value={entry.oldValue} tone="red" counterpart={entry.newValue} />
                 </div>
                 <div className={`rounded-xl border border-emerald-900/40 bg-emerald-950/20 ${compact ? "px-2.5 py-2" : "px-3 py-2.5"}`}>
                   <p className="text-[9px] text-emerald-500 font-bold mb-1.5 uppercase tracking-wider">Sesudah</p>
-                  <SmartValue value={entry.newValue} tone="green" />
+                  <SmartValue value={entry.newValue} tone="green" counterpart={entry.oldValue} />
                 </div>
               </div>
             </div>
