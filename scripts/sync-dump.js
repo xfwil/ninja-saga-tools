@@ -132,6 +132,69 @@ function isDuplicateOfLastSync(newChanges) {
   return true;
 }
 
+// ─── Flip-flop detection ────────────────────────────────────────────────────
+
+/**
+ * Build a unique key for a change entry (entity + field).
+ */
+function changeEntityKey(c) {
+  return `${c.category}::${c.entityId}::${c.field ?? "_action_"}`;
+}
+
+/**
+ * Detect flip-flop changes by looking at recent sync history.
+ *
+ * A flip-flop is when an entity+field alternates between two values:
+ *   sync N-2:  A → B
+ *   sync N-1:  B → A
+ *   sync N  :  A → B  ← this is a flip-flop, should be suppressed
+ *
+ * We scan the last LOOKBACK non-initial syncs. If a change's (entity, field)
+ * has appeared in ≥ THRESHOLD of those syncs, it's considered a flip-flop.
+ *
+ * Returns a Set of changeEntityKey strings that should be suppressed.
+ */
+const FLIPFLOP_LOOKBACK  = 4;   // how many recent syncs to inspect
+const FLIPFLOP_THRESHOLD = 3;   // appear in ≥ this many → flip-flop
+
+function detectFlipFlops(newChanges) {
+  const syncs = readJson(SYNCS_FILE, []);
+  const recentSyncs = syncs
+    .filter((s) => !s.initial && s.changes > 0)
+    .slice(0, FLIPFLOP_LOOKBACK);
+
+  if (recentSyncs.length < 2) return new Set();
+
+  // Count how many recent syncs each (entity, field) appeared in
+  const hitCount = new Map();
+
+  for (const sync of recentSyncs) {
+    const file = path.join(CHANGES_DIR, `${sync.id}.json`);
+    const entries = readJson(file, []);
+    if (!Array.isArray(entries)) continue;
+
+    const seenInThisSync = new Set();
+    for (const c of entries) {
+      const key = changeEntityKey(c);
+      if (!seenInThisSync.has(key)) {
+        seenInThisSync.add(key);
+        hitCount.set(key, (hitCount.get(key) ?? 0) + 1);
+      }
+    }
+  }
+
+  // Only flag keys that also appear in the new changes
+  const flipFlops = new Set();
+  for (const c of newChanges) {
+    const key = changeEntityKey(c);
+    if ((hitCount.get(key) ?? 0) >= FLIPFLOP_THRESHOLD) {
+      flipFlops.add(key);
+    }
+  }
+
+  return flipFlops;
+}
+
 // ─── Entity builders ──────────────────────────────────────────────────────────
 
 function buildEntities(arr, type, getId, getName) {
@@ -247,10 +310,47 @@ function sync() {
 
   // ─── Deduplication: skip if changes are identical to the last sync ────────
   if (!isFirstSync && changes.length > 0 && isDuplicateOfLastSync(changes)) {
-    console.log(`\n⏭  Skipped — ${changes.length} change(s) are identical to the previous sync (flip-flop detected).`);
+    console.log(`\n⏭  Skipped — ${changes.length} change(s) are identical to the previous sync (exact duplicate).`);
     console.log(`   The snapshot is NOT updated so the next real change will still be detected.`);
-    // Do NOT update snapshot — keep the previous one so a genuine new change
-    // will still be caught in a future sync.
+    return;
+  }
+
+  // ─── Flip-flop suppression ──────────────────────────────────────────────
+  let suppressedKeys = new Set();
+  if (!isFirstSync && changes.length > 0) {
+    suppressedKeys = detectFlipFlops(changes);
+    if (suppressedKeys.size > 0) {
+      const suppressed = changes.filter((c) => suppressedKeys.has(changeEntityKey(c)));
+      const kept       = changes.filter((c) => !suppressedKeys.has(changeEntityKey(c)));
+
+      console.log(`\n🔄  Flip-flop detected — suppressing ${suppressed.length} change(s):`);
+      for (const c of suppressed) {
+        console.log(`     ↳ ${c.category}/${c.entityId} [${c.field ?? c.action}]`);
+      }
+
+      changes = kept;
+    }
+  }
+
+  // For flip-flopping entities, revert their snapshot entry to the previous
+  // value so they don't keep triggering on every sync.
+  if (suppressedKeys.size > 0 && prevSnapshot) {
+    for (const e of allEntities) {
+      const snapKey = `${e.type}::${e.id}`;
+      // Check if any suppressed change belongs to this entity
+      const isSuppressed = [...suppressedKeys].some((k) => k.startsWith(`${e.type}::${e.id}::`));
+      if (isSuppressed && prevSnapshot[snapKey]) {
+        // Keep the old snapshot data so it won't flip again next run
+        newSnapshot[snapKey] = prevSnapshot[snapKey];
+      }
+    }
+  }
+
+  // If all changes were suppressed, skip writing a sync entry entirely
+  if (!isFirstSync && changes.length === 0 && suppressedKeys.size > 0) {
+    console.log(`   All changes were flip-flops — skipping sync entry.`);
+    // Still save snapshot (with reverted flip-flop entities)
+    writeJson(SNAPSHOT_FILE, newSnapshot);
     return;
   }
 
