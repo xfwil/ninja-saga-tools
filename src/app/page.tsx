@@ -37,6 +37,15 @@ const tools = [
     tags: ["Changelog", "Tracker", "Database", "MongoDB"],
     available: true,
   },
+  {
+    href: "/tools/sw-rewards",
+    icon: "⚔️",
+    title: "Shadow War Rewards",
+    description:
+      "Lihat reward Shadow War per season. Data diambil dari API dan disimpan otomatis setiap season baru terdeteksi.",
+    tags: ["Shadow War", "Rewards", "Season", "Tracker"],
+    available: true,
+  },
 ];
 
 export default function HomePage() {

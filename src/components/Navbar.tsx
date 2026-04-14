@@ -5,6 +5,7 @@ const NAV_LINKS = [
   { href: "/tools/encyclopedia",      label: "Encyclopedia" },
   { href: "/tools/eudemon-garden",    label: "Eudemon Garden" },
   { href: "/tools/exp-calculator",    label: "EXP Calculator" },
+  { href: "/tools/sw-rewards",        label: "SW Rewards" },
 ];
 
 export default function Navbar() {

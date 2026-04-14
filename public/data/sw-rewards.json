@@ -1,0 +1,32 @@
+{
+  "seasons": [
+    {
+      "season": "S23",
+      "fetchedAt": "2025-04-14T03:56:00.000Z",
+      "data": {
+        "squad": {
+          "1-10": ["skill_7049", "back_7018", "set_7071_%s", "essential_09:1", "tokens_1500"],
+          "11-20": ["skill_7048", "back_7018", "set_7071_%s", "essential_09:1", "tokens_1000"],
+          "21-50": ["back_7018", "set_7071_%s", "essential_09:1", "tokens_500"],
+          "51-75": ["set_7071_%s", "essential_09:1", "tokens_300"],
+          "76-100": ["essential_09:1", "tokens_220"]
+        },
+        "winner_squad": {
+          "1-5": ["hair_7009_%s", "set_7069_%s", "pet_triad", "tokens_1500"],
+          "6-10": ["set_7070_%s"]
+        },
+        "top_global": {
+          "1-5": ["set_7069_%s", "pet_triad", "skill_7049"],
+          "6-10": ["set_7070_%s", "pet_triad", "skill_7049"]
+        },
+        "league": {
+          "platinum": ["tokens_100", "tp_125"],
+          "diamond": ["tokens_250", "tp_200"],
+          "master": ["tokens_500", "tp_300"],
+          "grand_master": ["tokens_750", "tp_400"],
+          "sage": ["tokens_1000", "tp_500", "ss_125", "essential_09:1"]
+        }
+      }
+    }
+  ]
+}
