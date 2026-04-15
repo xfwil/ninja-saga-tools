@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo } from "react";
+import IconImg from "./IconImg";
 import skillsJson from "../../dump/skills.json";
 import libraryJson from "../../dump/library.json";
 import petJson from "../../dump/pet.json";
@@ -147,89 +148,6 @@ const SKILL_TYPE_MAP: Record<string, { label: string; icon: string; badge: strin
   "11": { label: "Senjutsu",  icon: "🐸", badge: "bg-indigo-900/40 border-indigo-700/40 text-indigo-300" },
 };
 
-// ─── Icon Helpers ─────────────────────────────────────────────────────────────
-
-const ICON_CDN = "https://play.huki.dev/sage";
-
-/** Build the icon URL for a given reward/item/skill ID */
-function getIconUrl(rawId: string): string | null {
-  const cleaned = rawId.replace(/_%s$/g, "");
-
-  // Currency / quantity items — no icon
-  if (cleaned.startsWith("tokens_") || cleaned.startsWith("tp_") || cleaned.startsWith("ss_")) return null;
-
-  // Strip quantity suffix for essentials: essential_09:1 -> essential_09
-  const base = cleaned.split(":")[0];
-
-  // Skills go under /skills/
-  if (base.startsWith("skill_")) return `${ICON_CDN}/skills/${base}.png`;
-
-  // Everything else (items, pets) go under /items/
-  return `${ICON_CDN}/items/${base}.png`;
-}
-
-const FALLBACK_EMOJI: Record<string, string> = {
-  skill: "🌀",
-  wpn: "🗡️",
-  back: "🎒",
-  set: "👘",
-  hair: "💇",
-  accessory: "💍",
-  pet: "🐾",
-  essential: "💊",
-  item: "📦",
-  currency: "🪙",
-};
-
-function getFallbackEmoji(rawId: string): string {
-  if (rawId.startsWith("skill_"))     return FALLBACK_EMOJI.skill;
-  if (rawId.startsWith("wpn_"))       return FALLBACK_EMOJI.wpn;
-  if (rawId.startsWith("back_"))      return FALLBACK_EMOJI.back;
-  if (rawId.startsWith("set_"))       return FALLBACK_EMOJI.set;
-  if (rawId.startsWith("hair_"))      return FALLBACK_EMOJI.hair;
-  if (rawId.startsWith("accessory_")) return FALLBACK_EMOJI.accessory;
-  if (rawId.startsWith("pet_"))       return FALLBACK_EMOJI.pet;
-  if (rawId.startsWith("essential_")) return FALLBACK_EMOJI.essential;
-  if (rawId.startsWith("tokens_"))    return "🪙";
-  if (rawId.startsWith("tp_"))        return "⭐";
-  if (rawId.startsWith("ss_"))        return "💎";
-  return FALLBACK_EMOJI.item;
-}
-
-/** Icon image with fallback to emoji on error */
-function IconImg({ rawId, size = 24, className = "" }: { rawId: string; size?: number; className?: string }) {
-  const [failed, setFailed] = useState(false);
-  const url = getIconUrl(rawId);
-  const fallback = getFallbackEmoji(rawId);
-
-  const handleError = useCallback(() => setFailed(true), []);
-
-  if (!url || failed) {
-    return (
-      <span
-        className={`inline-flex items-center justify-center shrink-0 ${className}`}
-        style={{ width: size, height: size, fontSize: size * 0.7 }}
-      >
-        {fallback}
-      </span>
-    );
-  }
-
-  return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={url}
-      alt=""
-      width={size}
-      height={size}
-      loading="lazy"
-      onError={handleError}
-      className={`shrink-0 object-contain ${className}`}
-      style={{ imageRendering: "pixelated" }}
-    />
-  );
-}
-
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
@@ -359,7 +277,7 @@ function RewardDetailModal({ reward, onClose }: { reward: ResolvedReward; onClos
         <div className="sticky top-0 z-10 flex items-start justify-between gap-3 p-5 pb-4 border-b border-white/[0.07] bg-[#0e0e14]">
           <div className="flex items-start gap-3 flex-1 min-w-0">
             <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.04]">
-              <IconImg rawId={reward.rawId} size={36} />
+              <IconImg id={reward.rawId} size={36} />
             </div>
             <div className="flex-1 min-w-0">
               <h2 className="text-base font-bold text-white leading-snug">{reward.name}</h2>
@@ -668,7 +586,7 @@ function RewardBadge({ reward, onClick }: { reward: ResolvedReward; onClick: () 
       }`}
       title={hasDetail ? "Klik untuk detail" : reward.rawId}
     >
-      <IconImg rawId={reward.rawId} size={20} />
+      <IconImg id={reward.rawId} size={20} />
       <span className="leading-tight">{reward.name}</span>
       {hasDetail && (
         <span className="text-[10px] opacity-50">→</span>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo, useCallback, useEffect } from "react";
+import IconImg from "./IconImg";
 import skillsJson from "../../dump/skills.json";
 import talentsJson from "../../dump/talents.json";
 import senjutsuJson from "../../dump/senjutsu.json";
@@ -286,7 +287,7 @@ function groupByBaseId<T extends { id: string }>(items: T[]) {
 // ─── Main Component ───────────────────────────────────────────────────────────
 
 export default function Encyclopedia() {
-  const [activeTab, setActiveTab] = useState<"skills" | "talents" | "senjutsu" | "pets" | "effects" | "seasonal">("skills");
+  const [activeTab, setActiveTab] = useState<"skills" | "items" | "talents" | "senjutsu" | "pets" | "effects" | "seasonal">("skills");
 
   const skills = skillsJson as Skill[];
   const talents = talentsJson as Talent[];
@@ -297,6 +298,7 @@ export default function Encyclopedia() {
 
   const tabs = [
     { key: "skills",   label: "Skills",   count: skills.length,                                 icon: "⚔️" },
+    { key: "items",    label: "Items",    count: _libItems.length,                               icon: "🗡️" },
     { key: "talents",  label: "Talents",  count: [...groupByBaseId(talents).keys()].length,      icon: "💫" },
     { key: "senjutsu", label: "Senjutsu", count: [...groupByBaseId(senjutsu).keys()].length,     icon: "🍃" },
     { key: "pets",     label: "Pets",     count: pets.length,                                     icon: "🐾" },
@@ -331,6 +333,7 @@ export default function Encyclopedia() {
 
       {/* Tab Content */}
       {activeTab === "skills"   && <SkillsTab   skills={skills} />}
+      {activeTab === "items"    && <ItemsTab />}
       {activeTab === "talents"  && <TalentsTab  talents={talents} />}
       {activeTab === "senjutsu" && <SenjutsuTab senjutsu={senjutsu} />}
       {activeTab === "pets"     && <PetsTab pets={pets} />}
@@ -490,26 +493,31 @@ function SkillModal({ skill, onClose, highlight = "" }: { skill: Skill; onClose:
       >
         {/* Header */}
         <div className="sticky top-0 z-10 flex items-start justify-between gap-3 p-5 pb-4 border-b border-white/[0.07] bg-[#0e0e14]">
-          <div className="flex-1 min-w-0">
-            <div className="flex flex-wrap items-center gap-1.5 mb-2">
-              <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${typeInfo.badge}`}>
-                {typeInfo.icon} {typeInfo.label}
-              </span>
-              {seasonNum !== null && (
-                <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold bg-rose-900/40 border-rose-700/40 text-rose-300">
-                  🎴 S{seasonNum}
-                </span>
-              )}
-              {skill.premium && (
-                <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-bold bg-amber-900/40 border-amber-700/40 text-amber-400">
-                  💎 Premium
-                </span>
-              )}
-              <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">
-                Lv. {skill.level}
-              </span>
+          <div className="flex items-start gap-3 flex-1 min-w-0">
+            <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.04]">
+              <IconImg id={skill.id} size={40} />
             </div>
-            <h2 className="text-base font-bold text-white leading-snug">{skill.name}</h2>
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap items-center gap-1.5 mb-2">
+                <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${typeInfo.badge}`}>
+                  {typeInfo.icon} {typeInfo.label}
+                </span>
+                {seasonNum !== null && (
+                  <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold bg-rose-900/40 border-rose-700/40 text-rose-300">
+                    🎴 S{seasonNum}
+                  </span>
+                )}
+                {skill.premium && (
+                  <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-bold bg-amber-900/40 border-amber-700/40 text-amber-400">
+                    💎 Premium
+                  </span>
+                )}
+                <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">
+                  Lv. {skill.level}
+                </span>
+              </div>
+              <h2 className="text-base font-bold text-white leading-snug">{skill.name}</h2>
+            </div>
           </div>
           <button
             onClick={onClose}
@@ -983,7 +991,10 @@ function SkillCard({ skill, highlight = "", onSelect }: { skill: Skill; highligh
       onClick={() => onSelect?.(skill)}
     >
       {/* Header */}
-      <div className="flex items-start justify-between gap-2">
+      <div className="flex items-start gap-3">
+        <div className="shrink-0 w-10 h-10 flex items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.04] mt-0.5">
+          <IconImg id={skill.id} size={32} />
+        </div>
         <div className="flex-1 min-w-0">
           <div className="flex flex-wrap items-center gap-1 mb-1.5">
             <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${typeInfo.badge}`}>
@@ -994,20 +1005,18 @@ function SkillCard({ skill, highlight = "", onSelect }: { skill: Skill; highligh
                 🎴 S{seasonNum}
               </span>
             )}
+            {skill.premium && (
+              <span className="rounded-full bg-amber-900/40 border border-amber-700/40 text-amber-400 px-2 py-0.5 text-[10px] font-bold">
+                💎 Premium
+              </span>
+            )}
+            <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">
+              Lv. {skill.level}
+            </span>
           </div>
           <h3 className="text-sm font-bold text-white leading-snug line-clamp-2">
             {skill.name}
           </h3>
-        </div>
-        <div className="flex flex-col items-end gap-1 shrink-0">
-          {skill.premium && (
-            <span className="rounded-full bg-amber-900/40 border border-amber-700/40 text-amber-400 px-2 py-0.5 text-[10px] font-bold">
-              💎 Premium
-            </span>
-          )}
-          <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">
-            Lv. {skill.level}
-          </span>
         </div>
       </div>
 
@@ -1098,10 +1107,10 @@ function SkillRow({ skill, highlight = "", onSelect }: { skill: Skill; highlight
       }`}
       onClick={() => onSelect?.(skill)}
     >
-      {/* Type icon pill */}
-      <span className={`shrink-0 mt-0.5 inline-flex items-center justify-center w-8 h-8 rounded-lg border text-base ${typeInfo.badge}`}>
-        {typeInfo.icon}
-      </span>
+      {/* Icon */}
+      <div className="shrink-0 mt-0.5 w-8 h-8 flex items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.04]">
+        <IconImg id={skill.id} size={28} />
+      </div>
 
       {/* Main content */}
       <div className="flex-1 min-w-0">
@@ -1163,10 +1172,8 @@ function SkillCompactRow({ skill, highlight = "", onSelect }: { skill: Skill; hi
       }`}
       onClick={() => onSelect?.(skill)}
     >
-      {/* Type icon */}
-      <span className="shrink-0 text-base w-5 text-center" title={typeInfo.label}>
-        {typeInfo.icon}
-      </span>
+      {/* Icon */}
+      <IconImg id={skill.id} size={18} className="shrink-0" />
 
       {/* Name */}
       <p className="flex-1 min-w-0 text-xs font-medium text-slate-200 truncate">
@@ -1266,7 +1273,10 @@ function TalentGroupCard({ group }: { group: TalentGroup }) {
   return (
     <div className="flex flex-col gap-3 rounded-xl border border-white/[0.07] bg-white/[0.025] p-4 hover:border-white/15 hover:bg-white/[0.04] transition-all">
       {/* Header */}
-      <div className="flex items-start justify-between gap-2">
+      <div className="flex items-start gap-3">
+        <div className="shrink-0 w-10 h-10 flex items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.04]">
+          <IconImg id={group.baseId} size={32} />
+        </div>
         <div className="flex-1 min-w-0">
           <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold mb-1.5 ${typeInfo.badge}`}>
             {typeInfo.icon} {typeInfo.label}
@@ -1385,7 +1395,10 @@ function SenjutsuGroupCard({ group }: { group: SenjutsuGroup }) {
   return (
     <div className="flex flex-col gap-3 rounded-xl border border-white/[0.07] bg-white/[0.025] p-4 hover:border-white/15 hover:bg-white/[0.04] transition-all">
       {/* Header */}
-      <div className="flex items-start gap-2">
+      <div className="flex items-start gap-3">
+        <div className="shrink-0 w-10 h-10 flex items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.04]">
+          <IconImg id={group.baseId} size={32} />
+        </div>
         <div className="flex-1 min-w-0">
           <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold mb-1.5 ${typeInfo.badge}`}>
             {typeInfo.icon} {typeInfo.label}
@@ -1524,14 +1537,19 @@ function PetsTab({ pets }: { pets: Pet[] }) {
             const attacks = [...(pet.attacks ?? [])].sort((a, b) => a.level - b.level);
             return (
               <div key={pet.id} className="flex flex-col gap-3 rounded-xl border border-white/[0.07] bg-white/[0.025] p-4 hover:border-white/15 hover:bg-white/[0.04] transition-all">
-                <div className="flex items-start justify-between gap-2">
+                <div className="flex items-start gap-3">
+                  <div className="shrink-0 w-10 h-10 flex items-center justify-center rounded-lg border border-emerald-700/30 bg-emerald-950/20">
+                    <IconImg id={pet.id} size={32} />
+                  </div>
                   <div className="flex-1 min-w-0">
-                    <span className="inline-flex items-center gap-1 rounded-full border border-emerald-700/40 bg-emerald-950/30 px-2 py-0.5 text-[10px] font-bold text-emerald-300 mb-1.5">
-                      🐾 Pet
-                    </span>
+                    <div className="flex items-center gap-1.5 mb-1">
+                      <span className="inline-flex items-center gap-1 rounded-full border border-emerald-700/40 bg-emerald-950/30 px-2 py-0.5 text-[10px] font-bold text-emerald-300">
+                        🐾 Pet
+                      </span>
+                      <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">Lv. {pet.level}</span>
+                    </div>
                     <h3 className="text-sm font-bold text-white leading-snug">{pet.name}</h3>
                   </div>
-                  <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">Lv. {pet.level}</span>
                 </div>
 
                 <p className="text-xs text-slate-400 leading-relaxed line-clamp-3">{pet.description}</p>
@@ -1850,6 +1868,9 @@ function SeasonSkillCard({ skill }: { skill: Skill }) {
     <div className="flex flex-col gap-3 rounded-xl border border-indigo-800/20 bg-indigo-950/10 p-4">
       {/* Header row */}
       <div className="flex items-start gap-3">
+        <div className="shrink-0 w-10 h-10 flex items-center justify-center rounded-lg border border-indigo-800/30 bg-indigo-950/20">
+          <IconImg id={skill.id} size={32} />
+        </div>
         <div className="flex-1 min-w-0">
           <span className="inline-flex items-center gap-1 rounded-full border border-indigo-800/40 bg-indigo-950/30 px-2 py-0.5 text-[10px] font-bold text-indigo-300 mb-1.5">
             🌀 Kinjutsu
@@ -1925,7 +1946,10 @@ function SeasonItemCard({ item, effects }: { item: LibItem; effects: ItemEffect[
   return (
     <div className={`flex flex-col gap-3 rounded-xl border p-4 ${typeCfg?.border ?? "border-white/[0.07]"} ${typeCfg?.bg ?? "bg-white/[0.02]"}`}>
       {/* Header */}
-      <div className="flex items-start gap-2">
+      <div className="flex items-start gap-3">
+        <div className={`shrink-0 w-10 h-10 flex items-center justify-center rounded-lg border ${typeCfg?.border ?? "border-white/[0.08]"} bg-black/20`}>
+          <IconImg id={item.id} size={32} />
+        </div>
         <div className="flex-1 min-w-0">
           <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold mb-1.5 ${typeCfg?.border ?? ""} ${typeCfg?.bg ?? ""} ${typeCfg?.color ?? "text-slate-400"}`}>
             {typeCfg?.icon} {typeCfg?.label}
@@ -1976,10 +2000,17 @@ function SeasonCostumeCard({ name, variants, type }: { name: string; variants: L
   const typeCfg = ITEM_TYPE_CONFIG[type] ?? ITEM_TYPE_CONFIG.set;
   return (
     <div className={`flex flex-col gap-2 rounded-xl border p-3.5 ${typeCfg.border} ${typeCfg.bg}`}>
-      <span className={`inline-flex items-center gap-1 rounded-full border self-start px-2 py-0.5 text-[10px] font-bold ${typeCfg.border} ${typeCfg.bg} ${typeCfg.color}`}>
-        {typeCfg.icon} {typeCfg.label}
-      </span>
-      <h4 className="text-sm font-semibold text-white leading-snug">{name}</h4>
+      <div className="flex items-start gap-3">
+        <div className={`shrink-0 w-10 h-10 flex items-center justify-center rounded-lg border ${typeCfg.border} bg-black/20`}>
+          <IconImg id={variants[0]?.id ?? ""} size={32} />
+        </div>
+        <div className="flex-1 min-w-0">
+          <span className={`inline-flex items-center gap-1 rounded-full border self-start px-2 py-0.5 text-[10px] font-bold ${typeCfg.border} ${typeCfg.bg} ${typeCfg.color}`}>
+            {typeCfg.icon} {typeCfg.label}
+          </span>
+          <h4 className="text-sm font-semibold text-white leading-snug mt-1">{name}</h4>
+        </div>
+      </div>
       {variants[0]?.description && (
         <p className="text-[11px] text-slate-500 leading-relaxed">{variants[0].description}</p>
       )}
@@ -1989,6 +2020,344 @@ function SeasonCostumeCard({ name, variants, type }: { name: string; variants: L
             {i === 0 ? "♂ Male" : "♀ Female"}
           </span>
         ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Items Tab ────────────────────────────────────────────────────────────────
+
+const ITEM_SUB_TYPES = [
+  { key: "all",       label: "Semua",     icon: "🗂️" },
+  { key: "wpn",       label: "Weapon",    icon: "🗡️" },
+  { key: "back",      label: "Back Item", icon: "🎒" },
+  { key: "accessory", label: "Aksesori",  icon: "💍" },
+  { key: "set",       label: "Kostum",    icon: "👘" },
+  { key: "hair",      label: "Hairstyle", icon: "💇" },
+  { key: "item",      label: "Consumable", icon: "📦" },
+] as const;
+
+const ITEM_CATEGORY_FILTERS = [
+  { key: "all",        label: "Semua" },
+  { key: "none",       label: "Normal" },
+  { key: "clan",       label: "Clan" },
+  { key: "crew",       label: "Crew" },
+  { key: "shadowwar",  label: "Shadow War" },
+  { key: "event",      label: "Event" },
+  { key: "package",    label: "Package" },
+  { key: "spending",   label: "Spending" },
+  { key: "deals",      label: "Deals" },
+  { key: "leaderboard", label: "Leaderboard" },
+] as const;
+
+function ItemsTab() {
+  const [search, setSearch]       = useState("");
+  const [typeFilter, setType]     = useState("all");
+  const [catFilter, setCat]       = useState("all");
+  const [page, setPage]           = useState(1);
+  const [selectedItem, setSelected] = useState<LibItem | null>(null);
+  const resetPage = useCallback(() => setPage(1), []);
+
+  const items = _libItems;
+
+  const filtered = useMemo(() => {
+    const q = search.toLowerCase();
+    return items.filter((item) => {
+      if (typeFilter !== "all" && item.type !== typeFilter) return false;
+      if (catFilter === "none" && item.category) return false;
+      if (catFilter !== "all" && catFilter !== "none" && item.category !== catFilter) return false;
+      if (q && !item.name.toLowerCase().includes(q) && !item.id.toLowerCase().includes(q) && !(item.description ?? "").toLowerCase().includes(q)) return false;
+      return true;
+    });
+  }, [items, search, typeFilter, catFilter]);
+
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  const paginated  = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  // Count per type for badges
+  const typeCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const item of items) counts[item.type] = (counts[item.type] ?? 0) + 1;
+    return counts;
+  }, [items]);
+
+  return (
+    <div className="space-y-6">
+      {/* Search */}
+      <input
+        type="text"
+        placeholder="🔎 Cari nama, ID, atau deskripsi item..."
+        value={search}
+        onChange={(e) => { setSearch(e.target.value); resetPage(); }}
+        className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
+      />
+
+      {/* Type filter */}
+      <div>
+        <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-500">Tipe</p>
+        <div className="flex flex-wrap gap-1.5">
+          {ITEM_SUB_TYPES.map(({ key, label, icon }) => (
+            <button
+              key={key}
+              onClick={() => { setType(key); resetPage(); }}
+              className={`rounded-full border px-2.5 py-1 text-xs font-medium transition-all ${
+                typeFilter === key
+                  ? "bg-red-600/80 border-red-500 text-white"
+                  : "border-white/10 text-slate-500 hover:text-slate-300 hover:border-white/20"
+              }`}
+            >
+              {icon} {label}
+              {key !== "all" && typeCounts[key] != null && (
+                <span className="ml-1 opacity-60">({typeCounts[key]})</span>
+              )}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Category filter */}
+      <div>
+        <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-500">Kategori</p>
+        <div className="flex flex-wrap gap-1.5">
+          {ITEM_CATEGORY_FILTERS.map(({ key, label }) => (
+            <button
+              key={key}
+              onClick={() => { setCat(key); resetPage(); }}
+              className={`rounded-full border px-2.5 py-1 text-xs font-medium transition-all ${
+                catFilter === key
+                  ? "bg-red-600/80 border-red-500 text-white"
+                  : "border-white/10 text-slate-500 hover:text-slate-300 hover:border-white/20"
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <p className="text-xs text-slate-600">Menampilkan {filtered.length} dari {items.length} item</p>
+
+      {/* Grid */}
+      {filtered.length === 0 ? (
+        <EmptyState text="Tidak ada item yang cocok dengan filter." />
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {paginated.map((item) => (
+            <ItemGridCard key={item.id} item={item} onSelect={setSelected} highlight={search} />
+          ))}
+        </div>
+      )}
+
+      {totalPages > 1 && <Pagination page={page} total={totalPages} onChange={setPage} />}
+
+      {/* Detail modal */}
+      {selectedItem && <ItemDetailModal item={selectedItem} onClose={() => setSelected(null)} />}
+    </div>
+  );
+}
+
+function ItemGridCard({ item, onSelect, highlight = "" }: { item: LibItem; onSelect: (i: LibItem) => void; highlight?: string }) {
+  const typeCfg = ITEM_TYPE_CONFIG[item.type] ?? { label: item.type, icon: "📦", color: "text-slate-400", bg: "bg-slate-900/30", border: "border-slate-700/40" };
+  const seasonNum = getSeasonNumber(item.name);
+  const effects: ItemEffect[] = item.type === "wpn" ? (_wfxMap[item.id] ?? []) : item.type === "back" ? (_bfxMap[item.id] ?? []) : [];
+
+  return (
+    <div
+      className={`group flex flex-col gap-3 rounded-xl border p-4 cursor-pointer transition-all ${typeCfg.border} ${typeCfg.bg} hover:brightness-110`}
+      onClick={() => onSelect(item)}
+    >
+      {/* Header */}
+      <div className="flex items-start gap-3">
+        <div className={`shrink-0 w-10 h-10 flex items-center justify-center rounded-lg border ${typeCfg.border} bg-black/20`}>
+          <IconImg id={item.id} size={32} />
+        </div>
+        <div className="flex-1 min-w-0">
+          <div className="flex flex-wrap items-center gap-1 mb-1">
+            <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${typeCfg.border} ${typeCfg.bg} ${typeCfg.color}`}>
+              {typeCfg.icon} {typeCfg.label}
+            </span>
+            {seasonNum !== null && (
+              <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold bg-rose-900/40 border-rose-700/40 text-rose-300">
+                S{seasonNum}
+              </span>
+            )}
+            {item.premium && (
+              <span className="rounded-full bg-amber-900/40 border border-amber-700/40 text-amber-400 px-2 py-0.5 text-[10px] font-bold">
+                💎
+              </span>
+            )}
+          </div>
+          <h3 className="text-sm font-bold text-white leading-snug line-clamp-2">
+            {highlightText(item.name, highlight)}
+          </h3>
+        </div>
+      </div>
+
+      {/* Description */}
+      {item.description && (
+        <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">{item.description}</p>
+      )}
+
+      {/* Stats */}
+      <div className="grid grid-cols-2 gap-1.5 mt-auto">
+        {item.damage > 0 && <Stat label="DMG" value={item.damage} />}
+        {item.level > 0 && <Stat label="Level" value={item.level} />}
+        {effects.length > 0 && <Stat label="Efek" value={`${effects.length} pasif`} />}
+      </div>
+
+      {/* Price + hint */}
+      <div className="flex items-center justify-between pt-2 border-t border-white/5 gap-2">
+        <div className="flex gap-2">
+          {item.price_gold > 0 && (
+            <span className="text-[11px] text-amber-500">G {item.price_gold.toLocaleString("id-ID")}</span>
+          )}
+          {item.price_tokens > 0 && (
+            <span className="text-[11px] text-blue-400">💎 {item.price_tokens}</span>
+          )}
+        </div>
+        <span className="text-[10px] text-slate-700 group-hover:text-slate-400 transition-colors shrink-0">
+          Detail →
+        </span>
+      </div>
+    </div>
+  );
+}
+
+function ItemDetailModal({ item, onClose }: { item: LibItem; onClose: () => void }) {
+  const typeCfg = ITEM_TYPE_CONFIG[item.type] ?? { label: item.type, icon: "📦", color: "text-slate-400", bg: "bg-slate-900/30", border: "border-slate-700/40" };
+  const seasonNum = getSeasonNumber(item.name);
+  const effects: ItemEffect[] = item.type === "wpn" ? (_wfxMap[item.id] ?? []) : item.type === "back" ? (_bfxMap[item.id] ?? []) : [];
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
+    document.addEventListener("keydown", handler);
+    document.body.style.overflow = "hidden";
+    return () => { document.removeEventListener("keydown", handler); document.body.style.overflow = ""; };
+  }, [onClose]);
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+      <div
+        className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="sticky top-0 z-10 flex items-start justify-between gap-3 p-5 pb-4 border-b border-white/[0.07] bg-[#0e0e14]">
+          <div className="flex items-start gap-3 flex-1 min-w-0">
+            <div className={`shrink-0 w-12 h-12 flex items-center justify-center rounded-xl border ${typeCfg.border} bg-black/20`}>
+              <IconImg id={item.id} size={40} />
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap items-center gap-1.5 mb-2">
+                <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${typeCfg.border} ${typeCfg.bg} ${typeCfg.color}`}>
+                  {typeCfg.icon} {typeCfg.label}
+                </span>
+                {seasonNum !== null && (
+                  <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold bg-rose-900/40 border-rose-700/40 text-rose-300">
+                    🎴 S{seasonNum}
+                  </span>
+                )}
+                {item.premium && (
+                  <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-bold bg-amber-900/40 border-amber-700/40 text-amber-400">
+                    💎 Premium
+                  </span>
+                )}
+                {item.level > 0 && (
+                  <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">
+                    Lv. {item.level}
+                  </span>
+                )}
+              </div>
+              <h2 className="text-base font-bold text-white leading-snug">{item.name}</h2>
+              <p className="text-[11px] text-slate-600 font-mono mt-1">ID: {item.id}</p>
+            </div>
+          </div>
+          <button
+            onClick={onClose}
+            className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm mt-0.5"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div className="p-5 space-y-5">
+          {/* Description */}
+          {item.description && (
+            <div>
+              <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Deskripsi</p>
+              <p className="text-sm text-slate-300 leading-relaxed">{item.description}</p>
+            </div>
+          )}
+
+          {/* Stats */}
+          <div>
+            <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Stats</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+              {item.damage > 0 && <StatLarge label="Damage" value={item.damage} />}
+              {item.level > 0 && <StatLarge label="Level" value={item.level} />}
+              {item.category && <StatLarge label="Kategori" value={item.category} />}
+            </div>
+          </div>
+
+          {/* Effects */}
+          {effects.length > 0 && (
+            <div>
+              <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Efek Pasif</p>
+              <div className="flex flex-col gap-2">
+                {effects.map((fx, i) => {
+                  const name = fx.effect_name ?? fx.effect ?? "—";
+                  const parts: string[] = [];
+                  if (fx.target) parts.push(fx.target === "enemy" ? "Musuh" : fx.target === "self" ? "Diri" : fx.target);
+                  if (fx.amount != null && fx.amount > 0) parts.push(fx.calc_type === "percent" ? `${fx.amount}%` : `+${fx.amount}`);
+                  if (fx.chance != null && fx.chance < 100) parts.push(`${fx.chance}% chance`);
+                  if (fx.duration != null && fx.duration > 0) parts.push(`${fx.duration}t`);
+                  const isDebuff = fx.type === "Debuff";
+                  return (
+                    <div
+                      key={i}
+                      className={`flex items-center justify-between gap-2 rounded-lg border px-3 py-2 text-xs ${
+                        isDebuff
+                          ? "bg-red-950/30 border-red-800/30 text-red-300"
+                          : "bg-emerald-950/30 border-emerald-800/30 text-emerald-300"
+                      }`}
+                    >
+                      <span className="font-medium truncate">{name}</span>
+                      {parts.length > 0 && <span className="shrink-0 text-[11px] opacity-70">{parts.join(" · ")}</span>}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* Price */}
+          {(item.price_gold > 0 || item.price_tokens > 0 || item.price_prestige > 0) && (
+            <div>
+              <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Harga</p>
+              <div className="flex flex-wrap gap-3">
+                {item.price_gold > 0 && (
+                  <div className="flex items-center gap-1.5 rounded-lg border border-amber-700/30 bg-amber-950/20 px-3 py-2">
+                    <span className="text-amber-400 text-xs">G</span>
+                    <span className="text-sm font-bold text-amber-300">{item.price_gold.toLocaleString("id-ID")}</span>
+                  </div>
+                )}
+                {item.price_tokens > 0 && (
+                  <div className="flex items-center gap-1.5 rounded-lg border border-blue-700/30 bg-blue-950/20 px-3 py-2">
+                    <span className="text-blue-400 text-xs">T</span>
+                    <span className="text-sm font-bold text-blue-300">{item.price_tokens}</span>
+                  </div>
+                )}
+                {item.price_prestige > 0 && (
+                  <div className="flex items-center gap-1.5 rounded-lg border border-purple-700/30 bg-purple-950/20 px-3 py-2">
+                    <span className="text-purple-400 text-xs">P</span>
+                    <span className="text-sm font-bold text-purple-300">{item.price_prestige}</span>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
@@ -2384,10 +2753,10 @@ function EffectSkillsModal({
                     onClick={() => setSelectedSkill(skill)}
                     className="w-full flex items-center gap-3 px-5 py-3 hover:bg-white/[0.04] transition-colors text-left group"
                   >
-                    {/* Type icon */}
-                    <span className={`shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border text-base ${typeInfo.badge}`}>
-                      {typeInfo.icon}
-                    </span>
+                    {/* Icon */}
+                    <div className="shrink-0 w-8 h-8 flex items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.04]">
+                      <IconImg id={skill.id} size={28} />
+                    </div>
 
                     {/* Name + badges */}
                     <div className="flex-1 min-w-0">
