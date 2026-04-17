@@ -11,6 +11,7 @@ import gamedataJson from "../../dump/gamedata.json";
 import libraryJson from "../../dump/library.json";
 import weaponEffectJson from "../../dump/weapon-effect.json";
 import backEffectJson from "../../dump/back_item-effect.json";
+import enemyJson from "../../dump/enemy.json";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -98,6 +99,50 @@ type SeasonGroup = {
 };
 
 type SeasonalCategory = "clan" | "crew" | "shadowwar";
+
+type EnemyAttackEffect = {
+  passive?: boolean;
+  type?: string;
+  target?: string;
+  effect?: string;
+  effect_name?: string;
+  calc_type?: string;
+  amount?: number;
+  duration?: number;
+  chance?: number;
+};
+
+type EnemyAttack = {
+  cooldown: number;
+  animation?: string;
+  posType?: string;
+  dmg: number;
+  multi_hit: boolean;
+  effects: EnemyAttackEffect[];
+  is_self_skill?: boolean;
+  is_static?: boolean;
+  combo_skill?: boolean;
+  next_skill?: boolean;
+};
+
+type Enemy = {
+  id: string;
+  level: number;
+  name: string;
+  hp: number;
+  cp: number;
+  dodge: number;
+  critical: number;
+  purify: number;
+  accuracy: number;
+  agility: number;
+  reactive: number;
+  combustion: number;
+  description: string;
+  calculation?: number;
+  calculation_agility?: number;
+  attacks?: EnemyAttack[];
+};
 
 type Talent = {
   id: string;
@@ -287,7 +332,9 @@ function groupByBaseId<T extends { id: string }>(items: T[]) {
 // ─── Main Component ───────────────────────────────────────────────────────────
 
 export default function Encyclopedia() {
-  const [activeTab, setActiveTab] = useState<"skills" | "items" | "talents" | "senjutsu" | "pets" | "effects" | "seasonal">("skills");
+  const [activeTab, setActiveTab] = useState<"skills" | "items" | "talents" | "senjutsu" | "pets" | "enemies" | "effects" | "seasonal">("skills");
+
+  const enemies = enemyJson as Enemy[];
 
   const skills = skillsJson as Skill[];
   const talents = talentsJson as Talent[];
@@ -302,6 +349,7 @@ export default function Encyclopedia() {
     { key: "talents",  label: "Talents",  count: [...groupByBaseId(talents).keys()].length,      icon: "💫" },
     { key: "senjutsu", label: "Senjutsu", count: [...groupByBaseId(senjutsu).keys()].length,     icon: "🍃" },
     { key: "pets",     label: "Pets",     count: pets.length,                                     icon: "🐾" },
+    { key: "enemies",  label: "Enemy",   count: enemies.length,                                  icon: "👹" },
     { key: "effects",  label: "Efek",     count: GAME_EFFECTS.length,                           icon: "✨" },
     { key: "seasonal", label: "Seasonal", count: totalSeasonal,                                  icon: "🏆" },
   ] as const;
@@ -309,26 +357,28 @@ export default function Encyclopedia() {
   return (
     <div>
       {/* Tab Bar */}
-      <div className="flex gap-1 mb-8 rounded-xl border border-white/10 bg-white/[0.03] p-1">
-        {tabs.map((tab) => (
-          <button
-            key={tab.key}
-            onClick={() => setActiveTab(tab.key)}
-            className={`flex-1 flex items-center justify-center gap-1.5 rounded-lg px-2 sm:px-4 py-2.5 text-xs sm:text-sm font-semibold transition-all ${
-              activeTab === tab.key
-                ? "bg-red-600/80 text-white shadow-lg shadow-red-900/30"
-                : "text-slate-400 hover:text-white hover:bg-white/5"
-            }`}
-          >
-            <span>{tab.icon}</span>
-            <span>{tab.label}</span>
-            <span className={`hidden sm:inline-flex rounded-full px-2 py-0.5 text-[10px] font-bold ${
-              activeTab === tab.key ? "bg-white/20 text-white" : "bg-white/5 text-slate-500"
-            }`}>
-              {tab.count}
-            </span>
-          </button>
-        ))}
+      <div className="mb-8 overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div className="inline-flex gap-1 rounded-xl border border-white/10 bg-white/[0.03] p-1 min-w-max sm:min-w-0 sm:flex sm:flex-wrap">
+          {tabs.map((tab) => (
+            <button
+              key={tab.key}
+              onClick={() => setActiveTab(tab.key)}
+              className={`flex items-center justify-center gap-1.5 rounded-lg px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-semibold transition-all whitespace-nowrap sm:flex-1 ${
+                activeTab === tab.key
+                  ? "bg-red-600/80 text-white shadow-lg shadow-red-900/30"
+                  : "text-slate-400 hover:text-white hover:bg-white/5"
+              }`}
+            >
+              <span>{tab.icon}</span>
+              <span>{tab.label}</span>
+              <span className={`hidden lg:inline-flex rounded-full px-2 py-0.5 text-[10px] font-bold ${
+                activeTab === tab.key ? "bg-white/20 text-white" : "bg-white/5 text-slate-500"
+              }`}>
+                {tab.count}
+              </span>
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Tab Content */}
@@ -337,6 +387,7 @@ export default function Encyclopedia() {
       {activeTab === "talents"  && <TalentsTab  talents={talents} />}
       {activeTab === "senjutsu" && <SenjutsuTab senjutsu={senjutsu} />}
       {activeTab === "pets"     && <PetsTab pets={pets} />}
+      {activeTab === "enemies"  && <EnemyTab enemies={enemies} />}
       {activeTab === "effects"  && <EffectsTab  />}
       {activeTab === "seasonal" && <SeasonalTab />}
     </div>
@@ -2354,6 +2405,476 @@ function ItemDetailModal({ item, onClose }: { item: LibItem; onClose: () => void
                     <span className="text-sm font-bold text-purple-300">{item.price_prestige}</span>
                   </div>
                 )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── Enemy Tab ────────────────────────────────────────────────────────────────
+
+function calcEnemyStats(enemy: Enemy, playerLevel: number) {
+  const hasCalc = enemy.calculation != null;
+  if (!hasCalc) {
+    // Fixed stats enemy — use raw values
+    return {
+      level: enemy.level,
+      hp: enemy.hp,
+      cp: enemy.cp,
+      agility: enemy.agility,
+      dodge: enemy.dodge,
+      critical: enemy.critical,
+      purify: enemy.purify,
+      accuracy: enemy.accuracy,
+      reactive: enemy.reactive,
+      combustion: enemy.combustion,
+      isDynamic: false,
+    };
+  }
+
+  const eLv = playerLevel + 5;
+  const hp = playerLevel * enemy.calculation!;
+  const cp = playerLevel * enemy.calculation!;
+  const agility = 10 + playerLevel + (enemy.calculation_agility ?? 0);
+
+  return {
+    level: eLv,
+    hp,
+    cp,
+    agility,
+    dodge: enemy.dodge,
+    critical: enemy.critical,
+    purify: enemy.purify,
+    accuracy: enemy.accuracy,
+    reactive: enemy.reactive,
+    combustion: enemy.combustion,
+    isDynamic: true,
+  };
+}
+
+const ENEMY_CALC_FILTERS = [
+  { key: "all",     label: "Semua" },
+  { key: "dynamic", label: "Dynamic (Calc)" },
+  { key: "fixed",   label: "Fixed Stats" },
+] as const;
+
+const ENEMY_SORT_OPTIONS = [
+  { key: "name",    label: "Nama" },
+  { key: "agility", label: "Agility ↓" },
+  { key: "hp",      label: "HP ↓" },
+  { key: "level",   label: "Level ↓" },
+] as const;
+
+function EnemyTab({ enemies }: { enemies: Enemy[] }) {
+  const [search, setSearch]       = useState("");
+  const [calcFilter, setCalcFilter] = useState("all");
+  const [sortBy, setSortBy]       = useState<string>("name");
+  const [playerLevel, setPlayerLevel] = useState(95);
+  const [page, setPage]           = useState(1);
+  const [selectedEnemy, setSelected] = useState<Enemy | null>(null);
+  const resetPage = useCallback(() => setPage(1), []);
+
+  // Top agility leaderboard (always based on current player level)
+  const topAgility = useMemo(() => {
+    return [...enemies]
+      .map((e) => ({ enemy: e, stats: calcEnemyStats(e, playerLevel) }))
+      .sort((a, b) => b.stats.agility - a.stats.agility)
+      .slice(0, 10);
+  }, [enemies, playerLevel]);
+
+  const filtered = useMemo(() => {
+    const q = search.toLowerCase();
+    const list = enemies.filter((e) => {
+      if (q && !e.name.toLowerCase().includes(q) && !e.id.toLowerCase().includes(q)) return false;
+      if (calcFilter === "dynamic" && e.calculation == null) return false;
+      if (calcFilter === "fixed" && e.calculation != null) return false;
+      return true;
+    });
+
+    // Sort
+    if (sortBy === "agility") {
+      list.sort((a, b) => calcEnemyStats(b, playerLevel).agility - calcEnemyStats(a, playerLevel).agility);
+    } else if (sortBy === "hp") {
+      list.sort((a, b) => calcEnemyStats(b, playerLevel).hp - calcEnemyStats(a, playerLevel).hp);
+    } else if (sortBy === "level") {
+      list.sort((a, b) => calcEnemyStats(b, playerLevel).level - calcEnemyStats(a, playerLevel).level);
+    } else {
+      list.sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    return list;
+  }, [enemies, search, calcFilter, sortBy, playerLevel]);
+
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  const paginated  = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  const dynamicCount = enemies.filter((e) => e.calculation != null).length;
+  const fixedCount   = enemies.length - dynamicCount;
+
+  return (
+    <div className="space-y-6">
+      {/* Player Level Input */}
+      <div className="rounded-xl border border-red-800/30 bg-red-950/10 p-4">
+        <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+          <div className="flex-1">
+            <p className="text-sm font-bold text-red-300 mb-1">👤 Level Karakter</p>
+            <p className="text-[11px] text-slate-500 leading-relaxed">
+              Enemy dengan <span className="text-amber-400 font-semibold">calculation</span> akan dihitung berdasarkan level kamu.
+              Enemy level = level + 5. HP/CP = level × calc. Agility = 10 + level + calc_agility.
+            </p>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-xs text-slate-500">Lv.</span>
+            <input
+              type="number"
+              min={1}
+              max={200}
+              value={playerLevel}
+              onChange={(e) => setPlayerLevel(Math.max(1, Math.min(200, parseInt(e.target.value) || 1)))}
+              className="w-20 rounded-lg border border-white/10 bg-white/[0.06] px-3 py-2 text-sm font-bold text-white text-center focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Top Agility Leaderboard */}
+      <div className="rounded-xl border border-violet-800/30 bg-violet-950/10 p-4">
+        <p className="text-sm font-bold text-violet-300 mb-3">🏅 Top 10 Highest Agility <span className="text-[11px] font-normal text-slate-500">(@ Lv. {playerLevel})</span></p>
+        <div className="overflow-x-auto">
+          <table className="w-full text-xs">
+            <thead>
+              <tr className="text-slate-500 border-b border-white/[0.06]">
+                <th className="text-left py-1.5 pr-2 w-8">#</th>
+                <th className="text-left py-1.5 pr-2">Enemy</th>
+                <th className="text-right py-1.5 px-2">Agility</th>
+                <th className="text-right py-1.5 px-2">HP</th>
+                <th className="text-right py-1.5 px-2">Lv</th>
+                <th className="text-right py-1.5 pl-2">Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              {topAgility.map(({ enemy, stats }, i) => (
+                <tr
+                  key={enemy.id}
+                  className="border-b border-white/[0.03] hover:bg-white/[0.03] cursor-pointer transition-colors"
+                  onClick={() => setSelected(enemy)}
+                >
+                  <td className={`py-1.5 pr-2 font-bold ${i < 3 ? "text-amber-400" : "text-slate-600"}`}>
+                    {i + 1}
+                  </td>
+                  <td className="py-1.5 pr-2 font-semibold text-white truncate max-w-[180px]">{enemy.name}</td>
+                  <td className="py-1.5 px-2 text-right font-bold text-violet-300">{stats.agility}</td>
+                  <td className="py-1.5 px-2 text-right text-slate-400">{stats.hp.toLocaleString("id-ID")}</td>
+                  <td className="py-1.5 px-2 text-right text-slate-500">{stats.level}</td>
+                  <td className="py-1.5 pl-2 text-right">
+                    {stats.isDynamic ? (
+                      <span className="text-[10px] font-bold text-amber-400">⚡</span>
+                    ) : (
+                      <span className="text-[10px] font-bold text-slate-600">📌</span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* Search */}
+      <input
+        type="text"
+        placeholder="🔎 Cari nama atau ID enemy..."
+        value={search}
+        onChange={(e) => { setSearch(e.target.value); resetPage(); }}
+        className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
+      />
+
+      {/* Filters row */}
+      <div className="flex flex-col sm:flex-row gap-3">
+        {/* Calc filter */}
+        <div>
+          <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-slate-500">Tipe</p>
+          <div className="flex flex-wrap gap-1.5">
+            {ENEMY_CALC_FILTERS.map(({ key, label }) => (
+              <button
+                key={key}
+                onClick={() => { setCalcFilter(key); resetPage(); }}
+                className={`rounded-full border px-2.5 py-1 text-xs font-medium transition-all ${
+                  calcFilter === key
+                    ? "bg-red-600/80 border-red-500 text-white"
+                    : "border-white/10 text-slate-500 hover:text-slate-300 hover:border-white/20"
+                }`}
+              >
+                {label}
+                {key === "dynamic" && <span className="ml-1 opacity-60">({dynamicCount})</span>}
+                {key === "fixed" && <span className="ml-1 opacity-60">({fixedCount})</span>}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Sort */}
+        <div>
+          <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-slate-500">Urutkan</p>
+          <div className="flex flex-wrap gap-1.5">
+            {ENEMY_SORT_OPTIONS.map(({ key, label }) => (
+              <button
+                key={key}
+                onClick={() => { setSortBy(key); resetPage(); }}
+                className={`rounded-full border px-2.5 py-1 text-xs font-medium transition-all ${
+                  sortBy === key
+                    ? "bg-red-600/80 border-red-500 text-white"
+                    : "border-white/10 text-slate-500 hover:text-slate-300 hover:border-white/20"
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <p className="text-xs text-slate-600">Menampilkan {filtered.length} dari {enemies.length} enemy</p>
+
+      {/* Grid */}
+      {filtered.length === 0 ? (
+        <EmptyState text="Tidak ada enemy yang cocok dengan filter." />
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {paginated.map((enemy) => (
+            <EnemyCard key={enemy.id} enemy={enemy} playerLevel={playerLevel} onSelect={setSelected} />
+          ))}
+        </div>
+      )}
+
+      {totalPages > 1 && <Pagination page={page} total={totalPages} onChange={setPage} />}
+
+      {/* Detail modal */}
+      {selectedEnemy && (
+        <EnemyDetailModal enemy={selectedEnemy} playerLevel={playerLevel} onClose={() => setSelected(null)} />
+      )}
+    </div>
+  );
+}
+
+function EnemyCard({ enemy, playerLevel, onSelect }: { enemy: Enemy; playerLevel: number; onSelect: (e: Enemy) => void }) {
+  const stats = calcEnemyStats(enemy, playerLevel);
+  const attacks = enemy.attacks ?? [];
+  const totalEffects = attacks.reduce((sum, a) => sum + (a.effects?.length ?? 0), 0);
+
+  return (
+    <div
+      className="group flex flex-col gap-3 rounded-xl border border-white/[0.07] bg-white/[0.025] p-4 cursor-pointer hover:border-white/15 hover:bg-white/[0.04] transition-all"
+      onClick={() => onSelect(enemy)}
+    >
+      {/* Header */}
+      <div className="flex items-start gap-3">
+        <div className="shrink-0 w-10 h-10 flex items-center justify-center rounded-lg border border-red-800/30 bg-red-950/20 text-lg">
+          👹
+        </div>
+        <div className="flex-1 min-w-0">
+          <div className="flex flex-wrap items-center gap-1 mb-1">
+            {stats.isDynamic ? (
+              <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold border-amber-700/40 bg-amber-950/30 text-amber-300">
+                ⚡ Dynamic
+              </span>
+            ) : (
+              <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold border-slate-600/40 bg-slate-800/30 text-slate-400">
+                📌 Fixed
+              </span>
+            )}
+            <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">
+              Lv. {stats.level}
+            </span>
+          </div>
+          <h3 className="text-sm font-bold text-white leading-snug line-clamp-1">{enemy.name}</h3>
+        </div>
+      </div>
+
+      {/* Stats */}
+      <div className="grid grid-cols-2 gap-1.5">
+        <Stat label="HP" value={stats.hp.toLocaleString("id-ID")} />
+        <Stat label="CP" value={stats.cp.toLocaleString("id-ID")} />
+        <Stat label="Agility" value={stats.agility} />
+        {stats.dodge > 0 && <Stat label="Dodge" value={`${stats.dodge}%`} />}
+        {stats.critical > 0 && <Stat label="Crit" value={`${stats.critical}%`} />}
+        {stats.reactive > 0 && <Stat label="Reactive" value={`${stats.reactive}%`} />}
+      </div>
+
+      {/* Footer */}
+      <div className="flex items-center justify-between pt-2 border-t border-white/5 gap-2">
+        <div className="flex gap-2 text-[11px]">
+          <span className="text-slate-500">{attacks.length} skill</span>
+          {totalEffects > 0 && <span className="text-violet-400">{totalEffects} efek</span>}
+        </div>
+        <span className="text-[10px] text-slate-700 group-hover:text-slate-400 transition-colors shrink-0">
+          Detail →
+        </span>
+      </div>
+    </div>
+  );
+}
+
+function EnemyDetailModal({ enemy, playerLevel, onClose }: { enemy: Enemy; playerLevel: number; onClose: () => void }) {
+  const stats = calcEnemyStats(enemy, playerLevel);
+  const attacks = enemy.attacks ?? [];
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
+    document.addEventListener("keydown", handler);
+    document.body.style.overflow = "hidden";
+    return () => { document.removeEventListener("keydown", handler); document.body.style.overflow = ""; };
+  }, [onClose]);
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+      <div
+        className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="sticky top-0 z-10 flex items-start justify-between gap-3 p-5 pb-4 border-b border-white/[0.07] bg-[#0e0e14]">
+          <div className="flex items-start gap-3 flex-1 min-w-0">
+            <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-xl border border-red-800/30 bg-red-950/20 text-2xl">
+              👹
+            </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap items-center gap-1.5 mb-2">
+                {stats.isDynamic ? (
+                  <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold border-amber-700/40 bg-amber-950/30 text-amber-300">
+                    ⚡ Dynamic
+                  </span>
+                ) : (
+                  <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold border-slate-600/40 bg-slate-800/30 text-slate-400">
+                    📌 Fixed
+                  </span>
+                )}
+                <span className="text-[11px] text-slate-600 bg-white/5 px-2 py-0.5 rounded-full">
+                  Lv. {stats.level}
+                </span>
+              </div>
+              <h2 className="text-base font-bold text-white leading-snug">{enemy.name}</h2>
+              <p className="text-[11px] text-slate-600 font-mono mt-1">ID: {enemy.id}</p>
+            </div>
+          </div>
+          <button
+            onClick={onClose}
+            className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm mt-0.5"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div className="p-5 space-y-5">
+          {/* Calculation info */}
+          {stats.isDynamic && (
+            <div className="rounded-lg border border-amber-800/30 bg-amber-950/15 px-3 py-2.5 text-xs text-amber-300/80 space-y-1">
+              <p className="font-semibold text-amber-300">Formula (Player Lv. {playerLevel})</p>
+              <p>Enemy Level = {playerLevel} + 5 = <span className="font-bold text-white">{stats.level}</span></p>
+              <p>HP = {playerLevel} × {enemy.calculation} = <span className="font-bold text-white">{stats.hp.toLocaleString("id-ID")}</span></p>
+              <p>CP = {playerLevel} × {enemy.calculation} = <span className="font-bold text-white">{stats.cp.toLocaleString("id-ID")}</span></p>
+              <p>Agility = 10 + {playerLevel} + {enemy.calculation_agility ?? 0} = <span className="font-bold text-white">{stats.agility}</span></p>
+            </div>
+          )}
+
+          {/* Stats */}
+          <div>
+            <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Stats</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+              <StatLarge label="HP" value={stats.hp.toLocaleString("id-ID")} />
+              <StatLarge label="CP" value={stats.cp.toLocaleString("id-ID")} />
+              <StatLarge label="Agility" value={stats.agility} />
+              <StatLarge label="Dodge" value={`${stats.dodge}%`} />
+              <StatLarge label="Critical" value={`${stats.critical}%`} />
+              <StatLarge label="Purify" value={`${stats.purify}%`} />
+              <StatLarge label="Accuracy" value={`${stats.accuracy}%`} />
+              <StatLarge label="Reactive" value={`${stats.reactive}%`} />
+              {stats.combustion > 0 && <StatLarge label="Combustion" value={`${stats.combustion}%`} />}
+            </div>
+          </div>
+
+          {/* Raw data for dynamic enemies */}
+          {stats.isDynamic && (
+            <div>
+              <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Raw Data</p>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                <StatLarge label="Calculation" value={enemy.calculation!} />
+                <StatLarge label="Calc Agility" value={enemy.calculation_agility ?? 0} />
+                <StatLarge label="Base HP" value={enemy.hp} />
+                <StatLarge label="Base CP" value={enemy.cp} />
+                <StatLarge label="Base Agility" value={enemy.agility} />
+              </div>
+            </div>
+          )}
+
+          {/* Attacks */}
+          {attacks.length > 0 && (
+            <div>
+              <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">
+                Skill ({attacks.length})
+              </p>
+              <div className="flex flex-col gap-3">
+                {attacks.map((atk, i) => (
+                  <div key={i} className="rounded-xl border border-white/[0.08] bg-white/[0.02] p-3 space-y-2">
+                    {/* Attack header */}
+                    <div className="flex items-center justify-between gap-2">
+                      <div className="flex items-center gap-2">
+                        <span className="text-xs font-bold text-white">Skill {i + 1}</span>
+                        {atk.multi_hit && (
+                          <span className="text-[10px] font-bold border rounded-full px-1.5 py-0.5 border-orange-700/40 bg-orange-950/30 text-orange-300">
+                            Multi-hit
+                          </span>
+                        )}
+                        {atk.is_self_skill && (
+                          <span className="text-[10px] font-bold border rounded-full px-1.5 py-0.5 border-cyan-700/40 bg-cyan-950/30 text-cyan-300">
+                            Self
+                          </span>
+                        )}
+                        {atk.combo_skill && (
+                          <span className="text-[10px] font-bold border rounded-full px-1.5 py-0.5 border-violet-700/40 bg-violet-950/30 text-violet-300">
+                            Combo
+                          </span>
+                        )}
+                      </div>
+                      <div className="flex items-center gap-2 text-[11px]">
+                        {atk.dmg > 0 && <span className="text-orange-400 font-bold">{atk.dmg}% DMG</span>}
+                        {atk.cooldown > 0 && <span className="text-slate-500">{atk.cooldown}t CD</span>}
+                      </div>
+                    </div>
+
+                    {/* Effects */}
+                    {atk.effects && atk.effects.length > 0 && (
+                      <div className="flex flex-col gap-1.5">
+                        {atk.effects.map((fx, j) => {
+                          const name = fx.effect_name ?? fx.effect ?? "—";
+                          const parts: string[] = [];
+                          if (fx.target) parts.push(fx.target === "enemy" ? "Target" : fx.target === "self" ? "Diri" : fx.target);
+                          if (fx.amount != null && fx.amount > 0) parts.push(fx.calc_type === "percent" ? `${fx.amount}%` : `+${fx.amount}`);
+                          if (fx.chance != null && fx.chance > 0 && fx.chance < 100) parts.push(`${fx.chance}% chance`);
+                          if (fx.duration != null && fx.duration > 0) parts.push(`${fx.duration}t`);
+                          const isDebuff = fx.type === "Debuff";
+                          return (
+                            <div
+                              key={j}
+                              className={`flex items-center justify-between gap-2 rounded-md border px-2.5 py-1.5 text-xs ${
+                                isDebuff
+                                  ? "bg-red-950/30 border-red-800/30 text-red-300"
+                                  : "bg-emerald-950/30 border-emerald-800/30 text-emerald-300"
+                              }`}
+                            >
+                              <span className="font-medium truncate">{name}</span>
+                              {parts.length > 0 && <span className="shrink-0 text-[11px] opacity-70">{parts.join(" · ")}</span>}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
           )}
