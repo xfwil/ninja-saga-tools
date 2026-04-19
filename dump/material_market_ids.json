@@ -1,0 +1,66 @@
+{
+  "accessory": [
+    "accessory_53"
+  ],
+  "back": [
+    "back_2412",
+    "back_2413",
+    "back_2414",
+    "back_2439",
+    "back_2440",
+    "back_2441",
+    "back_2442",
+    "back_2443"
+  ],
+  "hair": [
+    "hair_2378_0",
+    "hair_2379_0",
+    "hair_2394_0",
+    "hair_2395_0",
+    "hair_2396_0",
+    "hair_2397_0"
+  ],
+  "pet": [
+    "pet_littlejyubi",
+    "pet_mikocat"
+  ],
+  "set": [
+    "set_136_0",
+    "set_2419_0",
+    "set_2420_0",
+    "set_2435_0",
+    "set_2436_0",
+    "set_2437_0",
+    "set_2438_0",
+    "set_786_0"
+  ],
+  "skill": [
+    "skill_2336",
+    "skill_2337",
+    "skill_2343",
+    "skill_2350",
+    "skill_2351",
+    "skill_2352",
+    "skill_2353",
+    "skill_377",
+    "skill_806",
+    "skill_807",
+    "skill_808",
+    "skill_809",
+    "skill_810",
+    "skill_845"
+  ],
+  "wpn": [
+    "wpn_2101",
+    "wpn_2194",
+    "wpn_2414",
+    "wpn_2415",
+    "wpn_2416",
+    "wpn_2424",
+    "wpn_2430",
+    "wpn_2431",
+    "wpn_2432",
+    "wpn_2433",
+    "wpn_2434"
+  ]
+}

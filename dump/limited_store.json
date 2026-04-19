@@ -1,0 +1,19 @@
+{
+  "source": "MysteriousMarket.getAllPackagesList",
+  "note": "Full pool of skills available in Limited Store. These rotate per player via reroll. Names resolved from raw AMF bytes.",
+  "skill_count": 12,
+  "skills": [
+    {"id": "skill_508", "name": "Shield Bash"},
+    {"id": "skill_854", "name": "Aphrodites Blessing"},
+    {"id": "skill_723", "name": "Deadman Assault"},
+    {"id": "skill_386", "name": "Dark Demonic Illusion Bewitching Eyes"},
+    {"id": "skill_862", "name": "Kinjutsu: Advanced Bijuu Armor"},
+    {"id": "skill_721", "name": "Kinjutsu: Advanced Deadly Sickle"},
+    {"id": "skill_703", "name": "Kinjutsu: Monarch of Thunder Plus"},
+    {"id": "skill_369", "name": "Phantom Impulse"},
+    {"id": "skill_860", "name": "Kinjutsu: Bijuu Claw"},
+    {"id": "skill_393", "name": "Tenson Omi Korin & Gongen"},
+    {"id": "skill_9007", "name": "Bijuu Bomb Plus"},
+    {"id": "skill_803", "name": "Extreme Rabbit Boxing"}
+  ]
+}
