@@ -12,6 +12,10 @@ import libraryJson from "../../dump/library.json";
 import weaponEffectJson from "../../dump/weapon-effect.json";
 import backEffectJson from "../../dump/back_item-effect.json";
 import enemyJson from "../../dump/enemy.json";
+import materialMarketIdsJson from "../../dump/material_market_ids.json";
+import huntingMarketIdsJson from "../../dump/hunting_market_ids.json";
+import friendshipShopIdsJson from "../../dump/friendship_shop_ids.json";
+import limitedStoreIdsJson from "../../dump/limited_store_ids.json";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -259,6 +263,389 @@ const _wfxMap: Record<string, ItemEffect[]> = Object.fromEntries(
 const _bfxMap: Record<string, ItemEffect[]> = Object.fromEntries(
   (backEffectJson as { id: string; effects?: ItemEffect[] }[]).map((e) => [e.id, e.effects ?? []])
 );
+
+// ─── Source / Obtain Config ───────────────────────────────────────────────────
+
+const SOURCE_CONFIG: Record<string, { label: string; icon: string; badge: string }> = {
+  shop_normal:      { label: "Normal Shop",     icon: "🛒", badge: "bg-blue-900/40 border-blue-700/40 text-blue-300" },
+  shop_clan:        { label: "Clan Shop",       icon: "🏯", badge: "bg-orange-900/40 border-orange-700/40 text-orange-300" },
+  shop_pvp:         { label: "PvP Shop",        icon: "⚔️", badge: "bg-red-900/40 border-red-700/40 text-red-300" },
+  shop_crew:        { label: "Crew Shop",       icon: "👥", badge: "bg-cyan-900/40 border-cyan-700/40 text-cyan-300" },
+  pet_shop:         { label: "Pet Shop",        icon: "🐾", badge: "bg-emerald-900/40 border-emerald-700/40 text-emerald-300" },
+  talent_shop:      { label: "Bloodline Shop",  icon: "💫", badge: "bg-violet-900/40 border-violet-700/40 text-violet-300" },
+  senjutsu_shop:    { label: "Senjutsu Shop",   icon: "🐸", badge: "bg-green-900/40 border-green-700/40 text-green-300" },
+  academy:          { label: "Academy",         icon: "📚", badge: "bg-sky-900/40 border-sky-700/40 text-sky-300" },
+  advanced_academy: { label: "Adv. Academy",    icon: "🎓", badge: "bg-indigo-900/40 border-indigo-700/40 text-indigo-300" },
+  blacksmith:       { label: "Blacksmith",      icon: "🔨", badge: "bg-amber-900/40 border-amber-700/40 text-amber-300" },
+  material_market:  { label: "Material Market", icon: "⚗️", badge: "bg-lime-900/40 border-lime-700/40 text-lime-300" },
+  hunting_market:   { label: "Hunting Market",  icon: "🏹", badge: "bg-teal-900/40 border-teal-700/40 text-teal-300" },
+  clan_forge:       { label: "Clan Forge",      icon: "🔥", badge: "bg-rose-900/40 border-rose-700/40 text-rose-300" },
+  dragon_gacha:     { label: "Dragon Gacha",    icon: "🐉", badge: "bg-purple-900/40 border-purple-700/40 text-purple-300" },
+  daily_gacha:      { label: "Event Gacha",     icon: "🎰", badge: "bg-pink-900/40 border-pink-700/40 text-pink-300" },
+  scroll_of_wisdom: { label: "Scroll of Wisdom",icon: "📜", badge: "bg-yellow-900/40 border-yellow-700/40 text-yellow-300" },
+  limited_store:    { label: "Limited Store",   icon: "⏳", badge: "bg-fuchsia-900/40 border-fuchsia-700/40 text-fuchsia-300" },
+  contest_shop:     { label: "Contest Shop",    icon: "🏆", badge: "bg-amber-900/40 border-amber-700/40 text-amber-400" },
+  friendship_shop:  { label: "Friendship Shop", icon: "🤝", badge: "bg-pink-900/40 border-pink-700/40 text-pink-300" },
+  special_deals:    { label: "Special Deals",   icon: "🎁", badge: "bg-rose-900/40 border-rose-700/40 text-rose-300" },
+  divine_tree:      { label: "Divine Tree",     icon: "🌳", badge: "bg-emerald-900/40 border-emerald-700/40 text-emerald-300" },
+  justice_badge:    { label: "Justice Badge",   icon: "⚖️", badge: "bg-slate-800/40 border-slate-600/40 text-slate-300" },
+  mission_reward:   { label: "Mission",         icon: "📋", badge: "bg-slate-800/40 border-slate-600/40 text-slate-300" },
+  event_seasonal:   { label: "Seasonal Event",  icon: "🎴", badge: "bg-rose-900/40 border-rose-700/40 text-rose-300" },
+  dragon_hunt:      { label: "Dragon Hunt",     icon: "🐲", badge: "bg-red-900/40 border-red-700/40 text-red-300" },
+  monster_hunter:   { label: "Monster Hunter",  icon: "👹", badge: "bg-orange-900/40 border-orange-700/40 text-orange-300" },
+  billing_packages: { label: "Cash Shop",       icon: "💰", badge: "bg-amber-900/40 border-amber-700/40 text-amber-400" },
+  set_packages:     { label: "Set Package",     icon: "📦", badge: "bg-pink-900/40 border-pink-700/40 text-pink-300" },
+  daily_scratch:    { label: "Daily Scratch",   icon: "🎫", badge: "bg-yellow-900/40 border-yellow-700/40 text-yellow-300" },
+  clan_war:         { label: "Clan War",        icon: "⚔️", badge: "bg-red-900/40 border-red-700/40 text-red-300" },
+  shadow_war:       { label: "Shadow War",     icon: "🗡️", badge: "bg-rose-900/40 border-rose-700/40 text-rose-300" },
+  crew_battle:      { label: "Crew Battle",    icon: "👥", badge: "bg-cyan-900/40 border-cyan-700/40 text-cyan-300" },
+  hunting_house:    { label: "Hunting House",   icon: "🏠", badge: "bg-teal-900/40 border-teal-700/40 text-teal-300" },
+  pet_combination:  { label: "Pet Fusion",      icon: "🔮", badge: "bg-violet-900/40 border-violet-700/40 text-violet-300" },
+  tailed_beast:     { label: "Tailed Beast",    icon: "🦊", badge: "bg-orange-900/40 border-orange-700/40 text-orange-300" },
+};
+
+// ─── Gamedata Index Builder ───────────────────────────────────────────────────
+
+const _gamedataMap: Record<string, Record<string, unknown>> = {};
+for (let i = 0; i <= 37; i++) {
+  const entry = (gamedataJson as Record<number, { id?: string; data?: Record<string, unknown> }>)[i];
+  if (entry?.id) _gamedataMap[entry.id] = entry.data ?? {};
+}
+
+const _shopSets: Record<string, Set<string>> = {};
+for (const shopType of ["normal", "clan", "pvp", "crew"]) {
+  const shopData = (_gamedataMap.shop as Record<string, unknown> | undefined)?.[shopType];
+  if (shopData && typeof shopData === "object") {
+    const ids = new Set<string>();
+    for (const arr of Object.values(shopData as Record<string, unknown>)) {
+      if (Array.isArray(arr)) arr.forEach((id: string) => ids.add(id));
+    }
+    _shopSets[shopType] = ids;
+  }
+}
+
+const _academyIds = new Set<string>();
+const _academyData = _gamedataMap.academy;
+if (_academyData) {
+  for (const arr of Object.values(_academyData)) {
+    if (Array.isArray(arr)) arr.forEach((id: string) => _academyIds.add(id));
+  }
+}
+
+const _dragonGachaIds = new Set<string>();
+const _dgData = _gamedataMap.dragon_gacha;
+if (_dgData) {
+  for (const arr of Object.values(_dgData)) {
+    if (Array.isArray(arr)) arr.forEach((id: string) => _dragonGachaIds.add(id));
+  }
+}
+
+const _sowIds = new Set<string>();
+const _sowData = _gamedataMap.sow;
+if (_sowData) {
+  for (const arr of Object.values(_sowData)) {
+    if (Array.isArray(arr)) arr.forEach((id: string) => _sowIds.add(id));
+  }
+}
+
+const _petShopIds = new Set<string>();
+if (Array.isArray((_gamedataMap.pet_shop as Record<string, unknown> | undefined)?.pets)) {
+  ((_gamedataMap.pet_shop as Record<string, unknown>).pets as { id: string }[]).forEach((p) => _petShopIds.add(p.id));
+}
+
+const _tailedBeastIds = new Set<string>();
+if (Array.isArray((_gamedataMap.tailed_beast as Record<string, unknown> | undefined)?.pets)) {
+  ((_gamedataMap.tailed_beast as Record<string, unknown>).pets as { id: string }[]).forEach((p) => _tailedBeastIds.add(p.id));
+}
+
+const _dragonHuntPetIds = new Set<string>();
+const _dhPets = (_gamedataMap.dragon_hunt as Record<string, unknown> | undefined)?.pets;
+if (_dhPets && typeof _dhPets === "object") {
+  for (const arr of Object.values(_dhPets as Record<string, unknown>)) {
+    if (Array.isArray(arr)) arr.forEach((id: string) => _dragonHuntPetIds.add(id));
+  }
+}
+
+const _scratchIds = new Set<string>();
+if (_gamedataMap.scratch) {
+  const scratchData = _gamedataMap.scratch as Record<string, unknown>;
+  if (Array.isArray(scratchData.rewards)) (scratchData.rewards as string[]).forEach((id) => _scratchIds.add(id));
+  if (Array.isArray(scratchData.grand_prize)) (scratchData.grand_prize as string[]).forEach((id) => _scratchIds.add(id));
+}
+
+const _justiceBadgeIds = new Set<string>();
+if (Array.isArray((_gamedataMap.justice_badge as Record<string, unknown> | undefined)?.rewards)) {
+  ((_gamedataMap.justice_badge as Record<string, unknown>).rewards as (string | { id: string })[]).forEach((r) => {
+    if (typeof r === "string") _justiceBadgeIds.add(r);
+    else if (r?.id) _justiceBadgeIds.add(r.id);
+  });
+}
+
+const _monsterHunterIds = new Set<string>();
+if (Array.isArray((_gamedataMap.monster_hunter as Record<string, unknown> | undefined)?.rewards)) {
+  ((_gamedataMap.monster_hunter as Record<string, unknown>).rewards as string[]).forEach((id) => _monsterHunterIds.add(id));
+}
+
+const _divineTreeIds = new Set<string>();
+if (Array.isArray((_gamedataMap.divinetree as Record<string, unknown> | undefined)?.milestone)) {
+  ((_gamedataMap.divinetree as Record<string, unknown>).milestone as (string | { id: string })[]).forEach((m) => {
+    if (typeof m === "string") _divineTreeIds.add(m);
+    else if (m?.id) _divineTreeIds.add(m.id);
+  });
+}
+
+const _blacksmithIds = new Set([
+  "wpn_609","wpn_119","wpn_179","wpn_164","wpn_293","wpn_137","wpn_135",
+  "wpn_294","wpn_295","wpn_131","wpn_125","wpn_181","wpn_296","wpn_140",
+  "wpn_297","wpn_139","wpn_303","wpn_136","wpn_304","wpn_305","wpn_138",
+  "wpn_141","wpn_143","wpn_126","wpn_134","wpn_298","wpn_142","wpn_127",
+  "wpn_144","wpn_611","wpn_307","wpn_145","wpn_306","wpn_299","wpn_146",
+  "wpn_128","wpn_308","wpn_291","wpn_130","wpn_148","wpn_129","wpn_292",
+  "wpn_150","wpn_612","wpn_151","wpn_336","wpn_339","wpn_333","wpn_332",
+  "wpn_335","wpn_338","wpn_337","wpn_334","wpn_1139","wpn_1141","wpn_1143",
+  "wpn_1145","wpn_1147","wpn_1149","wpn_1151","wpn_1153","wpn_1155",
+  "wpn_1157","wpn_1159",
+]);
+
+const _clanForgeIds = new Set([
+  "wpn_6004","wpn_6006","wpn_6008","wpn_6010","wpn_6012","wpn_6014",
+  "wpn_6016","wpn_6018","wpn_6029","wpn_6030","wpn_6031","wpn_6035",
+  "wpn_6036","wpn_6037","wpn_6038","wpn_6039","wpn_6040","wpn_6041",
+  "wpn_6042","wpn_6043","wpn_6044","wpn_6045","wpn_6046","wpn_6056",
+  "wpn_6057","wpn_6058","wpn_6065","wpn_6066","wpn_6067","wpn_6068",
+  "wpn_6069","wpn_6077","wpn_6078","wpn_6079","wpn_6080","wpn_6081",
+]);
+
+const _contestShopIds = new Set([
+  "wpn_2078","wpn_2077","wpn_2079","wpn_2080","wpn_2081","wpn_2051","wpn_2052","wpn_2053","wpn_2054","wpn_2055","wpn_2056","wpn_2057","wpn_2058","wpn_2059","wpn_2060","wpn_2061","wpn_2062",
+  "back_2075","back_2076","back_2078","back_2077","back_2055","back_2056","back_2057","back_2058","back_2059","back_2060","back_2061","back_2062","back_2063","back_2064","back_2065","back_2066",
+]);
+
+const _senjutsuIds = new Set([
+  "skill_3001","skill_3002","skill_3003","skill_3004","skill_3005","skill_3006","skill_3007","skill_3008","skill_3009","skill_3010",
+  "skill_3101","skill_3102","skill_3103","skill_3104","skill_3105","skill_3106","skill_3107","skill_3108","skill_3109","skill_3110",
+]);
+
+const _materialMarketIds = new Set<string>();
+for (const arr of Object.values(materialMarketIdsJson)) {
+  if (Array.isArray(arr)) arr.forEach((id: string) => _materialMarketIds.add(id));
+}
+
+const _huntingMarketIds = new Set<string>();
+for (const arr of Object.values(huntingMarketIdsJson)) {
+  if (Array.isArray(arr)) arr.forEach((id: string) => _huntingMarketIds.add(id));
+}
+
+const _friendshipShopIds = new Set<string>();
+for (const arr of Object.values(friendshipShopIdsJson)) {
+  if (Array.isArray(arr)) arr.forEach((id: string) => _friendshipShopIds.add(id));
+}
+
+const _limitedStoreIds = new Set<string>();
+for (const arr of Object.values(limitedStoreIdsJson)) {
+  if (Array.isArray(arr)) arr.forEach((id: string) => _limitedStoreIds.add(id));
+}
+
+const _EVENT_LABELS: Record<string, string> = {
+  valentine2025: "Valentine 2025", anniv2025: "Anniversary 2025", ramadhan2025: "Ramadhan 2025",
+  easter2025: "Easter 2025", wmg2025: "WMG 2025", summer2025: "Summer 2025",
+  independence2025: "Independence 2025", yinyang2025: "Yin Yang 2025", halloween2025: "Halloween 2025",
+  confrontingdeath2025: "Confronting Death 2025", thanksgiving2025: "Thanksgiving 2025", christmas2025: "Christmas 2025",
+  phantomkyunoki2026: "Phantom Kyunoki 2026", valentine2026: "Valentine 2026", anniv2026: "Anniversary 2026",
+  ramadhan2026: "Ramadhan 2026", hanami2026: "Hanami 2026",
+};
+const _EVENT_KEYS = Object.keys(_EVENT_LABELS);
+
+// Map item ID → list of event keys it appears in
+const _itemToEvents = new Map<string, string[]>();
+for (const key of _EVENT_KEYS) {
+  const evData = _gamedataMap[key];
+  if (!evData) continue;
+  const collectIds = (obj: unknown): void => {
+    if (Array.isArray(obj)) {
+      obj.forEach((item: unknown) => {
+        let id: string | null = null;
+        if (typeof item === "string" && /^(wpn_|back_|set_|hair_|accessory_|skill_|pet_|material_)/.test(item)) {
+          id = item;
+        } else if (item && typeof item === "object" && "id" in item && typeof (item as { id: unknown }).id === "string") {
+          id = (item as { id: string }).id;
+        }
+        if (id) {
+          const existing = _itemToEvents.get(id);
+          if (existing) { if (!existing.includes(key)) existing.push(key); }
+          else _itemToEvents.set(id, [key]);
+        }
+      });
+    } else if (obj && typeof obj === "object") {
+      for (const val of Object.values(obj as Record<string, unknown>)) {
+        collectIds(val);
+      }
+    }
+  };
+  collectIds(evData);
+}
+
+// ─── Source Resolver Functions ─────────────────────────────────────────────────
+
+function resolveItemSources(item: LibItem): string[] {
+  const sources: string[] = [];
+  const id = item.id;
+
+  // Shop cross-reference (gamedata arrays)
+  if (_shopSets.normal?.has(id)) sources.push("shop_normal");
+  if (_shopSets.clan?.has(id))   sources.push("shop_clan");
+  if (_shopSets.pvp?.has(id))    sources.push("shop_pvp");
+  if (_shopSets.crew?.has(id))   sources.push("shop_crew");
+
+  // Buyable with gold but not in any gamedata shop array = still Normal Shop
+  // (gamedata.shop.normal doesn't list ALL buyable items)
+  if (item.buyable && item.price_gold > 0 && sources.length === 0) sources.push("shop_normal");
+
+  // Price-based detection
+  if (item.price_prestige > 0) sources.push("clan_forge");
+  if ((item.price_merit ?? 0) > 0 && !sources.includes("shop_crew")) sources.push("shop_crew");
+
+  // Hardcoded forge/contest lists
+  if (_blacksmithIds.has(id))    sources.push("blacksmith");
+  if (_clanForgeIds.has(id) && !sources.includes("clan_forge")) sources.push("clan_forge");
+  if (_contestShopIds.has(id))   sources.push("contest_shop");
+
+  // Forge / Market
+  if (_materialMarketIds.has(id)) sources.push("material_market");
+  if (_huntingMarketIds.has(id))  sources.push("hunting_market");
+  if (_friendshipShopIds.has(id)) sources.push("friendship_shop");
+  if (_limitedStoreIds.has(id))   sources.push("limited_store");
+
+  // Gacha / features
+  if (_dragonGachaIds.has(id))   sources.push("dragon_gacha");
+  if (_scratchIds.has(id))       sources.push("daily_scratch");
+  if (_justiceBadgeIds.has(id))  sources.push("justice_badge");
+  if (_monsterHunterIds.has(id)) sources.push("monster_hunter");
+  if (_divineTreeIds.has(id))    sources.push("divine_tree");
+
+  // Events (specific per-event)
+  const itemEvents = _itemToEvents.get(id);
+  if (itemEvents) itemEvents.forEach((ev) => sources.push("event:" + ev));
+
+  // Category-based
+  if (item.category === "clan") {
+    if (!sources.includes("shop_clan") && !sources.includes("clan_war")) {
+      sources.push(_shopSets.clan?.has(id) ? "shop_clan" : "clan_war");
+    }
+  }
+  if (item.category === "crew") {
+    if (!sources.includes("shop_crew") && !sources.includes("crew_battle")) {
+      sources.push(_shopSets.crew?.has(id) ? "shop_crew" : "crew_battle");
+    }
+  }
+  if (item.category === "shadowwar" && sources.length === 0) sources.push("shadow_war");
+  if (item.category === "event" && !itemEvents) sources.push("event_seasonal");
+  if (item.category === "package") sources.push("set_packages");
+  if (item.category === "deals") sources.push("special_deals");
+  if (item.category === "spending" && !itemEvents) sources.push("event_seasonal");
+  if (item.category === "leaderboard") sources.push("arena_rewards");
+
+  if (item.premium && sources.length === 0) sources.push("billing_packages");
+
+  return sources;
+}
+
+function resolveSkillSources(skill: Skill): string[] {
+  const sources: string[] = [];
+  const id = skill.id;
+
+  // Bloodline/Talent skills (type 9) = talent_shop
+  if (skill.type === "9") { sources.push("talent_shop"); return sources; }
+
+  if (_academyIds.has(id)) sources.push("academy");
+  if (_shopSets.pvp?.has(id)) sources.push("shop_pvp");
+  if (_senjutsuIds.has(id)) sources.push("senjutsu_shop");
+  if (_sowIds.has(id)) sources.push("scroll_of_wisdom");
+  if (_materialMarketIds.has(id)) sources.push("material_market");
+  if (_huntingMarketIds.has(id))  sources.push("hunting_market");
+  if (_friendshipShopIds.has(id)) sources.push("friendship_shop");
+  if (_limitedStoreIds.has(id))   sources.push("limited_store");
+
+  // Events (specific per-event)
+  const skillEvents = _itemToEvents.get(id);
+  if (skillEvents) skillEvents.forEach((ev) => sources.push("event:" + ev));
+
+  // Advanced Academy: Kinjutsu upgrades (II-VI) with token price, not buyable
+  if (!skill.buyable && skill.price_tokens > 0 && /\s(II|III|IV|V|VI)$/.test(skill.name)) {
+    sources.push("advanced_academy");
+  }
+
+  if (skill.buyable && !sources.includes("academy") && !sources.includes("shop_pvp")) {
+    if (skill.price_gold > 0) sources.push("academy");
+    if (skill.price_tokens > 0 && !sources.includes("academy")) sources.push("limited_store");
+  }
+
+  // Category-based
+  if (skill.category === "clan" && !sources.includes("clan_war")) sources.push("clan_war");
+  if (skill.category === "crew" && !sources.includes("crew_battle")) sources.push("crew_battle");
+  if (skill.category === "shadowwar" && !sources.includes("shadow_war")) sources.push("shadow_war");
+  if (skill.category === "event" && !skillEvents) sources.push("event_seasonal");
+  if (skill.category === "deals") sources.push("special_deals");
+  if (skill.category === "package") sources.push("set_packages");
+  if (skill.category === "spending" && !skillEvents) sources.push("event_seasonal");
+
+  if (skill.premium && sources.length === 0) sources.push("limited_store");
+
+  return sources;
+}
+
+function resolvePetSources(id: string): string[] {
+  const sources: string[] = [];
+  if (_petShopIds.has(id))         sources.push("pet_shop");
+  if (_tailedBeastIds.has(id))     sources.push("tailed_beast");
+  if (_dragonHuntPetIds.has(id))   sources.push("dragon_hunt");
+  if (_dragonGachaIds.has(id))     sources.push("dragon_gacha");
+  if (_materialMarketIds.has(id))  sources.push("material_market");
+  if (_huntingMarketIds.has(id))   sources.push("hunting_market");
+  if (_friendshipShopIds.has(id))  sources.push("friendship_shop");
+  if (_limitedStoreIds.has(id))    sources.push("limited_store");
+  const petEvents = _itemToEvents.get(id);
+  if (petEvents) petEvents.forEach((ev) => sources.push("event:" + ev));
+  return sources;
+}
+
+function getSourceDisplay(src: string): { icon: string; label: string; badge: string } | null {
+  // Static sources
+  const cfg = SOURCE_CONFIG[src];
+  if (cfg) return cfg;
+  // Dynamic event sources: "event:valentine2025" etc.
+  if (src.startsWith("event:")) {
+    const eventKey = src.slice(6);
+    const label = _EVENT_LABELS[eventKey] ?? eventKey;
+    return { icon: "🎴", label, badge: "bg-rose-900/40 border-rose-700/40 text-rose-300" };
+  }
+  return null;
+}
+
+function SourceBadges({ sources }: { sources: string[] }) {
+  return (
+    <div>
+      <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Sumber / Cara Dapat</p>
+      {sources.length === 0 ? (
+        <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold bg-neutral-800/40 border-neutral-600/40 text-neutral-400">
+          ❓ Tidak Diketahui
+        </span>
+      ) : (
+        <div className="flex flex-wrap gap-1.5">
+          {sources.map((src) => {
+            const display = getSourceDisplay(src);
+            if (!display) return null;
+            return (
+              <span key={src} className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold ${display.badge}`}>
+                {display.icon} {display.label}
+              </span>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
 
 function _parseSeasonNum(name: string): number | null {
   const m = name.match(/^S(\d+)\s+(Clan|Crew|Shadow War)/i);
@@ -665,6 +1052,9 @@ function SkillModal({ skill, onClose, highlight = "" }: { skill: Skill; onClose:
               </div>
             </div>
           )}
+
+          {/* Sources */}
+          <SourceBadges sources={resolveSkillSources(skill)} />
         </div>
       </div>
     </div>
@@ -1092,19 +1482,37 @@ function SkillCard({ skill, highlight = "", onSelect }: { skill: Skill; highligh
         {skill.hit_chance !== undefined && skill.hit_chance > 0 && <Stat label="Hit%" value={`${skill.hit_chance}%`} />}
       </div>
 
-      {/* Price + detail hint */}
-      <div className="flex items-center justify-between pt-2 border-t border-white/5 gap-2">
-        <div className="flex gap-2">
-          {skill.price_gold > 0 && (
-            <span className="text-[11px] text-amber-500">G {skill.price_gold.toLocaleString("id-ID")}</span>
-          )}
-          {skill.price_tokens > 0 && (
-            <span className="text-[11px] text-blue-400">💎 {skill.price_tokens} token</span>
-          )}
+      {/* Sources + Price + detail hint */}
+      <div className="pt-2 border-t border-white/5 space-y-2">
+        {(() => {
+          const srcs = resolveSkillSources(skill);
+          return srcs.length > 0 ? (
+            <div className="flex flex-wrap gap-1">
+               {srcs.map((src) => {
+                const display = getSourceDisplay(src);
+                if (!display) return null;
+                return (
+                  <span key={src} className={`inline-flex items-center gap-1 rounded-full border px-1.5 py-0.5 text-[9px] font-bold ${display.badge}`}>
+                    {display.icon} {display.label}
+                  </span>
+                );
+              })}
+            </div>
+          ) : null;
+        })()}
+        <div className="flex items-center justify-between gap-2">
+          <div className="flex gap-2">
+            {skill.price_gold > 0 && (
+              <span className="text-[11px] text-amber-500">G {skill.price_gold.toLocaleString("id-ID")}</span>
+            )}
+            {skill.price_tokens > 0 && (
+              <span className="text-[11px] text-blue-400">💎 {skill.price_tokens} token</span>
+            )}
+          </div>
+          <span className="text-[10px] text-slate-700 group-hover:text-slate-400 transition-colors shrink-0">
+            Klik detail →
+          </span>
         </div>
-        <span className="text-[10px] text-slate-700 group-hover:text-slate-400 transition-colors shrink-0">
-          Klik detail →
-        </span>
       </div>
     </div>
   );
@@ -1367,6 +1775,9 @@ function TalentGroupCard({ group }: { group: TalentGroup }) {
         {talent.amount != null && talent.amount > 0 && <Stat label="Amount" value={talent.amount} />}
         {talent.increase_max_hp != null && talent.increase_max_hp > 0 && <Stat label="+Max HP" value={talent.increase_max_hp} />}
       </div>
+
+      {/* Sources */}
+      <SourceBadges sources={["talent_shop"]} />
     </div>
   );
 }
@@ -1508,6 +1919,9 @@ function SenjutsuGroupCard({ group }: { group: SenjutsuGroup }) {
           ))}
         </div>
       )}
+
+      {/* Sources */}
+      <SourceBadges sources={["senjutsu_shop"]} />
     </div>
   );
 }
@@ -1614,7 +2028,23 @@ function PetsTab({ pets }: { pets: Pet[] }) {
                   <Stat label="Dodge" value={`${pet.dodge}%`} />
                 </div>
 
-                <div className="pt-2 border-t border-white/[0.06] mt-auto">
+                <div className="pt-2 border-t border-white/[0.06] mt-auto space-y-2">
+                  {(() => {
+                    const srcs = resolvePetSources(pet.id);
+                    return srcs.length > 0 ? (
+                      <div className="flex flex-wrap gap-1">
+                        {srcs.map((src) => {
+                          const display = getSourceDisplay(src);
+                          if (!display) return null;
+                          return (
+                            <span key={src} className={`inline-flex items-center gap-1 rounded-full border px-1.5 py-0.5 text-[9px] font-bold ${display.badge}`}>
+                              {display.icon} {display.label}
+                            </span>
+                          );
+                        })}
+                      </div>
+                    ) : null;
+                  })()}
                   <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-1.5">Skill Pet</p>
                   {attacks.length === 0 ? (
                     <p className="text-[11px] text-slate-700 italic">Belum ada skill.</p>
@@ -1687,6 +2117,9 @@ function PetSkillsModal({ pet, onClose }: { pet: Pet; onClose: () => void }) {
         </div>
 
         <div className="p-5 space-y-3">
+          {/* Sources */}
+          <SourceBadges sources={resolvePetSources(pet.id)} />
+
           {attacks.length === 0 ? (
             <p className="text-sm text-slate-600 italic">Pet ini belum memiliki skill.</p>
           ) : (
@@ -2256,19 +2689,37 @@ function ItemGridCard({ item, onSelect, highlight = "" }: { item: LibItem; onSel
         {effects.length > 0 && <Stat label="Efek" value={`${effects.length} pasif`} />}
       </div>
 
-      {/* Price + hint */}
-      <div className="flex items-center justify-between pt-2 border-t border-white/5 gap-2">
-        <div className="flex gap-2">
-          {item.price_gold > 0 && (
-            <span className="text-[11px] text-amber-500">G {item.price_gold.toLocaleString("id-ID")}</span>
-          )}
-          {item.price_tokens > 0 && (
-            <span className="text-[11px] text-blue-400">💎 {item.price_tokens}</span>
-          )}
+      {/* Sources + Price + hint */}
+      <div className="pt-2 border-t border-white/5 space-y-2">
+        {(() => {
+          const srcs = resolveItemSources(item);
+          return srcs.length > 0 ? (
+            <div className="flex flex-wrap gap-1">
+              {srcs.map((src) => {
+                const display = getSourceDisplay(src);
+                if (!display) return null;
+                return (
+                  <span key={src} className={`inline-flex items-center gap-1 rounded-full border px-1.5 py-0.5 text-[9px] font-bold ${display.badge}`}>
+                    {display.icon} {display.label}
+                  </span>
+                );
+              })}
+            </div>
+          ) : null;
+        })()}
+        <div className="flex items-center justify-between gap-2">
+          <div className="flex gap-2">
+            {item.price_gold > 0 && (
+              <span className="text-[11px] text-amber-500">G {item.price_gold.toLocaleString("id-ID")}</span>
+            )}
+            {item.price_tokens > 0 && (
+              <span className="text-[11px] text-blue-400">💎 {item.price_tokens}</span>
+            )}
+          </div>
+          <span className="text-[10px] text-slate-700 group-hover:text-slate-400 transition-colors shrink-0">
+            Detail →
+          </span>
         </div>
-        <span className="text-[10px] text-slate-700 group-hover:text-slate-400 transition-colors shrink-0">
-          Detail →
-        </span>
       </div>
     </div>
   );
@@ -2408,6 +2859,9 @@ function ItemDetailModal({ item, onClose }: { item: LibItem; onClose: () => void
               </div>
             </div>
           )}
+
+          {/* Sources */}
+          <SourceBadges sources={resolveItemSources(item)} />
         </div>
       </div>
     </div>
