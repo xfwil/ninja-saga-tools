@@ -1,0 +1,870 @@
+{
+  "_meta": {
+    "description": "Ninja Saga - Complete Item Source/Origin Mapping. Setiap item bisa didapatkan dari MULTIPLE sources. File ini memetakan semua sumber yang diketahui dari gamedata.json, scripts AS3, dan dump data.",
+    "version": "1.3.0",
+    "generated_from": ["dump/gamedata.json", "dump/library.json", "dump/skills.json", "dump/senjutsu.json", "dump/talents.json", "dump/mission.json", "dump/pet.json", "scripts/Storage/*.as", "scripts/Panels/*.as", "scripts/id/ninjasage/features/*.as"],
+    "notes": [
+      "Satu item bisa muncul di BANYAK sources (contoh: wpn_01 ada di normal shop DAN pvp shop)",
+      "Field 'sources' adalah ARRAY - selalu multiple possible origins",
+      "Items dengan buyable=false dan tidak ada di source manapun = kemungkinan event-only / discontinued",
+      "Data forge (MaterialMarket, HuntingMarket) di-load dari server. MaterialMarket items sudah di-dump ke dump/material_market.json via AMF capture.",
+      "HuntingMarket items belum di-dump (juga server-side). Blacksmith dan ClanForge hardcoded di client."
+    ]
+  },
+
+  "source_definitions": {
+    "academy": {
+      "id": "academy",
+      "label": "Academy",
+      "description": "Tempat belajar skill dasar berdasarkan elemen (Wind, Fire, Thunder, Earth, Water, Taijutsu, Genjutsu)",
+      "currency": ["gold", "tokens"],
+      "access_requirements": ["level_requirement_per_skill", "element_match"],
+      "item_types": ["skill"],
+      "gamedata_key": "academy",
+      "script_file": "scripts/Panels/Academy.as",
+      "sub_categories": {
+        "wind": "Wind element skills",
+        "fire": "Fire element skills",
+        "thunder": "Thunder/Lightning element skills",
+        "earth": "Earth element skills",
+        "water": "Water element skills",
+        "taijutsu": "Physical/Taijutsu skills",
+        "genjutsu": "Illusion/Genjutsu skills"
+      }
+    },
+
+    "advanced_academy": {
+      "id": "advanced_academy",
+      "label": "Advanced Academy",
+      "description": "Upgrade skill dasar ke versi lebih kuat. Membutuhkan skill dasar terlebih dahulu.",
+      "currency": ["tokens"],
+      "access_requirements": ["owns_base_skill"],
+      "item_types": ["skill"],
+      "script_file": "scripts/Panels/AdvancedAcademy.as"
+    },
+
+    "shop_normal": {
+      "id": "shop_normal",
+      "label": "Normal Shop",
+      "description": "Toko utama di village. Menjual weapon, accessory, back item, set, hairstyle, essential, consumable.",
+      "currency": ["gold", "tokens"],
+      "access_requirements": [],
+      "item_types": ["wpn", "accessory", "back", "set", "hair", "item", "essential"],
+      "gamedata_key": "shop",
+      "gamedata_sub_key": "normal",
+      "script_file": "scripts/Panels/Shop.as",
+      "detection_fields": {
+        "library.json": "buyable == true && price_gold > 0"
+      }
+    },
+
+    "shop_clan": {
+      "id": "shop_clan",
+      "label": "Clan Shop",
+      "description": "Toko khusus member clan. Menjual item eksklusif clan.",
+      "currency": ["gold", "tokens"],
+      "access_requirements": ["must_be_in_clan"],
+      "item_types": ["wpn", "back", "essential", "item"],
+      "gamedata_key": "shop",
+      "gamedata_sub_key": "clan",
+      "script_file": "scripts/Panels/ClanShop.as"
+    },
+
+    "shop_pvp": {
+      "id": "shop_pvp",
+      "label": "PvP Shop",
+      "description": "Toko PvP. Item dibeli dengan PvP points atau gold/tokens.",
+      "currency": ["gold", "tokens", "pvp_points"],
+      "access_requirements": ["pvp_access"],
+      "item_types": ["wpn", "accessory", "back", "set", "hair", "essential", "skill"],
+      "gamedata_key": "shop",
+      "gamedata_sub_key": "pvp",
+      "script_file": "scripts/Panels/PvpShop.as",
+      "detection_fields": {
+        "library.json": "price_pvp > 0",
+        "skills.json": "item_price_pvp > 0"
+      }
+    },
+
+    "shop_crew": {
+      "id": "shop_crew",
+      "label": "Shadow Crew Shop",
+      "description": "Toko Shadow Crew. Membutuhkan keanggotaan crew.",
+      "currency": ["gold", "tokens", "merit"],
+      "access_requirements": ["must_be_in_crew"],
+      "item_types": ["wpn", "accessory", "back", "set", "hair", "item", "essential"],
+      "gamedata_key": "shop",
+      "gamedata_sub_key": "crew",
+      "script_file": "scripts/Panels/CrewShop.as",
+      "detection_fields": {
+        "library.json": "price_merit > 0"
+      }
+    },
+
+    "pet_shop": {
+      "id": "pet_shop",
+      "label": "Pet Shop",
+      "description": "Toko pet. Beli pet dengan gold atau tokens.",
+      "currency": ["gold", "tokens"],
+      "access_requirements": [],
+      "item_types": ["pet"],
+      "gamedata_key": "pet_shop",
+      "script_file": "scripts/Panels/PetShop.as"
+    },
+
+    "blacksmith": {
+      "id": "blacksmith",
+      "label": "Blacksmith (Forge)",
+      "description": "Forge/upgrade weapon menggunakan magatama (material_01-06) + gold + tokens + base weapon.",
+      "currency": ["gold", "tokens", "magatama"],
+      "access_requirements": ["owns_base_weapon", "has_materials"],
+      "item_types": ["wpn"],
+      "script_file": "scripts/Panels/Blacksmith.as",
+      "data_file": "scripts/Storage/BlacksmithData.as",
+      "hardcoded_items": [
+        "wpn_609", "wpn_119", "wpn_179", "wpn_164", "wpn_293", "wpn_137", "wpn_135",
+        "wpn_294", "wpn_295", "wpn_131", "wpn_125", "wpn_181", "wpn_296", "wpn_140",
+        "wpn_297", "wpn_139", "wpn_303", "wpn_136", "wpn_304", "wpn_305", "wpn_138",
+        "wpn_141", "wpn_143", "wpn_126", "wpn_134", "wpn_298", "wpn_142", "wpn_127",
+        "wpn_144", "wpn_611", "wpn_307", "wpn_145", "wpn_306", "wpn_299", "wpn_146",
+        "wpn_128", "wpn_308", "wpn_291", "wpn_130", "wpn_148", "wpn_129", "wpn_292",
+        "wpn_150", "wpn_612", "wpn_151", "wpn_336", "wpn_339", "wpn_333", "wpn_332",
+        "wpn_335", "wpn_338", "wpn_337", "wpn_334", "wpn_1139", "wpn_1141", "wpn_1143",
+        "wpn_1145", "wpn_1147", "wpn_1149", "wpn_1151", "wpn_1153", "wpn_1155",
+        "wpn_1157", "wpn_1159"
+      ]
+    },
+
+    "material_market": {
+      "id": "material_market",
+      "label": "Material Market (Forge)",
+      "description": "Forge item menggunakan material dari hunting/farming. Data di-load dari server via MaterialMarket.getItems AMF call.",
+      "currency": ["materials"],
+      "access_requirements": ["has_materials"],
+      "item_types": ["wpn", "set", "back", "accessory", "hair", "skill", "pet"],
+      "script_file": "scripts/Panels/MaterialMarket.as",
+      "data_file": "scripts/Storage/ForgeData.as",
+      "dump_file": "dump/material_market.json",
+      "note": "Item list fetched from server and dumped via AMF capture. May change over time as server rotates items.",
+      "dumped_items": {
+        "wpn": ["wpn_2101", "wpn_2194", "wpn_2414", "wpn_2415", "wpn_2416", "wpn_2424", "wpn_2430", "wpn_2431", "wpn_2432", "wpn_2433", "wpn_2434"],
+        "back": ["back_2412", "back_2413", "back_2414", "back_2439", "back_2440", "back_2441", "back_2442", "back_2443"],
+        "hair": ["hair_2378_0", "hair_2379_0", "hair_2394_0", "hair_2395_0", "hair_2396_0", "hair_2397_0"],
+        "set": ["set_136_0", "set_2419_0", "set_2420_0", "set_2435_0", "set_2436_0", "set_2437_0", "set_2438_0", "set_786_0"],
+        "skill": ["skill_2336", "skill_2337", "skill_2343", "skill_2350", "skill_2351", "skill_2352", "skill_2353", "skill_377", "skill_806", "skill_807", "skill_808", "skill_809", "skill_810", "skill_845"],
+        "accessory": ["accessory_53"],
+        "pet": ["pet_littlejyubi", "pet_mikocat"]
+      },
+      "dumped_materials": ["material_2076", "material_2077", "material_2078", "material_2237", "material_2238", "material_2239", "material_2240", "material_2241", "material_2242", "material_2243", "material_2244", "material_2245", "material_2246", "material_2247", "material_2248", "material_2249"]
+    },
+
+    "hunting_market": {
+      "id": "hunting_market",
+      "label": "Hunting Market (Forge)",
+      "description": "Forge weapon menggunakan hunting materials. Data di-load dari server via HuntingHouse.getItems AMF call.",
+      "currency": ["hunting_materials"],
+      "access_requirements": ["level_20", "rank_3", "has_hunting_materials"],
+      "item_types": ["wpn"],
+      "script_file": "scripts/Panels/HuntingMarket.as",
+      "data_file": "scripts/Storage/ForgeDataHunting.as",
+      "dump_file": "dump/hunting_market.json",
+      "note": "Currently only weapons available. 34 weapons forged from 34 hunting materials.",
+      "dumped_items": {
+        "wpn": ["wpn_822", "wpn_823", "wpn_824", "wpn_825", "wpn_826", "wpn_827", "wpn_828", "wpn_829", "wpn_830", "wpn_831", "wpn_832", "wpn_833", "wpn_834", "wpn_835", "wpn_836", "wpn_837", "wpn_838", "wpn_839", "wpn_840", "wpn_841", "wpn_842", "wpn_843", "wpn_844", "wpn_845", "wpn_846", "wpn_847", "wpn_848", "wpn_849", "wpn_850", "wpn_851", "wpn_852", "wpn_853", "wpn_854", "wpn_855"]
+      },
+      "dumped_materials": ["material_600", "material_601", "material_602", "material_603", "material_604", "material_605", "material_606", "material_607", "material_608", "material_609", "material_610", "material_611", "material_612", "material_613", "material_614", "material_615", "material_616", "material_617", "material_618", "material_619", "material_620", "material_621", "material_622", "material_623", "material_624", "material_625", "material_626", "material_627", "material_628", "material_629", "material_630", "material_631", "material_632", "material_633"]
+    },
+
+    "clan_forge": {
+      "id": "clan_forge",
+      "label": "Clan Item Upgrade (Forge)",
+      "description": "Upgrade clan weapon menggunakan prestige + material weapon. Butuh 50,000 prestige per item.",
+      "currency": ["prestige"],
+      "access_requirements": ["must_be_in_clan", "has_base_clan_weapons"],
+      "item_types": ["wpn"],
+      "script_file": "scripts/Panels/ClanItemUpgrade.as",
+      "data_file": "scripts/Storage/ForgeDataClan.as",
+      "detection_fields": {
+        "library.json": "price_prestige > 0"
+      },
+      "hardcoded_items": [
+        "wpn_6004", "wpn_6006", "wpn_6008", "wpn_6010", "wpn_6012", "wpn_6014",
+        "wpn_6016", "wpn_6018", "wpn_6029", "wpn_6030", "wpn_6031", "wpn_6035",
+        "wpn_6036", "wpn_6037", "wpn_6038", "wpn_6039", "wpn_6040", "wpn_6041",
+        "wpn_6042", "wpn_6043", "wpn_6044", "wpn_6045", "wpn_6046", "wpn_6056",
+        "wpn_6057", "wpn_6058", "wpn_6065", "wpn_6066", "wpn_6067", "wpn_6068",
+        "wpn_6069", "wpn_6077", "wpn_6078", "wpn_6079", "wpn_6080", "wpn_6081"
+      ]
+    },
+
+    "talent_shop": {
+      "id": "talent_shop",
+      "label": "Talent/Bloodline Shop",
+      "description": "Beli bloodline (talent). Ada 2 tier: extreme dan secret. Total 19 bloodline types.",
+      "currency": ["tokens"],
+      "access_requirements": ["level_requirement"],
+      "item_types": ["talent"],
+      "gamedata_key": "talent_shop",
+      "script_file": "scripts/Panels/TalentShop.as",
+      "bloodline_types": [
+        "eightext", "eom", "de", "dp", "orochi", "sm", "saint", "insect",
+        "sound", "wood", "shadow", "lava", "ice", "iron", "crystal", "eoc",
+        "lm", "dm", "kot"
+      ]
+    },
+
+    "senjutsu_shop": {
+      "id": "senjutsu_shop",
+      "label": "Senjutsu / Sage Mode Shop",
+      "description": "Beli Senjutsu skills. Pilih Toad atau Snake sage mode. Butuh level 80 + lulus Ninja Tutor Exam.",
+      "currency": ["sp"],
+      "access_requirements": ["level_80", "passed_ninja_tutor_exam"],
+      "item_types": ["senjutsu_skill"],
+      "script_file": "scripts/id/ninjasage/features/SenjutsuShop.as",
+      "hardcoded_skills": {
+        "toad": ["skill_3001", "skill_3002", "skill_3003", "skill_3004", "skill_3005", "skill_3006", "skill_3007", "skill_3008", "skill_3009", "skill_3010"],
+        "snake": ["skill_3101", "skill_3102", "skill_3103", "skill_3104", "skill_3105", "skill_3106", "skill_3107", "skill_3108", "skill_3109", "skill_3110"]
+      }
+    },
+
+    "friendship_shop": {
+      "id": "friendship_shop",
+      "label": "Friendship Shop",
+      "description": "Tukar Friendship Kunai (material_1002) dengan reward. Dapatkan kunai dari challenge teman.",
+      "currency": ["friendship_kunai"],
+      "access_requirements": ["has_friendship_kunai"],
+      "item_types": ["wpn", "back", "set", "hair", "skill", "gold", "tokens"],
+      "script_file": "scripts/Panels/Friendship_Shop.as",
+      "dump_file": "dump/friendship_shop.json",
+      "note": "10 items with increasing kunai prices (20-150). Includes gold and token rewards.",
+      "dumped_items": {
+        "gold": ["gold_50000"],
+        "hair": ["hair_2150_0"],
+        "tokens": ["tokens_25", "tokens_50"],
+        "back": ["back_2133", "back_2145"],
+        "set": ["set_2186_0"],
+        "wpn": ["wpn_2112", "wpn_2217"],
+        "skill": ["skill_654"]
+      }
+    },
+
+    "animation_shop": {
+      "id": "animation_shop",
+      "label": "Animation Shop",
+      "description": "Beli animasi karakter (standby, dodge, win, dead).",
+      "currency": ["tokens"],
+      "access_requirements": [],
+      "item_types": ["animation"],
+      "script_file": "scripts/Panels/Animation_Shop.as"
+    },
+
+    "contest_shop": {
+      "id": "contest_shop",
+      "label": "Contest Shop",
+      "description": "Toko kontes/event. Beli weapon dan back item eksklusif.",
+      "currency": ["tokens", "contest_points"],
+      "access_requirements": ["contest_participation"],
+      "item_types": ["wpn", "back"],
+      "script_file": "scripts/id/ninjasage/features/ContestShop.as",
+      "hardcoded_items": {
+        "weapons": ["wpn_2078", "wpn_2077", "wpn_2079", "wpn_2080", "wpn_2081", "wpn_2051", "wpn_2052", "wpn_2053", "wpn_2054", "wpn_2055", "wpn_2056", "wpn_2057", "wpn_2058", "wpn_2059", "wpn_2060", "wpn_2061", "wpn_2062"],
+        "back_items": ["back_2075", "back_2076", "back_2078", "back_2077", "back_2055", "back_2056", "back_2057", "back_2058", "back_2059", "back_2060", "back_2061", "back_2062", "back_2063", "back_2064", "back_2065", "back_2066"]
+      }
+    },
+
+    "limited_store": {
+      "id": "limited_store",
+      "label": "Limited Store",
+      "description": "Toko skill terbatas. Pool global, tapi yang ditampilkan per player (1-4 skills) bisa di-reroll. Beli dengan tokens.",
+      "currency": ["tokens"],
+      "access_requirements": [],
+      "item_types": ["skill"],
+      "script_file": "scripts/id/ninjasage/features/LimitedStore.as",
+      "dump_file": "dump/limited_store.json",
+      "note": "Full skill pool fetched via MysteriousMarket.getAllPackagesList. 12 skills in pool. Player sees 1-4 at a time, can reroll.",
+      "dumped_items": {
+        "skill": ["skill_369", "skill_386", "skill_393", "skill_508", "skill_703", "skill_721", "skill_723", "skill_803", "skill_854", "skill_860", "skill_862", "skill_9007"]
+      }
+    },
+
+    "dragon_gacha": {
+      "id": "dragon_gacha",
+      "label": "Dragon Gacha",
+      "description": "Gacha permanen. 3 tier reward: top, mid, common. Pakai Dragon Coin (material_773) atau tokens.",
+      "currency": ["dragon_coin", "tokens"],
+      "access_requirements": [],
+      "item_types": ["wpn", "back", "accessory", "set", "pet", "material"],
+      "gamedata_key": "dragon_gacha",
+      "script_file": "scripts/id/ninjasage/features/DragonGacha.as",
+      "gacha_material": "material_773"
+    },
+
+    "daily_gacha": {
+      "id": "daily_gacha",
+      "label": "Daily Gacha (Event Gacha)",
+      "description": "Gacha event (contoh: Christmas 2021). Pakai event coin atau tokens.",
+      "currency": ["event_coin", "tokens"],
+      "access_requirements": ["event_active"],
+      "item_types": ["wpn", "back", "accessory", "set", "pet", "material"],
+      "script_file": "scripts/id/ninjasage/features/DailyGacha.as",
+      "gacha_material": "material_874"
+    },
+
+    "anniversary_gacha": {
+      "id": "anniversary_gacha",
+      "label": "Anniversary Gacha",
+      "description": "Gacha anniversary event.",
+      "currency": ["event_coin", "tokens"],
+      "access_requirements": ["event_active"],
+      "item_types": ["wpn", "back", "accessory", "set", "pet"],
+      "gamedata_key": "anniv2026",
+      "script_file": "scripts/id/ninjasage/features/AnniversaryGacha.as"
+    },
+
+    "christmas_gacha": {
+      "id": "christmas_gacha",
+      "label": "Christmas Gacha",
+      "description": "Gacha Christmas event.",
+      "currency": ["event_coin", "tokens"],
+      "access_requirements": ["event_active"],
+      "item_types": ["wpn", "back", "accessory", "set", "pet"],
+      "gamedata_key": "christmas2025",
+      "script_file": "scripts/id/ninjasage/features/ChristmasGacha.as"
+    },
+
+    "daily_rewards": {
+      "id": "daily_rewards",
+      "label": "Daily Login Rewards",
+      "description": "Reward harian: 25 tokens, XP, Scroll of Wisdom (level 80).",
+      "currency": [],
+      "access_requirements": ["daily_login"],
+      "item_types": ["tokens", "xp", "essential"],
+      "script_file": "scripts/Panels/DailyRewards.as"
+    },
+
+    "daily_roulette": {
+      "id": "daily_roulette",
+      "label": "Daily Roulette",
+      "description": "Spin roulette harian untuk random reward.",
+      "currency": [],
+      "access_requirements": ["daily_spin"],
+      "item_types": ["tokens", "gold", "xp", "item"],
+      "script_file": "scripts/Panels/DailyRoulette.as"
+    },
+
+    "daily_scratch": {
+      "id": "daily_scratch",
+      "label": "Daily Scratch Card",
+      "description": "Scratch card harian. Ada grand prize.",
+      "currency": [],
+      "access_requirements": ["daily_scratch"],
+      "item_types": ["tokens", "gold", "item", "wpn", "back"],
+      "gamedata_key": "scratch",
+      "script_file": "scripts/Panels/DailyScratch.as"
+    },
+
+    "daily_stamp": {
+      "id": "daily_stamp",
+      "label": "Daily Stamp (Attendance)",
+      "description": "Reward berdasarkan consecutive daily login.",
+      "currency": [],
+      "access_requirements": ["consecutive_login"],
+      "item_types": ["tokens", "gold", "item"],
+      "script_file": "scripts/Panels/DailyStamp.as"
+    },
+
+    "mission_reward": {
+      "id": "mission_reward",
+      "label": "Mission Rewards",
+      "description": "Reward dari menyelesaikan mission. Termasuk XP, gold, dan kadang item.",
+      "currency": [],
+      "access_requirements": ["complete_mission"],
+      "item_types": ["xp", "gold", "item", "wpn", "back", "material"],
+      "data_file": "dump/mission.json",
+      "script_file": "scripts/Popups/MissionReward.as"
+    },
+
+    "tailed_beast": {
+      "id": "tailed_beast",
+      "label": "Tailed Beast",
+      "description": "Beli tailed beast pet dengan tokens.",
+      "currency": ["tokens"],
+      "access_requirements": ["level_requirement"],
+      "item_types": ["pet"],
+      "gamedata_key": "tailed_beast",
+      "script_file": "scripts/Panels/TailedBeast.as"
+    },
+
+    "divine_tree": {
+      "id": "divine_tree",
+      "label": "Divine Tree",
+      "description": "Harvest divine tree untuk reward. Ada milestone rewards.",
+      "currency": ["divine_tree_chance"],
+      "access_requirements": [],
+      "item_types": ["wpn", "back", "set", "material", "item"],
+      "gamedata_key": "divinetree",
+      "script_file": "scripts/id/ninjasage/features/DivineTree.as"
+    },
+
+    "justice_badge": {
+      "id": "justice_badge",
+      "label": "Justice Badge Rewards",
+      "description": "Reward dari sistem Justice Badge.",
+      "currency": ["justice_badge"],
+      "access_requirements": [],
+      "item_types": ["wpn", "back", "accessory", "set"],
+      "gamedata_key": "justice_badge",
+      "script_file": "scripts/id/ninjasage/features/JusticeBadge.as"
+    },
+
+    "monster_hunter": {
+      "id": "monster_hunter",
+      "label": "Monster Hunter Rewards",
+      "description": "Reward dari Monster Hunter feature.",
+      "currency": [],
+      "access_requirements": ["monster_hunter_access"],
+      "item_types": ["wpn", "back", "material"],
+      "gamedata_key": "monster_hunter",
+      "script_file": "scripts/id/ninjasage/features/MonsterHunter.as"
+    },
+
+    "dragon_hunt": {
+      "id": "dragon_hunt",
+      "label": "Dragon Hunt",
+      "description": "Boss battle dragon. Reward termasuk pet dan item.",
+      "currency": [],
+      "access_requirements": [],
+      "item_types": ["pet", "wpn", "back", "material"],
+      "gamedata_key": "dragon_hunt",
+      "script_file": "scripts/id/ninjasage/features/DragonHunt.as"
+    },
+
+    "eudemon_garden": {
+      "id": "eudemon_garden",
+      "label": "Eudemon Garden",
+      "description": "Boss battle eudemon. Reward gold, XP, dan item.",
+      "currency": [],
+      "access_requirements": ["level_10"],
+      "item_types": ["gold", "xp", "item"],
+      "gamedata_key": "eudemon",
+      "script_file": "scripts/id/ninjasage/features/EudemonGarden.as"
+    },
+
+    "scroll_of_wisdom": {
+      "id": "scroll_of_wisdom",
+      "label": "Scroll of Wisdom",
+      "description": "Skill selection dari Scroll of Wisdom. Element-based skill lists.",
+      "currency": ["scroll_of_wisdom"],
+      "access_requirements": ["has_scroll"],
+      "item_types": ["skill"],
+      "gamedata_key": "sow",
+      "script_file": "scripts/id/ninjasage/features/ScrollOfWisdom.as"
+    },
+
+    "pet_combination": {
+      "id": "pet_combination",
+      "label": "Pet Combination/Fusion",
+      "description": "Gabungkan pet untuk mendapatkan pet baru.",
+      "currency": ["pets"],
+      "access_requirements": ["has_pets"],
+      "item_types": ["pet"],
+      "script_file": "scripts/id/ninjasage/features/PetCombination.as"
+    },
+
+    "special_deals": {
+      "id": "special_deals",
+      "label": "Special Deals / Packages",
+      "description": "Paket spesial yang dijual dengan tokens. Termasuk set packages.",
+      "currency": ["tokens"],
+      "access_requirements": [],
+      "item_types": ["wpn", "back", "accessory", "set", "skill"],
+      "script_file": "scripts/id/ninjasage/features/SpecialDeals.as"
+    },
+
+    "giveaway_center": {
+      "id": "giveaway_center",
+      "label": "Giveaway Center",
+      "description": "Redeem code untuk item gratis.",
+      "currency": ["redeem_code"],
+      "access_requirements": ["has_code"],
+      "item_types": ["wpn", "back", "accessory", "set", "item", "tokens"],
+      "script_file": "scripts/id/ninjasage/features/GiveawayCenter.as"
+    },
+
+    "redeem_ticket": {
+      "id": "redeem_ticket",
+      "label": "Redeem Ticket",
+      "description": "Tukar tiket untuk reward.",
+      "currency": ["ticket"],
+      "access_requirements": ["has_ticket"],
+      "item_types": ["wpn", "back", "set", "item"],
+      "script_file": "scripts/id/ninjasage/features/RedeemTicket.as"
+    },
+
+    "clan_war": {
+      "id": "clan_war",
+      "label": "Clan War / Shadow War Rewards",
+      "description": "Reward dari Clan War dan Shadow War. Termasuk weapon, back, set, hair.",
+      "currency": [],
+      "access_requirements": ["must_be_in_clan", "clan_war_participation"],
+      "item_types": ["wpn", "back", "set", "hair"],
+      "gamedata_key": "cwsw",
+      "script_file": "scripts/Panels/DeveloperTools.as"
+    },
+
+    "arena_rewards": {
+      "id": "arena_rewards",
+      "label": "Arena / PvP Rewards",
+      "description": "Reward dari arena battles dan PvP leaderboard.",
+      "currency": [],
+      "access_requirements": ["pvp_participation"],
+      "item_types": ["wpn", "back", "accessory", "tokens", "gold"],
+      "script_file": "scripts/id/ninjasage/features/ArenaRewards.as"
+    },
+
+    "chunin_exam": {
+      "id": "chunin_exam",
+      "label": "Chunin Exam",
+      "description": "Exam untuk naik rank. Reward item dan rank promotion.",
+      "currency": [],
+      "access_requirements": ["level_20"],
+      "item_types": ["rank_promotion", "item"],
+      "script_file": "scripts/id/ninjasage/features/ChuninExam.as"
+    },
+
+    "jounin_exam": {
+      "id": "jounin_exam",
+      "label": "Jounin Exam",
+      "description": "Exam untuk rank Jounin.",
+      "currency": [],
+      "access_requirements": ["level_60", "chunin_rank"],
+      "item_types": ["rank_promotion", "item"],
+      "script_file": "scripts/id/ninjasage/features/JouninExam.as"
+    },
+
+    "special_jounin_exam": {
+      "id": "special_jounin_exam",
+      "label": "Special Jounin Exam",
+      "description": "Exam spesial untuk Special Jounin rank.",
+      "currency": [],
+      "access_requirements": ["level_80"],
+      "item_types": ["rank_promotion", "item"],
+      "script_file": "scripts/id/ninjasage/features/SpecialJouninExam.as"
+    },
+
+    "ninja_tutor_exam": {
+      "id": "ninja_tutor_exam",
+      "label": "Ninja Tutor Exam",
+      "description": "Exam untuk unlock Senjutsu. Butuh level 80.",
+      "currency": [],
+      "access_requirements": ["level_80"],
+      "item_types": ["senjutsu_unlock"],
+      "script_file": "scripts/id/ninjasage/features/NinjaTutorExam.as"
+    },
+
+    "hunting_house": {
+      "id": "hunting_house",
+      "label": "Hunting House (Boss Drops)",
+      "description": "Hunting boss untuk drop material dan item.",
+      "currency": [],
+      "access_requirements": ["level_20", "rank_3"],
+      "item_types": ["material", "item"],
+      "script_file": "scripts/id/ninjasage/features/HuntingHouse.as"
+    },
+
+    "welcome_login": {
+      "id": "welcome_login",
+      "label": "Welcome Login / New Player Rewards",
+      "description": "Reward untuk pemain baru atau welcome back.",
+      "currency": [],
+      "access_requirements": [],
+      "item_types": ["tokens", "gold", "item"],
+      "script_file": "scripts/id/ninjasage/features/WelcomeLogin.as"
+    },
+
+    "billing_packages": {
+      "id": "billing_packages",
+      "label": "Cash Shop / Billing Packages",
+      "description": "Beli paket premium dengan uang asli.",
+      "currency": ["real_money"],
+      "access_requirements": [],
+      "item_types": ["tokens", "set", "wpn", "back", "pet"],
+      "gamedata_key": "billing"
+    },
+
+    "event_seasonal": {
+      "id": "event_seasonal",
+      "label": "Seasonal Events",
+      "description": "Event musiman (Valentine, Anniversary, Ramadhan, Easter, Christmas, Halloween, dll). Setiap event punya boss, gacha, milestone, training, dan reward unik.",
+      "currency": ["event_currency", "tokens"],
+      "access_requirements": ["event_active"],
+      "item_types": ["wpn", "back", "accessory", "set", "pet", "skill", "material"],
+      "gamedata_keys": [
+        "valentine2025", "anniv2025", "ramadhan2025", "easter2025", "wmg2025",
+        "sumer2025", "independence2025", "yinyang2025", "halloween2025",
+        "confrontingdeath2025", "thanksgiving2025", "christmas2025",
+        "phantomkyunoki2026", "valentine2026", "anniv2026", "ramadhan2026", "hanami2026"
+      ],
+      "sub_sources": [
+        "event_boss_drop",
+        "event_milestone_reward",
+        "event_gacha",
+        "event_training",
+        "event_package",
+        "event_minigame",
+        "event_spending_reward",
+        "event_wishing_tree",
+        "event_clothing"
+      ],
+      "script_files": [
+        "scripts/id/ninjasage/features/AnniversaryMenu.as",
+        "scripts/id/ninjasage/features/AnniversaryGacha.as",
+        "scripts/id/ninjasage/features/AnniversaryClothing.as",
+        "scripts/id/ninjasage/features/ChristmasMenu.as",
+        "scripts/id/ninjasage/features/ChristmasGacha.as",
+        "scripts/id/ninjasage/features/HanamiMenu.as",
+        "scripts/id/ninjasage/features/PhantomKyunokiMenu.as",
+        "scripts/id/ninjasage/features/FeastOfGratitudeMenu.as",
+        "scripts/id/ninjasage/features/RamadhanPackage.as",
+        "scripts/id/ninjasage/features/AnniversarySento.as",
+        "scripts/id/ninjasage/features/AnniversaryMinigame.as"
+      ]
+    },
+
+    "set_packages": {
+      "id": "set_packages",
+      "label": "Set Packages (Themed Equipment Sets)",
+      "description": "Paket equipment set bertema. Biasanya dijual sebagai bundle.",
+      "currency": ["tokens"],
+      "access_requirements": [],
+      "item_types": ["set", "wpn", "back", "accessory"],
+      "script_files": [
+        "scripts/id/ninjasage/features/AncientRuinsSet.as",
+        "scripts/id/ninjasage/features/DesertDwellerSet.as",
+        "scripts/id/ninjasage/features/FireBeastSet.as",
+        "scripts/id/ninjasage/features/HanyaoniSet.as",
+        "scripts/id/ninjasage/features/MechbuserSet.as",
+        "scripts/id/ninjasage/features/MonolithSet.as",
+        "scripts/id/ninjasage/features/NecromancerSet.as",
+        "scripts/id/ninjasage/features/NightingaleSet.as",
+        "scripts/id/ninjasage/features/SpiritOfOrientSet.as",
+        "scripts/id/ninjasage/features/TearsOfKingdomSet.as",
+        "scripts/id/ninjasage/features/ElementalArsPackage.as",
+        "scripts/id/ninjasage/features/ExoticPackage.as",
+        "scripts/id/ninjasage/features/TaixiouMountainPackage.as",
+        "scripts/id/ninjasage/features/ChuninPackages.as"
+      ]
+    },
+
+    "spin_mission": {
+      "id": "spin_mission",
+      "label": "Spin Mission",
+      "description": "Special mission dengan spin reward.",
+      "currency": [],
+      "access_requirements": [],
+      "item_types": ["item", "material", "gold", "xp"],
+      "script_file": "scripts/id/ninjasage/features/SpinMission.as"
+    },
+
+    "crew_battle": {
+      "id": "crew_battle",
+      "label": "Crew Battle Rewards",
+      "description": "Reward dari Shadow Crew battle.",
+      "currency": [],
+      "access_requirements": ["must_be_in_crew"],
+      "item_types": ["merit", "item"],
+      "gamedata_key": "crew",
+      "script_file": "scripts/id/ninjasage/features/CrewBattle.as"
+    },
+
+    "mailbox": {
+      "id": "mailbox",
+      "label": "Mailbox / Admin Gifts",
+      "description": "Item dikirim via mailbox oleh admin atau system.",
+      "currency": [],
+      "access_requirements": [],
+      "item_types": ["any"],
+      "script_file": "scripts/Panels/NewMailbox.as"
+    }
+  },
+
+  "item_field_detection_rules": {
+    "_description": "Rules untuk mendeteksi source dari field di library.json dan skills.json. Satu item bisa match MULTIPLE rules = multiple sources.",
+    "rules": [
+      {
+        "field": "buyable",
+        "condition": "== true",
+        "possible_sources": ["shop_normal", "shop_clan", "shop_pvp", "shop_crew", "academy"],
+        "note": "Cek juga gamedata.json shop.normal/clan/pvp/crew untuk konfirmasi di shop mana"
+      },
+      {
+        "field": "price_gold",
+        "condition": "> 0",
+        "possible_sources": ["shop_normal", "shop_clan", "academy"],
+        "note": "Gold price biasanya normal shop atau academy"
+      },
+      {
+        "field": "price_tokens",
+        "condition": "> 0",
+        "possible_sources": ["shop_normal", "shop_pvp", "limited_store", "special_deals", "billing_packages"],
+        "note": "Token items bisa dari berbagai sumber"
+      },
+      {
+        "field": "price_pvp",
+        "condition": "> 0",
+        "possible_sources": ["shop_pvp"],
+        "note": "Hanya PvP shop"
+      },
+      {
+        "field": "item_price_pvp",
+        "condition": "> 0",
+        "possible_sources": ["shop_pvp"],
+        "note": "PvP shop untuk skills"
+      },
+      {
+        "field": "price_prestige",
+        "condition": "> 0",
+        "possible_sources": ["clan_forge", "shop_clan"],
+        "note": "Prestige = clan currency"
+      },
+      {
+        "field": "price_merit",
+        "condition": "> 0",
+        "possible_sources": ["shop_crew"],
+        "note": "Merit = Shadow Crew currency"
+      },
+      {
+        "field": "premium",
+        "condition": "== true",
+        "possible_sources": ["billing_packages", "special_deals", "limited_store"],
+        "note": "Premium items biasanya dari cash shop atau special deals"
+      },
+      {
+        "field": "buyable",
+        "condition": "== false",
+        "possible_sources": ["event_seasonal", "mission_reward", "blacksmith", "material_market", "hunting_market", "dragon_gacha", "daily_gacha", "divine_tree", "giveaway_center"],
+        "note": "Non-buyable items = event drops, forge results, gacha, atau discontinued"
+      }
+    ]
+  },
+
+  "item_type_to_sources_map": {
+    "_description": "Untuk setiap item type, semua possible sources dimana type tersebut bisa didapatkan.",
+    "wpn": [
+      "shop_normal", "shop_clan", "shop_pvp", "shop_crew",
+      "blacksmith", "material_market", "hunting_market", "clan_forge",
+      "contest_shop", "limited_store", "dragon_gacha", "daily_gacha",
+      "anniversary_gacha", "christmas_gacha", "divine_tree",
+      "justice_badge", "monster_hunter", "dragon_hunt",
+      "friendship_shop", "special_deals", "set_packages",
+      "event_seasonal", "mission_reward", "arena_rewards",
+      "giveaway_center", "redeem_ticket", "clan_war", "mailbox"
+    ],
+    "back": [
+      "shop_normal", "shop_clan", "shop_pvp", "shop_crew",
+      "material_market", "hunting_market",
+      "contest_shop", "limited_store", "dragon_gacha", "daily_gacha",
+      "anniversary_gacha", "christmas_gacha", "divine_tree",
+      "justice_badge", "monster_hunter", "dragon_hunt",
+      "friendship_shop", "special_deals", "set_packages",
+      "event_seasonal", "arena_rewards", "clan_war",
+      "giveaway_center", "redeem_ticket", "mailbox"
+    ],
+    "accessory": [
+      "shop_normal", "shop_pvp", "shop_crew",
+      "material_market", "hunting_market",
+      "limited_store", "dragon_gacha", "daily_gacha",
+      "justice_badge", "friendship_shop", "special_deals", "set_packages",
+      "event_seasonal", "arena_rewards",
+      "giveaway_center", "mailbox"
+    ],
+    "set": [
+      "shop_normal", "shop_pvp", "shop_crew",
+      "material_market", "hunting_market",
+      "limited_store", "dragon_gacha", "daily_gacha",
+      "divine_tree", "justice_badge",
+      "friendship_shop", "special_deals", "set_packages",
+      "event_seasonal", "clan_war",
+      "giveaway_center", "redeem_ticket", "mailbox"
+    ],
+    "hair": [
+      "shop_normal", "shop_pvp", "shop_crew",
+      "material_market", "hunting_market",
+      "event_seasonal", "clan_war", "mailbox"
+    ],
+    "skill": [
+      "academy", "advanced_academy", "shop_pvp",
+      "material_market", "hunting_market",
+      "limited_store", "scroll_of_wisdom",
+      "special_deals", "event_seasonal", "mailbox"
+    ],
+    "senjutsu_skill": [
+      "senjutsu_shop"
+    ],
+    "talent": [
+      "talent_shop"
+    ],
+    "pet": [
+      "pet_shop", "tailed_beast",
+      "material_market", "hunting_market",
+      "dragon_gacha", "daily_gacha", "dragon_hunt",
+      "pet_combination", "event_seasonal", "mailbox"
+    ],
+    "item": [
+      "shop_normal", "shop_clan", "shop_crew",
+      "friendship_shop", "mission_reward",
+      "daily_rewards", "daily_roulette", "daily_scratch", "daily_stamp",
+      "event_seasonal", "spin_mission",
+      "giveaway_center", "redeem_ticket", "mailbox"
+    ],
+    "essential": [
+      "shop_normal", "shop_clan", "shop_pvp", "shop_crew",
+      "daily_rewards"
+    ],
+    "material": [
+      "hunting_house", "mission_reward", "monster_hunter",
+      "dragon_hunt", "divine_tree", "event_seasonal",
+      "spin_mission", "material_market"
+    ],
+    "animation": [
+      "animation_shop"
+    ]
+  },
+
+  "gamedata_categories": {
+    "_description": "Semua 36 category ID di gamedata.json dan apa yang mereka contain.",
+    "core": {
+      "academy": "Element-based skill lists (wind/fire/thunder/earth/water/taijutsu/genjutsu)",
+      "shop": "4 sub-shops: normal, clan, pvp, crew. Masing-masing punya weapons/hairs/sets/backs/accs/items/essentials/skills",
+      "talent_shop": "Bloodline shop: extreme (10) dan secret (9) tiers",
+      "talent_info": "19 bloodline definitions dengan 5 skills masing-masing",
+      "talent_description": "Skill descriptions untuk semua bloodline skills",
+      "crew": "Shadow Crew system: buildings, castle, boss, rewards, minigame, token_pool",
+      "cwsw": "Clan War / Shadow War: clan configs, squad data, rankings",
+      "recruit": "NPC recruitment: Classic/Premium tabs",
+      "encyclopedia": "Game encyclopedia: backgrounds, pets, effects",
+      "sow": "Scroll of Wisdom: element-based skill lists",
+      "billing": "Cash shop packages",
+      "shangri-la": "Special packages"
+    },
+    "pets_beasts": {
+      "pet_shop": "Pet store: 14 pets with token prices",
+      "tailed_beast": "10 tailed beasts with token prices",
+      "dragon_hunt": "Dragon hunting: 5 bosses, 4 pets",
+      "dragon_gacha": "Gacha: top/mid/common prize tiers",
+      "eudemon": "11 eudemon bosses with rewards"
+    },
+    "features": {
+      "scratch": "Scratch card: 18 rewards + grand prize",
+      "monster_hunter": "Monster hunting rewards",
+      "justice_badge": "Justice badge rewards",
+      "divinetree": "Divine tree: trees, experience, buffs, milestone, rules"
+    },
+    "events_2025_2026": [
+      "valentine2025", "anniv2025", "ramadhan2025", "easter2025", "wmg2025",
+      "sumer2025", "independence2025", "yinyang2025", "halloween2025",
+      "confrontingdeath2025", "thanksgiving2025", "christmas2025",
+      "phantomkyunoki2026", "valentine2026", "anniv2026", "ramadhan2026", "hanami2026"
+    ]
+  }
+}
