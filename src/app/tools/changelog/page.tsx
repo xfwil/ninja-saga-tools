@@ -349,9 +349,11 @@ export default function ChangelogPage() {
     fetch(`${BASE}/data/syncs.json`)
       .then((r) => r.json())
       .then((data: SyncRun[]) => {
-        setSyncs(data);
-        // Auto-select first non-initial sync
-        const first = data.find((s) => !s.initial) ?? data[0] ?? null;
+        // Filter out empty syncs (0 changes, non-initial) — they clutter the sidebar
+        const meaningful = data.filter((s) => s.initial || s.changes > 0);
+        setSyncs(meaningful);
+        // Auto-select first non-initial sync with changes
+        const first = meaningful.find((s) => !s.initial && s.changes > 0) ?? meaningful[0] ?? null;
         if (first) setActiveSync(first.id);
       })
       .catch(() => setError("Gagal memuat sync history. Pastikan sudah menjalankan sync-dump.js."))

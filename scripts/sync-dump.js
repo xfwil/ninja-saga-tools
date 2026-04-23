@@ -354,7 +354,14 @@ function sync() {
     return;
   }
 
-  // Write per-sync changes file (even if empty, for consistency)
+  // Skip writing sync entry when there are no changes (non-initial)
+  if (!isFirstSync && changes.length === 0) {
+    console.log(`\n⏭  No changes detected — skipping sync entry.`);
+    writeJson(SNAPSHOT_FILE, newSnapshot);
+    return;
+  }
+
+  // Write per-sync changes file
   const changesFile = path.join(CHANGES_DIR, `${syncId}.json`);
   writeJson(changesFile, changes);
 
