@@ -1,0 +1,68 @@
+[
+  {
+    "syncId": "2026-05-02T11-21-35-934Z",
+    "detectedAt": "2026-05-02T11:21:35.934Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "material_2251",
+    "entityName": "Crimson Corrupted Soul",
+    "field": "description",
+    "oldValue": "This Crimson Corrupted Soul can be used to exchange reward during Hanami Sakura Bloom 2026.",
+    "newValue": "This Crimson Corrupted Soul can be used to exchange reward during Crimson Calamity Event 2026."
+  },
+  {
+    "syncId": "2026-05-02T11-21-35-934Z",
+    "detectedAt": "2026-05-02T11:21:35.934Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "material_2252",
+    "entityName": "Hornbill Claw",
+    "field": "description",
+    "oldValue": "This Hornbill Claw can be used to exchange reward during Hanami Sakura Bloom 2026.",
+    "newValue": "This Hornbill Claw can be used to exchange reward during Crimson Calamity Event 2026."
+  },
+  {
+    "syncId": "2026-05-02T11-21-35-934Z",
+    "detectedAt": "2026-05-02T11:21:35.934Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "material_2253",
+    "entityName": "Panzer Armor",
+    "field": "description",
+    "oldValue": "This Panzer Armor can be used to exchange reward during Hanami Sakura Bloom 2026.",
+    "newValue": "This Panzer Armor can be used to exchange reward during Crimson Calamity Event 2026."
+  },
+  {
+    "syncId": "2026-05-02T11-21-35-934Z",
+    "detectedAt": "2026-05-02T11:21:35.934Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "material_2254",
+    "entityName": "Demon Spear Head",
+    "field": "description",
+    "oldValue": "This Demon Spear Head can be used to exchange reward during Hanami Sakura Bloom 2026.",
+    "newValue": "This Demon Spear Head can be used to exchange reward during Crimson Calamity Event 2026."
+  },
+  {
+    "syncId": "2026-05-02T11-21-35-934Z",
+    "detectedAt": "2026-05-02T11:21:35.934Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "material_2255",
+    "entityName": "Crimson Thorn Carapace",
+    "field": "description",
+    "oldValue": "This Crimson Thorn Carapace can be used to exchange reward during Hanami Sakura Bloom 2026.",
+    "newValue": "This Crimson Thorn Carapace can be used to exchange reward during Crimson Calamity Event 2026."
+  },
+  {
+    "syncId": "2026-05-02T11-21-35-934Z",
+    "detectedAt": "2026-05-02T11:21:35.934Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "material_2256",
+    "entityName": "Calamity Serpent Egg",
+    "field": "description",
+    "oldValue": "This Calamity Serpent Egg can be used to exchange reward during Hanami Sakura Bloom 2026.",
+    "newValue": "This Calamity Serpent Egg can be used to exchange reward during Crimson Calamity Event 2026."
+  }
+]
