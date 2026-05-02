@@ -1,0 +1,11673 @@
+{
+  "wpn_01": [
+    "shop_normal",
+    "clan_forge"
+  ],
+  "wpn_02": [
+    "shop_normal"
+  ],
+  "wpn_03": [
+    "shop_normal"
+  ],
+  "wpn_09": [
+    "shop_normal"
+  ],
+  "wpn_12": [
+    "shop_normal"
+  ],
+  "wpn_14": [
+    "shop_normal"
+  ],
+  "wpn_23": [
+    "shop_normal"
+  ],
+  "wpn_24": [
+    "shop_normal"
+  ],
+  "wpn_219": [
+    "shop_normal"
+  ],
+  "wpn_237": [
+    "shop_normal"
+  ],
+  "wpn_202": [
+    "shop_normal"
+  ],
+  "wpn_19": [
+    "shop_normal"
+  ],
+  "wpn_36": [
+    "shop_normal"
+  ],
+  "wpn_39": [
+    "shop_normal"
+  ],
+  "wpn_50": [
+    "shop_normal"
+  ],
+  "wpn_111": [
+    "shop_normal"
+  ],
+  "wpn_31": [
+    "shop_normal"
+  ],
+  "wpn_59": [
+    "shop_normal"
+  ],
+  "wpn_28": [
+    "shop_normal"
+  ],
+  "wpn_27": [
+    "shop_normal"
+  ],
+  "wpn_16": [
+    "shop_normal"
+  ],
+  "wpn_47": [
+    "shop_normal"
+  ],
+  "wpn_21": [
+    "shop_normal"
+  ],
+  "wpn_42": [
+    "shop_normal"
+  ],
+  "wpn_25": [
+    "shop_normal"
+  ],
+  "wpn_18": [
+    "shop_normal"
+  ],
+  "wpn_20": [
+    "shop_normal"
+  ],
+  "wpn_40": [
+    "shop_normal"
+  ],
+  "wpn_100": [
+    "shop_normal"
+  ],
+  "wpn_85": [
+    "shop_normal"
+  ],
+  "wpn_52": [
+    "shop_normal"
+  ],
+  "wpn_485": [
+    "shop_normal"
+  ],
+  "wpn_56": [
+    "shop_normal"
+  ],
+  "wpn_430": [
+    "shop_normal"
+  ],
+  "wpn_84": [
+    "shop_normal"
+  ],
+  "wpn_103": [
+    "shop_normal"
+  ],
+  "wpn_236": [
+    "shop_normal"
+  ],
+  "wpn_436": [
+    "shop_normal"
+  ],
+  "wpn_86": [
+    "shop_normal"
+  ],
+  "wpn_54": [
+    "shop_normal"
+  ],
+  "wpn_272": [
+    "shop_normal"
+  ],
+  "wpn_222": [
+    "shop_normal"
+  ],
+  "wpn_227": [
+    "shop_normal"
+  ],
+  "wpn_88": [
+    "shop_normal"
+  ],
+  "wpn_89": [
+    "shop_normal"
+  ],
+  "wpn_53": [
+    "shop_normal"
+  ],
+  "wpn_06": [
+    "shop_normal"
+  ],
+  "wpn_07": [
+    "shop_normal"
+  ],
+  "wpn_37": [
+    "shop_normal"
+  ],
+  "wpn_05": [
+    "shop_normal"
+  ],
+  "wpn_49": [
+    "shop_normal"
+  ],
+  "wpn_45": [
+    "shop_normal"
+  ],
+  "wpn_46": [
+    "shop_normal"
+  ],
+  "wpn_60": [
+    "shop_normal"
+  ],
+  "wpn_62": [
+    "shop_normal"
+  ],
+  "wpn_61": [
+    "shop_normal"
+  ],
+  "wpn_79": [
+    "shop_normal"
+  ],
+  "wpn_44": [
+    "shop_normal"
+  ],
+  "wpn_231": [
+    "shop_normal"
+  ],
+  "wpn_245": [
+    "shop_normal"
+  ],
+  "wpn_212": [
+    "shop_normal"
+  ],
+  "wpn_71": [
+    "shop_normal"
+  ],
+  "wpn_158": [
+    "shop_normal"
+  ],
+  "wpn_57": [
+    "shop_normal"
+  ],
+  "wpn_604": [
+    "shop_normal"
+  ],
+  "wpn_392": [
+    "shop_normal"
+  ],
+  "wpn_168": [
+    "shop_normal"
+  ],
+  "wpn_505": [
+    "shop_normal"
+  ],
+  "wpn_403": [
+    "shop_normal"
+  ],
+  "wpn_161": [
+    "shop_normal"
+  ],
+  "wpn_429": [
+    "shop_normal"
+  ],
+  "wpn_211": [
+    "shop_normal"
+  ],
+  "wpn_156": [
+    "shop_normal"
+  ],
+  "wpn_568": [
+    "shop_normal"
+  ],
+  "wpn_524": [
+    "shop_normal"
+  ],
+  "wpn_68": [
+    "shop_normal"
+  ],
+  "wpn_518": [
+    "shop_normal"
+  ],
+  "wpn_69": [
+    "shop_normal"
+  ],
+  "wpn_259": [
+    "shop_normal"
+  ],
+  "wpn_173": [
+    "shop_normal"
+  ],
+  "wpn_398": [
+    "shop_normal"
+  ],
+  "wpn_225": [
+    "shop_normal"
+  ],
+  "wpn_82": [
+    "shop_normal"
+  ],
+  "wpn_234": [
+    "shop_normal"
+  ],
+  "wpn_405": [
+    "shop_normal"
+  ],
+  "wpn_160": [
+    "shop_normal"
+  ],
+  "wpn_530": [
+    "shop_normal"
+  ],
+  "wpn_603": [
+    "shop_normal"
+  ],
+  "wpn_395": [
+    "shop_normal"
+  ],
+  "wpn_207": [
+    "shop_normal"
+  ],
+  "wpn_107": [
+    "shop_normal"
+  ],
+  "wpn_157": [
+    "shop_normal"
+  ],
+  "wpn_217": [
+    "shop_normal"
+  ],
+  "wpn_404": [
+    "shop_normal"
+  ],
+  "wpn_87": [
+    "shop_normal"
+  ],
+  "wpn_543": [
+    "shop_normal"
+  ],
+  "wpn_479": [
+    "shop_normal"
+  ],
+  "wpn_478": [
+    "shop_normal"
+  ],
+  "wpn_486": [
+    "shop_normal"
+  ],
+  "wpn_501": [
+    "shop_normal"
+  ],
+  "wpn_80": [
+    "shop_normal"
+  ],
+  "wpn_267": [
+    "shop_normal"
+  ],
+  "wpn_226": [
+    "shop_normal"
+  ],
+  "wpn_63": [
+    "shop_normal"
+  ],
+  "wpn_382": [
+    "shop_normal"
+  ],
+  "wpn_445": [
+    "shop_normal"
+  ],
+  "wpn_74": [
+    "shop_normal"
+  ],
+  "wpn_601": [
+    "shop_normal"
+  ],
+  "wpn_402": [
+    "shop_normal"
+  ],
+  "wpn_378": [
+    "shop_normal"
+  ],
+  "wpn_408": [
+    "shop_normal"
+  ],
+  "wpn_109": [
+    "shop_normal"
+  ],
+  "wpn_580": [
+    "shop_normal"
+  ],
+  "wpn_215": [
+    "shop_normal"
+  ],
+  "wpn_83": [
+    "shop_normal"
+  ],
+  "wpn_569": [
+    "shop_normal"
+  ],
+  "wpn_229": [
+    "shop_normal"
+  ],
+  "wpn_243": [
+    "shop_normal"
+  ],
+  "wpn_263": [
+    "shop_normal"
+  ],
+  "wpn_274": [
+    "shop_normal"
+  ],
+  "wpn_396": [
+    "shop_normal"
+  ],
+  "wpn_106": [
+    "shop_normal"
+  ],
+  "wpn_76": [
+    "shop_normal"
+  ],
+  "wpn_205": [
+    "shop_normal"
+  ],
+  "wpn_591": [
+    "shop_normal"
+  ],
+  "wpn_572": [
+    "shop_normal"
+  ],
+  "wpn_266": [
+    "shop_normal"
+  ],
+  "wpn_172": [
+    "shop_normal"
+  ],
+  "wpn_502": [
+    "shop_normal"
+  ],
+  "wpn_495": [
+    "shop_normal"
+  ],
+  "wpn_590": [
+    "shop_normal"
+  ],
+  "wpn_426": [
+    "shop_normal"
+  ],
+  "wpn_425": [
+    "shop_normal"
+  ],
+  "wpn_155": [
+    "shop_normal"
+  ],
+  "wpn_379": [
+    "shop_normal"
+  ],
+  "wpn_70": [
+    "shop_normal"
+  ],
+  "wpn_10": [
+    "shop_normal"
+  ],
+  "wpn_292": [
+    "blacksmith"
+  ],
+  "wpn_150": [
+    "blacksmith"
+  ],
+  "wpn_612": [
+    "blacksmith"
+  ],
+  "wpn_151": [
+    "blacksmith"
+  ],
+  "wpn_336": [
+    "blacksmith"
+  ],
+  "wpn_339": [
+    "blacksmith"
+  ],
+  "wpn_333": [
+    "blacksmith"
+  ],
+  "wpn_332": [
+    "blacksmith"
+  ],
+  "wpn_335": [
+    "blacksmith"
+  ],
+  "wpn_338": [
+    "blacksmith"
+  ],
+  "wpn_337": [
+    "blacksmith"
+  ],
+  "wpn_334": [
+    "blacksmith"
+  ],
+  "wpn_293": [
+    "blacksmith"
+  ],
+  "wpn_342": [
+    "billing_packages"
+  ],
+  "wpn_609": [
+    "blacksmith"
+  ],
+  "wpn_119": [
+    "blacksmith"
+  ],
+  "wpn_179": [
+    "blacksmith"
+  ],
+  "wpn_164": [
+    "blacksmith"
+  ],
+  "wpn_137": [
+    "blacksmith"
+  ],
+  "wpn_135": [
+    "blacksmith"
+  ],
+  "wpn_294": [
+    "blacksmith"
+  ],
+  "wpn_295": [
+    "blacksmith"
+  ],
+  "wpn_131": [
+    "blacksmith"
+  ],
+  "wpn_125": [
+    "blacksmith"
+  ],
+  "wpn_181": [
+    "blacksmith"
+  ],
+  "wpn_296": [
+    "blacksmith"
+  ],
+  "wpn_140": [
+    "blacksmith"
+  ],
+  "wpn_297": [
+    "blacksmith"
+  ],
+  "wpn_301": [
+    "shop_normal"
+  ],
+  "wpn_302": [
+    "shop_normal"
+  ],
+  "wpn_303": [
+    "blacksmith"
+  ],
+  "wpn_136": [
+    "blacksmith"
+  ],
+  "wpn_139": [
+    "blacksmith"
+  ],
+  "wpn_304": [
+    "blacksmith"
+  ],
+  "wpn_305": [
+    "blacksmith"
+  ],
+  "wpn_138": [
+    "blacksmith"
+  ],
+  "wpn_141": [
+    "blacksmith"
+  ],
+  "wpn_143": [
+    "blacksmith"
+  ],
+  "wpn_126": [
+    "blacksmith"
+  ],
+  "wpn_134": [
+    "blacksmith"
+  ],
+  "wpn_298": [
+    "blacksmith"
+  ],
+  "wpn_142": [
+    "blacksmith"
+  ],
+  "wpn_127": [
+    "blacksmith"
+  ],
+  "wpn_144": [
+    "blacksmith"
+  ],
+  "wpn_611": [
+    "blacksmith"
+  ],
+  "wpn_307": [
+    "blacksmith"
+  ],
+  "wpn_145": [
+    "blacksmith"
+  ],
+  "wpn_306": [
+    "blacksmith"
+  ],
+  "wpn_299": [
+    "blacksmith"
+  ],
+  "wpn_146": [
+    "blacksmith"
+  ],
+  "wpn_128": [
+    "blacksmith"
+  ],
+  "wpn_308": [
+    "blacksmith"
+  ],
+  "wpn_291": [
+    "blacksmith"
+  ],
+  "wpn_130": [
+    "blacksmith"
+  ],
+  "wpn_148": [
+    "blacksmith"
+  ],
+  "wpn_129": [
+    "blacksmith"
+  ],
+  "wpn_998": [
+    "set_packages"
+  ],
+  "wpn_905": [
+    "set_packages"
+  ],
+  "wpn_1096": [
+    "event_seasonal"
+  ],
+  "wpn_902": [
+    "event:christmas2025"
+  ],
+  "wpn_1029": [
+    "event:christmas2025"
+  ],
+  "wpn_1139": [
+    "blacksmith"
+  ],
+  "wpn_1141": [
+    "blacksmith"
+  ],
+  "wpn_1143": [
+    "blacksmith"
+  ],
+  "wpn_1145": [
+    "blacksmith"
+  ],
+  "wpn_1147": [
+    "blacksmith"
+  ],
+  "wpn_1149": [
+    "blacksmith"
+  ],
+  "wpn_1151": [
+    "blacksmith"
+  ],
+  "wpn_1153": [
+    "blacksmith"
+  ],
+  "wpn_1155": [
+    "blacksmith"
+  ],
+  "wpn_1157": [
+    "blacksmith"
+  ],
+  "wpn_1159": [
+    "blacksmith"
+  ],
+  "wpn_822": [
+    "hunting_market"
+  ],
+  "wpn_823": [
+    "hunting_market"
+  ],
+  "wpn_824": [
+    "hunting_market"
+  ],
+  "wpn_825": [
+    "hunting_market"
+  ],
+  "wpn_826": [
+    "hunting_market"
+  ],
+  "wpn_827": [
+    "hunting_market"
+  ],
+  "wpn_828": [
+    "hunting_market"
+  ],
+  "wpn_829": [
+    "hunting_market"
+  ],
+  "wpn_830": [
+    "hunting_market"
+  ],
+  "wpn_831": [
+    "hunting_market"
+  ],
+  "wpn_832": [
+    "hunting_market"
+  ],
+  "wpn_833": [
+    "hunting_market"
+  ],
+  "wpn_834": [
+    "hunting_market"
+  ],
+  "wpn_835": [
+    "hunting_market"
+  ],
+  "wpn_836": [
+    "hunting_market"
+  ],
+  "wpn_837": [
+    "hunting_market"
+  ],
+  "wpn_838": [
+    "hunting_market"
+  ],
+  "wpn_839": [
+    "hunting_market"
+  ],
+  "wpn_840": [
+    "hunting_market"
+  ],
+  "wpn_841": [
+    "hunting_market"
+  ],
+  "wpn_842": [
+    "hunting_market"
+  ],
+  "wpn_843": [
+    "hunting_market"
+  ],
+  "wpn_844": [
+    "hunting_market"
+  ],
+  "wpn_845": [
+    "hunting_market"
+  ],
+  "wpn_846": [
+    "hunting_market"
+  ],
+  "wpn_847": [
+    "hunting_market"
+  ],
+  "wpn_848": [
+    "hunting_market"
+  ],
+  "wpn_849": [
+    "hunting_market"
+  ],
+  "wpn_850": [
+    "hunting_market"
+  ],
+  "wpn_851": [
+    "hunting_market"
+  ],
+  "wpn_852": [
+    "hunting_market"
+  ],
+  "wpn_853": [
+    "hunting_market"
+  ],
+  "wpn_854": [
+    "hunting_market"
+  ],
+  "wpn_855": [
+    "hunting_market"
+  ],
+  "wpn_561": [
+    "shop_pvp"
+  ],
+  "wpn_556": [
+    "shop_pvp"
+  ],
+  "wpn_545": [
+    "shop_pvp"
+  ],
+  "wpn_540": [
+    "shop_pvp"
+  ],
+  "wpn_562": [
+    "shop_pvp"
+  ],
+  "wpn_95": [
+    "shop_normal"
+  ],
+  "wpn_92": [
+    "shop_normal"
+  ],
+  "wpn_91": [
+    "shop_normal"
+  ],
+  "wpn_99": [
+    "shop_normal"
+  ],
+  "wpn_628": [
+    "shop_normal"
+  ],
+  "wpn_629": [
+    "shop_normal"
+  ],
+  "wpn_630": [
+    "shop_normal"
+  ],
+  "wpn_631": [
+    "shop_normal"
+  ],
+  "wpn_632": [
+    "shop_normal"
+  ],
+  "wpn_642": [
+    "shop_normal"
+  ],
+  "wpn_799": [
+    "shop_normal"
+  ],
+  "wpn_416": [
+    "shop_normal"
+  ],
+  "wpn_644": [
+    "shop_normal"
+  ],
+  "wpn_1121": [
+    "dragon_gacha"
+  ],
+  "wpn_1122": [
+    "dragon_gacha"
+  ],
+  "wpn_980": [
+    "dragon_gacha"
+  ],
+  "wpn_986": [
+    "dragon_gacha"
+  ],
+  "wpn_991": [
+    "dragon_gacha"
+  ],
+  "wpn_992": [
+    "dragon_gacha"
+  ],
+  "wpn_1014": [
+    "dragon_gacha"
+  ],
+  "wpn_1018": [
+    "dragon_gacha"
+  ],
+  "wpn_1034": [
+    "dragon_gacha"
+  ],
+  "wpn_1035": [
+    "dragon_gacha"
+  ],
+  "wpn_1036": [
+    "dragon_gacha"
+  ],
+  "wpn_1044": [
+    "dragon_gacha"
+  ],
+  "wpn_1097": [
+    "event_seasonal"
+  ],
+  "wpn_1098": [
+    "event_seasonal"
+  ],
+  "wpn_1185": [
+    "event:anniv2025"
+  ],
+  "wpn_1099": [
+    "event_seasonal"
+  ],
+  "wpn_1285": [
+    "event_seasonal"
+  ],
+  "wpn_602": [
+    "daily_scratch"
+  ],
+  "wpn_605": [
+    "daily_scratch"
+  ],
+  "wpn_607": [
+    "daily_scratch"
+  ],
+  "wpn_1288": [
+    "event:anniv2026"
+  ],
+  "wpn_2001": [
+    "special_deals"
+  ],
+  "wpn_2007": [
+    "special_deals"
+  ],
+  "wpn_2008": [
+    "special_deals"
+  ],
+  "wpn_2029": [
+    "event_seasonal"
+  ],
+  "wpn_2030": [
+    "set_packages"
+  ],
+  "wpn_2049": [
+    "set_packages"
+  ],
+  "wpn_2050": [
+    "set_packages"
+  ],
+  "wpn_2051": [
+    "contest_shop"
+  ],
+  "wpn_2052": [
+    "contest_shop"
+  ],
+  "wpn_2053": [
+    "contest_shop"
+  ],
+  "wpn_2054": [
+    "contest_shop"
+  ],
+  "wpn_2055": [
+    "contest_shop"
+  ],
+  "wpn_2056": [
+    "contest_shop"
+  ],
+  "wpn_2057": [
+    "contest_shop"
+  ],
+  "wpn_2058": [
+    "contest_shop"
+  ],
+  "wpn_2059": [
+    "contest_shop"
+  ],
+  "wpn_2060": [
+    "contest_shop"
+  ],
+  "wpn_2061": [
+    "contest_shop"
+  ],
+  "wpn_2062": [
+    "contest_shop"
+  ],
+  "wpn_2063": [
+    "set_packages"
+  ],
+  "wpn_2077": [
+    "contest_shop"
+  ],
+  "wpn_2078": [
+    "contest_shop"
+  ],
+  "wpn_2079": [
+    "contest_shop"
+  ],
+  "wpn_2080": [
+    "contest_shop"
+  ],
+  "wpn_2081": [
+    "contest_shop"
+  ],
+  "wpn_2082": [
+    "set_packages"
+  ],
+  "wpn_2085": [
+    "set_packages"
+  ],
+  "wpn_2086": [
+    "arena_rewards"
+  ],
+  "wpn_2087": [
+    "event:valentine2025"
+  ],
+  "wpn_2088": [
+    "event:valentine2025"
+  ],
+  "wpn_2089": [
+    "event:valentine2025"
+  ],
+  "wpn_2101": [
+    "material_market"
+  ],
+  "wpn_2107": [
+    "event_seasonal"
+  ],
+  "wpn_2112": [
+    "friendship_shop"
+  ],
+  "wpn_2116": [
+    "set_packages"
+  ],
+  "wpn_2130": [
+    "arena_rewards"
+  ],
+  "wpn_2143": [
+    "set_packages"
+  ],
+  "wpn_2160": [
+    "set_packages"
+  ],
+  "wpn_2161": [
+    "event_seasonal"
+  ],
+  "wpn_2165": [
+    "arena_rewards"
+  ],
+  "wpn_2169": [
+    "event_seasonal"
+  ],
+  "wpn_2174": [
+    "set_packages"
+  ],
+  "wpn_2184": [
+    "set_packages"
+  ],
+  "wpn_2194": [
+    "material_market"
+  ],
+  "wpn_2197": [
+    "event:christmas2025"
+  ],
+  "wpn_2201": [
+    "set_packages"
+  ],
+  "wpn_2209": [
+    "arena_rewards"
+  ],
+  "wpn_2210": [
+    "event_seasonal"
+  ],
+  "wpn_2212": [
+    "event:anniv2025"
+  ],
+  "wpn_2213": [
+    "event:anniv2025"
+  ],
+  "wpn_2214": [
+    "event:anniv2025"
+  ],
+  "wpn_2217": [
+    "friendship_shop"
+  ],
+  "wpn_2223": [
+    "arena_rewards"
+  ],
+  "wpn_2231": [
+    "event:easter2025"
+  ],
+  "wpn_2232": [
+    "event:easter2025"
+  ],
+  "wpn_2233": [
+    "event:easter2025"
+  ],
+  "wpn_2235": [
+    "set_packages"
+  ],
+  "wpn_2236": [
+    "set_packages"
+  ],
+  "wpn_2247": [
+    "event:summer2025"
+  ],
+  "wpn_2248": [
+    "event:summer2025"
+  ],
+  "wpn_2249": [
+    "event:summer2025"
+  ],
+  "wpn_2252": [
+    "set_packages"
+  ],
+  "wpn_2255": [
+    "event_seasonal"
+  ],
+  "wpn_2258": [
+    "event:independence2025"
+  ],
+  "wpn_2259": [
+    "event:independence2025"
+  ],
+  "wpn_2261": [
+    "event:independence2025"
+  ],
+  "wpn_2265": [
+    "special_deals"
+  ],
+  "wpn_2266": [
+    "event_seasonal"
+  ],
+  "wpn_2267": [
+    "event_seasonal"
+  ],
+  "wpn_2268": [
+    "event_seasonal"
+  ],
+  "wpn_2269": [
+    "event_seasonal"
+  ],
+  "wpn_2270": [
+    "event_seasonal"
+  ],
+  "wpn_2271": [
+    "event_seasonal"
+  ],
+  "wpn_2272": [
+    "event_seasonal"
+  ],
+  "wpn_2273": [
+    "event_seasonal"
+  ],
+  "wpn_2274": [
+    "event_seasonal"
+  ],
+  "wpn_2275": [
+    "event:halloween2025"
+  ],
+  "wpn_2276": [
+    "event:halloween2025"
+  ],
+  "wpn_2277": [
+    "event:halloween2025"
+  ],
+  "wpn_2278": [
+    "event_seasonal"
+  ],
+  "wpn_2279": [
+    "event_seasonal"
+  ],
+  "wpn_2280": [
+    "special_deals"
+  ],
+  "wpn_2281": [
+    "special_deals"
+  ],
+  "wpn_2282": [
+    "event_seasonal"
+  ],
+  "wpn_2283": [
+    "event_seasonal"
+  ],
+  "wpn_2284": [
+    "event_seasonal"
+  ],
+  "wpn_2285": [
+    "set_packages"
+  ],
+  "wpn_2286": [
+    "special_deals"
+  ],
+  "wpn_2287": [
+    "event_seasonal"
+  ],
+  "wpn_2288": [
+    "event_seasonal"
+  ],
+  "wpn_2289": [
+    "event_seasonal"
+  ],
+  "wpn_2290": [
+    "event_seasonal"
+  ],
+  "wpn_2291": [
+    "event_seasonal"
+  ],
+  "wpn_2292": [
+    "event_seasonal"
+  ],
+  "wpn_2293": [
+    "event_seasonal"
+  ],
+  "wpn_2294": [
+    "event_seasonal"
+  ],
+  "wpn_2295": [
+    "event_seasonal"
+  ],
+  "wpn_2296": [
+    "event_seasonal"
+  ],
+  "wpn_2297": [
+    "event_seasonal"
+  ],
+  "wpn_2298": [
+    "event_seasonal"
+  ],
+  "wpn_2299": [
+    "event_seasonal"
+  ],
+  "wpn_2300": [
+    "arena_rewards"
+  ],
+  "wpn_2301": [
+    "event_seasonal"
+  ],
+  "wpn_2302": [
+    "event_seasonal"
+  ],
+  "wpn_2303": [
+    "event:valentine2025"
+  ],
+  "wpn_2304": [
+    "event:valentine2025"
+  ],
+  "wpn_2305": [
+    "event:valentine2025"
+  ],
+  "wpn_2306": [
+    "event:valentine2025"
+  ],
+  "wpn_2307": [
+    "event:valentine2025"
+  ],
+  "wpn_2308": [
+    "event:valentine2025"
+  ],
+  "wpn_2309": [
+    "event:valentine2025"
+  ],
+  "wpn_2310": [
+    "event:valentine2025"
+  ],
+  "wpn_2311": [
+    "event:anniv2025"
+  ],
+  "wpn_2312": [
+    "event:anniv2025"
+  ],
+  "wpn_2313": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "wpn_2314": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "wpn_2315": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "wpn_2316": [
+    "event_seasonal"
+  ],
+  "wpn_2317": [
+    "event:anniv2025"
+  ],
+  "wpn_2318": [
+    "event:anniv2025"
+  ],
+  "wpn_2319": [
+    "event_seasonal"
+  ],
+  "wpn_2320": [
+    "event:anniv2025"
+  ],
+  "wpn_2321": [
+    "event:anniv2025"
+  ],
+  "wpn_2322": [
+    "event:anniv2025"
+  ],
+  "wpn_2323": [
+    "event:ramadhan2025"
+  ],
+  "wpn_2324": [
+    "event:ramadhan2025"
+  ],
+  "wpn_2325": [
+    "event:ramadhan2025"
+  ],
+  "wpn_2326": [
+    "event:ramadhan2025"
+  ],
+  "wpn_2327": [
+    "divine_tree",
+    "event_seasonal"
+  ],
+  "wpn_2328": [
+    "event:easter2025"
+  ],
+  "wpn_2329": [
+    "event:easter2025"
+  ],
+  "wpn_2330": [
+    "event:easter2025"
+  ],
+  "wpn_2331": [
+    "event:easter2025"
+  ],
+  "wpn_2332": [
+    "event:easter2025"
+  ],
+  "wpn_2333": [
+    "event:easter2025"
+  ],
+  "wpn_2334": [
+    "event:easter2025"
+  ],
+  "wpn_2335": [
+    "event:easter2025"
+  ],
+  "wpn_2336": [
+    "event:easter2025"
+  ],
+  "wpn_2337": [
+    "event:easter2025"
+  ],
+  "wpn_2338": [
+    "set_packages"
+  ],
+  "wpn_2339": [
+    "event:wmg2025"
+  ],
+  "wpn_2340": [
+    "event:wmg2025"
+  ],
+  "wpn_2341": [
+    "event:wmg2025"
+  ],
+  "wpn_2342": [
+    "special_deals"
+  ],
+  "wpn_2343": [
+    "special_deals"
+  ],
+  "wpn_2344": [
+    "special_deals"
+  ],
+  "wpn_2345": [
+    "event:summer2025"
+  ],
+  "wpn_2346": [
+    "event:summer2025"
+  ],
+  "wpn_2347": [
+    "event:summer2025"
+  ],
+  "wpn_2348": [
+    "event:summer2025"
+  ],
+  "wpn_2349": [
+    "event:summer2025"
+  ],
+  "wpn_2350": [
+    "event:summer2025"
+  ],
+  "wpn_2351": [
+    "event:summer2025"
+  ],
+  "wpn_2352": [
+    "event:summer2025"
+  ],
+  "wpn_2353": [
+    "event:independence2025"
+  ],
+  "wpn_2354": [
+    "event:independence2025"
+  ],
+  "wpn_2355": [
+    "event:independence2025"
+  ],
+  "wpn_2356": [
+    "event:independence2025"
+  ],
+  "wpn_2357": [
+    "event:independence2025"
+  ],
+  "wpn_2358": [
+    "event:independence2025"
+  ],
+  "wpn_2359": [
+    "arena_rewards"
+  ],
+  "wpn_2360": [
+    "event:independence2025"
+  ],
+  "wpn_2361": [
+    "event:independence2025"
+  ],
+  "wpn_2362": [
+    "event:independence2025"
+  ],
+  "wpn_2363": [
+    "event:independence2025"
+  ],
+  "wpn_2364": [
+    "set_packages"
+  ],
+  "wpn_2365": [
+    "special_deals"
+  ],
+  "wpn_2366": [
+    "special_deals"
+  ],
+  "wpn_2367": [
+    "event:yinyang2025"
+  ],
+  "wpn_2368": [
+    "event:yinyang2025"
+  ],
+  "wpn_2369": [
+    "event:yinyang2025"
+  ],
+  "wpn_2370": [
+    "event:yinyang2025"
+  ],
+  "wpn_2374": [
+    "event:halloween2025"
+  ],
+  "wpn_2375": [
+    "event:halloween2025"
+  ],
+  "wpn_2376": [
+    "event:halloween2025"
+  ],
+  "wpn_2377": [
+    "event:halloween2025"
+  ],
+  "wpn_2378": [
+    "event:halloween2025"
+  ],
+  "wpn_2379": [
+    "event:halloween2025"
+  ],
+  "wpn_2380": [
+    "event:halloween2025"
+  ],
+  "wpn_2381": [
+    "event:halloween2025"
+  ],
+  "wpn_2382": [
+    "event:halloween2025"
+  ],
+  "wpn_2383": [
+    "event:halloween2025"
+  ],
+  "wpn_2386": [
+    "event:confrontingdeath2025"
+  ],
+  "wpn_2387": [
+    "event:confrontingdeath2025"
+  ],
+  "wpn_2388": [
+    "event:confrontingdeath2025"
+  ],
+  "wpn_2389": [
+    "event:confrontingdeath2025"
+  ],
+  "wpn_2392": [
+    "event:thanksgiving2025"
+  ],
+  "wpn_2393": [
+    "event:thanksgiving2025"
+  ],
+  "wpn_2394": [
+    "event:thanksgiving2025"
+  ],
+  "wpn_2395": [
+    "event:thanksgiving2025"
+  ],
+  "wpn_2396": [
+    "event:thanksgiving2025"
+  ],
+  "wpn_2397": [
+    "event_seasonal"
+  ],
+  "wpn_2398": [
+    "event:thanksgiving2025"
+  ],
+  "wpn_2399": [
+    "set_packages"
+  ],
+  "wpn_2400": [
+    "event:christmas2025"
+  ],
+  "wpn_2401": [
+    "event:christmas2025"
+  ],
+  "wpn_2402": [
+    "arena_rewards"
+  ],
+  "wpn_2403": [
+    "event:christmas2025"
+  ],
+  "wpn_2404": [
+    "event:christmas2025"
+  ],
+  "wpn_2405": [
+    "event:christmas2025"
+  ],
+  "wpn_2406": [
+    "event:christmas2025"
+  ],
+  "wpn_2407": [
+    "event:christmas2025"
+  ],
+  "wpn_2408": [
+    "event:christmas2025"
+  ],
+  "wpn_2409": [
+    "event:phantomkyunoki2026"
+  ],
+  "wpn_2410": [
+    "event:valentine2026"
+  ],
+  "wpn_2411": [
+    "event:anniv2026"
+  ],
+  "wpn_2412": [
+    "event:anniv2026"
+  ],
+  "wpn_2413": [
+    "event:anniv2026"
+  ],
+  "wpn_2414": [
+    "material_market",
+    "event:anniv2026"
+  ],
+  "wpn_2415": [
+    "material_market",
+    "event:anniv2026"
+  ],
+  "wpn_2416": [
+    "material_market",
+    "event:anniv2026"
+  ],
+  "wpn_2417": [
+    "event:anniv2026"
+  ],
+  "wpn_2418": [
+    "event:anniv2026"
+  ],
+  "wpn_2419": [
+    "arena_rewards"
+  ],
+  "wpn_2420": [
+    "event:anniv2026"
+  ],
+  "wpn_2421": [
+    "event:anniv2026"
+  ],
+  "wpn_2422": [
+    "event:anniv2026"
+  ],
+  "wpn_2423": [
+    "event:anniv2026"
+  ],
+  "wpn_2424": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "wpn_2425": [
+    "event:ramadhan2026"
+  ],
+  "wpn_2426": [
+    "set_packages"
+  ],
+  "wpn_2427": [
+    "set_packages"
+  ],
+  "wpn_2428": [
+    "event:hanami2026"
+  ],
+  "wpn_2429": [
+    "event:hanami2026"
+  ],
+  "wpn_2430": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "wpn_2431": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "wpn_2432": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "wpn_2433": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "wpn_2434": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "wpn_2435": [
+    "event_seasonal"
+  ],
+  "wpn_2436": [
+    "event_seasonal"
+  ],
+  "wpn_2437": [
+    "event_seasonal"
+  ],
+  "wpn_2438": [
+    "event_seasonal"
+  ],
+  "wpn_2439": [
+    "event_seasonal"
+  ],
+  "wpn_2440": [
+    "event_seasonal"
+  ],
+  "wpn_2441": [
+    "event_seasonal"
+  ],
+  "wpn_2442": [
+    "event_seasonal"
+  ],
+  "wpn_2443": [
+    "event_seasonal"
+  ],
+  "wpn_2444": [
+    "event_seasonal"
+  ],
+  "wpn_4001": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4002": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4003": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4004": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4005": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4006": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4007": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4008": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4009": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4010": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4011": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4012": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4013": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4014": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4015": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4016": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4017": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4018": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4019": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4020": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4021": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4022": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4023": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4024": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4025": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4026": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4027": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4028": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4029": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4030": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4031": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4032": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4033": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4034": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4035": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4036": [
+    "shop_clan",
+    "clan_forge"
+  ],
+  "wpn_4037": [
+    "shop_crew"
+  ],
+  "wpn_4038": [
+    "shop_crew"
+  ],
+  "wpn_4039": [
+    "shop_crew"
+  ],
+  "wpn_6001": [
+    "clan_war"
+  ],
+  "wpn_6002": [
+    "clan_war"
+  ],
+  "wpn_6003": [
+    "clan_war"
+  ],
+  "wpn_6004": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6005": [
+    "clan_war"
+  ],
+  "wpn_6006": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6007": [
+    "clan_war"
+  ],
+  "wpn_6008": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6009": [
+    "clan_war"
+  ],
+  "wpn_6010": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6011": [
+    "clan_war"
+  ],
+  "wpn_6012": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6013": [
+    "clan_war"
+  ],
+  "wpn_6014": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6015": [
+    "clan_war"
+  ],
+  "wpn_6016": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6017": [
+    "clan_war"
+  ],
+  "wpn_6018": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6019": [
+    "clan_war"
+  ],
+  "wpn_6020": [
+    "clan_war"
+  ],
+  "wpn_6021": [
+    "clan_war"
+  ],
+  "wpn_6022": [
+    "clan_war"
+  ],
+  "wpn_6023": [
+    "clan_war"
+  ],
+  "wpn_6024": [
+    "clan_war"
+  ],
+  "wpn_6025": [
+    "clan_war"
+  ],
+  "wpn_6026": [
+    "clan_war"
+  ],
+  "wpn_6027": [
+    "clan_war"
+  ],
+  "wpn_6028": [
+    "clan_war"
+  ],
+  "wpn_6029": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6030": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6031": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6032": [
+    "clan_war"
+  ],
+  "wpn_6033": [
+    "clan_war"
+  ],
+  "wpn_6034": [
+    "clan_war"
+  ],
+  "wpn_6035": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6036": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6037": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6038": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6039": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6040": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6041": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6042": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6043": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6044": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6045": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6046": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6047": [
+    "clan_war"
+  ],
+  "wpn_6048": [
+    "clan_war"
+  ],
+  "wpn_6049": [
+    "clan_war"
+  ],
+  "wpn_6050": [
+    "clan_war"
+  ],
+  "wpn_6051": [
+    "clan_war"
+  ],
+  "wpn_6052": [
+    "clan_war"
+  ],
+  "wpn_6053": [
+    "clan_war"
+  ],
+  "wpn_6054": [
+    "clan_war"
+  ],
+  "wpn_6055": [
+    "clan_war"
+  ],
+  "wpn_6056": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6057": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6058": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6059": [
+    "clan_war"
+  ],
+  "wpn_6060": [
+    "clan_war"
+  ],
+  "wpn_6061": [
+    "clan_war"
+  ],
+  "wpn_6062": [
+    "clan_war"
+  ],
+  "wpn_6063": [
+    "clan_war"
+  ],
+  "wpn_6064": [
+    "clan_war"
+  ],
+  "wpn_6065": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6066": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6067": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6068": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6069": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6070": [
+    "clan_war"
+  ],
+  "wpn_6071": [
+    "clan_war"
+  ],
+  "wpn_6072": [
+    "clan_war"
+  ],
+  "wpn_6073": [
+    "clan_war"
+  ],
+  "wpn_6074": [
+    "clan_war"
+  ],
+  "wpn_6075": [
+    "clan_war"
+  ],
+  "wpn_6076": [
+    "clan_war"
+  ],
+  "wpn_6077": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6078": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6079": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6080": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6081": [
+    "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6082": [
+    "clan_war"
+  ],
+  "wpn_6083": [
+    "clan_war"
+  ],
+  "wpn_6084": [
+    "clan_war"
+  ],
+  "wpn_6085": [
+    "clan_war"
+  ],
+  "wpn_6086": [
+    "clan_war"
+  ],
+  "wpn_7000": [
+    "shadow_war"
+  ],
+  "wpn_7001": [
+    "shadow_war"
+  ],
+  "wpn_7002": [
+    "shadow_war"
+  ],
+  "wpn_7003": [
+    "shadow_war"
+  ],
+  "wpn_7004": [
+    "shadow_war"
+  ],
+  "wpn_7005": [
+    "shadow_war"
+  ],
+  "wpn_7006": [
+    "shadow_war"
+  ],
+  "wpn_7007": [
+    "shadow_war"
+  ],
+  "wpn_7008": [
+    "shadow_war"
+  ],
+  "wpn_7009": [
+    "shadow_war"
+  ],
+  "wpn_7010": [
+    "shadow_war"
+  ],
+  "wpn_7011": [
+    "shadow_war"
+  ],
+  "wpn_7012": [
+    "shadow_war"
+  ],
+  "wpn_7013": [
+    "shadow_war"
+  ],
+  "wpn_7014": [
+    "shadow_war"
+  ],
+  "wpn_7015": [
+    "shadow_war"
+  ],
+  "wpn_7016": [
+    "shadow_war"
+  ],
+  "wpn_7017": [
+    "shadow_war"
+  ],
+  "wpn_7018": [
+    "shadow_war"
+  ],
+  "wpn_7019": [
+    "shadow_war"
+  ],
+  "wpn_8001": [
+    "crew_battle"
+  ],
+  "wpn_8002": [
+    "crew_battle"
+  ],
+  "wpn_8003": [
+    "crew_battle"
+  ],
+  "wpn_8004": [
+    "crew_battle"
+  ],
+  "wpn_8005": [
+    "crew_battle"
+  ],
+  "wpn_8006": [
+    "crew_battle"
+  ],
+  "wpn_8007": [
+    "crew_battle"
+  ],
+  "wpn_8008": [
+    "crew_battle"
+  ],
+  "wpn_8009": [
+    "crew_battle"
+  ],
+  "wpn_8010": [
+    "crew_battle"
+  ],
+  "wpn_8011": [
+    "crew_battle"
+  ],
+  "wpn_8012": [
+    "crew_battle"
+  ],
+  "wpn_8013": [
+    "crew_battle"
+  ],
+  "wpn_8014": [
+    "crew_battle"
+  ],
+  "wpn_8015": [
+    "crew_battle"
+  ],
+  "wpn_8016": [
+    "crew_battle"
+  ],
+  "wpn_8017": [
+    "crew_battle"
+  ],
+  "wpn_8018": [
+    "crew_battle"
+  ],
+  "wpn_8019": [
+    "crew_battle"
+  ],
+  "wpn_8020": [
+    "crew_battle"
+  ],
+  "wpn_8021": [
+    "crew_battle"
+  ],
+  "wpn_8022": [
+    "crew_battle"
+  ],
+  "wpn_8023": [
+    "crew_battle"
+  ],
+  "wpn_8024": [
+    "crew_battle"
+  ],
+  "wpn_8025": [
+    "crew_battle"
+  ],
+  "wpn_8026": [
+    "crew_battle"
+  ],
+  "wpn_8027": [
+    "crew_battle"
+  ],
+  "wpn_8028": [
+    "crew_battle"
+  ],
+  "wpn_8029": [
+    "crew_battle"
+  ],
+  "wpn_8030": [
+    "crew_battle"
+  ],
+  "wpn_8031": [
+    "crew_battle"
+  ],
+  "wpn_8032": [
+    "crew_battle"
+  ],
+  "wpn_8033": [
+    "crew_battle"
+  ],
+  "wpn_8034": [
+    "crew_battle"
+  ],
+  "wpn_8035": [
+    "crew_battle"
+  ],
+  "wpn_8036": [
+    "crew_battle"
+  ],
+  "wpn_8037": [
+    "crew_battle"
+  ],
+  "wpn_8038": [
+    "crew_battle"
+  ],
+  "wpn_8039": [
+    "crew_battle"
+  ],
+  "wpn_8040": [
+    "crew_battle"
+  ],
+  "wpn_8041": [
+    "crew_battle"
+  ],
+  "wpn_8042": [
+    "crew_battle"
+  ],
+  "wpn_8043": [
+    "crew_battle"
+  ],
+  "wpn_8044": [
+    "crew_battle"
+  ],
+  "wpn_8045": [
+    "crew_battle"
+  ],
+  "wpn_8046": [
+    "crew_battle"
+  ],
+  "wpn_8047": [
+    "crew_battle"
+  ],
+  "wpn_8048": [
+    "crew_battle"
+  ],
+  "wpn_8049": [
+    "crew_battle"
+  ],
+  "wpn_8050": [
+    "crew_battle"
+  ],
+  "wpn_8051": [
+    "crew_battle"
+  ],
+  "wpn_8052": [
+    "crew_battle"
+  ],
+  "wpn_8053": [
+    "crew_battle"
+  ],
+  "wpn_8054": [
+    "crew_battle"
+  ],
+  "wpn_8055": [
+    "crew_battle"
+  ],
+  "wpn_8056": [
+    "crew_battle"
+  ],
+  "wpn_8057": [
+    "crew_battle"
+  ],
+  "wpn_8058": [
+    "crew_battle"
+  ],
+  "wpn_8059": [
+    "crew_battle"
+  ],
+  "wpn_8060": [
+    "crew_battle"
+  ],
+  "wpn_8061": [
+    "crew_battle"
+  ],
+  "wpn_8062": [
+    "crew_battle"
+  ],
+  "wpn_8063": [
+    "crew_battle"
+  ],
+  "wpn_8064": [
+    "crew_battle"
+  ],
+  "wpn_8065": [
+    "crew_battle"
+  ],
+  "wpn_8066": [
+    "crew_battle"
+  ],
+  "wpn_8067": [
+    "crew_battle"
+  ],
+  "wpn_8068": [
+    "crew_battle"
+  ],
+  "wpn_8069": [
+    "crew_battle"
+  ],
+  "wpn_8070": [
+    "crew_battle"
+  ],
+  "wpn_8071": [
+    "crew_battle"
+  ],
+  "wpn_8072": [
+    "crew_battle"
+  ],
+  "wpn_8073": [
+    "crew_battle"
+  ],
+  "wpn_8074": [
+    "crew_battle"
+  ],
+  "wpn_8075": [
+    "crew_battle"
+  ],
+  "wpn_8076": [
+    "crew_battle"
+  ],
+  "wpn_8077": [
+    "crew_battle"
+  ],
+  "wpn_8078": [
+    "crew_battle"
+  ],
+  "wpn_8079": [
+    "crew_battle"
+  ],
+  "wpn_8080": [
+    "crew_battle"
+  ],
+  "wpn_8081": [
+    "crew_battle"
+  ],
+  "wpn_8082": [
+    "crew_battle"
+  ],
+  "wpn_8083": [
+    "crew_battle"
+  ],
+  "wpn_8084": [
+    "crew_battle"
+  ],
+  "wpn_8085": [
+    "crew_battle"
+  ],
+  "wpn_8086": [
+    "crew_battle"
+  ],
+  "wpn_8087": [
+    "crew_battle"
+  ],
+  "wpn_8088": [
+    "crew_battle"
+  ],
+  "wpn_8089": [
+    "crew_battle"
+  ],
+  "wpn_8090": [
+    "crew_battle"
+  ],
+  "wpn_8091": [
+    "crew_battle"
+  ],
+  "wpn_8092": [
+    "crew_battle"
+  ],
+  "wpn_8093": [
+    "crew_battle"
+  ],
+  "wpn_8094": [
+    "crew_battle"
+  ],
+  "wpn_8095": [
+    "crew_battle"
+  ],
+  "wpn_8096": [
+    "crew_battle"
+  ],
+  "wpn_8097": [
+    "crew_battle"
+  ],
+  "wpn_8098": [
+    "crew_battle"
+  ],
+  "wpn_8099": [
+    "crew_battle"
+  ],
+  "wpn_8100": [
+    "crew_battle"
+  ],
+  "wpn_8101": [
+    "crew_battle"
+  ],
+  "wpn_8102": [
+    "crew_battle"
+  ],
+  "back_01": [
+    "shop_normal"
+  ],
+  "back_02": [
+    "shop_normal"
+  ],
+  "back_03": [
+    "shop_normal"
+  ],
+  "back_04": [
+    "shop_normal"
+  ],
+  "back_05": [
+    "shop_normal"
+  ],
+  "back_06": [
+    "shop_normal"
+  ],
+  "back_07": [
+    "shop_normal"
+  ],
+  "back_08": [
+    "shop_normal"
+  ],
+  "back_09": [
+    "shop_normal"
+  ],
+  "back_21": [
+    "shop_normal"
+  ],
+  "back_22": [
+    "shop_normal"
+  ],
+  "back_23": [
+    "shop_normal"
+  ],
+  "back_24": [
+    "shop_normal"
+  ],
+  "back_44": [
+    "billing_packages"
+  ],
+  "back_797": [
+    "set_packages"
+  ],
+  "back_335": [
+    "event_seasonal"
+  ],
+  "back_386": [
+    "event:christmas2025"
+  ],
+  "back_485": [
+    "event:valentine2025"
+  ],
+  "back_34": [
+    "shop_pvp"
+  ],
+  "back_35": [
+    "shop_pvp"
+  ],
+  "back_36": [
+    "shop_pvp"
+  ],
+  "back_37": [
+    "shop_pvp"
+  ],
+  "back_38": [
+    "shop_pvp"
+  ],
+  "back_25": [
+    "shop_normal"
+  ],
+  "back_33": [
+    "shop_normal"
+  ],
+  "back_32": [
+    "shop_normal"
+  ],
+  "back_31": [
+    "shop_normal"
+  ],
+  "back_26": [
+    "shop_normal"
+  ],
+  "back_27": [
+    "shop_normal"
+  ],
+  "back_151": [
+    "shop_normal"
+  ],
+  "back_28": [
+    "shop_normal"
+  ],
+  "back_84": [
+    "shop_normal"
+  ],
+  "back_418": [
+    "dragon_gacha"
+  ],
+  "back_422": [
+    "dragon_gacha"
+  ],
+  "back_426": [
+    "dragon_gacha"
+  ],
+  "back_435": [
+    "dragon_gacha"
+  ],
+  "back_436": [
+    "dragon_gacha"
+  ],
+  "back_458": [
+    "dragon_gacha"
+  ],
+  "back_466": [
+    "dragon_gacha"
+  ],
+  "back_476": [
+    "dragon_gacha"
+  ],
+  "back_477": [
+    "dragon_gacha"
+  ],
+  "back_478": [
+    "dragon_gacha"
+  ],
+  "back_480": [
+    "dragon_gacha"
+  ],
+  "back_522": [
+    "event_seasonal"
+  ],
+  "back_82": [
+    "daily_scratch"
+  ],
+  "back_523": [
+    "daily_scratch"
+  ],
+  "back_569": [
+    "event:anniv2026"
+  ],
+  "back_2001": [
+    "special_deals"
+  ],
+  "back_2007": [
+    "set_packages"
+  ],
+  "back_2008": [
+    "special_deals"
+  ],
+  "back_2054": [
+    "set_packages"
+  ],
+  "back_2055": [
+    "contest_shop"
+  ],
+  "back_2056": [
+    "contest_shop"
+  ],
+  "back_2057": [
+    "contest_shop"
+  ],
+  "back_2058": [
+    "contest_shop"
+  ],
+  "back_2059": [
+    "contest_shop"
+  ],
+  "back_2060": [
+    "contest_shop"
+  ],
+  "back_2061": [
+    "contest_shop"
+  ],
+  "back_2062": [
+    "contest_shop"
+  ],
+  "back_2063": [
+    "contest_shop"
+  ],
+  "back_2064": [
+    "contest_shop"
+  ],
+  "back_2065": [
+    "contest_shop"
+  ],
+  "back_2066": [
+    "contest_shop"
+  ],
+  "back_2067": [
+    "set_packages"
+  ],
+  "back_2075": [
+    "contest_shop"
+  ],
+  "back_2076": [
+    "contest_shop"
+  ],
+  "back_2077": [
+    "contest_shop"
+  ],
+  "back_2078": [
+    "contest_shop"
+  ],
+  "back_2079": [
+    "event_seasonal"
+  ],
+  "back_2082": [
+    "set_packages"
+  ],
+  "back_2084": [
+    "event:valentine2025"
+  ],
+  "back_2085": [
+    "event:valentine2025"
+  ],
+  "back_2098": [
+    "event_seasonal"
+  ],
+  "back_2106": [
+    "set_packages"
+  ],
+  "back_2130": [
+    "set_packages"
+  ],
+  "back_2133": [
+    "friendship_shop"
+  ],
+  "back_2145": [
+    "friendship_shop"
+  ],
+  "back_2149": [
+    "set_packages"
+  ],
+  "back_2150": [
+    "event_seasonal"
+  ],
+  "back_2158": [
+    "event_seasonal"
+  ],
+  "back_2164": [
+    "set_packages"
+  ],
+  "back_2175": [
+    "set_packages"
+  ],
+  "back_2188": [
+    "event:christmas2025"
+  ],
+  "back_2189": [
+    "event:christmas2025"
+  ],
+  "back_2193": [
+    "set_packages"
+  ],
+  "back_2197": [
+    "event_seasonal"
+  ],
+  "back_2199": [
+    "event:anniv2025"
+  ],
+  "back_2200": [
+    "event:anniv2025"
+  ],
+  "back_2201": [
+    "event:anniv2025"
+  ],
+  "back_2216": [
+    "event:easter2025"
+  ],
+  "back_2217": [
+    "event:easter2025"
+  ],
+  "back_2218": [
+    "event:easter2025"
+  ],
+  "back_2221": [
+    "set_packages"
+  ],
+  "back_2229": [
+    "arena_rewards"
+  ],
+  "back_2233": [
+    "event:summer2025"
+  ],
+  "back_2234": [
+    "event:summer2025"
+  ],
+  "back_2235": [
+    "event:summer2025"
+  ],
+  "back_2239": [
+    "set_packages"
+  ],
+  "back_2242": [
+    "event_seasonal"
+  ],
+  "back_2245": [
+    "event:independence2025"
+  ],
+  "back_2246": [
+    "event:independence2025"
+  ],
+  "back_2247": [
+    "event:independence2025"
+  ],
+  "back_2262": [
+    "event:halloween2025"
+  ],
+  "back_2263": [
+    "event:halloween2025"
+  ],
+  "back_2264": [
+    "event:halloween2025"
+  ],
+  "back_2268": [
+    "special_deals"
+  ],
+  "back_2269": [
+    "special_deals"
+  ],
+  "back_2270": [
+    "event_seasonal"
+  ],
+  "back_2271": [
+    "set_packages"
+  ],
+  "back_2272": [
+    "event_seasonal"
+  ],
+  "back_2273": [
+    "event_seasonal"
+  ],
+  "back_2274": [
+    "special_deals"
+  ],
+  "back_2275": [
+    "event_seasonal"
+  ],
+  "back_2276": [
+    "event_seasonal"
+  ],
+  "back_2277": [
+    "event_seasonal"
+  ],
+  "back_2278": [
+    "event_seasonal"
+  ],
+  "back_2279": [
+    "event_seasonal"
+  ],
+  "back_2280": [
+    "event_seasonal"
+  ],
+  "back_2281": [
+    "event_seasonal"
+  ],
+  "back_2282": [
+    "event_seasonal"
+  ],
+  "back_2283": [
+    "event_seasonal"
+  ],
+  "back_2284": [
+    "event_seasonal"
+  ],
+  "back_2285": [
+    "event_seasonal"
+  ],
+  "back_2286": [
+    "event_seasonal"
+  ],
+  "back_2287": [
+    "event_seasonal"
+  ],
+  "back_2288": [
+    "event_seasonal"
+  ],
+  "back_2289": [
+    "event_seasonal"
+  ],
+  "back_2290": [
+    "event_seasonal"
+  ],
+  "back_2291": [
+    "event:valentine2025"
+  ],
+  "back_2292": [
+    "event:valentine2025"
+  ],
+  "back_2293": [
+    "event:valentine2025"
+  ],
+  "back_2294": [
+    "event:valentine2025"
+  ],
+  "back_2295": [
+    "event_seasonal"
+  ],
+  "back_2296": [
+    "event:valentine2025"
+  ],
+  "back_2297": [
+    "event:valentine2025"
+  ],
+  "back_2298": [
+    "event:valentine2025"
+  ],
+  "back_2299": [
+    "event:valentine2025"
+  ],
+  "back_2300": [
+    "event:valentine2025"
+  ],
+  "back_2301": [
+    "event:anniv2025"
+  ],
+  "back_2302": [
+    "event_seasonal"
+  ],
+  "back_2303": [
+    "event_seasonal"
+  ],
+  "back_2304": [
+    "event:anniv2025"
+  ],
+  "back_2305": [
+    "event:anniv2025"
+  ],
+  "back_2306": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "back_2307": [
+    "event:anniv2025"
+  ],
+  "back_2308": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "back_2309": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "back_2310": [
+    "event:anniv2025"
+  ],
+  "back_2311": [
+    "event:anniv2025"
+  ],
+  "back_2312": [
+    "event_seasonal"
+  ],
+  "back_2313": [
+    "event:anniv2025"
+  ],
+  "back_2314": [
+    "event:anniv2025"
+  ],
+  "back_2315": [
+    "event:anniv2025"
+  ],
+  "back_2316": [
+    "event:ramadhan2025"
+  ],
+  "back_2317": [
+    "event:ramadhan2025"
+  ],
+  "back_2318": [
+    "event:ramadhan2025"
+  ],
+  "back_2319": [
+    "event:ramadhan2025"
+  ],
+  "back_2320": [
+    "divine_tree",
+    "event_seasonal"
+  ],
+  "back_2321": [
+    "event:easter2025"
+  ],
+  "back_2322": [
+    "event:easter2025"
+  ],
+  "back_2323": [
+    "event:easter2025"
+  ],
+  "back_2324": [
+    "event:easter2025"
+  ],
+  "back_2325": [
+    "event:easter2025"
+  ],
+  "back_2326": [
+    "event:easter2025"
+  ],
+  "back_2327": [
+    "event:easter2025"
+  ],
+  "back_2328": [
+    "event:easter2025"
+  ],
+  "back_2329": [
+    "event:easter2025"
+  ],
+  "back_2330": [
+    "event:easter2025"
+  ],
+  "back_2331": [
+    "event:easter2025"
+  ],
+  "back_2332": [
+    "set_packages"
+  ],
+  "back_2333": [
+    "event:wmg2025"
+  ],
+  "back_2334": [
+    "event:wmg2025"
+  ],
+  "back_2335": [
+    "event:wmg2025"
+  ],
+  "back_2336": [
+    "event_seasonal"
+  ],
+  "back_2337": [
+    "event_seasonal"
+  ],
+  "back_2338": [
+    "event_seasonal"
+  ],
+  "back_2339": [
+    "arena_rewards"
+  ],
+  "back_2340": [
+    "event:summer2025"
+  ],
+  "back_2341": [
+    "event:summer2025"
+  ],
+  "back_2342": [
+    "event:summer2025"
+  ],
+  "back_2343": [
+    "event:summer2025"
+  ],
+  "back_2344": [
+    "event:summer2025"
+  ],
+  "back_2345": [
+    "event:summer2025"
+  ],
+  "back_2346": [
+    "event:summer2025"
+  ],
+  "back_2347": [
+    "event:summer2025"
+  ],
+  "back_2348": [
+    "event:summer2025"
+  ],
+  "back_2349": [
+    "event:independence2025"
+  ],
+  "back_2350": [
+    "event:independence2025"
+  ],
+  "back_2351": [
+    "event:independence2025"
+  ],
+  "back_2352": [
+    "event:independence2025"
+  ],
+  "back_2353": [
+    "event:independence2025"
+  ],
+  "back_2354": [
+    "event:independence2025"
+  ],
+  "back_2355": [
+    "event:independence2025"
+  ],
+  "back_2356": [
+    "event:independence2025"
+  ],
+  "back_2357": [
+    "event:independence2025"
+  ],
+  "back_2358": [
+    "event:independence2025"
+  ],
+  "back_2359": [
+    "event:independence2025"
+  ],
+  "back_2360": [
+    "set_packages"
+  ],
+  "back_2361": [
+    "set_packages"
+  ],
+  "back_2362": [
+    "set_packages"
+  ],
+  "back_2363": [
+    "event:yinyang2025"
+  ],
+  "back_2364": [
+    "event:yinyang2025"
+  ],
+  "back_2365": [
+    "event:yinyang2025"
+  ],
+  "back_2366": [
+    "event:yinyang2025"
+  ],
+  "back_2372": [
+    "event:halloween2025"
+  ],
+  "back_2373": [
+    "event:halloween2025"
+  ],
+  "back_2374": [
+    "event:halloween2025"
+  ],
+  "back_2375": [
+    "event:halloween2025"
+  ],
+  "back_2376": [
+    "event:halloween2025"
+  ],
+  "back_2377": [
+    "event:halloween2025"
+  ],
+  "back_2378": [
+    "event:halloween2025"
+  ],
+  "back_2379": [
+    "event:halloween2025"
+  ],
+  "back_2380": [
+    "event:halloween2025"
+  ],
+  "back_2381": [
+    "event:halloween2025"
+  ],
+  "back_2382": [
+    "event:halloween2025"
+  ],
+  "back_2383": [
+    "event:confrontingdeath2025"
+  ],
+  "back_2384": [
+    "event:confrontingdeath2025"
+  ],
+  "back_2385": [
+    "event:confrontingdeath2025"
+  ],
+  "back_2386": [
+    "event:confrontingdeath2025"
+  ],
+  "back_2389": [
+    "event:thanksgiving2025"
+  ],
+  "back_2390": [
+    "event:thanksgiving2025"
+  ],
+  "back_2391": [
+    "event:thanksgiving2025"
+  ],
+  "back_2392": [
+    "event:thanksgiving2025"
+  ],
+  "back_2393": [
+    "event:thanksgiving2025"
+  ],
+  "back_2394": [
+    "event_seasonal"
+  ],
+  "back_2395": [
+    "event:thanksgiving2025"
+  ],
+  "back_2396": [
+    "set_packages"
+  ],
+  "back_2397": [
+    "event:christmas2025"
+  ],
+  "back_2398": [
+    "event:christmas2025"
+  ],
+  "back_2399": [
+    "event:christmas2025"
+  ],
+  "back_2400": [
+    "event:christmas2025"
+  ],
+  "back_2401": [
+    "event:christmas2025"
+  ],
+  "back_2402": [
+    "event:christmas2025"
+  ],
+  "back_2403": [
+    "event:christmas2025"
+  ],
+  "back_2404": [
+    "event:christmas2025"
+  ],
+  "back_2405": [
+    "event:christmas2025"
+  ],
+  "back_2406": [
+    "event:christmas2025"
+  ],
+  "back_2407": [
+    "event:phantomkyunoki2026"
+  ],
+  "back_2408": [
+    "event:valentine2026"
+  ],
+  "back_2409": [
+    "event:anniv2026"
+  ],
+  "back_2410": [
+    "event:anniv2026"
+  ],
+  "back_2411": [
+    "event:anniv2026"
+  ],
+  "back_2412": [
+    "material_market",
+    "event:anniv2026"
+  ],
+  "back_2413": [
+    "material_market",
+    "event:anniv2026"
+  ],
+  "back_2414": [
+    "material_market",
+    "event:anniv2026"
+  ],
+  "back_2415": [
+    "event:anniv2026"
+  ],
+  "back_2416": [
+    "event:anniv2026"
+  ],
+  "back_2417": [
+    "event:anniv2026"
+  ],
+  "back_2418": [
+    "event:anniv2026"
+  ],
+  "back_2419": [
+    "event:anniv2026"
+  ],
+  "back_2420": [
+    "event:anniv2026"
+  ],
+  "back_2421": [
+    "event:anniv2026"
+  ],
+  "back_2422": [
+    "event:ramadhan2026"
+  ],
+  "back_2423": [
+    "set_packages"
+  ],
+  "back_2437": [
+    "event:hanami2026"
+  ],
+  "back_2438": [
+    "event:hanami2026"
+  ],
+  "back_2439": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "back_2440": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "back_2441": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "back_2442": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "back_2443": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "back_4001": [
+    "shop_crew"
+  ],
+  "back_6001": [
+    "clan_war"
+  ],
+  "back_6002": [
+    "clan_war"
+  ],
+  "back_6003": [
+    "clan_war"
+  ],
+  "back_6004": [
+    "clan_war"
+  ],
+  "back_6005": [
+    "clan_war"
+  ],
+  "back_6006": [
+    "clan_war"
+  ],
+  "back_6007": [
+    "clan_war"
+  ],
+  "back_6008": [
+    "clan_war"
+  ],
+  "back_6009": [
+    "clan_war"
+  ],
+  "back_6010": [
+    "clan_war"
+  ],
+  "back_6011": [
+    "clan_war"
+  ],
+  "back_6012": [
+    "clan_war"
+  ],
+  "back_6013": [
+    "clan_war"
+  ],
+  "back_6014": [
+    "clan_war"
+  ],
+  "back_6015": [
+    "clan_war"
+  ],
+  "back_6016": [
+    "clan_war"
+  ],
+  "back_6017": [
+    "clan_war"
+  ],
+  "back_6018": [
+    "clan_war"
+  ],
+  "back_6019": [
+    "clan_war"
+  ],
+  "back_6020": [
+    "clan_war"
+  ],
+  "back_6021": [
+    "clan_war"
+  ],
+  "back_6022": [
+    "clan_war"
+  ],
+  "back_6023": [
+    "clan_war"
+  ],
+  "back_6024": [
+    "clan_war"
+  ],
+  "back_6025": [
+    "clan_war"
+  ],
+  "back_6026": [
+    "clan_war"
+  ],
+  "back_6027": [
+    "clan_war"
+  ],
+  "back_6028": [
+    "clan_war"
+  ],
+  "back_6029": [
+    "clan_war"
+  ],
+  "back_6030": [
+    "clan_war"
+  ],
+  "back_6031": [
+    "clan_war"
+  ],
+  "back_6032": [
+    "clan_war"
+  ],
+  "back_6033": [
+    "clan_war"
+  ],
+  "back_6034": [
+    "clan_war"
+  ],
+  "back_6035": [
+    "clan_war"
+  ],
+  "back_6036": [
+    "clan_war"
+  ],
+  "back_6037": [
+    "clan_war"
+  ],
+  "back_6038": [
+    "clan_war"
+  ],
+  "back_6039": [
+    "clan_war"
+  ],
+  "back_6040": [
+    "clan_war"
+  ],
+  "back_6041": [
+    "clan_war"
+  ],
+  "back_6042": [
+    "clan_war"
+  ],
+  "back_6043": [
+    "clan_war"
+  ],
+  "back_6044": [
+    "clan_war"
+  ],
+  "back_6045": [
+    "clan_war"
+  ],
+  "back_6046": [
+    "clan_war"
+  ],
+  "back_6047": [
+    "clan_war"
+  ],
+  "back_6048": [
+    "clan_war"
+  ],
+  "back_6049": [
+    "clan_war"
+  ],
+  "back_6050": [
+    "clan_war"
+  ],
+  "back_7000": [
+    "shadow_war"
+  ],
+  "back_7001": [
+    "shadow_war"
+  ],
+  "back_7002": [
+    "shadow_war"
+  ],
+  "back_7003": [
+    "shadow_war"
+  ],
+  "back_7004": [
+    "shadow_war"
+  ],
+  "back_7005": [
+    "shadow_war"
+  ],
+  "back_7006": [
+    "shadow_war"
+  ],
+  "back_7007": [
+    "shadow_war"
+  ],
+  "back_7008": [
+    "shadow_war"
+  ],
+  "back_7009": [
+    "shadow_war"
+  ],
+  "back_7010": [
+    "shadow_war"
+  ],
+  "back_7011": [
+    "shadow_war"
+  ],
+  "back_7012": [
+    "shadow_war"
+  ],
+  "back_7013": [
+    "shadow_war"
+  ],
+  "back_7014": [
+    "shadow_war"
+  ],
+  "back_7015": [
+    "shadow_war"
+  ],
+  "back_7016": [
+    "shadow_war"
+  ],
+  "back_7017": [
+    "shadow_war"
+  ],
+  "back_7018": [
+    "shadow_war"
+  ],
+  "back_7019": [
+    "shadow_war"
+  ],
+  "back_8001": [
+    "crew_battle"
+  ],
+  "back_8002": [
+    "crew_battle"
+  ],
+  "back_8003": [
+    "crew_battle"
+  ],
+  "back_8004": [
+    "crew_battle"
+  ],
+  "back_8005": [
+    "crew_battle"
+  ],
+  "back_8006": [
+    "crew_battle"
+  ],
+  "back_8007": [
+    "crew_battle"
+  ],
+  "back_8008": [
+    "crew_battle"
+  ],
+  "back_8009": [
+    "crew_battle"
+  ],
+  "back_8010": [
+    "crew_battle"
+  ],
+  "back_8011": [
+    "crew_battle"
+  ],
+  "back_8012": [
+    "crew_battle"
+  ],
+  "back_8013": [
+    "crew_battle"
+  ],
+  "back_8014": [
+    "crew_battle"
+  ],
+  "back_8015": [
+    "crew_battle"
+  ],
+  "back_8016": [
+    "crew_battle"
+  ],
+  "back_8017": [
+    "crew_battle"
+  ],
+  "back_8018": [
+    "crew_battle"
+  ],
+  "back_8019": [
+    "crew_battle"
+  ],
+  "back_8020": [
+    "crew_battle"
+  ],
+  "back_8021": [
+    "crew_battle"
+  ],
+  "back_8022": [
+    "crew_battle"
+  ],
+  "back_8023": [
+    "crew_battle"
+  ],
+  "back_8024": [
+    "crew_battle"
+  ],
+  "back_8025": [
+    "crew_battle"
+  ],
+  "back_8026": [
+    "crew_battle"
+  ],
+  "back_8027": [
+    "crew_battle"
+  ],
+  "back_8028": [
+    "crew_battle"
+  ],
+  "back_8029": [
+    "crew_battle"
+  ],
+  "back_8030": [
+    "crew_battle"
+  ],
+  "back_8031": [
+    "crew_battle"
+  ],
+  "back_8032": [
+    "crew_battle"
+  ],
+  "back_8033": [
+    "crew_battle"
+  ],
+  "back_8034": [
+    "crew_battle"
+  ],
+  "back_8035": [
+    "crew_battle"
+  ],
+  "back_8036": [
+    "crew_battle"
+  ],
+  "back_8037": [
+    "crew_battle"
+  ],
+  "back_8038": [
+    "crew_battle"
+  ],
+  "back_8039": [
+    "crew_battle"
+  ],
+  "back_8040": [
+    "crew_battle"
+  ],
+  "accessory_01": [
+    "shop_normal"
+  ],
+  "accessory_02": [
+    "shop_normal"
+  ],
+  "accessory_03": [
+    "shop_normal"
+  ],
+  "accessory_04": [
+    "shop_normal"
+  ],
+  "accessory_08": [
+    "shop_normal"
+  ],
+  "accessory_09": [
+    "shop_normal"
+  ],
+  "accessory_12": [
+    "shop_normal"
+  ],
+  "accessory_10": [
+    "shop_normal"
+  ],
+  "accessory_53": [
+    "material_market"
+  ],
+  "accessory_31": [
+    "daily_scratch"
+  ],
+  "accessory_2001": [
+    "event_seasonal"
+  ],
+  "accessory_2004": [
+    "event_seasonal"
+  ],
+  "accessory_2016": [
+    "event_seasonal"
+  ],
+  "accessory_2036": [
+    "event_seasonal"
+  ],
+  "accessory_2057": [
+    "arena_rewards"
+  ],
+  "accessory_2068": [
+    "set_packages"
+  ],
+  "accessory_2087": [
+    "event_seasonal"
+  ],
+  "accessory_2102": [
+    "event_seasonal"
+  ],
+  "accessory_2109": [
+    "set_packages"
+  ],
+  "accessory_2114": [
+    "set_packages"
+  ],
+  "accessory_2115": [
+    "event_seasonal"
+  ],
+  "accessory_2117": [
+    "event:anniv2025"
+  ],
+  "accessory_2118": [
+    "divine_tree",
+    "event_seasonal"
+  ],
+  "accessory_2119": [
+    "set_packages"
+  ],
+  "accessory_2120": [
+    "event:independence2025"
+  ],
+  "accessory_2121": [
+    "set_packages"
+  ],
+  "accessory_2127": [
+    "arena_rewards"
+  ],
+  "accessory_2128": [
+    "event:anniv2026"
+  ],
+  "accessory_7001": [
+    "shadow_war"
+  ],
+  "accessory_7002": [
+    "shadow_war"
+  ],
+  "accessory_7003": [
+    "shadow_war"
+  ],
+  "accessory_7004": [
+    "shadow_war"
+  ],
+  "accessory_7005": [
+    "shadow_war"
+  ],
+  "accessory_7006": [
+    "shadow_war"
+  ],
+  "accessory_7007": [
+    "shadow_war"
+  ],
+  "accessory_7008": [
+    "shadow_war"
+  ],
+  "accessory_8001": [
+    "crew_battle"
+  ],
+  "item_01": [
+    "shop_normal"
+  ],
+  "item_02": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_03": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_04": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_05": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_06": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_07": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_08": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_09": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_10": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_11": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_12": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_13": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_14": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_15": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_16": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_17": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_18": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_19": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_20": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_21": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_22": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_23": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_24": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_25": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_26": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_27": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_28": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_29": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_30": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_31": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_32": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_33": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_34": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_35": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_36": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_37": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_38": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_39": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_40": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_41": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_42": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_43": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_44": [
+    "shop_clan",
+    "clan_forge",
+    "dragon_gacha"
+  ],
+  "item_46": [
+    "shop_normal"
+  ],
+  "item_47": [
+    "shop_normal"
+  ],
+  "item_48": [
+    "shop_normal"
+  ],
+  "item_49": [
+    "dragon_gacha"
+  ],
+  "item_50": [
+    "dragon_gacha"
+  ],
+  "item_51": [
+    "dragon_gacha"
+  ],
+  "item_52": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "item_54": [
+    "dragon_gacha"
+  ],
+  "item_59": [
+    "shop_normal"
+  ],
+  "item_60": [
+    "shop_normal"
+  ],
+  "item_61": [
+    "shop_normal"
+  ],
+  "item_62": [
+    "shop_normal"
+  ],
+  "item_63": [
+    "shop_normal"
+  ],
+  "item_64": [
+    "shop_normal"
+  ],
+  "item_65": [
+    "shop_normal"
+  ],
+  "item_66": [
+    "shop_normal"
+  ],
+  "item_67": [
+    "shop_normal"
+  ],
+  "item_68": [
+    "shop_normal"
+  ],
+  "item_69": [
+    "shop_normal"
+  ],
+  "item_70": [
+    "shop_normal"
+  ],
+  "item_71": [
+    "shop_normal"
+  ],
+  "item_72": [
+    "shop_normal"
+  ],
+  "item_73": [
+    "shop_normal"
+  ],
+  "item_74": [
+    "shop_normal"
+  ],
+  "item_75": [
+    "shop_normal"
+  ],
+  "item_76": [
+    "shop_normal"
+  ],
+  "item_77": [
+    "shop_normal"
+  ],
+  "material_69": [
+    "shop_clan",
+    "clan_forge",
+    "event:valentine2025",
+    "event:anniv2025",
+    "event:ramadhan2025",
+    "event:easter2025",
+    "event:wmg2025",
+    "event:summer2025",
+    "event:independence2025",
+    "event:halloween2025",
+    "event:christmas2025",
+    "event:anniv2026"
+  ],
+  "material_874": [
+    "daily_scratch",
+    "monster_hunter"
+  ],
+  "material_1001": [
+    "shop_normal",
+    "dragon_gacha",
+    "daily_scratch",
+    "event:valentine2025",
+    "event:anniv2025",
+    "event:easter2025",
+    "event:summer2025",
+    "event:independence2025",
+    "event:halloween2025",
+    "event:christmas2025",
+    "event:anniv2026"
+  ],
+  "material_775": [
+    "dragon_gacha"
+  ],
+  "material_776": [
+    "dragon_gacha"
+  ],
+  "material_777": [
+    "dragon_gacha"
+  ],
+  "material_778": [
+    "dragon_gacha"
+  ],
+  "material_779": [
+    "dragon_gacha"
+  ],
+  "material_780": [
+    "dragon_gacha"
+  ],
+  "material_781": [
+    "dragon_gacha"
+  ],
+  "material_782": [
+    "dragon_gacha"
+  ],
+  "material_783": [
+    "dragon_gacha"
+  ],
+  "material_784": [
+    "dragon_gacha"
+  ],
+  "material_785": [
+    "dragon_gacha"
+  ],
+  "material_786": [
+    "dragon_gacha"
+  ],
+  "material_787": [
+    "dragon_gacha"
+  ],
+  "material_788": [
+    "dragon_gacha"
+  ],
+  "material_789": [
+    "dragon_gacha"
+  ],
+  "material_790": [
+    "dragon_gacha"
+  ],
+  "material_791": [
+    "dragon_gacha"
+  ],
+  "material_792": [
+    "dragon_gacha"
+  ],
+  "material_793": [
+    "dragon_gacha"
+  ],
+  "material_794": [
+    "dragon_gacha"
+  ],
+  "material_795": [
+    "dragon_gacha"
+  ],
+  "material_796": [
+    "dragon_gacha"
+  ],
+  "material_797": [
+    "dragon_gacha"
+  ],
+  "material_798": [
+    "dragon_gacha"
+  ],
+  "material_799": [
+    "dragon_gacha"
+  ],
+  "material_800": [
+    "dragon_gacha"
+  ],
+  "material_801": [
+    "dragon_gacha"
+  ],
+  "material_802": [
+    "dragon_gacha"
+  ],
+  "material_803": [
+    "dragon_gacha"
+  ],
+  "material_804": [
+    "dragon_gacha"
+  ],
+  "material_805": [
+    "dragon_gacha"
+  ],
+  "material_806": [
+    "dragon_gacha"
+  ],
+  "material_807": [
+    "dragon_gacha"
+  ],
+  "material_808": [
+    "dragon_gacha"
+  ],
+  "material_809": [
+    "dragon_gacha"
+  ],
+  "material_819": [
+    "shop_crew",
+    "dragon_gacha"
+  ],
+  "material_820": [
+    "shop_crew",
+    "dragon_gacha"
+  ],
+  "material_821": [
+    "shop_crew",
+    "dragon_gacha"
+  ],
+  "material_822": [
+    "shop_crew",
+    "dragon_gacha"
+  ],
+  "material_823": [
+    "shop_crew",
+    "dragon_gacha"
+  ],
+  "material_200": [
+    "dragon_gacha"
+  ],
+  "material_201": [
+    "dragon_gacha"
+  ],
+  "material_202": [
+    "dragon_gacha"
+  ],
+  "material_203": [
+    "dragon_gacha"
+  ],
+  "material_204": [
+    "shop_normal",
+    "dragon_gacha"
+  ],
+  "material_205": [
+    "dragon_gacha"
+  ],
+  "material_773": [
+    "shop_crew",
+    "dragon_gacha"
+  ],
+  "material_939": [
+    "shop_crew"
+  ],
+  "material_941": [
+    "shop_crew",
+    "event:valentine2025",
+    "event:anniv2025",
+    "event:easter2025",
+    "event:summer2025",
+    "event:independence2025",
+    "event:halloween2025",
+    "event:christmas2025",
+    "event:anniv2026"
+  ],
+  "material_2076": [
+    "monster_hunter"
+  ],
+  "material_2077": [
+    "monster_hunter"
+  ],
+  "material_2078": [
+    "monster_hunter"
+  ],
+  "material_2144": [
+    "event_seasonal"
+  ],
+  "material_2145": [
+    "event_seasonal"
+  ],
+  "material_2146": [
+    "event_seasonal"
+  ],
+  "material_2147": [
+    "event_seasonal"
+  ],
+  "material_2149": [
+    "event_seasonal"
+  ],
+  "material_2150": [
+    "event_seasonal"
+  ],
+  "material_2151": [
+    "event_seasonal"
+  ],
+  "material_2152": [
+    "event_seasonal"
+  ],
+  "material_2153": [
+    "event_seasonal"
+  ],
+  "material_2154": [
+    "event_seasonal"
+  ],
+  "material_2155": [
+    "event_seasonal"
+  ],
+  "material_2156": [
+    "event_seasonal"
+  ],
+  "material_2157": [
+    "event:valentine2025"
+  ],
+  "material_2158": [
+    "event:valentine2025"
+  ],
+  "material_2159": [
+    "event:valentine2025"
+  ],
+  "material_2160": [
+    "event:valentine2025"
+  ],
+  "material_2161": [
+    "event:valentine2025"
+  ],
+  "material_2162": [
+    "event:valentine2025"
+  ],
+  "material_2163": [
+    "event:valentine2025",
+    "event:anniv2025"
+  ],
+  "material_2164": [
+    "event:valentine2025"
+  ],
+  "material_2165": [
+    "event:anniv2025"
+  ],
+  "material_2166": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "material_2167": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "material_2168": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "material_2169": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "material_2170": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "material_2171": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "material_2172": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "material_2173": [
+    "event:anniv2025"
+  ],
+  "material_2174": [
+    "event:anniv2025"
+  ],
+  "material_2175": [
+    "event:anniv2025"
+  ],
+  "material_2176": [
+    "event:anniv2025"
+  ],
+  "material_2177": [
+    "event_seasonal"
+  ],
+  "material_2178": [
+    "event_seasonal"
+  ],
+  "material_2179": [
+    "event_seasonal"
+  ],
+  "material_2180": [
+    "event:easter2025"
+  ],
+  "material_2181": [
+    "event:easter2025"
+  ],
+  "material_2182": [
+    "event:easter2025"
+  ],
+  "material_2183": [
+    "event:easter2025"
+  ],
+  "material_2184": [
+    "event:easter2025"
+  ],
+  "material_2185": [
+    "event:easter2025"
+  ],
+  "material_2186": [
+    "event:easter2025"
+  ],
+  "material_2187": [
+    "event_seasonal"
+  ],
+  "material_2188": [
+    "event_seasonal"
+  ],
+  "material_2189": [
+    "event_seasonal"
+  ],
+  "material_2190": [
+    "event_seasonal"
+  ],
+  "material_2191": [
+    "event_seasonal"
+  ],
+  "material_2192": [
+    "event:summer2025"
+  ],
+  "material_2193": [
+    "event:summer2025"
+  ],
+  "material_2194": [
+    "event:summer2025"
+  ],
+  "material_2195": [
+    "event:summer2025"
+  ],
+  "material_2196": [
+    "event:summer2025"
+  ],
+  "material_2197": [
+    "event:independence2025"
+  ],
+  "material_2198": [
+    "event_seasonal"
+  ],
+  "material_2199": [
+    "event:independence2025"
+  ],
+  "material_2200": [
+    "event:independence2025"
+  ],
+  "material_2201": [
+    "event:independence2025"
+  ],
+  "material_2202": [
+    "event:independence2025"
+  ],
+  "material_2203": [
+    "event:independence2025"
+  ],
+  "material_2204": [
+    "event_seasonal"
+  ],
+  "material_2205": [
+    "event:yinyang2025"
+  ],
+  "material_2206": [
+    "event_seasonal"
+  ],
+  "material_2207": [
+    "event:yinyang2025"
+  ],
+  "material_2208": [
+    "event_seasonal"
+  ],
+  "material_2209": [
+    "event:halloween2025"
+  ],
+  "material_2210": [
+    "event:halloween2025"
+  ],
+  "material_2211": [
+    "event:halloween2025"
+  ],
+  "material_2212": [
+    "event:halloween2025"
+  ],
+  "material_2213": [
+    "event:halloween2025"
+  ],
+  "material_2214": [
+    "event:halloween2025"
+  ],
+  "material_2215": [
+    "event:halloween2025"
+  ],
+  "material_2216": [
+    "event:confrontingdeath2025"
+  ],
+  "material_2217": [
+    "event:confrontingdeath2025"
+  ],
+  "material_2218": [
+    "event:confrontingdeath2025"
+  ],
+  "material_2219": [
+    "event:confrontingdeath2025"
+  ],
+  "material_2220": [
+    "event:confrontingdeath2025"
+  ],
+  "material_2221": [
+    "event:thanksgiving2025"
+  ],
+  "material_2222": [
+    "event_seasonal"
+  ],
+  "material_2223": [
+    "event_seasonal"
+  ],
+  "material_2224": [
+    "event_seasonal"
+  ],
+  "material_2225": [
+    "event_seasonal"
+  ],
+  "material_2226": [
+    "event:christmas2025"
+  ],
+  "material_2227": [
+    "event:christmas2025"
+  ],
+  "material_2228": [
+    "event:christmas2025"
+  ],
+  "material_2229": [
+    "event:christmas2025"
+  ],
+  "material_2230": [
+    "event:christmas2025"
+  ],
+  "material_2231": [
+    "event:christmas2025"
+  ],
+  "material_2232": [
+    "event:phantomkyunoki2026"
+  ],
+  "material_2233": [
+    "event:phantomkyunoki2026"
+  ],
+  "material_2234": [
+    "event:phantomkyunoki2026"
+  ],
+  "material_2235": [
+    "arena_rewards"
+  ],
+  "material_2236": [
+    "event:anniv2026"
+  ],
+  "material_2237": [
+    "event:anniv2026"
+  ],
+  "material_2238": [
+    "event:anniv2026"
+  ],
+  "material_2239": [
+    "event:anniv2026"
+  ],
+  "material_2240": [
+    "event:anniv2026"
+  ],
+  "material_2241": [
+    "event:anniv2026"
+  ],
+  "material_2242": [
+    "event:anniv2026"
+  ],
+  "material_2243": [
+    "event:anniv2026"
+  ],
+  "material_2244": [
+    "event:anniv2026"
+  ],
+  "material_2245": [
+    "event:anniv2026"
+  ],
+  "material_2246": [
+    "event_seasonal"
+  ],
+  "material_2247": [
+    "event_seasonal"
+  ],
+  "material_2248": [
+    "event:hanami2026"
+  ],
+  "material_2249": [
+    "event_seasonal"
+  ],
+  "material_2250": [
+    "event_seasonal"
+  ],
+  "material_2251": [
+    "event_seasonal"
+  ],
+  "material_2252": [
+    "event_seasonal"
+  ],
+  "material_2253": [
+    "event_seasonal"
+  ],
+  "material_2254": [
+    "event_seasonal"
+  ],
+  "material_2255": [
+    "event_seasonal"
+  ],
+  "material_2256": [
+    "event_seasonal"
+  ],
+  "essential_01": [
+    "shop_normal",
+    "daily_scratch",
+    "event:anniv2025",
+    "event:independence2025",
+    "event:anniv2026"
+  ],
+  "essential_02": [
+    "shop_normal",
+    "daily_scratch"
+  ],
+  "essential_03": [
+    "dragon_gacha",
+    "daily_scratch"
+  ],
+  "essential_04": [
+    "dragon_gacha",
+    "daily_scratch"
+  ],
+  "essential_05": [
+    "dragon_gacha",
+    "event:valentine2025",
+    "event:anniv2025",
+    "event:ramadhan2025",
+    "event:easter2025",
+    "event:summer2025",
+    "event:independence2025",
+    "event:yinyang2025",
+    "event:halloween2025",
+    "event:confrontingdeath2025",
+    "event:thanksgiving2025",
+    "event:christmas2025",
+    "event:anniv2026",
+    "event:hanami2026"
+  ],
+  "essential_10": [
+    "event:phantomkyunoki2026"
+  ],
+  "set_03_0": [
+    "shop_normal"
+  ],
+  "set_03_1": [
+    "shop_normal"
+  ],
+  "set_04_0": [
+    "shop_normal"
+  ],
+  "set_04_1": [
+    "shop_normal"
+  ],
+  "set_05_0": [
+    "shop_normal"
+  ],
+  "set_05_1": [
+    "shop_normal"
+  ],
+  "set_06_0": [
+    "shop_normal"
+  ],
+  "set_06_1": [
+    "billing_packages"
+  ],
+  "set_07_0": [
+    "billing_packages"
+  ],
+  "set_08_0": [
+    "billing_packages"
+  ],
+  "set_08_1": [
+    "shop_normal"
+  ],
+  "set_09_1": [
+    "shop_normal"
+  ],
+  "set_10_0": [
+    "billing_packages"
+  ],
+  "set_11_0": [
+    "billing_packages"
+  ],
+  "set_11_1": [
+    "shop_normal"
+  ],
+  "set_12_0": [
+    "shop_normal"
+  ],
+  "set_12_1": [
+    "billing_packages"
+  ],
+  "set_13_0": [
+    "billing_packages"
+  ],
+  "set_13_1": [
+    "billing_packages"
+  ],
+  "set_15_0": [
+    "shop_normal"
+  ],
+  "set_16_0": [
+    "shop_normal"
+  ],
+  "set_17_0": [
+    "shop_normal"
+  ],
+  "set_18_0": [
+    "shop_normal"
+  ],
+  "set_19_0": [
+    "shop_normal"
+  ],
+  "set_19_1": [
+    "shop_normal"
+  ],
+  "set_20_0": [
+    "billing_packages"
+  ],
+  "set_20_1": [
+    "billing_packages"
+  ],
+  "set_21_0": [
+    "billing_packages"
+  ],
+  "set_21_1": [
+    "billing_packages"
+  ],
+  "set_22_1": [
+    "billing_packages"
+  ],
+  "set_23_0": [
+    "shop_normal"
+  ],
+  "set_24_1": [
+    "shop_normal"
+  ],
+  "set_25_1": [
+    "billing_packages"
+  ],
+  "set_27_1": [
+    "billing_packages"
+  ],
+  "set_28_0": [
+    "billing_packages"
+  ],
+  "set_28_1": [
+    "billing_packages"
+  ],
+  "set_30_0": [
+    "billing_packages"
+  ],
+  "set_30_1": [
+    "billing_packages"
+  ],
+  "set_31_0": [
+    "billing_packages"
+  ],
+  "set_31_1": [
+    "shop_normal"
+  ],
+  "set_32_0": [
+    "billing_packages"
+  ],
+  "set_33_0": [
+    "billing_packages"
+  ],
+  "set_33_1": [
+    "billing_packages"
+  ],
+  "set_114_0": [
+    "billing_packages"
+  ],
+  "set_114_1": [
+    "billing_packages"
+  ],
+  "set_136_0": [
+    "material_market"
+  ],
+  "set_786_0": [
+    "material_market"
+  ],
+  "set_685_0": [
+    "event_seasonal"
+  ],
+  "set_685_1": [
+    "event_seasonal"
+  ],
+  "set_444_0": [
+    "shop_normal"
+  ],
+  "set_444_1": [
+    "shop_normal"
+  ],
+  "set_195_0": [
+    "shop_normal"
+  ],
+  "set_195_1": [
+    "shop_normal"
+  ],
+  "set_344_0": [
+    "shop_normal"
+  ],
+  "set_344_1": [
+    "shop_normal"
+  ],
+  "set_345_0": [
+    "shop_normal"
+  ],
+  "set_345_1": [
+    "shop_normal"
+  ],
+  "set_346_0": [
+    "shop_normal"
+  ],
+  "set_346_1": [
+    "shop_normal"
+  ],
+  "set_347_0": [
+    "shop_normal"
+  ],
+  "set_347_1": [
+    "shop_normal"
+  ],
+  "set_2001_0": [
+    "special_deals"
+  ],
+  "set_2001_1": [
+    "special_deals"
+  ],
+  "set_2006_0": [
+    "set_packages"
+  ],
+  "set_2006_1": [
+    "set_packages"
+  ],
+  "set_2012_0": [
+    "special_deals"
+  ],
+  "set_2012_1": [
+    "special_deals"
+  ],
+  "set_2013_0": [
+    "special_deals"
+  ],
+  "set_2013_1": [
+    "special_deals"
+  ],
+  "set_2022_0": [
+    "set_packages"
+  ],
+  "set_2022_1": [
+    "set_packages"
+  ],
+  "set_2023_0": [
+    "set_packages"
+  ],
+  "set_2023_1": [
+    "set_packages"
+  ],
+  "set_2032_0": [
+    "event_seasonal"
+  ],
+  "set_2032_1": [
+    "event_seasonal"
+  ],
+  "set_2053_0": [
+    "set_packages"
+  ],
+  "set_2053_1": [
+    "set_packages"
+  ],
+  "set_2054_0": [
+    "set_packages"
+  ],
+  "set_2054_1": [
+    "set_packages"
+  ],
+  "set_2055_0": [
+    "set_packages"
+  ],
+  "set_2055_1": [
+    "set_packages"
+  ],
+  "set_2056_0": [
+    "set_packages"
+  ],
+  "set_2056_1": [
+    "set_packages"
+  ],
+  "set_2092_0": [
+    "set_packages"
+  ],
+  "set_2092_1": [
+    "set_packages"
+  ],
+  "set_2094_0": [
+    "event_seasonal"
+  ],
+  "set_2094_1": [
+    "event_seasonal"
+  ],
+  "set_2098_0": [
+    "set_packages"
+  ],
+  "set_2098_1": [
+    "set_packages"
+  ],
+  "set_2106_0": [
+    "event_seasonal"
+  ],
+  "set_2106_1": [
+    "event_seasonal"
+  ],
+  "set_2107_0": [
+    "set_packages"
+  ],
+  "set_2107_1": [
+    "set_packages"
+  ],
+  "set_2120_0": [
+    "set_packages"
+  ],
+  "set_2120_1": [
+    "set_packages"
+  ],
+  "set_2130_0": [
+    "set_packages"
+  ],
+  "set_2130_1": [
+    "set_packages"
+  ],
+  "set_2133_0": [
+    "event_seasonal"
+  ],
+  "set_2133_1": [
+    "event_seasonal"
+  ],
+  "set_2138_0": [
+    "event_seasonal"
+  ],
+  "set_2138_1": [
+    "event_seasonal"
+  ],
+  "set_2147_0": [
+    "set_packages"
+  ],
+  "set_2147_1": [
+    "set_packages"
+  ],
+  "set_2160_0": [
+    "set_packages"
+  ],
+  "set_2160_1": [
+    "set_packages"
+  ],
+  "set_2169_0": [
+    "special_deals"
+  ],
+  "set_2169_1": [
+    "special_deals"
+  ],
+  "set_2180_0": [
+    "set_packages"
+  ],
+  "set_2180_1": [
+    "set_packages"
+  ],
+  "set_2181_0": [
+    "set_packages"
+  ],
+  "set_2181_1": [
+    "set_packages"
+  ],
+  "set_2185_0": [
+    "event_seasonal"
+  ],
+  "set_2185_1": [
+    "event_seasonal"
+  ],
+  "set_2186_0": [
+    "friendship_shop"
+  ],
+  "set_2216_0": [
+    "set_packages"
+  ],
+  "set_2216_1": [
+    "set_packages"
+  ],
+  "set_2235_0": [
+    "set_packages"
+  ],
+  "set_2235_1": [
+    "set_packages"
+  ],
+  "set_2238_0": [
+    "event_seasonal"
+  ],
+  "set_2238_1": [
+    "event_seasonal"
+  ],
+  "set_2250_0": [
+    "special_deals"
+  ],
+  "set_2250_1": [
+    "special_deals"
+  ],
+  "set_2267_0": [
+    "special_deals"
+  ],
+  "set_2267_1": [
+    "special_deals"
+  ],
+  "set_2268_0": [
+    "special_deals"
+  ],
+  "set_2268_1": [
+    "special_deals"
+  ],
+  "set_2269_0": [
+    "event_seasonal"
+  ],
+  "set_2269_1": [
+    "event_seasonal"
+  ],
+  "set_2270_0": [
+    "event_seasonal"
+  ],
+  "set_2270_1": [
+    "event_seasonal"
+  ],
+  "set_2271_0": [
+    "event_seasonal"
+  ],
+  "set_2271_1": [
+    "event_seasonal"
+  ],
+  "set_2272_0": [
+    "set_packages"
+  ],
+  "set_2272_1": [
+    "set_packages"
+  ],
+  "set_2273_0": [
+    "set_packages"
+  ],
+  "set_2273_1": [
+    "set_packages"
+  ],
+  "set_2274_0": [
+    "special_deals"
+  ],
+  "set_2274_1": [
+    "special_deals"
+  ],
+  "set_2275_0": [
+    "event_seasonal"
+  ],
+  "set_2275_1": [
+    "event_seasonal"
+  ],
+  "set_2276_0": [
+    "event_seasonal"
+  ],
+  "set_2276_1": [
+    "event_seasonal"
+  ],
+  "set_2277_0": [
+    "event_seasonal"
+  ],
+  "set_2277_1": [
+    "event_seasonal"
+  ],
+  "set_2278_0": [
+    "arena_rewards"
+  ],
+  "set_2278_1": [
+    "arena_rewards"
+  ],
+  "set_2293_0": [
+    "event_seasonal"
+  ],
+  "set_2293_1": [
+    "event_seasonal"
+  ],
+  "set_2294_0": [
+    "event_seasonal"
+  ],
+  "set_2294_1": [
+    "event_seasonal"
+  ],
+  "set_2295_0": [
+    "event_seasonal"
+  ],
+  "set_2295_1": [
+    "event_seasonal"
+  ],
+  "set_2296_0": [
+    "event_seasonal"
+  ],
+  "set_2296_1": [
+    "event_seasonal"
+  ],
+  "set_2297_0": [
+    "event_seasonal"
+  ],
+  "set_2297_1": [
+    "event_seasonal"
+  ],
+  "set_2298_0": [
+    "event_seasonal"
+  ],
+  "set_2298_1": [
+    "event_seasonal"
+  ],
+  "set_2299_0": [
+    "event_seasonal"
+  ],
+  "set_2299_1": [
+    "event_seasonal"
+  ],
+  "set_2300_0": [
+    "event_seasonal"
+  ],
+  "set_2300_1": [
+    "event_seasonal"
+  ],
+  "set_2301_0": [
+    "event_seasonal"
+  ],
+  "set_2301_1": [
+    "event_seasonal"
+  ],
+  "set_2302_0": [
+    "event_seasonal"
+  ],
+  "set_2302_1": [
+    "event_seasonal"
+  ],
+  "set_2303_0": [
+    "event_seasonal"
+  ],
+  "set_2303_1": [
+    "event_seasonal"
+  ],
+  "set_2304_0": [
+    "event_seasonal"
+  ],
+  "set_2304_1": [
+    "event_seasonal"
+  ],
+  "set_2305_0": [
+    "event_seasonal"
+  ],
+  "set_2305_1": [
+    "event_seasonal"
+  ],
+  "set_2306_0": [
+    "event_seasonal"
+  ],
+  "set_2306_1": [
+    "event_seasonal"
+  ],
+  "set_2307_0": [
+    "event_seasonal"
+  ],
+  "set_2307_1": [
+    "event_seasonal"
+  ],
+  "set_2308_0": [
+    "event_seasonal"
+  ],
+  "set_2308_1": [
+    "event_seasonal"
+  ],
+  "set_2309_0": [
+    "event_seasonal"
+  ],
+  "set_2309_1": [
+    "event_seasonal"
+  ],
+  "set_2310_0": [
+    "event_seasonal"
+  ],
+  "set_2310_1": [
+    "event_seasonal"
+  ],
+  "set_2311_0": [
+    "event_seasonal"
+  ],
+  "set_2311_1": [
+    "event_seasonal"
+  ],
+  "set_2312_0": [
+    "event_seasonal"
+  ],
+  "set_2312_1": [
+    "event_seasonal"
+  ],
+  "set_2313_0": [
+    "event_seasonal"
+  ],
+  "set_2313_1": [
+    "event_seasonal"
+  ],
+  "set_2314_0": [
+    "event_seasonal"
+  ],
+  "set_2314_1": [
+    "event_seasonal"
+  ],
+  "set_2315_0": [
+    "event_seasonal"
+  ],
+  "set_2315_1": [
+    "event_seasonal"
+  ],
+  "set_2316_0": [
+    "event_seasonal"
+  ],
+  "set_2316_1": [
+    "event_seasonal"
+  ],
+  "set_2317_0": [
+    "event_seasonal"
+  ],
+  "set_2317_1": [
+    "event_seasonal"
+  ],
+  "set_2318_0": [
+    "event_seasonal"
+  ],
+  "set_2318_1": [
+    "event_seasonal"
+  ],
+  "set_2319_0": [
+    "event_seasonal"
+  ],
+  "set_2319_1": [
+    "event_seasonal"
+  ],
+  "set_2320_0": [
+    "event_seasonal"
+  ],
+  "set_2320_1": [
+    "event_seasonal"
+  ],
+  "set_2321_0": [
+    "event_seasonal"
+  ],
+  "set_2321_1": [
+    "event_seasonal"
+  ],
+  "set_2322_0": [
+    "event_seasonal"
+  ],
+  "set_2322_1": [
+    "event_seasonal"
+  ],
+  "set_2323_0": [
+    "event_seasonal"
+  ],
+  "set_2323_1": [
+    "event_seasonal"
+  ],
+  "set_2324_0": [
+    "event_seasonal"
+  ],
+  "set_2324_1": [
+    "event_seasonal"
+  ],
+  "set_2325_0": [
+    "event_seasonal"
+  ],
+  "set_2325_1": [
+    "event_seasonal"
+  ],
+  "set_2326_0": [
+    "event_seasonal"
+  ],
+  "set_2326_1": [
+    "event_seasonal"
+  ],
+  "set_2327_0": [
+    "event_seasonal"
+  ],
+  "set_2327_1": [
+    "event_seasonal"
+  ],
+  "set_2328_0": [
+    "event_seasonal"
+  ],
+  "set_2328_1": [
+    "event_seasonal"
+  ],
+  "set_2329_0": [
+    "event_seasonal"
+  ],
+  "set_2329_1": [
+    "event_seasonal"
+  ],
+  "set_2330_0": [
+    "event_seasonal"
+  ],
+  "set_2330_1": [
+    "event_seasonal"
+  ],
+  "set_2331_0": [
+    "event_seasonal"
+  ],
+  "set_2331_1": [
+    "event_seasonal"
+  ],
+  "set_2332_0": [
+    "event_seasonal"
+  ],
+  "set_2332_1": [
+    "event_seasonal"
+  ],
+  "set_2333_0": [
+    "event_seasonal"
+  ],
+  "set_2333_1": [
+    "event_seasonal"
+  ],
+  "set_2334_0": [
+    "event_seasonal"
+  ],
+  "set_2334_1": [
+    "event_seasonal"
+  ],
+  "set_2335_0": [
+    "event_seasonal"
+  ],
+  "set_2335_1": [
+    "event_seasonal"
+  ],
+  "set_2336_0": [
+    "event_seasonal"
+  ],
+  "set_2336_1": [
+    "event_seasonal"
+  ],
+  "set_2337_0": [
+    "event_seasonal"
+  ],
+  "set_2337_1": [
+    "event_seasonal"
+  ],
+  "set_2338_0": [
+    "set_packages"
+  ],
+  "set_2338_1": [
+    "set_packages"
+  ],
+  "set_2339_0": [
+    "event_seasonal"
+  ],
+  "set_2339_1": [
+    "event_seasonal"
+  ],
+  "set_2340_0": [
+    "event_seasonal"
+  ],
+  "set_2340_1": [
+    "event_seasonal"
+  ],
+  "set_2341_0": [
+    "event_seasonal"
+  ],
+  "set_2341_1": [
+    "event_seasonal"
+  ],
+  "set_2342_0": [
+    "special_deals"
+  ],
+  "set_2342_1": [
+    "special_deals"
+  ],
+  "set_2343_0": [
+    "special_deals"
+  ],
+  "set_2343_1": [
+    "special_deals"
+  ],
+  "set_2344_0": [
+    "special_deals"
+  ],
+  "set_2344_1": [
+    "special_deals"
+  ],
+  "set_2345_0": [
+    "event_seasonal"
+  ],
+  "set_2345_1": [
+    "event_seasonal"
+  ],
+  "set_2346_0": [
+    "event_seasonal"
+  ],
+  "set_2346_1": [
+    "event_seasonal"
+  ],
+  "set_2347_0": [
+    "event_seasonal"
+  ],
+  "set_2347_1": [
+    "event_seasonal"
+  ],
+  "set_2348_0": [
+    "event_seasonal"
+  ],
+  "set_2348_1": [
+    "event_seasonal"
+  ],
+  "set_2349_0": [
+    "event_seasonal"
+  ],
+  "set_2349_1": [
+    "event_seasonal"
+  ],
+  "set_2350_0": [
+    "event_seasonal"
+  ],
+  "set_2350_1": [
+    "event_seasonal"
+  ],
+  "set_2351_0": [
+    "event_seasonal"
+  ],
+  "set_2351_1": [
+    "event_seasonal"
+  ],
+  "set_2352_0": [
+    "event_seasonal"
+  ],
+  "set_2352_1": [
+    "event_seasonal"
+  ],
+  "set_2353_0": [
+    "event_seasonal"
+  ],
+  "set_2353_1": [
+    "event_seasonal"
+  ],
+  "set_2354_0": [
+    "event_seasonal"
+  ],
+  "set_2354_1": [
+    "event_seasonal"
+  ],
+  "set_2355_0": [
+    "event_seasonal"
+  ],
+  "set_2355_1": [
+    "event_seasonal"
+  ],
+  "set_2356_0": [
+    "event_seasonal"
+  ],
+  "set_2356_1": [
+    "event_seasonal"
+  ],
+  "set_2357_0": [
+    "event_seasonal"
+  ],
+  "set_2357_1": [
+    "event_seasonal"
+  ],
+  "set_2358_0": [
+    "event_seasonal"
+  ],
+  "set_2358_1": [
+    "event_seasonal"
+  ],
+  "set_2359_0": [
+    "event_seasonal"
+  ],
+  "set_2359_1": [
+    "event_seasonal"
+  ],
+  "set_2360_0": [
+    "event_seasonal"
+  ],
+  "set_2360_1": [
+    "event_seasonal"
+  ],
+  "set_2361_0": [
+    "event_seasonal"
+  ],
+  "set_2361_1": [
+    "event_seasonal"
+  ],
+  "set_2362_0": [
+    "event_seasonal"
+  ],
+  "set_2362_1": [
+    "event_seasonal"
+  ],
+  "set_2363_0": [
+    "event_seasonal"
+  ],
+  "set_2363_1": [
+    "event_seasonal"
+  ],
+  "set_2364_0": [
+    "event_seasonal"
+  ],
+  "set_2364_1": [
+    "event_seasonal"
+  ],
+  "set_2365_0": [
+    "event_seasonal"
+  ],
+  "set_2365_1": [
+    "event_seasonal"
+  ],
+  "set_2366_0": [
+    "event_seasonal"
+  ],
+  "set_2366_1": [
+    "event_seasonal"
+  ],
+  "set_2367_0": [
+    "event_seasonal"
+  ],
+  "set_2367_1": [
+    "event_seasonal"
+  ],
+  "set_2368_0": [
+    "event_seasonal"
+  ],
+  "set_2368_1": [
+    "event_seasonal"
+  ],
+  "set_2369_0": [
+    "set_packages"
+  ],
+  "set_2369_1": [
+    "set_packages"
+  ],
+  "set_2370_0": [
+    "special_deals"
+  ],
+  "set_2370_1": [
+    "special_deals"
+  ],
+  "set_2371_0": [
+    "special_deals"
+  ],
+  "set_2371_1": [
+    "special_deals"
+  ],
+  "set_2372_0": [
+    "event_seasonal"
+  ],
+  "set_2372_1": [
+    "event_seasonal"
+  ],
+  "set_2373_0": [
+    "event_seasonal"
+  ],
+  "set_2373_1": [
+    "event_seasonal"
+  ],
+  "set_2374_0": [
+    "event_seasonal"
+  ],
+  "set_2374_1": [
+    "event_seasonal"
+  ],
+  "set_2375_0": [
+    "event_seasonal"
+  ],
+  "set_2375_1": [
+    "event_seasonal"
+  ],
+  "set_2379_0": [
+    "event_seasonal"
+  ],
+  "set_2379_1": [
+    "event_seasonal"
+  ],
+  "set_2380_0": [
+    "event_seasonal"
+  ],
+  "set_2380_1": [
+    "event_seasonal"
+  ],
+  "set_2381_0": [
+    "event_seasonal"
+  ],
+  "set_2381_1": [
+    "event_seasonal"
+  ],
+  "set_2382_0": [
+    "event_seasonal"
+  ],
+  "set_2382_1": [
+    "event_seasonal"
+  ],
+  "set_2383_0": [
+    "event_seasonal"
+  ],
+  "set_2383_1": [
+    "event_seasonal"
+  ],
+  "set_2384_0": [
+    "event_seasonal"
+  ],
+  "set_2384_1": [
+    "event_seasonal"
+  ],
+  "set_2385_0": [
+    "event_seasonal"
+  ],
+  "set_2385_1": [
+    "event_seasonal"
+  ],
+  "set_2386_0": [
+    "event_seasonal"
+  ],
+  "set_2386_1": [
+    "event_seasonal"
+  ],
+  "set_2387_0": [
+    "event_seasonal"
+  ],
+  "set_2387_1": [
+    "event_seasonal"
+  ],
+  "set_2389_0": [
+    "event_seasonal"
+  ],
+  "set_2390_0": [
+    "event_seasonal"
+  ],
+  "set_2390_1": [
+    "event_seasonal"
+  ],
+  "set_2391_0": [
+    "event_seasonal"
+  ],
+  "set_2391_1": [
+    "event_seasonal"
+  ],
+  "set_2392_0": [
+    "event_seasonal"
+  ],
+  "set_2392_1": [
+    "event_seasonal"
+  ],
+  "set_2395_0": [
+    "event_seasonal"
+  ],
+  "set_2395_1": [
+    "event_seasonal"
+  ],
+  "set_2396_0": [
+    "event_seasonal"
+  ],
+  "set_2396_1": [
+    "event_seasonal"
+  ],
+  "set_2397_0": [
+    "event_seasonal"
+  ],
+  "set_2397_1": [
+    "event_seasonal"
+  ],
+  "set_2398_0": [
+    "event_seasonal"
+  ],
+  "set_2398_1": [
+    "event_seasonal"
+  ],
+  "set_2399_0": [
+    "event_seasonal"
+  ],
+  "set_2399_1": [
+    "event_seasonal"
+  ],
+  "set_2400_0": [
+    "event_seasonal"
+  ],
+  "set_2400_1": [
+    "event_seasonal"
+  ],
+  "set_2401_0": [
+    "set_packages"
+  ],
+  "set_2401_1": [
+    "set_packages"
+  ],
+  "set_2402_0": [
+    "set_packages"
+  ],
+  "set_2402_1": [
+    "set_packages"
+  ],
+  "set_2403_0": [
+    "event_seasonal"
+  ],
+  "set_2403_1": [
+    "event_seasonal"
+  ],
+  "set_2404_0": [
+    "event_seasonal"
+  ],
+  "set_2404_1": [
+    "event_seasonal"
+  ],
+  "set_2405_0": [
+    "event_seasonal"
+  ],
+  "set_2405_1": [
+    "event_seasonal"
+  ],
+  "set_2406_0": [
+    "event_seasonal"
+  ],
+  "set_2406_1": [
+    "event_seasonal"
+  ],
+  "set_2407_0": [
+    "event_seasonal"
+  ],
+  "set_2407_1": [
+    "event_seasonal"
+  ],
+  "set_2418_0": [
+    "event_seasonal"
+  ],
+  "set_2418_1": [
+    "event_seasonal"
+  ],
+  "set_2419_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "set_2419_1": [
+    "event_seasonal"
+  ],
+  "set_2420_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "set_2420_1": [
+    "event_seasonal"
+  ],
+  "set_2421_0": [
+    "event_seasonal"
+  ],
+  "set_2421_1": [
+    "event_seasonal"
+  ],
+  "set_2422_0": [
+    "event_seasonal"
+  ],
+  "set_2422_1": [
+    "event_seasonal"
+  ],
+  "set_2423_0": [
+    "event_seasonal"
+  ],
+  "set_2423_1": [
+    "event_seasonal"
+  ],
+  "set_2424_0": [
+    "event_seasonal"
+  ],
+  "set_2424_1": [
+    "event_seasonal"
+  ],
+  "set_2425_0": [
+    "event_seasonal"
+  ],
+  "set_2425_1": [
+    "event_seasonal"
+  ],
+  "set_2426_0": [
+    "event_seasonal"
+  ],
+  "set_2426_1": [
+    "event_seasonal"
+  ],
+  "set_2427_0": [
+    "event_seasonal"
+  ],
+  "set_2427_1": [
+    "event_seasonal"
+  ],
+  "set_2428_0": [
+    "event_seasonal"
+  ],
+  "set_2428_1": [
+    "event_seasonal"
+  ],
+  "set_2429_0": [
+    "event_seasonal"
+  ],
+  "set_2429_1": [
+    "event_seasonal"
+  ],
+  "set_2430_0": [
+    "event_seasonal"
+  ],
+  "set_2430_1": [
+    "event_seasonal"
+  ],
+  "set_2431_0": [
+    "event_seasonal"
+  ],
+  "set_2431_1": [
+    "event_seasonal"
+  ],
+  "set_2432_0": [
+    "set_packages"
+  ],
+  "set_2432_1": [
+    "set_packages"
+  ],
+  "set_2433_0": [
+    "event_seasonal"
+  ],
+  "set_2433_1": [
+    "event_seasonal"
+  ],
+  "set_2434_0": [
+    "event_seasonal"
+  ],
+  "set_2434_1": [
+    "event_seasonal"
+  ],
+  "set_2435_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "set_2435_1": [
+    "event_seasonal"
+  ],
+  "set_2436_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "set_2436_1": [
+    "event_seasonal"
+  ],
+  "set_2437_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "set_2437_1": [
+    "event_seasonal"
+  ],
+  "set_2438_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "set_2438_1": [
+    "event_seasonal"
+  ],
+  "set_2439_0": [
+    "event_seasonal"
+  ],
+  "set_2439_1": [
+    "event_seasonal"
+  ],
+  "set_2440_0": [
+    "event_seasonal"
+  ],
+  "set_2440_1": [
+    "event_seasonal"
+  ],
+  "set_2441_0": [
+    "event_seasonal"
+  ],
+  "set_2441_1": [
+    "event_seasonal"
+  ],
+  "set_2442_0": [
+    "event_seasonal"
+  ],
+  "set_2442_1": [
+    "event_seasonal"
+  ],
+  "set_2443_0": [
+    "event_seasonal"
+  ],
+  "set_2443_1": [
+    "event_seasonal"
+  ],
+  "set_2444_0": [
+    "event_seasonal"
+  ],
+  "set_2444_1": [
+    "event_seasonal"
+  ],
+  "set_2445_0": [
+    "event_seasonal"
+  ],
+  "set_2445_1": [
+    "event_seasonal"
+  ],
+  "set_2446_0": [
+    "event_seasonal"
+  ],
+  "set_2446_1": [
+    "event_seasonal"
+  ],
+  "set_2447_0": [
+    "event_seasonal"
+  ],
+  "set_2447_1": [
+    "event_seasonal"
+  ],
+  "set_2448_0": [
+    "event_seasonal"
+  ],
+  "set_2448_1": [
+    "event_seasonal"
+  ],
+  "set_2449_0": [
+    "event_seasonal"
+  ],
+  "set_2449_1": [
+    "event_seasonal"
+  ],
+  "set_2450_0": [
+    "event_seasonal"
+  ],
+  "set_2450_1": [
+    "event_seasonal"
+  ],
+  "set_2451_0": [
+    "event_seasonal"
+  ],
+  "set_2451_1": [
+    "event_seasonal"
+  ],
+  "set_2452_0": [
+    "event_seasonal"
+  ],
+  "set_2452_1": [
+    "event_seasonal"
+  ],
+  "set_6000_0": [
+    "clan_war"
+  ],
+  "set_6000_1": [
+    "clan_war"
+  ],
+  "set_6001_0": [
+    "clan_war"
+  ],
+  "set_6001_1": [
+    "clan_war"
+  ],
+  "set_6002_0": [
+    "clan_war"
+  ],
+  "set_6002_1": [
+    "clan_war"
+  ],
+  "set_6003_0": [
+    "clan_war"
+  ],
+  "set_6003_1": [
+    "clan_war"
+  ],
+  "set_6004_0": [
+    "clan_war"
+  ],
+  "set_6004_1": [
+    "clan_war"
+  ],
+  "set_6005_0": [
+    "clan_war"
+  ],
+  "set_6005_1": [
+    "clan_war"
+  ],
+  "set_6006_0": [
+    "clan_war"
+  ],
+  "set_6006_1": [
+    "clan_war"
+  ],
+  "set_6007_0": [
+    "clan_war"
+  ],
+  "set_6007_1": [
+    "clan_war"
+  ],
+  "set_6008_0": [
+    "clan_war"
+  ],
+  "set_6008_1": [
+    "clan_war"
+  ],
+  "set_6009_0": [
+    "clan_war"
+  ],
+  "set_6009_1": [
+    "clan_war"
+  ],
+  "set_6010_0": [
+    "clan_war"
+  ],
+  "set_6010_1": [
+    "clan_war"
+  ],
+  "set_6011_0": [
+    "clan_war"
+  ],
+  "set_6011_1": [
+    "clan_war"
+  ],
+  "set_6012_0": [
+    "clan_war"
+  ],
+  "set_6012_1": [
+    "clan_war"
+  ],
+  "set_6013_0": [
+    "clan_war"
+  ],
+  "set_6013_1": [
+    "clan_war"
+  ],
+  "set_6014_0": [
+    "clan_war"
+  ],
+  "set_6014_1": [
+    "clan_war"
+  ],
+  "set_6015_0": [
+    "clan_war"
+  ],
+  "set_6015_1": [
+    "clan_war"
+  ],
+  "set_6016_0": [
+    "clan_war"
+  ],
+  "set_6016_1": [
+    "clan_war"
+  ],
+  "set_6017_0": [
+    "clan_war"
+  ],
+  "set_6017_1": [
+    "clan_war"
+  ],
+  "set_6018_0": [
+    "clan_war"
+  ],
+  "set_6018_1": [
+    "clan_war"
+  ],
+  "set_6019_0": [
+    "clan_war"
+  ],
+  "set_6019_1": [
+    "clan_war"
+  ],
+  "set_6020_0": [
+    "clan_war"
+  ],
+  "set_6020_1": [
+    "clan_war"
+  ],
+  "set_6021_0": [
+    "clan_war"
+  ],
+  "set_6021_1": [
+    "clan_war"
+  ],
+  "set_6022_0": [
+    "clan_war"
+  ],
+  "set_6022_1": [
+    "clan_war"
+  ],
+  "set_6023_0": [
+    "clan_war"
+  ],
+  "set_6023_1": [
+    "clan_war"
+  ],
+  "set_6024_0": [
+    "clan_war"
+  ],
+  "set_6024_1": [
+    "clan_war"
+  ],
+  "set_6025_0": [
+    "clan_war"
+  ],
+  "set_6025_1": [
+    "clan_war"
+  ],
+  "set_6026_0": [
+    "clan_war"
+  ],
+  "set_6026_1": [
+    "clan_war"
+  ],
+  "set_6027_0": [
+    "clan_war"
+  ],
+  "set_6027_1": [
+    "clan_war"
+  ],
+  "set_6028_0": [
+    "clan_war"
+  ],
+  "set_6028_1": [
+    "clan_war"
+  ],
+  "set_6029_0": [
+    "clan_war"
+  ],
+  "set_6029_1": [
+    "clan_war"
+  ],
+  "set_6030_0": [
+    "clan_war"
+  ],
+  "set_6030_1": [
+    "clan_war"
+  ],
+  "set_6031_0": [
+    "clan_war"
+  ],
+  "set_6031_1": [
+    "clan_war"
+  ],
+  "set_6032_0": [
+    "clan_war"
+  ],
+  "set_6032_1": [
+    "clan_war"
+  ],
+  "set_6033_0": [
+    "clan_war"
+  ],
+  "set_6033_1": [
+    "clan_war"
+  ],
+  "set_6034_0": [
+    "clan_war"
+  ],
+  "set_6034_1": [
+    "clan_war"
+  ],
+  "set_6035_0": [
+    "clan_war"
+  ],
+  "set_6035_1": [
+    "clan_war"
+  ],
+  "set_6036_0": [
+    "clan_war"
+  ],
+  "set_6036_1": [
+    "clan_war"
+  ],
+  "set_6037_0": [
+    "clan_war"
+  ],
+  "set_6037_1": [
+    "clan_war"
+  ],
+  "set_6038_0": [
+    "clan_war"
+  ],
+  "set_6038_1": [
+    "clan_war"
+  ],
+  "set_6039_0": [
+    "clan_war"
+  ],
+  "set_6039_1": [
+    "clan_war"
+  ],
+  "set_6040_0": [
+    "clan_war"
+  ],
+  "set_6040_1": [
+    "clan_war"
+  ],
+  "set_6041_0": [
+    "clan_war"
+  ],
+  "set_6041_1": [
+    "clan_war"
+  ],
+  "set_6042_0": [
+    "clan_war"
+  ],
+  "set_6042_1": [
+    "clan_war"
+  ],
+  "set_6043_0": [
+    "clan_war"
+  ],
+  "set_6043_1": [
+    "clan_war"
+  ],
+  "set_6044_0": [
+    "clan_war"
+  ],
+  "set_6044_1": [
+    "clan_war"
+  ],
+  "set_6045_0": [
+    "clan_war"
+  ],
+  "set_6045_1": [
+    "clan_war"
+  ],
+  "set_6046_0": [
+    "clan_war"
+  ],
+  "set_6046_1": [
+    "clan_war"
+  ],
+  "set_6047_0": [
+    "clan_war"
+  ],
+  "set_6047_1": [
+    "clan_war"
+  ],
+  "set_6048_0": [
+    "clan_war"
+  ],
+  "set_6048_1": [
+    "clan_war"
+  ],
+  "set_6049_0": [
+    "clan_war"
+  ],
+  "set_6049_1": [
+    "clan_war"
+  ],
+  "set_6050_0": [
+    "clan_war"
+  ],
+  "set_6050_1": [
+    "clan_war"
+  ],
+  "set_6051_0": [
+    "clan_war"
+  ],
+  "set_6051_1": [
+    "clan_war"
+  ],
+  "set_6052_0": [
+    "clan_war"
+  ],
+  "set_6052_1": [
+    "clan_war"
+  ],
+  "set_6053_0": [
+    "clan_war"
+  ],
+  "set_6053_1": [
+    "clan_war"
+  ],
+  "set_6054_0": [
+    "clan_war"
+  ],
+  "set_6054_1": [
+    "clan_war"
+  ],
+  "set_6055_0": [
+    "clan_war"
+  ],
+  "set_6055_1": [
+    "clan_war"
+  ],
+  "set_6056_0": [
+    "clan_war"
+  ],
+  "set_6056_1": [
+    "clan_war"
+  ],
+  "set_6057_0": [
+    "clan_war"
+  ],
+  "set_6057_1": [
+    "clan_war"
+  ],
+  "set_6058_0": [
+    "clan_war"
+  ],
+  "set_6058_1": [
+    "clan_war"
+  ],
+  "set_6059_0": [
+    "clan_war"
+  ],
+  "set_6059_1": [
+    "clan_war"
+  ],
+  "set_6060_0": [
+    "clan_war"
+  ],
+  "set_6060_1": [
+    "clan_war"
+  ],
+  "set_6061_0": [
+    "clan_war"
+  ],
+  "set_6061_1": [
+    "clan_war"
+  ],
+  "set_6062_0": [
+    "clan_war"
+  ],
+  "set_6062_1": [
+    "clan_war"
+  ],
+  "set_6063_0": [
+    "clan_war"
+  ],
+  "set_6063_1": [
+    "clan_war"
+  ],
+  "set_6064_0": [
+    "clan_war"
+  ],
+  "set_6064_1": [
+    "clan_war"
+  ],
+  "set_6065_0": [
+    "clan_war"
+  ],
+  "set_6065_1": [
+    "clan_war"
+  ],
+  "set_6066_0": [
+    "clan_war"
+  ],
+  "set_6066_1": [
+    "clan_war"
+  ],
+  "set_6067_0": [
+    "clan_war"
+  ],
+  "set_6067_1": [
+    "clan_war"
+  ],
+  "set_6068_0": [
+    "clan_war"
+  ],
+  "set_6068_1": [
+    "clan_war"
+  ],
+  "set_6069_0": [
+    "clan_war"
+  ],
+  "set_6069_1": [
+    "clan_war"
+  ],
+  "set_6070_0": [
+    "clan_war"
+  ],
+  "set_6070_1": [
+    "clan_war"
+  ],
+  "set_6071_0": [
+    "clan_war"
+  ],
+  "set_6071_1": [
+    "clan_war"
+  ],
+  "set_6072_0": [
+    "clan_war"
+  ],
+  "set_6072_1": [
+    "clan_war"
+  ],
+  "set_6073_0": [
+    "clan_war"
+  ],
+  "set_6073_1": [
+    "clan_war"
+  ],
+  "set_6074_0": [
+    "clan_war"
+  ],
+  "set_6074_1": [
+    "clan_war"
+  ],
+  "set_6075_0": [
+    "clan_war"
+  ],
+  "set_6075_1": [
+    "clan_war"
+  ],
+  "set_6076_0": [
+    "clan_war"
+  ],
+  "set_6076_1": [
+    "clan_war"
+  ],
+  "set_6077_0": [
+    "clan_war"
+  ],
+  "set_6077_1": [
+    "clan_war"
+  ],
+  "set_6078_0": [
+    "clan_war"
+  ],
+  "set_6078_1": [
+    "clan_war"
+  ],
+  "set_6079_0": [
+    "clan_war"
+  ],
+  "set_6079_1": [
+    "clan_war"
+  ],
+  "set_6080_0": [
+    "clan_war"
+  ],
+  "set_6080_1": [
+    "clan_war"
+  ],
+  "set_6081_0": [
+    "clan_war"
+  ],
+  "set_6081_1": [
+    "clan_war"
+  ],
+  "set_6082_0": [
+    "clan_war"
+  ],
+  "set_6082_1": [
+    "clan_war"
+  ],
+  "set_6083_0": [
+    "clan_war"
+  ],
+  "set_6083_1": [
+    "clan_war"
+  ],
+  "set_6084_0": [
+    "clan_war"
+  ],
+  "set_6084_1": [
+    "clan_war"
+  ],
+  "set_6085_0": [
+    "clan_war"
+  ],
+  "set_6085_1": [
+    "clan_war"
+  ],
+  "set_6086_0": [
+    "clan_war"
+  ],
+  "set_6086_1": [
+    "clan_war"
+  ],
+  "set_6087_0": [
+    "clan_war"
+  ],
+  "set_6087_1": [
+    "clan_war"
+  ],
+  "set_6088_0": [
+    "clan_war"
+  ],
+  "set_6088_1": [
+    "clan_war"
+  ],
+  "set_6089_0": [
+    "clan_war"
+  ],
+  "set_6089_1": [
+    "clan_war"
+  ],
+  "set_6090_0": [
+    "clan_war"
+  ],
+  "set_6090_1": [
+    "clan_war"
+  ],
+  "set_6091_0": [
+    "clan_war"
+  ],
+  "set_6091_1": [
+    "clan_war"
+  ],
+  "set_6092_0": [
+    "clan_war"
+  ],
+  "set_6092_1": [
+    "clan_war"
+  ],
+  "set_6093_0": [
+    "clan_war"
+  ],
+  "set_6093_1": [
+    "clan_war"
+  ],
+  "set_6094_0": [
+    "clan_war"
+  ],
+  "set_6094_1": [
+    "clan_war"
+  ],
+  "set_6095_0": [
+    "clan_war"
+  ],
+  "set_6095_1": [
+    "clan_war"
+  ],
+  "set_6096_0": [
+    "clan_war"
+  ],
+  "set_6096_1": [
+    "clan_war"
+  ],
+  "set_6097_0": [
+    "clan_war"
+  ],
+  "set_6097_1": [
+    "clan_war"
+  ],
+  "set_6098_0": [
+    "clan_war"
+  ],
+  "set_6098_1": [
+    "clan_war"
+  ],
+  "set_6099_0": [
+    "clan_war"
+  ],
+  "set_6099_1": [
+    "clan_war"
+  ],
+  "set_6100_0": [
+    "clan_war"
+  ],
+  "set_6100_1": [
+    "clan_war"
+  ],
+  "set_6101_0": [
+    "clan_war"
+  ],
+  "set_6101_1": [
+    "clan_war"
+  ],
+  "set_6102_0": [
+    "clan_war"
+  ],
+  "set_6102_1": [
+    "clan_war"
+  ],
+  "set_6103_0": [
+    "clan_war"
+  ],
+  "set_6103_1": [
+    "clan_war"
+  ],
+  "set_6104_0": [
+    "clan_war"
+  ],
+  "set_6104_1": [
+    "clan_war"
+  ],
+  "set_6105_0": [
+    "clan_war"
+  ],
+  "set_6105_1": [
+    "clan_war"
+  ],
+  "set_6106_0": [
+    "clan_war"
+  ],
+  "set_6106_1": [
+    "clan_war"
+  ],
+  "set_6107_0": [
+    "clan_war"
+  ],
+  "set_6107_1": [
+    "clan_war"
+  ],
+  "set_6108_0": [
+    "clan_war"
+  ],
+  "set_6108_1": [
+    "clan_war"
+  ],
+  "set_6109_0": [
+    "clan_war"
+  ],
+  "set_6109_1": [
+    "clan_war"
+  ],
+  "set_6110_0": [
+    "clan_war"
+  ],
+  "set_6110_1": [
+    "clan_war"
+  ],
+  "set_6111_0": [
+    "clan_war"
+  ],
+  "set_6111_1": [
+    "clan_war"
+  ],
+  "set_6112_0": [
+    "clan_war"
+  ],
+  "set_6112_1": [
+    "clan_war"
+  ],
+  "set_6113_0": [
+    "clan_war"
+  ],
+  "set_6113_1": [
+    "clan_war"
+  ],
+  "set_6114_0": [
+    "clan_war"
+  ],
+  "set_6114_1": [
+    "clan_war"
+  ],
+  "set_6115_0": [
+    "clan_war"
+  ],
+  "set_6115_1": [
+    "clan_war"
+  ],
+  "set_6116_0": [
+    "clan_war"
+  ],
+  "set_6116_1": [
+    "clan_war"
+  ],
+  "set_6117_0": [
+    "clan_war"
+  ],
+  "set_6117_1": [
+    "clan_war"
+  ],
+  "set_6118_0": [
+    "clan_war"
+  ],
+  "set_6118_1": [
+    "clan_war"
+  ],
+  "set_6119_0": [
+    "clan_war"
+  ],
+  "set_6119_1": [
+    "clan_war"
+  ],
+  "set_6120_0": [
+    "clan_war"
+  ],
+  "set_6120_1": [
+    "clan_war"
+  ],
+  "set_6121_0": [
+    "clan_war"
+  ],
+  "set_6121_1": [
+    "clan_war"
+  ],
+  "set_6122_0": [
+    "clan_war"
+  ],
+  "set_6122_1": [
+    "clan_war"
+  ],
+  "set_6123_0": [
+    "clan_war"
+  ],
+  "set_6123_1": [
+    "clan_war"
+  ],
+  "set_6124_0": [
+    "clan_war"
+  ],
+  "set_6124_1": [
+    "clan_war"
+  ],
+  "set_6125_0": [
+    "clan_war"
+  ],
+  "set_6125_1": [
+    "clan_war"
+  ],
+  "set_6126_0": [
+    "clan_war"
+  ],
+  "set_6126_1": [
+    "clan_war"
+  ],
+  "set_6127_0": [
+    "clan_war"
+  ],
+  "set_6127_1": [
+    "clan_war"
+  ],
+  "set_6128_0": [
+    "clan_war"
+  ],
+  "set_6128_1": [
+    "clan_war"
+  ],
+  "set_6129_0": [
+    "clan_war"
+  ],
+  "set_6129_1": [
+    "clan_war"
+  ],
+  "set_6130_0": [
+    "clan_war"
+  ],
+  "set_6130_1": [
+    "clan_war"
+  ],
+  "set_6131_0": [
+    "clan_war"
+  ],
+  "set_6131_1": [
+    "clan_war"
+  ],
+  "set_6132_0": [
+    "clan_war"
+  ],
+  "set_6132_1": [
+    "clan_war"
+  ],
+  "set_6133_0": [
+    "clan_war"
+  ],
+  "set_6133_1": [
+    "clan_war"
+  ],
+  "set_6134_0": [
+    "clan_war"
+  ],
+  "set_6134_1": [
+    "clan_war"
+  ],
+  "set_6135_0": [
+    "clan_war"
+  ],
+  "set_6135_1": [
+    "clan_war"
+  ],
+  "set_6136_0": [
+    "clan_war"
+  ],
+  "set_6136_1": [
+    "clan_war"
+  ],
+  "set_6137_0": [
+    "clan_war"
+  ],
+  "set_6137_1": [
+    "clan_war"
+  ],
+  "set_6138_0": [
+    "clan_war"
+  ],
+  "set_6138_1": [
+    "clan_war"
+  ],
+  "set_6139_0": [
+    "clan_war"
+  ],
+  "set_6139_1": [
+    "clan_war"
+  ],
+  "set_6140_0": [
+    "clan_war"
+  ],
+  "set_6140_1": [
+    "clan_war"
+  ],
+  "set_6141_0": [
+    "clan_war"
+  ],
+  "set_6141_1": [
+    "clan_war"
+  ],
+  "set_6142_0": [
+    "clan_war"
+  ],
+  "set_6142_1": [
+    "clan_war"
+  ],
+  "set_6143_0": [
+    "clan_war"
+  ],
+  "set_6143_1": [
+    "clan_war"
+  ],
+  "set_6144_0": [
+    "clan_war"
+  ],
+  "set_6144_1": [
+    "clan_war"
+  ],
+  "set_6145_0": [
+    "clan_war"
+  ],
+  "set_6145_1": [
+    "clan_war"
+  ],
+  "set_6146_0": [
+    "clan_war"
+  ],
+  "set_6146_1": [
+    "clan_war"
+  ],
+  "set_6147_0": [
+    "clan_war"
+  ],
+  "set_6147_1": [
+    "clan_war"
+  ],
+  "set_6148_0": [
+    "clan_war"
+  ],
+  "set_6148_1": [
+    "clan_war"
+  ],
+  "set_6149_0": [
+    "clan_war"
+  ],
+  "set_6149_1": [
+    "clan_war"
+  ],
+  "set_6150_0": [
+    "clan_war"
+  ],
+  "set_6150_1": [
+    "clan_war"
+  ],
+  "set_6151_0": [
+    "clan_war"
+  ],
+  "set_6151_1": [
+    "clan_war"
+  ],
+  "set_6152_0": [
+    "clan_war"
+  ],
+  "set_6152_1": [
+    "clan_war"
+  ],
+  "set_6153_0": [
+    "clan_war"
+  ],
+  "set_6153_1": [
+    "clan_war"
+  ],
+  "set_6154_0": [
+    "clan_war"
+  ],
+  "set_6154_1": [
+    "clan_war"
+  ],
+  "set_6155_0": [
+    "clan_war"
+  ],
+  "set_6155_1": [
+    "clan_war"
+  ],
+  "set_6156_0": [
+    "clan_war"
+  ],
+  "set_6156_1": [
+    "clan_war"
+  ],
+  "set_6157_0": [
+    "clan_war"
+  ],
+  "set_6157_1": [
+    "clan_war"
+  ],
+  "set_6158_0": [
+    "clan_war"
+  ],
+  "set_6158_1": [
+    "clan_war"
+  ],
+  "set_6159_0": [
+    "clan_war"
+  ],
+  "set_6159_1": [
+    "clan_war"
+  ],
+  "set_6160_0": [
+    "clan_war"
+  ],
+  "set_6160_1": [
+    "clan_war"
+  ],
+  "set_6161_0": [
+    "clan_war"
+  ],
+  "set_6161_1": [
+    "clan_war"
+  ],
+  "set_6162_0": [
+    "clan_war"
+  ],
+  "set_6162_1": [
+    "clan_war"
+  ],
+  "set_6163_0": [
+    "clan_war"
+  ],
+  "set_6163_1": [
+    "clan_war"
+  ],
+  "set_6164_0": [
+    "clan_war"
+  ],
+  "set_6164_1": [
+    "clan_war"
+  ],
+  "set_6165_0": [
+    "clan_war"
+  ],
+  "set_6165_1": [
+    "clan_war"
+  ],
+  "set_6166_0": [
+    "clan_war"
+  ],
+  "set_6166_1": [
+    "clan_war"
+  ],
+  "set_6167_0": [
+    "clan_war"
+  ],
+  "set_6167_1": [
+    "clan_war"
+  ],
+  "set_6168_0": [
+    "clan_war"
+  ],
+  "set_6168_1": [
+    "clan_war"
+  ],
+  "set_6169_0": [
+    "clan_war"
+  ],
+  "set_6169_1": [
+    "clan_war"
+  ],
+  "set_6170_0": [
+    "clan_war"
+  ],
+  "set_6170_1": [
+    "clan_war"
+  ],
+  "set_6171_0": [
+    "clan_war"
+  ],
+  "set_6171_1": [
+    "clan_war"
+  ],
+  "set_6172_0": [
+    "clan_war"
+  ],
+  "set_6172_1": [
+    "clan_war"
+  ],
+  "set_6173_0": [
+    "clan_war"
+  ],
+  "set_6173_1": [
+    "clan_war"
+  ],
+  "set_6174_0": [
+    "clan_war"
+  ],
+  "set_6174_1": [
+    "clan_war"
+  ],
+  "set_6175_0": [
+    "clan_war"
+  ],
+  "set_6175_1": [
+    "clan_war"
+  ],
+  "set_6176_0": [
+    "clan_war"
+  ],
+  "set_6176_1": [
+    "clan_war"
+  ],
+  "set_6177_0": [
+    "clan_war"
+  ],
+  "set_6177_1": [
+    "clan_war"
+  ],
+  "set_6178_0": [
+    "clan_war"
+  ],
+  "set_6178_1": [
+    "clan_war"
+  ],
+  "set_6179_0": [
+    "clan_war"
+  ],
+  "set_6179_1": [
+    "clan_war"
+  ],
+  "set_6180_0": [
+    "clan_war"
+  ],
+  "set_6180_1": [
+    "clan_war"
+  ],
+  "set_6181_0": [
+    "clan_war"
+  ],
+  "set_6181_1": [
+    "clan_war"
+  ],
+  "set_6182_0": [
+    "clan_war"
+  ],
+  "set_6182_1": [
+    "clan_war"
+  ],
+  "set_6183_0": [
+    "clan_war"
+  ],
+  "set_6183_1": [
+    "clan_war"
+  ],
+  "set_6184_0": [
+    "clan_war"
+  ],
+  "set_6184_1": [
+    "clan_war"
+  ],
+  "set_6185_0": [
+    "clan_war"
+  ],
+  "set_6185_1": [
+    "clan_war"
+  ],
+  "set_6186_0": [
+    "clan_war"
+  ],
+  "set_6186_1": [
+    "clan_war"
+  ],
+  "set_6187_0": [
+    "clan_war"
+  ],
+  "set_6187_1": [
+    "clan_war"
+  ],
+  "set_6188_0": [
+    "clan_war"
+  ],
+  "set_6188_1": [
+    "clan_war"
+  ],
+  "set_6189_0": [
+    "clan_war"
+  ],
+  "set_6189_1": [
+    "clan_war"
+  ],
+  "set_6190_0": [
+    "clan_war"
+  ],
+  "set_6190_1": [
+    "clan_war"
+  ],
+  "set_6191_0": [
+    "clan_war"
+  ],
+  "set_6191_1": [
+    "clan_war"
+  ],
+  "set_6192_0": [
+    "clan_war"
+  ],
+  "set_6192_1": [
+    "clan_war"
+  ],
+  "set_6193_0": [
+    "clan_war"
+  ],
+  "set_6193_1": [
+    "clan_war"
+  ],
+  "set_6194_0": [
+    "clan_war"
+  ],
+  "set_6194_1": [
+    "clan_war"
+  ],
+  "set_6195_0": [
+    "clan_war"
+  ],
+  "set_6195_1": [
+    "clan_war"
+  ],
+  "set_6196_0": [
+    "clan_war"
+  ],
+  "set_6196_1": [
+    "clan_war"
+  ],
+  "set_6197_0": [
+    "clan_war"
+  ],
+  "set_6197_1": [
+    "clan_war"
+  ],
+  "set_6198_0": [
+    "clan_war"
+  ],
+  "set_6198_1": [
+    "clan_war"
+  ],
+  "set_6199_0": [
+    "clan_war"
+  ],
+  "set_6199_1": [
+    "clan_war"
+  ],
+  "set_7000_0": [
+    "shadow_war"
+  ],
+  "set_7000_1": [
+    "shadow_war"
+  ],
+  "set_7001_0": [
+    "shadow_war"
+  ],
+  "set_7001_1": [
+    "shadow_war"
+  ],
+  "set_7002_0": [
+    "shadow_war"
+  ],
+  "set_7002_1": [
+    "shadow_war"
+  ],
+  "set_7003_0": [
+    "shadow_war"
+  ],
+  "set_7003_1": [
+    "shadow_war"
+  ],
+  "set_7004_0": [
+    "shadow_war"
+  ],
+  "set_7004_1": [
+    "shadow_war"
+  ],
+  "set_7005_0": [
+    "shadow_war"
+  ],
+  "set_7005_1": [
+    "shadow_war"
+  ],
+  "set_7006_0": [
+    "shadow_war"
+  ],
+  "set_7006_1": [
+    "shadow_war"
+  ],
+  "set_7007_0": [
+    "shadow_war"
+  ],
+  "set_7007_1": [
+    "shadow_war"
+  ],
+  "set_7008_0": [
+    "shadow_war"
+  ],
+  "set_7008_1": [
+    "shadow_war"
+  ],
+  "set_7009_0": [
+    "shadow_war"
+  ],
+  "set_7009_1": [
+    "shadow_war"
+  ],
+  "set_7010_0": [
+    "shadow_war"
+  ],
+  "set_7010_1": [
+    "shadow_war"
+  ],
+  "set_7011_0": [
+    "shadow_war"
+  ],
+  "set_7011_1": [
+    "shadow_war"
+  ],
+  "set_7012_0": [
+    "shadow_war"
+  ],
+  "set_7012_1": [
+    "shadow_war"
+  ],
+  "set_7013_0": [
+    "shadow_war"
+  ],
+  "set_7013_1": [
+    "shadow_war"
+  ],
+  "set_7014_0": [
+    "shadow_war"
+  ],
+  "set_7014_1": [
+    "shadow_war"
+  ],
+  "set_7015_0": [
+    "shadow_war"
+  ],
+  "set_7015_1": [
+    "shadow_war"
+  ],
+  "set_7016_0": [
+    "shadow_war"
+  ],
+  "set_7016_1": [
+    "shadow_war"
+  ],
+  "set_7017_0": [
+    "shadow_war"
+  ],
+  "set_7017_1": [
+    "shadow_war"
+  ],
+  "set_7018_0": [
+    "shadow_war"
+  ],
+  "set_7018_1": [
+    "shadow_war"
+  ],
+  "set_7019_0": [
+    "shadow_war"
+  ],
+  "set_7019_1": [
+    "shadow_war"
+  ],
+  "set_7020_0": [
+    "shadow_war"
+  ],
+  "set_7020_1": [
+    "shadow_war"
+  ],
+  "set_7021_0": [
+    "shadow_war"
+  ],
+  "set_7021_1": [
+    "shadow_war"
+  ],
+  "set_7022_0": [
+    "shadow_war"
+  ],
+  "set_7022_1": [
+    "shadow_war"
+  ],
+  "set_7023_0": [
+    "shadow_war"
+  ],
+  "set_7023_1": [
+    "shadow_war"
+  ],
+  "set_7024_0": [
+    "shadow_war"
+  ],
+  "set_7024_1": [
+    "shadow_war"
+  ],
+  "set_7025_0": [
+    "shadow_war"
+  ],
+  "set_7025_1": [
+    "shadow_war"
+  ],
+  "set_7026_0": [
+    "shadow_war"
+  ],
+  "set_7026_1": [
+    "shadow_war"
+  ],
+  "set_7027_0": [
+    "shadow_war"
+  ],
+  "set_7027_1": [
+    "shadow_war"
+  ],
+  "set_7028_0": [
+    "shadow_war"
+  ],
+  "set_7028_1": [
+    "shadow_war"
+  ],
+  "set_7029_0": [
+    "shadow_war"
+  ],
+  "set_7029_1": [
+    "shadow_war"
+  ],
+  "set_7030_0": [
+    "shadow_war"
+  ],
+  "set_7030_1": [
+    "shadow_war"
+  ],
+  "set_7031_0": [
+    "shadow_war"
+  ],
+  "set_7031_1": [
+    "shadow_war"
+  ],
+  "set_7032_0": [
+    "shadow_war"
+  ],
+  "set_7032_1": [
+    "shadow_war"
+  ],
+  "set_7033_0": [
+    "shadow_war"
+  ],
+  "set_7033_1": [
+    "shadow_war"
+  ],
+  "set_7034_0": [
+    "shadow_war"
+  ],
+  "set_7034_1": [
+    "shadow_war"
+  ],
+  "set_7035_0": [
+    "shadow_war"
+  ],
+  "set_7035_1": [
+    "shadow_war"
+  ],
+  "set_7036_0": [
+    "shadow_war"
+  ],
+  "set_7036_1": [
+    "shadow_war"
+  ],
+  "set_7037_0": [
+    "shadow_war"
+  ],
+  "set_7037_1": [
+    "shadow_war"
+  ],
+  "set_7038_0": [
+    "shadow_war"
+  ],
+  "set_7038_1": [
+    "shadow_war"
+  ],
+  "set_7039_0": [
+    "shadow_war"
+  ],
+  "set_7039_1": [
+    "shadow_war"
+  ],
+  "set_7040_0": [
+    "shadow_war"
+  ],
+  "set_7040_1": [
+    "shadow_war"
+  ],
+  "set_7041_0": [
+    "shadow_war"
+  ],
+  "set_7041_1": [
+    "shadow_war"
+  ],
+  "set_7042_0": [
+    "shadow_war"
+  ],
+  "set_7042_1": [
+    "shadow_war"
+  ],
+  "set_7043_0": [
+    "shadow_war"
+  ],
+  "set_7043_1": [
+    "shadow_war"
+  ],
+  "set_7044_0": [
+    "shadow_war"
+  ],
+  "set_7044_1": [
+    "shadow_war"
+  ],
+  "set_7045_0": [
+    "shadow_war"
+  ],
+  "set_7045_1": [
+    "shadow_war"
+  ],
+  "set_7046_0": [
+    "shadow_war"
+  ],
+  "set_7046_1": [
+    "shadow_war"
+  ],
+  "set_7047_0": [
+    "shadow_war"
+  ],
+  "set_7047_1": [
+    "shadow_war"
+  ],
+  "set_7048_0": [
+    "shadow_war"
+  ],
+  "set_7048_1": [
+    "shadow_war"
+  ],
+  "set_7049_0": [
+    "shadow_war"
+  ],
+  "set_7049_1": [
+    "shadow_war"
+  ],
+  "set_7050_0": [
+    "shadow_war"
+  ],
+  "set_7050_1": [
+    "shadow_war"
+  ],
+  "set_7051_0": [
+    "shadow_war"
+  ],
+  "set_7051_1": [
+    "shadow_war"
+  ],
+  "set_7052_0": [
+    "shadow_war"
+  ],
+  "set_7052_1": [
+    "shadow_war"
+  ],
+  "set_7053_0": [
+    "shadow_war"
+  ],
+  "set_7053_1": [
+    "shadow_war"
+  ],
+  "set_7054_0": [
+    "shadow_war"
+  ],
+  "set_7054_1": [
+    "shadow_war"
+  ],
+  "set_7055_0": [
+    "shadow_war"
+  ],
+  "set_7055_1": [
+    "shadow_war"
+  ],
+  "set_7056_0": [
+    "shadow_war"
+  ],
+  "set_7056_1": [
+    "shadow_war"
+  ],
+  "set_7057_0": [
+    "shadow_war"
+  ],
+  "set_7057_1": [
+    "shadow_war"
+  ],
+  "set_7058_0": [
+    "shadow_war"
+  ],
+  "set_7058_1": [
+    "shadow_war"
+  ],
+  "set_7059_0": [
+    "shadow_war"
+  ],
+  "set_7059_1": [
+    "shadow_war"
+  ],
+  "set_7060_0": [
+    "shadow_war"
+  ],
+  "set_7060_1": [
+    "shadow_war"
+  ],
+  "set_7061_0": [
+    "shadow_war"
+  ],
+  "set_7061_1": [
+    "shadow_war"
+  ],
+  "set_7062_0": [
+    "shadow_war"
+  ],
+  "set_7062_1": [
+    "shadow_war"
+  ],
+  "set_7063_0": [
+    "shadow_war"
+  ],
+  "set_7063_1": [
+    "shadow_war"
+  ],
+  "set_7064_0": [
+    "shadow_war"
+  ],
+  "set_7064_1": [
+    "shadow_war"
+  ],
+  "set_7065_0": [
+    "shadow_war"
+  ],
+  "set_7065_1": [
+    "shadow_war"
+  ],
+  "set_7066_0": [
+    "shadow_war"
+  ],
+  "set_7066_1": [
+    "shadow_war"
+  ],
+  "set_7067_0": [
+    "shadow_war"
+  ],
+  "set_7067_1": [
+    "shadow_war"
+  ],
+  "set_7068_0": [
+    "shadow_war"
+  ],
+  "set_7068_1": [
+    "shadow_war"
+  ],
+  "set_7069_0": [
+    "shadow_war"
+  ],
+  "set_7069_1": [
+    "shadow_war"
+  ],
+  "set_7070_0": [
+    "shadow_war"
+  ],
+  "set_7070_1": [
+    "shadow_war"
+  ],
+  "set_7071_0": [
+    "shadow_war"
+  ],
+  "set_7071_1": [
+    "shadow_war"
+  ],
+  "set_7072_0": [
+    "shadow_war"
+  ],
+  "set_7072_1": [
+    "shadow_war"
+  ],
+  "set_7073_0": [
+    "shadow_war"
+  ],
+  "set_7073_1": [
+    "shadow_war"
+  ],
+  "set_7074_0": [
+    "shadow_war"
+  ],
+  "set_7074_1": [
+    "shadow_war"
+  ],
+  "set_8001_0": [
+    "shop_crew"
+  ],
+  "set_8001_1": [
+    "shop_crew"
+  ],
+  "set_8002_0": [
+    "shop_crew"
+  ],
+  "set_8002_1": [
+    "shop_crew"
+  ],
+  "set_8003_0": [
+    "shop_crew"
+  ],
+  "set_8003_1": [
+    "shop_crew"
+  ],
+  "set_8004_0": [
+    "shop_crew"
+  ],
+  "set_8004_1": [
+    "shop_crew"
+  ],
+  "hair_01_0": [
+    "shop_normal"
+  ],
+  "hair_01_1": [
+    "shop_normal"
+  ],
+  "hair_02_0": [
+    "shop_normal"
+  ],
+  "hair_02_1": [
+    "shop_normal"
+  ],
+  "hair_03_0": [
+    "shop_normal"
+  ],
+  "hair_03_1": [
+    "shop_normal"
+  ],
+  "hair_04_0": [
+    "shop_normal"
+  ],
+  "hair_04_1": [
+    "shop_normal"
+  ],
+  "hair_05_0": [
+    "shop_normal"
+  ],
+  "hair_05_1": [
+    "shop_normal"
+  ],
+  "hair_06_0": [
+    "shop_normal"
+  ],
+  "hair_06_1": [
+    "shop_normal"
+  ],
+  "hair_07_0": [
+    "shop_normal"
+  ],
+  "hair_07_1": [
+    "shop_normal"
+  ],
+  "hair_08_0": [
+    "shop_normal"
+  ],
+  "hair_08_1": [
+    "shop_normal"
+  ],
+  "hair_09_0": [
+    "shop_normal"
+  ],
+  "hair_09_1": [
+    "shop_normal"
+  ],
+  "hair_10_0": [
+    "shop_normal"
+  ],
+  "hair_10_1": [
+    "shop_normal"
+  ],
+  "hair_11_0": [
+    "shop_normal"
+  ],
+  "hair_11_1": [
+    "shop_normal"
+  ],
+  "hair_12_0": [
+    "shop_normal"
+  ],
+  "hair_12_1": [
+    "shop_normal"
+  ],
+  "hair_13_0": [
+    "shop_normal"
+  ],
+  "hair_13_1": [
+    "shop_normal"
+  ],
+  "hair_14_0": [
+    "shop_normal"
+  ],
+  "hair_14_1": [
+    "shop_normal"
+  ],
+  "hair_15_0": [
+    "shop_normal"
+  ],
+  "hair_15_1": [
+    "shop_normal"
+  ],
+  "hair_16_0": [
+    "shop_normal"
+  ],
+  "hair_16_1": [
+    "shop_normal"
+  ],
+  "hair_17_0": [
+    "shop_normal"
+  ],
+  "hair_17_1": [
+    "shop_normal"
+  ],
+  "hair_18_0": [
+    "shop_normal"
+  ],
+  "hair_18_1": [
+    "shop_normal"
+  ],
+  "hair_19_0": [
+    "shop_normal"
+  ],
+  "hair_19_1": [
+    "shop_normal"
+  ],
+  "hair_20_0": [
+    "shop_normal"
+  ],
+  "hair_20_1": [
+    "shop_normal"
+  ],
+  "hair_21_0": [
+    "shop_normal"
+  ],
+  "hair_21_1": [
+    "shop_normal"
+  ],
+  "hair_22_0": [
+    "shop_normal"
+  ],
+  "hair_22_1": [
+    "shop_normal"
+  ],
+  "hair_91_0": [
+    "set_packages"
+  ],
+  "hair_91_1": [
+    "set_packages"
+  ],
+  "hair_171_0": [
+    "event_seasonal"
+  ],
+  "hair_171_1": [
+    "event_seasonal"
+  ],
+  "hair_2001_0": [
+    "special_deals"
+  ],
+  "hair_2001_1": [
+    "special_deals"
+  ],
+  "hair_2006_0": [
+    "set_packages"
+  ],
+  "hair_2006_1": [
+    "set_packages"
+  ],
+  "hair_2007_0": [
+    "special_deals"
+  ],
+  "hair_2007_1": [
+    "special_deals"
+  ],
+  "hair_2008_0": [
+    "special_deals"
+  ],
+  "hair_2008_1": [
+    "special_deals"
+  ],
+  "hair_2023_0": [
+    "set_packages"
+  ],
+  "hair_2023_1": [
+    "set_packages"
+  ],
+  "hair_2024_0": [
+    "set_packages"
+  ],
+  "hair_2024_1": [
+    "set_packages"
+  ],
+  "hair_2033_0": [
+    "event_seasonal"
+  ],
+  "hair_2033_1": [
+    "event_seasonal"
+  ],
+  "hair_2051_0": [
+    "set_packages"
+  ],
+  "hair_2051_1": [
+    "set_packages"
+  ],
+  "hair_2052_0": [
+    "set_packages"
+  ],
+  "hair_2052_1": [
+    "set_packages"
+  ],
+  "hair_2053_0": [
+    "set_packages"
+  ],
+  "hair_2053_1": [
+    "set_packages"
+  ],
+  "hair_2054_0": [
+    "set_packages"
+  ],
+  "hair_2054_1": [
+    "set_packages"
+  ],
+  "hair_2058_0": [
+    "set_packages"
+  ],
+  "hair_2058_1": [
+    "set_packages"
+  ],
+  "hair_2059_0": [
+    "event_seasonal"
+  ],
+  "hair_2059_1": [
+    "event_seasonal"
+  ],
+  "hair_2062_0": [
+    "set_packages"
+  ],
+  "hair_2062_1": [
+    "set_packages"
+  ],
+  "hair_2069_0": [
+    "event_seasonal"
+  ],
+  "hair_2069_1": [
+    "event_seasonal"
+  ],
+  "hair_2070_0": [
+    "set_packages"
+  ],
+  "hair_2070_1": [
+    "set_packages"
+  ],
+  "hair_2083_0": [
+    "set_packages"
+  ],
+  "hair_2083_1": [
+    "set_packages"
+  ],
+  "hair_2093_0": [
+    "set_packages"
+  ],
+  "hair_2093_1": [
+    "set_packages"
+  ],
+  "hair_2096_0": [
+    "event_seasonal"
+  ],
+  "hair_2096_1": [
+    "event_seasonal"
+  ],
+  "hair_2101_0": [
+    "event_seasonal"
+  ],
+  "hair_2101_1": [
+    "event_seasonal"
+  ],
+  "hair_2110_0": [
+    "set_packages"
+  ],
+  "hair_2110_1": [
+    "set_packages"
+  ],
+  "hair_2111_0": [
+    "set_packages"
+  ],
+  "hair_2111_1": [
+    "set_packages"
+  ],
+  "hair_2112_0": [
+    "set_packages"
+  ],
+  "hair_2112_1": [
+    "set_packages"
+  ],
+  "hair_2113_0": [
+    "set_packages"
+  ],
+  "hair_2113_1": [
+    "set_packages"
+  ],
+  "hair_2134_0": [
+    "special_deals"
+  ],
+  "hair_2134_1": [
+    "special_deals"
+  ],
+  "hair_2145_0": [
+    "set_packages"
+  ],
+  "hair_2145_1": [
+    "set_packages"
+  ],
+  "hair_2146_0": [
+    "set_packages"
+  ],
+  "hair_2146_1": [
+    "set_packages"
+  ],
+  "hair_2149_0": [
+    "event_seasonal"
+  ],
+  "hair_2149_1": [
+    "event_seasonal"
+  ],
+  "hair_2150_0": [
+    "friendship_shop"
+  ],
+  "hair_2179_0": [
+    "set_packages"
+  ],
+  "hair_2179_1": [
+    "set_packages"
+  ],
+  "hair_2196_0": [
+    "set_packages"
+  ],
+  "hair_2196_1": [
+    "set_packages"
+  ],
+  "hair_2199_0": [
+    "event_seasonal"
+  ],
+  "hair_2199_1": [
+    "event_seasonal"
+  ],
+  "hair_2211_0": [
+    "special_deals"
+  ],
+  "hair_2211_1": [
+    "special_deals"
+  ],
+  "hair_2228_0": [
+    "special_deals"
+  ],
+  "hair_2228_1": [
+    "special_deals"
+  ],
+  "hair_2229_0": [
+    "special_deals"
+  ],
+  "hair_2229_1": [
+    "special_deals"
+  ],
+  "hair_2230_0": [
+    "event_seasonal"
+  ],
+  "hair_2230_1": [
+    "event_seasonal"
+  ],
+  "hair_2231_0": [
+    "event_seasonal"
+  ],
+  "hair_2231_1": [
+    "event_seasonal"
+  ],
+  "hair_2232_0": [
+    "event_seasonal"
+  ],
+  "hair_2232_1": [
+    "event_seasonal"
+  ],
+  "hair_2233_0": [
+    "set_packages"
+  ],
+  "hair_2233_1": [
+    "set_packages"
+  ],
+  "hair_2234_0": [
+    "set_packages"
+  ],
+  "hair_2234_1": [
+    "set_packages"
+  ],
+  "hair_2235_0": [
+    "special_deals"
+  ],
+  "hair_2235_1": [
+    "special_deals"
+  ],
+  "hair_2236_0": [
+    "event_seasonal"
+  ],
+  "hair_2236_1": [
+    "event_seasonal"
+  ],
+  "hair_2237_0": [
+    "event_seasonal"
+  ],
+  "hair_2237_1": [
+    "event_seasonal"
+  ],
+  "hair_2238_0": [
+    "event_seasonal"
+  ],
+  "hair_2238_1": [
+    "event_seasonal"
+  ],
+  "hair_2239_0": [
+    "arena_rewards"
+  ],
+  "hair_2239_1": [
+    "arena_rewards"
+  ],
+  "hair_2253_0": [
+    "event_seasonal"
+  ],
+  "hair_2253_1": [
+    "event_seasonal"
+  ],
+  "hair_2254_0": [
+    "event_seasonal"
+  ],
+  "hair_2254_1": [
+    "event_seasonal"
+  ],
+  "hair_2255_0": [
+    "event_seasonal"
+  ],
+  "hair_2255_1": [
+    "event_seasonal"
+  ],
+  "hair_2256_0": [
+    "event_seasonal"
+  ],
+  "hair_2256_1": [
+    "event_seasonal"
+  ],
+  "hair_2257_0": [
+    "event_seasonal"
+  ],
+  "hair_2257_1": [
+    "event_seasonal"
+  ],
+  "hair_2258_0": [
+    "event_seasonal"
+  ],
+  "hair_2258_1": [
+    "event_seasonal"
+  ],
+  "hair_2259_0": [
+    "event_seasonal"
+  ],
+  "hair_2259_1": [
+    "event_seasonal"
+  ],
+  "hair_2260_0": [
+    "event_seasonal"
+  ],
+  "hair_2260_1": [
+    "event_seasonal"
+  ],
+  "hair_2261_0": [
+    "event_seasonal"
+  ],
+  "hair_2261_1": [
+    "event_seasonal"
+  ],
+  "hair_2262_0": [
+    "event_seasonal"
+  ],
+  "hair_2262_1": [
+    "event_seasonal"
+  ],
+  "hair_2263_0": [
+    "event_seasonal"
+  ],
+  "hair_2263_1": [
+    "event_seasonal"
+  ],
+  "hair_2264_0": [
+    "event_seasonal"
+  ],
+  "hair_2264_1": [
+    "event_seasonal"
+  ],
+  "hair_2265_0": [
+    "event_seasonal"
+  ],
+  "hair_2265_1": [
+    "event_seasonal"
+  ],
+  "hair_2266_0": [
+    "event_seasonal"
+  ],
+  "hair_2266_1": [
+    "event_seasonal"
+  ],
+  "hair_2267_0": [
+    "event_seasonal"
+  ],
+  "hair_2267_1": [
+    "event_seasonal"
+  ],
+  "hair_2268_0": [
+    "event_seasonal"
+  ],
+  "hair_2268_1": [
+    "event_seasonal"
+  ],
+  "hair_2269_0": [
+    "event_seasonal"
+  ],
+  "hair_2269_1": [
+    "event_seasonal"
+  ],
+  "hair_2270_0": [
+    "event_seasonal"
+  ],
+  "hair_2270_1": [
+    "event_seasonal"
+  ],
+  "hair_2271_0": [
+    "event_seasonal"
+  ],
+  "hair_2271_1": [
+    "event_seasonal"
+  ],
+  "hair_2272_0": [
+    "event_seasonal"
+  ],
+  "hair_2272_1": [
+    "event_seasonal"
+  ],
+  "hair_2273_0": [
+    "event_seasonal"
+  ],
+  "hair_2273_1": [
+    "event_seasonal"
+  ],
+  "hair_2274_0": [
+    "event_seasonal"
+  ],
+  "hair_2274_1": [
+    "event_seasonal"
+  ],
+  "hair_2275_0": [
+    "event_seasonal"
+  ],
+  "hair_2275_1": [
+    "event_seasonal"
+  ],
+  "hair_2276_0": [
+    "event_seasonal"
+  ],
+  "hair_2276_1": [
+    "event_seasonal"
+  ],
+  "hair_2277_0": [
+    "event_seasonal"
+  ],
+  "hair_2277_1": [
+    "event_seasonal"
+  ],
+  "hair_2280_0": [
+    "event_seasonal"
+  ],
+  "hair_2280_1": [
+    "event_seasonal"
+  ],
+  "hair_2298_0": [
+    "set_packages"
+  ],
+  "hair_2298_1": [
+    "set_packages"
+  ],
+  "hair_2299_0": [
+    "event_seasonal"
+  ],
+  "hair_2299_1": [
+    "event_seasonal"
+  ],
+  "hair_2300_0": [
+    "event_seasonal"
+  ],
+  "hair_2300_1": [
+    "event_seasonal"
+  ],
+  "hair_2301_0": [
+    "event_seasonal"
+  ],
+  "hair_2301_1": [
+    "event_seasonal"
+  ],
+  "hair_2302_0": [
+    "special_deals"
+  ],
+  "hair_2302_1": [
+    "special_deals"
+  ],
+  "hair_2303_0": [
+    "special_deals"
+  ],
+  "hair_2303_1": [
+    "special_deals"
+  ],
+  "hair_2304_0": [
+    "special_deals"
+  ],
+  "hair_2304_1": [
+    "special_deals"
+  ],
+  "hair_2305_0": [
+    "event_seasonal"
+  ],
+  "hair_2305_1": [
+    "event_seasonal"
+  ],
+  "hair_2306_0": [
+    "event_seasonal"
+  ],
+  "hair_2306_1": [
+    "event_seasonal"
+  ],
+  "hair_2307_0": [
+    "event_seasonal"
+  ],
+  "hair_2307_1": [
+    "event_seasonal"
+  ],
+  "hair_2308_0": [
+    "event_seasonal"
+  ],
+  "hair_2308_1": [
+    "event_seasonal"
+  ],
+  "hair_2309_0": [
+    "event_seasonal"
+  ],
+  "hair_2309_1": [
+    "event_seasonal"
+  ],
+  "hair_2310_0": [
+    "event_seasonal"
+  ],
+  "hair_2310_1": [
+    "event_seasonal"
+  ],
+  "hair_2311_0": [
+    "event_seasonal"
+  ],
+  "hair_2311_1": [
+    "event_seasonal"
+  ],
+  "hair_2312_0": [
+    "event_seasonal"
+  ],
+  "hair_2312_1": [
+    "event_seasonal"
+  ],
+  "hair_2313_0": [
+    "event_seasonal"
+  ],
+  "hair_2313_1": [
+    "event_seasonal"
+  ],
+  "hair_2314_0": [
+    "event_seasonal"
+  ],
+  "hair_2314_1": [
+    "event_seasonal"
+  ],
+  "hair_2315_0": [
+    "event_seasonal"
+  ],
+  "hair_2315_1": [
+    "event_seasonal"
+  ],
+  "hair_2316_0": [
+    "event_seasonal"
+  ],
+  "hair_2316_1": [
+    "event_seasonal"
+  ],
+  "hair_2317_0": [
+    "event_seasonal"
+  ],
+  "hair_2317_1": [
+    "event_seasonal"
+  ],
+  "hair_2318_0": [
+    "event_seasonal"
+  ],
+  "hair_2318_1": [
+    "event_seasonal"
+  ],
+  "hair_2319_0": [
+    "event_seasonal"
+  ],
+  "hair_2319_1": [
+    "event_seasonal"
+  ],
+  "hair_2320_0": [
+    "event_seasonal"
+  ],
+  "hair_2320_1": [
+    "event_seasonal"
+  ],
+  "hair_2321_0": [
+    "event_seasonal"
+  ],
+  "hair_2321_1": [
+    "event_seasonal"
+  ],
+  "hair_2322_0": [
+    "event_seasonal"
+  ],
+  "hair_2322_1": [
+    "event_seasonal"
+  ],
+  "hair_2323_0": [
+    "event_seasonal"
+  ],
+  "hair_2323_1": [
+    "event_seasonal"
+  ],
+  "hair_2324_0": [
+    "event_seasonal"
+  ],
+  "hair_2324_1": [
+    "event_seasonal"
+  ],
+  "hair_2325_0": [
+    "event_seasonal"
+  ],
+  "hair_2325_1": [
+    "event_seasonal"
+  ],
+  "hair_2326_0": [
+    "event_seasonal"
+  ],
+  "hair_2326_1": [
+    "event_seasonal"
+  ],
+  "hair_2327_0": [
+    "event_seasonal"
+  ],
+  "hair_2327_1": [
+    "event_seasonal"
+  ],
+  "hair_2328_0": [
+    "event_seasonal"
+  ],
+  "hair_2328_1": [
+    "event_seasonal"
+  ],
+  "hair_2329_0": [
+    "set_packages"
+  ],
+  "hair_2329_1": [
+    "set_packages"
+  ],
+  "hair_2330_0": [
+    "special_deals"
+  ],
+  "hair_2330_1": [
+    "special_deals"
+  ],
+  "hair_2331_0": [
+    "special_deals"
+  ],
+  "hair_2331_1": [
+    "special_deals"
+  ],
+  "hair_2332_0": [
+    "event_seasonal"
+  ],
+  "hair_2332_1": [
+    "event_seasonal"
+  ],
+  "hair_2333_0": [
+    "event_seasonal"
+  ],
+  "hair_2333_1": [
+    "event_seasonal"
+  ],
+  "hair_2334_0": [
+    "event_seasonal"
+  ],
+  "hair_2334_1": [
+    "event_seasonal"
+  ],
+  "hair_2335_0": [
+    "event_seasonal"
+  ],
+  "hair_2335_1": [
+    "event_seasonal"
+  ],
+  "hair_2339_0": [
+    "event_seasonal"
+  ],
+  "hair_2339_1": [
+    "event_seasonal"
+  ],
+  "hair_2340_0": [
+    "event_seasonal"
+  ],
+  "hair_2340_1": [
+    "event_seasonal"
+  ],
+  "hair_2341_0": [
+    "event_seasonal"
+  ],
+  "hair_2341_1": [
+    "event_seasonal"
+  ],
+  "hair_2342_0": [
+    "event_seasonal"
+  ],
+  "hair_2342_1": [
+    "event_seasonal"
+  ],
+  "hair_2343_0": [
+    "event_seasonal"
+  ],
+  "hair_2343_1": [
+    "event_seasonal"
+  ],
+  "hair_2344_0": [
+    "event_seasonal"
+  ],
+  "hair_2344_1": [
+    "event_seasonal"
+  ],
+  "hair_2345_0": [
+    "event_seasonal"
+  ],
+  "hair_2345_1": [
+    "event_seasonal"
+  ],
+  "hair_2346_0": [
+    "event_seasonal"
+  ],
+  "hair_2346_1": [
+    "event_seasonal"
+  ],
+  "hair_2347_0": [
+    "event_seasonal"
+  ],
+  "hair_2347_1": [
+    "event_seasonal"
+  ],
+  "hair_2350_0": [
+    "event_seasonal"
+  ],
+  "hair_2350_1": [
+    "event_seasonal"
+  ],
+  "hair_2351_0": [
+    "event_seasonal"
+  ],
+  "hair_2351_1": [
+    "event_seasonal"
+  ],
+  "hair_2352_0": [
+    "event_seasonal"
+  ],
+  "hair_2352_1": [
+    "event_seasonal"
+  ],
+  "hair_2355_0": [
+    "event_seasonal"
+  ],
+  "hair_2355_1": [
+    "event_seasonal"
+  ],
+  "hair_2356_0": [
+    "event_seasonal"
+  ],
+  "hair_2356_1": [
+    "event_seasonal"
+  ],
+  "hair_2357_0": [
+    "event_seasonal"
+  ],
+  "hair_2357_1": [
+    "event_seasonal"
+  ],
+  "hair_2358_0": [
+    "event_seasonal"
+  ],
+  "hair_2358_1": [
+    "event_seasonal"
+  ],
+  "hair_2359_0": [
+    "event_seasonal"
+  ],
+  "hair_2359_1": [
+    "event_seasonal"
+  ],
+  "hair_2360_0": [
+    "event_seasonal"
+  ],
+  "hair_2360_1": [
+    "event_seasonal"
+  ],
+  "hair_2361_0": [
+    "set_packages"
+  ],
+  "hair_2361_1": [
+    "set_packages"
+  ],
+  "hair_2362_0": [
+    "event_seasonal"
+  ],
+  "hair_2362_1": [
+    "event_seasonal"
+  ],
+  "hair_2363_0": [
+    "event_seasonal"
+  ],
+  "hair_2363_1": [
+    "event_seasonal"
+  ],
+  "hair_2364_0": [
+    "event_seasonal"
+  ],
+  "hair_2364_1": [
+    "event_seasonal"
+  ],
+  "hair_2365_0": [
+    "event_seasonal"
+  ],
+  "hair_2365_1": [
+    "event_seasonal"
+  ],
+  "hair_2366_0": [
+    "event_seasonal"
+  ],
+  "hair_2366_1": [
+    "event_seasonal"
+  ],
+  "hair_2367_0": [
+    "event_seasonal"
+  ],
+  "hair_2367_1": [
+    "event_seasonal"
+  ],
+  "hair_2368_0": [
+    "event_seasonal"
+  ],
+  "hair_2368_1": [
+    "event_seasonal"
+  ],
+  "hair_2369_0": [
+    "event_seasonal"
+  ],
+  "hair_2369_1": [
+    "event_seasonal"
+  ],
+  "hair_2370_0": [
+    "event_seasonal"
+  ],
+  "hair_2370_1": [
+    "event_seasonal"
+  ],
+  "hair_2371_0": [
+    "event_seasonal"
+  ],
+  "hair_2371_1": [
+    "event_seasonal"
+  ],
+  "hair_2372_0": [
+    "event_seasonal"
+  ],
+  "hair_2372_1": [
+    "event_seasonal"
+  ],
+  "hair_2373_0": [
+    "event_seasonal"
+  ],
+  "hair_2373_1": [
+    "event_seasonal"
+  ],
+  "hair_2374_0": [
+    "event_seasonal"
+  ],
+  "hair_2374_1": [
+    "event_seasonal"
+  ],
+  "hair_2375_0": [
+    "event_seasonal"
+  ],
+  "hair_2375_1": [
+    "event_seasonal"
+  ],
+  "hair_2376_0": [
+    "event_seasonal"
+  ],
+  "hair_2376_1": [
+    "event_seasonal"
+  ],
+  "hair_2377_0": [
+    "event_seasonal"
+  ],
+  "hair_2377_1": [
+    "event_seasonal"
+  ],
+  "hair_2378_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "hair_2378_1": [
+    "event_seasonal"
+  ],
+  "hair_2379_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "hair_2379_1": [
+    "event_seasonal"
+  ],
+  "hair_2380_0": [
+    "event_seasonal"
+  ],
+  "hair_2380_1": [
+    "event_seasonal"
+  ],
+  "hair_2381_0": [
+    "event_seasonal"
+  ],
+  "hair_2381_1": [
+    "event_seasonal"
+  ],
+  "hair_2382_0": [
+    "event_seasonal"
+  ],
+  "hair_2382_1": [
+    "event_seasonal"
+  ],
+  "hair_2383_0": [
+    "event_seasonal"
+  ],
+  "hair_2383_1": [
+    "event_seasonal"
+  ],
+  "hair_2384_0": [
+    "event_seasonal"
+  ],
+  "hair_2384_1": [
+    "event_seasonal"
+  ],
+  "hair_2385_0": [
+    "event_seasonal"
+  ],
+  "hair_2385_1": [
+    "event_seasonal"
+  ],
+  "hair_2386_0": [
+    "event_seasonal"
+  ],
+  "hair_2386_1": [
+    "event_seasonal"
+  ],
+  "hair_2387_0": [
+    "event_seasonal"
+  ],
+  "hair_2387_1": [
+    "event_seasonal"
+  ],
+  "hair_2388_0": [
+    "event_seasonal"
+  ],
+  "hair_2388_1": [
+    "event_seasonal"
+  ],
+  "hair_2389_0": [
+    "event_seasonal"
+  ],
+  "hair_2389_1": [
+    "event_seasonal"
+  ],
+  "hair_2390_0": [
+    "event_seasonal"
+  ],
+  "hair_2390_1": [
+    "event_seasonal"
+  ],
+  "hair_2391_0": [
+    "set_packages"
+  ],
+  "hair_2391_1": [
+    "set_packages"
+  ],
+  "hair_2392_0": [
+    "event_seasonal"
+  ],
+  "hair_2392_1": [
+    "event_seasonal"
+  ],
+  "hair_2393_0": [
+    "event_seasonal"
+  ],
+  "hair_2393_1": [
+    "event_seasonal"
+  ],
+  "hair_2394_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "hair_2394_1": [
+    "event_seasonal"
+  ],
+  "hair_2395_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "hair_2395_1": [
+    "event_seasonal"
+  ],
+  "hair_2396_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "hair_2396_1": [
+    "event_seasonal"
+  ],
+  "hair_2397_0": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "hair_2397_1": [
+    "event_seasonal"
+  ],
+  "hair_2398_0": [
+    "event_seasonal"
+  ],
+  "hair_2398_1": [
+    "event_seasonal"
+  ],
+  "hair_2399_0": [
+    "event_seasonal"
+  ],
+  "hair_2399_1": [
+    "event_seasonal"
+  ],
+  "hair_2400_0": [
+    "event_seasonal"
+  ],
+  "hair_2400_1": [
+    "event_seasonal"
+  ],
+  "hair_2401_0": [
+    "event_seasonal"
+  ],
+  "hair_2401_1": [
+    "event_seasonal"
+  ],
+  "hair_2402_0": [
+    "event_seasonal"
+  ],
+  "hair_2402_1": [
+    "event_seasonal"
+  ],
+  "hair_2403_0": [
+    "event_seasonal"
+  ],
+  "hair_2403_1": [
+    "event_seasonal"
+  ],
+  "hair_2404_0": [
+    "event_seasonal"
+  ],
+  "hair_2404_1": [
+    "event_seasonal"
+  ],
+  "hair_2405_0": [
+    "event_seasonal"
+  ],
+  "hair_2405_1": [
+    "event_seasonal"
+  ],
+  "hair_2406_0": [
+    "event_seasonal"
+  ],
+  "hair_2406_1": [
+    "event_seasonal"
+  ],
+  "hair_2407_0": [
+    "event_seasonal"
+  ],
+  "hair_2407_1": [
+    "event_seasonal"
+  ],
+  "hair_2408_0": [
+    "event_seasonal"
+  ],
+  "hair_2408_1": [
+    "event_seasonal"
+  ],
+  "hair_2409_0": [
+    "event_seasonal"
+  ],
+  "hair_2409_1": [
+    "event_seasonal"
+  ],
+  "hair_2410_0": [
+    "event_seasonal"
+  ],
+  "hair_2410_1": [
+    "event_seasonal"
+  ],
+  "hair_2411_0": [
+    "event_seasonal"
+  ],
+  "hair_2411_1": [
+    "event_seasonal"
+  ],
+  "hair_7000_0": [
+    "shadow_war"
+  ],
+  "hair_7000_1": [
+    "shadow_war"
+  ],
+  "hair_7001_0": [
+    "shadow_war"
+  ],
+  "hair_7001_1": [
+    "shadow_war"
+  ],
+  "hair_7002_0": [
+    "shadow_war"
+  ],
+  "hair_7002_1": [
+    "shadow_war"
+  ],
+  "hair_7003_0": [
+    "shadow_war"
+  ],
+  "hair_7003_1": [
+    "shadow_war"
+  ],
+  "hair_7004_0": [
+    "shadow_war"
+  ],
+  "hair_7004_1": [
+    "shadow_war"
+  ],
+  "hair_7005_0": [
+    "shadow_war"
+  ],
+  "hair_7005_1": [
+    "shadow_war"
+  ],
+  "hair_7006_0": [
+    "shadow_war"
+  ],
+  "hair_7006_1": [
+    "shadow_war"
+  ],
+  "hair_7007_0": [
+    "shadow_war"
+  ],
+  "hair_7007_1": [
+    "shadow_war"
+  ],
+  "hair_7008_0": [
+    "shadow_war"
+  ],
+  "hair_7008_1": [
+    "shadow_war"
+  ],
+  "hair_7009_0": [
+    "shadow_war"
+  ],
+  "hair_7009_1": [
+    "shadow_war"
+  ],
+  "hair_7010_0": [
+    "shadow_war"
+  ],
+  "hair_7010_1": [
+    "shadow_war"
+  ],
+  "hair_8001_0": [
+    "shop_crew"
+  ],
+  "hair_8001_1": [
+    "shop_crew"
+  ],
+  "hair_8002_0": [
+    "shop_crew"
+  ],
+  "hair_8002_1": [
+    "shop_crew"
+  ],
+  "hair_8003_0": [
+    "shop_crew"
+  ],
+  "hair_8003_1": [
+    "shop_crew"
+  ],
+  "hair_8004_0": [
+    "shop_crew"
+  ],
+  "hair_8004_1": [
+    "shop_crew"
+  ],
+  "skill_01": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_02": [
+    "shop_pvp"
+  ],
+  "skill_03": [
+    "academy"
+  ],
+  "skill_04": [
+    "academy"
+  ],
+  "skill_05": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_06": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_07": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_09": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_10": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_11": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_12": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_13": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_14": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_15": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_16": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_17": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_18": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_19": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_20": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_21": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_22": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_23": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_24": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_25": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_26": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_27": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_28": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_29": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_30": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_31": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_32": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_33": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_34": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_35": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_36": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_38": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_39": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_40": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_41": [
+    "academy"
+  ],
+  "skill_42": [
+    "academy"
+  ],
+  "skill_43": [
+    "academy"
+  ],
+  "skill_44": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_45": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_46": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_47": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_48": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_49": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_50": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_51": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_52": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_53": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_54": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_55": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_56": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_57": [
+    "academy"
+  ],
+  "skill_58": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_59": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_60": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_61": [
+    "academy"
+  ],
+  "skill_62": [
+    "academy"
+  ],
+  "skill_63": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_64": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_65": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_66": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_67": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_68": [
+    "academy"
+  ],
+  "skill_69": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_70": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_71": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_72": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_73": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_74": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_75": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_76": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_77": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_78": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_79": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_80": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_81": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_82": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_83": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_84": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_85": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_86": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_87": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_88": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_89": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_90": [
+    "academy"
+  ],
+  "skill_92": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_93": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_94": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_95": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_96": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_97": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_98": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_99": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_100": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_101": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_102": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_103": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_104": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_105": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_106": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_107": [
+    "academy"
+  ],
+  "skill_108": [
+    "academy"
+  ],
+  "skill_110": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_111": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_112": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_113": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_114": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_115": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_116": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_117": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_118": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_119": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_120": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_121": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_123": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_125": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_126": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_127": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_128": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_129": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_130": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_132": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_133": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_135": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_137": [
+    "academy"
+  ],
+  "skill_139": [
+    "academy"
+  ],
+  "skill_140": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_141": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_142": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_143": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_144": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_146": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_147": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_148": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_149": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_150": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_151": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_152": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_153": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_154": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_155": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_161": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_162": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_163": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_164": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_165": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_184": [
+    "academy"
+  ],
+  "skill_186": [
+    "academy"
+  ],
+  "skill_187": [
+    "academy"
+  ],
+  "skill_188": [
+    "academy"
+  ],
+  "skill_189": [
+    "academy"
+  ],
+  "skill_190": [
+    "academy"
+  ],
+  "skill_191": [
+    "academy"
+  ],
+  "skill_192": [
+    "academy"
+  ],
+  "skill_193": [
+    "academy"
+  ],
+  "skill_194": [
+    "academy"
+  ],
+  "skill_195": [
+    "academy"
+  ],
+  "skill_196": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_197": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_158": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_205": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_173": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_302": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_168": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_180": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_304": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_157": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_204": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_172": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_234": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_167": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_179": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_236": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_156": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_203": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_171": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_285": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_166": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_178": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_287": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_159": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_206": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_174": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_251": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_169": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_181": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_253": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_160": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_207": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_175": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_268": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_170": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_182": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_270": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_198": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_199": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_200": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_215": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_319": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_314": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_216": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_320": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_315": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_316": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_217": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_321": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_218": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_322": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_327": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_323": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_318": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_219": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_371": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_372": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_220": [
+    "advanced_academy"
+  ],
+  "skill_221": [
+    "advanced_academy"
+  ],
+  "skill_222": [
+    "advanced_academy"
+  ],
+  "skill_223": [
+    "advanced_academy"
+  ],
+  "skill_224": [
+    "advanced_academy"
+  ],
+  "skill_225": [
+    "advanced_academy"
+  ],
+  "skill_226": [
+    "advanced_academy"
+  ],
+  "skill_227": [
+    "advanced_academy"
+  ],
+  "skill_228": [
+    "advanced_academy"
+  ],
+  "skill_229": [
+    "advanced_academy"
+  ],
+  "skill_230": [
+    "advanced_academy"
+  ],
+  "skill_231": [
+    "advanced_academy"
+  ],
+  "skill_232": [
+    "advanced_academy"
+  ],
+  "skill_233": [
+    "advanced_academy"
+  ],
+  "skill_235": [
+    "advanced_academy"
+  ],
+  "skill_237": [
+    "advanced_academy"
+  ],
+  "skill_238": [
+    "advanced_academy"
+  ],
+  "skill_239": [
+    "advanced_academy"
+  ],
+  "skill_240": [
+    "advanced_academy"
+  ],
+  "skill_241": [
+    "advanced_academy"
+  ],
+  "skill_242": [
+    "advanced_academy"
+  ],
+  "skill_243": [
+    "advanced_academy"
+  ],
+  "skill_244": [
+    "advanced_academy"
+  ],
+  "skill_245": [
+    "advanced_academy"
+  ],
+  "skill_246": [
+    "advanced_academy"
+  ],
+  "skill_247": [
+    "advanced_academy"
+  ],
+  "skill_248": [
+    "advanced_academy"
+  ],
+  "skill_249": [
+    "advanced_academy"
+  ],
+  "skill_250": [
+    "advanced_academy"
+  ],
+  "skill_252": [
+    "advanced_academy"
+  ],
+  "skill_254": [
+    "advanced_academy"
+  ],
+  "skill_255": [
+    "advanced_academy"
+  ],
+  "skill_256": [
+    "advanced_academy"
+  ],
+  "skill_257": [
+    "advanced_academy"
+  ],
+  "skill_258": [
+    "advanced_academy"
+  ],
+  "skill_259": [
+    "advanced_academy"
+  ],
+  "skill_260": [
+    "advanced_academy"
+  ],
+  "skill_261": [
+    "advanced_academy"
+  ],
+  "skill_262": [
+    "advanced_academy"
+  ],
+  "skill_264": [
+    "advanced_academy"
+  ],
+  "skill_263": [
+    "advanced_academy"
+  ],
+  "skill_265": [
+    "advanced_academy"
+  ],
+  "skill_266": [
+    "advanced_academy"
+  ],
+  "skill_267": [
+    "advanced_academy"
+  ],
+  "skill_269": [
+    "advanced_academy"
+  ],
+  "skill_271": [
+    "advanced_academy"
+  ],
+  "skill_272": [
+    "advanced_academy"
+  ],
+  "skill_273": [
+    "advanced_academy"
+  ],
+  "skill_274": [
+    "advanced_academy"
+  ],
+  "skill_275": [
+    "advanced_academy"
+  ],
+  "skill_276": [
+    "advanced_academy"
+  ],
+  "skill_277": [
+    "advanced_academy"
+  ],
+  "skill_278": [
+    "advanced_academy"
+  ],
+  "skill_279": [
+    "advanced_academy"
+  ],
+  "skill_280": [
+    "advanced_academy"
+  ],
+  "skill_281": [
+    "advanced_academy"
+  ],
+  "skill_282": [
+    "advanced_academy"
+  ],
+  "skill_283": [
+    "advanced_academy"
+  ],
+  "skill_284": [
+    "advanced_academy"
+  ],
+  "skill_286": [
+    "advanced_academy"
+  ],
+  "skill_288": [
+    "advanced_academy"
+  ],
+  "skill_289": [
+    "advanced_academy"
+  ],
+  "skill_290": [
+    "advanced_academy"
+  ],
+  "skill_291": [
+    "advanced_academy"
+  ],
+  "skill_292": [
+    "advanced_academy"
+  ],
+  "skill_293": [
+    "advanced_academy"
+  ],
+  "skill_294": [
+    "advanced_academy"
+  ],
+  "skill_295": [
+    "advanced_academy"
+  ],
+  "skill_296": [
+    "advanced_academy"
+  ],
+  "skill_297": [
+    "advanced_academy"
+  ],
+  "skill_298": [
+    "advanced_academy"
+  ],
+  "skill_299": [
+    "advanced_academy"
+  ],
+  "skill_300": [
+    "advanced_academy"
+  ],
+  "skill_301": [
+    "advanced_academy"
+  ],
+  "skill_303": [
+    "advanced_academy"
+  ],
+  "skill_324": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_325": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_326": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_317": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_328": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_329": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_330": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_331": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_332": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_333": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_625": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_626": [
+    "limited_store"
+  ],
+  "skill_624": [
+    "academy"
+  ],
+  "skill_623": [
+    "academy"
+  ],
+  "skill_629": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_628": [
+    "limited_store"
+  ],
+  "skill_630": [
+    "academy"
+  ],
+  "skill_627": [
+    "academy"
+  ],
+  "skill_633": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_634": [
+    "limited_store"
+  ],
+  "skill_632": [
+    "academy"
+  ],
+  "skill_631": [
+    "academy"
+  ],
+  "skill_637": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_636": [
+    "limited_store"
+  ],
+  "skill_638": [
+    "academy"
+  ],
+  "skill_635": [
+    "academy"
+  ],
+  "skill_641": [
+    "academy",
+    "scroll_of_wisdom"
+  ],
+  "skill_640": [
+    "limited_store"
+  ],
+  "skill_642": [
+    "academy"
+  ],
+  "skill_639": [
+    "academy"
+  ],
+  "skill_524": [
+    "set_packages"
+  ],
+  "skill_525": [
+    "set_packages"
+  ],
+  "skill_377": [
+    "material_market"
+  ],
+  "skill_521": [
+    "event:christmas2025"
+  ],
+  "skill_552": [
+    "event:christmas2025"
+  ],
+  "skill_369": [
+    "limited_store"
+  ],
+  "skill_9007": [
+    "limited_store"
+  ],
+  "skill_492": [
+    "event:valentine2025"
+  ],
+  "skill_721": [
+    "limited_store"
+  ],
+  "skill_723": [
+    "limited_store"
+  ],
+  "skill_344": [
+    "set_packages"
+  ],
+  "skill_845": [
+    "material_market"
+  ],
+  "skill_654": [
+    "friendship_shop"
+  ],
+  "skill_392": [
+    "limited_store"
+  ],
+  "skill_393": [
+    "limited_store",
+    "limited_store"
+  ],
+  "skill_854": [
+    "limited_store"
+  ],
+  "skill_860": [
+    "limited_store"
+  ],
+  "skill_401": [
+    "event:hanami2026"
+  ],
+  "skill_402": [
+    "event:hanami2026"
+  ],
+  "skill_498": [
+    "event:hanami2026"
+  ],
+  "skill_703": [
+    "limited_store"
+  ],
+  "skill_435": [
+    "event_seasonal"
+  ],
+  "skill_756": [
+    "event:christmas2025"
+  ],
+  "skill_767": [
+    "event:valentine2025"
+  ],
+  "skill_862": [
+    "limited_store"
+  ],
+  "skill_594": [
+    "shop_pvp"
+  ],
+  "skill_385": [
+    "event:easter2025"
+  ],
+  "skill_386": [
+    "limited_store",
+    "event:easter2025"
+  ],
+  "skill_508": [
+    "limited_store"
+  ],
+  "skill_803": [
+    "limited_store"
+  ],
+  "skill_806": [
+    "material_market"
+  ],
+  "skill_807": [
+    "material_market"
+  ],
+  "skill_808": [
+    "material_market"
+  ],
+  "skill_809": [
+    "material_market"
+  ],
+  "skill_810": [
+    "material_market"
+  ],
+  "skill_566": [
+    "event:valentine2025"
+  ],
+  "skill_567": [
+    "event:valentine2025"
+  ],
+  "skill_620": [
+    "event_seasonal"
+  ],
+  "skill_621": [
+    "event:valentine2025"
+  ],
+  "skill_690": [
+    "event:anniv2025"
+  ],
+  "skill_691": [
+    "event:anniv2025"
+  ],
+  "skill_484": [
+    "event:phantomkyunoki2026"
+  ],
+  "skill_1018": [
+    "talent_shop"
+  ],
+  "skill_1019": [
+    "talent_shop"
+  ],
+  "skill_1020": [
+    "talent_shop"
+  ],
+  "skill_1021": [
+    "talent_shop"
+  ],
+  "skill_1022": [
+    "talent_shop"
+  ],
+  "skill_1023": [
+    "talent_shop"
+  ],
+  "skill_1000": [
+    "talent_shop"
+  ],
+  "skill_1001": [
+    "talent_shop"
+  ],
+  "skill_1002": [
+    "talent_shop"
+  ],
+  "skill_1003": [
+    "talent_shop"
+  ],
+  "skill_1004": [
+    "talent_shop"
+  ],
+  "skill_1005": [
+    "talent_shop"
+  ],
+  "skill_1012": [
+    "talent_shop"
+  ],
+  "skill_1013": [
+    "talent_shop"
+  ],
+  "skill_1014": [
+    "talent_shop"
+  ],
+  "skill_1015": [
+    "talent_shop"
+  ],
+  "skill_1016": [
+    "talent_shop"
+  ],
+  "skill_1017": [
+    "talent_shop"
+  ],
+  "skill_1006": [
+    "talent_shop"
+  ],
+  "skill_1007": [
+    "talent_shop"
+  ],
+  "skill_1008": [
+    "talent_shop"
+  ],
+  "skill_1009": [
+    "talent_shop"
+  ],
+  "skill_1010": [
+    "talent_shop"
+  ],
+  "skill_1011": [
+    "talent_shop"
+  ],
+  "skill_1024": [
+    "talent_shop"
+  ],
+  "skill_1025": [
+    "talent_shop"
+  ],
+  "skill_1026": [
+    "talent_shop"
+  ],
+  "skill_1027": [
+    "talent_shop"
+  ],
+  "skill_1028": [
+    "talent_shop"
+  ],
+  "skill_1029": [
+    "talent_shop"
+  ],
+  "skill_1101": [
+    "talent_shop"
+  ],
+  "skill_1102": [
+    "talent_shop"
+  ],
+  "skill_1103": [
+    "talent_shop"
+  ],
+  "skill_1104": [
+    "talent_shop"
+  ],
+  "skill_1105": [
+    "talent_shop"
+  ],
+  "skill_1106": [
+    "talent_shop"
+  ],
+  "skill_1030": [
+    "talent_shop"
+  ],
+  "skill_1031": [
+    "talent_shop"
+  ],
+  "skill_1032": [
+    "talent_shop"
+  ],
+  "skill_1033": [
+    "talent_shop"
+  ],
+  "skill_1034": [
+    "talent_shop"
+  ],
+  "skill_1035": [
+    "talent_shop"
+  ],
+  "skill_1036": [
+    "talent_shop"
+  ],
+  "skill_1037": [
+    "talent_shop"
+  ],
+  "skill_1038": [
+    "talent_shop"
+  ],
+  "skill_1039": [
+    "talent_shop"
+  ],
+  "skill_1040": [
+    "talent_shop"
+  ],
+  "skill_1041": [
+    "talent_shop"
+  ],
+  "skill_1042": [
+    "talent_shop"
+  ],
+  "skill_1043": [
+    "talent_shop"
+  ],
+  "skill_1044": [
+    "talent_shop"
+  ],
+  "skill_1045": [
+    "talent_shop"
+  ],
+  "skill_1046": [
+    "talent_shop"
+  ],
+  "skill_1047": [
+    "talent_shop"
+  ],
+  "skill_1048": [
+    "talent_shop"
+  ],
+  "skill_1049": [
+    "talent_shop"
+  ],
+  "skill_1050": [
+    "talent_shop"
+  ],
+  "skill_1051": [
+    "talent_shop"
+  ],
+  "skill_1052": [
+    "talent_shop"
+  ],
+  "skill_1053": [
+    "talent_shop"
+  ],
+  "skill_1054": [
+    "talent_shop"
+  ],
+  "skill_1055": [
+    "talent_shop"
+  ],
+  "skill_1056": [
+    "talent_shop"
+  ],
+  "skill_1057": [
+    "talent_shop"
+  ],
+  "skill_1058": [
+    "talent_shop"
+  ],
+  "skill_1059": [
+    "talent_shop"
+  ],
+  "skill_1060": [
+    "talent_shop"
+  ],
+  "skill_1061": [
+    "talent_shop"
+  ],
+  "skill_1062": [
+    "talent_shop"
+  ],
+  "skill_1107": [
+    "talent_shop"
+  ],
+  "skill_1108": [
+    "talent_shop"
+  ],
+  "skill_1109": [
+    "talent_shop"
+  ],
+  "skill_1110": [
+    "talent_shop"
+  ],
+  "skill_1111": [
+    "talent_shop"
+  ],
+  "skill_1112": [
+    "talent_shop"
+  ],
+  "skill_1113": [
+    "talent_shop"
+  ],
+  "skill_1114": [
+    "talent_shop"
+  ],
+  "skill_1115": [
+    "talent_shop"
+  ],
+  "skill_1116": [
+    "talent_shop"
+  ],
+  "skill_1117": [
+    "talent_shop"
+  ],
+  "skill_1118": [
+    "talent_shop"
+  ],
+  "skill_1119": [
+    "talent_shop"
+  ],
+  "skill_1120": [
+    "talent_shop"
+  ],
+  "skill_1121": [
+    "talent_shop"
+  ],
+  "skill_1122": [
+    "talent_shop"
+  ],
+  "skill_1123": [
+    "talent_shop"
+  ],
+  "skill_1124": [
+    "talent_shop"
+  ],
+  "skill_2011": [
+    "set_packages"
+  ],
+  "skill_2012": [
+    "set_packages"
+  ],
+  "skill_2013": [
+    "set_packages"
+  ],
+  "skill_2021": [
+    "set_packages"
+  ],
+  "skill_2022": [
+    "set_packages"
+  ],
+  "skill_2023": [
+    "set_packages"
+  ],
+  "skill_2028": [
+    "event_seasonal"
+  ],
+  "skill_2044": [
+    "set_packages"
+  ],
+  "skill_2045": [
+    "set_packages"
+  ],
+  "skill_2046": [
+    "set_packages"
+  ],
+  "skill_2049": [
+    "set_packages"
+  ],
+  "skill_2050": [
+    "set_packages"
+  ],
+  "skill_2051": [
+    "set_packages"
+  ],
+  "skill_2058": [
+    "set_packages"
+  ],
+  "skill_2059": [
+    "set_packages"
+  ],
+  "skill_2060": [
+    "set_packages"
+  ],
+  "skill_2068": [
+    "event_seasonal"
+  ],
+  "skill_2071": [
+    "event:valentine2025"
+  ],
+  "skill_2079": [
+    "event_seasonal"
+  ],
+  "skill_2089": [
+    "set_packages"
+  ],
+  "skill_2090": [
+    "set_packages"
+  ],
+  "skill_2091": [
+    "set_packages"
+  ],
+  "skill_2111": [
+    "set_packages"
+  ],
+  "skill_2112": [
+    "set_packages"
+  ],
+  "skill_2113": [
+    "set_packages"
+  ],
+  "skill_2120": [
+    "set_packages"
+  ],
+  "skill_2121": [
+    "set_packages"
+  ],
+  "skill_2122": [
+    "set_packages"
+  ],
+  "skill_2124": [
+    "event_seasonal"
+  ],
+  "skill_2138": [
+    "set_packages"
+  ],
+  "skill_2139": [
+    "set_packages"
+  ],
+  "skill_2140": [
+    "set_packages"
+  ],
+  "skill_2146": [
+    "set_packages"
+  ],
+  "skill_2147": [
+    "set_packages"
+  ],
+  "skill_2148": [
+    "set_packages"
+  ],
+  "skill_2159": [
+    "set_packages"
+  ],
+  "skill_2160": [
+    "set_packages"
+  ],
+  "skill_2161": [
+    "set_packages"
+  ],
+  "skill_2165": [
+    "event_seasonal"
+  ],
+  "skill_2166": [
+    "event:anniv2025"
+  ],
+  "skill_2167": [
+    "event:anniv2025"
+  ],
+  "skill_2168": [
+    "event:anniv2025"
+  ],
+  "skill_2179": [
+    "event:easter2025"
+  ],
+  "skill_2180": [
+    "event:easter2025"
+  ],
+  "skill_2181": [
+    "event:easter2025"
+  ],
+  "skill_2182": [
+    "set_packages"
+  ],
+  "skill_2183": [
+    "set_packages"
+  ],
+  "skill_2184": [
+    "set_packages"
+  ],
+  "skill_2196": [
+    "event:summer2025"
+  ],
+  "skill_2197": [
+    "event:summer2025"
+  ],
+  "skill_2198": [
+    "event:summer2025"
+  ],
+  "skill_2200": [
+    "set_packages"
+  ],
+  "skill_2201": [
+    "set_packages"
+  ],
+  "skill_2202": [
+    "set_packages"
+  ],
+  "skill_2203": [
+    "event_seasonal"
+  ],
+  "skill_2206": [
+    "event:independence2025"
+  ],
+  "skill_2207": [
+    "event:independence2025"
+  ],
+  "skill_2208": [
+    "event:independence2025"
+  ],
+  "skill_2214": [
+    "event:halloween2025"
+  ],
+  "skill_2215": [
+    "event:halloween2025"
+  ],
+  "skill_2216": [
+    "event:halloween2025"
+  ],
+  "skill_2220": [
+    "event_seasonal"
+  ],
+  "skill_2221": [
+    "event_seasonal"
+  ],
+  "skill_2222": [
+    "event_seasonal"
+  ],
+  "skill_2223": [
+    "set_packages"
+  ],
+  "skill_2224": [
+    "set_packages"
+  ],
+  "skill_2225": [
+    "set_packages"
+  ],
+  "skill_2226": [
+    "event_seasonal"
+  ],
+  "skill_2227": [
+    "event_seasonal"
+  ],
+  "skill_2228": [
+    "event_seasonal"
+  ],
+  "skill_2229": [
+    "event_seasonal"
+  ],
+  "skill_2230": [
+    "event_seasonal"
+  ],
+  "skill_2231": [
+    "event_seasonal"
+  ],
+  "skill_2232": [
+    "event_seasonal"
+  ],
+  "skill_2233": [
+    "special_deals"
+  ],
+  "skill_2234": [
+    "event_seasonal"
+  ],
+  "skill_2235": [
+    "event_seasonal"
+  ],
+  "skill_2237": [
+    "event:valentine2025"
+  ],
+  "skill_2238": [
+    "event:valentine2025"
+  ],
+  "skill_2239": [
+    "event:valentine2025"
+  ],
+  "skill_2240": [
+    "event:valentine2025"
+  ],
+  "skill_2241": [
+    "event:valentine2025"
+  ],
+  "skill_2242": [
+    "event:anniv2025"
+  ],
+  "skill_2243": [
+    "event_seasonal"
+  ],
+  "skill_2245": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "skill_2246": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "skill_2247": [
+    "event:anniv2025",
+    "event:anniv2026"
+  ],
+  "skill_2248": [
+    "event:anniv2025"
+  ],
+  "skill_2249": [
+    "event:anniv2025"
+  ],
+  "skill_2250": [
+    "event:ramadhan2025"
+  ],
+  "skill_2251": [
+    "event:ramadhan2025"
+  ],
+  "skill_2252": [
+    "event:ramadhan2025"
+  ],
+  "skill_2253": [
+    "event:ramadhan2025"
+  ],
+  "skill_2254": [
+    "event_seasonal"
+  ],
+  "skill_2255": [
+    "event:easter2025"
+  ],
+  "skill_2256": [
+    "event:easter2025"
+  ],
+  "skill_2257": [
+    "event:easter2025"
+  ],
+  "skill_2258": [
+    "event:easter2025"
+  ],
+  "skill_2259": [
+    "event:easter2025",
+    "special_deals"
+  ],
+  "skill_2260": [
+    "event:easter2025",
+    "special_deals"
+  ],
+  "skill_2261": [
+    "event:easter2025"
+  ],
+  "skill_2262": [
+    "event:easter2025"
+  ],
+  "skill_2263": [
+    "event:easter2025"
+  ],
+  "skill_2264": [
+    "set_packages"
+  ],
+  "skill_2265": [
+    "set_packages"
+  ],
+  "skill_2266": [
+    "set_packages"
+  ],
+  "skill_2267": [
+    "event:wmg2025"
+  ],
+  "skill_2268": [
+    "event:wmg2025"
+  ],
+  "skill_2269": [
+    "event:wmg2025"
+  ],
+  "skill_2270": [
+    "event_seasonal"
+  ],
+  "skill_2271": [
+    "event_seasonal"
+  ],
+  "skill_2272": [
+    "event_seasonal"
+  ],
+  "skill_2274": [
+    "event:wmg2025"
+  ],
+  "skill_2275": [
+    "event:summer2025"
+  ],
+  "skill_2276": [
+    "event:summer2025"
+  ],
+  "skill_2277": [
+    "event:summer2025"
+  ],
+  "skill_2278": [
+    "event:summer2025"
+  ],
+  "skill_2279": [
+    "event:summer2025"
+  ],
+  "skill_2280": [
+    "event:summer2025"
+  ],
+  "skill_2281": [
+    "event:summer2025"
+  ],
+  "skill_2282": [
+    "event:independence2025"
+  ],
+  "skill_2283": [
+    "event:independence2025"
+  ],
+  "skill_2284": [
+    "event:independence2025"
+  ],
+  "skill_2286": [
+    "event:independence2025"
+  ],
+  "skill_2287": [
+    "event:independence2025"
+  ],
+  "skill_2288": [
+    "event:independence2025"
+  ],
+  "skill_2289": [
+    "set_packages"
+  ],
+  "skill_2290": [
+    "set_packages"
+  ],
+  "skill_2291": [
+    "set_packages"
+  ],
+  "skill_2292": [
+    "event:yinyang2025",
+    "special_deals"
+  ],
+  "skill_2293": [
+    "event:yinyang2025",
+    "special_deals"
+  ],
+  "skill_2294": [
+    "special_deals"
+  ],
+  "skill_2295": [
+    "special_deals"
+  ],
+  "skill_2296": [
+    "event:yinyang2025"
+  ],
+  "skill_2297": [
+    "event:yinyang2025"
+  ],
+  "skill_2303": [
+    "event:halloween2025"
+  ],
+  "skill_2304": [
+    "event:halloween2025"
+  ],
+  "skill_2305": [
+    "event:halloween2025"
+  ],
+  "skill_2306": [
+    "event:halloween2025"
+  ],
+  "skill_2307": [
+    "event:halloween2025"
+  ],
+  "skill_2308": [
+    "event:halloween2025"
+  ],
+  "skill_2309": [
+    "event:halloween2025"
+  ],
+  "skill_2310": [
+    "event:halloween2025"
+  ],
+  "skill_2311": [
+    "event:confrontingdeath2025"
+  ],
+  "skill_2312": [
+    "event:confrontingdeath2025"
+  ],
+  "skill_2313": [
+    "event:confrontingdeath2025"
+  ],
+  "skill_2314": [
+    "event:confrontingdeath2025"
+  ],
+  "skill_2318": [
+    "event:thanksgiving2025"
+  ],
+  "skill_2319": [
+    "event:thanksgiving2025"
+  ],
+  "skill_2320": [
+    "event:thanksgiving2025"
+  ],
+  "skill_2321": [
+    "event:thanksgiving2025"
+  ],
+  "skill_2322": [
+    "event:thanksgiving2025"
+  ],
+  "skill_2323": [
+    "set_packages"
+  ],
+  "skill_2324": [
+    "set_packages"
+  ],
+  "skill_2325": [
+    "set_packages"
+  ],
+  "skill_2327": [
+    "event:christmas2025"
+  ],
+  "skill_2328": [
+    "event:christmas2025"
+  ],
+  "skill_2329": [
+    "event:christmas2025"
+  ],
+  "skill_2330": [
+    "event:christmas2025"
+  ],
+  "skill_2331": [
+    "event:christmas2025"
+  ],
+  "skill_2332": [
+    "event:christmas2025"
+  ],
+  "skill_2333": [
+    "event:phantomkyunoki2026"
+  ],
+  "skill_2334": [
+    "event_seasonal"
+  ],
+  "skill_2335": [
+    "event:valentine2026"
+  ],
+  "skill_2336": [
+    "material_market",
+    "event:anniv2026"
+  ],
+  "skill_2337": [
+    "material_market",
+    "event:anniv2026"
+  ],
+  "skill_2338": [
+    "event:anniv2026"
+  ],
+  "skill_2339": [
+    "event:anniv2026"
+  ],
+  "skill_2340": [
+    "event:anniv2026"
+  ],
+  "skill_2341": [
+    "event:anniv2026"
+  ],
+  "skill_2343": [
+    "material_market",
+    "event_seasonal"
+  ],
+  "skill_2344": [
+    "event:ramadhan2026"
+  ],
+  "skill_2345": [
+    "set_packages"
+  ],
+  "skill_2346": [
+    "set_packages"
+  ],
+  "skill_2347": [
+    "set_packages"
+  ],
+  "skill_2348": [
+    "event_seasonal"
+  ],
+  "skill_2349": [
+    "event:hanami2026"
+  ],
+  "skill_2350": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "skill_2351": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "skill_2352": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "skill_2353": [
+    "material_market",
+    "event:hanami2026"
+  ],
+  "skill_2354": [
+    "event_seasonal"
+  ],
+  "skill_2355": [
+    "event_seasonal"
+  ],
+  "skill_2356": [
+    "event_seasonal"
+  ],
+  "skill_2357": [
+    "event_seasonal"
+  ],
+  "skill_2358": [
+    "event_seasonal"
+  ],
+  "skill_2359": [
+    "event_seasonal"
+  ],
+  "skill_2360": [
+    "event_seasonal"
+  ],
+  "skill_3001": [
+    "senjutsu_shop"
+  ],
+  "skill_3002": [
+    "senjutsu_shop"
+  ],
+  "skill_3003": [
+    "senjutsu_shop"
+  ],
+  "skill_3004": [
+    "senjutsu_shop"
+  ],
+  "skill_3005": [
+    "senjutsu_shop"
+  ],
+  "skill_3006": [
+    "senjutsu_shop"
+  ],
+  "skill_3007": [
+    "senjutsu_shop"
+  ],
+  "skill_3008": [
+    "senjutsu_shop"
+  ],
+  "skill_3009": [
+    "senjutsu_shop"
+  ],
+  "skill_3010": [
+    "senjutsu_shop"
+  ],
+  "skill_3101": [
+    "senjutsu_shop"
+  ],
+  "skill_3102": [
+    "senjutsu_shop"
+  ],
+  "skill_3103": [
+    "senjutsu_shop"
+  ],
+  "skill_3104": [
+    "senjutsu_shop"
+  ],
+  "skill_3105": [
+    "senjutsu_shop"
+  ],
+  "skill_3106": [
+    "senjutsu_shop"
+  ],
+  "skill_3107": [
+    "senjutsu_shop"
+  ],
+  "skill_3108": [
+    "senjutsu_shop"
+  ],
+  "skill_3109": [
+    "senjutsu_shop"
+  ],
+  "skill_3110": [
+    "senjutsu_shop"
+  ],
+  "skill_6001": [
+    "clan_war"
+  ],
+  "skill_6002": [
+    "clan_war"
+  ],
+  "skill_6003": [
+    "clan_war"
+  ],
+  "skill_6004": [
+    "clan_war"
+  ],
+  "skill_6005": [
+    "clan_war"
+  ],
+  "skill_6006": [
+    "clan_war"
+  ],
+  "skill_6007": [
+    "clan_war"
+  ],
+  "skill_6008": [
+    "clan_war"
+  ],
+  "skill_6009": [
+    "clan_war"
+  ],
+  "skill_6010": [
+    "clan_war"
+  ],
+  "skill_6011": [
+    "clan_war"
+  ],
+  "skill_6012": [
+    "clan_war"
+  ],
+  "skill_6013": [
+    "clan_war"
+  ],
+  "skill_6014": [
+    "clan_war"
+  ],
+  "skill_6015": [
+    "clan_war"
+  ],
+  "skill_6016": [
+    "clan_war"
+  ],
+  "skill_6017": [
+    "clan_war"
+  ],
+  "skill_6018": [
+    "clan_war"
+  ],
+  "skill_6019": [
+    "clan_war"
+  ],
+  "skill_6020": [
+    "clan_war"
+  ],
+  "skill_6021": [
+    "clan_war"
+  ],
+  "skill_6022": [
+    "clan_war"
+  ],
+  "skill_6023": [
+    "clan_war"
+  ],
+  "skill_6024": [
+    "clan_war"
+  ],
+  "skill_6025": [
+    "clan_war"
+  ],
+  "skill_6026": [
+    "clan_war"
+  ],
+  "skill_6027": [
+    "clan_war"
+  ],
+  "skill_6028": [
+    "clan_war"
+  ],
+  "skill_6029": [
+    "clan_war"
+  ],
+  "skill_6030": [
+    "clan_war"
+  ],
+  "skill_6031": [
+    "clan_war"
+  ],
+  "skill_6032": [
+    "clan_war"
+  ],
+  "skill_6033": [
+    "clan_war"
+  ],
+  "skill_6034": [
+    "clan_war"
+  ],
+  "skill_6035": [
+    "clan_war"
+  ],
+  "skill_6036": [
+    "clan_war"
+  ],
+  "skill_6037": [
+    "clan_war"
+  ],
+  "skill_6038": [
+    "clan_war"
+  ],
+  "skill_6039": [
+    "clan_war"
+  ],
+  "skill_6040": [
+    "clan_war"
+  ],
+  "skill_6041": [
+    "clan_war"
+  ],
+  "skill_6042": [
+    "clan_war"
+  ],
+  "skill_6043": [
+    "clan_war"
+  ],
+  "skill_6044": [
+    "clan_war"
+  ],
+  "skill_6045": [
+    "clan_war"
+  ],
+  "skill_6046": [
+    "clan_war"
+  ],
+  "skill_6047": [
+    "clan_war"
+  ],
+  "skill_6048": [
+    "clan_war"
+  ],
+  "skill_6049": [
+    "clan_war"
+  ],
+  "skill_6050": [
+    "clan_war"
+  ],
+  "skill_6051": [
+    "clan_war"
+  ],
+  "skill_6052": [
+    "clan_war"
+  ],
+  "skill_6053": [
+    "clan_war"
+  ],
+  "skill_6054": [
+    "clan_war"
+  ],
+  "skill_6055": [
+    "clan_war"
+  ],
+  "skill_6056": [
+    "clan_war"
+  ],
+  "skill_6057": [
+    "clan_war"
+  ],
+  "skill_6058": [
+    "clan_war"
+  ],
+  "skill_6059": [
+    "clan_war"
+  ],
+  "skill_6060": [
+    "clan_war"
+  ],
+  "skill_6061": [
+    "clan_war"
+  ],
+  "skill_6062": [
+    "clan_war"
+  ],
+  "skill_6063": [
+    "clan_war"
+  ],
+  "skill_6064": [
+    "clan_war"
+  ],
+  "skill_6065": [
+    "clan_war"
+  ],
+  "skill_6066": [
+    "clan_war"
+  ],
+  "skill_6067": [
+    "clan_war"
+  ],
+  "skill_6068": [
+    "clan_war"
+  ],
+  "skill_6069": [
+    "clan_war"
+  ],
+  "skill_6070": [
+    "clan_war"
+  ],
+  "skill_6071": [
+    "clan_war"
+  ],
+  "skill_6072": [
+    "clan_war"
+  ],
+  "skill_6073": [
+    "clan_war"
+  ],
+  "skill_6074": [
+    "clan_war"
+  ],
+  "skill_6075": [
+    "clan_war"
+  ],
+  "skill_6076": [
+    "clan_war"
+  ],
+  "skill_6077": [
+    "clan_war"
+  ],
+  "skill_6078": [
+    "clan_war"
+  ],
+  "skill_6079": [
+    "clan_war"
+  ],
+  "skill_6080": [
+    "clan_war"
+  ],
+  "skill_6081": [
+    "clan_war"
+  ],
+  "skill_6082": [
+    "clan_war"
+  ],
+  "skill_6083": [
+    "clan_war"
+  ],
+  "skill_6084": [
+    "clan_war"
+  ],
+  "skill_6085": [
+    "clan_war"
+  ],
+  "skill_6086": [
+    "clan_war"
+  ],
+  "skill_6087": [
+    "clan_war"
+  ],
+  "skill_6088": [
+    "clan_war"
+  ],
+  "skill_6089": [
+    "clan_war"
+  ],
+  "skill_6090": [
+    "clan_war"
+  ],
+  "skill_6091": [
+    "clan_war"
+  ],
+  "skill_6092": [
+    "clan_war"
+  ],
+  "skill_6093": [
+    "clan_war"
+  ],
+  "skill_6094": [
+    "clan_war"
+  ],
+  "skill_6095": [
+    "clan_war"
+  ],
+  "skill_6096": [
+    "clan_war"
+  ],
+  "skill_6097": [
+    "clan_war"
+  ],
+  "skill_6098": [
+    "clan_war"
+  ],
+  "skill_6099": [
+    "clan_war"
+  ],
+  "skill_6100": [
+    "clan_war"
+  ],
+  "skill_7000": [
+    "shadow_war"
+  ],
+  "skill_7001": [
+    "shadow_war"
+  ],
+  "skill_7002": [
+    "shadow_war"
+  ],
+  "skill_7003": [
+    "shadow_war"
+  ],
+  "skill_7004": [
+    "shadow_war"
+  ],
+  "skill_7005": [
+    "shadow_war"
+  ],
+  "skill_7006": [
+    "shadow_war"
+  ],
+  "skill_7007": [
+    "shadow_war"
+  ],
+  "skill_7008": [
+    "shadow_war"
+  ],
+  "skill_7009": [
+    "shadow_war"
+  ],
+  "skill_7010": [
+    "shadow_war"
+  ],
+  "skill_7011": [
+    "shadow_war"
+  ],
+  "skill_7012": [
+    "shadow_war"
+  ],
+  "skill_7013": [
+    "shadow_war"
+  ],
+  "skill_7014": [
+    "shadow_war"
+  ],
+  "skill_7015": [
+    "shadow_war"
+  ],
+  "skill_7016": [
+    "shadow_war"
+  ],
+  "skill_7017": [
+    "shadow_war"
+  ],
+  "skill_7018": [
+    "shadow_war"
+  ],
+  "skill_7019": [
+    "shadow_war"
+  ],
+  "skill_7020": [
+    "shadow_war"
+  ],
+  "skill_7021": [
+    "shadow_war"
+  ],
+  "skill_7022": [
+    "shadow_war"
+  ],
+  "skill_7023": [
+    "shadow_war"
+  ],
+  "skill_7024": [
+    "shadow_war"
+  ],
+  "skill_7025": [
+    "shadow_war"
+  ],
+  "skill_7026": [
+    "shadow_war"
+  ],
+  "skill_7027": [
+    "shadow_war"
+  ],
+  "skill_7028": [
+    "shadow_war"
+  ],
+  "skill_7029": [
+    "shadow_war"
+  ],
+  "skill_7030": [
+    "shadow_war"
+  ],
+  "skill_7031": [
+    "shadow_war"
+  ],
+  "skill_7032": [
+    "shadow_war"
+  ],
+  "skill_7033": [
+    "shadow_war"
+  ],
+  "skill_7034": [
+    "shadow_war"
+  ],
+  "skill_7035": [
+    "shadow_war"
+  ],
+  "skill_7036": [
+    "shadow_war"
+  ],
+  "skill_7037": [
+    "shadow_war"
+  ],
+  "skill_7038": [
+    "shadow_war"
+  ],
+  "skill_7039": [
+    "shadow_war"
+  ],
+  "skill_7040": [
+    "shadow_war"
+  ],
+  "skill_7041": [
+    "shadow_war"
+  ],
+  "skill_7042": [
+    "shadow_war"
+  ],
+  "skill_7043": [
+    "shadow_war"
+  ],
+  "skill_7044": [
+    "shadow_war"
+  ],
+  "skill_7045": [
+    "shadow_war"
+  ],
+  "skill_7046": [
+    "shadow_war"
+  ],
+  "skill_7047": [
+    "shadow_war"
+  ],
+  "skill_7048": [
+    "shadow_war"
+  ],
+  "skill_7049": [
+    "shadow_war"
+  ],
+  "skill_7050": [
+    "shadow_war"
+  ],
+  "skill_7051": [
+    "shadow_war"
+  ],
+  "skill_8001": [
+    "crew_battle"
+  ],
+  "skill_8002": [
+    "crew_battle"
+  ],
+  "skill_8003": [
+    "crew_battle"
+  ],
+  "skill_8004": [
+    "crew_battle"
+  ],
+  "skill_8005": [
+    "crew_battle"
+  ],
+  "skill_8006": [
+    "crew_battle"
+  ],
+  "skill_8007": [
+    "crew_battle"
+  ],
+  "skill_8008": [
+    "crew_battle"
+  ],
+  "skill_8009": [
+    "crew_battle"
+  ],
+  "skill_8010": [
+    "crew_battle"
+  ],
+  "skill_8011": [
+    "crew_battle"
+  ],
+  "skill_8012": [
+    "crew_battle"
+  ],
+  "skill_8013": [
+    "crew_battle"
+  ],
+  "skill_8014": [
+    "crew_battle"
+  ],
+  "skill_8015": [
+    "crew_battle"
+  ],
+  "skill_8016": [
+    "crew_battle"
+  ],
+  "skill_8017": [
+    "crew_battle"
+  ],
+  "skill_8018": [
+    "crew_battle"
+  ],
+  "skill_8019": [
+    "crew_battle"
+  ],
+  "skill_8020": [
+    "crew_battle"
+  ],
+  "skill_8021": [
+    "crew_battle"
+  ],
+  "skill_8022": [
+    "crew_battle"
+  ],
+  "skill_8023": [
+    "crew_battle"
+  ],
+  "skill_8024": [
+    "crew_battle"
+  ],
+  "skill_8025": [
+    "crew_battle"
+  ],
+  "pet_jyubi": [
+    "tailed_beast"
+  ],
+  "pet_kyubi": [
+    "tailed_beast"
+  ],
+  "pet_leiko": [
+    "pet_shop"
+  ],
+  "pet_chiko": [
+    "pet_shop"
+  ],
+  "pet_eriko": [
+    "pet_shop"
+  ],
+  "pet_suzu": [
+    "pet_shop"
+  ],
+  "pet_suki": [
+    "pet_shop"
+  ],
+  "pet_inokuchi": [
+    "pet_shop"
+  ],
+  "pet_yamaru": [
+    "pet_shop"
+  ],
+  "pet_easa": [
+    "pet_shop"
+  ],
+  "pet_tomaru": [
+    "pet_shop"
+  ],
+  "pet_keiko": [
+    "pet_shop"
+  ],
+  "pet_raita": [
+    "pet_shop"
+  ],
+  "pet_zaearth": [
+    "pet_shop"
+  ],
+  "pet_hachibi": [
+    "tailed_beast"
+  ],
+  "pet_nanabi": [
+    "tailed_beast"
+  ],
+  "pet_majesticcat": [
+    "pet_shop"
+  ],
+  "pet_rokubi": [
+    "tailed_beast"
+  ],
+  "pet_gobi": [
+    "tailed_beast"
+  ],
+  "pet_yobi": [
+    "tailed_beast"
+  ],
+  "pet_sanbi": [
+    "tailed_beast"
+  ],
+  "pet_nibi": [
+    "tailed_beast"
+  ],
+  "pet_snowshika": [
+    "pet_shop"
+  ],
+  "pet_ichibi": [
+    "tailed_beast"
+  ],
+  "pet_mikocat": [
+    "material_market"
+  ],
+  "pet_soulofholybeast": [
+    "dragon_hunt"
+  ],
+  "pet_clowndragon": [
+    "dragon_hunt"
+  ],
+  "pet_littlebluedragon": [
+    "dragon_hunt"
+  ],
+  "pet_fossildragon": [
+    "dragon_hunt"
+  ],
+  "pet_goldentripledragon": [
+    "dragon_hunt"
+  ],
+  "pet_windstormdragonturtle": [
+    "dragon_hunt"
+  ],
+  "pet_goldclowndragon": [
+    "dragon_hunt",
+    "dragon_gacha"
+  ],
+  "pet_goldenskeletal": [
+    "dragon_hunt"
+  ],
+  "pet_minidarkkirin": [
+    "dragon_hunt"
+  ],
+  "pet_celebrationclowndragon": [
+    "dragon_hunt",
+    "dragon_gacha"
+  ],
+  "pet_darkclowndragon": [
+    "dragon_hunt"
+  ],
+  "pet_icebluedragon": [
+    "dragon_hunt",
+    "dragon_gacha"
+  ],
+  "pet_lightningdrake": [
+    "dragon_hunt",
+    "dragon_gacha"
+  ],
+  "pet_undeadchaindragon": [
+    "dragon_hunt",
+    "dragon_gacha"
+  ],
+  "pet_darkthundertripledragon": [
+    "dragon_hunt",
+    "dragon_gacha"
+  ],
+  "pet_dualcannontripledragon": [
+    "dragon_hunt",
+    "dragon_gacha"
+  ],
+  "pet_minikirin": [
+    "dragon_hunt",
+    "dragon_gacha"
+  ],
+  "pet_flaredragon": [
+    "dragon_hunt"
+  ],
+  "pet_shadowdragon": [
+    "dragon_hunt"
+  ],
+  "pet_helianthusdragon": [
+    "dragon_hunt"
+  ],
+  "pet_ultimatekirin": [
+    "dragon_hunt"
+  ],
+  "pet_earthlavadragonturtle": [
+    "dragon_hunt",
+    "dragon_gacha"
+  ],
+  "pet_goldwardragon": [
+    "dragon_hunt"
+  ],
+  "pet_jadecosmic": [
+    "dragon_hunt"
+  ],
+  "pet_sacredlion": [
+    "event:anniv2025"
+  ],
+  "pet_leak": [
+    "event:independence2025"
+  ],
+  "pet_yinyangdragon": [
+    "dragon_hunt"
+  ],
+  "pet_crystaldragon": [
+    "dragon_hunt"
+  ],
+  "pet_redhare": [
+    "event:anniv2026"
+  ],
+  "pet_littlejyubi": [
+    "material_market"
+  ]
+}

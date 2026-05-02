@@ -12,10 +12,7 @@ import libraryJson from "../../dump/library.json";
 import weaponEffectJson from "../../dump/weapon-effect.json";
 import backEffectJson from "../../dump/back_item-effect.json";
 import enemyJson from "../../dump/enemy.json";
-import materialMarketIdsJson from "../../dump/material_market_ids.json";
-import huntingMarketIdsJson from "../../dump/hunting_market_ids.json";
-import friendshipShopIdsJson from "../../dump/friendship_shop_ids.json";
-import limitedStoreIdsJson from "../../dump/limited_store_ids.json";
+import sourcesJson from "../../dump/sources.json";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -304,146 +301,13 @@ const SOURCE_CONFIG: Record<string, { label: string; icon: string; badge: string
   tailed_beast:     { label: "Tailed Beast",    icon: "🦊", badge: "bg-orange-900/40 border-orange-700/40 text-orange-300" },
 };
 
-// ─── Gamedata Index Builder ───────────────────────────────────────────────────
+// ─── Source Lookup (pre-computed by sync-dump.js → dump/sources.json) ─────────
 
-const _gamedataMap: Record<string, Record<string, unknown>> = {};
-for (let i = 0; i <= 37; i++) {
-  const entry = (gamedataJson as Record<number, { id?: string; data?: Record<string, unknown> }>)[i];
-  if (entry?.id) _gamedataMap[entry.id] = entry.data ?? {};
-}
+const _sources: Record<string, string[]> = sourcesJson as Record<string, string[]>;
 
-const _shopSets: Record<string, Set<string>> = {};
-for (const shopType of ["normal", "clan", "pvp", "crew"]) {
-  const shopData = (_gamedataMap.shop as Record<string, unknown> | undefined)?.[shopType];
-  if (shopData && typeof shopData === "object") {
-    const ids = new Set<string>();
-    for (const arr of Object.values(shopData as Record<string, unknown>)) {
-      if (Array.isArray(arr)) arr.forEach((id: string) => ids.add(id));
-    }
-    _shopSets[shopType] = ids;
-  }
-}
-
-const _academyIds = new Set<string>();
-const _academyData = _gamedataMap.academy;
-if (_academyData) {
-  for (const arr of Object.values(_academyData)) {
-    if (Array.isArray(arr)) arr.forEach((id: string) => _academyIds.add(id));
-  }
-}
-
-const _dragonGachaIds = new Set<string>();
-const _dgData = _gamedataMap.dragon_gacha;
-if (_dgData) {
-  for (const arr of Object.values(_dgData)) {
-    if (Array.isArray(arr)) arr.forEach((id: string) => _dragonGachaIds.add(id));
-  }
-}
-
-const _sowIds = new Set<string>();
-const _sowData = _gamedataMap.sow;
-if (_sowData) {
-  for (const arr of Object.values(_sowData)) {
-    if (Array.isArray(arr)) arr.forEach((id: string) => _sowIds.add(id));
-  }
-}
-
-const _petShopIds = new Set<string>();
-if (Array.isArray((_gamedataMap.pet_shop as Record<string, unknown> | undefined)?.pets)) {
-  ((_gamedataMap.pet_shop as Record<string, unknown>).pets as { id: string }[]).forEach((p) => _petShopIds.add(p.id));
-}
-
-const _tailedBeastIds = new Set<string>();
-if (Array.isArray((_gamedataMap.tailed_beast as Record<string, unknown> | undefined)?.pets)) {
-  ((_gamedataMap.tailed_beast as Record<string, unknown>).pets as { id: string }[]).forEach((p) => _tailedBeastIds.add(p.id));
-}
-
-const _dragonHuntPetIds = new Set<string>();
-const _dhPets = (_gamedataMap.dragon_hunt as Record<string, unknown> | undefined)?.pets;
-if (_dhPets && typeof _dhPets === "object") {
-  for (const arr of Object.values(_dhPets as Record<string, unknown>)) {
-    if (Array.isArray(arr)) arr.forEach((id: string) => _dragonHuntPetIds.add(id));
-  }
-}
-
-const _scratchIds = new Set<string>();
-if (_gamedataMap.scratch) {
-  const scratchData = _gamedataMap.scratch as Record<string, unknown>;
-  if (Array.isArray(scratchData.rewards)) (scratchData.rewards as string[]).forEach((id) => _scratchIds.add(id));
-  if (Array.isArray(scratchData.grand_prize)) (scratchData.grand_prize as string[]).forEach((id) => _scratchIds.add(id));
-}
-
-const _justiceBadgeIds = new Set<string>();
-if (Array.isArray((_gamedataMap.justice_badge as Record<string, unknown> | undefined)?.rewards)) {
-  ((_gamedataMap.justice_badge as Record<string, unknown>).rewards as (string | { id: string })[]).forEach((r) => {
-    if (typeof r === "string") _justiceBadgeIds.add(r);
-    else if (r?.id) _justiceBadgeIds.add(r.id);
-  });
-}
-
-const _monsterHunterIds = new Set<string>();
-if (Array.isArray((_gamedataMap.monster_hunter as Record<string, unknown> | undefined)?.rewards)) {
-  ((_gamedataMap.monster_hunter as Record<string, unknown>).rewards as string[]).forEach((id) => _monsterHunterIds.add(id));
-}
-
-const _divineTreeIds = new Set<string>();
-if (Array.isArray((_gamedataMap.divinetree as Record<string, unknown> | undefined)?.milestone)) {
-  ((_gamedataMap.divinetree as Record<string, unknown>).milestone as (string | { id: string })[]).forEach((m) => {
-    if (typeof m === "string") _divineTreeIds.add(m);
-    else if (m?.id) _divineTreeIds.add(m.id);
-  });
-}
-
-const _blacksmithIds = new Set([
-  "wpn_609","wpn_119","wpn_179","wpn_164","wpn_293","wpn_137","wpn_135",
-  "wpn_294","wpn_295","wpn_131","wpn_125","wpn_181","wpn_296","wpn_140",
-  "wpn_297","wpn_139","wpn_303","wpn_136","wpn_304","wpn_305","wpn_138",
-  "wpn_141","wpn_143","wpn_126","wpn_134","wpn_298","wpn_142","wpn_127",
-  "wpn_144","wpn_611","wpn_307","wpn_145","wpn_306","wpn_299","wpn_146",
-  "wpn_128","wpn_308","wpn_291","wpn_130","wpn_148","wpn_129","wpn_292",
-  "wpn_150","wpn_612","wpn_151","wpn_336","wpn_339","wpn_333","wpn_332",
-  "wpn_335","wpn_338","wpn_337","wpn_334","wpn_1139","wpn_1141","wpn_1143",
-  "wpn_1145","wpn_1147","wpn_1149","wpn_1151","wpn_1153","wpn_1155",
-  "wpn_1157","wpn_1159",
-]);
-
-const _clanForgeIds = new Set([
-  "wpn_6004","wpn_6006","wpn_6008","wpn_6010","wpn_6012","wpn_6014",
-  "wpn_6016","wpn_6018","wpn_6029","wpn_6030","wpn_6031","wpn_6035",
-  "wpn_6036","wpn_6037","wpn_6038","wpn_6039","wpn_6040","wpn_6041",
-  "wpn_6042","wpn_6043","wpn_6044","wpn_6045","wpn_6046","wpn_6056",
-  "wpn_6057","wpn_6058","wpn_6065","wpn_6066","wpn_6067","wpn_6068",
-  "wpn_6069","wpn_6077","wpn_6078","wpn_6079","wpn_6080","wpn_6081",
-]);
-
-const _contestShopIds = new Set([
-  "wpn_2078","wpn_2077","wpn_2079","wpn_2080","wpn_2081","wpn_2051","wpn_2052","wpn_2053","wpn_2054","wpn_2055","wpn_2056","wpn_2057","wpn_2058","wpn_2059","wpn_2060","wpn_2061","wpn_2062",
-  "back_2075","back_2076","back_2078","back_2077","back_2055","back_2056","back_2057","back_2058","back_2059","back_2060","back_2061","back_2062","back_2063","back_2064","back_2065","back_2066",
-]);
-
-const _senjutsuIds = new Set([
-  "skill_3001","skill_3002","skill_3003","skill_3004","skill_3005","skill_3006","skill_3007","skill_3008","skill_3009","skill_3010",
-  "skill_3101","skill_3102","skill_3103","skill_3104","skill_3105","skill_3106","skill_3107","skill_3108","skill_3109","skill_3110",
-]);
-
-const _materialMarketIds = new Set<string>();
-for (const arr of Object.values(materialMarketIdsJson)) {
-  if (Array.isArray(arr)) arr.forEach((id: string) => _materialMarketIds.add(id));
-}
-
-const _huntingMarketIds = new Set<string>();
-for (const arr of Object.values(huntingMarketIdsJson)) {
-  if (Array.isArray(arr)) arr.forEach((id: string) => _huntingMarketIds.add(id));
-}
-
-const _friendshipShopIds = new Set<string>();
-for (const arr of Object.values(friendshipShopIdsJson)) {
-  if (Array.isArray(arr)) arr.forEach((id: string) => _friendshipShopIds.add(id));
-}
-
-const _limitedStoreIds = new Set<string>();
-for (const arr of Object.values(limitedStoreIdsJson)) {
-  if (Array.isArray(arr)) arr.forEach((id: string) => _limitedStoreIds.add(id));
+/** Look up pre-computed sources for any entity by ID. */
+function getSources(id: string): string[] {
+  return _sources[id] ?? [];
 }
 
 const _EVENT_LABELS: Record<string, string> = {
@@ -454,160 +318,6 @@ const _EVENT_LABELS: Record<string, string> = {
   phantomkyunoki2026: "Phantom Kyunoki 2026", valentine2026: "Valentine 2026", anniv2026: "Anniversary 2026",
   ramadhan2026: "Ramadhan 2026", hanami2026: "Hanami 2026",
 };
-const _EVENT_KEYS = Object.keys(_EVENT_LABELS);
-
-// Map item ID → list of event keys it appears in
-const _itemToEvents = new Map<string, string[]>();
-for (const key of _EVENT_KEYS) {
-  const evData = _gamedataMap[key];
-  if (!evData) continue;
-  const collectIds = (obj: unknown): void => {
-    if (Array.isArray(obj)) {
-      obj.forEach((item: unknown) => {
-        let id: string | null = null;
-        if (typeof item === "string" && /^(wpn_|back_|set_|hair_|accessory_|skill_|pet_|material_)/.test(item)) {
-          id = item;
-        } else if (item && typeof item === "object" && "id" in item && typeof (item as { id: unknown }).id === "string") {
-          id = (item as { id: string }).id;
-        }
-        if (id) {
-          const existing = _itemToEvents.get(id);
-          if (existing) { if (!existing.includes(key)) existing.push(key); }
-          else _itemToEvents.set(id, [key]);
-        }
-      });
-    } else if (obj && typeof obj === "object") {
-      for (const val of Object.values(obj as Record<string, unknown>)) {
-        collectIds(val);
-      }
-    }
-  };
-  collectIds(evData);
-}
-
-// ─── Source Resolver Functions ─────────────────────────────────────────────────
-
-function resolveItemSources(item: LibItem): string[] {
-  const sources: string[] = [];
-  const id = item.id;
-
-  // Shop cross-reference (gamedata arrays)
-  if (_shopSets.normal?.has(id)) sources.push("shop_normal");
-  if (_shopSets.clan?.has(id))   sources.push("shop_clan");
-  if (_shopSets.pvp?.has(id))    sources.push("shop_pvp");
-  if (_shopSets.crew?.has(id))   sources.push("shop_crew");
-
-  // Buyable with gold but not in any gamedata shop array = still Normal Shop
-  // (gamedata.shop.normal doesn't list ALL buyable items)
-  if (item.buyable && item.price_gold > 0 && sources.length === 0) sources.push("shop_normal");
-
-  // Price-based detection
-  if (item.price_prestige > 0) sources.push("clan_forge");
-  if ((item.price_merit ?? 0) > 0 && !sources.includes("shop_crew")) sources.push("shop_crew");
-
-  // Hardcoded forge/contest lists
-  if (_blacksmithIds.has(id))    sources.push("blacksmith");
-  if (_clanForgeIds.has(id) && !sources.includes("clan_forge")) sources.push("clan_forge");
-  if (_contestShopIds.has(id))   sources.push("contest_shop");
-
-  // Forge / Market
-  if (_materialMarketIds.has(id)) sources.push("material_market");
-  if (_huntingMarketIds.has(id))  sources.push("hunting_market");
-  if (_friendshipShopIds.has(id)) sources.push("friendship_shop");
-  if (_limitedStoreIds.has(id))   sources.push("limited_store");
-
-  // Gacha / features
-  if (_dragonGachaIds.has(id))   sources.push("dragon_gacha");
-  if (_scratchIds.has(id))       sources.push("daily_scratch");
-  if (_justiceBadgeIds.has(id))  sources.push("justice_badge");
-  if (_monsterHunterIds.has(id)) sources.push("monster_hunter");
-  if (_divineTreeIds.has(id))    sources.push("divine_tree");
-
-  // Events (specific per-event)
-  const itemEvents = _itemToEvents.get(id);
-  if (itemEvents) itemEvents.forEach((ev) => sources.push("event:" + ev));
-
-  // Category-based
-  if (item.category === "clan") {
-    if (!sources.includes("shop_clan") && !sources.includes("clan_war")) {
-      sources.push(_shopSets.clan?.has(id) ? "shop_clan" : "clan_war");
-    }
-  }
-  if (item.category === "crew") {
-    if (!sources.includes("shop_crew") && !sources.includes("crew_battle")) {
-      sources.push(_shopSets.crew?.has(id) ? "shop_crew" : "crew_battle");
-    }
-  }
-  if (item.category === "shadowwar" && sources.length === 0) sources.push("shadow_war");
-  if (item.category === "event" && !itemEvents) sources.push("event_seasonal");
-  if (item.category === "package") sources.push("set_packages");
-  if (item.category === "deals") sources.push("special_deals");
-  if (item.category === "spending" && !itemEvents) sources.push("event_seasonal");
-  if (item.category === "leaderboard") sources.push("arena_rewards");
-
-  if (item.premium && sources.length === 0) sources.push("billing_packages");
-
-  return sources;
-}
-
-function resolveSkillSources(skill: Skill): string[] {
-  const sources: string[] = [];
-  const id = skill.id;
-
-  // Bloodline/Talent skills (type 9) = talent_shop
-  if (skill.type === "9") { sources.push("talent_shop"); return sources; }
-
-  if (_academyIds.has(id)) sources.push("academy");
-  if (_shopSets.pvp?.has(id)) sources.push("shop_pvp");
-  if (_senjutsuIds.has(id)) sources.push("senjutsu_shop");
-  if (_sowIds.has(id)) sources.push("scroll_of_wisdom");
-  if (_materialMarketIds.has(id)) sources.push("material_market");
-  if (_huntingMarketIds.has(id))  sources.push("hunting_market");
-  if (_friendshipShopIds.has(id)) sources.push("friendship_shop");
-  if (_limitedStoreIds.has(id))   sources.push("limited_store");
-
-  // Events (specific per-event)
-  const skillEvents = _itemToEvents.get(id);
-  if (skillEvents) skillEvents.forEach((ev) => sources.push("event:" + ev));
-
-  // Advanced Academy: Kinjutsu upgrades (II-VI) with token price, not buyable
-  if (!skill.buyable && skill.price_tokens > 0 && /\s(II|III|IV|V|VI)$/.test(skill.name)) {
-    sources.push("advanced_academy");
-  }
-
-  if (skill.buyable && !sources.includes("academy") && !sources.includes("shop_pvp")) {
-    if (skill.price_gold > 0) sources.push("academy");
-    if (skill.price_tokens > 0 && !sources.includes("academy")) sources.push("limited_store");
-  }
-
-  // Category-based
-  if (skill.category === "clan" && !sources.includes("clan_war")) sources.push("clan_war");
-  if (skill.category === "crew" && !sources.includes("crew_battle")) sources.push("crew_battle");
-  if (skill.category === "shadowwar" && !sources.includes("shadow_war")) sources.push("shadow_war");
-  if (skill.category === "event" && !skillEvents) sources.push("event_seasonal");
-  if (skill.category === "deals") sources.push("special_deals");
-  if (skill.category === "package") sources.push("set_packages");
-  if (skill.category === "spending" && !skillEvents) sources.push("event_seasonal");
-
-  if (skill.premium && sources.length === 0) sources.push("limited_store");
-
-  return sources;
-}
-
-function resolvePetSources(id: string): string[] {
-  const sources: string[] = [];
-  if (_petShopIds.has(id))         sources.push("pet_shop");
-  if (_tailedBeastIds.has(id))     sources.push("tailed_beast");
-  if (_dragonHuntPetIds.has(id))   sources.push("dragon_hunt");
-  if (_dragonGachaIds.has(id))     sources.push("dragon_gacha");
-  if (_materialMarketIds.has(id))  sources.push("material_market");
-  if (_huntingMarketIds.has(id))   sources.push("hunting_market");
-  if (_friendshipShopIds.has(id))  sources.push("friendship_shop");
-  if (_limitedStoreIds.has(id))    sources.push("limited_store");
-  const petEvents = _itemToEvents.get(id);
-  if (petEvents) petEvents.forEach((ev) => sources.push("event:" + ev));
-  return sources;
-}
 
 function getSourceDisplay(src: string): { icon: string; label: string; badge: string } | null {
   // Static sources
@@ -1054,7 +764,7 @@ function SkillModal({ skill, onClose, highlight = "" }: { skill: Skill; onClose:
           )}
 
           {/* Sources */}
-          <SourceBadges sources={resolveSkillSources(skill)} />
+          <SourceBadges sources={getSources(skill.id)} />
         </div>
       </div>
     </div>
@@ -1485,7 +1195,7 @@ function SkillCard({ skill, highlight = "", onSelect }: { skill: Skill; highligh
       {/* Sources + Price + detail hint */}
       <div className="pt-2 border-t border-white/5 space-y-2">
         {(() => {
-          const srcs = resolveSkillSources(skill);
+          const srcs = getSources(skill.id);
           return srcs.length > 0 ? (
             <div className="flex flex-wrap gap-1">
                {srcs.map((src) => {
@@ -2030,7 +1740,7 @@ function PetsTab({ pets }: { pets: Pet[] }) {
 
                 <div className="pt-2 border-t border-white/[0.06] mt-auto space-y-2">
                   {(() => {
-                    const srcs = resolvePetSources(pet.id);
+                    const srcs = getSources(pet.id);
                     return srcs.length > 0 ? (
                       <div className="flex flex-wrap gap-1">
                         {srcs.map((src) => {
@@ -2118,7 +1828,7 @@ function PetSkillsModal({ pet, onClose }: { pet: Pet; onClose: () => void }) {
 
         <div className="p-5 space-y-3">
           {/* Sources */}
-          <SourceBadges sources={resolvePetSources(pet.id)} />
+          <SourceBadges sources={getSources(pet.id)} />
 
           {attacks.length === 0 ? (
             <p className="text-sm text-slate-600 italic">Pet ini belum memiliki skill.</p>
@@ -2692,7 +2402,7 @@ function ItemGridCard({ item, onSelect, highlight = "" }: { item: LibItem; onSel
       {/* Sources + Price + hint */}
       <div className="pt-2 border-t border-white/5 space-y-2">
         {(() => {
-          const srcs = resolveItemSources(item);
+          const srcs = getSources(item.id);
           return srcs.length > 0 ? (
             <div className="flex flex-wrap gap-1">
               {srcs.map((src) => {
@@ -2861,7 +2571,7 @@ function ItemDetailModal({ item, onClose }: { item: LibItem; onClose: () => void
           )}
 
           {/* Sources */}
-          <SourceBadges sources={resolveItemSources(item)} />
+          <SourceBadges sources={getSources(item.id)} />
         </div>
       </div>
     </div>
