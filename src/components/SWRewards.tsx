@@ -256,6 +256,20 @@ function dataFingerprint(data: SeasonRewardData): string {
   return JSON.stringify(data);
 }
 
+/** Strip "icon_" prefix the API sometimes adds to reward IDs. */
+function normalizeRewardData(data: SeasonRewardData): SeasonRewardData {
+  const out: Record<string, Record<string, string[]>> = {};
+  for (const [cat, ranks] of Object.entries(data)) {
+    out[cat] = {};
+    for (const [rank, rewards] of Object.entries(ranks as Record<string, string[]>)) {
+      out[cat][rank] = Array.isArray(rewards)
+        ? rewards.map((id) => id.replace(/^icon_/, ""))
+        : rewards;
+    }
+  }
+  return out as unknown as SeasonRewardData;
+}
+
 // ─── Detail Modal ─────────────────────────────────────────────────────────────
 
 function RewardDetailModal({ reward, onClose }: { reward: ResolvedReward; onClose: () => void }) {
@@ -707,7 +721,7 @@ export default function SWRewards() {
     fetch(SW_API)
       .then((r) => r.json())
       .then((response: { data: SeasonRewardData }) => {
-        const liveData = response.data;
+        const liveData = normalizeRewardData(response.data);
         const liveFingerprint = dataFingerprint(liveData);
 
         const existingMatch = seasons.find((s) => dataFingerprint(s.data) === liveFingerprint);

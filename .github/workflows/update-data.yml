@@ -41,6 +41,9 @@ jobs:
       - name: Run changelog sync
         run: node scripts/sync-dump.js
 
+      - name: Sync Shadow War rewards
+        run: node scripts/sync-sw-rewards.js
+
       - name: Check for changes
         id: changes
         run: |

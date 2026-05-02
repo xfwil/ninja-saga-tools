@@ -40,6 +40,32 @@ function fingerprint(data) {
   return JSON.stringify(data);
 }
 
+/**
+ * Strip "icon_" prefix from reward IDs.
+ * The API started returning e.g. "icon_skill_7049" instead of "skill_7049".
+ */
+function stripIconPrefix(id) {
+  return typeof id === "string" ? id.replace(/^icon_/, "") : id;
+}
+
+/**
+ * Normalize reward data: strip icon_ prefix from all reward IDs.
+ */
+function normalizeData(data) {
+  const normalized = {};
+  for (const [category, ranks] of Object.entries(data)) {
+    normalized[category] = {};
+    for (const [rank, rewards] of Object.entries(ranks)) {
+      if (Array.isArray(rewards)) {
+        normalized[category][rank] = rewards.map(stripIconPrefix);
+      } else {
+        normalized[category][rank] = rewards;
+      }
+    }
+  }
+  return normalized;
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -54,14 +80,17 @@ async function main() {
   }
 
   const json = await res.json();
-  const liveData = json.data;
+  const rawData = json.data;
 
-  if (!liveData || !liveData.squad) {
+  if (!rawData || !rawData.squad) {
     console.error("❌ Unexpected API response format.");
     process.exit(1);
   }
 
-  console.log("✅ API data fetched successfully.");
+  // Normalize: strip icon_ prefix from all IDs
+  const liveData = normalizeData(rawData);
+
+  console.log("✅ API data fetched and normalized.");
 
   // Load existing file
   const file = readJson(REWARDS_FILE, { seasons: [] });
