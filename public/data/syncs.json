@@ -2,112 +2,14 @@
   {
     "id": "2026-05-02T08-39-25-152Z",
     "syncedAt": "2026-05-02T08:39:25.152Z",
-    "initial": false,
-    "changes": 5041,
+    "initial": true,
+    "changes": 0,
     "totals": {
       "skills": 1181,
       "library": 5784,
       "skillEffects": 860,
       "weaponEffects": 984,
       "backEffects": 735,
-      "accessoryEffects": 173
-    }
-  },
-  {
-    "id": "2026-04-22T12-33-16-503Z",
-    "syncedAt": "2026-04-22T12:33:16.503Z",
-    "initial": false,
-    "changes": 26,
-    "totals": {
-      "skills": 1168,
-      "library": 5666,
-      "skillEffects": 846,
-      "weaponEffects": 962,
-      "backEffects": 717,
-      "accessoryEffects": 173
-    }
-  },
-  {
-    "id": "2026-04-13T15-37-23-455Z",
-    "syncedAt": "2026-04-13T15:37:23.455Z",
-    "initial": false,
-    "changes": 1,
-    "totals": {
-      "skills": 1168,
-      "library": 5647,
-      "skillEffects": 846,
-      "weaponEffects": 963,
-      "backEffects": 717,
-      "accessoryEffects": 173
-    }
-  },
-  {
-    "id": "2026-04-13T14-42-12-587Z",
-    "syncedAt": "2026-04-13T14:42:12.587Z",
-    "initial": false,
-    "changes": 5,
-    "totals": {
-      "skills": 1168,
-      "library": 5647,
-      "skillEffects": 846,
-      "weaponEffects": 963,
-      "backEffects": 717,
-      "accessoryEffects": 173
-    }
-  },
-  {
-    "id": "2026-04-13T12-35-16-175Z",
-    "syncedAt": "2026-04-13T12:35:16.175Z",
-    "initial": false,
-    "changes": 5,
-    "totals": {
-      "skills": 1168,
-      "library": 5647,
-      "skillEffects": 846,
-      "weaponEffects": 963,
-      "backEffects": 717,
-      "accessoryEffects": 173
-    }
-  },
-  {
-    "id": "2026-04-05T20-13-15-766Z",
-    "syncedAt": "2026-04-05T20:13:15.766Z",
-    "initial": false,
-    "changes": 126,
-    "totals": {
-      "skills": 1168,
-      "library": 5647,
-      "skillEffects": 846,
-      "weaponEffects": 963,
-      "backEffects": 717,
-      "accessoryEffects": 173
-    }
-  },
-  {
-    "id": "2026-04-05T19-18-36-248Z",
-    "syncedAt": "2026-04-05T19:18:36.248Z",
-    "initial": false,
-    "changes": 23,
-    "totals": {
-      "skills": 1158,
-      "library": 5563,
-      "skillEffects": 838,
-      "weaponEffects": 955,
-      "backEffects": 717,
-      "accessoryEffects": 173
-    }
-  },
-  {
-    "id": "2026-03-27T06-14-52-005Z",
-    "syncedAt": "2026-03-27T06:14:52.005Z",
-    "initial": true,
-    "changes": 0,
-    "totals": {
-      "skills": 1158,
-      "library": 5563,
-      "skillEffects": 838,
-      "weaponEffects": 955,
-      "backEffects": 694,
       "accessoryEffects": 173
     }
   }
