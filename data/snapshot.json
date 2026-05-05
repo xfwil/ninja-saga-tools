@@ -24373,7 +24373,7 @@
   },
   "skill::skill_2226": {
     "name": "Kinjutsu: Stallion Rush",
-    "hash": "71c99b255dabbd2c8ae38441f108b17d",
+    "hash": "10ce111867d9e33a5f800bb8d6d10b02",
     "data": {
       "id": "skill_2226",
       "price_tokens": 0,
@@ -24398,13 +24398,14 @@
       },
       "attack_hit_position": "range_3",
       "source": [
+        "christmas2024",
         "material_market"
       ]
     }
   },
   "skill::skill_2227": {
     "name": "Kinjutsu: Corruption Arrow",
-    "hash": "b6dc004af7b55964c0ba7165d5c8c975",
+    "hash": "7f8800663f0448c1f5f66a013404f698",
     "data": {
       "id": "skill_2227",
       "price_tokens": 0,
@@ -24428,6 +24429,7 @@
       },
       "attack_hit_position": "range_1",
       "source": [
+        "christmas2024",
         "material_market"
       ]
     }
@@ -24524,7 +24526,7 @@
   },
   "skill::skill_2231": {
     "name": "DO YOU WANNA BUILD A SNOWMAN?",
-    "hash": "d32ec43d44584a056fa00b7bcf866c3f",
+    "hash": "80675c6f10c7c3efe1e2e23f77362678",
     "data": {
       "id": "skill_2231",
       "price_tokens": 0,
@@ -24548,6 +24550,7 @@
       },
       "attack_hit_position": "range_3",
       "source": [
+        "christmas2024",
         "material_market"
       ]
     }
@@ -29337,7 +29340,7 @@
   },
   "skill::skill_6001": {
     "name": "S0 Kinjutsu: Bijuu Blaster",
-    "hash": "a383d761afb31e218fde6d5832f11e3f",
+    "hash": "5a594dc26b060bb5777bf2df77acf192",
     "data": {
       "id": "skill_6001",
       "price_tokens": 0,
@@ -29359,12 +29362,15 @@
           110
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_6002": {
     "name": "S0 Kinjutsu: Bijuu Destruction",
-    "hash": "34d87954dcc20b6e4a504c940f049e98",
+    "hash": "29feee51d778b865980854d31131181b",
     "data": {
       "id": "skill_6002",
       "price_tokens": 0,
@@ -29386,12 +29392,15 @@
           134
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_6003": {
     "name": "S1 Kinjutsu: Death Touch Palms",
-    "hash": "3ce97a247d00fb5af4f0618f24ca3a32",
+    "hash": "e903a1112729bd7fa85e9a7b6a124b09",
     "data": {
       "id": "skill_6003",
       "price_tokens": 0,
@@ -29413,12 +29422,15 @@
           83
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6004": {
     "name": "S1 Kinjutsu: Advanced Death Touch Palms",
-    "hash": "542e60d3ed1ffe2dde41291909d360e7",
+    "hash": "47b272fb173fa09cfe3cc6c355ea62a3",
     "data": {
       "id": "skill_6004",
       "price_tokens": 0,
@@ -29440,12 +29452,15 @@
           83
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6005": {
     "name": "S2 Kinjutsu: Profusion of Ghosts",
-    "hash": "80648eb3f9291a7995f55a3ef18f4f5b",
+    "hash": "1ea64b4b7a01e1f229dc5f71cad616ca",
     "data": {
       "id": "skill_6005",
       "price_tokens": 0,
@@ -29467,12 +29482,15 @@
           35
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_1"
     }
   },
   "skill::skill_6006": {
     "name": "S2 Kinjutsu: Advanced Profusion of Ghosts",
-    "hash": "1f826613f03d492f4e536acee34e11f5",
+    "hash": "7c6e051d39a5b1a94211a2cb43347666",
     "data": {
       "id": "skill_6006",
       "price_tokens": 0,
@@ -29494,12 +29512,15 @@
           24
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_1"
     }
   },
   "skill::skill_6007": {
     "name": "S3 Kinjutsu: Ecstasy of Sound",
-    "hash": "a8b2dbc5c479c29bbb6fe7b0d11b8aa3",
+    "hash": "840765e980e5f805789375d8a6efde84",
     "data": {
       "id": "skill_6007",
       "price_tokens": 0,
@@ -29521,12 +29542,15 @@
           49
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_3"
     }
   },
   "skill::skill_6008": {
     "name": "S3 Kinjutsu: Advanced Ecstasy of Sound",
-    "hash": "01b543388cdb0e357569a04759d6ce82",
+    "hash": "09b73c8ba86fe3a3f574f7ec7315fde6",
     "data": {
       "id": "skill_6008",
       "price_tokens": 0,
@@ -29548,12 +29572,15 @@
           49
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_3"
     }
   },
   "skill::skill_6009": {
     "name": "S4 Kinjutsu: Sakura Ryu",
-    "hash": "2ee075859239ce2acfc636e286e9db1b",
+    "hash": "e51ba8da4dd5c172e19427e88c9e0738",
     "data": {
       "id": "skill_6009",
       "price_tokens": 0,
@@ -29575,12 +29602,15 @@
           20
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6010": {
     "name": "S4 Kinjutsu: Advanced Sakura Ryu",
-    "hash": "d232d1bd3e421940f65b886ef3cea3d5",
+    "hash": "63ee7b0b6d0599973798877ba86932ad",
     "data": {
       "id": "skill_6010",
       "price_tokens": 0,
@@ -29602,12 +29632,15 @@
           20
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6011": {
     "name": "S5 Kinjutsu: Cube Illusion",
-    "hash": "cae7cd5f8d617a63c41b3ae91cf28f57",
+    "hash": "e1fe18e9c5b8f9efccba8f3a31e84b01",
     "data": {
       "id": "skill_6011",
       "price_tokens": 0,
@@ -29636,12 +29669,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_6012": {
     "name": "S5 Kinjutsu: Advance Cube Illusion",
-    "hash": "cba31670e79744311ad487ed21d61b89",
+    "hash": "9f6535aa0060ff1c85f1b2b68c723a01",
     "data": {
       "id": "skill_6012",
       "price_tokens": 0,
@@ -29670,12 +29706,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_6013": {
     "name": "S6 Kinjutsu: Pishamen-ryu",
-    "hash": "ba70428c6cab1234c672d81d7710411c",
+    "hash": "a73db42a4b2b42afc113dc223e376f1f",
     "data": {
       "id": "skill_6013",
       "price_tokens": 0,
@@ -29697,12 +29736,15 @@
           85
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6014": {
     "name": "S6 Kinjutsu: Advance Pishamen-ryu",
-    "hash": "55614df2b7e85a4da3d886ab5c9612ea",
+    "hash": "82b0cad99ee6233fa6c61deab61282b8",
     "data": {
       "id": "skill_6014",
       "price_tokens": 0,
@@ -29724,12 +29766,15 @@
           85
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6015": {
     "name": "S7 Kinjutsu: Silver Chain Bundle",
-    "hash": "3f70d055112f9cdf68048c46da93862f",
+    "hash": "77041cc6fd943640c79333d184e7f29d",
     "data": {
       "id": "skill_6015",
       "price_tokens": 0,
@@ -29751,12 +29796,15 @@
           51
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_1"
     }
   },
   "skill::skill_6016": {
     "name": "S7 Kinjutsu: Advance Silver Chain Bundle",
-    "hash": "9f876f1c1d6951296216bb89b0096e33",
+    "hash": "d5f4d76bd9ebdb0441dcf3fa84b90c11",
     "data": {
       "id": "skill_6016",
       "price_tokens": 0,
@@ -29778,12 +29826,15 @@
           51
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_1"
     }
   },
   "skill::skill_6017": {
     "name": "S8 Kinjutsu: Yatagarasu",
-    "hash": "2fcb09d23a076ec71692fc7915aef722",
+    "hash": "f1349c01e62b04ef0f1754a2ddd73718",
     "data": {
       "id": "skill_6017",
       "price_tokens": 0,
@@ -29805,12 +29856,15 @@
           112
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_6018": {
     "name": "S8 Kinjutsu: Advance Yatagarasu",
-    "hash": "fe92746b8607edf246033cfea37904a3",
+    "hash": "2388a32b9d337abfbb91545e2c14e907",
     "data": {
       "id": "skill_6018",
       "price_tokens": 0,
@@ -29832,12 +29886,15 @@
           114
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_6019": {
     "name": "S9 Kinjutsu: Fiery Night Phoenix",
-    "hash": "f055e625af9cf23d91a9e5451f7a2deb",
+    "hash": "4884d1170c3a4e17c049f3776a2b22b9",
     "data": {
       "id": "skill_6019",
       "price_tokens": 0,
@@ -29859,12 +29916,15 @@
           97
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6020": {
     "name": "S9 Kinjutsu: Advanced Fiery Night Phoenix",
-    "hash": "bc40e3d6f9fb9094762dcd5e3f3a6357",
+    "hash": "d0bdc1cf91682fba20c21b4c97f589b0",
     "data": {
       "id": "skill_6020",
       "price_tokens": 0,
@@ -29886,12 +29946,15 @@
           97
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6021": {
     "name": "S10 Kinjutsu: Dynamic Dragon Strike",
-    "hash": "59b3d57e7482aa528f20868d1c10a305",
+    "hash": "f9bc4ba90902dc4ff418b8fccc327b56",
     "data": {
       "id": "skill_6021",
       "price_tokens": 0,
@@ -29913,12 +29976,15 @@
           30
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6022": {
     "name": "S10 Kinjutsu: Advance Dynamic Dragon Strike",
-    "hash": "a7aee706bcf151433f24ce6ff1c66488",
+    "hash": "3f0639bbdcd8a4a4b19db5cedcbb50e8",
     "data": {
       "id": "skill_6022",
       "price_tokens": 0,
@@ -29940,12 +30006,15 @@
           30
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6023": {
     "name": "S11 Kinjutsu: Darkness Chain Seal",
-    "hash": "20c7b20d94e2c171ffdd7cbc664a1044",
+    "hash": "72b92ee47738db159c1653ec4ad411a4",
     "data": {
       "id": "skill_6023",
       "price_tokens": 0,
@@ -29974,12 +30043,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6024": {
     "name": "S11 Kinjutsu: Advance Darkness Chain Seal",
-    "hash": "ef8552b6c16d8424f5f211d49cbac790",
+    "hash": "3c6b6303da432ff2f151fe467245f972",
     "data": {
       "id": "skill_6024",
       "price_tokens": 0,
@@ -30008,12 +30080,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6025": {
     "name": "S12 Kinjutsu: Kejsumaru",
-    "hash": "541a98b6ac23245df9bdf90459387327",
+    "hash": "353a17745f780ad7143841f5af22630e",
     "data": {
       "id": "skill_6025",
       "price_tokens": 0,
@@ -30035,12 +30110,15 @@
           106
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6026": {
     "name": "S12 Kinjutsu: Advance Kejsumaru",
-    "hash": "c06d043eea6fecc6be661b9bb1fe6ada",
+    "hash": "02c4b906355d1c5afe3de09238e7712c",
     "data": {
       "id": "skill_6026",
       "price_tokens": 0,
@@ -30062,12 +30140,15 @@
           106
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6027": {
     "name": "S13 Kinjutsu: Violent Quake Fist",
-    "hash": "f80af029a2e1a9be3729815ba56ca84c",
+    "hash": "1e3457dda2e70f48740407935cb2d366",
     "data": {
       "id": "skill_6027",
       "price_tokens": 0,
@@ -30089,12 +30170,15 @@
           30
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6028": {
     "name": "S13 Kinjutsu: Advance Violent Quake Fist",
-    "hash": "1d58f53b04f07f8c401b3a97ba85a3d3",
+    "hash": "0bb582495307fac7166243e543b53cb6",
     "data": {
       "id": "skill_6028",
       "price_tokens": 0,
@@ -30116,12 +30200,15 @@
           30
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6029": {
     "name": "S14 Kinjutsu: Meridian Breakthrough",
-    "hash": "87d0fd8450f2421372a4e449c861eca4",
+    "hash": "9bfc8510879ebcb91c48dd5f002563bf",
     "data": {
       "id": "skill_6029",
       "price_tokens": 0,
@@ -30143,12 +30230,15 @@
           98
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6030": {
     "name": "S14 Kinjutsu: Advance Meridian Breakthrough",
-    "hash": "dc61a869eebe3d1020f769e0527ed9e8",
+    "hash": "cdcfeb6e079f2905fde9b1e981967ae8",
     "data": {
       "id": "skill_6030",
       "price_tokens": 0,
@@ -30170,12 +30260,15 @@
           98
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6031": {
     "name": "S15 Kinjutsu: Great Ball of Devil World",
-    "hash": "5296f8db8c60d3d584053141d3a9be42",
+    "hash": "d66911d0ce4ea1b4a863959720dabf31",
     "data": {
       "id": "skill_6031",
       "price_tokens": 0,
@@ -30198,12 +30291,15 @@
           123
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6032": {
     "name": "S15 Kinjutsu: Advance Great Ball of Devil World",
-    "hash": "f07d850e194588b22e44f708fdf08a70",
+    "hash": "1ef22c4cff2654753c7de3ae7ecd5c1b",
     "data": {
       "id": "skill_6032",
       "price_tokens": 0,
@@ -30226,12 +30322,15 @@
           123
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6033": {
     "name": "S16 Kinjutsu: Camouflage Make-Up",
-    "hash": "cf19e08d9f100518a42f8dc02a89fc1f",
+    "hash": "597bd0e01ba496121fcdffc89ba35a77",
     "data": {
       "id": "skill_6033",
       "price_tokens": 0,
@@ -30253,12 +30352,15 @@
           55
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6034": {
     "name": "S16 Kinjutsu: Advance Camouflage Make-Up",
-    "hash": "6d513accb6116880a22abc93f179788b",
+    "hash": "67ca7c6b474adfecc65c16ceefd1118c",
     "data": {
       "id": "skill_6034",
       "price_tokens": 0,
@@ -30280,12 +30382,15 @@
           55
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6035": {
     "name": "S17 Kinjutsu: Meteor Blast",
-    "hash": "7810a000de187c0422f2217428c386f9",
+    "hash": "267cd327e3ba48a8869b25cb094d5a91",
     "data": {
       "id": "skill_6035",
       "price_tokens": 0,
@@ -30307,12 +30412,15 @@
           71
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6036": {
     "name": "S17 Kinjutsu: Advance Meteor Blast",
-    "hash": "2efe211a785095efa3b82cdb5836d46a",
+    "hash": "fc95fd8ce12b9a0d309be3f5a4d2b724",
     "data": {
       "id": "skill_6036",
       "price_tokens": 0,
@@ -30334,12 +30442,15 @@
           71
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6037": {
     "name": "S18 Kinjutsu: Shadow of Nightmare",
-    "hash": "4e0211f61777bdebd567abb1019567c3",
+    "hash": "2005430ea258e01a860b2b783bf34b20",
     "data": {
       "id": "skill_6037",
       "price_tokens": 0,
@@ -30368,12 +30479,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6038": {
     "name": "S18 Kinjutsu: Advance Shadow of Nightmare",
-    "hash": "ac69a58550ae11d73ccc8bdf279cd0d4",
+    "hash": "c924d0473dd5f70e1e2e076b70f60533",
     "data": {
       "id": "skill_6038",
       "price_tokens": 0,
@@ -30402,12 +30516,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6039": {
     "name": "S19 Kinjutsu: Mask of Hell Gate",
-    "hash": "767d5eb6c470a0bcb7b74626816190e0",
+    "hash": "993a61802637bf69b58c9bbe08b7da01",
     "data": {
       "id": "skill_6039",
       "price_tokens": 0,
@@ -30436,12 +30553,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6040": {
     "name": "S19 Kinjutsu: Advance Mask of Hell Gate",
-    "hash": "3917c6e927d186184bd163a8d6fffac2",
+    "hash": "b2f59187b2369c579eef22b9345ad866",
     "data": {
       "id": "skill_6040",
       "price_tokens": 0,
@@ -30470,12 +30590,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6041": {
     "name": "S20 Kinjutsu: Air Pecker Palm",
-    "hash": "fade37cdc4d952d9243c25f795ec4f62",
+    "hash": "b4490d87b419d3cfdf4c118db41db433",
     "data": {
       "id": "skill_6041",
       "price_tokens": 0,
@@ -30497,12 +30620,15 @@
           67
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6042": {
     "name": "S20 Kinjutsu: Advance Air Pecker Palm",
-    "hash": "6deac7cd8c3b3ae9f2488064af713f2f",
+    "hash": "6136770244421cfa93ca388c9792475e",
     "data": {
       "id": "skill_6042",
       "price_tokens": 0,
@@ -30524,12 +30650,15 @@
           67
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6043": {
     "name": "S21 Kinjutsu: Meridian Break Step",
-    "hash": "fdb016b7a726d6391ad574003ab23583",
+    "hash": "6121e1d5dd45b121e5944ac0a2354953",
     "data": {
       "id": "skill_6043",
       "price_tokens": 0,
@@ -30551,12 +30680,15 @@
           92
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6044": {
     "name": "S21 Kinjutsu: Advance Meridian Break Step",
-    "hash": "b0696326b1f6e9c5491140a60ade572c",
+    "hash": "058d3b5049759c736f10d1f413c8c564",
     "data": {
       "id": "skill_6044",
       "price_tokens": 0,
@@ -30578,12 +30710,15 @@
           92
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6045": {
     "name": "S22 Kinjutsu: Muscle Front Beheading",
-    "hash": "db59385ec8a3bf676797f22887008349",
+    "hash": "900cc0a85cac0790094a14c54efd6856",
     "data": {
       "id": "skill_6045",
       "price_tokens": 0,
@@ -30605,12 +30740,15 @@
           23
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6046": {
     "name": "S22 Kinjutsu: Advance Muscle Front Beheading",
-    "hash": "950c8a39656e96ce8171231a3e51ed34",
+    "hash": "b84229f09cdcf48e01c421de10ae34a9",
     "data": {
       "id": "skill_6046",
       "price_tokens": 0,
@@ -30632,12 +30770,15 @@
           21
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6047": {
     "name": "S23 Kinjutsu: Yato",
-    "hash": "e97fabdc042767a4828df347ddcf98f2",
+    "hash": "e68ba4fac39a2a477b2696102604be0c",
     "data": {
       "id": "skill_6047",
       "price_tokens": 0,
@@ -30666,12 +30807,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6048": {
     "name": "S23 Kinjutsu: Advance Yato",
-    "hash": "0a0efeca3d53102510642e969f8d983f",
+    "hash": "9113e29cb678b234949d5338e790b7b1",
     "data": {
       "id": "skill_6048",
       "price_tokens": 0,
@@ -30700,12 +30844,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6049": {
     "name": "S24 Kinjutsu: Elemental Slash",
-    "hash": "c97752603a78c33f0f318504372e7a6d",
+    "hash": "c0df5c96442ad0941035df697f59e5a2",
     "data": {
       "id": "skill_6049",
       "price_tokens": 0,
@@ -30727,12 +30874,15 @@
           96
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6050": {
     "name": "S24 Kinjutsu: Advance Elemental Slash",
-    "hash": "6471d11e28371232a463e8b6d1e18d61",
+    "hash": "ff78392090895c28335099634b9f3c20",
     "data": {
       "id": "skill_6050",
       "price_tokens": 0,
@@ -30754,12 +30904,15 @@
           147
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6051": {
     "name": "S25 Kinjutsu: Mushin Kiten Jutsu",
-    "hash": "01a02ada943a0d55e524b0c1bf9aeb9a",
+    "hash": "57b94b968e614720de2acfd86ab3483d",
     "data": {
       "id": "skill_6051",
       "price_tokens": 0,
@@ -30792,12 +30945,15 @@
           "remove": 109
         }
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6052": {
     "name": "S25 Kinjutsu: Advance Mushin Kiten Jutsu",
-    "hash": "f08a5039c0a8cbb09a84aa49c4da10f9",
+    "hash": "9718b0d9f05ba140cbab6743b608fc90",
     "data": {
       "id": "skill_6052",
       "price_tokens": 0,
@@ -30830,12 +30986,15 @@
           "remove": 109
         }
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6053": {
     "name": "S26 Kinjutsu: Scissor",
-    "hash": "d6352318d3f4d29cbeea2b9d42d93de0",
+    "hash": "cdb2b2bea8c1964f05e35c0ce595d732",
     "data": {
       "id": "skill_6053",
       "price_tokens": 0,
@@ -30864,12 +31023,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6054": {
     "name": "S26 Kinjutsu: Advance Scissor",
-    "hash": "84caae26e891f7258db722ef252cfc3f",
+    "hash": "d42db672e50b35903fd5f14edfbe4f25",
     "data": {
       "id": "skill_6054",
       "price_tokens": 0,
@@ -30898,12 +31060,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6055": {
     "name": "S27 Kinjutsu: Ame no Futodama",
-    "hash": "d1548667e80549763df7e0406c4ed325",
+    "hash": "af72603ee12255b1a7715d63c9d0c717",
     "data": {
       "id": "skill_6055",
       "price_tokens": 0,
@@ -30933,12 +31098,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6056": {
     "name": "S27 Kinjutsu: Advance Ame no Futodama",
-    "hash": "f54fd8d257114e5fd2da14a56b94110a",
+    "hash": "9b37d0f98d3f3b0660763b705ca1fc06",
     "data": {
       "id": "skill_6056",
       "price_tokens": 0,
@@ -30968,12 +31136,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6057": {
     "name": "S28 Kinjutsu: Paper",
-    "hash": "972b5cbf7325143be10268b8f77c06f2",
+    "hash": "61533c28b52381bde5f210efcf349997",
     "data": {
       "id": "skill_6057",
       "price_tokens": 0,
@@ -31002,12 +31173,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6058": {
     "name": "S28 Kinjutsu: Advance Paper",
-    "hash": "4498be3d83f744476ced659c249dcd40",
+    "hash": "a135af209adce993382541dda1a3027a",
     "data": {
       "id": "skill_6058",
       "price_tokens": 0,
@@ -31036,12 +31210,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6059": {
     "name": "S29 Kinjutsu: Shunsatsu",
-    "hash": "05e2154a99757f6e666d46b6f7783db0",
+    "hash": "c1c9d7dbf995fb87529a9ea423c45cdd",
     "data": {
       "id": "skill_6059",
       "price_tokens": 0,
@@ -31063,12 +31240,15 @@
           87
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6060": {
     "name": "S29 Kinjutsu: Advance Shunsatsu",
-    "hash": "a3c434d19fdf9dc380d887daafd0dd74",
+    "hash": "0d811d7d1428db9bd14b058d29aaa740",
     "data": {
       "id": "skill_6060",
       "price_tokens": 0,
@@ -31090,12 +31270,15 @@
           87
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6061": {
     "name": "S30 Kinjutsu: Rock",
-    "hash": "c398aeeb547b341173e3ca7393fa15dd",
+    "hash": "86daf2f1be740297ba845a4f94d0ac68",
     "data": {
       "id": "skill_6061",
       "price_tokens": 0,
@@ -31124,12 +31307,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6062": {
     "name": "S30 Kinjutsu: Advance Rock",
-    "hash": "f372c4c15e28c126476720efdd71181a",
+    "hash": "0a9b169967ba7237d01f1c83f29260cd",
     "data": {
       "id": "skill_6062",
       "price_tokens": 0,
@@ -31158,12 +31344,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6063": {
     "name": "S31 Kinjutsu: Gara Jinrai",
-    "hash": "e01d4ed14df4f9aec75bc48c456db8a6",
+    "hash": "c5955745db0d9e96fd788a64be8d2c6f",
     "data": {
       "id": "skill_6063",
       "price_tokens": 0,
@@ -31185,12 +31374,15 @@
           76
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6064": {
     "name": "S31 Kinjutsu: Advance Gara Jinrai",
-    "hash": "bccebc3dd6c2d839e0b3f9f7dbbf2862",
+    "hash": "821074869415d63777d79ba13af56ed7",
     "data": {
       "id": "skill_6064",
       "price_tokens": 0,
@@ -31212,12 +31404,15 @@
           86
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6065": {
     "name": "S32 Kinjutsu: Devil's Seal",
-    "hash": "7b31c7e6ec498b4dca034cab5b2168f1",
+    "hash": "10dfdbcc34d1ea1977b883ce1c6a4765",
     "data": {
       "id": "skill_6065",
       "price_tokens": 0,
@@ -31239,12 +31434,15 @@
           46
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6066": {
     "name": "S32 Kinjutsu: Advance Devil's Seal",
-    "hash": "20094917069650c59acfc6e6ac6699af",
+    "hash": "04ee1c4c91effdd68ca82c527812edd8",
     "data": {
       "id": "skill_6066",
       "price_tokens": 0,
@@ -31266,12 +31464,15 @@
           80
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_6067": {
     "name": "S33 Kinjutsu: Raising Dragon Strike",
-    "hash": "398fcb27335d3b81c886c3a47b05e303",
+    "hash": "7de52f1835aa9683a56cab845c04f296",
     "data": {
       "id": "skill_6067",
       "price_tokens": 0,
@@ -31293,12 +31494,15 @@
           31
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_2"
     }
   },
   "skill::skill_6068": {
     "name": "S33 Kinjutsu: Advance Raising Dragon Strike",
-    "hash": "5147f96f051947823e16ddb7a9cc6e3b",
+    "hash": "bf6516f0634a26acf9067fb9a0e10819",
     "data": {
       "id": "skill_6068",
       "price_tokens": 0,
@@ -31320,12 +31524,15 @@
           31
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6069": {
     "name": "S34 Kinjutsu: Blood Butterfly Curse",
-    "hash": "6dbb05999d2749f13c3bd2b88688a62b",
+    "hash": "ae966c50eeafc19c48ca5ff4aa017eb3",
     "data": {
       "id": "skill_6069",
       "price_tokens": 0,
@@ -31352,12 +31559,15 @@
           "scale": 1
         }
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6070": {
     "name": "S34 Kinjutsu: Advance Blood Butterfly Curse",
-    "hash": "b6a3b6544db547937b9cd9efb88d0038",
+    "hash": "4060afd611680233abbe3f4dde8aa630",
     "data": {
       "id": "skill_6070",
       "price_tokens": 0,
@@ -31384,12 +31594,15 @@
           "scale": 1
         }
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6071": {
     "name": "S35 Kinjutsu: Shadow Assassin Fist",
-    "hash": "711d913a572c12e3a83bd6d7f42cb8f0",
+    "hash": "d0826d5cf46c8f15e158e392ab82a578",
     "data": {
       "id": "skill_6071",
       "price_tokens": 0,
@@ -31411,12 +31624,15 @@
           94
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_1"
     }
   },
   "skill::skill_6072": {
     "name": "S35 Kinjutsu: Advance Shadow Assassin Fist",
-    "hash": "f783d87c19a52c92fafc0964699ec90c",
+    "hash": "729cad6f7c6141cdf41a13c7ee49dd3f",
     "data": {
       "id": "skill_6072",
       "price_tokens": 0,
@@ -31438,12 +31654,15 @@
           94
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_1"
     }
   },
   "skill::skill_6073": {
     "name": "S36 Kinjutsu: Demon Raging Fist",
-    "hash": "5278be5570c02ec8795f310377704fbf",
+    "hash": "74dad10b07a7edf965a3317e0f18e4ec",
     "data": {
       "id": "skill_6073",
       "price_tokens": 0,
@@ -31469,12 +31688,15 @@
           "remove": 77
         }
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_1"
     }
   },
   "skill::skill_6074": {
     "name": "S36 Kinjutsu: Advance Demon Raging Fist",
-    "hash": "10f1902e05fbbf16df41bddbadef2891",
+    "hash": "69824afa7c8aa1bd07d439c8b69142f1",
     "data": {
       "id": "skill_6074",
       "price_tokens": 0,
@@ -31500,12 +31722,15 @@
           "remove": 77
         }
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_1"
     }
   },
   "skill::skill_6075": {
     "name": "S37 Kinjutsu: Drunken Boxing",
-    "hash": "7f6a2eeceb660d1927246cfea6f07f9e",
+    "hash": "deef516c7b296c74708b1b28a4feefa6",
     "data": {
       "id": "skill_6075",
       "price_tokens": 0,
@@ -31527,12 +31752,15 @@
           120
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_3"
     }
   },
   "skill::skill_6076": {
     "name": "S37 Kinjutsu: Advance Drunken Boxing",
-    "hash": "0a003f364fbebc179eb8e5eb0b8424d0",
+    "hash": "f2e441d58b1816f798efb7171573a275",
     "data": {
       "id": "skill_6076",
       "price_tokens": 0,
@@ -31554,12 +31782,15 @@
           120
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_3"
     }
   },
   "skill::skill_6077": {
     "name": "S38 Kinjutsu: Yami Shokushu",
-    "hash": "534a8203c525c3655ecb5b8b1765bc10",
+    "hash": "c84266d336e53c3906b6f807452a462f",
     "data": {
       "id": "skill_6077",
       "price_tokens": 0,
@@ -31588,12 +31819,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6078": {
     "name": "S38 Kinjutsu: Advance Yami Shokushu",
-    "hash": "3b748f65da016a50587122b63f8ea4bd",
+    "hash": "51bac18a053743816db011e8b9d01220",
     "data": {
       "id": "skill_6078",
       "price_tokens": 0,
@@ -31622,12 +31856,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6079": {
     "name": "S39 Kinjutsu: Ice Hammer",
-    "hash": "2385c013ef89eae635d0e3f132c05c09",
+    "hash": "7d109148fe4f8cfe83c62ae665cbd9f4",
     "data": {
       "id": "skill_6079",
       "price_tokens": 0,
@@ -31649,12 +31886,15 @@
           47
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_3"
     }
   },
   "skill::skill_6080": {
     "name": "S39 Kinjutsu: Advance Ice Hammer",
-    "hash": "f3e7a953bc30946bdae2ae13bfcf8adf",
+    "hash": "2718d8625e59cd20b3bab223d032950b",
     "data": {
       "id": "skill_6080",
       "price_tokens": 0,
@@ -31676,12 +31916,15 @@
           80
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_3"
     }
   },
   "skill::skill_6081": {
     "name": "S40 Kinjutsu: Hidden Shadow Great",
-    "hash": "996063a42b22c15320c81b53a2926d23",
+    "hash": "1791007ad3bc30c171eed11175bc5033",
     "data": {
       "id": "skill_6081",
       "price_tokens": 0,
@@ -31710,12 +31953,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6082": {
     "name": "S40 Kinjutsu: Advance Hidden Shadow Great",
-    "hash": "1664b9ae4ad397e71e2ffd7b6690e7d9",
+    "hash": "0c3d40843a6644eaf12953d2de2c659c",
     "data": {
       "id": "skill_6082",
       "price_tokens": 0,
@@ -31744,12 +31990,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6083": {
     "name": "S41 Kinjutsu: Curse of Darkness",
-    "hash": "1ef3785d13586d4c3c026d6f1e8f90ef",
+    "hash": "dee438992bc48040e8e0ed3cfbdc7bde",
     "data": {
       "id": "skill_6083",
       "price_tokens": 0,
@@ -31778,12 +32027,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6084": {
     "name": "S41 Kinjutsu: Advance Curse of Darkness",
-    "hash": "8cc46fa90b25cf219a42077677cb094e",
+    "hash": "a3bec0a9544f1fdf260c5ff49d1fcd04",
     "data": {
       "id": "skill_6084",
       "price_tokens": 0,
@@ -31812,12 +32064,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6085": {
     "name": "S42 Kinjutsu: Fire Giant Pit",
-    "hash": "48a32aaf5fdaa9bd894643c742bfdb31",
+    "hash": "25f6fd3bc492a04c5ab424431d1bcc66",
     "data": {
       "id": "skill_6085",
       "price_tokens": 0,
@@ -31839,12 +32094,15 @@
           66
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6086": {
     "name": "S42 Kinjutsu: Advance Fire Giant Pit",
-    "hash": "79d9080aad29e588cf5090980d43bae5",
+    "hash": "4d34f06cfad65fb718fa6931fc688571",
     "data": {
       "id": "skill_6086",
       "price_tokens": 0,
@@ -31866,12 +32124,15 @@
           66
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6087": {
     "name": "S43 Kinjutsu: Sparkling Lotus",
-    "hash": "aceb1ee2dd1eb5be934ed471b5a07efc",
+    "hash": "861b1a9b47e69fac982e86df182a8719",
     "data": {
       "id": "skill_6087",
       "price_tokens": 0,
@@ -31893,12 +32154,15 @@
           64
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_6088": {
     "name": "S43 Kinjutsu: Advance Sparkling Lotus",
-    "hash": "03e0ea8659ea48b7a5c9da1334566f2f",
+    "hash": "591c8830f86afa27abed62466ec2c3e9",
     "data": {
       "id": "skill_6088",
       "price_tokens": 0,
@@ -31920,12 +32184,15 @@
           64
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_6089": {
     "name": "S44 Kinjutsu: Seismic Force Release",
-    "hash": "a199dc71b61c801bb9f422bfcb099265",
+    "hash": "49135e4c78091b9a4f2732b52d65b397",
     "data": {
       "id": "skill_6089",
       "price_tokens": 0,
@@ -31947,12 +32214,15 @@
           42
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_2"
     }
   },
   "skill::skill_6090": {
     "name": "S44 Kinjutsu: Advance Seismic Force Release",
-    "hash": "16f42b9527dd927133b57cb3f9c3478f",
+    "hash": "61a6fe7027b28a00afe6589471ea84ca",
     "data": {
       "id": "skill_6090",
       "price_tokens": 0,
@@ -31974,12 +32244,15 @@
           42
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_2"
     }
   },
   "skill::skill_6091": {
     "name": "S45 Kinjutsu: Junkai Tsubame Gaeshi",
-    "hash": "52a5919d528c8912010e343447dcab7e",
+    "hash": "04e9589fa49872f65d69aae97cccc796",
     "data": {
       "id": "skill_6091",
       "price_tokens": 0,
@@ -32001,12 +32274,15 @@
           39
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_6092": {
     "name": "S45 Kinjutsu: Advance Junkai Tsubame Gaeshi",
-    "hash": "627cc7104b7ac59a832fb2f6ababddc1",
+    "hash": "c7c25745cec58e89c6ef46d34fa889ec",
     "data": {
       "id": "skill_6092",
       "price_tokens": 0,
@@ -32028,12 +32304,15 @@
           39
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_6093": {
     "name": "S46 Kinjutsu: Prism Refraction",
-    "hash": "e704f132a0679d97cb49eca24f84dfd1",
+    "hash": "8ad5f4c2a055672a825732495f796524",
     "data": {
       "id": "skill_6093",
       "price_tokens": 0,
@@ -32056,12 +32335,15 @@
           60
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_2"
     }
   },
   "skill::skill_6094": {
     "name": "S46 Kinjutsu: Advance Prism Refraction",
-    "hash": "c5dad39a945c61056ceb4c1f7d82e169",
+    "hash": "d28afd9aac2207c60dd1c9a5ff44011e",
     "data": {
       "id": "skill_6094",
       "price_tokens": 0,
@@ -32084,12 +32366,15 @@
           60
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_2"
     }
   },
   "skill::skill_6095": {
     "name": "S47 Kinjutsu: Twilight Wood Binding",
-    "hash": "983ce824991d6848ddf05740b8e1f000",
+    "hash": "342e989c2850b74c941162bfaca0deea",
     "data": {
       "id": "skill_6095",
       "price_tokens": 0,
@@ -32118,12 +32403,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6096": {
     "name": "S47 Kinjutsu: Advance Twilight Wood Binding",
-    "hash": "28759d39765d2e692229d2fc6c67264c",
+    "hash": "c2d9968ff3d32dd6fd8502c165bd8250",
     "data": {
       "id": "skill_6096",
       "price_tokens": 0,
@@ -32152,12 +32440,15 @@
           }
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_6097": {
     "name": "S48 Kinjutsu: Life Immolation Onslaught",
-    "hash": "5b17a47bb57fb5515d9e578803d68cef",
+    "hash": "ae9b44fe27f81d4c9a8883bbccd4b287",
     "data": {
       "id": "skill_6097",
       "price_tokens": 0,
@@ -32183,12 +32474,15 @@
           "remove": 46
         }
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_6098": {
     "name": "S48 Kinjutsu: Advance Life Immolation Onslaught",
-    "hash": "2dd4aae4f6e48100953ad36e67eb3197",
+    "hash": "497a9029693f08d0a2026ea1e5d5df5a",
     "data": {
       "id": "skill_6098",
       "price_tokens": 0,
@@ -32214,12 +32508,15 @@
           "remove": 46
         }
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_6099": {
     "name": "S49 Kinjutsu: Soul Resonation",
-    "hash": "b35c15e78955ed25af14a2115a89f96a",
+    "hash": "923bcacd07f031a65c2db3e0e3c9b4cd",
     "data": {
       "id": "skill_6099",
       "price_tokens": 0,
@@ -32242,12 +32539,15 @@
           78
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_6100": {
     "name": "S49 Kinjutsu: Advance Soul Resonation",
-    "hash": "e4d9650ef58c9a51c0bbf9ccbaa5829b",
+    "hash": "a838073ec9e91db0612c0006fa33f202",
     "data": {
       "id": "skill_6100",
       "price_tokens": 0,
@@ -32270,12 +32570,15 @@
           134
         ]
       },
+      "source": [
+        "clan"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_7000": {
     "name": "S0 Kinjutsu: Katon Flare Flash Combo",
-    "hash": "2c181f1665400b0fb5771354f4bd9615",
+    "hash": "2e1bab848b1e11fd417546bd70c1d684",
     "data": {
       "id": "skill_7000",
       "price_tokens": 0,
@@ -32297,12 +32600,15 @@
           65
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7001": {
     "name": "S0 Kinjutsu: Advanced Katon Flare Flash Combo",
-    "hash": "6bdbcdf0cf921ffc996caab1a8b43eab",
+    "hash": "04d88db06ae0b50cedd7130d4a078096",
     "data": {
       "id": "skill_7001",
       "price_tokens": 0,
@@ -32324,12 +32630,15 @@
           107
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7002": {
     "name": "S1 Kinjutsu: Gale Whiteout Combo",
-    "hash": "cb2eb17b9cf0ec1cf0bf78a62f99be6f",
+    "hash": "fef0dfa985189a95ff79fee16afa84b7",
     "data": {
       "id": "skill_7002",
       "price_tokens": 0,
@@ -32351,12 +32660,15 @@
           81
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7003": {
     "name": "S1 Kinjutsu: Advanced Gale Whiteout Combo Blast",
-    "hash": "7c4ffdad1be0a15ceeaafb281b23fccd",
+    "hash": "17e862e94293427a371bd32a82d02a8d",
     "data": {
       "id": "skill_7003",
       "price_tokens": 0,
@@ -32378,12 +32690,15 @@
           138
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7004": {
     "name": "S2 Kinjutsu: Wind Style Technique Rasen Shuriken",
-    "hash": "300202566d83317627a865502f4cc055",
+    "hash": "00a0102e03739e55d0c0c59efe5feb8d",
     "data": {
       "id": "skill_7004",
       "price_tokens": 0,
@@ -32409,12 +32724,15 @@
           25
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7005": {
     "name": "S2 Kinjutsu: Advanced Wind Style Technique Rasen Shuriken",
-    "hash": "f4734cf184cb6fd423655c4844bb6bcb",
+    "hash": "ab7d0bbb25b7f80602c94bdf7f572627",
     "data": {
       "id": "skill_7005",
       "price_tokens": 0,
@@ -32440,12 +32758,15 @@
           25
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7006": {
     "name": "S3 Sage Art: Wood Style True Thousand Hands",
-    "hash": "288bec6b81748b0475b6fc124bc71946",
+    "hash": "f2806613df49c141c4485cf86fd86b48",
     "data": {
       "id": "skill_7006",
       "price_tokens": 0,
@@ -32479,12 +32800,15 @@
           }
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7007": {
     "name": "S3 Sage Art: Advanced Wood Style True Thousand Hands",
-    "hash": "7c50a20c858603fdcfb8ac1545450426",
+    "hash": "f905cfd52d126fb8a044fac094356bbd",
     "data": {
       "id": "skill_7007",
       "price_tokens": 0,
@@ -32518,12 +32842,15 @@
           }
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7008": {
     "name": "S4 Kinjutsu: Flying Thunder God",
-    "hash": "4dee57098bb10b9d8b5e2e8370eff5b8",
+    "hash": "c749d3141d683e46c23d198c4e2b3d5c",
     "data": {
       "id": "skill_7008",
       "price_tokens": 0,
@@ -32546,12 +32873,15 @@
           120
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7009": {
     "name": "S4 Kinjutsu: Advanced Flying Thunder God",
-    "hash": "ef90ed71ee8b149bd7363b28889a1376",
+    "hash": "20a9cca285a6e74e1865ec4aafcc9111",
     "data": {
       "id": "skill_7009",
       "price_tokens": 0,
@@ -32574,12 +32904,15 @@
           148
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7010": {
     "name": "S5 Kinjutsu: Sand Guardian's Blessing",
-    "hash": "fb7126c1c1b5b9b4501904a5dc67b786",
+    "hash": "071b156a5f35815ae8d79252162c28cf",
     "data": {
       "id": "skill_7010",
       "price_tokens": 0,
@@ -32601,12 +32934,15 @@
           154
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7011": {
     "name": "S5 Kinjutsu: Advanced Sand Guardian's Blessing",
-    "hash": "f8f29b2b2dd862c02698f602080ea89f",
+    "hash": "0e4ef8e16580d66dd8778faadebf5041",
     "data": {
       "id": "skill_7011",
       "price_tokens": 0,
@@ -32628,12 +32964,15 @@
           154
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7012": {
     "name": "S6 Kinjutsu: Feline Maelstrom",
-    "hash": "181ace0059bb3474cb3a316b054268be",
+    "hash": "18e6f081230c7d5c1b400b6fe3a777cf",
     "data": {
       "id": "skill_7012",
       "price_tokens": 0,
@@ -32656,12 +32995,15 @@
           87
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7013": {
     "name": "S6 Kinjutsu: Advanced Feline Maelstrom",
-    "hash": "ca2887b95bacadfc5be6ff9deb0b85fd",
+    "hash": "81c07dc91720f490210166c09b64a529",
     "data": {
       "id": "skill_7013",
       "price_tokens": 0,
@@ -32684,12 +33026,15 @@
           87
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7014": {
     "name": "S7 Kinjutsu: Depth Charge of Aqua Sentinel",
-    "hash": "95056b9eff68944ee9c6fb393451ce89",
+    "hash": "767d21e2fddc8893e9c58eda7c143020",
     "data": {
       "id": "skill_7014",
       "price_tokens": 0,
@@ -32712,12 +33057,15 @@
           87
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7015": {
     "name": "S7 Kinjutsu: Advanced Depth Charge of Aqua Sentinel",
-    "hash": "c2c53627a445f56698d81036696aeedf",
+    "hash": "ab77ef36f613c4b712b02d594414ba71",
     "data": {
       "id": "skill_7015",
       "price_tokens": 0,
@@ -32740,12 +33088,15 @@
           87
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7016": {
     "name": "S8 Kinjutsu: Fiery Kong Rage",
-    "hash": "07539cd4abc512ac5b230fcc716f8602",
+    "hash": "5f7daaf09ce8819bdaca7034e49acc64",
     "data": {
       "id": "skill_7016",
       "price_tokens": 0,
@@ -32768,12 +33119,15 @@
           67
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7017": {
     "name": "S8 Kinjutsu: Advanced Fiery Kong Rage",
-    "hash": "51a31cba7752dbb637273f4151c6d4b6",
+    "hash": "92520c6dca71fc341c40ac4ea11f40ee",
     "data": {
       "id": "skill_7017",
       "price_tokens": 0,
@@ -32796,12 +33150,15 @@
           73
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7018": {
     "name": "S9 Kinjutsu: Kokuo Stomp",
-    "hash": "db976c6a8f15cd66dc630579c2d08dba",
+    "hash": "f7eb131ca2c94b41901da3dcf6ccfb4e",
     "data": {
       "id": "skill_7018",
       "price_tokens": 0,
@@ -32828,12 +33185,15 @@
           "remove": 103
         }
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7019": {
     "name": "S9 Kinjutsu: Advanced Kokuo Stomp",
-    "hash": "3055a561b2695599873efa0412d4ee93",
+    "hash": "81b08c3a0334dcd7784a2daabbf211e0",
     "data": {
       "id": "skill_7019",
       "price_tokens": 0,
@@ -32860,12 +33220,15 @@
           "remove": 103
         }
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7020": {
     "name": "S10 Kinjutsu: Saiken Chakra Cloak",
-    "hash": "ed4319b9449b32ee2ecfbab54a90d6be",
+    "hash": "fa21a10ef5e3dcffb458e9301b37d25d",
     "data": {
       "id": "skill_7020",
       "price_tokens": 0,
@@ -32887,12 +33250,15 @@
           75
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7021": {
     "name": "S10 Kinjutsu: Advanced Saiken Chakra Cloak",
-    "hash": "1c852f090ec1476f5fa5036ac5cbbc45",
+    "hash": "a31357424ff880240dfabe628d1700c2",
     "data": {
       "id": "skill_7021",
       "price_tokens": 0,
@@ -32914,12 +33280,15 @@
           75
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7022": {
     "name": "S11 Kinjutsu: Choumei Combo Barrage",
-    "hash": "6e85daa9d2c6bdcc7a0d5e0251d00dc8",
+    "hash": "695350557bf65fa1416c0a90a7c86320",
     "data": {
       "id": "skill_7022",
       "price_tokens": 0,
@@ -32936,18 +33305,20 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           71
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7023": {
     "name": "S11 Kinjutsu: Advanced Choumei Combo Barrage",
-    "hash": "4139a571609645251cf49df550357b33",
+    "hash": "93b73b9acc4b870b6d020fe0f38a8c56",
     "data": {
       "id": "skill_7023",
       "price_tokens": 0,
@@ -32964,18 +33335,20 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           106
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7024": {
     "name": "S12 Kinjutsu: Gyuki Ink Cannon",
-    "hash": "253d11380305ed01c8bb8c6d6aa82569",
+    "hash": "a5d8ad524a7df30de8987dc728195954",
     "data": {
       "id": "skill_7024",
       "price_tokens": 0,
@@ -32992,18 +33365,20 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           73
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_1"
     }
   },
   "skill::skill_7025": {
     "name": "S12 Kinjutsu: Advanced Gyuki Ink Cannon",
-    "hash": "66b843d033607e63ac3574b976757c6a",
+    "hash": "eef57997fe0771e86057652a08245872",
     "data": {
       "id": "skill_7025",
       "price_tokens": 0,
@@ -33021,18 +33396,20 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           75
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7026": {
     "name": "S13 Kinjutsu: Kurama Chakra Armor",
-    "hash": "f9083375f7971c1199b719b56ee649a3",
+    "hash": "5814d5a748e81578eef5acbc53a1b2c5",
     "data": {
       "id": "skill_7026",
       "price_tokens": 0,
@@ -33049,7 +33426,6 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           85
@@ -33059,12 +33435,15 @@
           "remove": 56
         }
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_7027": {
     "name": "S13 Kinjutsu: Advanced Kurama Chakra Armor",
-    "hash": "8b20714e5a5812f17250edfd2d72ce46",
+    "hash": "166f282a3a087eaa70385dd8c4aae4bc",
     "data": {
       "id": "skill_7027",
       "price_tokens": 0,
@@ -33081,7 +33460,6 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           105
@@ -33091,12 +33469,15 @@
           "remove": 56
         }
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_7028": {
     "name": "S14 Kinjutsu: Daidarabotchi Chakra Blast",
-    "hash": "95643a3bdb83c6bee0bbf43f048d458d",
+    "hash": "9018fc35d08b56dea283962adbe5483a",
     "data": {
       "id": "skill_7028",
       "price_tokens": 0,
@@ -33122,12 +33503,15 @@
           "remove": 103
         }
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7029": {
     "name": "S14 Kinjutsu: Advanced Daidarabotchi Chakra Blast",
-    "hash": "7d759edf7fa50c179e3d2d5d76271870",
+    "hash": "53b28fe49bc29907b714acbd5c002826",
     "data": {
       "id": "skill_7029",
       "price_tokens": 0,
@@ -33154,12 +33538,15 @@
           "remove": 137
         }
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7030": {
     "name": "S15 Kinjutsu: Swift Gale Slash",
-    "hash": "bd6a6e810cd30c8793003f1ff9d1d223",
+    "hash": "0e0d760d2d5b98bdd50c784eb2de33ed",
     "data": {
       "id": "skill_7030",
       "price_tokens": 0,
@@ -33181,12 +33568,15 @@
           64
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7031": {
     "name": "S15 Kinjutsu: Advanced Swift Gale Slash",
-    "hash": "d2fad60781414c31840d9ad8ae4a49bc",
+    "hash": "359d427b8eead818945ff0b0b37dd66e",
     "data": {
       "id": "skill_7031",
       "price_tokens": 0,
@@ -33208,12 +33598,15 @@
           58
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7032": {
     "name": "S16 Kinjutsu: Particle Demolition",
-    "hash": "9b5426a5ef958064cc4b545009cca9cd",
+    "hash": "c9824630e566d207745e5aab7dd6dc80",
     "data": {
       "id": "skill_7032",
       "price_tokens": 0,
@@ -33235,12 +33628,15 @@
           60
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_7033": {
     "name": "S16 Kinjutsu: Advanced Particle Demolition",
-    "hash": "57e7cf010baf740fade830b9f65c4ef3",
+    "hash": "374bd2331908fa0bd5e87971d054cde5",
     "data": {
       "id": "skill_7033",
       "price_tokens": 0,
@@ -33262,12 +33658,15 @@
           60
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_7034": {
     "name": "S17 Blood Release: Demon Veins",
-    "hash": "c4984bf4ed62026fe40250a165796b5d",
+    "hash": "89b75608807c51da9192ce5760255d8e",
     "data": {
       "id": "skill_7034",
       "price_tokens": 0,
@@ -33289,12 +33688,15 @@
           96
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7035": {
     "name": "S17 Blood Release: Advance Demon Veins",
-    "hash": "962970b61f3676f2ac730e895b5cfc4d",
+    "hash": "3bc7317fec7305aa93d808167050e6d2",
     "data": {
       "id": "skill_7035",
       "price_tokens": 0,
@@ -33316,12 +33718,15 @@
           96
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7036": {
     "name": "S18 Kinjutsu: Demonic Curse Arm",
-    "hash": "cae97c8bb635a5956eb82aaa4398b3f4",
+    "hash": "7986ba82e1c91259e37f19aa32733739",
     "data": {
       "id": "skill_7036",
       "price_tokens": 0,
@@ -33347,12 +33752,15 @@
           "remove": 107
         }
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7037": {
     "name": "S18 Kinjutsu: Advanced Demonic Curse Arm",
-    "hash": "f1b0fe0b8fd75ff59f774e73790d2fe8",
+    "hash": "44dad8c265fc54b9c296af6be36a878e",
     "data": {
       "id": "skill_7037",
       "price_tokens": 0,
@@ -33378,12 +33786,15 @@
           "remove": 107
         }
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7038": {
     "name": "Demonic Strike",
-    "hash": "2370aa413818021409a5d7ca4ba17223",
+    "hash": "9d8eb4824e7f3283f4ef7010345a5a3e",
     "data": {
       "id": "skill_7038",
       "price_tokens": 0,
@@ -33406,12 +33817,15 @@
           63
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "meele_3"
     }
   },
   "skill::skill_7039": {
     "name": "Advanced Demonic Strike",
-    "hash": "9a5ee917002e390c17111988f629c797",
+    "hash": "280eecf12a6a1454c593b5fa36be23f0",
     "data": {
       "id": "skill_7039",
       "price_tokens": 0,
@@ -33434,12 +33848,15 @@
           82
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "meele_3"
     }
   },
   "skill::skill_7040": {
     "name": "S19 Kinjutsu: Dragon Burst Explosion",
-    "hash": "5ffb62611c9fb8c26fb1858d3adb97ff",
+    "hash": "f048c1a12e5133576556a78a1a0d17ce",
     "data": {
       "id": "skill_7040",
       "price_tokens": 0,
@@ -33461,6 +33878,9 @@
           72
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
@@ -33498,7 +33918,7 @@
   },
   "skill::skill_7042": {
     "name": "S20 Kinjutsu: Emberstep Demonic Execution",
-    "hash": "91bf3aecb14e6d240e621926b6badf41",
+    "hash": "4d73b8e9881479304d4f8605d3704e1f",
     "data": {
       "id": "skill_7042",
       "price_tokens": 0,
@@ -33520,12 +33940,15 @@
           139
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7043": {
     "name": "S20 Kinjutsu: Advanced Emberstep Demonic Execution",
-    "hash": "c1e5f91828b3abbd97808f6cf02c1ee0",
+    "hash": "a2992a8f4d20fbf822a6030b306d3b32",
     "data": {
       "id": "skill_7043",
       "price_tokens": 0,
@@ -33547,12 +33970,15 @@
           139
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7044": {
     "name": "S21 Kinjutsu: Phoenix Breath",
-    "hash": "2f60acd2ce72decaf169ba4bf8528636",
+    "hash": "a8f0323704832398aef0f035f07f6fa9",
     "data": {
       "id": "skill_7044",
       "price_tokens": 0,
@@ -33574,12 +34000,15 @@
           48
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_2"
     }
   },
   "skill::skill_7045": {
     "name": "S21 Kinjutsu: Advanced Phoenix Breath",
-    "hash": "3bacb91f2b964b083a527da596d86aea",
+    "hash": "1c14b3e26fffc0f45ea7af13cf1bb352",
     "data": {
       "id": "skill_7045",
       "price_tokens": 0,
@@ -33602,12 +34031,15 @@
           48
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_2"
     }
   },
   "skill::skill_7046": {
     "name": "S22 Kinjutsu: Flash Thorned Strike",
-    "hash": "16d745da94789e05ac3877d8a02bd887",
+    "hash": "9366f6279f4dbdffde517df314b4e154",
     "data": {
       "id": "skill_7046",
       "price_tokens": 0,
@@ -33629,12 +34061,15 @@
           48
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7047": {
     "name": "S22 Kinjutsu: Advanced Flash Thorned Strike",
-    "hash": "50d075658547e46321766da732a7f505",
+    "hash": "cb214d1d226795f2e5cbd53660944ecd",
     "data": {
       "id": "skill_7047",
       "price_tokens": 0,
@@ -33656,12 +34091,15 @@
           48
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7048": {
     "name": "S23 Kinjutsu: Dark Sea Flood",
-    "hash": "04e7d3a40837ea3914e25c93d5ea50d4",
+    "hash": "d021c07eb9a7de063b0098d5a5b989f8",
     "data": {
       "id": "skill_7048",
       "price_tokens": 0,
@@ -33685,12 +34123,15 @@
           77
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7049": {
     "name": "S23 Kinjutsu: Advanced Dark Sea Flood",
-    "hash": "45ea4b2afe6a6462ef16797e284060a4",
+    "hash": "e0e85c9e5cf3c5460d81dde65de33447",
     "data": {
       "id": "skill_7049",
       "price_tokens": 0,
@@ -33714,12 +34155,15 @@
           77
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7050": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
-    "hash": "5535d4e1b8ec187088602cfe9733821b",
+    "hash": "da711c42d73dd13835755f40a013c790",
     "data": {
       "id": "skill_7050",
       "price_tokens": 0,
@@ -33742,12 +34186,15 @@
           46
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7051": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
-    "hash": "82f01bf9483c6cfce85ee825fdc943b0",
+    "hash": "edfa2884ffacbf0b46a4f5fa9ac9de4a",
     "data": {
       "id": "skill_7051",
       "price_tokens": 0,
@@ -33770,12 +34217,15 @@
           71
         ]
       },
+      "source": [
+        "sw"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8001": {
     "name": "S0 Kinjutsu: Aether Consemination Blast",
-    "hash": "bb3742e3973186776bb9fd1560ff040b",
+    "hash": "328c397026f7224de4a95a732acbaf8e",
     "data": {
       "id": "skill_8001",
       "price_tokens": 0,
@@ -33798,12 +34248,15 @@
           105
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8002": {
     "name": "S2 Kinjutsu: Purgatory Fire",
-    "hash": "cf8a33a502b85c1cd5bb6a6ad3dae1bb",
+    "hash": "ee74eaafc4a7b2a4048df8211c7e7ce7",
     "data": {
       "id": "skill_8002",
       "price_tokens": 0,
@@ -33831,12 +34284,15 @@
           "scale": 2
         }
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8003": {
     "name": "S2 Kinjutsu: Sand Storm Guard",
-    "hash": "2f4d0e18203fb88829bb83f7845a4703",
+    "hash": "652d3e3e99dc4a604978c0d5df4e222c",
     "data": {
       "id": "skill_8003",
       "price_tokens": 0,
@@ -33858,12 +34314,15 @@
           62
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8004": {
     "name": "S3 Kinjutsu: Shadow Army",
-    "hash": "d0f2cc52aa1f0b1294113b3588dbdaea",
+    "hash": "ed3f1690c25de4aca18b0b5274e937f9",
     "data": {
       "id": "skill_8004",
       "price_tokens": 0,
@@ -33886,12 +34345,15 @@
           53
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8005": {
     "name": "S4 Kinjutsu: Unreal Cube",
-    "hash": "a88e744e5ce84f82e438315b1f6b7a19",
+    "hash": "b02bca498a586bab1278d1603f3ea9f8",
     "data": {
       "id": "skill_8005",
       "price_tokens": 0,
@@ -33913,12 +34375,15 @@
           59
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8006": {
     "name": "S4 Kinjutsu: Bone Carnage Hell",
-    "hash": "4e590f39a57c7f57d4e36f31cf2f96e4",
+    "hash": "67ba02c2f2a00257f4b4a268a6b46e58",
     "data": {
       "id": "skill_8006",
       "price_tokens": 0,
@@ -33940,12 +34405,15 @@
           69
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "meele_3"
     }
   },
   "skill::skill_8007": {
     "name": "S5 Kinjutsu: Giant Palm",
-    "hash": "b841570fca5e1f37b26392768f6ae4af",
+    "hash": "1719699fb78d7623173fecaaac3ab0d4",
     "data": {
       "id": "skill_8007",
       "price_tokens": 0,
@@ -33967,12 +34435,15 @@
           65
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8008": {
     "name": "S5 Kinjutsu: Desert Pyramid",
-    "hash": "4a40a498a37d0f97fe1ed5f6da7d8716",
+    "hash": "c24ba9afe30733622e2c9c4fca53b19e",
     "data": {
       "id": "skill_8008",
       "price_tokens": 0,
@@ -33995,12 +34466,15 @@
           64
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8009": {
     "name": "S6 Kinjutsu: Reiki Beast Fists",
-    "hash": "6dd4499369e59a6bfffb9826ff486e15",
+    "hash": "2c67a0572aebda831b94aa151ccfcb00",
     "data": {
       "id": "skill_8009",
       "price_tokens": 0,
@@ -34022,12 +34496,15 @@
           34
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_8010": {
     "name": "S6 Kinjutsu: Black Crow",
-    "hash": "f9b9732f2c9b9b6494db498c6174cb16",
+    "hash": "c28829b56058e823bf4219405e55089e",
     "data": {
       "id": "skill_8010",
       "price_tokens": 0,
@@ -34049,12 +34526,15 @@
           32
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_8011": {
     "name": "S7 Kinjutsu: Dark Puncture",
-    "hash": "be7bc36fbb97755867003eb0e26c5378",
+    "hash": "6cf00af0744c1673528da8b8c14edcbc",
     "data": {
       "id": "skill_8011",
       "price_tokens": 0,
@@ -34083,12 +34563,15 @@
           }
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8012": {
     "name": "S7 Kinjutsu: Mirage",
-    "hash": "f32d8992affb6f588c706e5920882ef9",
+    "hash": "fa3d1e067c44a11c07b2e8ca370c6d9c",
     "data": {
       "id": "skill_8012",
       "price_tokens": 0,
@@ -34110,12 +34593,15 @@
           69
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_8013": {
     "name": "S8 Kinjutsu: Soul Upheaval",
-    "hash": "10630f43e84e9d6ad3b8795f75640b88",
+    "hash": "8c8af57088a42796bcd73c30f00cafe0",
     "data": {
       "id": "skill_8013",
       "price_tokens": 0,
@@ -34144,12 +34630,15 @@
           }
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_8014": {
     "name": "S9 Kinjutsu: Diabolus Manifestation",
-    "hash": "e2acaaab6e9548e701b66ad7ce125ec2",
+    "hash": "af8a60cf210224896c4250ebacc32d9b",
     "data": {
       "id": "skill_8014",
       "price_tokens": 0,
@@ -34171,12 +34660,15 @@
           49
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8015": {
     "name": "S10 Kinjutsu: Eternal Iceberg",
-    "hash": "46bca83a2910104e32096116ebe40571",
+    "hash": "9770f5e891f6926818f3ffed93ad20eb",
     "data": {
       "id": "skill_8015",
       "price_tokens": 0,
@@ -34198,12 +34690,15 @@
           59
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8016": {
     "name": "S11 Kinjutsu: Thorns Disaster",
-    "hash": "6f1c35192eff395ca4647104a65276d0",
+    "hash": "e016f8dd0d3c4b307bdb8d5e93e6141c",
     "data": {
       "id": "skill_8016",
       "price_tokens": 0,
@@ -34226,12 +34721,15 @@
           44
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8017": {
     "name": "S12 Kinjutsu: Prison of Gaia",
-    "hash": "ac4da2d2bcd266c0b3aa2ab66fc6d756",
+    "hash": "0b121be731d6a9364d2ccdec83d09f47",
     "data": {
       "id": "skill_8017",
       "price_tokens": 0,
@@ -34254,12 +34752,15 @@
           40
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8018": {
     "name": "S13 Kinjutsu: Infernal Puncture",
-    "hash": "10bb6b9c10f7e3688ce9165fe3f88e54",
+    "hash": "62d48b29c447378ff5aa92283ac756f9",
     "data": {
       "id": "skill_8018",
       "price_tokens": 0,
@@ -34282,12 +34783,15 @@
           46
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8019": {
     "name": "S14 Kinjutsu: Arrow of Tide",
-    "hash": "23ab0ef1352e0764a3105035274484ed",
+    "hash": "73fc7d7cc4b1bd3e54d1b7620df4406e",
     "data": {
       "id": "skill_8019",
       "price_tokens": 0,
@@ -34309,12 +34813,15 @@
           65
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8020": {
     "name": "S15 Kinjutsu: Frozen Lazer",
-    "hash": "1b54bafb880ce621f9d9b598bb3d96db",
+    "hash": "956eea1832c62f1c8f15ee6bbaa2369e",
     "data": {
       "id": "skill_8020",
       "price_tokens": 0,
@@ -34331,18 +34838,20 @@
       "type": "7",
       "category": "crew",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           52
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8021": {
     "name": "S16 Kinjutsu: Umbra Fist",
-    "hash": "6472319fd36d5e7fa765b79daf4a71f2",
+    "hash": "35f95c45a1894cd60d6dac33392b740c",
     "data": {
       "id": "skill_8021",
       "price_tokens": 0,
@@ -34359,18 +34868,20 @@
       "type": "6",
       "category": "crew",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           40
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8022": {
     "name": "S17 Kinjutsu: Sunrising",
-    "hash": "2386bd6a8852c7f1878a7edafa836aaf",
+    "hash": "b8f0909af4e21b7bf7a5c58b9e85da00",
     "data": {
       "id": "skill_8022",
       "price_tokens": 0,
@@ -34387,18 +34898,20 @@
       "type": "7",
       "category": "crew",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           63
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_8023": {
     "name": "S18 Kinjutsu: Devil Grip",
-    "hash": "7fa75196843fa95827abc43e8c5fcc84",
+    "hash": "2da0465524cbb59b10f2a04e6b66a03b",
     "data": {
       "id": "skill_8023",
       "price_tokens": 0,
@@ -34415,18 +34928,20 @@
       "type": "7",
       "category": "crew",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           70
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8024": {
     "name": "S19 Kinjutsu: Earth Barrier",
-    "hash": "4ccaab88808b422fc81ce66b194c0c86",
+    "hash": "8e79dc60a137acdbb54808206c4c3eac",
     "data": {
       "id": "skill_8024",
       "price_tokens": 0,
@@ -34449,12 +34964,15 @@
           24
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_8025": {
     "name": "S20 Kinjutsu: Lightning Whip",
-    "hash": "185779abc9eef4290d2ba05727555c38",
+    "hash": "89b4066e2b7da7243f32f22f8d40d1cd",
     "data": {
       "id": "skill_8025",
       "price_tokens": 0,
@@ -34477,6 +34995,9 @@
           56
         ]
       },
+      "source": [
+        "crew"
+      ],
       "attack_hit_position": "meele_1"
     }
   },
@@ -220541,7 +221062,7 @@
   },
   "weapon_effect::wpn_6086": {
     "name": "S49 Clan: Serpent Dragon Schyte",
-    "hash": "9dec6ce566a8cc708f67a7679fb3447e",
+    "hash": "421e8595e4962307ba107e574d517021",
     "data": {
       "id": "wpn_6086",
       "effects": [
@@ -220554,7 +221075,7 @@
           "duration": 0,
           "calc_type": "percent",
           "reduce_type": "MAX",
-          "amount": 20,
+          "amount": 35,
           "chance": 100
         },
         {
@@ -220565,7 +221086,7 @@
           "effect_name": "Recover CP",
           "duration": 0,
           "calc_type": "percent",
-          "amount": 5,
+          "amount": 7,
           "chance": 100
         },
         {
@@ -220576,7 +221097,7 @@
           "effect_name": "Increase Accuracy",
           "duration": 0,
           "calc_type": "number",
-          "amount": 35,
+          "amount": 40,
           "chance": 100
         }
       ]
@@ -242655,7 +243176,7 @@
   },
   "back_effect::back_6050": {
     "name": "S49 Clan: Serpent Dragon Chakram",
-    "hash": "ff8254b30e223ea9925fe3026c7612ee",
+    "hash": "50b0ab51b83d821000b731ee8b9524c9",
     "data": {
       "id": "back_6050",
       "effects": [
@@ -242667,7 +243188,7 @@
           "effect_name": "Increase Critical",
           "duration": 0,
           "calc_type": "number",
-          "amount": 1,
+          "amount": 3,
           "chance": 100
         },
         {
@@ -242678,7 +243199,7 @@
           "effect_name": "Increase Accuracy",
           "duration": 0,
           "calc_type": "number",
-          "amount": 7,
+          "amount": 15,
           "chance": 100
         }
       ]
