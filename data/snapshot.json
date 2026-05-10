@@ -34099,7 +34099,7 @@
   },
   "skill::skill_7048": {
     "name": "S23 Kinjutsu: Dark Sea Flood",
-    "hash": "d021c07eb9a7de063b0098d5a5b989f8",
+    "hash": "ef99f33e01fc9ba64450ebc9abdfabac",
     "data": {
       "id": "skill_7048",
       "price_tokens": 0,
@@ -34117,7 +34117,6 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           77
@@ -34131,7 +34130,7 @@
   },
   "skill::skill_7049": {
     "name": "S23 Kinjutsu: Advanced Dark Sea Flood",
-    "hash": "e0e85c9e5cf3c5460d81dde65de33447",
+    "hash": "9fef10e7559b0199e0117690ac367ac5",
     "data": {
       "id": "skill_7049",
       "price_tokens": 0,
@@ -34149,7 +34148,6 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           77
@@ -34163,7 +34161,7 @@
   },
   "skill::skill_7050": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
-    "hash": "da711c42d73dd13835755f40a013c790",
+    "hash": "7911ecc7be5faf3680c05ece50e4082e",
     "data": {
       "id": "skill_7050",
       "price_tokens": 0,
@@ -34175,7 +34173,7 @@
       "cp_cost": 10,
       "cooldown": 18,
       "target": "Self",
-      "description": "(Kinjutsu)",
+      "description": "(Kinjutsu) ",
       "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
       "type": "7",
       "category": "shadowwar",
@@ -34189,12 +34187,12 @@
       "source": [
         "sw"
       ],
-      "attack_hit_position": "range_3"
+      "attack_hit_position": "startpos"
     }
   },
   "skill::skill_7051": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
-    "hash": "edfa2884ffacbf0b46a4f5fa9ac9de4a",
+    "hash": "4590001df5f8a9b09b721ce1ad954863",
     "data": {
       "id": "skill_7051",
       "price_tokens": 0,
@@ -34220,7 +34218,43 @@
       "source": [
         "sw"
       ],
-      "attack_hit_position": "range_3"
+      "attack_hit_position": "startpos"
+    }
+  },
+  "skill::skill_7052": {
+    "name": "S25 Kinjutsu: ",
+    "hash": "bb0dc60f032cd9d9574e3ce729925b8e",
+    "data": {
+      "id": "skill_7052",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 99,
+      "damage": 999,
+      "hit_chance": 0,
+      "cp_cost": 999,
+      "cooldown": 999,
+      "target": "Single",
+      "description": "(Kinjutsu) ",
+      "name": "S25 Kinjutsu: ",
+      "type": "7",
+      "category": "shadowwar",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          80
+        ],
+        "fullscreen": {
+          "add": 59,
+          "remove": 86,
+          "top": true
+        }
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "meele_2"
     }
   },
   "skill::skill_8001": {
@@ -53537,7 +53571,7 @@
   },
   "library::wpn_2287": {
     "name": "Toothiana Sword",
-    "hash": "c0886d410d8d0bf803fb3923ac773e53",
+    "hash": "8a3c52e61e001aa650e85c2cbb29ec2a",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -53556,13 +53590,14 @@
       "category": "event",
       "sellable": false,
       "source": [
+        "christmas2024",
         "material_market"
       ]
     }
   },
   "library::wpn_2288": {
     "name": "Double Winter Schimitar",
-    "hash": "4f2280d2768d8790d706c0c2d0794ad7",
+    "hash": "d1a80ac09ef0eec5d0015e8376b5b513",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
@@ -53581,13 +53616,14 @@
       "category": "event",
       "sellable": false,
       "source": [
+        "christmas2024",
         "material_market"
       ]
     }
   },
   "library::wpn_2289": {
     "name": "Pitch Black Spear",
-    "hash": "3e552ee6deb20632cfa04ac6fe1139fb",
+    "hash": "1a2100328f9200ec86afd01ae1a8df41",
     "data": {
       "attack_type": "attack_07",
       "buyable_clan": false,
@@ -53606,6 +53642,7 @@
       "category": "event",
       "sellable": false,
       "source": [
+        "christmas2024",
         "material_market"
       ]
     }
@@ -61216,13 +61253,13 @@
   },
   "library::wpn_7019": {
     "name": "S24 Shadow War: Seraph's Ruin Edge",
-    "hash": "c33894e24b455a60ee997068115b57d1",
+    "hash": "49c9953e9700dd8bb6f7378748a3f7a2",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
       "description": "S24 Shadow War Reward: ",
       "level": 95,
-      "damage": 555,
+      "damage": 540,
       "sell_price": 0,
       "type": "wpn",
       "price_tokens": 0,
@@ -61234,6 +61271,7 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
+      "na": true,
       "source": [
         "sw"
       ]
@@ -74818,7 +74856,7 @@
   },
   "library::back_2275": {
     "name": "Tatiana Wings",
-    "hash": "0f2b8b893c3dd6974b42c8a24cfc7402",
+    "hash": "1f6f8663d60c4fc4a81a2edc3d459ffd",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -74837,13 +74875,14 @@
       "category": "event",
       "sellable": false,
       "source": [
+        "christmas2024",
         "material_market"
       ]
     }
   },
   "library::back_2276": {
     "name": "Sand Dream",
-    "hash": "211ed63a9846bc1d05849df052e69bbd",
+    "hash": "55c81061fb1312cf7d9f731170735c0c",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -74862,13 +74901,14 @@
       "category": "event",
       "sellable": false,
       "source": [
+        "christmas2024",
         "material_market"
       ]
     }
   },
   "library::back_2277": {
     "name": "Pitch Black Robe",
-    "hash": "9d14129e0eadcb8aa3e6d15ca9cdb6b4",
+    "hash": "e457abc07d8a4be149f5231104d9c17b",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -74887,6 +74927,7 @@
       "category": "event",
       "sellable": false,
       "source": [
+        "christmas2024",
         "material_market"
       ]
     }
@@ -81027,7 +81068,7 @@
   },
   "library::back_7018": {
     "name": "S23 Shadow War: Mask of Nightmare",
-    "hash": "827e76a28e0dfb473c42bf4e74a4c4e0",
+    "hash": "24eb7abe3a9273f7a9b01bb4b80fca04",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -81045,7 +81086,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -88665,7 +88705,7 @@
   },
   "library::material_69": {
     "name": "Onigiri",
-    "hash": "435c4ab55a3fff73ab4d1e896be96699",
+    "hash": "525b11f0f4847f1e64ce10c60d79fa39",
     "data": {
       "attack_type": "item",
       "buyable_clan": false,
@@ -88683,44 +88723,7 @@
       "price_prestige": 500,
       "sellable": false,
       "source": [
-        "clan_shop",
-        "valentine2025",
-        "anniv2025",
-        "ramadhan2025",
-        "easter2025",
-        "wmg2025",
-        "summer2025",
-        "independence2025",
-        "halloween2025",
-        "christmas2025",
-        "anniv2026",
-        "easter2023",
-        "halloween2023",
-        "christmas2024",
-        "pirate2022",
-        "summer2024",
-        "salus2023",
-        "easter2024",
-        "anniv2024",
-        "hanami2022",
-        "independence2024",
-        "halloween2024",
-        "anniv2023",
-        "ramadhankareem2025",
-        "ramadhan2022",
-        "garuda2023",
-        "christmas2022",
-        "summer2022",
-        "sakura2023",
-        "halloween2022",
-        "valentine2022",
-        "easter2022",
-        "cny2023",
-        "independence2022",
-        "valentine2023",
-        "turkeytengu2022",
-        "newyear2023",
-        "christmas2023"
+        "clan_shop"
       ]
     }
   },
@@ -92090,7 +92093,7 @@
   },
   "library::material_941": {
     "name": "Golden Stamina Roll",
-    "hash": "285fcdd1de7cce0ddcb2657ea2031d98",
+    "hash": "f3bff88c5f0ed1fa4d2ec90f2bd310eb",
     "data": {
       "attack_type": "item",
       "buyable_clan": false,
@@ -92109,17 +92112,7 @@
       "price_merit": 500,
       "sellable": false,
       "source": [
-        "crew_shop",
-        "valentine2025",
-        "anniv2025",
-        "easter2025",
-        "summer2025",
-        "independence2025",
-        "halloween2025",
-        "christmas2025",
-        "anniv2026",
-        "christmas2024",
-        "halloween2024"
+        "crew_shop"
       ]
     }
   },
@@ -121776,7 +121769,7 @@
   },
   "library::set_2274_0": {
     "name": "Frozen Monarch Costume",
-    "hash": "dbf73cb0f512caede03b5ee665c36ddf",
+    "hash": "c8bba5d1a0e4b0c9bdede32379dcd4e9",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -121793,12 +121786,15 @@
       "premium": false,
       "price_prestige": 0,
       "category": "deals",
-      "sellable": false
+      "sellable": false,
+      "source": [
+        "christmas2024"
+      ]
     }
   },
   "library::set_2274_1": {
     "name": "Frozen Monarch Costume",
-    "hash": "652ca2a9ab3c4455275e3d46a5e7108b",
+    "hash": "0fc6b4dd43f0b79635304844f78c3a30",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -121815,12 +121811,15 @@
       "premium": false,
       "price_prestige": 0,
       "category": "deals",
-      "sellable": false
+      "sellable": false,
+      "source": [
+        "christmas2024"
+      ]
     }
   },
   "library::set_2275_0": {
     "name": "Sandman Costume",
-    "hash": "87864caced7b5bf8236d82ceb3c1409d",
+    "hash": "5638ab36f195b548894ca1bd037cc9a9",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -121839,14 +121838,14 @@
       "category": "event",
       "sellable": false,
       "source": [
-        "christmas2025",
+        "christmas2024",
         "material_market"
       ]
     }
   },
   "library::set_2275_1": {
     "name": "Sandman Costume",
-    "hash": "792a470c4eebec90c47b7ad023171e75",
+    "hash": "2b34df85324a2d17b83414ae644ae94f",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -121865,14 +121864,14 @@
       "category": "event",
       "sellable": false,
       "source": [
-        "christmas2025",
+        "christmas2024",
         "material_market"
       ]
     }
   },
   "library::set_2276_0": {
     "name": "Darkhaze Male Costume",
-    "hash": "c597217c6c15da9776210ba34bde83ca",
+    "hash": "2fbf156dc450301f25947ef694877449",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -121891,14 +121890,14 @@
       "category": "event",
       "sellable": false,
       "source": [
-        "christmas2025",
+        "christmas2024",
         "material_market"
       ]
     }
   },
   "library::set_2276_1": {
     "name": "Darkhaze Female Costume",
-    "hash": "95215320d93b959cb4e9f1452d4d703f",
+    "hash": "c7774a4c9665a92f1aac0b2b74665de3",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -121917,14 +121916,14 @@
       "category": "event",
       "sellable": false,
       "source": [
-        "christmas2025",
+        "christmas2024",
         "material_market"
       ]
     }
   },
   "library::set_2277_0": {
     "name": "Volga Frost Costume",
-    "hash": "aa7a08360c2f54bfb306ccbe41690bd6",
+    "hash": "deca7c9e3104203b94181c7e22f4ffc9",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -121943,13 +121942,13 @@
       "category": "event",
       "sellable": false,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2277_1": {
     "name": "Volga Frost Costume",
-    "hash": "09a2a4dcd32ec9d22961867f0833c50b",
+    "hash": "4ed0cc6fd860f6d441171f6ab5c09811",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -121968,13 +121967,13 @@
       "category": "event",
       "sellable": false,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2278_0": {
     "name": "Christmas Festival Costume (Limited)",
-    "hash": "a9c6499f7cd0b930c45bfdc56f214a8c",
+    "hash": "b7bb774ec3c3bf7d54f5196b62af2533",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -121993,13 +121992,13 @@
       "category": "leaderboard",
       "sellable": false,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2278_1": {
     "name": "Christmas Festival Costume (Limited)",
-    "hash": "c3a49a7b6fb34927801ca7750426949f",
+    "hash": "d15e82a5955ce4f995ca04319dbd4b6c",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122018,13 +122017,13 @@
       "category": "leaderboard",
       "sellable": false,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2279_0": {
     "name": "Dark Christmas Curse Set",
-    "hash": "217b3e68b8fabda5c2bc6ca7acc574c5",
+    "hash": "2593033c951c68a1976a71ae332e2636",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122042,13 +122041,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2279_1": {
     "name": "Dark Christmas Curse Set",
-    "hash": "947ddaaee046ac34140147c895896d15",
+    "hash": "81a52b43ce6e58d4669c1745d416e052",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122066,13 +122065,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2280_0": {
     "name": "Dark Christmas Curse Set",
-    "hash": "ffbda6694b4457bb8d51f53fbe51ec99",
+    "hash": "9ec34bf32c7e9ba83b5496306af74a26",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122090,13 +122089,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2280_1": {
     "name": "Dark Christmas Curse Set",
-    "hash": "4469310e8d41076528af6f974a6520ed",
+    "hash": "9555200f746e89ac114b6f0f33a95a4b",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122114,13 +122113,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2281_0": {
     "name": "Dark Christmas Curse Set",
-    "hash": "7e9716d53f683908bed78034df484d0b",
+    "hash": "d022695669275559e1f6b5df4ec50e1a",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122138,13 +122137,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2281_1": {
     "name": "Dark Christmas Curse Set",
-    "hash": "c9b8290d76cc693e244f7497530d4dd2",
+    "hash": "5967b1198d72735dce693030b90dc3c0",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122162,13 +122161,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2282_0": {
     "name": "Dark Christmas Curse Set",
-    "hash": "1bfecdaf77eb1e2ae5eaf5ac5bc0cd65",
+    "hash": "724d2ba5b70eeaba4756a527b7b58490",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122186,13 +122185,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2282_1": {
     "name": "Dark Christmas Curse Set",
-    "hash": "1aa55d5f8d3e83216057f499e92847f7",
+    "hash": "0122993742d35a6b9d843715556f184f",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122210,13 +122209,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2283_0": {
     "name": "Dark Christmas Curse Set",
-    "hash": "9b03b71926b6cb566f503887b24c0636",
+    "hash": "ccbfce42870124a1ef3161e2acc2f610",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122234,13 +122233,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2283_1": {
     "name": "Dark Christmas Curse Set",
-    "hash": "f98a49027995ca52806365d4e5f5c7f2",
+    "hash": "6c9d30609bb6ab0a34054887272ba8ed",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122258,13 +122257,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2284_0": {
     "name": "Dark Christmas Curse Set",
-    "hash": "1a6431d1f42c6db3de64ebd95682f2a0",
+    "hash": "db4b2ad802bfe18d90324c789f03cc3f",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122282,13 +122281,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2284_1": {
     "name": "Dark Christmas Curse Set",
-    "hash": "5d13346c7c48e878147cf0e9ca0fee56",
+    "hash": "f0dec27b4c3f53c0e87e23e838093019",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122306,13 +122305,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2285_0": {
     "name": "Dark Christmas Curse Set",
-    "hash": "7036c8270317575918497048c73f52e1",
+    "hash": "f0f1ebcad84d3f02bbaa4b345c38445b",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122330,13 +122329,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2285_1": {
     "name": "Dark Christmas Curse Set",
-    "hash": "5544f774bcc50c9c8230a56285eff2d1",
+    "hash": "7f5700097bc7bd49fa3a0e223bf5767b",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122354,13 +122353,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2286_0": {
     "name": "Dark Christmas Curse Set",
-    "hash": "963979652de5b9f860353a4e488ee807",
+    "hash": "6c9b1a146eb391f2e5ad7c5ba619f122",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122378,13 +122377,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2286_1": {
     "name": "Dark Christmas Curse Set",
-    "hash": "9477d93cc9f95f683a1dc007cd2c461b",
+    "hash": "04efdc3a812a4a166af257d8ae893013",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122402,13 +122401,13 @@
       "price_prestige": 0,
       "sellable": true,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2287_0": {
     "name": "Xmas Festival Costume",
-    "hash": "e6d7062c5ba988356dbc838e8d440ed0",
+    "hash": "84a558d0879c10b35ed0b4ed3dd90d82",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122426,13 +122425,13 @@
       "price_prestige": 0,
       "sellable": false,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::set_2287_1": {
     "name": "Xmas Festival Costume",
-    "hash": "07ef3cf3e7c3da265ba532f88e57989c",
+    "hash": "93d9b5d4246c33f912e477c6a451675a",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -122450,7 +122449,7 @@
       "price_prestige": 0,
       "sellable": false,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
@@ -128261,11 +128260,11 @@
   },
   "library::set_2405_0": {
     "name": "New Year 2026 Costume",
-    "hash": "866dc697ef6ac1d93cce285cf7602ffe",
+    "hash": "ce9ca959260d8021cdc7879a59a83888",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
-      "description": "Limited New Year Hairstyle.",
+      "description": "Limited New Year Set.",
       "price_tokens": 0,
       "damage": 0,
       "sell_price": 0,
@@ -128283,11 +128282,11 @@
   },
   "library::set_2405_1": {
     "name": "New Year 2026 Costume",
-    "hash": "4800888c3dfb0500bdeecaeea24a2495",
+    "hash": "5287644a065912e39cd7a0119a496a49",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
-      "description": "Limited New Year Hairstyle.",
+      "description": "Limited New Year Set.",
       "price_tokens": 0,
       "damage": 0,
       "sell_price": 0,
@@ -143551,7 +143550,7 @@
   },
   "library::set_7069_0": {
     "name": "S23 Shadow War Champion",
-    "hash": "a93564301f89bf1f52441e8306d58e23",
+    "hash": "cc4f6f2baf0c7be83a2d863a4ae966b7",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 23 Champion",
@@ -143568,7 +143567,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -143576,7 +143574,7 @@
   },
   "library::set_7069_1": {
     "name": "S23 Shadow War Champion",
-    "hash": "2b96081a00391dd464cd40e581df769b",
+    "hash": "499e0c606434ac9c195b745aa3c55b82",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 23 Champion",
@@ -143593,7 +143591,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -143601,7 +143598,7 @@
   },
   "library::set_7070_0": {
     "name": "S23 Shadow War Runner Up",
-    "hash": "5b7b71ac6540a973ab2b8e1f72536131",
+    "hash": "7dd7ae9c634111f276a1a6c87d80d612",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 23 Runner Up",
@@ -143618,7 +143615,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -143626,7 +143622,7 @@
   },
   "library::set_7070_1": {
     "name": "S23 Shadow War Runner Up",
-    "hash": "e4f40fc4e9edcf95619d579f477f781b",
+    "hash": "84601f7fca05c6f527d4a9ff891fd91a",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 23 Runner Up",
@@ -143643,7 +143639,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -143651,7 +143646,7 @@
   },
   "library::set_7071_0": {
     "name": "S23 Shadow War Participant",
-    "hash": "98c0175b0b5e3ba25ddf31f646af2269",
+    "hash": "9c80b2e9f756560f11bdd1bb9ee352a6",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 23",
@@ -143668,7 +143663,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -143676,7 +143670,7 @@
   },
   "library::set_7071_1": {
     "name": "S23 Shadow War Participant",
-    "hash": "5b0f138c50af9eabdc73fb38376838cf",
+    "hash": "7d39bc7f0b2d0787ec7e4b7b198aad25",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 23",
@@ -143693,7 +143687,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -162190,7 +162183,7 @@
   },
   "library::hair_2235_0": {
     "name": "Frozen Monarch Hairstyle",
-    "hash": "944f7d89f545c8975f877dcea406169f",
+    "hash": "97d3ba940f9f87398dd4bebca03b0494",
     "data": {
       "buyable_clan": false,
       "description": "Limited Frozen Monarch Package Hairstyle.",
@@ -162206,12 +162199,15 @@
       "premium": false,
       "price_prestige": 0,
       "category": "deals",
-      "sellable": false
+      "sellable": false,
+      "source": [
+        "christmas2024"
+      ]
     }
   },
   "library::hair_2235_1": {
     "name": "Frozen Monarch Hairstyle",
-    "hash": "d3a49067bb1ae716dabf9d1e8ea5c4ed",
+    "hash": "a68499e1651c37a1cec4734e204a114d",
     "data": {
       "buyable_clan": false,
       "description": "Limited Frozen Monarch Package Hairstyle.",
@@ -162227,7 +162223,10 @@
       "premium": false,
       "price_prestige": 0,
       "category": "deals",
-      "sellable": false
+      "sellable": false,
+      "source": [
+        "christmas2024"
+      ]
     }
   },
   "library::hair_2236_0": {
@@ -162380,7 +162379,7 @@
   },
   "library::hair_2239_0": {
     "name": "Christmas Festival Hairstyle (Limited)",
-    "hash": "69bd9e1b7eaa7d2ca50ae096d3b3dcb6",
+    "hash": "5b5e56584ac9e14d3c7dd1458eb2f212",
     "data": {
       "buyable_clan": false,
       "description": "Limited Christmas Event Hairstyle.",
@@ -162398,13 +162397,13 @@
       "category": "leaderboard",
       "sellable": false,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
   "library::hair_2239_1": {
     "name": "Christmas Festival Hairstyle (Limited)",
-    "hash": "5d342a5219bcedf5395d5f3c6a945935",
+    "hash": "b3264d5dc4b05d4bb4c597045433ac94",
     "data": {
       "buyable_clan": false,
       "description": "Limited Christmas Event Hairstyle.",
@@ -162422,7 +162421,7 @@
       "category": "leaderboard",
       "sellable": false,
       "source": [
-        "christmas2025"
+        "christmas2024"
       ]
     }
   },
@@ -171128,7 +171127,7 @@
   },
   "library::hair_7009_0": {
     "name": "S23 Shadow War Individual Hairstyle",
-    "hash": "9baf85605d92b5531e59e0be28a6dbac",
+    "hash": "d416949473930b63cf79afb947133cb8",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 23",
@@ -171145,7 +171144,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -171153,7 +171151,7 @@
   },
   "library::hair_7009_1": {
     "name": "S23 Shadow War Individual Hairstyle",
-    "hash": "a9e112481d4d254d04139a3797a6924a",
+    "hash": "32a739b832e915c23537a9dbdf1fc64b",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 23",
@@ -171170,7 +171168,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
