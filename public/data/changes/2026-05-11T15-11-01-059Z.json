@@ -1,0 +1,279 @@
+[
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7050",
+    "entityName": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
+    "field": "description",
+    "oldValue": "(Kinjutsu) ",
+    "newValue": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 30%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns."
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7051",
+    "entityName": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
+    "field": "description",
+    "oldValue": "(Kinjutsu) ",
+    "newValue": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 45%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns."
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_88",
+    "entityName": "Kinjutsu: Earth Absorption",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"current_cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"CP Drain\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":15,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"current_cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":15,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_242",
+    "entityName": "Kinjutsu: Earth Absorption II",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"current_cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"CP Drain\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":25,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"current_cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":25,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_243",
+    "entityName": "Kinjutsu: Earth Absorption III",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"current_cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"CP Drain\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":40,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"current_cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":40,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_244",
+    "entityName": "Kinjutsu: Earth Absorption IV",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"current_cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"CP Drain\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":60,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"current_cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":60,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_245",
+    "entityName": "Kinjutsu: Earth Absorption V",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"current_cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"CP Drain\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":85,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"current_cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":85,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_621",
+    "entityName": "Kinjutsu: Queen of Hearts Summon",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":22,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":1,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":22,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":1,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_2333",
+    "entityName": "Kinjutsu: Kyunoki's Falling Omen",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":25,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":3,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":70,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":25,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":3,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":70,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_2347",
+    "entityName": "Kinjutsu: Earthshatter Twin Cleave",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":85,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"meridian_injury\",\"effect_name\":\"Meridian Injury\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":85,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"meridian_injury\",\"effect_name\":\"Meridian Injury\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_6037",
+    "entityName": "S18 Kinjutsu: Shadow of Nightmare",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":25,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":25,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_6038",
+    "entityName": "S18 Kinjutsu: Advance Shadow of Nightmare",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":40,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":3,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":40,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":3,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_6065",
+    "entityName": "S32 Kinjutsu: Devil's Seal",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":33,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":33,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_6066",
+    "entityName": "S32 Kinjutsu: Advance Devil's Seal",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":40,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":3,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":40,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":3,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_6081",
+    "entityName": "S40 Kinjutsu: Hidden Shadow Great",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":25,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":25,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_6082",
+    "entityName": "S40 Kinjutsu: Advance Hidden Shadow Great",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":30,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":3,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":30,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":3,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_6091",
+    "entityName": "S45 Kinjutsu: Junkai Tsubame Gaeshi",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":50,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":1,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":50,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":1,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_6092",
+    "entityName": "S45 Kinjutsu: Advance Junkai Tsubame Gaeshi",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":65,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"CURRENT\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":65,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"chaos\",\"effect_name\":\"Chaos\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_7048",
+    "entityName": "S23 Kinjutsu: Dark Sea Flood",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":25,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"disable_passive_talent\",\"effect_name\":\"Disable Passive Talent\",\"duration\":2,\"calc_type\":\"\",\"multi_hit\":true,\"amount\":0,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":2,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":40,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":25,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"disable_passive_talent\",\"effect_name\":\"Disable Passive Talent\",\"duration\":2,\"calc_type\":\"\",\"multi_hit\":true,\"amount\":0,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":2,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":40,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_7049",
+    "entityName": "S23 Kinjutsu: Advanced Dark Sea Flood",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":40,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"disable_passive_talent\",\"effect_name\":\"Disable Passive Talent\",\"duration\":3,\"calc_type\":\"\",\"multi_hit\":true,\"amount\":0,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":3,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":60,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"cp_drain\",\"reduce_type\":\"MAX\",\"effect_name\":\"Drain CP\",\"duration\":0,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":40,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"disable_passive_talent\",\"effect_name\":\"Disable Passive Talent\",\"duration\":3,\"calc_type\":\"\",\"multi_hit\":true,\"amount\":0,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":3,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":60,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_7019",
+    "entityName": "S24 Shadow War: Seraph's Ruin Edge",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"poison\",\"effect_name\":\"Poison\",\"duration\":5,\"calc_type\":\"percent\",\"amount\":6,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"burn\",\"effect_name\":\"Burn\",\"duration\":3,\"calc_type\":\"number\",\"amount\":800,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":55,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"burn\",\"effect_name\":\"Burn\",\"duration\":3,\"calc_type\":\"number\",\"amount\":900,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":60,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "back_effect",
+    "action": "modified",
+    "entityId": "back_2424",
+    "entityName": "Kamaitachi Ravager Mantle",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify\",\"duration\":0,\"calc_type\":\"number\",\"amount\":10,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"increase_reactive\",\"effect_name\":\"Reactive Force\",\"duration\":0,\"calc_type\":\"number\",\"amount\":10,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"dodge_increase\",\"effect_name\":\"Increase Dodge Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":10,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"increase_reactive\",\"effect_name\":\"Reactive Force\",\"duration\":0,\"calc_type\":\"number\",\"amount\":10,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "back_effect",
+    "action": "modified",
+    "entityId": "back_7019",
+    "entityName": "S24 Shadow War: Seraphic Voidwings",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"damage_reduce\",\"effect_name\":\"Reduce Damage\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":40,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_decrease\",\"effect_name\":\"Decrease Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":10,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"agility_decrease\",\"effect_name\":\"Decrease Agility\",\"duration\":0,\"calc_type\":\"number\",\"amount\":10,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"damage_reduce\",\"effect_name\":\"Reduce Damage\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":25,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"dodge_increase\",\"effect_name\":\"Increase Dodge Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":15,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "removed",
+    "entityId": "skill_02_baru",
+    "entityName": "skill_02_baru"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "removed",
+    "entityId": "skill_03_lama",
+    "entityName": "skill_03_lama"
+  },
+  {
+    "syncId": "2026-05-11T15-11-01-059Z",
+    "detectedAt": "2026-05-11T15:11:01.059Z",
+    "category": "skill_effect",
+    "action": "removed",
+    "entityId": "skill_02_lama",
+    "entityName": "skill_02_lama"
+  }
+]

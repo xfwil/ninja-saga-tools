@@ -34161,7 +34161,7 @@
   },
   "skill::skill_7050": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
-    "hash": "7911ecc7be5faf3680c05ece50e4082e",
+    "hash": "c2cfc22956f576f5c410860341d8dd04",
     "data": {
       "id": "skill_7050",
       "price_tokens": 0,
@@ -34173,7 +34173,7 @@
       "cp_cost": 10,
       "cooldown": 18,
       "target": "Self",
-      "description": "(Kinjutsu) ",
+      "description": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 30%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns.",
       "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
       "type": "7",
       "category": "shadowwar",
@@ -34192,7 +34192,7 @@
   },
   "skill::skill_7051": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
-    "hash": "4590001df5f8a9b09b721ce1ad954863",
+    "hash": "40fcf71e408082136277f914a963b3ac",
     "data": {
       "id": "skill_7051",
       "price_tokens": 0,
@@ -34204,7 +34204,7 @@
       "cp_cost": 10,
       "cooldown": 16,
       "target": "Self",
-      "description": "(Kinjutsu) ",
+      "description": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 45%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns.",
       "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
       "type": "7",
       "category": "shadowwar",
@@ -171450,74 +171450,6 @@
       ]
     }
   },
-  "skill_effect::skill_02_baru": {
-    "name": "skill_02_baru",
-    "hash": "206752ee099a2dc37e2318d14ca98c41",
-    "data": {
-      "skill_id": "skill_02_baru",
-      "skill_effect": [
-        {
-          "type": "Buff",
-          "target": "self",
-          "effect": "bloodflame",
-          "effect_name": "Bloodflame",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 50,
-          "amount_hp": 100,
-          "amount_cp": 100,
-          "chance": 100
-        }
-      ]
-    }
-  },
-  "skill_effect::skill_03_lama": {
-    "name": "skill_03_lama",
-    "hash": "5b07add46581fa491918f52681dfaf70",
-    "data": {
-      "skill_id": "skill_03_lama",
-      "skill_effect": [
-        {
-          "type": "Buff",
-          "target": "self",
-          "effect": "increase_buff_duration",
-          "effect_name": "Increase Buff Duration",
-          "duration": 0,
-          "calc_type": "",
-          "amount": 100,
-          "chance": 100
-        },
-        {
-          "type": "Buff",
-          "target": "self",
-          "effect": "unyielding_soul",
-          "effect_name": "Unyielding Soul",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 50,
-          "chance": 100
-        }
-      ]
-    }
-  },
-  "skill_effect::skill_02_lama": {
-    "name": "skill_02_lama",
-    "hash": "3160c24eff2245642cc839064427f2e2",
-    "data": {
-      "skill_id": "skill_02_lama",
-      "skill_effect": [
-        {
-          "type": "Debuff",
-          "target": "self",
-          "effect": "sacrifice_self_health",
-          "effect_name": "Sacrifice Self Health",
-          "duration": 0,
-          "calc_type": "percent",
-          "amount": 10
-        }
-      ]
-    }
-  },
   "skill_effect::skill_03": {
     "name": "Fat Woman Transformation",
     "hash": "448d1e77e586bd4932985e4052aa5171",
@@ -171893,7 +171825,7 @@
   },
   "skill_effect::skill_88": {
     "name": "Kinjutsu: Earth Absorption",
-    "hash": "ae50a4650b2b303f184138f06e768a25",
+    "hash": "fa8f9170363e2726c86d2821e9c8a346",
     "data": {
       "skill_id": "skill_88",
       "skill_effect": [
@@ -171902,7 +171834,7 @@
           "type": "Debuff",
           "effect": "current_cp_drain",
           "reduce_type": "CURRENT",
-          "effect_name": "CP Drain",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 15,
@@ -175389,7 +175321,7 @@
   },
   "skill_effect::skill_242": {
     "name": "Kinjutsu: Earth Absorption II",
-    "hash": "c1f62dfd62f3534d505d3c531eb3244b",
+    "hash": "fa00a5ba939cd7315d477be1543d57ed",
     "data": {
       "skill_id": "skill_242",
       "skill_effect": [
@@ -175398,7 +175330,7 @@
           "type": "Debuff",
           "effect": "current_cp_drain",
           "reduce_type": "CURRENT",
-          "effect_name": "CP Drain",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 25,
@@ -175409,7 +175341,7 @@
   },
   "skill_effect::skill_243": {
     "name": "Kinjutsu: Earth Absorption III",
-    "hash": "969c450faca7282d60959bf5d8669bd8",
+    "hash": "39cd9a89b261e3dd574ce61483572908",
     "data": {
       "skill_id": "skill_243",
       "skill_effect": [
@@ -175418,7 +175350,7 @@
           "type": "Debuff",
           "effect": "current_cp_drain",
           "reduce_type": "CURRENT",
-          "effect_name": "CP Drain",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 40,
@@ -175429,7 +175361,7 @@
   },
   "skill_effect::skill_244": {
     "name": "Kinjutsu: Earth Absorption IV",
-    "hash": "5f42d758e4db0e5276b69d7a122099df",
+    "hash": "48284e0c60a013156d7669416e07bdab",
     "data": {
       "skill_id": "skill_244",
       "skill_effect": [
@@ -175438,7 +175370,7 @@
           "type": "Debuff",
           "effect": "current_cp_drain",
           "reduce_type": "CURRENT",
-          "effect_name": "CP Drain",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 60,
@@ -175449,7 +175381,7 @@
   },
   "skill_effect::skill_245": {
     "name": "Kinjutsu: Earth Absorption V",
-    "hash": "afc01d170ef56fc8e2588d44fd904464",
+    "hash": "3a1b55a056769a23ae693de5fb218261",
     "data": {
       "skill_id": "skill_245",
       "skill_effect": [
@@ -175458,7 +175390,7 @@
           "type": "Debuff",
           "effect": "current_cp_drain",
           "reduce_type": "CURRENT",
-          "effect_name": "CP Drain",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 85,
@@ -178836,7 +178768,7 @@
   },
   "skill_effect::skill_621": {
     "name": "Kinjutsu: Queen of Hearts Summon",
-    "hash": "cd74ec2be5e7bb77533206cf51651dcb",
+    "hash": "20f669f5e2f91cac1b564db75bf1c854",
     "data": {
       "skill_id": "skill_621",
       "skill_effect": [
@@ -178845,7 +178777,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 22,
@@ -187082,7 +187014,7 @@
   },
   "skill_effect::skill_2333": {
     "name": "Kinjutsu: Kyunoki's Falling Omen",
-    "hash": "6dae7c22509f91ad0c1b608f106c6185",
+    "hash": "57a12e9285c18a59119507ca5cbf3f0a",
     "data": {
       "skill_id": "skill_2333",
       "skill_effect": [
@@ -187091,7 +187023,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "CURRENT",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "multi_hit": true,
@@ -187466,7 +187398,7 @@
   },
   "skill_effect::skill_2347": {
     "name": "Kinjutsu: Earthshatter Twin Cleave",
-    "hash": "b0c1a4b0abc2f1acfc256a52fc50012a",
+    "hash": "b35aec4ecedd7a886724a3e73d086533",
     "data": {
       "skill_id": "skill_2347",
       "skill_effect": [
@@ -187475,7 +187407,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 85,
@@ -188746,7 +188678,7 @@
   },
   "skill_effect::skill_6037": {
     "name": "S18 Kinjutsu: Shadow of Nightmare",
-    "hash": "42239d8544228c76490ad9efbc0c9f7d",
+    "hash": "a34222438511e560c5ce065565d00575",
     "data": {
       "skill_id": "skill_6037",
       "skill_effect": [
@@ -188755,7 +188687,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 25,
@@ -188776,7 +188708,7 @@
   },
   "skill_effect::skill_6038": {
     "name": "S18 Kinjutsu: Advance Shadow of Nightmare",
-    "hash": "15a7e1c3c5570e3e0f05d63dfdefcb19",
+    "hash": "8715c25e0ce4669a06f7e8448a68ebfc",
     "data": {
       "skill_id": "skill_6038",
       "skill_effect": [
@@ -188785,7 +188717,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 40,
@@ -189430,7 +189362,7 @@
   },
   "skill_effect::skill_6065": {
     "name": "S32 Kinjutsu: Devil's Seal",
-    "hash": "405639f67d0cb3b5ba161bf7dd4c10a4",
+    "hash": "026e3dfb6f1a6104629de6355a92f0cd",
     "data": {
       "skill_id": "skill_6065",
       "skill_effect": [
@@ -189439,7 +189371,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 33,
@@ -189460,7 +189392,7 @@
   },
   "skill_effect::skill_6066": {
     "name": "S32 Kinjutsu: Advance Devil's Seal",
-    "hash": "938b6d64c7e74110bdf6b8aebe41e794",
+    "hash": "0b92b7fdb51ebc845546f408aebfcb70",
     "data": {
       "skill_id": "skill_6066",
       "skill_effect": [
@@ -189469,7 +189401,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 40,
@@ -189818,7 +189750,7 @@
   },
   "skill_effect::skill_6081": {
     "name": "S40 Kinjutsu: Hidden Shadow Great",
-    "hash": "16c72d183d9eecbc1c029c9f0cd9b32c",
+    "hash": "de2d6b2e6ba5e27f0e5f3eba878649ae",
     "data": {
       "skill_id": "skill_6081",
       "skill_effect": [
@@ -189827,7 +189759,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 25,
@@ -189848,7 +189780,7 @@
   },
   "skill_effect::skill_6082": {
     "name": "S40 Kinjutsu: Advance Hidden Shadow Great",
-    "hash": "827cbddcf319e3fe9c57b0698b97c753",
+    "hash": "2ca79f4464d1937b7dabeccf935536ca",
     "data": {
       "skill_id": "skill_6082",
       "skill_effect": [
@@ -189857,7 +189789,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 30,
@@ -190070,7 +190002,7 @@
   },
   "skill_effect::skill_6091": {
     "name": "S45 Kinjutsu: Junkai Tsubame Gaeshi",
-    "hash": "c8c232c08dcba9d625730e3a0c0782d0",
+    "hash": "fa45430f5cab963b31dffc0088ee03da",
     "data": {
       "skill_id": "skill_6091",
       "skill_effect": [
@@ -190079,7 +190011,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "CURRENT",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 50,
@@ -190100,7 +190032,7 @@
   },
   "skill_effect::skill_6092": {
     "name": "S45 Kinjutsu: Advance Junkai Tsubame Gaeshi",
-    "hash": "b09b529c4cfed5ecedfd897f0c337c6e",
+    "hash": "e4e0ddef12624c8ed088083a0c35720c",
     "data": {
       "skill_id": "skill_6092",
       "skill_effect": [
@@ -190109,7 +190041,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "CURRENT",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "amount": 65,
@@ -191789,7 +191721,7 @@
   },
   "skill_effect::skill_7048": {
     "name": "S23 Kinjutsu: Dark Sea Flood",
-    "hash": "838af696e26fc70b274f32f99b1b1695",
+    "hash": "34f2155730db76903a85e78a89631b62",
     "data": {
       "skill_id": "skill_7048",
       "skill_effect": [
@@ -191798,7 +191730,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "multi_hit": true,
@@ -191832,7 +191764,7 @@
   },
   "skill_effect::skill_7049": {
     "name": "S23 Kinjutsu: Advanced Dark Sea Flood",
-    "hash": "b7649629b53bd3d7d1ca0ae72ea8bf39",
+    "hash": "4ee567aae4ed3a3dd6467cd7f9041af2",
     "data": {
       "skill_id": "skill_7049",
       "skill_effect": [
@@ -191841,7 +191773,7 @@
           "type": "Debuff",
           "effect": "cp_drain",
           "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
+          "effect_name": "Drain CP",
           "duration": 0,
           "calc_type": "percent",
           "multi_hit": true,
@@ -221886,21 +221818,10 @@
   },
   "weapon_effect::wpn_7019": {
     "name": "S24 Shadow War: Seraph's Ruin Edge",
-    "hash": "11c7681545b078173b5b63c248b80762",
+    "hash": "5f898e6bc3a317923cb2dc988ff7ec66",
     "data": {
       "id": "wpn_7019",
       "effects": [
-        {
-          "passive": true,
-          "type": "Debuff",
-          "target": "enemy",
-          "effect": "poison",
-          "effect_name": "Poison",
-          "duration": 5,
-          "calc_type": "percent",
-          "amount": 6,
-          "chance": 100
-        },
         {
           "passive": true,
           "type": "Debuff",
@@ -221909,7 +221830,7 @@
           "effect_name": "Burn",
           "duration": 3,
           "calc_type": "number",
-          "amount": 800,
+          "amount": 900,
           "chance": 100
         },
         {
@@ -221920,7 +221841,7 @@
           "effect_name": "Increase Accuracy",
           "duration": 0,
           "calc_type": "number",
-          "amount": 55,
+          "amount": 60,
           "chance": 100
         }
       ]
@@ -240801,7 +240722,7 @@
   },
   "back_effect::back_2424": {
     "name": "Kamaitachi Ravager Mantle",
-    "hash": "958aa40f7e78ea2a9c69bd4bda86bb2c",
+    "hash": "276fc0b0e650d2fa76bd4ba4086f06c7",
     "data": {
       "id": "back_2424",
       "effects": [
@@ -240809,8 +240730,8 @@
           "passive": true,
           "type": "Buff",
           "target": "self",
-          "effect": "purify_increase",
-          "effect_name": "Increase Purify",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge Chance",
           "duration": 0,
           "calc_type": "number",
           "amount": 10,
@@ -243859,7 +243780,7 @@
   },
   "back_effect::back_7019": {
     "name": "S24 Shadow War: Seraphic Voidwings",
-    "hash": "a8fc2433e7f0610b251b2fd50b48538f",
+    "hash": "471eb3b02d0962a82209617c23340e8a",
     "data": {
       "id": "back_7019",
       "effects": [
@@ -243871,29 +243792,18 @@
           "effect_name": "Reduce Damage",
           "duration": 0,
           "calc_type": "percent",
-          "amount": 40,
+          "amount": 25,
           "chance": 100
         },
         {
           "passive": true,
           "type": "Buff",
           "target": "self",
-          "effect": "accuracy_decrease",
-          "effect_name": "Decrease Accuracy",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge Chance",
           "duration": 0,
           "calc_type": "number",
-          "amount": 10,
-          "chance": 100
-        },
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "agility_decrease",
-          "effect_name": "Decrease Agility",
-          "duration": 0,
-          "calc_type": "number",
-          "amount": 10,
+          "amount": 15,
           "chance": 100
         }
       ]
