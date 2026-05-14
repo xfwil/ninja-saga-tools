@@ -61253,11 +61253,11 @@
   },
   "library::wpn_7019": {
     "name": "S24 Shadow War: Seraph's Ruin Edge",
-    "hash": "49c9953e9700dd8bb6f7378748a3f7a2",
+    "hash": "06f39f26a9bdce77cd214512e185794c",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S24 Shadow War Reward: ",
+      "description": "S24 Shadow War Reward: Increase accuracy by 60%. Burns the target by 900 for 3 turns on every succesful weapon attack.",
       "level": 95,
       "damage": 540,
       "sell_price": 0,
@@ -81093,11 +81093,11 @@
   },
   "library::back_7019": {
     "name": "S24 Shadow War: Seraphic Voidwings",
-    "hash": "a6962bae429c8ec6859bd0b46f457db4",
+    "hash": "062bbcb33ac4af76529b5b145eff1a4b",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S24 Shadow War Reward: ",
+      "description": "S24 Shadow War Reward: Reduce damage taken by 25%. Increase dodge chance by 15%.",
       "level": 20,
       "damage": 0,
       "sell_price": 0,

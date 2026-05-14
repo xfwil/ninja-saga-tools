@@ -1,0 +1,24 @@
+[
+  {
+    "syncId": "2026-05-14T23-25-01-335Z",
+    "detectedAt": "2026-05-14T23:25:01.335Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_7019",
+    "entityName": "S24 Shadow War: Seraph's Ruin Edge",
+    "field": "description",
+    "oldValue": "S24 Shadow War Reward: ",
+    "newValue": "S24 Shadow War Reward: Increase accuracy by 60%. Burns the target by 900 for 3 turns on every succesful weapon attack."
+  },
+  {
+    "syncId": "2026-05-14T23-25-01-335Z",
+    "detectedAt": "2026-05-14T23:25:01.335Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_7019",
+    "entityName": "S24 Shadow War: Seraphic Voidwings",
+    "field": "description",
+    "oldValue": "S24 Shadow War Reward: ",
+    "newValue": "S24 Shadow War Reward: Reduce damage taken by 25%. Increase dodge chance by 15%."
+  }
+]
