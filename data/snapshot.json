@@ -34161,7 +34161,7 @@
   },
   "skill::skill_7050": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
-    "hash": "c2cfc22956f576f5c410860341d8dd04",
+    "hash": "1414d9f3d3a6ef3d9c93e6434fd285bd",
     "data": {
       "id": "skill_7050",
       "price_tokens": 0,
@@ -34173,7 +34173,7 @@
       "cp_cost": 10,
       "cooldown": 18,
       "target": "Self",
-      "description": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 30%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns.",
+      "description": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 30%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns. (This effect cannot be dispersed)",
       "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
       "type": "7",
       "category": "shadowwar",
@@ -34192,7 +34192,7 @@
   },
   "skill::skill_7051": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
-    "hash": "40fcf71e408082136277f914a963b3ac",
+    "hash": "1a256048babd1b1931a4e67cc581fe1e",
     "data": {
       "id": "skill_7051",
       "price_tokens": 0,
@@ -34204,7 +34204,7 @@
       "cp_cost": 10,
       "cooldown": 16,
       "target": "Self",
-      "description": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 45%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns.",
+      "description": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 45%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns. (This effect cannot be dispersed)",
       "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
       "type": "7",
       "category": "shadowwar",

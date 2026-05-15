@@ -1,0 +1,24 @@
+[
+  {
+    "syncId": "2026-05-15T10-54-10-160Z",
+    "detectedAt": "2026-05-15T10:54:10.160Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7050",
+    "entityName": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 30%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns.",
+    "newValue": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 30%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns. (This effect cannot be dispersed)"
+  },
+  {
+    "syncId": "2026-05-15T10-54-10-160Z",
+    "detectedAt": "2026-05-15T10:54:10.160Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7051",
+    "entityName": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 45%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns.",
+    "newValue": "(Kinjutsu) Doubles Max HP and CP for 2 turns, and reduces damage taken by 45%. After the duration ends, damage taken from enemies who attack you is doubled and you cannot receive buffs for 2 turns. (This effect cannot be dispersed)"
+  }
+]
