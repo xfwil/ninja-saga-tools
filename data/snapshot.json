@@ -32516,7 +32516,7 @@
   },
   "skill::skill_6099": {
     "name": "S49 Kinjutsu: Soul Resonation",
-    "hash": "923bcacd07f031a65c2db3e0e3c9b4cd",
+    "hash": "85839c7540a04f492675fbba1a97d848",
     "data": {
       "id": "skill_6099",
       "price_tokens": 0,
@@ -32528,12 +32528,11 @@
       "cp_cost": 200,
       "cooldown": 11,
       "target": "Self",
-      "description": "(Kinjutsu) Not Available.",
+      "description": "(Kinjutsu) Channel your own HP to power spiritual link. Sacrifices 20% of the user's MAX HP  to clear negative status and grants user random buff (Increase Accuracy 30%/Increase dodge 30%/Increase Critical chance 30%.) for 3 turns.",
       "name": "S49 Kinjutsu: Soul Resonation",
       "type": "7",
       "category": "clan",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           78
@@ -32547,7 +32546,7 @@
   },
   "skill::skill_6100": {
     "name": "S49 Kinjutsu: Advance Soul Resonation",
-    "hash": "a838073ec9e91db0612c0006fa33f202",
+    "hash": "b48118b2b2d62883b67406453ba5c6e3",
     "data": {
       "id": "skill_6100",
       "price_tokens": 0,
@@ -32556,15 +32555,14 @@
       "level": 80,
       "damage": 0,
       "hit_chance": 0,
-      "cp_cost": 150,
-      "cooldown": 9,
+      "cp_cost": 100,
+      "cooldown": 10,
       "target": "Self",
-      "description": "(Kinjutsu) Not Available.",
+      "description": "(Kinjutsu) Channel your own  HP to  power spiritual link. Sacrifices 15% of the user's MAX HP  to clear negative status and grants user random buff (Increase Accuracy 50%/Increase dodge 50%/Increase Critical chance 50%.) for 4 turns.",
       "name": "S49 Kinjutsu: Advance Soul Resonation",
       "type": "7",
       "category": "clan",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           134
@@ -34219,42 +34217,6 @@
         "sw"
       ],
       "attack_hit_position": "startpos"
-    }
-  },
-  "skill::skill_7052": {
-    "name": "S25 Kinjutsu: ",
-    "hash": "bb0dc60f032cd9d9574e3ce729925b8e",
-    "data": {
-      "id": "skill_7052",
-      "price_tokens": 0,
-      "buyable": false,
-      "price_gold": 0,
-      "level": 99,
-      "damage": 999,
-      "hit_chance": 0,
-      "cp_cost": 999,
-      "cooldown": 999,
-      "target": "Single",
-      "description": "(Kinjutsu) ",
-      "name": "S25 Kinjutsu: ",
-      "type": "7",
-      "category": "shadowwar",
-      "premium": false,
-      "na": true,
-      "anims": {
-        "hit": [
-          80
-        ],
-        "fullscreen": {
-          "add": 59,
-          "remove": 86,
-          "top": true
-        }
-      },
-      "source": [
-        "sw"
-      ],
-      "attack_hit_position": "meele_2"
     }
   },
   "skill::skill_8001": {
@@ -60752,11 +60714,11 @@
   },
   "library::wpn_6086": {
     "name": "S49 Clan: Serpent Dragon Schyte",
-    "hash": "7b95ca0b3f700f1bc6a17d0ae0d575ac",
+    "hash": "b0f25a36fb9ed942c3b497f3bfa6fb3e",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S49 Clan Reward: Not Available",
+      "description": "S49 Clan Reward: A razor sharp-schyte that emits an eerie and dominant aura. It is said that only few human's can weild it. Increase accuracy by 40%. Restores 7% of the user's max CP every turn and reduces target's CP by 35% every successful weapon attack.",
       "level": 80,
       "damage": 477,
       "sell_price": 0,
@@ -60770,7 +60732,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -80592,11 +80553,11 @@
   },
   "library::back_6050": {
     "name": "S49 Clan: Serpent Dragon Chakram",
-    "hash": "ad92031d3568c9b6e51e700f51b25811",
+    "hash": "8dcd187fca4a87c7b967fd465cd935f0",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S49 Clan Reward: Not Available",
+      "description": "S49 Clan Reward: An exceptional weapon crafted with serpent and dragon remains. Increase agility by 3 and accuracy by 15%.",
       "level": 1,
       "damage": 0,
       "sell_price": 0,
@@ -80610,7 +80571,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -140037,8 +139997,8 @@
     }
   },
   "library::set_6196_0": {
-    "name": "S49 Champion",
-    "hash": "d3f61d5860bd7fecb867dea5c6866d4b",
+    "name": "S49 Liquid Vincere",
+    "hash": "f3382c1b3016b88bc4a07808df1754e0",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 49 Champion",
@@ -140049,21 +140009,20 @@
       "level": 1,
       "id": "set_6196_0",
       "price_gold": 0,
-      "name": "S49 Champion",
+      "name": "S49 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6196_1": {
-    "name": "S49 Champion",
-    "hash": "c190ebcccd67f33b8fe1cd64ccb33e21",
+    "name": "S49 Liquid Vincere",
+    "hash": "57829ebb49050334dbe8914722e120be",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 49 Champion",
@@ -140074,21 +140033,20 @@
       "level": 1,
       "id": "set_6196_1",
       "price_gold": 0,
-      "name": "S49 Champion",
+      "name": "S49 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6197_0": {
-    "name": "S49 Runner Up",
-    "hash": "a93b793f937eec99e139e0ec5491b715",
+    "name": "S49 Liquid The Next Gen",
+    "hash": "318353bb6b090c4b43d5cedee4c2d0c5",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 49 Runner Up",
@@ -140099,21 +140057,20 @@
       "level": 1,
       "id": "set_6197_0",
       "price_gold": 0,
-      "name": "S49 Runner Up",
+      "name": "S49 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6197_1": {
-    "name": "S49 Runner Up",
-    "hash": "e3beb51d97723b2c4159c7c5ee5aca00",
+    "name": "S49 Liquid The Next Gen",
+    "hash": "f977372f82d1293f6dcbd4d8500b6f7d",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 49 Runner Up",
@@ -140124,21 +140081,20 @@
       "level": 1,
       "id": "set_6197_1",
       "price_gold": 0,
-      "name": "S49 Runner Up",
+      "name": "S49 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6198_0": {
-    "name": "S49 Runner Up",
-    "hash": "fb7d0fb0d1ade4be4a71c27f0c3c1013",
+    "name": "S49 NewJeans",
+    "hash": "d720376e4d177b330504575f83ee315e",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 49 Runner Up",
@@ -140149,21 +140105,20 @@
       "level": 1,
       "id": "set_6198_0",
       "price_gold": 0,
-      "name": "S49 Runner Up",
+      "name": "S49 NewJeans",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6198_1": {
-    "name": "S49 Runner Up",
-    "hash": "bf573ec3cb3efc3a210d93cfa629376b",
+    "name": "S49 NewJeans",
+    "hash": "233e4b200e00b63602386c1b6c421f00",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 49 Runner Up",
@@ -140174,13 +140129,12 @@
       "level": 1,
       "id": "set_6198_1",
       "price_gold": 0,
-      "name": "S49 Runner Up",
+      "name": "S49 NewJeans",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -140188,7 +140142,7 @@
   },
   "library::set_6199_0": {
     "name": "S49 Costume",
-    "hash": "1730e3307ebb6bdb9dc97b1635a7cb0c",
+    "hash": "2d20f116eceffb38ae7ab4729e6790fe",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 49",
@@ -140205,7 +140159,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -140213,7 +140166,7 @@
   },
   "library::set_6199_1": {
     "name": "S49 Costume",
-    "hash": "82665ccfeff99434690a7c100642d011",
+    "hash": "e7614154c01246cb94570315d616d3a1",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 49",
@@ -140230,7 +140183,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
