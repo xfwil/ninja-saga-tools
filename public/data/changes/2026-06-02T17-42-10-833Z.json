@@ -1,0 +1,2485 @@
+[
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2361",
+    "entityName": "Kinjutsu: Fireblast Punch"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2362",
+    "entityName": "Kinjutsu: Dark Barrage Punch"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2363",
+    "entityName": "Kinjutsu: Keeper Throw"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2364",
+    "entityName": "Kinjutsu: Somersault Shot"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2365",
+    "entityName": "Multi Fiery Shot"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2366",
+    "entityName": "Multi Tiger Fiery Shot"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2367",
+    "entityName": "Kinjutsu: Shadow Spin Strike"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2368",
+    "entityName": "Kinjutsu: Chaos Demon Claw"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2369",
+    "entityName": "Kinjutsu: Mirage Sword"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2370",
+    "entityName": "Kinjutsu: Chaos Realm Emergence"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_6101",
+    "entityName": "S50 Kinjutsu: Flash Step Bomb"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_6102",
+    "entityName": "S50 Kinjutsu: Advance Flash Step Bomb"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7052",
+    "entityName": "S25 Kinjutsu: Ame no Kanata"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7053",
+    "entityName": "S25 Kinjutsu: Advanced Ame no Kanata"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_8025",
+    "entityName": "S20 Kinjutsu: Lightning Whip",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Not Available.",
+    "newValue": "(Kinjutsu) Strike enemy with lightning whip. Inflict 'Blind' by 100% for 3 turns."
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2445",
+    "entityName": "Dragonheart Lance"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2446",
+    "entityName": "Infernal Dragonblade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2447",
+    "entityName": "Thunderous Spear"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2448",
+    "entityName": "Victory Cane"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2449",
+    "entityName": "Crowbar Scrap"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2450",
+    "entityName": "Roadrage Cleaver"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2451",
+    "entityName": "Drashinja Katana"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2452",
+    "entityName": "Black Sword"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2453",
+    "entityName": "Chaos Angel Blade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2454",
+    "entityName": "Spear of Harbringer"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_4040",
+    "entityName": "S36 Clan: Demon Shark Blade (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_4041",
+    "entityName": "S37 Clan: Vampire Blade - Janen (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_4042",
+    "entityName": "S38 Clan: Jyuuou Blade (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_4043",
+    "entityName": "S39 Clan: Frozen Blade (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_4044",
+    "entityName": "S40 Clan: Gozen Breeze Fan (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_4045",
+    "entityName": "S5 Crew: Daffodil Shuriken (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_4046",
+    "entityName": "S6 Crew: Natural Energy Axe (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_4047",
+    "entityName": "S8 Crew: Shadowfang (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_6092",
+    "entityName": "S50 Clan: Buster Blade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_6087",
+    "entityName": "S36 Clan: Advance Demon Shark Blade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_6088",
+    "entityName": "S37 Clan: Advance Vampire Blade - Janen"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_6089",
+    "entityName": "S38 Clan: Advance Jyuuou Blade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_6090",
+    "entityName": "S39 Clan: Advance Frozen Blade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_6091",
+    "entityName": "S40 Clan: Advance Gozen Breeze Fan"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_7020",
+    "entityName": "S25 Shadow War: Hada Kokuto"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8098",
+    "entityName": "S20 Crew: Lightning Talon",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Not Available",
+    "newValue": "S20 Crew Reward: Increase accurary by 40%. Reduce target 6% HP and 25% CP on every weapon attack."
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8098",
+    "entityName": "S20 Crew: Lightning Talon",
+    "field": "damage",
+    "oldValue": 503,
+    "newValue": 460
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8099",
+    "entityName": "S20 Crew: Lightning Dagger",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Not Available",
+    "newValue": "S20 Crew Reward: Increase accurary by 40%, critical rate by 17% and all attack damage by 17%."
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8100",
+    "entityName": "S20 Crew: Ligthning Mace",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Not Available",
+    "newValue": "S20 Crew Reward: Increase accurary by 44% and purify chance by 8%. Recover HP by 7% every turn."
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8100",
+    "entityName": "S20 Crew: Ligthning Mace",
+    "field": "level",
+    "oldValue": 80,
+    "newValue": 85
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8100",
+    "entityName": "S20 Crew: Ligthning Mace",
+    "field": "damage",
+    "oldValue": 450,
+    "newValue": 530
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8101",
+    "entityName": "S20 Crew: Ligthning Lance",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Not Available",
+    "newValue": "S20 Crew Reward: Increase accurary by 40%. Reduce 300 HP damage taken."
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8101",
+    "entityName": "S20 Crew: Ligthning Lance",
+    "field": "damage",
+    "oldValue": 450,
+    "newValue": 477
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8102",
+    "entityName": "S20 Crew: Ligthning Katana",
+    "field": "attack_type",
+    "oldValue": "attack_07",
+    "newValue": "attack_06"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8102",
+    "entityName": "S20 Crew: Ligthning Katana",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Not Available",
+    "newValue": "S20 Crew Reward: Increase accurary by 40% and critical chance by 15%. Recover 15% HP on every successful critical attack."
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8102",
+    "entityName": "S20 Crew: Ligthning Katana",
+    "field": "level",
+    "oldValue": 80,
+    "newValue": 85
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8102",
+    "entityName": "S20 Crew: Ligthning Katana",
+    "field": "damage",
+    "oldValue": 450,
+    "newValue": 560
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2455",
+    "entityName": "Soulbound Dragon"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2456",
+    "entityName": "Bond Lantern"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2457",
+    "entityName": "Ball Keeper Automaton"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2458",
+    "entityName": "Fan of Victory"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2459",
+    "entityName": "Backscrap"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2460",
+    "entityName": "Wheel of Steel"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2461",
+    "entityName": "Drashinja Bow"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2462",
+    "entityName": "Dark Wing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2463",
+    "entityName": "Chaos Angel Wing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2464",
+    "entityName": "Mighty Archangel Wing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_4002",
+    "entityName": "S7 Crew: Gorgeous Butterfly (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_6051",
+    "entityName": "S50 Clan: Blood Shade Magatama"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_7020",
+    "entityName": "S25 Shadow War: Ignia the Flame"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8039",
+    "entityName": "S20 Crew: Ligthning Paper Umbrella",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Not Available",
+    "newValue": "S20 Crew Reward: Increase critical damage by 17%."
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8040",
+    "entityName": "S20 Crew: Ligthning Kokeshi",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Not Available",
+    "newValue": "S20 Crew Reward: Has 75% chance to recover 10% HP after receive critical damage."
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2257",
+    "entityName": "World Cup Badge"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2258",
+    "entityName": "World Cup Shuriken"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2259",
+    "entityName": "Skull Keeper Badge"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2260",
+    "entityName": "Spirit Captain Badge"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2261",
+    "entityName": "Golden Ball Coin"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2262",
+    "entityName": "Field Map"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "essential_16",
+    "entityName": "Dark Ninja Bag"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "essential_17",
+    "entityName": "Ninja Bag"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1269_0",
+    "entityName": "Argentina Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1269_1",
+    "entityName": "Argentina Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1270_0",
+    "entityName": "Bosnia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1270_1",
+    "entityName": "Bosnia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1271_0",
+    "entityName": "Brazil Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1271_1",
+    "entityName": "Brazil Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1272_0",
+    "entityName": "Czech Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1272_1",
+    "entityName": "Czech Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1273_0",
+    "entityName": "DR Congo Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1273_1",
+    "entityName": "DR Congo Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1274_0",
+    "entityName": "Haiti Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1274_1",
+    "entityName": "Haiti Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1275_0",
+    "entityName": "Japan Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1275_1",
+    "entityName": "Japan Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1276_0",
+    "entityName": "Jordan Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1276_1",
+    "entityName": "Jordan Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1277_0",
+    "entityName": "South Korea Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1277_1",
+    "entityName": "South Korea Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1278_0",
+    "entityName": "Mexico Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1278_1",
+    "entityName": "Mexico Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1279_0",
+    "entityName": "Portugal Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1279_1",
+    "entityName": "Portugal Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1280_0",
+    "entityName": "France Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1280_1",
+    "entityName": "France Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1281_0",
+    "entityName": "Iraq Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1281_1",
+    "entityName": "Iraq Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1282_0",
+    "entityName": "Croatia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1282_1",
+    "entityName": "Croatia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1283_0",
+    "entityName": "Netherland Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1283_1",
+    "entityName": "Netherland Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1284_0",
+    "entityName": "Columbia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1284_1",
+    "entityName": "Columbia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1285_0",
+    "entityName": "Austria Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1285_1",
+    "entityName": "Austria Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1286_0",
+    "entityName": "Uruguay Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1286_1",
+    "entityName": "Uruguay Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1287_0",
+    "entityName": "Belgium Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1287_1",
+    "entityName": "Belgium Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1288_0",
+    "entityName": "Switzerland Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1288_1",
+    "entityName": "Switzerland Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1289_0",
+    "entityName": "Norway Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1289_1",
+    "entityName": "Norway Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1290_0",
+    "entityName": "Scotland Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1290_1",
+    "entityName": "Scotland Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1291_0",
+    "entityName": "Germany Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1291_1",
+    "entityName": "Germany Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1292_0",
+    "entityName": "Algeria Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1292_1",
+    "entityName": "Algeria Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1293_0",
+    "entityName": "Cape Verde Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1293_1",
+    "entityName": "Cape Verde Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1294_0",
+    "entityName": "Curacao Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1294_1",
+    "entityName": "Curacao Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1295_0",
+    "entityName": "Egypt Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1295_1",
+    "entityName": "Egypt Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1296_0",
+    "entityName": "Ghana Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1296_1",
+    "entityName": "Ghana Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1297_0",
+    "entityName": "Ivory Coast Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1297_1",
+    "entityName": "Ivory Coast Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1298_0",
+    "entityName": "Morocco Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1298_1",
+    "entityName": "Morocco Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1299_0",
+    "entityName": "Senegal Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1299_1",
+    "entityName": "Senegal Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1300_0",
+    "entityName": "South Africa Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1300_1",
+    "entityName": "South Africa Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1301_0",
+    "entityName": "Tunisia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1301_1",
+    "entityName": "Tunisia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1302_0",
+    "entityName": "Uzbekistan Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1302_1",
+    "entityName": "Uzbekistan Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1303_0",
+    "entityName": "Spain Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1303_1",
+    "entityName": "Spain Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1304_0",
+    "entityName": "Sweden Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1304_1",
+    "entityName": "Sweden Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1305_0",
+    "entityName": "Australia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1305_1",
+    "entityName": "Australia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1306_0",
+    "entityName": "Canada Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1306_1",
+    "entityName": "Canada Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1307_0",
+    "entityName": "Ecuador Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1307_1",
+    "entityName": "Ecuador Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1308_0",
+    "entityName": "England Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1308_1",
+    "entityName": "England Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1309_0",
+    "entityName": "Iran Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1309_1",
+    "entityName": "Iran Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1310_0",
+    "entityName": "New Zealand Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1310_1",
+    "entityName": "New Zealand Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1311_0",
+    "entityName": "Panama Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1311_1",
+    "entityName": "Panama Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1312_0",
+    "entityName": "Paraguay Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1312_1",
+    "entityName": "Paraguay Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1313_0",
+    "entityName": "Qatar Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1313_1",
+    "entityName": "Qatar Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1314_0",
+    "entityName": "Saudi Arabia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1314_1",
+    "entityName": "Saudi Arabia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1315_0",
+    "entityName": "Saudi Arabia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1315_1",
+    "entityName": "Saudi Arabia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1315_0",
+    "entityName": "Türkiye Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1315_1",
+    "entityName": "Türkiye Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1316_0",
+    "entityName": "USA Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_1316_1",
+    "entityName": "USA Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2453_0",
+    "entityName": "Casual Ronin Flow Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2453_1",
+    "entityName": "Casual Ronin Flow Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2454_0",
+    "entityName": "Dark Ninja Suit"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2454_1",
+    "entityName": "Dark Ninja Suit"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2455_0",
+    "entityName": "Capitan Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2455_1",
+    "entityName": "Capitan Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2456_0",
+    "entityName": "Betting Champion Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2456_1",
+    "entityName": "Betting Champion Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2457_0",
+    "entityName": "Betting Runner Up Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2457_1",
+    "entityName": "Betting Runner Up Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2458_0",
+    "entityName": "Scrap Iron Striker Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2458_1",
+    "entityName": "Scrap Iron Striker Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2459_0",
+    "entityName": "Apo Baller Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2459_1",
+    "entityName": "Apo Baller Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2460_0",
+    "entityName": "Ninja Shinobi Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2460_1",
+    "entityName": "Ninja Shinobi Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2461_0",
+    "entityName": "Chaos Angel Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2461_1",
+    "entityName": "Chaos Angel Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2462_0",
+    "entityName": "Chaos Archangel Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2462_1",
+    "entityName": "Chaos Archangel Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6200_0",
+    "entityName": "S50 Champion"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6200_1",
+    "entityName": "S50 Champion"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6201_0",
+    "entityName": "S50 Runner Up"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6201_1",
+    "entityName": "S50 Runner Up"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6202_0",
+    "entityName": "S50 Runner Up"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6202_1",
+    "entityName": "S50 Runner Up"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6203_0",
+    "entityName": "S50 Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6203_1",
+    "entityName": "S50 Costume"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7075_0",
+    "entityName": "S25 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7075_1",
+    "entityName": "S25 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7076_0",
+    "entityName": "S25 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7076_1",
+    "entityName": "S25 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7077_0",
+    "entityName": "S25 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7077_1",
+    "entityName": "S25 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_8005_0",
+    "entityName": "S5 Crew Clothing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_8005_1",
+    "entityName": "S5 Crew Clothing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_8006_0",
+    "entityName": "S6 Crew Clothing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_8006_1",
+    "entityName": "S6 Crew Clothing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_8007_0",
+    "entityName": "S7 Crew Clothing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_8007_1",
+    "entityName": "S7 Crew Clothing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_8008_0",
+    "entityName": "S8 Crew Clothing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_8008_1",
+    "entityName": "S8 Crew Clothing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_354_1",
+    "entityName": "Fire Ninja Style",
+    "field": "name",
+    "oldValue": "Fire Ninja Sytle",
+    "newValue": "Fire Ninja Style"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2412_0",
+    "entityName": "Casual Ronin Flow Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2412_1",
+    "entityName": "Casual Ronin Flow Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2413_0",
+    "entityName": "Dark Ninja Style"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2413_1",
+    "entityName": "Dark Ninja Style"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2414_0",
+    "entityName": "Capitan Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2414_1",
+    "entityName": "Capitan Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2415_0",
+    "entityName": "Betting Champion Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2415_1",
+    "entityName": "Betting Champion Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2416_0",
+    "entityName": "Betting Runner Up Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2416_1",
+    "entityName": "Betting Runner Up Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2417_0",
+    "entityName": "Ember Helmet"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2417_1",
+    "entityName": "Ember Helmet"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2418_0",
+    "entityName": "Apo Baller Mask"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2418_1",
+    "entityName": "Apo Baller Mask"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2419_0",
+    "entityName": "Ninja Shinobi Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2419_1",
+    "entityName": "Ninja Shinobi Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2420_0",
+    "entityName": "Chaos Angel Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2420_1",
+    "entityName": "Chaos Angel Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2421_0",
+    "entityName": "Chaos Archangel Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2421_1",
+    "entityName": "Chaos Archangel Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7011_0",
+    "entityName": "S25 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7011_1",
+    "entityName": "S25 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_8005_0",
+    "entityName": "S5 Crew Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_8005_1",
+    "entityName": "S5 Crew Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_8006_0",
+    "entityName": "S6 Crew Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_8006_1",
+    "entityName": "S6 Crew Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_8007_0",
+    "entityName": "S7 Crew Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_8007_1",
+    "entityName": "S7 Crew Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_8008_0",
+    "entityName": "S8 Crew Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_8008_1",
+    "entityName": "S8 Crew Hairstyle"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2361",
+    "entityName": "Kinjutsu: Fireblast Punch"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2362",
+    "entityName": "Kinjutsu: Dark Barrage Punch"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2363",
+    "entityName": "Kinjutsu: Keeper Throw"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2364",
+    "entityName": "Kinjutsu: Somersault Shot"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2365",
+    "entityName": "Multi Fiery Shot"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2366",
+    "entityName": "Multi Tiger Fiery Shot"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2367",
+    "entityName": "Kinjutsu: Shadow Spin Strike"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2368",
+    "entityName": "Kinjutsu: Chaos Demon Claw"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2369",
+    "entityName": "Kinjutsu: Mirage Sword"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2370",
+    "entityName": "Kinjutsu: Chaos Realm Emergence"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_6101",
+    "entityName": "S50 Kinjutsu: Flash Step Bomb"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_6102",
+    "entityName": "S50 Kinjutsu: Advance Flash Step Bomb"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2445",
+    "entityName": "Dragonheart Lance"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2446",
+    "entityName": "Infernal Dragonblade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2447",
+    "entityName": "Thunderous Spear"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2448",
+    "entityName": "Victory Cane"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2449",
+    "entityName": "Crowbar Scrap"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2450",
+    "entityName": "Roadrage Cleaver"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2451",
+    "entityName": "Drashinja Katana"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2452",
+    "entityName": "Black Sword"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2453",
+    "entityName": "Chaos Angel Blade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2454",
+    "entityName": "Spear of Harbringer"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_4040",
+    "entityName": "S36 Clan: Demon Shark Blade (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_4041",
+    "entityName": "S37 Clan: Vampire Blade - Janen (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_4042",
+    "entityName": "S38 Clan: Jyuuou Blade (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_4043",
+    "entityName": "S39 Clan: Frozen Blade (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_4044",
+    "entityName": "S40 Clan: Gozen Breeze Fan (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_4045",
+    "entityName": "S5 Crew: Daffodil Shuriken (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_4046",
+    "entityName": "S6 Crew: Natural Energy Axe (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_4047",
+    "entityName": "S8 Crew: Shadowfang (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_8098",
+    "entityName": "S20 Crew: Lightning Talon",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"insta_reduce_max_hp\",\"effect_name\":\"Reduce HP\",\"duration\":0,\"calc_type\":\"percent\",\"reduce_type\":\"MAX\",\"amount\":6,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"insta_reduce_max_cp\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"reduce_type\":\"MAX\",\"amount\":25,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":36,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"insta_reduce_max_hp\",\"effect_name\":\"Reduce HP\",\"duration\":0,\"calc_type\":\"percent\",\"reduce_type\":\"MAX\",\"amount\":6,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"insta_reduce_max_cp\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"reduce_type\":\"MAX\",\"amount\":25,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_8099",
+    "entityName": "S20 Crew: Lightning Dagger",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"damage_increase\",\"effect_name\":\"Increase Damage\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":17,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"critical_increase\",\"effect_name\":\"Increase Critical\",\"duration\":0,\"calc_type\":\"number\",\"amount\":17,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":38,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"damage_increase\",\"effect_name\":\"Increase Damage\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":17,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"critical_increase\",\"effect_name\":\"Increase Critical\",\"duration\":0,\"calc_type\":\"number\",\"amount\":17,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_8102",
+    "entityName": "S20 Crew: Ligthning Katana",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"critical_increase\",\"effect_name\":\"Increase Critical\",\"duration\":0,\"calc_type\":\"number\",\"amount\":15,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"hp_recover_with_attack\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":15,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":38,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"critical_increase\",\"effect_name\":\"Increase Critical\",\"duration\":0,\"calc_type\":\"number\",\"amount\":15,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"hp_recover_with_attack\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":15,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6063",
+    "entityName": "S36 Clan: Demon Shark Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"dodge_damage_bonus\",\"effect_name\":\"Strengthen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":30,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":30,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"dodge_damage_bonus\",\"effect_name\":\"Strengthen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_6087",
+    "entityName": "S36 Clan: Advance Demon Shark Blade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6064",
+    "entityName": "S37 Clan: Vampire Blade - Janen",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"hp_recover\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":8,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"bloodfeed_attack\",\"effect_name\":\"Bloodfeed\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":80,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"bloodfeed_attack\",\"effect_name\":\"Bloodfeed\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":80,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"hp_recover\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":8,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_6088",
+    "entityName": "S37 Clan: Advance Vampire Blade - Janen"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6070",
+    "entityName": "S38 Clan: Jyuuou Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"reduce_cd\",\"effect_name\":\"Rewind\",\"duration\":0,\"calc_type\":\"number\",\"amount\":2,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"reduce_cd\",\"effect_name\":\"Rewind\",\"duration\":0,\"calc_type\":\"number\",\"amount\":2,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_6089",
+    "entityName": "S38 Clan: Advance Jyuuou Blade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6071",
+    "entityName": "S39 Clan: Frozen Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"frozen\",\"effect_name\":\"Frozen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":15,\"chance\":35},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"frozen\",\"effect_name\":\"Frozen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":15,\"chance\":35}]"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_6090",
+    "entityName": "S39 Clan: Advance Frozen Blade"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6072",
+    "entityName": "S40 Clan: Gozen Breeze Fan",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":3,\"calc_type\":\"number\",\"amount\":400,\"chance\":20},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":3,\"calc_type\":\"number\",\"amount\":400,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_6091",
+    "entityName": "S40 Clan: Advance Gozen Breeze Fan"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2455",
+    "entityName": "Soulbound Dragon"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2456",
+    "entityName": "Bond Lantern"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2457",
+    "entityName": "Ball Keeper Automaton"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2458",
+    "entityName": "Fan of Victory"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2459",
+    "entityName": "Backscrap"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2460",
+    "entityName": "Wheel of Steel"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2461",
+    "entityName": "Drashinja Bow"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2462",
+    "entityName": "Dark Wing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2463",
+    "entityName": "Chaos Angel Wing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2464",
+    "entityName": "Mighty Archangel Wing"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_4002",
+    "entityName": "S7 Crew: Gorgeous Butterfly (Spirit)"
+  },
+  {
+    "syncId": "2026-06-02T17-42-10-833Z",
+    "detectedAt": "2026-06-02T17:42:10.833Z",
+    "category": "back_effect",
+    "action": "modified",
+    "entityId": "back_8039",
+    "entityName": "S20 Crew: Ligthning Paper Umbrella",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"critical_increase\",\"effect_name\":\"Increase Critical\",\"duration\":0,\"calc_type\":\"number\",\"amount\":17,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"mortal\",\"effect_name\":\"Mortal\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":17,\"chance\":100}]"
+  }
+]

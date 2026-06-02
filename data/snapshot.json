@@ -28595,6 +28595,318 @@
       ]
     }
   },
+  "skill::skill_2361": {
+    "name": "Kinjutsu: Fireblast Punch",
+    "hash": "a944577543876fceaebcccd3a919b626",
+    "data": {
+      "id": "skill_2361",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Burns 5% of the target HP for 3 turns.",
+      "name": "Kinjutsu: Fireblast Punch",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          53
+        ]
+      },
+      "attack_hit_position": "meele_1"
+    }
+  },
+  "skill::skill_2362": {
+    "name": "Kinjutsu: Dark Barrage Punch",
+    "hash": "f0e99258855f9c4bacfee5a2f6fba3dc",
+    "data": {
+      "id": "skill_2362",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 100,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Reduce the target max HP by 3% for 4 turns.",
+      "name": "Kinjutsu: Dark Barrage Punch",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          63
+        ]
+      },
+      "attack_hit_position": "range_2"
+    }
+  },
+  "skill::skill_2363": {
+    "name": "Kinjutsu: Keeper Throw",
+    "hash": "de2b5ad8632ccfe8d63409847ceeb80b",
+    "data": {
+      "id": "skill_2363",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove all positive status effect of target.",
+      "name": "Kinjutsu: Keeper Throw",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          56
+        ]
+      },
+      "attack_hit_position": "meele_2",
+      "source": [
+        "easter2026",
+        "material_market"
+      ]
+    }
+  },
+  "skill::skill_2364": {
+    "name": "Kinjutsu: Somersault Shot",
+    "hash": "78e166895f71b51ef7e3bdb22bced2f3",
+    "data": {
+      "id": "skill_2364",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Reduce 50% target's dodge rate; and extra 50% dodge rate during target's attack. (3 turns).",
+      "name": "Kinjutsu: Somersault Shot",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          45
+        ]
+      },
+      "attack_hit_position": "meele_2",
+      "source": [
+        "easter2026",
+        "material_market"
+      ]
+    }
+  },
+  "skill::skill_2365": {
+    "name": "Multi Fiery Shot",
+    "hash": "863419451e1d7675fc63edba4ad80a82",
+    "data": {
+      "id": "skill_2365",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 250,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 17,
+      "target": "All",
+      "multi_hit": true,
+      "description": "Shot the ball with fiery spirit. Inflict 'Flaming' to all enemies by 5% for 3 turns.",
+      "name": "Multi Fiery Shot",
+      "type": "7",
+      "premium": false,
+      "anims": {
+        "hit": [
+          108
+        ],
+        "effects": [
+          {
+            "name": "effectMc",
+            "add": 86,
+            "type": "target"
+          }
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "skill::skill_2366": {
+    "name": "Multi Tiger Fiery Shot",
+    "hash": "e7fc62b361922da29e2c013bfc55daf1",
+    "data": {
+      "id": "skill_2366",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 400,
+      "hit_chance": 0,
+      "cp_cost": 200,
+      "cooldown": 14,
+      "target": "All",
+      "multi_hit": true,
+      "description": "Shot the ball with tiger spirit. Inflict 'Flaming' to all enemies by 7% for 3 turns.",
+      "name": "Multi Tiger Fiery Shot",
+      "type": "7",
+      "premium": false,
+      "anims": {
+        "hit": [
+          108
+        ],
+        "effects": [
+          {
+            "name": "effectMc",
+            "add": 86,
+            "type": "target"
+          }
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "skill::skill_2367": {
+    "name": "Kinjutsu: Shadow Spin Strike",
+    "hash": "5aff063ad715e6485d8fb677b4f348d3",
+    "data": {
+      "id": "skill_2367",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 330,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove all positive status effect from the target and inflict 'Blind' by 40% for 3 turns.",
+      "name": "Kinjutsu: Shadow Spin Strike",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          53
+        ]
+      },
+      "attack_hit_position": "meele_1"
+    }
+  },
+  "skill::skill_2368": {
+    "name": "Kinjutsu: Chaos Demon Claw",
+    "hash": "1cfbcf91d173b47aab974c75201a9a66",
+    "data": {
+      "id": "skill_2368",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 350,
+      "hit_chance": 0,
+      "cp_cost": 400,
+      "cooldown": 18,
+      "target": "Single",
+      "description": "(Kinjutsu) Use the power of chaos to vulnerable enemy by 85% for 3 turns.",
+      "name": "Kinjutsu: Chaos Demon Claw",
+      "type": "7",
+      "category": "package",
+      "premium": false,
+      "anims": {
+        "hit": [
+          90
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
+  "skill::skill_2369": {
+    "name": "Kinjutsu: Mirage Sword",
+    "hash": "dcda177b00cb1a9e91e6de568a7c1967",
+    "data": {
+      "id": "skill_2369",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 1000,
+      "hit_chance": 1000,
+      "cp_cost": 10,
+      "cooldown": 17,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Inflicts 'Stun' and 'Internal Injury' on all targets for 3 turns. This jutsu is extremely accurate.",
+      "name": "Kinjutsu: Mirage Sword",
+      "type": "6",
+      "category": "package",
+      "premium": false,
+      "anims": {
+        "hit": [
+          100
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
+  "skill::skill_2370": {
+    "name": "Kinjutsu: Chaos Realm Emergence",
+    "hash": "8a1441a04156abe9bc59dcd271fbbba1",
+    "data": {
+      "id": "skill_2370",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 16,
+      "target": "Self",
+      "description": "(Kinjutsu) Reduce 4 cooldown turns of skills that are resting. Recovers 50% of max CP.",
+      "name": "Kinjutsu: Chaos Realm Emergence",
+      "type": "7",
+      "category": "package",
+      "premium": false,
+      "anims": {
+        "hit": [
+          111
+        ],
+        "fullscreen": {
+          "add": 45,
+          "remove": 109
+        }
+      },
+      "attack_hit_position": "startpos",
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
   "skill::skill_3500": {
     "name": "Senjutsu: Super Charges",
     "hash": "0aa6dd05b82f6d6ff5d7fc12360fcb01",
@@ -32574,6 +32886,68 @@
       "attack_hit_position": "startpos"
     }
   },
+  "skill::skill_6101": {
+    "name": "S50 Kinjutsu: Flash Step Bomb",
+    "hash": "63dcf2ed9437a13451899e674168d659",
+    "data": {
+      "id": "skill_6101",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 350,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Removes all positive status effect from the target. Inflicts 'Flaming' by 6% for 3 turns.",
+      "name": "S50 Kinjutsu: Flash Step Bomb",
+      "type": "6",
+      "category": "clan",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          84
+        ]
+      },
+      "source": [
+        "clan"
+      ],
+      "attack_hit_position": "meele_1"
+    }
+  },
+  "skill::skill_6102": {
+    "name": "S50 Kinjutsu: Advance Flash Step Bomb",
+    "hash": "362baa4e2ddf0bbcc348bfbfc24bc0ad",
+    "data": {
+      "id": "skill_6102",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 500,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Removes all positive status effect from the target. Inflicts 'Flaming' by 7% for 4 turns.",
+      "name": "S50 Kinjutsu: Advance Flash Step Bomb",
+      "type": "6",
+      "category": "clan",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          142
+        ]
+      },
+      "source": [
+        "clan"
+      ],
+      "attack_hit_position": "meele_1"
+    }
+  },
   "skill::skill_7000": {
     "name": "S0 Kinjutsu: Katon Flare Flash Combo",
     "hash": "2e1bab848b1e11fd417546bd70c1d684",
@@ -34219,6 +34593,80 @@
       "attack_hit_position": "startpos"
     }
   },
+  "skill::skill_7052": {
+    "name": "S25 Kinjutsu: Ame no Kanata",
+    "hash": "23a8ed815ccb9d82ae3dd4f5e22d7d0c",
+    "data": {
+      "id": "skill_7052",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 500,
+      "cooldown": 15,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Not Available.",
+      "name": "S25 Kinjutsu: Ame no Kanata",
+      "type": "7",
+      "category": "shadowwar",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          80
+        ],
+        "fullscreen": {
+          "add": 59,
+          "remove": 86,
+          "top": true
+        }
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "meele_2"
+    }
+  },
+  "skill::skill_7053": {
+    "name": "S25 Kinjutsu: Advanced Ame no Kanata",
+    "hash": "dd16bc8a5f5c1ac497e5f9f3600e5a77",
+    "data": {
+      "id": "skill_7053",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 320,
+      "cooldown": 13,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Not Available.",
+      "name": "S25 Kinjutsu: Advanced Ame no Kanata",
+      "type": "7",
+      "category": "shadowwar",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          101
+        ],
+        "fullscreen": {
+          "add": 79,
+          "remove": 147,
+          "top": true
+        }
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "meele_2"
+    }
+  },
   "skill::skill_8001": {
     "name": "S0 Kinjutsu: Aether Consemination Blast",
     "hash": "328c397026f7224de4a95a732acbaf8e",
@@ -34968,7 +35416,7 @@
   },
   "skill::skill_8025": {
     "name": "S20 Kinjutsu: Lightning Whip",
-    "hash": "89b4066e2b7da7243f32f22f8d40d1cd",
+    "hash": "2a43daba41ceddd58ffb176116664b5d",
     "data": {
       "id": "skill_8025",
       "price_tokens": 0,
@@ -34980,7 +35428,7 @@
       "cp_cost": 200,
       "cooldown": 13,
       "target": "Single",
-      "description": "(Kinjutsu) Not Available.",
+      "description": "(Kinjutsu) Strike enemy with lightning whip. Inflict 'Blind' by 100% for 3 turns.",
       "name": "S20 Kinjutsu: Lightning Whip",
       "type": "7",
       "category": "crew",
@@ -57500,6 +57948,244 @@
       ]
     }
   },
+  "library::wpn_2445": {
+    "name": "Dragonheart Lance",
+    "hash": "736dd80c3791623b597d13e514a528b1",
+    "data": {
+      "attack_type": "attack_07",
+      "buyable_clan": false,
+      "description": "Increases accuracy by 15%. Reduce target max HP by 4% on each successful weapon attack.",
+      "level": 20,
+      "damage": 255,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2445",
+      "price_gold": 0,
+      "name": "Dragonheart Lance",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::wpn_2446": {
+    "name": "Infernal Dragonblade",
+    "hash": "906549b0f967e4f1d3dfb6f9e5f77434",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increases accuracy by 35%. Recovers 300 HP at the start of each of your turns.",
+      "level": 40,
+      "damage": 360,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2446",
+      "price_gold": 0,
+      "name": "Infernal Dragonblade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::wpn_2447": {
+    "name": "Thunderous Spear",
+    "hash": "7c2f14f69ed9f43bf2c2a79c0e935297",
+    "data": {
+      "attack_type": "attack_07",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 40%. Increase critical chance by 15% and 20% chance to blind enemy by 30% for 3 turn after succesfull weapon attack.",
+      "level": 40,
+      "damage": 380,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2447",
+      "price_gold": 0,
+      "name": "Thunderous Spear",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::wpn_2448": {
+    "name": "Victory Cane",
+    "hash": "d096a8b9f487f20bc94d1b77484e4dc4",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 40%. Increase max HP by 888. Increase all attack damage by 15% max HP percentage.",
+      "level": 1,
+      "damage": 400,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2448",
+      "price_gold": 0,
+      "name": "Victory Cane",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::wpn_2449": {
+    "name": "Crowbar Scrap",
+    "hash": "37def8310ff4e9eafcb33c62a2a88624",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 10%. Reduce damage taken by 150.",
+      "level": 1,
+      "damage": 100,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2449",
+      "price_gold": 0,
+      "name": "Crowbar Scrap",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::wpn_2450": {
+    "name": "Roadrage Cleaver",
+    "hash": "312aae8a8c9a5c64a0de76574ba0d3f5",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 25%. Instanly reduce 4% enemy max HP after succesfull weapon attack.",
+      "level": 20,
+      "damage": 180,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2450",
+      "price_gold": 0,
+      "name": "Roadrage Cleaver",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::wpn_2451": {
+    "name": "Drashinja Katana",
+    "hash": "71bd1c41ab6fab41afb49793d38ed861",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increases accuracy by 30%. Reduce target max HP by 5% on each successful weapon attack. Instantly kills the target if their current HP falls below 8%.",
+      "level": 40,
+      "damage": 330,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2451",
+      "price_gold": 0,
+      "name": "Drashinja Katana",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::wpn_2452": {
+    "name": "Black Sword",
+    "hash": "11caf0718b04e064389c9a8e67e735e2",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Recover 100 HP at the start of each of your turns.",
+      "level": 1,
+      "damage": 120,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2452",
+      "price_gold": 0,
+      "name": "Black Sword",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::wpn_2453": {
+    "name": "Chaos Angel Blade",
+    "hash": "28eaa365205b572aa82198dcf5d149cb",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increases accuracy by 30%. Burn the target max HP by 3% for 5 turns.",
+      "level": 1,
+      "damage": 80,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2453",
+      "price_gold": 0,
+      "name": "Chaos Angel Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
+  "library::wpn_2454": {
+    "name": "Spear of Harbringer",
+    "hash": "ff4eed9dacf016da41b59ba983d9e0e6",
+    "data": {
+      "attack_type": "attack_07",
+      "buyable_clan": false,
+      "description": "Increases accuracy by 45%. Has a 30% chance to remove all positive status effect from the target and reduce the target max HP by 5% on each successful weapon attack.",
+      "level": 60,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2454",
+      "price_gold": 0,
+      "name": "Spear of Harbringer",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
   "library::wpn_4001": {
     "name": "S0 Burning Maple Greatsword (Spirit)",
     "hash": "075254fdf7f8e08a60f921554fe01964",
@@ -58507,6 +59193,220 @@
       "id": "wpn_4039",
       "price_gold": 0,
       "name": "S4 Crew: Tooth of Whirlwind (Spirit)",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 100000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew_shop",
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_4040": {
+    "name": "S36 Clan: Demon Shark Blade (Spirit)",
+    "hash": "b4c9c6d180a0147784456fa07b91512c",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Spirit of S36 Clan Reward: Increase accuracy by 30%, after a successful dodge increase attack damage by 55% on the next turn",
+      "level": 20,
+      "damage": 240,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_4040",
+      "price_gold": 0,
+      "name": "S36 Clan: Demon Shark Blade (Spirit)",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 100000,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan_shop",
+        "clan"
+      ]
+    }
+  },
+  "library::wpn_4041": {
+    "name": "S37 Clan: Vampire Blade - Janen (Spirit)",
+    "hash": "6056523abb586feb29d515d05e8fa589",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Spirit of S37 Clan Reward: Increase accuracy by 30%, 100% chance to inflict Bloodfeed - recover HP equal to 45% of attack damage after each successful weapon attack and recover 5% HP every turn",
+      "level": 20,
+      "damage": 240,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_4041",
+      "price_gold": 0,
+      "name": "S37 Clan: Vampire Blade - Janen (Spirit)",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 100000,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan_shop",
+        "clan"
+      ]
+    }
+  },
+  "library::wpn_4042": {
+    "name": "S38 Clan: Jyuuou Blade (Spirit)",
+    "hash": "bbae4ed7ac99d699abd19d83569506e7",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Spirit of S38 Clan Reward: Increase accuracy by 30%, each successful weapon attack reduces cooldown of all Jutsu by 1 turn",
+      "level": 20,
+      "damage": 240,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_4042",
+      "price_gold": 0,
+      "name": "S38 Clan: Jyuuou Blade (Spirit)",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 100000,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan_shop",
+        "clan"
+      ]
+    }
+  },
+  "library::wpn_4043": {
+    "name": "S39 Clan: Frozen Blade (Spirit)",
+    "hash": "ca05ff83fda7a075fb31b69cbc4dcb06",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Spirit of S39 Clan Reward: Increase accuracy by 30%, 18% chance to freeze target for 1 turn (cannot move but takes -20% damage for 1 turn)",
+      "level": 20,
+      "damage": 240,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_4043",
+      "price_gold": 0,
+      "name": "S39 Clan: Frozen Blade (Spirit)",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 100000,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan_shop",
+        "clan"
+      ]
+    }
+  },
+  "library::wpn_4044": {
+    "name": "S40 Clan: Gozen Breeze Fan (Spirit)",
+    "hash": "472f757412efffbcdda0db514f69ec31",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Spirit of S40 Clan Reward: Increase accuracy by 30%, each weapon attack weakens enemy reducing damage by 300 HP for 3 turns",
+      "level": 20,
+      "damage": 240,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_4044",
+      "price_gold": 0,
+      "name": "S40 Clan: Gozen Breeze Fan (Spirit)",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 100000,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan_shop",
+        "clan"
+      ]
+    }
+  },
+  "library::wpn_4045": {
+    "name": "S5 Crew: Daffodil Shuriken (Spirit)",
+    "hash": "ff7640cd2e226429a1ce28b104f0ed0f",
+    "data": {
+      "attack_type": "attack_05",
+      "buyable_clan": false,
+      "description": "Spirit of S5 Crew Reward: Increase accuracy by 35%. Reduce target 20% CP on every weapon attack. Has 20% chance to inflict Rewind (reduce skill cooldown by 1 turn).",
+      "level": 85,
+      "damage": 520,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_4045",
+      "price_gold": 0,
+      "name": "S5 Crew: Daffodil Shuriken (Spirit)",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 100000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew_shop",
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_4046": {
+    "name": "S6 Crew: Natural Energy Axe (Spirit)",
+    "hash": "e32edf086a44bc8bb59a7feec907b1c3",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Spirit of S6 Crew Reward: Increase 35% accuracy and agility by 1. Reduce jutsu CP consumption for 30%.",
+      "level": 80,
+      "damage": 495,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_4046",
+      "price_gold": 0,
+      "name": "S6 Crew: Natural Energy Axe (Spirit)",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 100000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew_shop",
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_4047": {
+    "name": "S8 Crew: Shadowfang (Spirit)",
+    "hash": "544dc18ae9034999086f3f603447f7e0",
+    "data": {
+      "attack_type": "attack_07",
+      "buyable_clan": false,
+      "description": "Spirit of S8 Crew Reward: A haunted spear forged from a Hellhound's fang. Increases accuracy by 35%. Has 10% chance to block any damage. Inflicts Bleeding status on every successful weapon attack. (Increases damage taken by 20% for 2 turns).",
+      "level": 80,
+      "damage": 499,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_4047",
+      "price_gold": 0,
+      "name": "S8 Crew: Shadowfang (Spirit)",
       "buyable": true,
       "premium": false,
       "price_prestige": 0,
@@ -60737,6 +61637,167 @@
       ]
     }
   },
+  "library::wpn_6092": {
+    "name": "S50 Clan: Buster Blade",
+    "hash": "7abe4558dfeddbdaee709e8eaef02b3c",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S50 Clan Reward: A gigantic sword with immense destructive that can rip even the sea. Increases accuracy by 40% and restores 7% of the user's max HP each turn. Has a 40% chance to inflict burning when attack with weapon - Reduce 8% HP for 1 turn.",
+      "level": 80,
+      "damage": 477,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6092",
+      "price_gold": 0,
+      "name": "S50 Clan: Buster Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::wpn_6087": {
+    "name": "S36 Clan: Advance Demon Shark Blade",
+    "hash": "c459d8c3c94bdfb4b6a49805abf3096b",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Advance of S36 Clan Reward: Increase accuracy by 40%, after a successful dodge increase attack damage by 110% on the next turn",
+      "level": 65,
+      "damage": 380,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6087",
+      "price_gold": 0,
+      "name": "S36 Clan: Advance Demon Shark Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 50000,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan",
+        "clan_forge",
+        "material_market"
+      ]
+    }
+  },
+  "library::wpn_6088": {
+    "name": "S37 Clan: Advance Vampire Blade - Janen",
+    "hash": "cbc67f4b7aaae73670abd57d1960a12a",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Advance of S37 Clan Reward: Increase accuracy by 45%, 100% chance to inflict Bloodfeed - recover HP equal to 90% of attack damage after each successful weapon attack and recover 9% HP every turn",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6088",
+      "price_gold": 0,
+      "name": "S37 Clan: Advance Vampire Blade - Janen",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 50000,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan",
+        "clan_forge",
+        "material_market"
+      ]
+    }
+  },
+  "library::wpn_6089": {
+    "name": "S38 Clan: Advance Jyuuou Blade",
+    "hash": "9035ff136a1e46ddb14a9ceed3c3913d",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Advance of S38 Clan Reward: Increase accuracy by 45%, each successful weapon attack reduces cooldown of all Jutsu by 2 turns",
+      "level": 60,
+      "damage": 360,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6089",
+      "price_gold": 0,
+      "name": "S38 Clan: Advance Jyuuou Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 50000,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan",
+        "clan_forge",
+        "material_market"
+      ]
+    }
+  },
+  "library::wpn_6090": {
+    "name": "S39 Clan: Advance Frozen Blade",
+    "hash": "b7028fb07fce3a0e79790d89be107a0f",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Advance of S39 Clan Reward: Increase accuracy by 50%, 35% chance to freeze target for 1 turn (cannot move but takes -10% damage for 1 turn)",
+      "level": 60,
+      "damage": 360,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6090",
+      "price_gold": 0,
+      "name": "S39 Clan: Advance Frozen Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 50000,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan",
+        "clan_forge",
+        "material_market"
+      ]
+    }
+  },
+  "library::wpn_6091": {
+    "name": "S40 Clan: Advance Gozen Breeze Fan",
+    "hash": "6b468333e29fffb8c9556cfb5df8e878",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Advance of S40 Clan Reward: Increase accuracy by 50%, each weapon attack weakens enemy reducing damage by 600 HP for 3 turns",
+      "level": 60,
+      "damage": 360,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6091",
+      "price_gold": 0,
+      "name": "S40 Clan: Advance Gozen Breeze Fan",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 50000,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan",
+        "clan_forge",
+        "material_market"
+      ]
+    }
+  },
   "library::wpn_7000": {
     "name": "S1 Shadow War: Frosted Magica",
     "hash": "1720b569410c25ee976000dc7944e431",
@@ -61227,6 +62288,32 @@
       "id": "wpn_7019",
       "price_gold": 0,
       "name": "S24 Shadow War: Seraph's Ruin Edge",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::wpn_7020": {
+    "name": "S25 Shadow War: Hada Kokuto",
+    "hash": "45cd9d4a4df05dad2d6c63a79ba099fc",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S25 Shadow War Reward: Not Available.",
+      "level": 80,
+      "damage": 549,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_7020",
+      "price_gold": 0,
+      "name": "S25 Shadow War: Hada Kokuto",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -63690,13 +64777,13 @@
   },
   "library::wpn_8098": {
     "name": "S20 Crew: Lightning Talon",
-    "hash": "e6dcbb7ea570022055d028a9df49f762",
+    "hash": "7fe668d0162b27fc087c58c42688b7af",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Not Available",
+      "description": "S20 Crew Reward: Increase accurary by 40%. Reduce target 6% HP and 25% CP on every weapon attack.",
       "level": 80,
-      "damage": 503,
+      "damage": 460,
       "sell_price": 0,
       "type": "wpn",
       "price_tokens": 0,
@@ -63716,11 +64803,11 @@
   },
   "library::wpn_8099": {
     "name": "S20 Crew: Lightning Dagger",
-    "hash": "43fd69c2668b0bbfea9cbe139f2ba8dc",
+    "hash": "06ca32fd4f193ba6d3bd0d9315749e1c",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Not Available",
+      "description": "S20 Crew Reward: Increase accurary by 40%, critical rate by 17% and all attack damage by 17%.",
       "level": 80,
       "damage": 450,
       "sell_price": 0,
@@ -63742,13 +64829,13 @@
   },
   "library::wpn_8100": {
     "name": "S20 Crew: Ligthning Mace",
-    "hash": "fe1749c43c073cfa2e1209e90fb9d6e8",
+    "hash": "f77c21c0199e9b9b80d561f5021422dc",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Not Available",
-      "level": 80,
-      "damage": 450,
+      "description": "S20 Crew Reward: Increase accurary by 44% and purify chance by 8%. Recover HP by 7% every turn.",
+      "level": 85,
+      "damage": 530,
       "sell_price": 0,
       "type": "wpn",
       "price_tokens": 0,
@@ -63768,13 +64855,13 @@
   },
   "library::wpn_8101": {
     "name": "S20 Crew: Ligthning Lance",
-    "hash": "f5d5891bb4d7fb9e57a5d3c1760e0ead",
+    "hash": "8d23df71c9cdda5ab79edc7ef16b0eca",
     "data": {
       "attack_type": "attack_07",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Not Available",
+      "description": "S20 Crew Reward: Increase accurary by 40%. Reduce 300 HP damage taken.",
       "level": 80,
-      "damage": 450,
+      "damage": 477,
       "sell_price": 0,
       "type": "wpn",
       "price_tokens": 0,
@@ -63794,13 +64881,13 @@
   },
   "library::wpn_8102": {
     "name": "S20 Crew: Ligthning Katana",
-    "hash": "3663a00bbb034407d70835f8d1ecf981",
+    "hash": "8330c071d4c82ef419d0dd848a481eb6",
     "data": {
-      "attack_type": "attack_07",
+      "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Not Available",
-      "level": 80,
-      "damage": 450,
+      "description": "S20 Crew Reward: Increase accurary by 40% and critical chance by 15%. Recover 15% HP on every successful critical attack.",
+      "level": 85,
+      "damage": 560,
       "sell_price": 0,
       "type": "wpn",
       "price_tokens": 0,
@@ -79298,6 +80385,236 @@
       ]
     }
   },
+  "library::back_2455": {
+    "name": "Soulbound Dragon",
+    "hash": "94364d426e42149c6a0d28c2c858523b",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduce Damage taken by 250.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2455",
+      "price_gold": 0,
+      "name": "Soulbound Dragon",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false
+    }
+  },
+  "library::back_2456": {
+    "name": "Bond Lantern",
+    "hash": "4310eef7d8a464ec3302d9f7659ff225",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase max hp by 10%. Reduce damage taken by 250",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2456",
+      "price_gold": 0,
+      "name": "Bond Lantern",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false
+    }
+  },
+  "library::back_2457": {
+    "name": "Ball Keeper Automaton",
+    "hash": "6e733bb63a39f0caa479ca3854b7a66b",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase dodge chance by 10%, increase purify chance by 8%.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2457",
+      "price_gold": 0,
+      "name": "Ball Keeper Automaton",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::back_2458": {
+    "name": "Fan of Victory",
+    "hash": "6aa2b78f62bde018a1a61def0f635c1e",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Recover HP by 7% when put under debuff. Increase critical damage by 25%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2458",
+      "price_gold": 0,
+      "name": "Fan of Victory",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::back_2459": {
+    "name": "Backscrap",
+    "hash": "805bc46157c9318ed720387c89e1dc7f",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Ignore enemy dodge rate by 10%. Reduce damage taken by 150",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2459",
+      "price_gold": 0,
+      "name": "Backscrap",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::back_2460": {
+    "name": "Wheel of Steel",
+    "hash": "7d320125a9afd35a2e70d1fd27203d9d",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase max HP and purify chance by 7%.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2460",
+      "price_gold": 0,
+      "name": "Wheel of Steel",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::back_2461": {
+    "name": "Drashinja Bow",
+    "hash": "9c8fd046c5051a3692270800f0ddc5c5",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase agility by 5. Increase purify chance by 10%.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2461",
+      "price_gold": 0,
+      "name": "Drashinja Bow",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false
+    }
+  },
+  "library::back_2462": {
+    "name": "Dark Wing",
+    "hash": "41acde16c2053c7583514a9d4de429d5",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduce damage taken by 150.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2462",
+      "price_gold": 0,
+      "name": "Dark Wing",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false
+    }
+  },
+  "library::back_2463": {
+    "name": "Chaos Angel Wing",
+    "hash": "2960a5e63076d25de1211d25f8375542",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduces incoming damage by 200. Has a 15% chance to absorb 1% of the attacker max HP.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2463",
+      "price_gold": 0,
+      "name": "Chaos Angel Wing",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
+  "library::back_2464": {
+    "name": "Mighty Archangel Wing",
+    "hash": "704dab2309824f43b79623cd07981c1b",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Recovers 350 HP at the start of each of your turn. Has a 30% chance to absorb 2% of the attacker max CP.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2464",
+      "price_gold": 0,
+      "name": "Mighty Archangel Wing",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
   "library::back_4001": {
     "name": "S2 Crew: Solar Aura (Spirit)",
     "hash": "4be3800fbdda8a366e9035f9efcea650",
@@ -79313,6 +80630,34 @@
       "id": "back_4001",
       "price_gold": 0,
       "name": "S2 Crew: Solar Aura (Spirit)",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 100000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew_shop",
+        "crew"
+      ]
+    }
+  },
+  "library::back_4002": {
+    "name": "S7 Crew: Gorgeous Butterfly (Spirit)",
+    "hash": "033059537d7696618ca29619c2dccd62",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase agility by 1. Recover 15% extra CP when charge.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_4002",
+      "price_gold": 0,
+      "name": "S7 Crew: Gorgeous Butterfly (Spirit)",
       "buyable": true,
       "premium": false,
       "price_prestige": 0,
@@ -80576,6 +81921,32 @@
       ]
     }
   },
+  "library::back_6051": {
+    "name": "S50 Clan: Blood Shade Magatama",
+    "hash": "6eaad3db773ac30167294f13d79dfd01",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S50 Clan Reward: Created with blood and molten lava, the blood shade magatama consumes the life force of anyone with malicious intent. Has a 8% chance to absorb 10% of the attacker's max HP and 8% chance to convert any damage taken to HP.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_6051",
+      "price_gold": 0,
+      "name": "S50 Clan: Blood Shade Magatama",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
   "library::back_7000": {
     "name": "S0 Shadow War: Fire Spirit",
     "hash": "5a67639020fb7f115e3fb6e1de06c343",
@@ -81066,6 +82437,32 @@
       "id": "back_7019",
       "price_gold": 0,
       "name": "S24 Shadow War: Seraphic Voidwings",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::back_7020": {
+    "name": "S25 Shadow War: Ignia the Flame",
+    "hash": "cc9f114549b71650f8e7aa5547181e5c",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S25 Shadow War Reward: Not Available.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_7020",
+      "price_gold": 0,
+      "name": "S25 Shadow War: Ignia the Flame",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -82039,11 +83436,11 @@
   },
   "library::back_8039": {
     "name": "S20 Crew: Ligthning Paper Umbrella",
-    "hash": "ca8ae6ee31caca4f3a9f9127de5259a4",
+    "hash": "d47bcbd90a4a5ae969b27dc72ddb6f39",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Not Available",
+      "description": "S20 Crew Reward: Increase critical damage by 17%.",
       "level": 1,
       "damage": 0,
       "sell_price": 0,
@@ -82065,11 +83462,11 @@
   },
   "library::back_8040": {
     "name": "S20 Crew: Ligthning Kokeshi",
-    "hash": "476b706195aaac013a092a220c39e1ce",
+    "hash": "bae526b08d0605d7faaf33a5aec21231",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Not Available",
+      "description": "S20 Crew Reward: Has 75% chance to recover 10% HP after receive critical damage.",
       "level": 1,
       "damage": 0,
       "sell_price": 0,
@@ -98428,6 +99825,156 @@
       ]
     }
   },
+  "library::material_2257": {
+    "name": "World Cup Badge",
+    "hash": "b851c138122ba7211b252ecff281bd9f",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This World Cup Badge can be used to exchange reward during World Cup Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2257",
+      "price_gold": 0,
+      "name": "World Cup Badge",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::material_2258": {
+    "name": "World Cup Shuriken",
+    "hash": "b71e46bc81bf0731fbf68d16248b0fb8",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This World Cup Shuriken can be used to exchange reward during World Cup Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2258",
+      "price_gold": 0,
+      "name": "World Cup Shuriken",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::material_2259": {
+    "name": "Skull Keeper Badge",
+    "hash": "540830ec4e1a10da13f4c0bf63eeae1b",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Skull Keeper Badge can be used to exchange reward during World Cup Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2259",
+      "price_gold": 0,
+      "name": "Skull Keeper Badge",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::material_2260": {
+    "name": "Spirit Captain Badge",
+    "hash": "ea575efb3e828cedde3a07167275e094",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Spirit Captain Badge can be used to exchange reward during World Cup Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2260",
+      "price_gold": 0,
+      "name": "Spirit Captain Badge",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::material_2261": {
+    "name": "Golden Ball Coin",
+    "hash": "74810d3b8c4f090e7382e0098195ec1f",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Golden Ball Coin can be used to exchange reward during World Cup Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2261",
+      "price_gold": 0,
+      "name": "Golden Ball Coin",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::material_2262": {
+    "name": "Field Map",
+    "hash": "b5c1f9992521a5f91dd65fa1b5412364",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Field Map can be used to exchange reward during World Cup Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2262",
+      "price_gold": 0,
+      "name": "Field Map",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
   "library::essential_01": {
     "name": "Rename Badge",
     "hash": "f22fa3375aa129120b00240fa5701f9e",
@@ -98775,6 +100322,51 @@
       "source": [
         "phantomkyunoki2026"
       ]
+    }
+  },
+  "library::essential_16": {
+    "name": "Dark Ninja Bag",
+    "hash": "1b488b2b7a71aeb57ea7da8ad6f8de84",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Dark Ninja Bag can be used to Claim Dark Ninja Bundle which include (Weapon, Back Item, Hair, Set, Skill). (Welcome Login Reward)",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "essential_16",
+      "price_gold": 0,
+      "name": "Dark Ninja Bag",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "usable": true,
+      "sellable": false
+    }
+  },
+  "library::essential_17": {
+    "name": "Ninja Bag",
+    "hash": "94c945134a20ece5b64747bac843270d",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Ninja Bag can be used to Claim 1 of the Ninja Bag, Fire Ninja Bag or Dark Ninja Bag. (Welcome Login Reward)",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "essential_17",
+      "price_gold": 0,
+      "name": "Ninja Bag",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "usable": true,
+      "sellable": false,
+      "na": true
     }
   },
   "library::set_01_0": {
@@ -107449,6 +109041,1926 @@
       "price_prestige": 0,
       "sellable": false,
       "na": true
+    }
+  },
+  "library::set_1269_0": {
+    "name": "Argentina Jersey 2026",
+    "hash": "92b34d1e5284cb4fe2aad1207d2df598",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1269_0",
+      "price_gold": 1000000,
+      "name": "Argentina Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1269_1": {
+    "name": "Argentina Jersey 2026",
+    "hash": "80f4b93ae0c39e8eb93f5e910e83d079",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1269_1",
+      "price_gold": 1000000,
+      "name": "Argentina Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1270_0": {
+    "name": "Bosnia Jersey 2026",
+    "hash": "42125646866fd7c7e479cfcf938f393b",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1270_0",
+      "price_gold": 1000000,
+      "name": "Bosnia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1270_1": {
+    "name": "Bosnia Jersey 2026",
+    "hash": "6f426ad43b3d7b4248326b3281318406",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1270_1",
+      "price_gold": 1000000,
+      "name": "Bosnia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1271_0": {
+    "name": "Brazil Jersey 2026",
+    "hash": "4db4e9101c41429628c1b73a75ccc175",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1271_0",
+      "price_gold": 1000000,
+      "name": "Brazil Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1271_1": {
+    "name": "Brazil Jersey 2026",
+    "hash": "8f7974099f39cc9a1816bd672e63b3e8",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1271_1",
+      "price_gold": 1000000,
+      "name": "Brazil Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1272_0": {
+    "name": "Czech Jersey 2026",
+    "hash": "d4ca51bb5edd021ae24f6232399c263f",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1272_0",
+      "price_gold": 1000000,
+      "name": "Czech Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1272_1": {
+    "name": "Czech Jersey 2026",
+    "hash": "81eaee9b1179e5e0f5f0557642338d07",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1272_1",
+      "price_gold": 1000000,
+      "name": "Czech Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1273_0": {
+    "name": "DR Congo Jersey 2026",
+    "hash": "e88e75e6c7197f5d6edff5914d88fef2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1273_0",
+      "price_gold": 1000000,
+      "name": "DR Congo Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1273_1": {
+    "name": "DR Congo Jersey 2026",
+    "hash": "1e0d7309b3e6a2fbc8be9b74b7fdd2cb",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1273_1",
+      "price_gold": 1000000,
+      "name": "DR Congo Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1274_0": {
+    "name": "Haiti Jersey 2026",
+    "hash": "de9ba7065684c1709f443261222f980a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1274_0",
+      "price_gold": 1000000,
+      "name": "Haiti Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1274_1": {
+    "name": "Haiti Jersey 2026",
+    "hash": "ebc18318761101d08b84cf92ddd923ba",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1274_1",
+      "price_gold": 1000000,
+      "name": "Haiti Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1275_0": {
+    "name": "Japan Jersey 2026",
+    "hash": "d0971af4d5298e6e3a60e7253e3e9228",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1275_0",
+      "price_gold": 1000000,
+      "name": "Japan Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1275_1": {
+    "name": "Japan Jersey 2026",
+    "hash": "16483a087f90a6ba946a1811409bc0b2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1275_1",
+      "price_gold": 1000000,
+      "name": "Japan Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1276_0": {
+    "name": "Jordan Jersey 2026",
+    "hash": "a98f448a9bd2fdd313e52fa917d43e91",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1276_0",
+      "price_gold": 1000000,
+      "name": "Jordan Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1276_1": {
+    "name": "Jordan Jersey 2026",
+    "hash": "6fd847d3a3d2c10b77d80fd916430a07",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1276_1",
+      "price_gold": 1000000,
+      "name": "Jordan Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1277_0": {
+    "name": "South Korea Jersey 2026",
+    "hash": "45e96f921f9190c57fc3ae6c640b87e5",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1277_0",
+      "price_gold": 1000000,
+      "name": "South Korea Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1277_1": {
+    "name": "South Korea Jersey 2026",
+    "hash": "ba45b05a0b3701308e917453a6dee60b",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1277_1",
+      "price_gold": 1000000,
+      "name": "South Korea Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1278_0": {
+    "name": "Mexico Jersey 2026",
+    "hash": "875003da78f0036f6274f3d6a23efe62",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1278_0",
+      "price_gold": 1000000,
+      "name": "Mexico Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1278_1": {
+    "name": "Mexico Jersey 2026",
+    "hash": "6d9e4464256c1ed9b867ec81c7579c32",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1278_1",
+      "price_gold": 1000000,
+      "name": "Mexico Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1279_0": {
+    "name": "Portugal Jersey 2026",
+    "hash": "2801010ab3fb2298f5e2cd8684426bda",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1279_0",
+      "price_gold": 1000000,
+      "name": "Portugal Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1279_1": {
+    "name": "Portugal Jersey 2026",
+    "hash": "0ced8166b9b4bbf65294431ffa04db14",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1279_1",
+      "price_gold": 1000000,
+      "name": "Portugal Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1280_0": {
+    "name": "France Jersey 2026",
+    "hash": "c71db05461189dd157a59faa6f2ada6c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1280_0",
+      "price_gold": 1000000,
+      "name": "France Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1280_1": {
+    "name": "France Jersey 2026",
+    "hash": "11d350123c517cfbe84d344a5622af8d",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1280_1",
+      "price_gold": 1000000,
+      "name": "France Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1281_0": {
+    "name": "Iraq Jersey 2026",
+    "hash": "bc8c158415296765a08c5d3fccd8f90f",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1281_0",
+      "price_gold": 1000000,
+      "name": "Iraq Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1281_1": {
+    "name": "Iraq Jersey 2026",
+    "hash": "5c264262a106a4ad73c1a60001b8b3e3",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1281_1",
+      "price_gold": 1000000,
+      "name": "Iraq Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1282_0": {
+    "name": "Croatia Jersey 2026",
+    "hash": "2d3867ec868dd29e16af2d0615f8609a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1282_0",
+      "price_gold": 1000000,
+      "name": "Croatia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1282_1": {
+    "name": "Croatia Jersey 2026",
+    "hash": "ba01e6b8375f1578cc16f5108dd2b54b",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1282_1",
+      "price_gold": 1000000,
+      "name": "Croatia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1283_0": {
+    "name": "Netherland Jersey 2026",
+    "hash": "abfc4c0d19ba5b240b77e74246f42de9",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1283_0",
+      "price_gold": 1000000,
+      "name": "Netherland Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1283_1": {
+    "name": "Netherland Jersey 2026",
+    "hash": "b246001cd5486936c4dd04e2801e0d3a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1283_1",
+      "price_gold": 1000000,
+      "name": "Netherland Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1284_0": {
+    "name": "Columbia Jersey 2026",
+    "hash": "39c6425995a149c05183ab1beffc5fcc",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1284_0",
+      "price_gold": 1000000,
+      "name": "Columbia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1284_1": {
+    "name": "Columbia Jersey 2026",
+    "hash": "36baee68f312852f325d474c80e3f6b5",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1284_1",
+      "price_gold": 1000000,
+      "name": "Columbia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1285_0": {
+    "name": "Austria Jersey 2026",
+    "hash": "2f4bd8216ec68b227c2ad6c65ab2b365",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1285_0",
+      "price_gold": 1000000,
+      "name": "Austria Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1285_1": {
+    "name": "Austria Jersey 2026",
+    "hash": "485e6cc9060c3b0638d045208f12dbe6",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1285_1",
+      "price_gold": 1000000,
+      "name": "Austria Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1286_0": {
+    "name": "Uruguay Jersey 2026",
+    "hash": "84ffa4edaee7bc1fd871d8163d2d457f",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1286_0",
+      "price_gold": 1000000,
+      "name": "Uruguay Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1286_1": {
+    "name": "Uruguay Jersey 2026",
+    "hash": "139769c01da38473cc02ae909b94a213",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1286_1",
+      "price_gold": 1000000,
+      "name": "Uruguay Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1287_0": {
+    "name": "Belgium Jersey 2026",
+    "hash": "59fb51e5a5aefcd3d0016aee7c841029",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1287_0",
+      "price_gold": 1000000,
+      "name": "Belgium Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1287_1": {
+    "name": "Belgium Jersey 2026",
+    "hash": "918158487e08312770cfa9a9ae1c3b04",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1287_1",
+      "price_gold": 1000000,
+      "name": "Belgium Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1288_0": {
+    "name": "Switzerland Jersey 2026",
+    "hash": "76947b594f9cde30b399fac5e65cd083",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1288_0",
+      "price_gold": 1000000,
+      "name": "Switzerland Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1288_1": {
+    "name": "Switzerland Jersey 2026",
+    "hash": "c35722829481ec5638d50bfab9795330",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1288_1",
+      "price_gold": 1000000,
+      "name": "Switzerland Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1289_0": {
+    "name": "Norway Jersey 2026",
+    "hash": "e43bfdd191786cb9373bf995f624f8a5",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1289_0",
+      "price_gold": 1000000,
+      "name": "Norway Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1289_1": {
+    "name": "Norway Jersey 2026",
+    "hash": "05bbd4127b68c47d39cc2c4e23da62bf",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1289_1",
+      "price_gold": 1000000,
+      "name": "Norway Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1290_0": {
+    "name": "Scotland Jersey 2026",
+    "hash": "634eda6a6d547f0857c26207eb569027",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1290_0",
+      "price_gold": 1000000,
+      "name": "Scotland Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1290_1": {
+    "name": "Scotland Jersey 2026",
+    "hash": "d68470751be26b22f20679c92b88905c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1290_1",
+      "price_gold": 1000000,
+      "name": "Scotland Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1291_0": {
+    "name": "Germany Jersey 2026",
+    "hash": "a78628a11165391814d0c9c7782fb22a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1291_0",
+      "price_gold": 1000000,
+      "name": "Germany Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1291_1": {
+    "name": "Germany Jersey 2026",
+    "hash": "b300ffb90281825fae64509fb4be823c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1291_1",
+      "price_gold": 1000000,
+      "name": "Germany Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1292_0": {
+    "name": "Algeria Jersey 2026",
+    "hash": "410ebae109b30a949d13fdd5c59521e0",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1292_0",
+      "price_gold": 1000000,
+      "name": "Algeria Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1292_1": {
+    "name": "Algeria Jersey 2026",
+    "hash": "e4e4574e67aa0989ca4b2f66466e855a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1292_1",
+      "price_gold": 1000000,
+      "name": "Algeria Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1293_0": {
+    "name": "Cape Verde Jersey 2026",
+    "hash": "977e02c1c15c275b55e3b287f0014b8c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1293_0",
+      "price_gold": 1000000,
+      "name": "Cape Verde Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1293_1": {
+    "name": "Cape Verde Jersey 2026",
+    "hash": "3678017bad286f9530a99d19ac461e33",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1293_1",
+      "price_gold": 1000000,
+      "name": "Cape Verde Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1294_0": {
+    "name": "Curacao Jersey 2026",
+    "hash": "8e75850980e21cfb38abe240488206aa",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1294_0",
+      "price_gold": 1000000,
+      "name": "Curacao Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1294_1": {
+    "name": "Curacao Jersey 2026",
+    "hash": "2800a4c7c6f485c22d88947ccbbbab8e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1294_1",
+      "price_gold": 1000000,
+      "name": "Curacao Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1295_0": {
+    "name": "Egypt Jersey 2026",
+    "hash": "6baf91f14ce44b0359de901e8333ffd7",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1295_0",
+      "price_gold": 1000000,
+      "name": "Egypt Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1295_1": {
+    "name": "Egypt Jersey 2026",
+    "hash": "0b0628d2c679feba223545d55bf9abd1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1295_1",
+      "price_gold": 1000000,
+      "name": "Egypt Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1296_0": {
+    "name": "Ghana Jersey 2026",
+    "hash": "62ffdeb3da837bd331f077fc18af7558",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1296_0",
+      "price_gold": 1000000,
+      "name": "Ghana Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1296_1": {
+    "name": "Ghana Jersey 2026",
+    "hash": "f851edfbbd6a3e5fe456c3b4a5e6864d",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1296_1",
+      "price_gold": 1000000,
+      "name": "Ghana Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1297_0": {
+    "name": "Ivory Coast Jersey 2026",
+    "hash": "78402dac51c3795c46e85f1f51f1d50e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1297_0",
+      "price_gold": 1000000,
+      "name": "Ivory Coast Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1297_1": {
+    "name": "Ivory Coast Jersey 2026",
+    "hash": "cc2279c675c74f6d62e2ef57e3a031c1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1297_1",
+      "price_gold": 1000000,
+      "name": "Ivory Coast Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1298_0": {
+    "name": "Morocco Jersey 2026",
+    "hash": "ede47e6363ff00112fd20048c7105d88",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1298_0",
+      "price_gold": 1000000,
+      "name": "Morocco Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1298_1": {
+    "name": "Morocco Jersey 2026",
+    "hash": "b3fdcf05e1b575a0163ea1d1ce1b50de",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1298_1",
+      "price_gold": 1000000,
+      "name": "Morocco Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1299_0": {
+    "name": "Senegal Jersey 2026",
+    "hash": "6fbe6029ec48066f9e8fb59d678d484a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1299_0",
+      "price_gold": 1000000,
+      "name": "Senegal Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1299_1": {
+    "name": "Senegal Jersey 2026",
+    "hash": "b639d9e622749c2db0b039db2cb48fd1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1299_1",
+      "price_gold": 1000000,
+      "name": "Senegal Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1300_0": {
+    "name": "South Africa Jersey 2026",
+    "hash": "869342a71cb5341dabdf7aa8b76ae359",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1300_0",
+      "price_gold": 1000000,
+      "name": "South Africa Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1300_1": {
+    "name": "South Africa Jersey 2026",
+    "hash": "a363b7b5656d91e76dff8a82b465bf3e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1300_1",
+      "price_gold": 1000000,
+      "name": "South Africa Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1301_0": {
+    "name": "Tunisia Jersey 2026",
+    "hash": "95a529580583a68a27e17985e05327c1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1301_0",
+      "price_gold": 1000000,
+      "name": "Tunisia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1301_1": {
+    "name": "Tunisia Jersey 2026",
+    "hash": "6308885b140d0baa54824b498444f25a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1301_1",
+      "price_gold": 1000000,
+      "name": "Tunisia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1302_0": {
+    "name": "Uzbekistan Jersey 2026",
+    "hash": "2df88c1c9c2312cf2e030890dc369207",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1302_0",
+      "price_gold": 1000000,
+      "name": "Uzbekistan Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1302_1": {
+    "name": "Uzbekistan Jersey 2026",
+    "hash": "d8e51e5b4e03a8752e403fd06ef2d29b",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1302_1",
+      "price_gold": 1000000,
+      "name": "Uzbekistan Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1303_0": {
+    "name": "Spain Jersey 2026",
+    "hash": "0eeb6d87becc1e4dc6f260deab57fef6",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1303_0",
+      "price_gold": 1000000,
+      "name": "Spain Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1303_1": {
+    "name": "Spain Jersey 2026",
+    "hash": "9f17afb694d29db860afb69fc66bdc19",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1303_1",
+      "price_gold": 1000000,
+      "name": "Spain Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1304_0": {
+    "name": "Sweden Jersey 2026",
+    "hash": "cafd694a550c9efedb5019d7a0dbf84b",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1304_0",
+      "price_gold": 1000000,
+      "name": "Sweden Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1304_1": {
+    "name": "Sweden Jersey 2026",
+    "hash": "2c0ce024191bfa1274e24ceefd5e4119",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1304_1",
+      "price_gold": 1000000,
+      "name": "Sweden Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1305_0": {
+    "name": "Australia Jersey 2026",
+    "hash": "3699bd920ff43767f7739ceab9ae5092",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1305_0",
+      "price_gold": 1000000,
+      "name": "Australia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1305_1": {
+    "name": "Australia Jersey 2026",
+    "hash": "25d1510c382f2f6347860e98438e9d0f",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1305_1",
+      "price_gold": 1000000,
+      "name": "Australia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1306_0": {
+    "name": "Canada Jersey 2026",
+    "hash": "e2f09532e1c1889d944d6f3805872b8e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1306_0",
+      "price_gold": 1000000,
+      "name": "Canada Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1306_1": {
+    "name": "Canada Jersey 2026",
+    "hash": "86d9aa6d204bc88fede78577151f99ce",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1306_1",
+      "price_gold": 1000000,
+      "name": "Canada Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1307_0": {
+    "name": "Ecuador Jersey 2026",
+    "hash": "b5592af3bfda4f742d19b855a9b413ba",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1307_0",
+      "price_gold": 1000000,
+      "name": "Ecuador Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1307_1": {
+    "name": "Ecuador Jersey 2026",
+    "hash": "2387034aaf84b49e504260ec00476c41",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1307_1",
+      "price_gold": 1000000,
+      "name": "Ecuador Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1308_0": {
+    "name": "England Jersey 2026",
+    "hash": "a57267eefc5cad6016d9cd7d52e0afe2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1308_0",
+      "price_gold": 1000000,
+      "name": "England Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1308_1": {
+    "name": "England Jersey 2026",
+    "hash": "f9398d969fdd99f3da0e74d476038dc6",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1308_1",
+      "price_gold": 1000000,
+      "name": "England Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1309_0": {
+    "name": "Iran Jersey 2026",
+    "hash": "1781ad5575bcec79aa188d2365dc4846",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1309_0",
+      "price_gold": 1000000,
+      "name": "Iran Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1309_1": {
+    "name": "Iran Jersey 2026",
+    "hash": "1d549f5abd29d0e27a8f74938fbe47d7",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1309_1",
+      "price_gold": 1000000,
+      "name": "Iran Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1310_0": {
+    "name": "New Zealand Jersey 2026",
+    "hash": "ecef7e214d020e7d9d607b9977c2e3f1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1310_0",
+      "price_gold": 1000000,
+      "name": "New Zealand Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1310_1": {
+    "name": "New Zealand Jersey 2026",
+    "hash": "774c7dc4653563343757d3c9855ec30b",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1310_1",
+      "price_gold": 1000000,
+      "name": "New Zealand Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1311_0": {
+    "name": "Panama Jersey 2026",
+    "hash": "8a24f94a6d5f26bfab142b954a5705ef",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1311_0",
+      "price_gold": 1000000,
+      "name": "Panama Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1311_1": {
+    "name": "Panama Jersey 2026",
+    "hash": "d09f82a2e24f2013150550208f74546b",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1311_1",
+      "price_gold": 1000000,
+      "name": "Panama Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1312_0": {
+    "name": "Paraguay Jersey 2026",
+    "hash": "accdb439c54a72704823ab72c87dd7db",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1312_0",
+      "price_gold": 1000000,
+      "name": "Paraguay Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1312_1": {
+    "name": "Paraguay Jersey 2026",
+    "hash": "ece625043f7b43ce16c4cf4463051407",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1312_1",
+      "price_gold": 1000000,
+      "name": "Paraguay Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1313_0": {
+    "name": "Qatar Jersey 2026",
+    "hash": "ff512b4a9e80512dcd78c7863e10bfb7",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1313_0",
+      "price_gold": 1000000,
+      "name": "Qatar Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1313_1": {
+    "name": "Qatar Jersey 2026",
+    "hash": "732eff0aa66b016c02fdbb10028b9bf2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1313_1",
+      "price_gold": 1000000,
+      "name": "Qatar Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1314_0": {
+    "name": "Saudi Arabia Jersey 2026",
+    "hash": "fe504c9d30eba39728804e4cad5a5b73",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1314_0",
+      "price_gold": 1000000,
+      "name": "Saudi Arabia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1314_1": {
+    "name": "Saudi Arabia Jersey 2026",
+    "hash": "5690e88976fc881cca40c57cd24aa813",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1314_1",
+      "price_gold": 1000000,
+      "name": "Saudi Arabia Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1315_0": {
+    "name": "Türkiye Jersey 2026",
+    "hash": "7de1ed3650797f99f8992209b4faebaa",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1315_0",
+      "price_gold": 1000000,
+      "name": "Türkiye Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1315_1": {
+    "name": "Türkiye Jersey 2026",
+    "hash": "7dc283857820898de3a5988fced86dff",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1315_1",
+      "price_gold": 1000000,
+      "name": "Türkiye Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1316_0": {
+    "name": "USA Jersey 2026",
+    "hash": "efd4ebe47121daec9051d4625748a8bc",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1316_0",
+      "price_gold": 1000000,
+      "name": "USA Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::set_1316_1": {
+    "name": "USA Jersey 2026",
+    "hash": "703e25baa637a94ef9f2390c135724be",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 500000,
+      "type": "set",
+      "level": 1,
+      "id": "set_1316_1",
+      "price_gold": 1000000,
+      "name": "USA Jersey 2026",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
     }
   },
   "library::set_1350_0": {
@@ -130588,6 +134100,470 @@
       ]
     }
   },
+  "library::set_2453_0": {
+    "name": "Casual Ronin Flow Costume",
+    "hash": "d7f769f502144b1a4807a2e0af55fc5c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Friendship Set Edition",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2453_0",
+      "price_gold": 0,
+      "name": "Casual Ronin Flow Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::set_2453_1": {
+    "name": "Casual Ronin Flow Costume",
+    "hash": "745b932cc475066fbab26ce58ec964ec",
+    "data": {
+      "buyable_clan": false,
+      "description": "Friendship Set Edition",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2453_1",
+      "price_gold": 0,
+      "name": "Casual Ronin Flow Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::set_2454_0": {
+    "name": "Dark Ninja Suit",
+    "hash": "adc445526499ac40a080386b9760be90",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited from Welcome Package Gift",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2454_0",
+      "price_gold": 0,
+      "name": "Dark Ninja Suit",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false
+    }
+  },
+  "library::set_2454_1": {
+    "name": "Dark Ninja Suit",
+    "hash": "6300ae3ed0efc6e521ca14369f726e6d",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited from Welcome Package Gift",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2454_1",
+      "price_gold": 0,
+      "name": "Dark Ninja Suit",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false
+    }
+  },
+  "library::set_2455_0": {
+    "name": "Capitan Costume",
+    "hash": "c6362db0971b9d1c916bb2ce0e0136b1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2455_0",
+      "price_gold": 0,
+      "name": "Capitan Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::set_2455_1": {
+    "name": "Capitan Costume",
+    "hash": "19f232f72c3f591d639919d2ae68a409",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2455_1",
+      "price_gold": 0,
+      "name": "Capitan Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::set_2456_0": {
+    "name": "Betting Champion Costume",
+    "hash": "ca5a82f8a33bfc0da39acd99071802cf",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2456_0",
+      "price_gold": 0,
+      "name": "Betting Champion Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::set_2456_1": {
+    "name": "Betting Champion Costume",
+    "hash": "0ab1d96278ae4cc94cbd4fb41e944fa2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2456_1",
+      "price_gold": 0,
+      "name": "Betting Champion Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::set_2457_0": {
+    "name": "Betting Runner Up Costume",
+    "hash": "b66e779b842b7d04f5747ef41a64c678",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2457_0",
+      "price_gold": 0,
+      "name": "Betting Runner Up Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::set_2457_1": {
+    "name": "Betting Runner Up Costume",
+    "hash": "f42f3702964ccf0e3d28d77acfe24533",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2457_1",
+      "price_gold": 0,
+      "name": "Betting Runner Up Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::set_2458_0": {
+    "name": "Scrap Iron Striker Costume",
+    "hash": "f2ac25013e491408a780ad2a5747c002",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2458_0",
+      "price_gold": 0,
+      "name": "Scrap Iron Striker Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::set_2458_1": {
+    "name": "Scrap Iron Striker Costume",
+    "hash": "6f040d23a15806c1b4b471ff25ac687d",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2458_1",
+      "price_gold": 0,
+      "name": "Scrap Iron Striker Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::set_2459_0": {
+    "name": "Apo Baller Costume",
+    "hash": "b095bd4399d9027abfa60b29db9fe22a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2459_0",
+      "price_gold": 0,
+      "name": "Apo Baller Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::set_2459_1": {
+    "name": "Apo Baller Costume",
+    "hash": "00a11f33425b0a8eaa7089a1d1f0e8bd",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2459_1",
+      "price_gold": 0,
+      "name": "Apo Baller Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::set_2460_0": {
+    "name": "Ninja Shinobi Costume",
+    "hash": "82a98124841f7eca0477d5cf29cfdeb0",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Ninja Shinobi 5 Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2460_0",
+      "price_gold": 0,
+      "name": "Ninja Shinobi Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::set_2460_1": {
+    "name": "Ninja Shinobi Costume",
+    "hash": "c61a51a30b0924b7992868e358310d8f",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Ninja Shinobi 5 Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2460_1",
+      "price_gold": 0,
+      "name": "Ninja Shinobi Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::set_2461_0": {
+    "name": "Chaos Angel Costume",
+    "hash": "5821bbec286b10ecb4d02cf398756cda",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Chaos Archangel Package Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2461_0",
+      "price_gold": 0,
+      "name": "Chaos Angel Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
+  "library::set_2461_1": {
+    "name": "Chaos Angel Costume",
+    "hash": "6f5f498cb08e6ec819c5d181581dcd2c",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Chaos Archangel Package Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2461_1",
+      "price_gold": 0,
+      "name": "Chaos Angel Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
+  "library::set_2462_0": {
+    "name": "Chaos Archangel Costume",
+    "hash": "7c9e6cbd2d6fee6f1c1f33f602c4e5ba",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Chaos Archangel Package Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2462_0",
+      "price_gold": 0,
+      "name": "Chaos Archangel Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
+  "library::set_2462_1": {
+    "name": "Chaos Archangel Costume",
+    "hash": "2af5dfa91066d8236040492b87672538",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Chaos Archangel Package Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2462_1",
+      "price_gold": 0,
+      "name": "Chaos Archangel Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
   "library::set_6000_0": {
     "name": "S0 Captive",
     "hash": "6f747c9d2daa8a507d3349aa106c40c5",
@@ -140188,6 +144164,206 @@
       ]
     }
   },
+  "library::set_6200_0": {
+    "name": "S50 Champion",
+    "hash": "e6ec71848527a6fe476ca988a4092fa2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 50 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6200_0",
+      "price_gold": 0,
+      "name": "S50 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6200_1": {
+    "name": "S50 Champion",
+    "hash": "2f928aea6ef9fb30e27821338f4154d4",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 50 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6200_1",
+      "price_gold": 0,
+      "name": "S50 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6201_0": {
+    "name": "S50 Runner Up",
+    "hash": "e26e7d7f9f242c6f8f4f9c104d3ad487",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6201_0",
+      "price_gold": 0,
+      "name": "S50 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6201_1": {
+    "name": "S50 Runner Up",
+    "hash": "2a559b259bc43b2b96b3766d23ca2e3d",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6201_1",
+      "price_gold": 0,
+      "name": "S50 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6202_0": {
+    "name": "S50 Runner Up",
+    "hash": "5e30c4be6272badd12a4fdcb40d66328",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6202_0",
+      "price_gold": 0,
+      "name": "S50 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6202_1": {
+    "name": "S50 Runner Up",
+    "hash": "5767c804c4002712fb5faecb4ec6857c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6202_1",
+      "price_gold": 0,
+      "name": "S50 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6203_0": {
+    "name": "S50 Costume",
+    "hash": "d94dc96c5b15f22cae740e17d6595626",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 50",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6203_0",
+      "price_gold": 0,
+      "name": "S50 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6203_1": {
+    "name": "S50 Costume",
+    "hash": "44a0675c15c080577613b21645e4e7ed",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 50",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6203_1",
+      "price_gold": 0,
+      "name": "S50 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
   "library::set_7000_0": {
     "name": "S0 Shadow War Champion",
     "hash": "88b436aec3e881c59a18efcf83c7c49b",
@@ -143794,6 +147970,156 @@
       ]
     }
   },
+  "library::set_7075_0": {
+    "name": "S25 Shadow War Champion",
+    "hash": "952cbb98fdf427295107ea8fe155ea64",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 25 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7075_0",
+      "price_gold": 0,
+      "name": "S25 Shadow War Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7075_1": {
+    "name": "S25 Shadow War Champion",
+    "hash": "0b3f0b3c817343b62b6f8a5ff62a74c3",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 25 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7075_1",
+      "price_gold": 0,
+      "name": "S25 Shadow War Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7076_0": {
+    "name": "S25 Shadow War Runner Up",
+    "hash": "8e9d341a596f2692f6821221a4ca931e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 25 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7076_0",
+      "price_gold": 0,
+      "name": "S25 Shadow War Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7076_1": {
+    "name": "S25 Shadow War Runner Up",
+    "hash": "ad4f1de458b4878806c4679bb969a143",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 25 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7076_1",
+      "price_gold": 0,
+      "name": "S25 Shadow War Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7077_0": {
+    "name": "S25 Shadow War Participant",
+    "hash": "c400f261277368128373eb8fc4000fb7",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 25",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7077_0",
+      "price_gold": 0,
+      "name": "S25 Shadow War Participant",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7077_1": {
+    "name": "S25 Shadow War Participant",
+    "hash": "d2e938baceefcd533d0730eab0f4cd51",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 25",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7077_1",
+      "price_gold": 0,
+      "name": "S25 Shadow War Participant",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
   "library::set_8001_0": {
     "name": "S1 Crew Clothing",
     "hash": "0c847b8d60b306f89612e6de6d1cbfd7",
@@ -143990,6 +148316,214 @@
       "id": "set_8004_1",
       "price_gold": 0,
       "name": "S4 Crew Clothing",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 25000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::set_8005_0": {
+    "name": "S5 Crew Clothing",
+    "hash": "09390a6d8beed7c51ef3b274688ace4d",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_8005_0",
+      "price_gold": 0,
+      "name": "S5 Crew Clothing",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 25000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::set_8005_1": {
+    "name": "S5 Crew Clothing",
+    "hash": "398c1c1173914c556a753e1013dca60e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_8005_1",
+      "price_gold": 0,
+      "name": "S5 Crew Clothing",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 25000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::set_8006_0": {
+    "name": "S6 Crew Clothing",
+    "hash": "ccfbbcf72e2d9f94e796ef5f3f003484",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_8006_0",
+      "price_gold": 0,
+      "name": "S6 Crew Clothing",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 25000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::set_8006_1": {
+    "name": "S6 Crew Clothing",
+    "hash": "76067cf6b31f2e7bdba290e09e2ecb2f",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_8006_1",
+      "price_gold": 0,
+      "name": "S6 Crew Clothing",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 25000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::set_8007_0": {
+    "name": "S7 Crew Clothing",
+    "hash": "673b019bfce72b3947e0d35394e4e776",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_8007_0",
+      "price_gold": 0,
+      "name": "S7 Crew Clothing",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 25000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::set_8007_1": {
+    "name": "S7 Crew Clothing",
+    "hash": "5809ddb192c9c6e93f690110223ec390",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_8007_1",
+      "price_gold": 0,
+      "name": "S7 Crew Clothing",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 25000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::set_8008_0": {
+    "name": "S8 Crew Clothing",
+    "hash": "5dba20f64b286bbdf5ea49a70f93a5ca",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_8008_0",
+      "price_gold": 0,
+      "name": "S8 Crew Clothing",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 25000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::set_8008_1": {
+    "name": "S8 Crew Clothing",
+    "hash": "781fefff35d25d72883b017a0e177962",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_8008_1",
+      "price_gold": 0,
+      "name": "S8 Crew Clothing",
       "buyable": true,
       "premium": false,
       "price_prestige": 0,
@@ -146841,8 +151375,8 @@
     }
   },
   "library::hair_354_1": {
-    "name": "Fire Ninja Sytle",
-    "hash": "6159f5f53f884ad709e2408360979e53",
+    "name": "Fire Ninja Style",
+    "hash": "cf7bc698801eef12f117362cae162925",
     "data": {
       "buyable_clan": false,
       "description": "Limited from Welcome Package Gift",
@@ -146853,7 +151387,7 @@
       "level": 1,
       "id": "hair_354_1",
       "price_gold": 0,
-      "name": "Fire Ninja Sytle",
+      "name": "Fire Ninja Style",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -170645,6 +175179,470 @@
       ]
     }
   },
+  "library::hair_2412_0": {
+    "name": "Casual Ronin Flow Hairstyle",
+    "hash": "1c7fb970000e0d3403dc35ae58c71fb1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Friendship Hair Edition",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2412_0",
+      "price_gold": 0,
+      "name": "Casual Ronin Flow Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::hair_2412_1": {
+    "name": "Casual Ronin Flow Hairstyle",
+    "hash": "d146dea2f61a0afaa63715eb4d050c41",
+    "data": {
+      "buyable_clan": false,
+      "description": "Friendship Hair Edition",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2412_1",
+      "price_gold": 0,
+      "name": "Casual Ronin Flow Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::hair_2413_0": {
+    "name": "Dark Ninja Style",
+    "hash": "b8e6c27b4cbc6118e99f94fbd158d60b",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited from Welcome Package Gift",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2413_0",
+      "price_gold": 0,
+      "name": "Dark Ninja Style",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::hair_2413_1": {
+    "name": "Dark Ninja Style",
+    "hash": "f06d80a6e79e90b7c0a083dd70d42717",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited from Welcome Package Gift",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2413_1",
+      "price_gold": 0,
+      "name": "Dark Ninja Style",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": true
+    }
+  },
+  "library::hair_2414_0": {
+    "name": "Capitan Hairstyle",
+    "hash": "df881b3a5df7f44d2393141827d7488a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2414_0",
+      "price_gold": 0,
+      "name": "Capitan Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::hair_2414_1": {
+    "name": "Capitan Hairstyle",
+    "hash": "dfc22944096dd46b183e15418bb71876",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2414_1",
+      "price_gold": 0,
+      "name": "Capitan Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::hair_2415_0": {
+    "name": "Betting Champion Hairstyle",
+    "hash": "13d30f2ba63dcd6271e312ef809442b9",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2415_0",
+      "price_gold": 0,
+      "name": "Betting Champion Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::hair_2415_1": {
+    "name": "Betting Champion Hairstyle",
+    "hash": "80ce1ce87c57a4f9500129482d0dcc52",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2415_1",
+      "price_gold": 0,
+      "name": "Betting Champion Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::hair_2416_0": {
+    "name": "Betting Runner Up Hairstyle",
+    "hash": "09849c585afae1073e840233975535df",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2416_0",
+      "price_gold": 0,
+      "name": "Betting Runner Up Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::hair_2416_1": {
+    "name": "Betting Runner Up Hairstyle",
+    "hash": "5bbc1e3e12b71304e4721326f85a5f8a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2416_1",
+      "price_gold": 0,
+      "name": "Betting Runner Up Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::hair_2417_0": {
+    "name": "Ember Helmet",
+    "hash": "5662053daff3e46ebd92bec7ed886cc0",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2417_0",
+      "price_gold": 0,
+      "name": "Ember Helmet",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::hair_2417_1": {
+    "name": "Ember Helmet",
+    "hash": "2df645dc5fb9517e292ebfbbaeebe15e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2417_1",
+      "price_gold": 0,
+      "name": "Ember Helmet",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::hair_2418_0": {
+    "name": "Apo Baller Mask",
+    "hash": "551e1fb448250889dbfcb37e9d4c93d2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2418_0",
+      "price_gold": 0,
+      "name": "Apo Baller Mask",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::hair_2418_1": {
+    "name": "Apo Baller Mask",
+    "hash": "0a9d8a89fe7b81a0419146a096cb70c4",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited World Cup Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2418_1",
+      "price_gold": 0,
+      "name": "Apo Baller Mask",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "worldcup2026"
+      ]
+    }
+  },
+  "library::hair_2419_0": {
+    "name": "Ninja Shinobi Hairstyle",
+    "hash": "1a8b38e196a3124ce7f5631743bdedc0",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Ninja Shinobi 5 Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2419_0",
+      "price_gold": 0,
+      "name": "Ninja Shinobi Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::hair_2419_1": {
+    "name": "Ninja Shinobi Hairstyle",
+    "hash": "4ea1e72096843ca65c9ad91edc287876",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Ninja Shinobi 5 Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2419_1",
+      "price_gold": 0,
+      "name": "Ninja Shinobi Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false
+    }
+  },
+  "library::hair_2420_0": {
+    "name": "Chaos Angel Hairstyle",
+    "hash": "1538dbd964617d54de29544ebfd033a1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Chaos Archangel Package Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2420_0",
+      "price_gold": 0,
+      "name": "Chaos Angel Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
+  "library::hair_2420_1": {
+    "name": "Chaos Angel Hairstyle",
+    "hash": "2bae1910b3fd9a122eba2843d1892c28",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Chaos Archangel Package Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2420_1",
+      "price_gold": 0,
+      "name": "Chaos Angel Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
+  "library::hair_2421_0": {
+    "name": "Chaos Archangel Hairstyle",
+    "hash": "cb53cce597ba3116fa15323cd8004d96",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Chaos Archangel Package Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2421_0",
+      "price_gold": 0,
+      "name": "Chaos Archangel Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
+  "library::hair_2421_1": {
+    "name": "Chaos Archangel Hairstyle",
+    "hash": "0dfd2fe78243efb3adb41bc999450dc4",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Chaos Archangel Package Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2421_1",
+      "price_gold": 0,
+      "name": "Chaos Archangel Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "source": [
+        "chaosarchangel"
+      ]
+    }
+  },
   "library::hair_7000_0": {
     "name": "S14 Shadow War Individual Hairstyle",
     "hash": "5013b4dc8bb4044e626cc4cb1dc3de46",
@@ -171175,6 +176173,56 @@
       ]
     }
   },
+  "library::hair_7011_0": {
+    "name": "S25 Shadow War Individual Hairstyle",
+    "hash": "6706fe24f28271d28ff8da242b232b62",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for Shadow War Season 25",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_7011_0",
+      "price_gold": 0,
+      "name": "S25 Shadow War Individual Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::hair_7011_1": {
+    "name": "S25 Shadow War Individual Hairstyle",
+    "hash": "4dd81932177fcbdfbbb9107132f74d7a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for Shadow War Season 25",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_7011_1",
+      "price_gold": 0,
+      "name": "S25 Shadow War Individual Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
   "library::hair_8001_0": {
     "name": "S1 Crew Hairstyle",
     "hash": "60d63aef888f48fe0a1d3c6d828d4979",
@@ -171371,6 +176419,214 @@
       "id": "hair_8004_1",
       "price_gold": 0,
       "name": "S4 Crew Hairstyle",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 10000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::hair_8005_0": {
+    "name": "S5 Crew Hairstyle",
+    "hash": "9a41bdc92af72e480c690801ea342152",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_8005_0",
+      "price_gold": 0,
+      "name": "S5 Crew Hairstyle",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 10000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::hair_8005_1": {
+    "name": "S5 Crew Hairstyle",
+    "hash": "37f08f2722f73d28723f570060ba2c49",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_8005_1",
+      "price_gold": 0,
+      "name": "S5 Crew Hairstyle",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 10000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::hair_8006_0": {
+    "name": "S6 Crew Hairstyle",
+    "hash": "a5777184c1d1631d3cdff75af2996f4a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_8006_0",
+      "price_gold": 0,
+      "name": "S6 Crew Hairstyle",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 10000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::hair_8006_1": {
+    "name": "S6 Crew Hairstyle",
+    "hash": "07f71554ffb96bc75ad92eb965daebe9",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_8006_1",
+      "price_gold": 0,
+      "name": "S6 Crew Hairstyle",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 10000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::hair_8007_0": {
+    "name": "S7 Crew Hairstyle",
+    "hash": "22311a68de6d2813c45aa878d1ca98a6",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_8007_0",
+      "price_gold": 0,
+      "name": "S7 Crew Hairstyle",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 10000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::hair_8007_1": {
+    "name": "S7 Crew Hairstyle",
+    "hash": "d870c6e8c6a7ee91ba4f2a2b400194f8",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_8007_1",
+      "price_gold": 0,
+      "name": "S7 Crew Hairstyle",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 10000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::hair_8008_0": {
+    "name": "S8 Crew Hairstyle",
+    "hash": "692d3a3c915c23b77324cfecbc55cdf5",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_8008_0",
+      "price_gold": 0,
+      "name": "S8 Crew Hairstyle",
+      "buyable": true,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 10000,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::hair_8008_1": {
+    "name": "S8 Crew Hairstyle",
+    "hash": "d3429a4b30ac4550736dfe363520c23a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Crew Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_8008_1",
+      "price_gold": 0,
+      "name": "S8 Crew Hairstyle",
       "buyable": true,
       "premium": false,
       "price_prestige": 0,
@@ -187650,6 +192906,231 @@
       ]
     }
   },
+  "skill_effect::skill_2361": {
+    "name": "Kinjutsu: Fireblast Punch",
+    "hash": "2e6e02d31a1d01a45018865a736d8dbe",
+    "data": {
+      "skill_id": "skill_2361",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "burn",
+          "effect_name": "Burn",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2362": {
+    "name": "Kinjutsu: Dark Barrage Punch",
+    "hash": "16138edb2eaf61f0220e5bc6f3916b6a",
+    "data": {
+      "skill_id": "skill_2362",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "reduce_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 3,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2363": {
+    "name": "Kinjutsu: Keeper Throw",
+    "hash": "4bd675acde067617b83b4850744c3043",
+    "data": {
+      "skill_id": "skill_2363",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2364": {
+    "name": "Kinjutsu: Somersault Shot",
+    "hash": "806e9c42ce5cf7a769823a388dbb8864",
+    "data": {
+      "skill_id": "skill_2364",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "darkness",
+          "effect_name": "Darkness",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 50,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2365": {
+    "name": "Multi Fiery Shot",
+    "hash": "f3e2951acbff257e57f9c8423423eaa7",
+    "data": {
+      "skill_id": "skill_2365",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "flaming",
+          "effect_name": "Flaming",
+          "duration": 3,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 5,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2366": {
+    "name": "Multi Tiger Fiery Shot",
+    "hash": "5c452f40310eaf0bcaccfb5a2f18e16e",
+    "data": {
+      "skill_id": "skill_2366",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "flaming",
+          "effect_name": "Flaming",
+          "duration": 3,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 7,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2367": {
+    "name": "Kinjutsu: Shadow Spin Strike",
+    "hash": "92bd8df397719f16fa2f5fda1e482a46",
+    "data": {
+      "skill_id": "skill_2367",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "blind",
+          "effect_name": "Blind",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2368": {
+    "name": "Kinjutsu: Chaos Demon Claw",
+    "hash": "208abe2dd9116c09fbf6d8d83d51d9f5",
+    "data": {
+      "skill_id": "skill_2368",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "vulnerable",
+          "effect_name": "Vulnerable",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 85,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2369": {
+    "name": "Kinjutsu: Mirage Sword",
+    "hash": "63fb50fbe1cd838cee5e416ff7a28764",
+    "data": {
+      "skill_id": "skill_2369",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "stun",
+          "effect_name": "Stun",
+          "duration": 3,
+          "calc_type": "",
+          "multi_hit": true,
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "internal_injury",
+          "effect_name": "Internal Injury",
+          "duration": 3,
+          "calc_type": "",
+          "multi_hit": true,
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2370": {
+    "name": "Kinjutsu: Chaos Realm Emergence",
+    "hash": "510facf9758172649f0fd8f93e43c741",
+    "data": {
+      "skill_id": "skill_2370",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "rapid_cooldown",
+          "effect_name": "Rapid Cooldown",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 4,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "instant_cp_recover",
+          "effect_name": "Recover CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 50,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_6001": {
     "name": "S0 Kinjutsu: Bijuu Blaster",
     "hash": "4e9154b96f630f5fa1ccc2377587315a",
@@ -190221,6 +195702,64 @@
           "duration": 4,
           "amount": 50,
           "sacrifice_amount": 15,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6101": {
+    "name": "S50 Kinjutsu: Flash Step Bomb",
+    "hash": "c1e1e3e98c58a7b3bc8013c52dfcbe38",
+    "data": {
+      "skill_id": "skill_6101",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "flaming",
+          "effect_name": "Flaming",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6102": {
+    "name": "S50 Kinjutsu: Advance Flash Step Bomb",
+    "hash": "828780913450d9fd224718c7d877f3a9",
+    "data": {
+      "skill_id": "skill_6102",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "flaming",
+          "effect_name": "Flaming",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 7,
           "chance": 100
         }
       ]
@@ -216471,6 +222010,354 @@
       ]
     }
   },
+  "weapon_effect::wpn_2445": {
+    "name": "Dragonheart Lance",
+    "hash": "0760cfe22e488300e99ef51d302c6510",
+    "data": {
+      "id": "wpn_2445",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "insta_reduce_max_hp",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "amount": 4,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 15,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2446": {
+    "name": "Infernal Dragonblade",
+    "hash": "345ec3a8b399bb80bf770e615a0e1b86",
+    "data": {
+      "id": "wpn_2446",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 300,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2447": {
+    "name": "Thunderous Spear",
+    "hash": "eefbf3bbcd897836d884b44f5236e09c",
+    "data": {
+      "id": "wpn_2447",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "blind",
+          "effect_name": "Blind",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 30,
+          "chance": 20
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "critical_increase",
+          "effect_name": "Increase Critical Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 15,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2448": {
+    "name": "Victory Cane",
+    "hash": "603e2f542a7e0ec911a9d517c4429dde",
+    "data": {
+      "id": "wpn_2448",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 888,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "power_up_by_hp",
+          "effect_name": "Strengthen",
+          "reduce_type": "MAX",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 15,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2449": {
+    "name": "Crowbar Scrap",
+    "hash": "083e15dc407033299dce12ed78c43789",
+    "data": {
+      "id": "wpn_2449",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage Taken",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 150,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2450": {
+    "name": "Roadrage Cleaver",
+    "hash": "e27b3437d42b8eb81f23cd361c7f7029",
+    "data": {
+      "id": "wpn_2450",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "insta_reduce_max_hp",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "amount": 6,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 25,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2451": {
+    "name": "Drashinja Katana",
+    "hash": "ef9451a34ef49332e1ebe01a4d81da41",
+    "data": {
+      "id": "wpn_2451",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "insta_reduce_max_hp",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "kill_instant_under",
+          "effect_name": "Instan Kill",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2452": {
+    "name": "Black Sword",
+    "hash": "512eff2727b2cbd1f92780952592ea69",
+    "data": {
+      "id": "wpn_2452",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2453": {
+    "name": "Chaos Angel Blade",
+    "hash": "0e2c5b7732c551229d9f6b91bf791109",
+    "data": {
+      "id": "wpn_2453",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "burn",
+          "effect_name": "Burn",
+          "duration": 5,
+          "calc_type": "percent",
+          "amount": 3,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2454": {
+    "name": "Spear of Harbringer",
+    "hash": "cb8b1423c2d9550d172fc504cef0542c",
+    "data": {
+      "id": "wpn_2454",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 30,
+          "chance": 30
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "insta_reduce_max_hp",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "weapon_effect::wpn_4001": {
     "name": "S0 Burning Maple Greatsword (Spirit)",
     "hash": "926d289789a6775fb1a5029f05204543",
@@ -217869,6 +223756,298 @@
           "calc_type": "number",
           "amount": 1,
           "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_4040": {
+    "name": "S36 Clan: Demon Shark Blade (Spirit)",
+    "hash": "c49539e70737a03f1dabbb74a3eeca05",
+    "data": {
+      "id": "wpn_4040",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_damage_bonus",
+          "effect_name": "Strengthen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 55,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_4041": {
+    "name": "S37 Clan: Vampire Blade - Janen (Spirit)",
+    "hash": "d3e0948fedad8e26316c03b5ec2d7bc0",
+    "data": {
+      "id": "wpn_4041",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "bloodfeed_attack",
+          "effect_name": "Bloodfeed",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_4042": {
+    "name": "S38 Clan: Jyuuou Blade (Spirit)",
+    "hash": "37962069625ab707486725b2c8eab9f9",
+    "data": {
+      "id": "wpn_4042",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "reduce_cd",
+          "effect_name": "Rewind",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 1,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_4043": {
+    "name": "S39 Clan: Frozen Blade (Spirit)",
+    "hash": "cc9839b5345ee39f3de427e845f2be3e",
+    "data": {
+      "id": "wpn_4043",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "frozen",
+          "effect_name": "Frozen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 20,
+          "chance": 18
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_4044": {
+    "name": "S40 Clan: Gozen Breeze Fan (Spirit)",
+    "hash": "3b95e6046af142b045a41c308ce620e4",
+    "data": {
+      "id": "wpn_4044",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "weaken",
+          "effect_name": "Weaken",
+          "duration": 3,
+          "calc_type": "number",
+          "amount": 300,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_4045": {
+    "name": "S5 Crew: Daffodil Shuriken (Spirit)",
+    "hash": "9fb518cbb93eb8dc5a8a7de8aaaafb42",
+    "data": {
+      "id": "wpn_4045",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "reduce_cd",
+          "effect_name": "Rewind",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 1,
+          "chance": 20
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "insta_reduce_max_cp",
+          "effect_name": "Reduce CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "amount": 20,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_4046": {
+    "name": "S6 Crew: Natural Energy Axe (Spirit)",
+    "hash": "318780fd0c1850c9ea374a25ea289da1",
+    "data": {
+      "id": "wpn_4046",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "reduce_cp_cost",
+          "effect_name": "Reduce CP Cost",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 30,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Increase Agility",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 1,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_4047": {
+    "name": "S8 Crew: Shadowfang (Spirit)",
+    "hash": "50f39fe3583e1e3fe98178c958793286",
+    "data": {
+      "id": "wpn_4047",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "inflict_bleeding",
+          "effect_name": "Bleeding",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 20,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "block_damage",
+          "effect_name": "Block Damage",
+          "duration": 0,
+          "calc_type": "",
+          "amount": 10
         },
         {
           "passive": true,
@@ -220117,21 +226296,10 @@
   },
   "weapon_effect::wpn_6063": {
     "name": "S36 Clan: Demon Shark Blade",
-    "hash": "2005beed1d769a53816dfe0f19ce6d7d",
+    "hash": "189f5210d4b674645fd06f9e9255d5b4",
     "data": {
       "id": "wpn_6063",
       "effects": [
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "dodge_damage_bonus",
-          "effect_name": "Strengthen",
-          "duration": 1,
-          "calc_type": "percent",
-          "amount": 100,
-          "chance": 100
-        },
         {
           "passive": true,
           "type": "Buff",
@@ -220142,13 +226310,24 @@
           "calc_type": "number",
           "amount": 30,
           "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_damage_bonus",
+          "effect_name": "Strengthen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
         }
       ]
     }
   },
   "weapon_effect::wpn_6064": {
     "name": "S37 Clan: Vampire Blade - Janen",
-    "hash": "1d46590325cd919a42280fdeabcaf7a1",
+    "hash": "f531b74d6cfbf6000a7892ef8d930949",
     "data": {
       "id": "wpn_6064",
       "effects": [
@@ -220156,11 +226335,11 @@
           "passive": true,
           "type": "Buff",
           "target": "self",
-          "effect": "hp_recover",
-          "effect_name": "Recover HP",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
           "duration": 0,
-          "calc_type": "percent",
-          "amount": 8,
+          "calc_type": "number",
+          "amount": 40,
           "chance": 100
         },
         {
@@ -220178,11 +226357,11 @@
           "passive": true,
           "type": "Buff",
           "target": "self",
-          "effect": "accuracy_increase",
-          "effect_name": "Increase Accuracy",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
           "duration": 0,
-          "calc_type": "number",
-          "amount": 40,
+          "calc_type": "percent",
+          "amount": 8,
           "chance": 100
         }
       ]
@@ -220380,21 +226559,10 @@
   },
   "weapon_effect::wpn_6070": {
     "name": "S38 Clan: Jyuuou Blade",
-    "hash": "3ce55037c16ca953cd8e3512fe0b70cb",
+    "hash": "af8cff457b485e79c3181c9afc5b8e71",
     "data": {
       "id": "wpn_6070",
       "effects": [
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "reduce_cd",
-          "effect_name": "Rewind",
-          "duration": 0,
-          "calc_type": "number",
-          "amount": 2,
-          "chance": 100
-        },
         {
           "passive": true,
           "type": "Buff",
@@ -220405,27 +226573,27 @@
           "calc_type": "number",
           "amount": 40,
           "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "reduce_cd",
+          "effect_name": "Rewind",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 2,
+          "chance": 100
         }
       ]
     }
   },
   "weapon_effect::wpn_6071": {
     "name": "S39 Clan: Frozen Blade",
-    "hash": "75dbdeeefe24a30d8fc9a7c337d33080",
+    "hash": "db95d7bc34f5e702bbe32825ac31de17",
     "data": {
       "id": "wpn_6071",
       "effects": [
-        {
-          "passive": true,
-          "type": "Debuff",
-          "target": "enemy",
-          "effect": "frozen",
-          "effect_name": "Frozen",
-          "duration": 1,
-          "calc_type": "percent",
-          "amount": 15,
-          "chance": 35
-        },
         {
           "passive": true,
           "type": "Buff",
@@ -220436,27 +226604,27 @@
           "calc_type": "number",
           "amount": 45,
           "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "frozen",
+          "effect_name": "Frozen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 15,
+          "chance": 35
         }
       ]
     }
   },
   "weapon_effect::wpn_6072": {
     "name": "S40 Clan: Gozen Breeze Fan",
-    "hash": "af0dfb659c8c8ba05bbb50c4a27e3458",
+    "hash": "99d8fdf99204c7219fcd0b79d0bfcc75",
     "data": {
       "id": "wpn_6072",
       "effects": [
-        {
-          "passive": true,
-          "type": "Debuff",
-          "target": "enemy",
-          "effect": "weaken",
-          "effect_name": "Weaken",
-          "duration": 3,
-          "calc_type": "number",
-          "amount": 400,
-          "chance": 20
-        },
         {
           "passive": true,
           "type": "Buff",
@@ -220466,6 +226634,17 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "weaken",
+          "effect_name": "Weaken",
+          "duration": 3,
+          "calc_type": "number",
+          "amount": 400,
           "chance": 100
         }
       ]
@@ -225532,7 +231711,7 @@
   },
   "weapon_effect::wpn_8098": {
     "name": "S20 Crew: Lightning Talon",
-    "hash": "843e0cacf3aaaa5d2eb9c4b9bab7d5e8",
+    "hash": "2780a84a99706ec793e5da2d34622cb9",
     "data": {
       "id": "wpn_8098",
       "effects": [
@@ -225568,7 +231747,7 @@
           "effect_name": "Increase Accuracy",
           "duration": 0,
           "calc_type": "number",
-          "amount": 36,
+          "amount": 40,
           "chance": 100
         }
       ]
@@ -225576,7 +231755,7 @@
   },
   "weapon_effect::wpn_8099": {
     "name": "S20 Crew: Lightning Dagger",
-    "hash": "1544493085956d5d5b67d6a82ba069d5",
+    "hash": "2f383ff51911af651e79a11848e0969d",
     "data": {
       "id": "wpn_8099",
       "effects": [
@@ -225610,7 +231789,7 @@
           "effect_name": "Increase Accuracy",
           "duration": 0,
           "calc_type": "number",
-          "amount": 38,
+          "amount": 40,
           "chance": 100
         }
       ]
@@ -225691,7 +231870,7 @@
   },
   "weapon_effect::wpn_8102": {
     "name": "S20 Crew: Ligthning Katana",
-    "hash": "0b1fe671e0fc44bea27e828455880b6e",
+    "hash": "72ab6e6bdff43d6f2b5db8f2a3bceeff",
     "data": {
       "id": "wpn_8102",
       "effects": [
@@ -225725,7 +231904,173 @@
           "effect_name": "Increase Accuracy",
           "duration": 0,
           "calc_type": "number",
-          "amount": 38,
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6087": {
+    "name": "S36 Clan: Advance Demon Shark Blade",
+    "hash": "014a095f6604140c5aee2a4a1055d07c",
+    "data": {
+      "id": "wpn_6087",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_damage_bonus",
+          "effect_name": "Strengthen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 110,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6088": {
+    "name": "S37 Clan: Advance Vampire Blade - Janen",
+    "hash": "47181e72f3db4845e44b98c0030657ea",
+    "data": {
+      "id": "wpn_6088",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "bloodfeed_attack",
+          "effect_name": "Bloodfeed",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 90,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 9,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6089": {
+    "name": "S38 Clan: Advance Jyuuou Blade",
+    "hash": "d89062953c59126158a45b1c1be608ff",
+    "data": {
+      "id": "wpn_6089",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "reduce_cd",
+          "effect_name": "Rewind",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 2,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6090": {
+    "name": "S39 Clan: Advance Frozen Blade",
+    "hash": "a2d03a051ac4f2f8ca4c048f9d03c77d",
+    "data": {
+      "id": "wpn_6090",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 50,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "frozen",
+          "effect_name": "Frozen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 35
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6091": {
+    "name": "S40 Clan: Advance Gozen Breeze Fan",
+    "hash": "1aead48b4e8bb571b8a854b493014a54",
+    "data": {
+      "id": "wpn_6091",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 50,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "weaken",
+          "effect_name": "Weaken",
+          "duration": 3,
+          "calc_type": "number",
+          "amount": 600,
           "chance": 100
         }
       ]
@@ -241569,6 +247914,294 @@
       ]
     }
   },
+  "back_effect::back_2455": {
+    "name": "Soulbound Dragon",
+    "hash": "6d777f695bf25adb45da5dd6e7a4c556",
+    "data": {
+      "id": "back_2455",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 250,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2456": {
+    "name": "Bond Lantern",
+    "hash": "4852f1fea7f257d3ba9bbc86bcf9a9b7",
+    "data": {
+      "id": "back_2456",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 250,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2457": {
+    "name": "Ball Keeper Automaton",
+    "hash": "1b7c48b60ade4d82f1b19f3f2939cc2b",
+    "data": {
+      "id": "back_2457",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 8,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2458": {
+    "name": "Fan of Victory",
+    "hash": "a6d21b0a15214c0ff4728711bb77a18d",
+    "data": {
+      "id": "back_2458",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "recover_hp_debuff",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "mortal",
+          "effect_name": "Mortal",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 25,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2459": {
+    "name": "Backscrap",
+    "hash": "3d5b0b38230205ac788719d705f35adc",
+    "data": {
+      "id": "back_2459",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "ignore_dodge",
+          "effect_name": "Ignore Dodge",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 150,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2460": {
+    "name": "Wheel of Steel",
+    "hash": "e036f12267f2c911a3474d9bb2ec88cd",
+    "data": {
+      "id": "back_2460",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 7,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2461": {
+    "name": "Drashinja Bow",
+    "hash": "8e20713421e1ec2e8e464e8c1444ed66",
+    "data": {
+      "id": "back_2461",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Increase Agility",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2462": {
+    "name": "Dark Wing",
+    "hash": "321f4202c481739ff039466345c30898",
+    "data": {
+      "id": "back_2462",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 150,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2463": {
+    "name": "Chaos Angel Wing",
+    "hash": "0c0816f331020ef94288d674c13fcfa3",
+    "data": {
+      "id": "back_2463",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 200,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "absorb_hp_attacker",
+          "effect_name": "Absorb HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 1,
+          "chance": 15
+        }
+      ]
+    }
+  },
+  "back_effect::back_2464": {
+    "name": "Mighty Archangel Wing",
+    "hash": "2068136ba4a602c9de051ef980ad2d5d",
+    "data": {
+      "id": "back_2464",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 350,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "absorb_cp_attacker",
+          "effect_name": "Absorb CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 2,
+          "chance": 30
+        }
+      ]
+    }
+  },
   "back_effect::back_4001": {
     "name": "S2 Crew: Solar Aura (Spirit)",
     "hash": "861c0f53e44ddd5494f3f97b6ea19a5a",
@@ -241595,6 +248228,37 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 2,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_4002": {
+    "name": "S7 Crew: Gorgeous Butterfly (Spirit)",
+    "hash": "db02047bd891e0e95bd0be2965060590",
+    "data": {
+      "id": "back_4002",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "increase_cp_charge",
+          "effect_name": "Increase CP Charge",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 15,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Agility Increase",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 1,
           "chance": 100
         }
       ]
@@ -243076,7 +249740,7 @@
     }
   },
   "back_effect::back_6051": {
-    "name": "back_6051",
+    "name": "S50 Clan: Blood Shade Magatama",
     "hash": "62186a2f8bd468bf15e5ef25a8cf4b35",
     "data": {
       "id": "back_6051",
@@ -244791,7 +251455,7 @@
   },
   "back_effect::back_8039": {
     "name": "S20 Crew: Ligthning Paper Umbrella",
-    "hash": "cda1437cb9e7522c3f2e4d275cb378df",
+    "hash": "ca4ebf7180b6702e9dc4d6075a8459c7",
     "data": {
       "id": "back_8039",
       "effects": [
@@ -244799,10 +251463,10 @@
           "passive": true,
           "type": "Buff",
           "target": "self",
-          "effect": "critical_increase",
-          "effect_name": "Increase Critical",
+          "effect": "mortal",
+          "effect_name": "Mortal",
           "duration": 0,
-          "calc_type": "number",
+          "calc_type": "percent",
           "amount": 17,
           "chance": 100
         }
