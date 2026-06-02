@@ -1,0 +1,79 @@
+[
+  {
+    "syncId": "2026-06-02T19-26-08-190Z",
+    "detectedAt": "2026-06-02T19:26:08.190Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_1315_0",
+    "entityName": "Saudi Arabia Jersey 2026",
+    "field": "name",
+    "oldValue": "Türkiye Jersey 2026",
+    "newValue": "Saudi Arabia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T19-26-08-190Z",
+    "detectedAt": "2026-06-02T19:26:08.190Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_1315_1",
+    "entityName": "Saudi Arabia Jersey 2026",
+    "field": "name",
+    "oldValue": "Türkiye Jersey 2026",
+    "newValue": "Saudi Arabia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-02T19-26-08-190Z",
+    "detectedAt": "2026-06-02T19:26:08.190Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6063",
+    "entityName": "S36 Clan: Demon Shark Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":30,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"dodge_damage_bonus\",\"effect_name\":\"Strengthen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"dodge_damage_bonus\",\"effect_name\":\"Strengthen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":30,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T19-26-08-190Z",
+    "detectedAt": "2026-06-02T19:26:08.190Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6064",
+    "entityName": "S37 Clan: Vampire Blade - Janen",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"bloodfeed_attack\",\"effect_name\":\"Bloodfeed\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":80,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"hp_recover\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":8,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"hp_recover\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":8,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"bloodfeed_attack\",\"effect_name\":\"Bloodfeed\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":80,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T19-26-08-190Z",
+    "detectedAt": "2026-06-02T19:26:08.190Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6070",
+    "entityName": "S38 Clan: Jyuuou Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"reduce_cd\",\"effect_name\":\"Rewind\",\"duration\":0,\"calc_type\":\"number\",\"amount\":2,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"reduce_cd\",\"effect_name\":\"Rewind\",\"duration\":0,\"calc_type\":\"number\",\"amount\":2,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T19-26-08-190Z",
+    "detectedAt": "2026-06-02T19:26:08.190Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6071",
+    "entityName": "S39 Clan: Frozen Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"frozen\",\"effect_name\":\"Frozen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":15,\"chance\":35}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"frozen\",\"effect_name\":\"Frozen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":15,\"chance\":35},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-06-02T19-26-08-190Z",
+    "detectedAt": "2026-06-02T19:26:08.190Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6072",
+    "entityName": "S40 Clan: Gozen Breeze Fan",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":3,\"calc_type\":\"number\",\"amount\":400,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":3,\"calc_type\":\"number\",\"amount\":400,\"chance\":20},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100}]"
+  }
+]
