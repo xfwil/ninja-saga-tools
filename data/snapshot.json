@@ -28651,7 +28651,7 @@
   },
   "skill::skill_2363": {
     "name": "Kinjutsu: Keeper Throw",
-    "hash": "de2b5ad8632ccfe8d63409847ceeb80b",
+    "hash": "1a147e9ef532bcea241c3772f484e199",
     "data": {
       "id": "skill_2363",
       "price_tokens": 0,
@@ -28675,14 +28675,14 @@
       },
       "attack_hit_position": "meele_2",
       "source": [
-        "easter2026",
+        "worldcup2026",
         "material_market"
       ]
     }
   },
   "skill::skill_2364": {
     "name": "Kinjutsu: Somersault Shot",
-    "hash": "78e166895f71b51ef7e3bdb22bced2f3",
+    "hash": "64255edb3a69ffd90e120ff41ff057cb",
     "data": {
       "id": "skill_2364",
       "price_tokens": 0,
@@ -28706,14 +28706,14 @@
       },
       "attack_hit_position": "meele_2",
       "source": [
-        "easter2026",
+        "worldcup2026",
         "material_market"
       ]
     }
   },
   "skill::skill_2365": {
     "name": "Multi Fiery Shot",
-    "hash": "863419451e1d7675fc63edba4ad80a82",
+    "hash": "67bfb1c44a54886e43bda5477bab66a7",
     "data": {
       "id": "skill_2365",
       "price_tokens": 0,
@@ -28744,13 +28744,13 @@
       },
       "attack_hit_position": "range_3",
       "source": [
-        "easter2026"
+        "worldcup2026"
       ]
     }
   },
   "skill::skill_2366": {
     "name": "Multi Tiger Fiery Shot",
-    "hash": "e7fc62b361922da29e2c013bfc55daf1",
+    "hash": "67a5ef27453c0247a0d7825837442cfc",
     "data": {
       "id": "skill_2366",
       "price_tokens": 0,
@@ -28781,7 +28781,7 @@
       },
       "attack_hit_position": "range_3",
       "source": [
-        "easter2026"
+        "worldcup2026"
       ]
     }
   },
