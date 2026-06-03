@@ -1,0 +1,24 @@
+[
+  {
+    "syncId": "2026-06-03T19-30-44-004Z",
+    "detectedAt": "2026-06-03T19:30:44.004Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_1315_0",
+    "entityName": "Saudi Arabia Jersey 2026",
+    "field": "name",
+    "oldValue": "Türkiye Jersey 2026",
+    "newValue": "Saudi Arabia Jersey 2026"
+  },
+  {
+    "syncId": "2026-06-03T19-30-44-004Z",
+    "detectedAt": "2026-06-03T19:30:44.004Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_1315_1",
+    "entityName": "Saudi Arabia Jersey 2026",
+    "field": "name",
+    "oldValue": "Türkiye Jersey 2026",
+    "newValue": "Saudi Arabia Jersey 2026"
+  }
+]
