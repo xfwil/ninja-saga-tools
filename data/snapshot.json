@@ -34533,7 +34533,7 @@
   },
   "skill::skill_7050": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
-    "hash": "1414d9f3d3a6ef3d9c93e6434fd285bd",
+    "hash": "cc6fb5a3407bfce71bcf602cda94d1c1",
     "data": {
       "id": "skill_7050",
       "price_tokens": 0,
@@ -34550,7 +34550,6 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           46
@@ -34564,7 +34563,7 @@
   },
   "skill::skill_7051": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
-    "hash": "1a256048babd1b1931a4e67cc581fe1e",
+    "hash": "7f5614e6c24c4d946b507c3fba4d1497",
     "data": {
       "id": "skill_7051",
       "price_tokens": 0,
@@ -34581,7 +34580,6 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           71
@@ -34595,7 +34593,7 @@
   },
   "skill::skill_7052": {
     "name": "S25 Kinjutsu: Ame no Kanata",
-    "hash": "23a8ed815ccb9d82ae3dd4f5e22d7d0c",
+    "hash": "bed2cbadb180db5c64e48ae7b6d3693b",
     "data": {
       "id": "skill_7052",
       "price_tokens": 0,
@@ -34608,7 +34606,7 @@
       "cooldown": 15,
       "target": "All",
       "multi_hit": true,
-      "description": "(Kinjutsu) Not Available.",
+      "description": "(Kinjutsu) Reduces all targets critical, dodge, combustion, purify rate, and reactive force chance by 45% and applies Bleeding (+40% damage taken) for 4 turns.",
       "name": "S25 Kinjutsu: Ame no Kanata",
       "type": "7",
       "category": "shadowwar",
@@ -34632,7 +34630,7 @@
   },
   "skill::skill_7053": {
     "name": "S25 Kinjutsu: Advanced Ame no Kanata",
-    "hash": "dd16bc8a5f5c1ac497e5f9f3600e5a77",
+    "hash": "bd3fef4a6774d584d866c6de7522c274",
     "data": {
       "id": "skill_7053",
       "price_tokens": 0,
@@ -34645,7 +34643,7 @@
       "cooldown": 13,
       "target": "All",
       "multi_hit": true,
-      "description": "(Kinjutsu) Not Available.",
+      "description": "(Kinjutsu) Reduces all targets critical, dodge, combustion, purify rate, and reactive force chance by 73% and applies Bleeding (+60% damage taken) for 5 turns.",
       "name": "S25 Kinjutsu: Advanced Ame no Kanata",
       "type": "7",
       "category": "shadowwar",
@@ -62275,7 +62273,7 @@
   },
   "library::wpn_7019": {
     "name": "S24 Shadow War: Seraph's Ruin Edge",
-    "hash": "06f39f26a9bdce77cd214512e185794c",
+    "hash": "ecc35b982f123df308755c6ce79b02b1",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -62293,7 +62291,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -62301,11 +62298,11 @@
   },
   "library::wpn_7020": {
     "name": "S25 Shadow War: Hada Kokuto",
-    "hash": "45cd9d4a4df05dad2d6c63a79ba099fc",
+    "hash": "a69cecff3a5a222c5c35095d4b3422ff",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S25 Shadow War Reward: Not Available.",
+      "description": "S25 Shadow War Reward: Increase accuracy by 38%. Has 28% chance to remove target's positive status. Kill target's HP is less than 10%.",
       "level": 80,
       "damage": 549,
       "sell_price": 0,
@@ -80453,11 +80450,11 @@
   },
   "library::back_2458": {
     "name": "Fan of Victory",
-    "hash": "6aa2b78f62bde018a1a61def0f635c1e",
+    "hash": "4ea2df555dc87e64a8aa4a49712b997b",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "Recover HP by 7% when put under debuff. Increase critical damage by 25%.",
+      "description": "Recover HP by 10% when put under debuff. Increase critical damage by 65%",
       "level": 1,
       "damage": 0,
       "sell_price": 0,
@@ -82424,7 +82421,7 @@
   },
   "library::back_7019": {
     "name": "S24 Shadow War: Seraphic Voidwings",
-    "hash": "062bbcb33ac4af76529b5b145eff1a4b",
+    "hash": "e1d9521a93353457667aaed4739701eb",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -82442,7 +82439,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -82450,11 +82446,11 @@
   },
   "library::back_7020": {
     "name": "S25 Shadow War: Ignia the Flame",
-    "hash": "cc9f114549b71650f8e7aa5547181e5c",
+    "hash": "3df8d8c407cf1f91b4d26a780ffae73f",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S25 Shadow War Reward: Not Available.",
+      "description": "S25 Shadow War Reward: Increase damage dealt and reduce damage taken by 285. Also increase purify chance by 10%. ",
       "level": 20,
       "damage": 0,
       "sell_price": 0,
@@ -147822,7 +147818,7 @@
   },
   "library::set_7072_0": {
     "name": "S24 Shadow War Champion",
-    "hash": "e683d372079fd99ac10ce3342924e72b",
+    "hash": "665f0896fa47d300fce62feaa0285a89",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 24 Champion",
@@ -147839,7 +147835,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -147847,7 +147842,7 @@
   },
   "library::set_7072_1": {
     "name": "S24 Shadow War Champion",
-    "hash": "b6c2e3f576da2849a065c39351d7c7df",
+    "hash": "812e6dac41d43fc5684be7043c28707a",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 24 Champion",
@@ -147864,7 +147859,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -147872,7 +147866,7 @@
   },
   "library::set_7073_0": {
     "name": "S24 Shadow War Runner Up",
-    "hash": "d747a1bcb26c2ab76c7d9dca1c6fa9d6",
+    "hash": "da34eb88572d317e2e477185e1b19517",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 24 Runner Up",
@@ -147889,7 +147883,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -147897,7 +147890,7 @@
   },
   "library::set_7073_1": {
     "name": "S24 Shadow War Runner Up",
-    "hash": "959c783e24145da3c4a0e7e40ab21168",
+    "hash": "b0bceeef3a5456778eeaa97f011c3629",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 24 Runner Up",
@@ -147914,7 +147907,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -147922,7 +147914,7 @@
   },
   "library::set_7074_0": {
     "name": "S24 Shadow War Participant",
-    "hash": "3c4dd5bf9f06d3c0764b74555f476ebe",
+    "hash": "794c0d06b08adddefa9bf4934639b989",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 24",
@@ -147939,7 +147931,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -147947,7 +147938,7 @@
   },
   "library::set_7074_1": {
     "name": "S24 Shadow War Participant",
-    "hash": "1818a230e57aaf6b03444d5f5fe4d5d5",
+    "hash": "ebe6bf5eaa1c6eb9c2f8c189567fac51",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 24",
@@ -147964,7 +147955,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -147972,7 +147962,7 @@
   },
   "library::set_7075_0": {
     "name": "S25 Shadow War Champion",
-    "hash": "952cbb98fdf427295107ea8fe155ea64",
+    "hash": "0966b8d9f65075f789dca036962c14fd",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 25 Champion",
@@ -147989,7 +147979,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -176125,7 +176114,7 @@
   },
   "library::hair_7010_0": {
     "name": "S24 Shadow War Individual Hairstyle",
-    "hash": "946005a15640cc0a22de4fb7756b933e",
+    "hash": "cb5ea1dd772cc3a88e7ffd3210b58d93",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 24",
@@ -176142,7 +176131,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -176150,7 +176138,7 @@
   },
   "library::hair_7010_1": {
     "name": "S24 Shadow War Individual Hairstyle",
-    "hash": "a7150473eceb366fd3d587ed309d4423",
+    "hash": "b3dc2a87f01c0381583930e9586f6b64",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 24",
@@ -176167,7 +176155,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
