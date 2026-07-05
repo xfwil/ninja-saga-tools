@@ -1,4 +1,33 @@
 {
+  "skill::skill_dummy": {
+    "name": "Dummy Reverse Healing",
+    "hash": "5ca190b8b0fd975f337f95c64439c4b4",
+    "data": {
+      "id": "skill_dummy",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 0,
+      "cooldown": 0,
+      "target": "Single",
+      "description": "[DUMMY/TEST] Applies Reverse Healing to the target.",
+      "name": "Dummy Reverse Healing",
+      "attack_hit_position": "meele_1",
+      "type": "3",
+      "premium": false,
+      "anims": {
+        "hit": [
+          33
+        ]
+      },
+      "source": [
+        "academy"
+      ]
+    }
+  },
   "skill::skill_01": {
     "name": "Lightning Edge",
     "hash": "b2816cb731882d6314d22af6bf8b86f6",
@@ -28907,6 +28936,316 @@
       ]
     }
   },
+  "skill::skill_2371": {
+    "name": "Kinjutsu: Crow Strike",
+    "hash": "9cd9f5f085023a93f6c175d6c7b0657b",
+    "data": {
+      "id": "skill_2371",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 300,
+      "hit_chance": 0,
+      "cp_cost": 200,
+      "cooldown": 18,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflict 'Bleeding' to target by 40% for 3 turns.",
+      "name": "Kinjutsu: Crow Strike",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          44
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "skill::skill_2372": {
+    "name": "Kinjutsu: Crow Nest",
+    "hash": "263111f00f13fa95fd8c94dc87e4392f",
+    "data": {
+      "id": "skill_2372",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Flock the enemy with crows, inflict 'Petrify' to target for 3 turns.",
+      "name": "Kinjutsu: Crow Nest",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          70
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "skill::skill_2373": {
+    "name": "Kinjutsu: Wave Ride",
+    "hash": "c10ee6b4a2161bbe24e0f487d1fd1a14",
+    "data": {
+      "id": "skill_2373",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Reduce target purify chance by 25% for 3 turns.",
+      "name": "Kinjutsu: Wave Ride",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          65
+        ],
+        "splash": {
+          "add": 3
+        }
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "skill::skill_2374": {
+    "name": "Kinjutsu: Crimson Oni Bomb",
+    "hash": "5382a4fe8bcfa00d45d9d86ee4d2943f",
+    "data": {
+      "id": "skill_2374",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 220,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflicts 'Bleeding' by 45% for 2 turns and grants 'Excitation' to the user for 2 turns. While 'Excitation' is active, all skill CP costs become 0, but the user cannot charge. This jutsu also has a 35% chance to remove a positive status effect from the target.",
+      "name": "Kinjutsu: Crimson Oni Bomb",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          63
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "skill::skill_2375": {
+    "name": "Kinjutsu: Advance Crimson Oni Bomb",
+    "hash": "ead61f52f94281ee2db9073102b659d2",
+    "data": {
+      "id": "skill_2375",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 435,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflicts 'Bleeding' by 70% for 3 turns and grants 'Excitation' to the user for 3 turns. While 'Excitation' is active, all skill CP costs become 0, but the user cannot charge. This jutsu also has a 70% chance to remove a positive status effect from the target.",
+      "name": "Kinjutsu: Advance Crimson Oni Bomb",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          63
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "skill::skill_2376": {
+    "name": "Kinjutsu: Demonic Crow Barrage",
+    "hash": "b0e24d79204c02604ca9eb0f67d5d9a2",
+    "data": {
+      "id": "skill_2376",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 350,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflict 'Numb' by 40% for 3 turns.",
+      "name": "Kinjutsu: Demonic Crow Barrage",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          102
+        ],
+        "effects": [
+          {
+            "name": "effectMc",
+            "add": 51,
+            "type": "target"
+          }
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "skill::skill_2377": {
+    "name": "Kinjutsu: Kitsune Thunder Breath",
+    "hash": "ab184fa0a090fd1cd64be9e5e266a890",
+    "data": {
+      "id": "skill_2377",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Reduce enemy max HP by 4% for 3 turns.",
+      "name": "Kinjutsu: Kitsune Thunder Breath",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          102
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "skill::skill_2378": {
+    "name": "Kinjutsu: Demonic Space Rend",
+    "hash": "a03bc7016300e61ba83b14863dc37a01",
+    "data": {
+      "id": "skill_2378",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 350,
+      "hit_chance": 0,
+      "cp_cost": 500,
+      "cooldown": 17,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflict 'Chaos' to target for 2 turns and instantly reduce enemy max HP by 7%.",
+      "name": "Kinjutsu: Demonic Space Rend",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          109
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "skill::skill_2379": {
+    "name": "Kinjutsu: Demonic Laser",
+    "hash": "e5b77e04e0518cc5f71085ceca5413cc",
+    "data": {
+      "id": "skill_2379",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 200,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 18,
+      "target": "Single",
+      "description": "(Kinjutsu) Instantly reduce target max HP by 10%.",
+      "name": "Kinjutsu: Demonic Laser",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          109
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "skill::skill_2380": {
+    "name": "Kinjutsu: Hellfire Eruption",
+    "hash": "49c32c240bcf62c72c61fa83cc1caa28",
+    "data": {
+      "id": "skill_2380",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 300,
+      "hit_chance": 0,
+      "cp_cost": 450,
+      "cooldown": 20,
+      "target": "Single",
+      "description": "(Kinjutsu) Using an eye born from hatred, burn target with inextinguishable flames. Inflicts 'Blaze' by 5% for 3 turns.",
+      "name": "Kinjutsu: Hellfire Eruption",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          99
+        ]
+      },
+      "attack_hit_position": "range_1"
+    }
+  },
   "skill::skill_3500": {
     "name": "Senjutsu: Super Charges",
     "hash": "0aa6dd05b82f6d6ff5d7fc12360fcb01",
@@ -28932,6 +29271,58 @@
         ]
       },
       "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_3501": {
+    "name": "Senjutsu: Paper Bomb",
+    "hash": "128c63fb38d91bce4fb81c325054a4a9",
+    "data": {
+      "id": "skill_3501",
+      "price_tokens": 8000,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 500,
+      "hit_chance": 0,
+      "cp_cost": 900,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "Inflicts 'Flaming' by 5% for 4 turns.",
+      "name": "Senjutsu: Paper Bomb",
+      "type": "11",
+      "premium": false,
+      "anims": {
+        "hit": [
+          57
+        ]
+      },
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_3502": {
+    "name": "Senjutsu: Flash Head Kick",
+    "hash": "20817084f071a9c61ee5eba37921b505",
+    "data": {
+      "id": "skill_3502",
+      "price_tokens": 8000,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 400,
+      "hit_chance": 0,
+      "cp_cost": 540,
+      "cooldown": 12,
+      "target": "Single",
+      "description": "Removes all positive status of the target.",
+      "name": "Senjutsu: Flash Head Kick",
+      "type": "11",
+      "premium": false,
+      "anims": {
+        "hit": [
+          7
+        ]
+      },
+      "attack_hit_position": "meele_1"
     }
   },
   "skill::skill_3000": {
@@ -29499,6 +29890,280 @@
       "attack_hit_position": "range_3"
     }
   },
+  "skill::skill_3201": {
+    "name": "Senjutsu: Slug Sage",
+    "hash": "19665e9a3271a49332dd865f0748e951",
+    "data": {
+      "id": "skill_3201",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 1000,
+      "cooldown": 20,
+      "target": "Self",
+      "description": "Increase Max HP by 3000 & Recovers 2% HP every turn - cannot be dispersed (5 turns).",
+      "name": "Senjutsu: Slug Sage",
+      "type": "11",
+      "multi_hit": false,
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          69
+        ],
+        "fullscreen": {
+          "add": 17,
+          "remove": 81
+        }
+      },
+      "attack_hit_position": "startpos"
+    }
+  },
+  "skill::skill_3202": {
+    "name": "Senjutsu: Slug Protection",
+    "hash": "7b12deb097e3c14c456280e0e61143ca",
+    "data": {
+      "id": "skill_3202",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 400,
+      "cooldown": 12,
+      "target": "Self",
+      "description": "User takes 25% of the damage by CP and recovers 500 CP every turn - cannot be dispersed (5 turns).",
+      "name": "Senjutsu: Slug Protection",
+      "type": "11",
+      "multi_hit": false,
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          108
+        ]
+      },
+      "attack_hit_position": "startpos"
+    }
+  },
+  "skill::skill_3203": {
+    "name": "Senjutsu: Slug Explosion",
+    "hash": "ba123056cb23a158dc36891e8e2b0e75",
+    "data": {
+      "id": "skill_3203",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 700,
+      "hit_chance": 0,
+      "cp_cost": 550,
+      "cooldown": 12,
+      "target": "Single",
+      "description": "Reduce 20% of the opponents attack damage - cannot be purified (5 turns).",
+      "name": "Senjutsu: Slug Explosion",
+      "type": "11",
+      "multi_hit": false,
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          72
+        ]
+      },
+      "attack_hit_position": "range_1"
+    }
+  },
+  "skill::skill_3204": {
+    "name": "Senjutsu: Earth Mastery",
+    "hash": "60e5b660ec79ebe2d77401c698563b0a",
+    "data": {
+      "id": "skill_3204",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 0,
+      "cooldown": 0,
+      "target": "Self",
+      "description": "Increase earth ninjutsu attack damage by 30% and reactive force chance by 30%",
+      "name": "Senjutsu: Earth Mastery",
+      "type": "11",
+      "multi_hit": true,
+      "premium": false,
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_3205": {
+    "name": "Senjutsu: Chakra Kick",
+    "hash": "94c5e26c0ad849ac5d1fb3cc32ec1aea",
+    "data": {
+      "id": "skill_3205",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 1000,
+      "hit_chance": 0,
+      "cp_cost": 500,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "Inflict 'CP Burn' effect on the opponent (Reduce opponent CP by 20% - 5 turns).",
+      "name": "Senjutsu: Chakra Kick",
+      "type": "11",
+      "multi_hit": false,
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          22
+        ]
+      },
+      "attack_hit_position": "range_1"
+    }
+  },
+  "skill::skill_3206": {
+    "name": "Senjutsu: Chakra Mega Punch",
+    "hash": "0f363c196998e43af7d7d7558635b347",
+    "data": {
+      "id": "skill_3206",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 1200,
+      "hit_chance": 0,
+      "cp_cost": 800,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "Inflict vulnerable effect on the target - target receives extra 50% damage - 2 turns (cannot be purified).",
+      "name": "Senjutsu: Chakra Mega Punch",
+      "type": "11",
+      "multi_hit": false,
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          41
+        ]
+      },
+      "attack_hit_position": "meele_2"
+    }
+  },
+  "skill::skill_3207": {
+    "name": "Senjutsu: Slug Blessing",
+    "hash": "daa70cdf3e737deadef0e519a5b9344c",
+    "data": {
+      "id": "skill_3207",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 1000,
+      "cooldown": 20,
+      "target": "All",
+      "description": "Heal the entire team (+ 2000 HP).",
+      "name": "Senjutsu: Slug Blessing",
+      "type": "11",
+      "multi_hit": true,
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          98
+        ]
+      },
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_3208": {
+    "name": "Senjutsu: Stoneheart Fortitude",
+    "hash": "4e31013c575ce2358b4936b4bb2a183c",
+    "data": {
+      "id": "skill_3208",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 0,
+      "cooldown": 0,
+      "target": "Self",
+      "description": "Increase Max HP and CP by 10%.",
+      "name": "Senjutsu: Stoneheart Fortitude",
+      "type": "11",
+      "multi_hit": false,
+      "premium": false,
+      "na": true,
+      "anims": [],
+      "attack_hit_position": null
+    }
+  },
+  "skill::skill_3209": {
+    "name": "Senjutsu: Slug Absorption",
+    "hash": "376f88188df525df941887f0ece11464",
+    "data": {
+      "id": "skill_3209",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 900,
+      "hit_chance": 0,
+      "cp_cost": 800,
+      "cooldown": 25,
+      "target": "All",
+      "description": "Drain 15% HP from all targets (based on current HP).",
+      "name": "Senjutsu: Slug Absorption",
+      "type": "11",
+      "multi_hit": true,
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          47
+        ]
+      },
+      "attack_hit_position": "range_1"
+    }
+  },
+  "skill::skill_3210": {
+    "name": "Senjutsu: Slug Breath",
+    "hash": "4b65e253e218770da02d68835f1fb1c3",
+    "data": {
+      "id": "skill_3210",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 1200,
+      "hit_chance": 0,
+      "cp_cost": 1000,
+      "cooldown": 50,
+      "target": "All",
+      "description": "Inflict 'Reverse Healing' status on all targets - targets will loose HP instead of healing (3 turns). This jutsu cannot be purified.",
+      "name": "Senjutsu: Slug Breath",
+      "type": "11",
+      "multi_hit": true,
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          76
+        ]
+      },
+      "attack_hit_position": "range_1"
+    }
+  },
   "skill::skill_4000": {
     "name": "Medical Class Jutsu",
     "hash": "c96bd1ce3d37e2a5a3fa8f7cafe96fd1",
@@ -29648,6 +30313,99 @@
         }
       },
       "attack_hit_position": "meele_1"
+    }
+  },
+  "skill::skill_5000": {
+    "name": "Kinjutsu: Fiery Dance Strike",
+    "hash": "da243146dbcb1e5ee4f9383b66c30d0f",
+    "data": {
+      "id": "skill_5000",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 888,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "Increases the user damage by 100% for the next 2 turns.",
+      "name": "Kinjutsu: Fiery Dance Strike",
+      "type": "6",
+      "category": "pvp",
+      "premium": false,
+      "anims": {
+        "hit": [
+          198
+        ]
+      },
+      "source": [
+        "pvp",
+        "pvp_league_shop"
+      ],
+      "attack_hit_position": "meele_1"
+    }
+  },
+  "skill::skill_5001": {
+    "name": "Kinjutsu: Crimson Torrent",
+    "hash": "b743aef44962758d63b833860281bf33",
+    "data": {
+      "id": "skill_5001",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 200,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "Inflicts 'Muddy' by 25% and burns the target max HP by 4% for 4 turns.",
+      "name": "Kinjutsu: Crimson Torrent",
+      "type": "6",
+      "category": "pvp",
+      "premium": false,
+      "anims": {
+        "hit": [
+          77
+        ]
+      },
+      "source": [
+        "pvp",
+        "pvp_league_shop"
+      ],
+      "attack_hit_position": "meele_3"
+    }
+  },
+  "skill::skill_5002": {
+    "name": "Kinjutsu: Black Lightning Combo",
+    "hash": "53ef848fd11ba12f119d0ec6651f5e58",
+    "data": {
+      "id": "skill_5002",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 888,
+      "hit_chance": 1000,
+      "cp_cost": 10,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "This jutsu is extremely accurate.",
+      "name": "Kinjutsu: Black Lightning Combo",
+      "type": "6",
+      "category": "pvp",
+      "premium": false,
+      "anims": {
+        "hit": [
+          114
+        ]
+      },
+      "source": [
+        "pvp",
+        "pvp_league_shop"
+      ],
+      "attack_hit_position": "range_1"
     }
   },
   "skill::skill_6001": {
@@ -32948,6 +33706,75 @@
       "attack_hit_position": "meele_1"
     }
   },
+  "skill::skill_6103": {
+    "name": "S51 Kinjutsu: Time Distortion",
+    "hash": "66c527730d489f8c365567df766b915e",
+    "data": {
+      "id": "skill_6103",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 200,
+      "cooldown": 12,
+      "target": "Self",
+      "description": "(Kinjutsu) Distorts time and space to form a barrier. Immediately remove all negative status and temporarily delays the damage taken (up to 50% of user's max HP) and let user be immune to debuff status for 3 turns. User cannot heal or be healed after the skill expires for 2 turns. (This buff cannot be dispersed or purified).",
+      "name": "S51 Kinjutsu: Time Distortion",
+      "type": "7",
+      "category": "clan",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          65
+        ],
+        "fullscreen": {
+          "add": 21,
+          "remove": 71
+        }
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "startpos"
+    }
+  },
+  "skill::skill_6104": {
+    "name": "S51 Kinjutsu: Advance Time Distortion",
+    "hash": "0f2fa1dbed9177b04907acd657156a67",
+    "data": {
+      "id": "skill_6104",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 200,
+      "cooldown": 12,
+      "target": "Self",
+      "description": "(Kinjutsu) Distorts time and space to form a barrier. Immediately remove all negative status and temporarily delays the damage taken (up to 70% of user's max HP) and let user be immune to debuff status for 4 turns. User cannot heal or be healed after the skill expires for 2 turns. (This buff cannot be dispersed or purified).",
+      "name": "S51 Kinjutsu: Advance Time Distortion",
+      "type": "7",
+      "category": "clan",
+      "premium": false,
+      "anims": {
+        "hit": [
+          65
+        ],
+        "fullscreen": {
+          "add": 21,
+          "remove": 71
+        }
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "startpos"
+    }
+  },
   "skill::skill_7000": {
     "name": "S0 Kinjutsu: Katon Flare Flash Combo",
     "hash": "2e1bab848b1e11fd417546bd70c1d684",
@@ -35383,7 +36210,7 @@
   },
   "skill::skill_8024": {
     "name": "S19 Kinjutsu: Earth Barrier",
-    "hash": "8e79dc60a137acdbb54808206c4c3eac",
+    "hash": "75045d3b497ac42842c804190647cac7",
     "data": {
       "id": "skill_8024",
       "price_tokens": 0,
@@ -35395,12 +36222,11 @@
       "cp_cost": 200,
       "cooldown": 11,
       "target": "Self",
-      "description": "(Kinjutsu) Not Available.",
+      "description": "(Kinjutsu) Reducing damage for whole team by 100% for 3 turns.",
       "name": "S19 Kinjutsu: Earth Barrier",
       "type": "7",
       "category": "crew",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           24
@@ -35441,6 +36267,37 @@
         "crew"
       ],
       "attack_hit_position": "meele_1"
+    }
+  },
+  "skill::skill_8026": {
+    "name": "S21 Kinjutsu: True Dragon Befall",
+    "hash": "84aac7fe2cb9d6792062527e51a257df",
+    "data": {
+      "id": "skill_8026",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 15,
+      "target": "Self",
+      "description": "(Kinjutsu) Reflects 100% of damage taken to the attacker and increases damage by 50% for 3 turns.",
+      "name": "S21 Kinjutsu: True Dragon Befall",
+      "type": "6",
+      "category": "crew",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          30
+        ]
+      },
+      "source": [
+        "crew"
+      ],
+      "attack_hit_position": "startpos"
     }
   },
   "library::wpn_01": {
@@ -58184,6 +59041,208 @@
       ]
     }
   },
+  "library::wpn_2455": {
+    "name": "Karasu Naginata",
+    "hash": "f58a129e1183073897cd15e9ed3bb10f",
+    "data": {
+      "attack_type": "attack_07",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 25%. Increase all attack damage by 123",
+      "level": 30,
+      "damage": 240,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2455",
+      "price_gold": 0,
+      "name": "Karasu Naginata",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::wpn_2456": {
+    "name": "Karasu Shakujo",
+    "hash": "d5531bd79dab6b8f237cdfcbe86959cd",
+    "data": {
+      "attack_type": "attack_05",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 30%. Reduce damage taken by 8%.",
+      "level": 40,
+      "damage": 200,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2456",
+      "price_gold": 0,
+      "name": "Karasu Shakujo",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::wpn_2457": {
+    "name": "Mystic Kitsune Sword",
+    "hash": "cb05feac4e935572af38e53d6c76c0cf",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increases accuracy by 40%. Has 60% to inflict 'Slow' by 35% for 2 turns on each successful weapon attack.",
+      "level": 60,
+      "damage": 420,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2457",
+      "price_gold": 0,
+      "name": "Mystic Kitsune Sword",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::wpn_2458": {
+    "name": "Crimson Blood Feather Blade",
+    "hash": "a624b40316d2b3197553b3287410f1bc",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 35%. Increase purify chance by 5%.",
+      "level": 40,
+      "damage": 200,
+      "sell_price": 5000,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2458",
+      "price_gold": 0,
+      "name": "Crimson Blood Feather Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::wpn_2459": {
+    "name": "Demon Eye Parasol",
+    "hash": "9ac2b7ec4180e3919c7e9818505fee7c",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 10%. Reduce damage taken by 150.",
+      "level": 20,
+      "damage": 100,
+      "sell_price": 5000,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2459",
+      "price_gold": 0,
+      "name": "Demon Eye Parasol",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::wpn_2460": {
+    "name": "Kitsune Shrine Fan",
+    "hash": "a55ea1b221e811355465557e74db40df",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 35%. Increase reactive force and combustion chance by 10%.",
+      "level": 40,
+      "damage": 200,
+      "sell_price": 5000,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2460",
+      "price_gold": 0,
+      "name": "Kitsune Shrine Fan",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::wpn_2461": {
+    "name": "Crimson Kanabo",
+    "hash": "98c7216075bcefac3f78427378fc1936",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 35%. After successful dodge, increase attack damage by 10% for 2 turns.",
+      "level": 60,
+      "damage": 480,
+      "sell_price": 5000,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2461",
+      "price_gold": 0,
+      "name": "Crimson Kanabo",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::wpn_2462": {
+    "name": "Nurarihyon Blade",
+    "hash": "2517d38ce196ae869b45c591190c4d18",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 55%. Increase damage by 8%. Recover 300 of user max HP every successful weapon attack.",
+      "level": 90,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2462",
+      "price_gold": 0,
+      "name": "Nurarihyon Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
   "library::wpn_4001": {
     "name": "S0 Burning Maple Greatsword (Spirit)",
     "hash": "075254fdf7f8e08a60f921554fe01964",
@@ -59415,6 +60474,90 @@
       "source": [
         "crew_shop",
         "crew"
+      ]
+    }
+  },
+  "library::wpn_5000": {
+    "name": "S0 PvP: Golden Black Skull Sword",
+    "hash": "94fb223cfc86a6da57f1dce9383ac12e",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S0 PvP League Shop: Increases accuracy by 45%. Reduces the target max HP by 7% on each successful weapon attack. Recovers 300 HP at the start of each of your turns.",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_5000",
+      "price_gold": 0,
+      "name": "S0 PvP: Golden Black Skull Sword",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::wpn_5001": {
+    "name": "S0 PvP: Golden Black Skull Specter",
+    "hash": "01ec75e2ce71449365acce0e8bb25ea5",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S0 PvP League Shop: Increases accuracy by 40%. Increases purify chance by 10%. Recovers 300 CP at the start of each of your turns.",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_5001",
+      "price_gold": 0,
+      "name": "S0 PvP: Golden Black Skull Specter",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::wpn_5002": {
+    "name": "S0 PvP: Golden Black Skull Cleave",
+    "hash": "a40a25ebcc42d26aa34d13794d7d188b",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S0 PvP League Shop: Increases accuracy by 40%. Increases dodge chance by 10%. Increases max HP and max CP by 5%.",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_5002",
+      "price_gold": 0,
+      "name": "S0 PvP: Golden Black Skull Cleave",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
       ]
     }
   },
@@ -61796,6 +62939,32 @@
       ]
     }
   },
+  "library::wpn_6093": {
+    "name": "S51 Clan: Sacred Phoenix Greatblade",
+    "hash": "b444f1175169752dcabbe08152a74c04",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S51 Clan Reward: Increases accuracy by 45%. Recover 10% of max HP after receiving a debuff. Inflict 'Burn' for 2 turns on each successful weapon attack (deals 4% HP damage).",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6093",
+      "price_gold": 0,
+      "name": "S51 Clan: Sacred Phoenix Greatblade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
   "library::wpn_7000": {
     "name": "S1 Shadow War: Frosted Magica",
     "hash": "1720b569410c25ee976000dc7944e431",
@@ -64124,7 +65293,7 @@
   },
   "library::wpn_8073": {
     "name": "S15 Crew: Frozen Nunchaku",
-    "hash": "c761ed3150a42ea13719f8c7bbe75d7a",
+    "hash": "2e20fe16ca9c476b782a254dd4c03ad8",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
@@ -64142,7 +65311,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64150,7 +65318,7 @@
   },
   "library::wpn_8074": {
     "name": "S15 Crew: Frozen Yuanyang Yue",
-    "hash": "54ade08e557451daa41b9d0c93e48bdf",
+    "hash": "5ef85ec82dddeae7ff28758902bee3e5",
     "data": {
       "attack_type": "attack_09",
       "buyable_clan": false,
@@ -64168,7 +65336,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64176,7 +65343,7 @@
   },
   "library::wpn_8075": {
     "name": "S15 Crew: Frozen Jitte",
-    "hash": "c30762b9bd32286546f4a2bf72b1bc06",
+    "hash": "7ec52e69298633446f30a5483f34a34b",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -64194,7 +65361,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64202,7 +65368,7 @@
   },
   "library::wpn_8076": {
     "name": "S15 Crew: Frozen Triple Dagger",
-    "hash": "f16508cbc7620e169d9dbef3547ef9e0",
+    "hash": "0eca2d99da4dfb43226a7be19f6994c0",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -64220,7 +65386,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64228,7 +65393,7 @@
   },
   "library::wpn_8077": {
     "name": "S15 Crew: Frozen Triple Dagger",
-    "hash": "a4bf85403899d073307da0a151a37625",
+    "hash": "4d3522ec6450d5d673ef3b73cf2235d4",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -64246,7 +65411,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64254,7 +65418,7 @@
   },
   "library::wpn_8078": {
     "name": "S16 Crew: Umbra Sword",
-    "hash": "8ceabaf36e7695935389aa2fe6685cbc",
+    "hash": "1ea9a48cceb0f50e69be321c5de5c8d2",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -64272,7 +65436,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64280,7 +65443,7 @@
   },
   "library::wpn_8079": {
     "name": "S16 Crew: Umbra Machete",
-    "hash": "868bd6b403d5de621cfd0589b698f0de",
+    "hash": "4dddd196ecb8edff19e55af914031168",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -64298,7 +65461,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64306,7 +65468,7 @@
   },
   "library::wpn_8080": {
     "name": "S16 Crew: Umbra Chain Blade",
-    "hash": "5d09c2c37a0131956188d8758312c0cb",
+    "hash": "04a6204f45faa46f804cf27239d4e84c",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -64324,7 +65486,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64332,7 +65493,7 @@
   },
   "library::wpn_8081": {
     "name": "S16 Crew: Umbra Bladed Scepter",
-    "hash": "eb359f42554456092bec02ee50ddba0c",
+    "hash": "c520a269b63281886dfe40615d21a543",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -64350,7 +65511,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64358,7 +65518,7 @@
   },
   "library::wpn_8082": {
     "name": "S16 Crew: Umbra Half Moon Scimitar",
-    "hash": "85098c68bf464c0a1d36b2da41fa8ff4",
+    "hash": "7976dbd54912802bf7b000c136af0472",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -64376,7 +65536,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64384,7 +65543,7 @@
   },
   "library::wpn_8083": {
     "name": "S17 Crew: Scorching Sun Sword",
-    "hash": "885cd1b0adac16081e181363aab7cd04",
+    "hash": "35499e5d2a1956f3d86e0cee1671541d",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -64402,7 +65561,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64410,7 +65568,7 @@
   },
   "library::wpn_8084": {
     "name": "S17 Crew: Scorching Sun Dagger",
-    "hash": "6f873b2ebcf7a58923192daac88f3641",
+    "hash": "f86a75186fc4a438c5b40a280012bbed",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -64428,7 +65586,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64436,7 +65593,7 @@
   },
   "library::wpn_8085": {
     "name": "S17 Crew: Scorching Sun Tachi",
-    "hash": "8c1130deaf107cc1e54c36b496f4bb4d",
+    "hash": "f4d51ee011ba36b63c8c353456ede185",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -64454,7 +65611,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64462,7 +65618,7 @@
   },
   "library::wpn_8086": {
     "name": "S17 Crew: Scorching Sun Spear",
-    "hash": "ea170818e10544b9794e79b0e2f3782d",
+    "hash": "99b27d97e1a770bc5500ad38dc2b6400",
     "data": {
       "attack_type": "attack_07",
       "buyable_clan": false,
@@ -64480,7 +65636,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64488,7 +65643,7 @@
   },
   "library::wpn_8087": {
     "name": "S17 Crew: Scorching Sun Blade",
-    "hash": "0d9aecbc551fc7cbd66bdaa5db93fa51",
+    "hash": "cd4fa70981ce8bdd8f8218d4854508a9",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -64506,7 +65661,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64514,7 +65668,7 @@
   },
   "library::wpn_8088": {
     "name": "S18 Crew: Evil Spirit Tessen",
-    "hash": "4b944a381a3c315ef434ec4916af04a0",
+    "hash": "991e3af49e4a6fa10ae82b925da62715",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
@@ -64532,7 +65686,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64540,7 +65693,7 @@
   },
   "library::wpn_8089": {
     "name": "S18 Crew: Evil Spirit Cone",
-    "hash": "3313f1df6ff48f49fab88d3786bcee0c",
+    "hash": "a2d4b5abfe0631c19713cb11f0d242b7",
     "data": {
       "attack_type": "attack_07",
       "buyable_clan": false,
@@ -64558,7 +65711,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64566,7 +65718,7 @@
   },
   "library::wpn_8090": {
     "name": "S18 Crew: Evil Spirit Broadsword",
-    "hash": "5fa01026a3297f44d75242c3aca4443c",
+    "hash": "5562716ff8d50d93c5f83bffd96fbf6c",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
@@ -64584,7 +65736,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64592,7 +65743,7 @@
   },
   "library::wpn_8091": {
     "name": "S18 Crew: Evil Spirit Ring",
-    "hash": "626a36bf63601f7e26dfa343f701bedb",
+    "hash": "c162d86f0c31e17289256032f4dfdf0f",
     "data": {
       "attack_type": "attack_09",
       "buyable_clan": false,
@@ -64610,7 +65761,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64618,7 +65768,7 @@
   },
   "library::wpn_8092": {
     "name": "S18 Crew: Evil Spirit Staff",
-    "hash": "b58e727afcdd62329a8cce5a142f5a04",
+    "hash": "a96f834b6071efc913de5a6bfd2a4db8",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
@@ -64636,7 +65786,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64644,11 +65793,11 @@
   },
   "library::wpn_8093": {
     "name": "S19 Crew: Primal Power Greatsword",
-    "hash": "81fd08990fdf15956c5fa8c31a0312c7",
+    "hash": "82d874ef6b20a38da9d6a91c70f82892",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Not Available",
+      "description": "S19 Crew Reward: Increase 45% accurary. Increase max HP by 15%. Reduce damage taken by 40%.",
       "level": 80,
       "damage": 440,
       "sell_price": 0,
@@ -64662,7 +65811,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64670,11 +65818,11 @@
   },
   "library::wpn_8094": {
     "name": "S19 Crew: Primal Power Axe",
-    "hash": "553279b4e77c667f7851442a2c8e42e1",
+    "hash": "40d8d853d0f3afdca6461c8304400cf5",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Not Available",
+      "description": "S19 Crew Reward: Increase 35% accurary. Has 20% chace to block attack damage when HP is less than 40%. Recover HP by 6% every turn.",
       "level": 80,
       "damage": 450,
       "sell_price": 0,
@@ -64688,7 +65836,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64696,11 +65843,11 @@
   },
   "library::wpn_8095": {
     "name": "S19 Crew: Primal Power Kunai",
-    "hash": "952fe35c4ba16ee28dfd95bfe2911185",
+    "hash": "bd4aef5409920b4538b1b17e96864e25",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Not Available",
+      "description": "S19 Crew Reward: Increase accurary by 35%. Reduce jutsu CP consumption for 65%.",
       "level": 80,
       "damage": 470,
       "sell_price": 0,
@@ -64714,7 +65861,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64722,11 +65868,11 @@
   },
   "library::wpn_8096": {
     "name": "S19 Crew: Primal Power Shuriken",
-    "hash": "8397b18c6d4301d5643ae80b075454e2",
+    "hash": "fdadeea596f3faa14f68ea71e966de3d",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Not Available",
+      "description": "S19 Crew Reward: Increase accurary by 40%. Has 70% chance to inflict bleeding when attack with weapon - Increase 45% damage taken for 2 turns. Has 10% chance to inflict 'Bloodfeed' (recovers HP after attack, amount: 100% of the attack damage)",
       "level": 85,
       "damage": 511,
       "sell_price": 0,
@@ -64740,7 +65886,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64748,11 +65893,11 @@
   },
   "library::wpn_8097": {
     "name": "S19 Crew: Primal Power Spear",
-    "hash": "6debbaf3bb857e2d8c59bd1e09a31526",
+    "hash": "2b18e01d369d92bc64408da12f6d8592",
     "data": {
       "attack_type": "attack_07",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Not Available",
+      "description": "S19 Crew Reward: Increase accurary by 40%. Each turn start when HP less than 99%, increase critical rate 15% for 2 turns. Every Critical landed, inflict 'Hemorrhage' by 4% for 3 turns.",
       "level": 80,
       "damage": 503,
       "sell_price": 0,
@@ -64766,7 +65911,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -64891,6 +66035,136 @@
       "id": "wpn_8102",
       "price_gold": 0,
       "name": "S20 Crew: Ligthning Katana",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8103": {
+    "name": "S21 Crew: True Dragon Giant Blade",
+    "hash": "55d97b6ea0da0038225225c894eea609",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S21 Crew Reward: Increase accurary by 25% and reactive force chance by 12%. Increase max HP by 1200.",
+      "level": 80,
+      "damage": 525,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8103",
+      "price_gold": 0,
+      "name": "S21 Crew: True Dragon Giant Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8104": {
+    "name": "S21 Crew: True Dragon Edge",
+    "hash": "d799cefbecaaa963a7b3199e1a66f60d",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S21 Crew Reward: Increases accuracy by 33%. Increases dodge chance by 7%. Increases damage by 45% for 1 turn after a successful dodge.",
+      "level": 80,
+      "damage": 499,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8104",
+      "price_gold": 0,
+      "name": "S21 Crew: True Dragon Edge",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8105": {
+    "name": "S21 Crew: True Dragon Dagger",
+    "hash": "8e69bddca5e6e2bb18d94860a77d1279",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S21 Crew Reward: Increases accuracy by 38%. Inflicts 'Bleeding' on each successful weapon attack, increasing damage taken by 30% for 1 turn. Inflicts 'Poison' on each weapon attack, reducing HP by 4% for 3 turns.",
+      "level": 85,
+      "damage": 555,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8105",
+      "price_gold": 0,
+      "name": "S21 Crew: True Dragon Dagger",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8106": {
+    "name": "S21 Crew: True Dragon Claw",
+    "hash": "0006b0ae47280b8263ad6e8263244cea",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S21 Crew Reward: Increases accuracy by 40%. Reduces the cooldown of all 'Genjutsu' skills by 1 turn on each successful weapon attack. Increases max CP by 1500.",
+      "level": 80,
+      "damage": 500,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8106",
+      "price_gold": 0,
+      "name": "S21 Crew: True Dragon Claw",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8107": {
+    "name": "S21 Crew: True Dragon Dagger",
+    "hash": "00573c6d3cdbaff7fd7d9749ba9b44b9",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S21 Crew Reward: Increases accuracy by 40% and purify chance by 9%. Has a 30% chance to inflict 'Freeze' on each weapon attack. Frozen targets cannot move and take 80% less damage for 2 turns.",
+      "level": 85,
+      "damage": 570,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8107",
+      "price_gold": 0,
+      "name": "S21 Crew: True Dragon Dagger",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -80450,11 +81724,11 @@
   },
   "library::back_2458": {
     "name": "Fan of Victory",
-    "hash": "4ea2df555dc87e64a8aa4a49712b997b",
+    "hash": "6aa2b78f62bde018a1a61def0f635c1e",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "Recover HP by 10% when put under debuff. Increase critical damage by 65%",
+      "description": "Recover HP by 7% when put under debuff. Increase critical damage by 25%.",
       "level": 1,
       "damage": 0,
       "sell_price": 0,
@@ -80612,6 +81886,233 @@
       ]
     }
   },
+  "library::back_2465": {
+    "name": "Wings of Tengu",
+    "hash": "74a53f9cc636a0fc578eddbceea76211",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Recovers 200 HP and 200 CP at the start of each of your turns.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2465",
+      "price_gold": 0,
+      "name": "Wings of Tengu",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::back_2466": {
+    "name": "Tengu Spirit Vessel",
+    "hash": "ec35ce172063a3fc4a15ddf36d2af9e3",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduce damage taken by 188.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2466",
+      "price_gold": 0,
+      "name": "Tengu Spirit Vessel",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::back_2467": {
+    "name": "Kitsune Spirit houlder Armor",
+    "hash": "e53e2e6cc58ab48d855cbd5ff28940e6",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduces damage taken by 12%. Recovers 3% of the user Max HP at the start of each turn.",
+      "level": 60,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2467",
+      "price_gold": 0,
+      "name": "Kitsune Spirit houlder Armor",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::back_2468": {
+    "name": "Nurarihyon Plate Name",
+    "hash": "42444af7d9883dcb1a19e83cafbef78c",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increases purify chance by 9%. Has an 11% chance to inflict 'Freeze' on attackers for 2 turns.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2468",
+      "price_gold": 0,
+      "name": "Nurarihyon Plate Name",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::back_2469": {
+    "name": "Crimson Oni Banner",
+    "hash": "f8b78693054a94176abb2034e6909616",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduce damage taken by 100.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2469",
+      "price_gold": 0,
+      "name": "Crimson Oni Banner",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::back_2470": {
+    "name": "Inari Divine Fan",
+    "hash": "642f9a960881ee6b69441c9a8ea612e8",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Recover HP by 150 every turn.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2470",
+      "price_gold": 0,
+      "name": "Inari Divine Fan",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::back_2471": {
+    "name": "Mistbound Tengu",
+    "hash": "1f5f688b61bd8d3926d899a9c34e981d",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase max CP by 500. Recover CP by 3% every turn.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2471",
+      "price_gold": 0,
+      "name": "Mistbound Tengu",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::back_2472": {
+    "name": "Hyakki Yagyo",
+    "hash": "233743acbd414d6f0af7466aeaf1fcbe",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase max HP by 500. Recover HP by 3% every turn.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2472",
+      "price_gold": 0,
+      "name": "Hyakki Yagyo",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::back_2473": {
+    "name": "Yokai Eye",
+    "hash": "1f83248581b69cc873f9279945806b9e",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase purify chance by 7%. Recover CP by 500 when purify",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2473",
+      "price_gold": 0,
+      "name": "Yokai Eye",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
   "library::back_4001": {
     "name": "S2 Crew: Solar Aura (Spirit)",
     "hash": "4be3800fbdda8a366e9035f9efcea650",
@@ -80665,6 +82166,84 @@
       "source": [
         "crew_shop",
         "crew"
+      ]
+    }
+  },
+  "library::back_5000": {
+    "name": "S0 PvP: Golden Black Cape",
+    "hash": "b5bf22910ddc1a2ca7866c47b84c3b8a",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S0 PvP League Shop: Increases all attack damage by 350. Increases purify chance by 8%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_5000",
+      "price_gold": 0,
+      "name": "S0 PvP: Golden Black Cape",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::back_5001": {
+    "name": "S0 PvP: Golden Black Skull Catacomb",
+    "hash": "ecd96f81b44ae4272729f4ef2ea66847",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S0 PvP League Shop: Reduce all attack damage by 300.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_5001",
+      "price_gold": 0,
+      "name": "S0 PvP: Golden Black Skull Catacomb",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::back_5002": {
+    "name": "S0 PvP: Golden Black Grieving Souls",
+    "hash": "2da97ce5795883d39c190ad956e45ad0",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S0 PvP League Shop: Increase dodge chance by 15%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_5002",
+      "price_gold": 0,
+      "name": "S0 PvP: Golden Black Grieving Souls",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
       ]
     }
   },
@@ -81944,6 +83523,32 @@
       ]
     }
   },
+  "library::back_6052": {
+    "name": "S51 Clan: Blood Shade Magatama",
+    "hash": "a920c13c568c466ae3f442e0a711ff50",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S51 Clan Reward: Increases accuracy by 10%. Recover 4% HP at the start of each of your turns.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_6052",
+      "price_gold": 0,
+      "name": "S51 Clan: Blood Shade Magatama",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
   "library::back_7000": {
     "name": "S0 Shadow War: Fire Spirit",
     "hash": "5a67639020fb7f115e3fb6e1de06c343",
@@ -82446,11 +84051,11 @@
   },
   "library::back_7020": {
     "name": "S25 Shadow War: Ignia the Flame",
-    "hash": "3df8d8c407cf1f91b4d26a780ffae73f",
+    "hash": "b04173f2f0b6aa2679a20c38a2cee914",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S25 Shadow War Reward: Increase damage dealt and reduce damage taken by 285. Also increase purify chance by 10%. ",
+      "description": "S25 Shadow War Reward: Increase damage dealt and reduce damage taken by 285. Also increase purify chance by 10%.",
       "level": 20,
       "damage": 0,
       "sell_price": 0,
@@ -83172,7 +84777,7 @@
   },
   "library::back_8029": {
     "name": "S15 Crew: Frozen Huge Sword",
-    "hash": "28e646ae69a829cd89592830c5cc00b6",
+    "hash": "76b45f996d90c34054a5491b422b4829",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83190,7 +84795,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -83198,7 +84802,7 @@
   },
   "library::back_8030": {
     "name": "S15 Crew: Frozen Large Sword",
-    "hash": "077f0fba30cbc269439103e2e4dfe113",
+    "hash": "b5eaaae73a407cc199e555063b5d337d",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83216,7 +84820,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -83224,7 +84827,7 @@
   },
   "library::back_8031": {
     "name": "S16 Crew: Umbra Fire Wheel",
-    "hash": "cd52aee02a17fa2fcbd53a57d75327e8",
+    "hash": "175ed46c7100cbd20450554e601d8c86",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83242,7 +84845,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -83250,7 +84852,7 @@
   },
   "library::back_8032": {
     "name": "S16 Crew: Umbra Steel Wheel",
-    "hash": "ca4eb16d9004fb7512ad2d788f89f788",
+    "hash": "d59d144e14bcbff0c2a78a065a5c5533",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83268,7 +84870,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -83276,7 +84877,7 @@
   },
   "library::back_8033": {
     "name": "S17 Crew: Scorching Sun Scroll",
-    "hash": "b0b8d23773f375a6037f11908b5fb754",
+    "hash": "3755c0801d67b2c194afc949c1efc517",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83294,7 +84895,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -83302,7 +84902,7 @@
   },
   "library::back_8034": {
     "name": "S17 Crew: Scorching Sun Lantern",
-    "hash": "3d902c9d0b8d1056106ce30815d23781",
+    "hash": "6d9720c0aeafdb1172837482036e6ac0",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83320,7 +84920,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -83328,7 +84927,7 @@
   },
   "library::back_8035": {
     "name": "S18 Crew: Evil Spirit Shield",
-    "hash": "376edc7d8bd4b4fd5f81788d2c325e6d",
+    "hash": "1de6e01da6c6655e39d44d1a29b0025c",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83346,7 +84945,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -83354,7 +84952,7 @@
   },
   "library::back_8036": {
     "name": "S18 Crew: Evil Spirit Wings",
-    "hash": "c6b7e95c958e6054d266380db24c7bdd",
+    "hash": "ac3c7f22c75f6b763c951b47fef71a6f",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83372,7 +84970,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -83380,11 +84977,11 @@
   },
   "library::back_8037": {
     "name": "S19 Crew: Primal Power Shield",
-    "hash": "0a3ca5acd4dbc06f79de8b766010b825",
+    "hash": "3d2897e64bf7da2688c27459c605eb4a",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Not Available",
+      "description": "S19 Crew Reward: Recover HP by 3%. Recovers 10 HP with every charge.",
       "level": 1,
       "damage": 0,
       "sell_price": 0,
@@ -83398,7 +84995,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -83406,11 +85002,11 @@
   },
   "library::back_8038": {
     "name": "S19 Crew: Primal Power Doll",
-    "hash": "3cf74b4d63a2445dc17ecd547e1407af",
+    "hash": "bb869756f677a2889a7101ab36fbf668",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Not Available",
+      "description": "S19 Crew Reward: Recover HP by 6%. Recovers 4% HP with every charge.",
       "level": 1,
       "damage": 0,
       "sell_price": 0,
@@ -83424,7 +85020,6 @@
       "price_prestige": 0,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -83457,8 +85052,8 @@
     }
   },
   "library::back_8040": {
-    "name": "S20 Crew: Ligthning Kokeshi",
-    "hash": "bae526b08d0605d7faaf33a5aec21231",
+    "name": "S20 Crew: Lightning Kokeshi",
+    "hash": "2b8e497430ec025f30aebff346c29842",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83470,7 +85065,59 @@
       "price_tokens": 0,
       "id": "back_8040",
       "price_gold": 0,
-      "name": "S20 Crew: Ligthning Kokeshi",
+      "name": "S20 Crew: Lightning Kokeshi",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::back_8041": {
+    "name": "S21 Crew: True Dragon Scroll",
+    "hash": "b7da96a43ad5d1dec86be962e7fc5f14",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S21 Crew Reward: Recovers 5% HP at the start of each of your turns.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_8041",
+      "price_gold": 0,
+      "name": "S21 Crew: True Dragon Scroll",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::back_8042": {
+    "name": "S21 Crew: True Dragon Sensu",
+    "hash": "c4148aca5e30f4bed3c7f8965cb8c99e",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S21 Crew Reward: Increases Agility by 1. Has a 15% chance to inflict 'Restriction' on enemies who attack you for 1 turn. Targets affected by 'Restriction' cannot use skills.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_8042",
+      "price_gold": 0,
+      "name": "S21 Crew: True Dragon Sensu",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -93469,6 +95116,58 @@
       ]
     }
   },
+  "library::material_1998": {
+    "name": "Purple Crystal",
+    "hash": "db7b2fc44a3f49279ee520e3a1d5d113",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Purple Crystal can be obtained from PvP (Milestone). Can be used to Exchange Reward on PvP Market.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_1998",
+      "price_gold": 0,
+      "name": "Purple Crystal",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 0,
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
+  "library::material_1999": {
+    "name": "Gold Crystal",
+    "hash": "edbe16d9b0f622a673193051c5ff79c2",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Gold Crystal can be obtained from PvP (Top 10). Can be used to Exchange Reward on PvP Market.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_1999",
+      "price_gold": 0,
+      "name": "Gold Crystal",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 0,
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
   "library::material_2001": {
     "name": "Ketupat",
     "hash": "84f17250252d8d1fe26a5431f1049ef4",
@@ -99968,6 +101667,231 @@
       "sellable": true,
       "source": [
         "worldcup2026"
+      ]
+    }
+  },
+  "library::material_2263": {
+    "name": "Happy Lantern",
+    "hash": "91521c583faa89c866dc1c228270571b",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Happy Lantern can be used to exchange reward during Summer Night Yokai Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2263",
+      "price_gold": 0,
+      "name": "Happy Lantern",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::material_2264": {
+    "name": "Swift Lantern",
+    "hash": "bc22bd7ce4f56791e6b06dd67364c097",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Swift Lantern can be used to exchange reward during Summer Night Yokai Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2264",
+      "price_gold": 0,
+      "name": "Swift Lantern",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::material_2265": {
+    "name": "Golden Lantern",
+    "hash": "46185e553a16ebdd93aa4475031146d1",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Golden Lantern can be used to exchange reward during Summer Night Yokai Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2265",
+      "price_gold": 0,
+      "name": "Golden Lantern",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::material_2266": {
+    "name": "Jyubi Lantern",
+    "hash": "aeeb92ff5ad5ee2f47d911b2b0df9f07",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Jyubi Lantern can be used to exchange reward during Summer Night Yokai Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2266",
+      "price_gold": 0,
+      "name": "Jyubi Lantern",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::material_2267": {
+    "name": "Fox Coin",
+    "hash": "f4bc1f8995f4613bda38d21f9abf4287",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Fox Coin can be used to Draw reward during Summer Night Yokai Event 2026",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2267",
+      "price_gold": 0,
+      "name": "Fox Coin",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "easter2026"
+      ]
+    }
+  },
+  "library::material_2268": {
+    "name": "Yokai Core",
+    "hash": "8178664f02cac433dcfe06a946b6a6f0",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Yokai Core can be used to exchange reward during Summer Night Yokai Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2268",
+      "price_gold": 0,
+      "name": "Yokai Core",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::material_2269": {
+    "name": "Tengu Badge",
+    "hash": "ecd232e71218bfd45e4fab52f5cd84f7",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Tengu Badge can be used to exchange reward during Summer Night Yokai Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2269",
+      "price_gold": 0,
+      "name": "Tengu Badge",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::material_2270": {
+    "name": "Kitsune Badge",
+    "hash": "ffcded90f182fb569c74b058d4837ffc",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Kitsune Badge can be used to exchange reward during Summer Night Yokai Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2270",
+      "price_gold": 0,
+      "name": "Kitsune Badge",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::material_2271": {
+    "name": "Nurarihyon Badge",
+    "hash": "6a83b4d8348716de014cb1c13111c449",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Nurarihyon Badge can be used to exchange reward during Summer Night Yokai Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2271",
+      "price_gold": 0,
+      "name": "Nurarihyon Badge",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
       ]
     }
   },
@@ -134560,6 +136484,660 @@
       ]
     }
   },
+  "library::set_2463_0": {
+    "name": "Yatagarasu Regaila",
+    "hash": "8d3c0025e2ba6e29477838f1af0a160d",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2463_0",
+      "price_gold": 0,
+      "name": "Yatagarasu Regaila",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::set_2463_1": {
+    "name": "Yatagarasu Regaila",
+    "hash": "20ece9a90c74ed37d957f9e3d9fc4f17",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2463_1",
+      "price_gold": 0,
+      "name": "Yatagarasu Regaila",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::set_2464_0": {
+    "name": "Yokai Practice Costume",
+    "hash": "f3cc4a29bdc592acb0721394d2ab30d4",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2464_0",
+      "price_gold": 0,
+      "name": "Yokai Practice Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::set_2464_1": {
+    "name": "Yokai Practice Costume",
+    "hash": "4488f86af08f46d2c8714774b826c333",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2464_1",
+      "price_gold": 0,
+      "name": "Yokai Practice Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::set_2465_0": {
+    "name": "Kitsune Shrine Priest Costume",
+    "hash": "40e5dc50989cb4d7e8a5c715161a5070",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2465_0",
+      "price_gold": 0,
+      "name": "Kitsune Shrine Priest Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2465_1": {
+    "name": "Kitsune Shrine Maiden Costume",
+    "hash": "ae1ea37dced6b342e4aba0532698a81a",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2465_1",
+      "price_gold": 0,
+      "name": "Kitsune Shrine Maiden Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2466_0": {
+    "name": "Nurarihyon Costume",
+    "hash": "3b67408d36b562e31ac2468e0fa5cab2",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2466_0",
+      "price_gold": 0,
+      "name": "Nurarihyon Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2466_1": {
+    "name": "Nurarihyon Costume",
+    "hash": "9fd76be3c50cae5f1d9761f64a58786d",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2466_1",
+      "price_gold": 0,
+      "name": "Nurarihyon Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2467_0": {
+    "name": "Summer Night Yokai 1 Costume",
+    "hash": "c62c95e1addf78026f8ab40ea0fcaa4e",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2467_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 1 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2467_1": {
+    "name": "Summer Night Yokai 1 Costume",
+    "hash": "d20636b88ae6bed1c71135c4002546d8",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2467_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 1 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2468_0": {
+    "name": "Summer Night Yokai 2 Costume",
+    "hash": "76f35f8d9b17f200156a22f21d4cee91",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2468_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 2 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2468_1": {
+    "name": "Summer Night Yokai 2 Costume",
+    "hash": "298887aa6e37d6e4cf12a3d99a397499",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2468_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 2 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2469_0": {
+    "name": "Summer Night Yokai 3 Costume",
+    "hash": "1b05b934f34d66f1158a09a5e0487f37",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2469_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 3 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2469_1": {
+    "name": "Summer Night Yokai 3 Costume",
+    "hash": "3ecf4e5809e6d17eacd823f4985ebdc8",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2469_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 3 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2470_0": {
+    "name": "Summer Night Yokai 4 Costume",
+    "hash": "a8b1d33c44aea74628ff16d19066369b",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2470_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 4 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2470_1": {
+    "name": "Summer Night Yokai 4 Costume",
+    "hash": "52f73fb930e922944d9584b7c71e2d08",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2470_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 4 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2471_0": {
+    "name": "Summer Night Yokai 5 Costume",
+    "hash": "8d426685d3ed4d18719e7fcfd69890ba",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2471_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 5 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2471_1": {
+    "name": "Summer Night Yokai 5 Costume",
+    "hash": "ce08b47d3ca327bc0c93776294979fee",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2471_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 5 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2472_0": {
+    "name": "Summer Night Yokai 6 Costume",
+    "hash": "59825026f1b0fc42549fd51a04533ea4",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2472_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 6 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2472_1": {
+    "name": "Summer Night Yokai 6 Costume",
+    "hash": "1f0951588e6eea5afd4884a51319a746",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2472_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 6 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2473_0": {
+    "name": "Summer Night Yokai 7 Costume",
+    "hash": "e01ee54ac1c36c4f8c13d9c2d054b28a",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2473_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 7 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2473_1": {
+    "name": "Summer Night Yokai 7 Costume",
+    "hash": "6736c1d96d181f95748250d751d69aa8",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2473_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 7 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2474_0": {
+    "name": "Summer Night Yokai 8 Costume",
+    "hash": "76c27cdedef674640a8e2182c15468b4",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2474_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 8 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_2474_1": {
+    "name": "Summer Night Yokai 8 Costume",
+    "hash": "09af76e88624c7c6d68ea39d88ae969a",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2474_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 8 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::set_5000_0": {
+    "name": "S0 PvP Costume",
+    "hash": "8e658a6078aa80ce852e797b1d31a08b",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for PvP Milestone Season 0",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_5000_0",
+      "price_gold": 0,
+      "name": "S0 PvP Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
+  "library::set_5000_1": {
+    "name": "S0 PvP Costume",
+    "hash": "27dc4099617ae0864243a0fb38cd154c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for PvP Milestone Season 0",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_5000_1",
+      "price_gold": 0,
+      "name": "S0 PvP Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
   "library::set_6000_0": {
     "name": "S0 Captive",
     "hash": "6f747c9d2daa8a507d3349aa106c40c5",
@@ -144161,8 +146739,8 @@
     }
   },
   "library::set_6200_0": {
-    "name": "S50 Champion",
-    "hash": "e6ec71848527a6fe476ca988a4092fa2",
+    "name": "S50 Liquid Vincere",
+    "hash": "6cddb0d33889ee19f338664d65a6aec8",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Champion",
@@ -144173,7 +146751,7 @@
       "level": 1,
       "id": "set_6200_0",
       "price_gold": 0,
-      "name": "S50 Champion",
+      "name": "S50 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -144186,8 +146764,8 @@
     }
   },
   "library::set_6200_1": {
-    "name": "S50 Champion",
-    "hash": "2f928aea6ef9fb30e27821338f4154d4",
+    "name": "S50 Liquid Vincere",
+    "hash": "30af8d683f124f402e16ea4e2c69720d",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Champion",
@@ -144198,7 +146776,7 @@
       "level": 1,
       "id": "set_6200_1",
       "price_gold": 0,
-      "name": "S50 Champion",
+      "name": "S50 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -144211,8 +146789,8 @@
     }
   },
   "library::set_6201_0": {
-    "name": "S50 Runner Up",
-    "hash": "e26e7d7f9f242c6f8f4f9c104d3ad487",
+    "name": "S50 Liquid The Next Gen",
+    "hash": "b3714af5830bade361de607247e30e15",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
@@ -144223,7 +146801,7 @@
       "level": 1,
       "id": "set_6201_0",
       "price_gold": 0,
-      "name": "S50 Runner Up",
+      "name": "S50 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -144236,8 +146814,8 @@
     }
   },
   "library::set_6201_1": {
-    "name": "S50 Runner Up",
-    "hash": "2a559b259bc43b2b96b3766d23ca2e3d",
+    "name": "S50 Liquid The Next Gen",
+    "hash": "4d16369fe8019b800995e29430399c11",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
@@ -144248,7 +146826,7 @@
       "level": 1,
       "id": "set_6201_1",
       "price_gold": 0,
-      "name": "S50 Runner Up",
+      "name": "S50 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -144261,8 +146839,8 @@
     }
   },
   "library::set_6202_0": {
-    "name": "S50 Runner Up",
-    "hash": "5e30c4be6272badd12a4fdcb40d66328",
+    "name": "S50 NewJeans",
+    "hash": "25c1e4f7de4682e0beea86d6f65d2fcc",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
@@ -144273,7 +146851,7 @@
       "level": 1,
       "id": "set_6202_0",
       "price_gold": 0,
-      "name": "S50 Runner Up",
+      "name": "S50 NewJeans",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -144286,8 +146864,8 @@
     }
   },
   "library::set_6202_1": {
-    "name": "S50 Runner Up",
-    "hash": "5767c804c4002712fb5faecb4ec6857c",
+    "name": "S50 NewJeans",
+    "hash": "0abe939d49fc35691dd129e11aff3425",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
@@ -144298,7 +146876,7 @@
       "level": 1,
       "id": "set_6202_1",
       "price_gold": 0,
-      "name": "S50 Runner Up",
+      "name": "S50 NewJeans",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -144349,6 +146927,206 @@
       "id": "set_6203_1",
       "price_gold": 0,
       "name": "S50 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6204_0": {
+    "name": "S51 Champion",
+    "hash": "a0f4ec38774055d5f82dab9949ff31bc",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 51 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6204_0",
+      "price_gold": 0,
+      "name": "S51 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6204_1": {
+    "name": "S51 Champion",
+    "hash": "d403a03c6ff415436acea247d0af8d4e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 51 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6204_1",
+      "price_gold": 0,
+      "name": "S51 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6205_0": {
+    "name": "S51 Runner Up",
+    "hash": "7d2d6d80d3dfbd833c15e1cbd5b2b0b0",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 51 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6205_0",
+      "price_gold": 0,
+      "name": "S51 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6205_1": {
+    "name": "S51 Runner Up",
+    "hash": "b7f3c1dd990de351afc78a115ad414be",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 51 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6205_1",
+      "price_gold": 0,
+      "name": "S51 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6206_0": {
+    "name": "S51 Runner Up",
+    "hash": "dae5ac8898a096e416ba536310dc867a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 51 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6206_0",
+      "price_gold": 0,
+      "name": "S51 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6206_1": {
+    "name": "S51 Runner Up",
+    "hash": "3b651e23737854fc70906718fbef80b9",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 51 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6206_1",
+      "price_gold": 0,
+      "name": "S51 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6207_0": {
+    "name": "S51 Costume",
+    "hash": "2c5b987a60958cc178dbefbd0867d7d0",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 51",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6207_0",
+      "price_gold": 0,
+      "name": "S51 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6207_1": {
+    "name": "S51 Costume",
+    "hash": "f626a0ee6da02192c44c5f56d31c7665",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 51",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6207_1",
+      "price_gold": 0,
+      "name": "S51 Costume",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -147986,7 +150764,7 @@
   },
   "library::set_7075_1": {
     "name": "S25 Shadow War Champion",
-    "hash": "0b3f0b3c817343b62b6f8a5ff62a74c3",
+    "hash": "d1e888b430d8569f263f3d9e65da1307",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 25 Champion",
@@ -148003,7 +150781,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -148011,7 +150788,7 @@
   },
   "library::set_7076_0": {
     "name": "S25 Shadow War Runner Up",
-    "hash": "8e9d341a596f2692f6821221a4ca931e",
+    "hash": "3bb170dd8323326d411a1e02df3f5825",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 25 Runner Up",
@@ -148028,7 +150805,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -148036,7 +150812,7 @@
   },
   "library::set_7076_1": {
     "name": "S25 Shadow War Runner Up",
-    "hash": "ad4f1de458b4878806c4679bb969a143",
+    "hash": "7621e972eb73702564efcb3fe060c0c4",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 25 Runner Up",
@@ -148053,7 +150829,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -148061,7 +150836,7 @@
   },
   "library::set_7077_0": {
     "name": "S25 Shadow War Participant",
-    "hash": "c400f261277368128373eb8fc4000fb7",
+    "hash": "37e9704d1e3f4f3275e518f008454c11",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 25",
@@ -148078,7 +150853,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -148086,7 +150860,7 @@
   },
   "library::set_7077_1": {
     "name": "S25 Shadow War Participant",
-    "hash": "d2e938baceefcd533d0730eab0f4cd51",
+    "hash": "331920ae11fe3eabfe253b0a311e040f",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 25",
@@ -148103,7 +150877,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -148111,7 +150884,7 @@
   },
   "library::set_8001_0": {
     "name": "S1 Crew Clothing",
-    "hash": "0c847b8d60b306f89612e6de6d1cbfd7",
+    "hash": "a72e009419317a820cd7a9c948e80950",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148129,7 +150902,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148137,7 +150909,7 @@
   },
   "library::set_8001_1": {
     "name": "S1 Crew Clothing",
-    "hash": "0355972410f4ed24b50c716c0cb1b9f5",
+    "hash": "06ba50c865aaa50199fb995747bc44a3",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148155,7 +150927,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148163,7 +150934,7 @@
   },
   "library::set_8002_0": {
     "name": "S2 Crew Clothing",
-    "hash": "42901bed6303ccce200b95d3e4f20341",
+    "hash": "b634aa6b61675c7c6479c9e6dedf9ceb",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148181,7 +150952,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148189,7 +150959,7 @@
   },
   "library::set_8002_1": {
     "name": "S2 Crew Clothing",
-    "hash": "26e66405e30458884c4e3e2f1102d906",
+    "hash": "574ea2a5155ccde5206ee4ca0b88767c",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148207,7 +150977,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148215,7 +150984,7 @@
   },
   "library::set_8003_0": {
     "name": "S3 Crew Clothing",
-    "hash": "3274ecc4a4c18f369bc501ede4d1739a",
+    "hash": "45934807a0253b719935978481d7f97b",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148233,7 +151002,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148241,7 +151009,7 @@
   },
   "library::set_8003_1": {
     "name": "S3 Crew Clothing",
-    "hash": "56374913444f67cf50388cc59a3b1657",
+    "hash": "4b5c76f6d85c0ae3e8072ade424afcd8",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148259,7 +151027,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148267,7 +151034,7 @@
   },
   "library::set_8004_0": {
     "name": "S4 Crew Clothing",
-    "hash": "1fc0195a4c17ad90e1f96d420eb113ca",
+    "hash": "eff3775f9ead949e7c74164e1e8605db",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148285,7 +151052,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148293,7 +151059,7 @@
   },
   "library::set_8004_1": {
     "name": "S4 Crew Clothing",
-    "hash": "b6c15a1e0959dcffcd5365c11d20fd4f",
+    "hash": "2d778c3d6d7950e8cb365d8260124a95",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148311,7 +151077,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148319,7 +151084,7 @@
   },
   "library::set_8005_0": {
     "name": "S5 Crew Clothing",
-    "hash": "09390a6d8beed7c51ef3b274688ace4d",
+    "hash": "9bff007645d6fdaa641514cf22a0c921",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148337,7 +151102,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148345,7 +151109,7 @@
   },
   "library::set_8005_1": {
     "name": "S5 Crew Clothing",
-    "hash": "398c1c1173914c556a753e1013dca60e",
+    "hash": "818b533c2e655e3f5ad3d8373fe00b4b",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148363,7 +151127,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148371,7 +151134,7 @@
   },
   "library::set_8006_0": {
     "name": "S6 Crew Clothing",
-    "hash": "ccfbbcf72e2d9f94e796ef5f3f003484",
+    "hash": "f19e95baef4d89de58f53442ca31a4f1",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148389,7 +151152,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148397,7 +151159,7 @@
   },
   "library::set_8006_1": {
     "name": "S6 Crew Clothing",
-    "hash": "76067cf6b31f2e7bdba290e09e2ecb2f",
+    "hash": "a7c9bdf71e2a765d8339a945e2a2d80e",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148415,7 +151177,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148423,7 +151184,7 @@
   },
   "library::set_8007_0": {
     "name": "S7 Crew Clothing",
-    "hash": "673b019bfce72b3947e0d35394e4e776",
+    "hash": "7fd0a49d1fb62e474d95ae28088099c2",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148441,7 +151202,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148449,7 +151209,7 @@
   },
   "library::set_8007_1": {
     "name": "S7 Crew Clothing",
-    "hash": "5809ddb192c9c6e93f690110223ec390",
+    "hash": "ccfa37d704f744fc73ed5c3bbf605de1",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148467,7 +151227,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148475,7 +151234,7 @@
   },
   "library::set_8008_0": {
     "name": "S8 Crew Clothing",
-    "hash": "5dba20f64b286bbdf5ea49a70f93a5ca",
+    "hash": "51a83abc8373e18033ba0aa8aa665aaf",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148493,7 +151252,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -148501,7 +151259,7 @@
   },
   "library::set_8008_1": {
     "name": "S8 Crew Clothing",
-    "hash": "781fefff35d25d72883b017a0e177962",
+    "hash": "d69eab7eebc4ddaeebee432c5f677342",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Set",
@@ -148519,7 +151277,6 @@
       "price_merit": 25000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -175632,6 +178389,636 @@
       ]
     }
   },
+  "library::hair_2422_0": {
+    "name": "Tengu Prince Hairstyle",
+    "hash": "2da60e5def5f858ac2da341ee37950bf",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2422_0",
+      "price_gold": 0,
+      "name": "Tengu Prince Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::hair_2422_1": {
+    "name": "Tengu Princess Hairstyle",
+    "hash": "38bafa16e285e11ae6d9f29ad7903d3a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2422_1",
+      "price_gold": 0,
+      "name": "Tengu Princess Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::hair_2423_0": {
+    "name": "Tengu Practice Hairstyle",
+    "hash": "3602007ff331320e8ada7f5185688eb4",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2423_0",
+      "price_gold": 0,
+      "name": "Tengu Practice Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::hair_2423_1": {
+    "name": "Tengu Practice Hairstyle",
+    "hash": "6118a97a55590c0c6ca725fec41eeeed",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2423_1",
+      "price_gold": 0,
+      "name": "Tengu Practice Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026",
+        "material_market"
+      ]
+    }
+  },
+  "library::hair_2424_0": {
+    "name": "Kitsune Shrine Priest Hairstyle",
+    "hash": "b72d52cec13c82002b8fa0494209f418",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2424_0",
+      "price_gold": 0,
+      "name": "Kitsune Shrine Priest Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2424_1": {
+    "name": "Kitsune Shrine Maiden Hairstyle",
+    "hash": "abde763a2c29ab0504e5a7aa570db1cb",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2424_1",
+      "price_gold": 0,
+      "name": "Kitsune Shrine Maiden Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2425_0": {
+    "name": "Nurarihyon Hairstyle",
+    "hash": "b50b955ff06afe428f3f4f4728f6c6eb",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2425_0",
+      "price_gold": 0,
+      "name": "Nurarihyon Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2425_1": {
+    "name": "Nurarihyon Hairstyle",
+    "hash": "f62da66fb501a1bc62a7b9d74f790821",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2425_1",
+      "price_gold": 0,
+      "name": "Nurarihyon Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2426_0": {
+    "name": "Summer Night Yokai 1 Hairstyle",
+    "hash": "78db55e6de4615cb565d80934872d422",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2426_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 1 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2426_1": {
+    "name": "Summer Night Yokai 1 Hairstyle",
+    "hash": "c92d9f0d100076a317d4994da4bd7c93",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2426_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 1 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2427_0": {
+    "name": "Summer Night Yokai 2 Hairstyle",
+    "hash": "c5bde7b6b3a09d2cc47aa08346ed06ad",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2427_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 2 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2427_1": {
+    "name": "Summer Night Yokai 2 Hairstyle",
+    "hash": "08b670d1a025021daf258b0da5a14ac8",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2427_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 2 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2428_0": {
+    "name": "Summer Night Yokai 3 Hairstyle",
+    "hash": "d40616779547a8c43aace30301c21967",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2428_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 3 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2428_1": {
+    "name": "Summer Night Yokai 3 Hairstyle",
+    "hash": "286b95457c9ab53576eb89cd3be6760a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2428_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 3 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2429_0": {
+    "name": "Summer Night Yokai 4 Hairstyle",
+    "hash": "708d9c823e6bee85ef64e63b6532f7a0",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2429_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 4 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2429_1": {
+    "name": "Summer Night Yokai 4 Hairstyle",
+    "hash": "8a85ccc1fac377035ebd9a178b28069c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2429_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 4 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2430_0": {
+    "name": "Summer Night Yokai 5 Hairstyle",
+    "hash": "cb713f6a5adb31d302884ad05fcd5d1c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2430_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 5 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2430_1": {
+    "name": "Summer Night Yokai 5 Hairstyle",
+    "hash": "14b3cfe77c45ab8698aa4dcea67b0f18",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2430_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 5 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2431_0": {
+    "name": "Summer Night Yokai 6 Hairstyle",
+    "hash": "0f9d0aff575926f4a5180cd47ef8a473",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2431_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 6 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2431_1": {
+    "name": "Summer Night Yokai 6 Hairstyle",
+    "hash": "17aea6ebf7bfcee02bcc490346e235dc",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2431_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 6 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2432_0": {
+    "name": "Summer Night Yokai 7 Hairstyle",
+    "hash": "8f43862c48876eb9bbede79d33964efd",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2432_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 7 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2432_1": {
+    "name": "Summer Night Yokai 7 Hairstyle",
+    "hash": "ad2c86faa5635b25eaa176bf7350dc55",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2432_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 7 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2433_0": {
+    "name": "Summer Night Yokai 8 Hairstyle",
+    "hash": "7c4ff658db5a70dcc624e716a487884f",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2433_0",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 8 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_2433_1": {
+    "name": "Summer Night Yokai 8 Hairstyle",
+    "hash": "8f42aab95e02fc20de10657c3ef7e1ec",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Summer Night Yokai Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2433_1",
+      "price_gold": 0,
+      "name": "Summer Night Yokai 8 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "summer2026"
+      ]
+    }
+  },
+  "library::hair_5000_0": {
+    "name": "S0 PvP Hairstyle",
+    "hash": "8595de2acba57795e5ad75c19c8c8dcd",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for PvP Milestone Season 0",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_5000_0",
+      "price_gold": 0,
+      "name": "S0 PvP Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
+  "library::hair_5000_1": {
+    "name": "S0 PvP Hairstyle",
+    "hash": "0a5bc3f8ca335fbe81d66d70f308440f",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for PvP Milestone Season 0",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_5000_1",
+      "price_gold": 0,
+      "name": "S0 PvP Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
   "library::hair_7000_0": {
     "name": "S14 Shadow War Individual Hairstyle",
     "hash": "5013b4dc8bb4044e626cc4cb1dc3de46",
@@ -176210,6 +179597,56 @@
       ]
     }
   },
+  "library::hair_7012_0": {
+    "name": "S26 Shadow War Individual Hairstyle",
+    "hash": "711abcef027fbac06c5198bbfdd692e3",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for Shadow War Season 26",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_7012_0",
+      "price_gold": 0,
+      "name": "S26 Shadow War Individual Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::hair_7012_1": {
+    "name": "S26 Shadow War Individual Hairstyle",
+    "hash": "c6d4c990ee5299128d368e5dbc81afaf",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for Shadow War Season 26",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_7012_1",
+      "price_gold": 0,
+      "name": "S26 Shadow War Individual Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
   "library::hair_8001_0": {
     "name": "S1 Crew Hairstyle",
     "hash": "60d63aef888f48fe0a1d3c6d828d4979",
@@ -176623,6 +180060,67 @@
       "na": true,
       "source": [
         "crew"
+      ]
+    }
+  },
+  "skill_effect::skill_6103": {
+    "name": "S51 Kinjutsu: Time Distortion",
+    "hash": "00eeb7eeb0835268274847f42696fbb5",
+    "data": {
+      "skill_id": "skill_6103",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "defer",
+          "effect_name": "Time Distortion",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 50,
+          "heal_block_turns": 2,
+          "chance": 100,
+          "no_disperse": true
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6104": {
+    "name": "S51 Kinjutsu: Advance Time Distortion",
+    "hash": "0d7a3976262b76387bdb25861bbc0311",
+    "data": {
+      "skill_id": "skill_6104",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "defer",
+          "effect_name": "Time Distortion",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 70,
+          "heal_block_turns": 2,
+          "chance": 100,
+          "no_disperse": true
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_dummy": {
+    "name": "Dummy Reverse Healing",
+    "hash": "f75ca2db7136b8f870635fc823458613",
+    "data": {
+      "skill_id": "skill_dummy",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "reverse_healing",
+          "effect_name": "Reverse Healing",
+          "duration": 99,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
       ]
     }
   },
@@ -186733,7 +190231,7 @@
   },
   "skill_effect::skill_2109": {
     "name": "Kinjutsu: Self Offering Love",
-    "hash": "116c26a81c0f60954b5b264826375b25",
+    "hash": "cfde5e3293241315312b03d14afa896b",
     "data": {
       "skill_id": "skill_2109",
       "skill_effect": [
@@ -186751,11 +190249,14 @@
           "after_effect": [
             {
               "effect": "stun",
+              "effect_name": "Stun",
               "duration": 1,
               "amount": 0
             },
             {
               "effect": "bleeding",
+              "effect_name": "Bleeding",
+              "calc_type": "percent",
               "duration": 1,
               "amount": 100
             }
@@ -193118,6 +196619,317 @@
       ]
     }
   },
+  "skill_effect::skill_2371": {
+    "name": "Kinjutsu: Crow Strike",
+    "hash": "926281576e05f75316ed6e0deb181627",
+    "data": {
+      "skill_id": "skill_2371",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2372": {
+    "name": "Kinjutsu: Crow Nest",
+    "hash": "550c7cf0e045363614cf6812e5f84277",
+    "data": {
+      "skill_id": "skill_2372",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "petrify",
+          "effect_name": "Petrify",
+          "duration": 3,
+          "calc_type": "number",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2373": {
+    "name": "Kinjutsu: Wave Ride",
+    "hash": "c0d10220c2c7aa9ff352fa2dc7974053",
+    "data": {
+      "skill_id": "skill_2373",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "muddy",
+          "effect_name": "Muddy",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 25,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2374": {
+    "name": "Kinjutsu: Crimson Oni Bomb",
+    "hash": "216b70982bd69727b335b9b636748ea4",
+    "data": {
+      "skill_id": "skill_2374",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 35
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "excitation",
+          "effect_name": "Excitation",
+          "duration": 2,
+          "calc_type": "number",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Debuff",
+          "effect": "charge_disable",
+          "effect_name": "Charge Disable",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2375": {
+    "name": "Kinjutsu: Advance Crimson Oni Bomb",
+    "hash": "cd516bbe996560d9095d1e88ce01373b",
+    "data": {
+      "skill_id": "skill_2375",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 70
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 70,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "excitation",
+          "effect_name": "Excitation",
+          "duration": 3,
+          "calc_type": "number",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Debuff",
+          "effect": "charge_disable",
+          "effect_name": "Charge Disable",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2376": {
+    "name": "Kinjutsu: Demonic Crow Barrage",
+    "hash": "3f0946f08b1c4890e2f15bb0c0f2d4af",
+    "data": {
+      "skill_id": "skill_2376",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "numb",
+          "effect_name": "Numb",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2377": {
+    "name": "Kinjutsu: Kitsune Thunder Breath",
+    "hash": "c1843adb5b93d7015f5f8e34fccb28d7",
+    "data": {
+      "skill_id": "skill_2377",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "reduce_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 4,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2378": {
+    "name": "Kinjutsu: Demonic Space Rend",
+    "hash": "bfe18f50dfd08ecac42ddc17071d4575",
+    "data": {
+      "skill_id": "skill_2378",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "chaos",
+          "effect_name": "Chaos",
+          "duration": 2,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 7,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2379": {
+    "name": "Kinjutsu: Demonic Laser",
+    "hash": "1d9fe81372063890f9248e7d73bd01ce",
+    "data": {
+      "skill_id": "skill_2379",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2380": {
+    "name": "Kinjutsu: Hellfire Eruption",
+    "hash": "ffed1262576a57df0a8b9f38480d8939",
+    "data": {
+      "skill_id": "skill_2380",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "blaze",
+          "effect_name": "Blaze",
+          "duration": 5,
+          "calc_type": "percent",
+          "amount": 3,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_5000": {
+    "name": "Kinjutsu: Fiery Dance Strike",
+    "hash": "f90c0a88545ce64163338b6e587d58e2",
+    "data": {
+      "skill_id": "skill_5000",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "power_up",
+          "effect_name": "Strengthen",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_5001": {
+    "name": "Kinjutsu: Crimson Torrent",
+    "hash": "1825806e9ed135e65abdb2b30c859bbf",
+    "data": {
+      "skill_id": "skill_5001",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "muddy",
+          "effect_name": "Muddy",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 25,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "burn",
+          "effect_name": "Burning",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 4,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_6001": {
     "name": "S0 Kinjutsu: Bijuu Blaster",
     "hash": "4e9154b96f630f5fa1ccc2377587315a",
@@ -197285,7 +201097,7 @@
   },
   "skill_effect::skill_7050": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
-    "hash": "5d090d68cd0ab423a34b720f37af4201",
+    "hash": "fa29d3508831066ace689a56864cf1be",
     "data": {
       "skill_id": "skill_7050",
       "skill_effect": [
@@ -197303,11 +201115,14 @@
           "after_effect": [
             {
               "effect": "negate",
+              "effect_name": "Negate",
               "duration": 2,
               "amount": 0
             },
             {
               "effect": "bleeding",
+              "effect_name": "Bleeding",
+              "calc_type": "percent",
               "duration": 2,
               "amount": 100
             }
@@ -197318,7 +201133,7 @@
   },
   "skill_effect::skill_7051": {
     "name": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
-    "hash": "e5e8a06ae2faff5b8a3a805836c993f7",
+    "hash": "1f6a7af22623b854501e5bac854c3dd3",
     "data": {
       "skill_id": "skill_7051",
       "skill_effect": [
@@ -197336,15 +201151,102 @@
           "after_effect": [
             {
               "effect": "negate",
+              "effect_name": "Negate",
               "duration": 2,
               "amount": 0
             },
             {
               "effect": "bleeding",
+              "effect_name": "Bleeding",
+              "calc_type": "percent",
               "duration": 2,
               "amount": 100
             }
           ]
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_7052": {
+    "name": "S25 Kinjutsu: Ame no Kanata",
+    "hash": "64c0721de704f5baa7b4c155ba3f536e",
+    "data": {
+      "skill_id": "skill_7052",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disorient",
+          "effect_name": "Disorient",
+          "duration": 4,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 4,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 40,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "change_background",
+          "effect_name": "Ame no Kanata",
+          "duration": 4,
+          "calc_type": "",
+          "amount": 0,
+          "background_id": "mission_1075",
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_7053": {
+    "name": "S25 Kinjutsu: Advanced Ame no Kanata",
+    "hash": "7e70dcad158ee032d4dd6f5a67debce8",
+    "data": {
+      "skill_id": "skill_7053",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disorient",
+          "effect_name": "Disorient",
+          "duration": 5,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 73,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 5,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 60,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "change_background",
+          "effect_name": "Ame no Kanata",
+          "duration": 5,
+          "calc_type": "",
+          "amount": 0,
+          "background_id": "mission_1073",
+          "chance": 100
         }
       ]
     }
@@ -197976,6 +201878,35 @@
           "duration": 3,
           "calc_type": "percent",
           "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_8026": {
+    "name": "S21 Kinjutsu: True Dragon Befall",
+    "hash": "c0fe41e029711f7c617e84ac4684efb4",
+    "data": {
+      "skill_id": "skill_8026",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "serene_mind",
+          "effect_name": "Serene Mind",
+          "duration": 3,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "power_up",
+          "effect_name": "Strengthen",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 50,
           "chance": 100
         }
       ]
@@ -222345,6 +226276,276 @@
       ]
     }
   },
+  "weapon_effect::wpn_2455": {
+    "name": "Karasu Naginata",
+    "hash": "f33049be5326dc66a160439dbcf31aa2",
+    "data": {
+      "id": "wpn_2455",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 123,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 25,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2456": {
+    "name": "Karasu Shakujo",
+    "hash": "bfb1969d6a91573d0289fe50d6c79dda",
+    "data": {
+      "id": "wpn_2456",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2457": {
+    "name": "Mystic Kitsune Sword",
+    "hash": "034f3643162833d3358697fd8dd3ef57",
+    "data": {
+      "id": "wpn_2457",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "inflict_slow",
+          "effect_name": "Slow",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 35,
+          "chance": 60
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2458": {
+    "name": "Crimson Blood Feather Blade",
+    "hash": "db64a7661457ae29cbecf14e984ca0a6",
+    "data": {
+      "id": "wpn_2458",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2459": {
+    "name": "Demon Eye Parasol",
+    "hash": "6306d9d248b3189f0eaa31184323f644",
+    "data": {
+      "id": "wpn_2459",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "REduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 150,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2460": {
+    "name": "Kitsune Shrine Fan",
+    "hash": "c0d234078db5e1b4111228bd18ec376f",
+    "data": {
+      "id": "wpn_2460",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "combustion_increase",
+          "effect_name": "Increase Combustion",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "increase_reactive",
+          "effect_name": "Reactive Force",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2461": {
+    "name": "Crimson Kanabo",
+    "hash": "0646c52336ba2bc06860c9b429af8efe",
+    "data": {
+      "id": "wpn_2461",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_damage_bonus",
+          "effect_name": "Strengthen",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2462": {
+    "name": "Nurarihyon Blade",
+    "hash": "b0cfd455bc34076077f9951047fc4b99",
+    "data": {
+      "id": "wpn_2462",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover_with_attack",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 300,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 55,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "weapon_effect::wpn_4001": {
     "name": "S0 Burning Maple Greatsword (Spirit)",
     "hash": "926d289789a6775fb1a5029f05204543",
@@ -224045,6 +228246,144 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_5000": {
+    "name": "S0 PvP: Golden Black Skull Sword",
+    "hash": "eaf57acea7589d75601f8913c7f1a8ad",
+    "data": {
+      "id": "wpn_5000",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 300,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "insta_reduce_max_hp",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_5001": {
+    "name": "S0 PvP: Golden Black Skull Specter",
+    "hash": "112078c79990fbd3f83f504fd194242e",
+    "data": {
+      "id": "wpn_5001",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "cp_recover",
+          "effect_name": "Recover CP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 300,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_5002": {
+    "name": "S0 PvP: Golden Black Skull Cleave",
+    "hash": "033aceffc21f0f6f302a2e08c5f3f37e",
+    "data": {
+      "id": "wpn_5002",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
           "chance": 100
         }
       ]
@@ -226283,21 +230622,10 @@
   },
   "weapon_effect::wpn_6063": {
     "name": "S36 Clan: Demon Shark Blade",
-    "hash": "189f5210d4b674645fd06f9e9255d5b4",
+    "hash": "2005beed1d769a53816dfe0f19ce6d7d",
     "data": {
       "id": "wpn_6063",
       "effects": [
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "accuracy_increase",
-          "effect_name": "Increase Accuracy",
-          "duration": 0,
-          "calc_type": "number",
-          "amount": 30,
-          "chance": 100
-        },
         {
           "passive": true,
           "type": "Buff",
@@ -226308,16 +230636,7 @@
           "calc_type": "percent",
           "amount": 100,
           "chance": 100
-        }
-      ]
-    }
-  },
-  "weapon_effect::wpn_6064": {
-    "name": "S37 Clan: Vampire Blade - Janen",
-    "hash": "f531b74d6cfbf6000a7892ef8d930949",
-    "data": {
-      "id": "wpn_6064",
-      "effects": [
+        },
         {
           "passive": true,
           "type": "Buff",
@@ -226326,7 +230645,27 @@
           "effect_name": "Increase Accuracy",
           "duration": 0,
           "calc_type": "number",
-          "amount": 40,
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6064": {
+    "name": "S37 Clan: Vampire Blade - Janen",
+    "hash": "1d46590325cd919a42280fdeabcaf7a1",
+    "data": {
+      "id": "wpn_6064",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
           "chance": 100
         },
         {
@@ -226344,11 +230683,11 @@
           "passive": true,
           "type": "Buff",
           "target": "self",
-          "effect": "hp_recover",
-          "effect_name": "Recover HP",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
           "duration": 0,
-          "calc_type": "percent",
-          "amount": 8,
+          "calc_type": "number",
+          "amount": 40,
           "chance": 100
         }
       ]
@@ -226546,21 +230885,10 @@
   },
   "weapon_effect::wpn_6070": {
     "name": "S38 Clan: Jyuuou Blade",
-    "hash": "af8cff457b485e79c3181c9afc5b8e71",
+    "hash": "3ce55037c16ca953cd8e3512fe0b70cb",
     "data": {
       "id": "wpn_6070",
       "effects": [
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "accuracy_increase",
-          "effect_name": "Increase Accuracy",
-          "duration": 0,
-          "calc_type": "number",
-          "amount": 40,
-          "chance": 100
-        },
         {
           "passive": true,
           "type": "Buff",
@@ -226571,16 +230899,7 @@
           "calc_type": "number",
           "amount": 2,
           "chance": 100
-        }
-      ]
-    }
-  },
-  "weapon_effect::wpn_6071": {
-    "name": "S39 Clan: Frozen Blade",
-    "hash": "db95d7bc34f5e702bbe32825ac31de17",
-    "data": {
-      "id": "wpn_6071",
-      "effects": [
+        },
         {
           "passive": true,
           "type": "Buff",
@@ -226589,9 +230908,18 @@
           "effect_name": "Increase Accuracy",
           "duration": 0,
           "calc_type": "number",
-          "amount": 45,
+          "amount": 40,
           "chance": 100
-        },
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6071": {
+    "name": "S39 Clan: Frozen Blade",
+    "hash": "75dbdeeefe24a30d8fc9a7c337d33080",
+    "data": {
+      "id": "wpn_6071",
+      "effects": [
         {
           "passive": true,
           "type": "Debuff",
@@ -226602,16 +230930,7 @@
           "calc_type": "percent",
           "amount": 15,
           "chance": 35
-        }
-      ]
-    }
-  },
-  "weapon_effect::wpn_6072": {
-    "name": "S40 Clan: Gozen Breeze Fan",
-    "hash": "99d8fdf99204c7219fcd0b79d0bfcc75",
-    "data": {
-      "id": "wpn_6072",
-      "effects": [
+        },
         {
           "passive": true,
           "type": "Buff",
@@ -226622,7 +230941,16 @@
           "calc_type": "number",
           "amount": 45,
           "chance": 100
-        },
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6072": {
+    "name": "S40 Clan: Gozen Breeze Fan",
+    "hash": "af0dfb659c8c8ba05bbb50c4a27e3458",
+    "data": {
+      "id": "wpn_6072",
+      "effects": [
         {
           "passive": true,
           "type": "Debuff",
@@ -226632,6 +230960,17 @@
           "duration": 3,
           "calc_type": "number",
           "amount": 400,
+          "chance": 20
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
           "chance": 100
         }
       ]
@@ -227145,6 +231484,214 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6087": {
+    "name": "S36 Clan: Advance Demon Shark Blade",
+    "hash": "014a095f6604140c5aee2a4a1055d07c",
+    "data": {
+      "id": "wpn_6087",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_damage_bonus",
+          "effect_name": "Strengthen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 110,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6088": {
+    "name": "S37 Clan: Advance Vampire Blade - Janen",
+    "hash": "47181e72f3db4845e44b98c0030657ea",
+    "data": {
+      "id": "wpn_6088",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "bloodfeed_attack",
+          "effect_name": "Bloodfeed",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 90,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 9,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6089": {
+    "name": "S38 Clan: Advance Jyuuou Blade",
+    "hash": "d89062953c59126158a45b1c1be608ff",
+    "data": {
+      "id": "wpn_6089",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "reduce_cd",
+          "effect_name": "Rewind",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 2,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6090": {
+    "name": "S39 Clan: Advance Frozen Blade",
+    "hash": "a2d03a051ac4f2f8ca4c048f9d03c77d",
+    "data": {
+      "id": "wpn_6090",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 50,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "frozen",
+          "effect_name": "Frozen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 35
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6091": {
+    "name": "S40 Clan: Advance Gozen Breeze Fan",
+    "hash": "1aead48b4e8bb571b8a854b493014a54",
+    "data": {
+      "id": "wpn_6091",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 50,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "weaken",
+          "effect_name": "Weaken",
+          "duration": 3,
+          "calc_type": "number",
+          "amount": 600,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6093": {
+    "name": "S51 Clan: Sacred Phoenix Greatblade",
+    "hash": "85cbe9c084a31f8cfdac6ba247680022",
+    "data": {
+      "id": "wpn_6093",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "burn",
+          "effect_name": "Burn",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 4,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "recover_hp_debuff",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
           "chance": 100
         }
       ]
@@ -227960,6 +232507,48 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 60,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_7020": {
+    "name": "S25 Shadow War: Hada Kokuto",
+    "hash": "8bb51345271655da88b1aaa7e102b7de",
+    "data": {
+      "id": "wpn_7020",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 28,
+          "chance": 28
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "kill_instant_under",
+          "effect_name": "Instan Kill",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 38,
           "chance": 100
         }
       ]
@@ -231499,7 +236088,7 @@
   },
   "weapon_effect::wpn_8093": {
     "name": "S19 Crew: Primal Power Greatsword",
-    "hash": "dfcc96480edc27c2e524a1ae28d62034",
+    "hash": "b66a0a1ccc7803d928fb090948578352",
     "data": {
       "id": "wpn_8093",
       "effects": [
@@ -231510,8 +236099,8 @@
           "effect": "damage_reduce",
           "effect_name": "Reduce Damage",
           "duration": 0,
-          "calc_type": "number",
-          "amount": 400,
+          "calc_type": "percent",
+          "amount": 40,
           "chance": 100
         },
         {
@@ -231521,8 +236110,8 @@
           "effect": "max_hp_increase",
           "effect_name": "Increase Max HP",
           "duration": 0,
-          "calc_type": "number",
-          "amount": 315,
+          "calc_type": "percent",
+          "amount": 15,
           "chance": 100
         },
         {
@@ -231897,12 +236486,160 @@
       ]
     }
   },
-  "weapon_effect::wpn_6087": {
-    "name": "S36 Clan: Advance Demon Shark Blade",
-    "hash": "014a095f6604140c5aee2a4a1055d07c",
+  "weapon_effect::wpn_8103": {
+    "name": "S21 Crew: True Dragon Giant Blade",
+    "hash": "f12f9c946a6b97a2604ae077d1103cef",
     "data": {
-      "id": "wpn_6087",
+      "id": "wpn_8103",
       "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 1200,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "increase_reactive",
+          "effect_name": "Reactive Force",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 12,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 25,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8104": {
+    "name": "S21 Crew: True Dragon Edge",
+    "hash": "581f67b04965664bdf54ddc82ee32944",
+    "data": {
+      "id": "wpn_8104",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_damage_bonus",
+          "effect_name": "Strengthen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 33,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8105": {
+    "name": "S21 Crew: True Dragon Dagger",
+    "hash": "3091ea3cbbe7a2a9e100ce717fd17739",
+    "data": {
+      "id": "wpn_8105",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "inflict_bleeding",
+          "effect_name": "Bleeding",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 30,
+          "chance": 10
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "poison",
+          "effect_name": "Poison",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 4,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 38,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8106": {
+    "name": "S21 Crew: True Dragon Claw",
+    "hash": "721750a55b5452f08c3957b8a88af2cc",
+    "data": {
+      "id": "wpn_8106",
+      "effects": [
+        {
+          "passive": false,
+          "type": "Buff",
+          "target": "self",
+          "effect": "attack_reduce_gen_cooldown",
+          "effect_name": "Cooldown -",
+          "duration": 0,
+          "calc_type": "",
+          "amount": 1,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 1500,
+          "chance": 100
+        },
         {
           "passive": true,
           "type": "Buff",
@@ -231913,131 +236650,38 @@
           "calc_type": "number",
           "amount": 40,
           "chance": 100
-        },
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "dodge_damage_bonus",
-          "effect_name": "Strengthen",
-          "duration": 1,
-          "calc_type": "percent",
-          "amount": 110,
-          "chance": 100
         }
       ]
     }
   },
-  "weapon_effect::wpn_6088": {
-    "name": "S37 Clan: Advance Vampire Blade - Janen",
-    "hash": "47181e72f3db4845e44b98c0030657ea",
+  "weapon_effect::wpn_8107": {
+    "name": "S21 Crew: True Dragon Dagger",
+    "hash": "04867f3d977ab1dbe2325421a6fdc574",
     "data": {
-      "id": "wpn_6088",
+      "id": "wpn_8107",
       "effects": [
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "accuracy_increase",
-          "effect_name": "Increase Accuracy",
-          "duration": 0,
-          "calc_type": "number",
-          "amount": 45,
-          "chance": 100
-        },
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "bloodfeed_attack",
-          "effect_name": "Bloodfeed",
-          "duration": 1,
-          "calc_type": "percent",
-          "amount": 90,
-          "chance": 100
-        },
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "hp_recover",
-          "effect_name": "Recover HP",
-          "duration": 0,
-          "calc_type": "percent",
-          "amount": 9,
-          "chance": 100
-        }
-      ]
-    }
-  },
-  "weapon_effect::wpn_6089": {
-    "name": "S38 Clan: Advance Jyuuou Blade",
-    "hash": "d89062953c59126158a45b1c1be608ff",
-    "data": {
-      "id": "wpn_6089",
-      "effects": [
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "accuracy_increase",
-          "effect_name": "Increase Accuracy",
-          "duration": 0,
-          "calc_type": "number",
-          "amount": 45,
-          "chance": 100
-        },
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "reduce_cd",
-          "effect_name": "Rewind",
-          "duration": 0,
-          "calc_type": "number",
-          "amount": 2,
-          "chance": 100
-        }
-      ]
-    }
-  },
-  "weapon_effect::wpn_6090": {
-    "name": "S39 Clan: Advance Frozen Blade",
-    "hash": "a2d03a051ac4f2f8ca4c048f9d03c77d",
-    "data": {
-      "id": "wpn_6090",
-      "effects": [
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "accuracy_increase",
-          "effect_name": "Increase Accuracy",
-          "duration": 0,
-          "calc_type": "number",
-          "amount": 50,
-          "chance": 100
-        },
         {
           "passive": true,
           "type": "Debuff",
           "target": "enemy",
           "effect": "frozen",
           "effect_name": "Frozen",
-          "duration": 1,
+          "duration": 2,
           "calc_type": "percent",
-          "amount": 10,
-          "chance": 35
-        }
-      ]
-    }
-  },
-  "weapon_effect::wpn_6091": {
-    "name": "S40 Clan: Advance Gozen Breeze Fan",
-    "hash": "1aead48b4e8bb571b8a854b493014a54",
-    "data": {
-      "id": "wpn_6091",
-      "effects": [
+          "amount": 80,
+          "chance": 30
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 9,
+          "chance": 100
+        },
         {
           "passive": true,
           "type": "Buff",
@@ -232046,18 +236690,7 @@
           "effect_name": "Increase Accuracy",
           "duration": 0,
           "calc_type": "number",
-          "amount": 50,
-          "chance": 100
-        },
-        {
-          "passive": true,
-          "type": "Debuff",
-          "target": "enemy",
-          "effect": "weaken",
-          "effect_name": "Weaken",
-          "duration": 3,
-          "calc_type": "number",
-          "amount": 600,
+          "amount": 40,
           "chance": 100
         }
       ]
@@ -247201,7 +251834,7 @@
   },
   "back_effect::back_2431": {
     "name": "Abyssal Queen's Embrace",
-    "hash": "6c6f9c4e9fad006f7d34b5aad770b707",
+    "hash": "46141937c80c86dfc45e232f384cac2f",
     "data": {
       "id": "back_2431",
       "effects": [
@@ -247213,7 +251846,7 @@
           "effect_name": "Increase Purify Chance",
           "duration": 0,
           "calc_type": "number",
-          "amount": 10,
+          "amount": 7,
           "chance": 100
         },
         {
@@ -247223,8 +251856,8 @@
           "effect": "recover_hp_after_purify",
           "effect_name": "Recover HP",
           "duration": 0,
-          "calc_type": "percent",
-          "amount": 15,
+          "calc_type": "number",
+          "amount": 500,
           "chance": 100
         }
       ]
@@ -248189,6 +252822,211 @@
       ]
     }
   },
+  "back_effect::back_2465": {
+    "name": "Wings of Tengu",
+    "hash": "2276e3f4c2c99c2653933b39b4b159d8",
+    "data": {
+      "id": "back_2465",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_cp_recover",
+          "effect_name": "Recover HP CP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 200,
+          "amount_cp": 200,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2466": {
+    "name": "Tengu Spirit Vessel",
+    "hash": "1777afae52d583969d35ca6e811c415a",
+    "data": {
+      "id": "back_2466",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 188,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2467": {
+    "name": "Kitsune Spirit houlder Armor",
+    "hash": "396f6e0f8a29532562cdc8644cbe0d81",
+    "data": {
+      "id": "back_2467",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 12,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 3,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2468": {
+    "name": "Nurarihyon Plate Name",
+    "hash": "ac6a7311b338bd61ac0cf2d17c263f73",
+    "data": {
+      "id": "back_2468",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "freeze_attacker",
+          "effect_name": "Frozen",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 80,
+          "chance": 11
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 9,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2469": {
+    "name": "Crimson Oni Banner",
+    "hash": "af34c73b07d6fb7cfb5d9e9e792d6e3e",
+    "data": {
+      "id": "back_2469",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2470": {
+    "name": "Inari Divine Fan",
+    "hash": "3d87f4d62834f59e04d8d643a21856ae",
+    "data": {
+      "id": "back_2470",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 150,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2471": {
+    "name": "Mistbound Tengu",
+    "hash": "d70264f4bf6594f0ba1d44fb0f089138",
+    "data": {
+      "id": "back_2471",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "cp_recover",
+          "effect_name": "Recover CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 3,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 500,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2472": {
+    "name": "Hyakki Yagyo",
+    "hash": "b45a9eb23cf8a4344c4529b8e8d3c5bf",
+    "data": {
+      "id": "back_2472",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 3,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 500,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "back_effect::back_4001": {
     "name": "S2 Crew: Solar Aura (Spirit)",
     "hash": "861c0f53e44ddd5494f3f97b6ea19a5a",
@@ -248246,6 +253084,77 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 1,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_5000": {
+    "name": "S0 PvP: Golden Black Cape",
+    "hash": "877b4258c087798820e3705f1468c30f",
+    "data": {
+      "id": "back_5000",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 350,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 8,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_5001": {
+    "name": "S0 PvP: Golden Black Skull Catacomb",
+    "hash": "ca5cfa693d7feb414b961d42a0d91071",
+    "data": {
+      "id": "back_5001",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 300,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_5002": {
+    "name": "S0 PvP: Golden Black Grieving Souls",
+    "hash": "dadcb3e5736964b4787e57b3f8fd9360",
+    "data": {
+      "id": "back_5002",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 15,
           "chance": 100
         }
       ]
@@ -249757,6 +254666,37 @@
       ]
     }
   },
+  "back_effect::back_6052": {
+    "name": "S51 Clan: Blood Shade Magatama",
+    "hash": "ff1583262c8537d39c9253889a22cd88",
+    "data": {
+      "id": "back_6052",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 4,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "back_effect::back_7000": {
     "name": "S0 Shadow War: Fire Spirit",
     "hash": "db138d55879cf5588eb0c4b516d507cf",
@@ -250407,6 +255347,48 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 15,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_7020": {
+    "name": "S25 Shadow War: Ignia the Flame",
+    "hash": "d03059216ece8610a78f90dfaf4a3fc9",
+    "data": {
+      "id": "back_7020",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 285,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 285,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
           "chance": 100
         }
       ]
@@ -251461,7 +256443,7 @@
     }
   },
   "back_effect::back_8040": {
-    "name": "S20 Crew: Ligthning Kokeshi",
+    "name": "S20 Crew: Lightning Kokeshi",
     "hash": "7263dbdbac784c99e9e7fa2323485315",
     "data": {
       "id": "back_8040",
@@ -251476,6 +256458,57 @@
           "calc_type": "percent",
           "amount": 10,
           "chance": 75
+        }
+      ]
+    }
+  },
+  "back_effect::back_8041": {
+    "name": "S21 Crew: True Dragon Scroll",
+    "hash": "3e7941bc3a2c7d932a51332d78b92b4d",
+    "data": {
+      "id": "back_8041",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_8042": {
+    "name": "S21 Crew: True Dragon Sensu",
+    "hash": "c0eba04a2df1aff23701e810657076e9",
+    "data": {
+      "id": "back_8042",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "restrict_attacker",
+          "effect_name": "Restriction",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 15
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Increase Agility",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 1,
+          "chance": 100
         }
       ]
     }

@@ -1,0 +1,2406 @@
+[
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_dummy",
+    "entityName": "Dummy Reverse Healing"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2371",
+    "entityName": "Kinjutsu: Crow Strike"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2372",
+    "entityName": "Kinjutsu: Crow Nest"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2373",
+    "entityName": "Kinjutsu: Wave Ride"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2374",
+    "entityName": "Kinjutsu: Crimson Oni Bomb"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2375",
+    "entityName": "Kinjutsu: Advance Crimson Oni Bomb"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2376",
+    "entityName": "Kinjutsu: Demonic Crow Barrage"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2377",
+    "entityName": "Kinjutsu: Kitsune Thunder Breath"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2378",
+    "entityName": "Kinjutsu: Demonic Space Rend"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2379",
+    "entityName": "Kinjutsu: Demonic Laser"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2380",
+    "entityName": "Kinjutsu: Hellfire Eruption"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3501",
+    "entityName": "Senjutsu: Paper Bomb"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3502",
+    "entityName": "Senjutsu: Flash Head Kick"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3201",
+    "entityName": "Senjutsu: Slug Sage"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3202",
+    "entityName": "Senjutsu: Slug Protection"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3203",
+    "entityName": "Senjutsu: Slug Explosion"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3204",
+    "entityName": "Senjutsu: Earth Mastery"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3205",
+    "entityName": "Senjutsu: Chakra Kick"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3206",
+    "entityName": "Senjutsu: Chakra Mega Punch"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3207",
+    "entityName": "Senjutsu: Slug Blessing"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3208",
+    "entityName": "Senjutsu: Stoneheart Fortitude"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3209",
+    "entityName": "Senjutsu: Slug Absorption"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_3210",
+    "entityName": "Senjutsu: Slug Breath"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_5000",
+    "entityName": "Kinjutsu: Fiery Dance Strike"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_5001",
+    "entityName": "Kinjutsu: Crimson Torrent"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_5002",
+    "entityName": "Kinjutsu: Black Lightning Combo"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_6103",
+    "entityName": "S51 Kinjutsu: Time Distortion"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_6104",
+    "entityName": "S51 Kinjutsu: Advance Time Distortion"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_8024",
+    "entityName": "S19 Kinjutsu: Earth Barrier",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Not Available.",
+    "newValue": "(Kinjutsu) Reducing damage for whole team by 100% for 3 turns."
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_8024",
+    "entityName": "S19 Kinjutsu: Earth Barrier",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_8026",
+    "entityName": "S21 Kinjutsu: True Dragon Befall"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2455",
+    "entityName": "Karasu Naginata"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2456",
+    "entityName": "Karasu Shakujo"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2457",
+    "entityName": "Mystic Kitsune Sword"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2458",
+    "entityName": "Crimson Blood Feather Blade"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2459",
+    "entityName": "Demon Eye Parasol"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2460",
+    "entityName": "Kitsune Shrine Fan"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2461",
+    "entityName": "Crimson Kanabo"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2462",
+    "entityName": "Nurarihyon Blade"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_5000",
+    "entityName": "S0 PvP: Golden Black Skull Sword"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_5001",
+    "entityName": "S0 PvP: Golden Black Skull Specter"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_5002",
+    "entityName": "S0 PvP: Golden Black Skull Cleave"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_6093",
+    "entityName": "S51 Clan: Sacred Phoenix Greatblade"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8073",
+    "entityName": "S15 Crew: Frozen Nunchaku",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8074",
+    "entityName": "S15 Crew: Frozen Yuanyang Yue",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8075",
+    "entityName": "S15 Crew: Frozen Jitte",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8076",
+    "entityName": "S15 Crew: Frozen Triple Dagger",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8077",
+    "entityName": "S15 Crew: Frozen Triple Dagger",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8078",
+    "entityName": "S16 Crew: Umbra Sword",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8079",
+    "entityName": "S16 Crew: Umbra Machete",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8080",
+    "entityName": "S16 Crew: Umbra Chain Blade",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8081",
+    "entityName": "S16 Crew: Umbra Bladed Scepter",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8082",
+    "entityName": "S16 Crew: Umbra Half Moon Scimitar",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8083",
+    "entityName": "S17 Crew: Scorching Sun Sword",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8084",
+    "entityName": "S17 Crew: Scorching Sun Dagger",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8085",
+    "entityName": "S17 Crew: Scorching Sun Tachi",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8086",
+    "entityName": "S17 Crew: Scorching Sun Spear",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8087",
+    "entityName": "S17 Crew: Scorching Sun Blade",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8088",
+    "entityName": "S18 Crew: Evil Spirit Tessen",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8089",
+    "entityName": "S18 Crew: Evil Spirit Cone",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8090",
+    "entityName": "S18 Crew: Evil Spirit Broadsword",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8091",
+    "entityName": "S18 Crew: Evil Spirit Ring",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8092",
+    "entityName": "S18 Crew: Evil Spirit Staff",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8093",
+    "entityName": "S19 Crew: Primal Power Greatsword",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Not Available",
+    "newValue": "S19 Crew Reward: Increase 45% accurary. Increase max HP by 15%. Reduce damage taken by 40%."
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8093",
+    "entityName": "S19 Crew: Primal Power Greatsword",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8094",
+    "entityName": "S19 Crew: Primal Power Axe",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Not Available",
+    "newValue": "S19 Crew Reward: Increase 35% accurary. Has 20% chace to block attack damage when HP is less than 40%. Recover HP by 6% every turn."
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8094",
+    "entityName": "S19 Crew: Primal Power Axe",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8095",
+    "entityName": "S19 Crew: Primal Power Kunai",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Not Available",
+    "newValue": "S19 Crew Reward: Increase accurary by 35%. Reduce jutsu CP consumption for 65%."
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8095",
+    "entityName": "S19 Crew: Primal Power Kunai",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8096",
+    "entityName": "S19 Crew: Primal Power Shuriken",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Not Available",
+    "newValue": "S19 Crew Reward: Increase accurary by 40%. Has 70% chance to inflict bleeding when attack with weapon - Increase 45% damage taken for 2 turns. Has 10% chance to inflict 'Bloodfeed' (recovers HP after attack, amount: 100% of the attack damage)"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8096",
+    "entityName": "S19 Crew: Primal Power Shuriken",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8097",
+    "entityName": "S19 Crew: Primal Power Spear",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Not Available",
+    "newValue": "S19 Crew Reward: Increase accurary by 40%. Each turn start when HP less than 99%, increase critical rate 15% for 2 turns. Every Critical landed, inflict 'Hemorrhage' by 4% for 3 turns."
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8097",
+    "entityName": "S19 Crew: Primal Power Spear",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8103",
+    "entityName": "S21 Crew: True Dragon Giant Blade"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8104",
+    "entityName": "S21 Crew: True Dragon Edge"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8105",
+    "entityName": "S21 Crew: True Dragon Dagger"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8106",
+    "entityName": "S21 Crew: True Dragon Claw"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8107",
+    "entityName": "S21 Crew: True Dragon Dagger"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_2458",
+    "entityName": "Fan of Victory",
+    "field": "description",
+    "oldValue": "Recover HP by 10% when put under debuff. Increase critical damage by 65%",
+    "newValue": "Recover HP by 7% when put under debuff. Increase critical damage by 25%."
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2465",
+    "entityName": "Wings of Tengu"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2466",
+    "entityName": "Tengu Spirit Vessel"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2467",
+    "entityName": "Kitsune Spirit houlder Armor"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2468",
+    "entityName": "Nurarihyon Plate Name"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2469",
+    "entityName": "Crimson Oni Banner"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2470",
+    "entityName": "Inari Divine Fan"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2471",
+    "entityName": "Mistbound Tengu"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2472",
+    "entityName": "Hyakki Yagyo"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2473",
+    "entityName": "Yokai Eye"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_5000",
+    "entityName": "S0 PvP: Golden Black Cape"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_5001",
+    "entityName": "S0 PvP: Golden Black Skull Catacomb"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_5002",
+    "entityName": "S0 PvP: Golden Black Grieving Souls"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_6052",
+    "entityName": "S51 Clan: Blood Shade Magatama"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_7020",
+    "entityName": "S25 Shadow War: Ignia the Flame",
+    "field": "description",
+    "oldValue": "S25 Shadow War Reward: Increase damage dealt and reduce damage taken by 285. Also increase purify chance by 10%. ",
+    "newValue": "S25 Shadow War Reward: Increase damage dealt and reduce damage taken by 285. Also increase purify chance by 10%."
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8029",
+    "entityName": "S15 Crew: Frozen Huge Sword",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8030",
+    "entityName": "S15 Crew: Frozen Large Sword",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8031",
+    "entityName": "S16 Crew: Umbra Fire Wheel",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8032",
+    "entityName": "S16 Crew: Umbra Steel Wheel",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8033",
+    "entityName": "S17 Crew: Scorching Sun Scroll",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8034",
+    "entityName": "S17 Crew: Scorching Sun Lantern",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8035",
+    "entityName": "S18 Crew: Evil Spirit Shield",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8036",
+    "entityName": "S18 Crew: Evil Spirit Wings",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8037",
+    "entityName": "S19 Crew: Primal Power Shield",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Not Available",
+    "newValue": "S19 Crew Reward: Recover HP by 3%. Recovers 10 HP with every charge."
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8037",
+    "entityName": "S19 Crew: Primal Power Shield",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8038",
+    "entityName": "S19 Crew: Primal Power Doll",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Not Available",
+    "newValue": "S19 Crew Reward: Recover HP by 6%. Recovers 4% HP with every charge."
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8038",
+    "entityName": "S19 Crew: Primal Power Doll",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_8040",
+    "entityName": "S20 Crew: Lightning Kokeshi",
+    "field": "name",
+    "oldValue": "S20 Crew: Ligthning Kokeshi",
+    "newValue": "S20 Crew: Lightning Kokeshi"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_8041",
+    "entityName": "S21 Crew: True Dragon Scroll"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_8042",
+    "entityName": "S21 Crew: True Dragon Sensu"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_1998",
+    "entityName": "Purple Crystal"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_1999",
+    "entityName": "Gold Crystal"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2263",
+    "entityName": "Happy Lantern"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2264",
+    "entityName": "Swift Lantern"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2265",
+    "entityName": "Golden Lantern"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2266",
+    "entityName": "Jyubi Lantern"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2267",
+    "entityName": "Fox Coin"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2268",
+    "entityName": "Yokai Core"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2269",
+    "entityName": "Tengu Badge"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2270",
+    "entityName": "Kitsune Badge"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2271",
+    "entityName": "Nurarihyon Badge"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2463_0",
+    "entityName": "Yatagarasu Regaila"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2463_1",
+    "entityName": "Yatagarasu Regaila"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2464_0",
+    "entityName": "Yokai Practice Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2464_1",
+    "entityName": "Yokai Practice Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2465_0",
+    "entityName": "Kitsune Shrine Priest Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2465_1",
+    "entityName": "Kitsune Shrine Maiden Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2466_0",
+    "entityName": "Nurarihyon Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2466_1",
+    "entityName": "Nurarihyon Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2467_0",
+    "entityName": "Summer Night Yokai 1 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2467_1",
+    "entityName": "Summer Night Yokai 1 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2468_0",
+    "entityName": "Summer Night Yokai 2 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2468_1",
+    "entityName": "Summer Night Yokai 2 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2469_0",
+    "entityName": "Summer Night Yokai 3 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2469_1",
+    "entityName": "Summer Night Yokai 3 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2470_0",
+    "entityName": "Summer Night Yokai 4 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2470_1",
+    "entityName": "Summer Night Yokai 4 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2471_0",
+    "entityName": "Summer Night Yokai 5 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2471_1",
+    "entityName": "Summer Night Yokai 5 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2472_0",
+    "entityName": "Summer Night Yokai 6 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2472_1",
+    "entityName": "Summer Night Yokai 6 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2473_0",
+    "entityName": "Summer Night Yokai 7 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2473_1",
+    "entityName": "Summer Night Yokai 7 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2474_0",
+    "entityName": "Summer Night Yokai 8 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2474_1",
+    "entityName": "Summer Night Yokai 8 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_5000_0",
+    "entityName": "S0 PvP Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_5000_1",
+    "entityName": "S0 PvP Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6200_0",
+    "entityName": "S50 Liquid Vincere",
+    "field": "name",
+    "oldValue": "S50 Champion",
+    "newValue": "S50 Liquid Vincere"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6200_1",
+    "entityName": "S50 Liquid Vincere",
+    "field": "name",
+    "oldValue": "S50 Champion",
+    "newValue": "S50 Liquid Vincere"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6201_0",
+    "entityName": "S50 Liquid The Next Gen",
+    "field": "name",
+    "oldValue": "S50 Runner Up",
+    "newValue": "S50 Liquid The Next Gen"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6201_1",
+    "entityName": "S50 Liquid The Next Gen",
+    "field": "name",
+    "oldValue": "S50 Runner Up",
+    "newValue": "S50 Liquid The Next Gen"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6202_0",
+    "entityName": "S50 NewJeans",
+    "field": "name",
+    "oldValue": "S50 Runner Up",
+    "newValue": "S50 NewJeans"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6202_1",
+    "entityName": "S50 NewJeans",
+    "field": "name",
+    "oldValue": "S50 Runner Up",
+    "newValue": "S50 NewJeans"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6204_0",
+    "entityName": "S51 Champion"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6204_1",
+    "entityName": "S51 Champion"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6205_0",
+    "entityName": "S51 Runner Up"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6205_1",
+    "entityName": "S51 Runner Up"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6206_0",
+    "entityName": "S51 Runner Up"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6206_1",
+    "entityName": "S51 Runner Up"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6207_0",
+    "entityName": "S51 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6207_1",
+    "entityName": "S51 Costume"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7075_1",
+    "entityName": "S25 Shadow War Champion",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7076_0",
+    "entityName": "S25 Shadow War Runner Up",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7076_1",
+    "entityName": "S25 Shadow War Runner Up",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7077_0",
+    "entityName": "S25 Shadow War Participant",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7077_1",
+    "entityName": "S25 Shadow War Participant",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8001_0",
+    "entityName": "S1 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8001_1",
+    "entityName": "S1 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8002_0",
+    "entityName": "S2 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8002_1",
+    "entityName": "S2 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8003_0",
+    "entityName": "S3 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8003_1",
+    "entityName": "S3 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8004_0",
+    "entityName": "S4 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8004_1",
+    "entityName": "S4 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8005_0",
+    "entityName": "S5 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8005_1",
+    "entityName": "S5 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8006_0",
+    "entityName": "S6 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8006_1",
+    "entityName": "S6 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8007_0",
+    "entityName": "S7 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8007_1",
+    "entityName": "S7 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8008_0",
+    "entityName": "S8 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_8008_1",
+    "entityName": "S8 Crew Clothing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2422_0",
+    "entityName": "Tengu Prince Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2422_1",
+    "entityName": "Tengu Princess Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2423_0",
+    "entityName": "Tengu Practice Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2423_1",
+    "entityName": "Tengu Practice Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2424_0",
+    "entityName": "Kitsune Shrine Priest Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2424_1",
+    "entityName": "Kitsune Shrine Maiden Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2425_0",
+    "entityName": "Nurarihyon Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2425_1",
+    "entityName": "Nurarihyon Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2426_0",
+    "entityName": "Summer Night Yokai 1 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2426_1",
+    "entityName": "Summer Night Yokai 1 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2427_0",
+    "entityName": "Summer Night Yokai 2 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2427_1",
+    "entityName": "Summer Night Yokai 2 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2428_0",
+    "entityName": "Summer Night Yokai 3 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2428_1",
+    "entityName": "Summer Night Yokai 3 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2429_0",
+    "entityName": "Summer Night Yokai 4 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2429_1",
+    "entityName": "Summer Night Yokai 4 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2430_0",
+    "entityName": "Summer Night Yokai 5 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2430_1",
+    "entityName": "Summer Night Yokai 5 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2431_0",
+    "entityName": "Summer Night Yokai 6 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2431_1",
+    "entityName": "Summer Night Yokai 6 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2432_0",
+    "entityName": "Summer Night Yokai 7 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2432_1",
+    "entityName": "Summer Night Yokai 7 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2433_0",
+    "entityName": "Summer Night Yokai 8 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2433_1",
+    "entityName": "Summer Night Yokai 8 Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_5000_0",
+    "entityName": "S0 PvP Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_5000_1",
+    "entityName": "S0 PvP Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7012_0",
+    "entityName": "S26 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7012_1",
+    "entityName": "S26 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_6103",
+    "entityName": "S51 Kinjutsu: Time Distortion"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_6104",
+    "entityName": "S51 Kinjutsu: Advance Time Distortion"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_dummy",
+    "entityName": "Dummy Reverse Healing"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_2109",
+    "entityName": "Kinjutsu: Self Offering Love",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"self\",\"type\":\"Buff\",\"effect\":\"self_love\",\"effect_name\":\"Self Love\",\"duration\":3,\"calc_type\":\"percent\",\"amount\":20,\"amount_hp\":100,\"amount_cp\":100,\"chance\":100,\"after_effect\":[{\"effect\":\"stun\",\"duration\":1,\"amount\":0},{\"effect\":\"bleeding\",\"duration\":1,\"amount\":100}]}]",
+    "newValue": "[{\"target\":\"self\",\"type\":\"Buff\",\"effect\":\"self_love\",\"effect_name\":\"Self Love\",\"duration\":3,\"calc_type\":\"percent\",\"amount\":20,\"amount_hp\":100,\"amount_cp\":100,\"chance\":100,\"after_effect\":[{\"effect\":\"stun\",\"effect_name\":\"Stun\",\"duration\":1,\"amount\":0},{\"effect\":\"bleeding\",\"effect_name\":\"Bleeding\",\"calc_type\":\"percent\",\"duration\":1,\"amount\":100}]}]"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2371",
+    "entityName": "Kinjutsu: Crow Strike"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2372",
+    "entityName": "Kinjutsu: Crow Nest"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2373",
+    "entityName": "Kinjutsu: Wave Ride"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2374",
+    "entityName": "Kinjutsu: Crimson Oni Bomb"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2375",
+    "entityName": "Kinjutsu: Advance Crimson Oni Bomb"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2376",
+    "entityName": "Kinjutsu: Demonic Crow Barrage"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2377",
+    "entityName": "Kinjutsu: Kitsune Thunder Breath"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2378",
+    "entityName": "Kinjutsu: Demonic Space Rend"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2379",
+    "entityName": "Kinjutsu: Demonic Laser"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2380",
+    "entityName": "Kinjutsu: Hellfire Eruption"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_5000",
+    "entityName": "Kinjutsu: Fiery Dance Strike"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_5001",
+    "entityName": "Kinjutsu: Crimson Torrent"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_7050",
+    "entityName": "S24 Kinjutsu: Divine Spirit Antarax - Great Aura",
+    "field": "skill_effect",
+    "oldValue": "[{\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"bloodflame\",\"effect_name\":\"Bloodflame\",\"duration\":2,\"calc_type\":\"percent\",\"amount\":30,\"amount_hp\":100,\"amount_cp\":100,\"chance\":100,\"after_effect\":[{\"effect\":\"negate\",\"duration\":2,\"amount\":0},{\"effect\":\"bleeding\",\"duration\":2,\"amount\":100}]}]",
+    "newValue": "[{\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"bloodflame\",\"effect_name\":\"Bloodflame\",\"duration\":2,\"calc_type\":\"percent\",\"amount\":30,\"amount_hp\":100,\"amount_cp\":100,\"chance\":100,\"after_effect\":[{\"effect\":\"negate\",\"effect_name\":\"Negate\",\"duration\":2,\"amount\":0},{\"effect\":\"bleeding\",\"effect_name\":\"Bleeding\",\"calc_type\":\"percent\",\"duration\":2,\"amount\":100}]}]"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_7051",
+    "entityName": "S24 Kinjutsu: Divine Spirit Antarax - Great Flame Aura",
+    "field": "skill_effect",
+    "oldValue": "[{\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"bloodflame\",\"effect_name\":\"Bloodflame\",\"duration\":2,\"calc_type\":\"percent\",\"amount\":45,\"amount_hp\":100,\"amount_cp\":100,\"chance\":100,\"after_effect\":[{\"effect\":\"negate\",\"duration\":2,\"amount\":0},{\"effect\":\"bleeding\",\"duration\":2,\"amount\":100}]}]",
+    "newValue": "[{\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"bloodflame\",\"effect_name\":\"Bloodflame\",\"duration\":2,\"calc_type\":\"percent\",\"amount\":45,\"amount_hp\":100,\"amount_cp\":100,\"chance\":100,\"after_effect\":[{\"effect\":\"negate\",\"effect_name\":\"Negate\",\"duration\":2,\"amount\":0},{\"effect\":\"bleeding\",\"effect_name\":\"Bleeding\",\"calc_type\":\"percent\",\"duration\":2,\"amount\":100}]}]"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7052",
+    "entityName": "S25 Kinjutsu: Ame no Kanata"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7053",
+    "entityName": "S25 Kinjutsu: Advanced Ame no Kanata"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_8026",
+    "entityName": "S21 Kinjutsu: True Dragon Befall"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2455",
+    "entityName": "Karasu Naginata"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2456",
+    "entityName": "Karasu Shakujo"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2457",
+    "entityName": "Mystic Kitsune Sword"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2458",
+    "entityName": "Crimson Blood Feather Blade"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2459",
+    "entityName": "Demon Eye Parasol"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2460",
+    "entityName": "Kitsune Shrine Fan"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2461",
+    "entityName": "Crimson Kanabo"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2462",
+    "entityName": "Nurarihyon Blade"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_5000",
+    "entityName": "S0 PvP: Golden Black Skull Sword"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_5001",
+    "entityName": "S0 PvP: Golden Black Skull Specter"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_5002",
+    "entityName": "S0 PvP: Golden Black Skull Cleave"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6063",
+    "entityName": "S36 Clan: Demon Shark Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":30,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"dodge_damage_bonus\",\"effect_name\":\"Strengthen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"dodge_damage_bonus\",\"effect_name\":\"Strengthen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":30,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6064",
+    "entityName": "S37 Clan: Vampire Blade - Janen",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"bloodfeed_attack\",\"effect_name\":\"Bloodfeed\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":80,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"hp_recover\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":8,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"hp_recover\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":8,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"bloodfeed_attack\",\"effect_name\":\"Bloodfeed\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":80,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6070",
+    "entityName": "S38 Clan: Jyuuou Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"reduce_cd\",\"effect_name\":\"Rewind\",\"duration\":0,\"calc_type\":\"number\",\"amount\":2,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"reduce_cd\",\"effect_name\":\"Rewind\",\"duration\":0,\"calc_type\":\"number\",\"amount\":2,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":40,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6071",
+    "entityName": "S39 Clan: Frozen Blade",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"frozen\",\"effect_name\":\"Frozen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":15,\"chance\":35}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"frozen\",\"effect_name\":\"Frozen\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":15,\"chance\":35},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_6072",
+    "entityName": "S40 Clan: Gozen Breeze Fan",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":3,\"calc_type\":\"number\",\"amount\":400,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":3,\"calc_type\":\"number\",\"amount\":400,\"chance\":20},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_6093",
+    "entityName": "S51 Clan: Sacred Phoenix Greatblade"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_7020",
+    "entityName": "S25 Shadow War: Hada Kokuto"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_8093",
+    "entityName": "S19 Crew: Primal Power Greatsword",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"damage_reduce\",\"effect_name\":\"Reduce Damage\",\"duration\":0,\"calc_type\":\"number\",\"amount\":400,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"max_hp_increase\",\"effect_name\":\"Increase Max HP\",\"duration\":0,\"calc_type\":\"number\",\"amount\":315,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"damage_reduce\",\"effect_name\":\"Reduce Damage\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":40,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"max_hp_increase\",\"effect_name\":\"Increase Max HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":15,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":45,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8103",
+    "entityName": "S21 Crew: True Dragon Giant Blade"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8104",
+    "entityName": "S21 Crew: True Dragon Edge"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8105",
+    "entityName": "S21 Crew: True Dragon Dagger"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8106",
+    "entityName": "S21 Crew: True Dragon Claw"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8107",
+    "entityName": "S21 Crew: True Dragon Dagger"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2465",
+    "entityName": "Wings of Tengu"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2466",
+    "entityName": "Tengu Spirit Vessel"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2467",
+    "entityName": "Kitsune Spirit houlder Armor"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2468",
+    "entityName": "Nurarihyon Plate Name"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2469",
+    "entityName": "Crimson Oni Banner"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2470",
+    "entityName": "Inari Divine Fan"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2471",
+    "entityName": "Mistbound Tengu"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2472",
+    "entityName": "Hyakki Yagyo"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "modified",
+    "entityId": "back_2431",
+    "entityName": "Abyssal Queen's Embrace",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":10,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"recover_hp_after_purify\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":15,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":7,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"recover_hp_after_purify\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"number\",\"amount\":500,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_5000",
+    "entityName": "S0 PvP: Golden Black Cape"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_5001",
+    "entityName": "S0 PvP: Golden Black Skull Catacomb"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_5002",
+    "entityName": "S0 PvP: Golden Black Grieving Souls"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_6052",
+    "entityName": "S51 Clan: Blood Shade Magatama"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_7020",
+    "entityName": "S25 Shadow War: Ignia the Flame"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_8041",
+    "entityName": "S21 Crew: True Dragon Scroll"
+  },
+  {
+    "syncId": "2026-07-05T11-39-04-586Z",
+    "detectedAt": "2026-07-05T11:39:04.586Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_8042",
+    "entityName": "S21 Crew: True Dragon Sensu"
+  }
+]
