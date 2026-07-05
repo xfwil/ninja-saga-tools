@@ -1,0 +1,79 @@
+[
+  {
+    "syncId": "2026-07-05T13-53-10-877Z",
+    "detectedAt": "2026-07-05T13:53:10.877Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2380",
+    "entityName": "Kinjutsu: Hellfire Eruption",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-07-05T13-53-10-877Z",
+    "detectedAt": "2026-07-05T13:53:10.877Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3501",
+    "entityName": "Senjutsu: Paper Bomb",
+    "field": "price_tokens",
+    "oldValue": 8000,
+    "newValue": 2500
+  },
+  {
+    "syncId": "2026-07-05T13-53-10-877Z",
+    "detectedAt": "2026-07-05T13:53:10.877Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3502",
+    "entityName": "Senjutsu: Flash Head Kick",
+    "field": "price_tokens",
+    "oldValue": 8000,
+    "newValue": 5000
+  },
+  {
+    "syncId": "2026-07-05T13-53-10-877Z",
+    "detectedAt": "2026-07-05T13:53:10.877Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_6103",
+    "entityName": "S51 Kinjutsu: Time Distortion",
+    "field": "source",
+    "oldValue": "[\"sw\"]",
+    "newValue": "[\"clan\"]"
+  },
+  {
+    "syncId": "2026-07-05T13-53-10-877Z",
+    "detectedAt": "2026-07-05T13:53:10.877Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_6104",
+    "entityName": "S51 Kinjutsu: Advance Time Distortion",
+    "field": "source",
+    "oldValue": "[\"sw\"]",
+    "newValue": "[\"clan\"]"
+  },
+  {
+    "syncId": "2026-07-05T13-53-10-877Z",
+    "detectedAt": "2026-07-05T13:53:10.877Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_6104",
+    "entityName": "S51 Kinjutsu: Advance Time Distortion",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-07-05T13-53-10-877Z",
+    "detectedAt": "2026-07-05T13:53:10.877Z",
+    "category": "back_effect",
+    "action": "modified",
+    "entityId": "back_2431",
+    "entityName": "Abyssal Queen's Embrace",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":7,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"recover_hp_after_purify\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"number\",\"amount\":500,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":10,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"recover_hp_after_purify\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":15,\"chance\":100}]"
+  }
+]

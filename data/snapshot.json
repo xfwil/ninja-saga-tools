@@ -29221,7 +29221,7 @@
   },
   "skill::skill_2380": {
     "name": "Kinjutsu: Hellfire Eruption",
-    "hash": "49c32c240bcf62c72c61fa83cc1caa28",
+    "hash": "2535aad77c8b42a27288c853e85fd49a",
     "data": {
       "id": "skill_2380",
       "price_tokens": 0,
@@ -29237,6 +29237,7 @@
       "name": "Kinjutsu: Hellfire Eruption",
       "type": "7",
       "category": "event",
+      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -29275,10 +29276,10 @@
   },
   "skill::skill_3501": {
     "name": "Senjutsu: Paper Bomb",
-    "hash": "128c63fb38d91bce4fb81c325054a4a9",
+    "hash": "2872432dde60b7c559db46e934d117e9",
     "data": {
       "id": "skill_3501",
-      "price_tokens": 8000,
+      "price_tokens": 2500,
       "buyable": false,
       "price_gold": 0,
       "level": 80,
@@ -29301,10 +29302,10 @@
   },
   "skill::skill_3502": {
     "name": "Senjutsu: Flash Head Kick",
-    "hash": "20817084f071a9c61ee5eba37921b505",
+    "hash": "973f8002c9ef107241803488ae48a9bc",
     "data": {
       "id": "skill_3502",
-      "price_tokens": 8000,
+      "price_tokens": 5000,
       "buyable": false,
       "price_gold": 0,
       "level": 80,
@@ -33708,7 +33709,7 @@
   },
   "skill::skill_6103": {
     "name": "S51 Kinjutsu: Time Distortion",
-    "hash": "66c527730d489f8c365567df766b915e",
+    "hash": "1c7f925af09d78f08c332ff86d2dd3ea",
     "data": {
       "id": "skill_6103",
       "price_tokens": 0,
@@ -33736,14 +33737,14 @@
         }
       },
       "source": [
-        "sw"
+        "clan"
       ],
       "attack_hit_position": "startpos"
     }
   },
   "skill::skill_6104": {
     "name": "S51 Kinjutsu: Advance Time Distortion",
-    "hash": "0f2fa1dbed9177b04907acd657156a67",
+    "hash": "3934fe59e84e4461bd67a486cedf81f9",
     "data": {
       "id": "skill_6104",
       "price_tokens": 0,
@@ -33759,6 +33760,7 @@
       "name": "S51 Kinjutsu: Advance Time Distortion",
       "type": "7",
       "category": "clan",
+      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -33770,7 +33772,7 @@
         }
       },
       "source": [
-        "sw"
+        "clan"
       ],
       "attack_hit_position": "startpos"
     }
