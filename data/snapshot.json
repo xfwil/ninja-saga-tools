@@ -29191,7 +29191,7 @@
   },
   "skill::skill_2379": {
     "name": "Kinjutsu: Demonic Laser",
-    "hash": "e5b77e04e0518cc5f71085ceca5413cc",
+    "hash": "55afb1d563ed15c5498e45884418bd28",
     "data": {
       "id": "skill_2379",
       "price_tokens": 0,
@@ -29210,7 +29210,7 @@
       "premium": false,
       "anims": {
         "hit": [
-          109
+          55
         ]
       },
       "attack_hit_position": "range_3",
@@ -29221,7 +29221,7 @@
   },
   "skill::skill_2380": {
     "name": "Kinjutsu: Hellfire Eruption",
-    "hash": "2535aad77c8b42a27288c853e85fd49a",
+    "hash": "49c32c240bcf62c72c61fa83cc1caa28",
     "data": {
       "id": "skill_2380",
       "price_tokens": 0,
@@ -29237,7 +29237,6 @@
       "name": "Kinjutsu: Hellfire Eruption",
       "type": "7",
       "category": "event",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -29893,7 +29892,7 @@
   },
   "skill::skill_3201": {
     "name": "Senjutsu: Slug Sage",
-    "hash": "19665e9a3271a49332dd865f0748e951",
+    "hash": "ca0bfa3d311c80a8c346eeb58ba98590",
     "data": {
       "id": "skill_3201",
       "price_tokens": 0,
@@ -29910,7 +29909,6 @@
       "type": "11",
       "multi_hit": false,
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           69
@@ -29925,7 +29923,7 @@
   },
   "skill::skill_3202": {
     "name": "Senjutsu: Slug Protection",
-    "hash": "7b12deb097e3c14c456280e0e61143ca",
+    "hash": "b6e89b1a7785b6c3f11de3bef2717cd5",
     "data": {
       "id": "skill_3202",
       "price_tokens": 0,
@@ -29942,7 +29940,6 @@
       "type": "11",
       "multi_hit": false,
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           108
@@ -29953,7 +29950,7 @@
   },
   "skill::skill_3203": {
     "name": "Senjutsu: Slug Explosion",
-    "hash": "ba123056cb23a158dc36891e8e2b0e75",
+    "hash": "fbc132dbac93ab0c260adc6bc393fd3b",
     "data": {
       "id": "skill_3203",
       "price_tokens": 0,
@@ -29970,7 +29967,6 @@
       "type": "11",
       "multi_hit": false,
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           72
@@ -30003,7 +29999,7 @@
   },
   "skill::skill_3205": {
     "name": "Senjutsu: Chakra Kick",
-    "hash": "94c5e26c0ad849ac5d1fb3cc32ec1aea",
+    "hash": "d7e0c1c3b92662c6316a73dee89965f2",
     "data": {
       "id": "skill_3205",
       "price_tokens": 0,
@@ -30020,7 +30016,6 @@
       "type": "11",
       "multi_hit": false,
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           22
@@ -30031,7 +30026,7 @@
   },
   "skill::skill_3206": {
     "name": "Senjutsu: Chakra Mega Punch",
-    "hash": "0f363c196998e43af7d7d7558635b347",
+    "hash": "beddb82cdd38b1ce791019c7828c9338",
     "data": {
       "id": "skill_3206",
       "price_tokens": 0,
@@ -30048,7 +30043,6 @@
       "type": "11",
       "multi_hit": false,
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           41
@@ -30059,7 +30053,7 @@
   },
   "skill::skill_3207": {
     "name": "Senjutsu: Slug Blessing",
-    "hash": "daa70cdf3e737deadef0e519a5b9344c",
+    "hash": "379b7a94d851e55dd44ef64bf9e944db",
     "data": {
       "id": "skill_3207",
       "price_tokens": 0,
@@ -30076,7 +30070,6 @@
       "type": "11",
       "multi_hit": true,
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           98
@@ -30087,7 +30080,7 @@
   },
   "skill::skill_3208": {
     "name": "Senjutsu: Stoneheart Fortitude",
-    "hash": "4e31013c575ce2358b4936b4bb2a183c",
+    "hash": "69e648f958ed62c5b418e485779ee14b",
     "data": {
       "id": "skill_3208",
       "price_tokens": 0,
@@ -30104,7 +30097,6 @@
       "type": "11",
       "multi_hit": false,
       "premium": false,
-      "na": true,
       "anims": [],
       "attack_hit_position": null
     }

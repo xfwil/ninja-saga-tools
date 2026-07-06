@@ -1,0 +1,101 @@
+[
+  {
+    "syncId": "2026-07-06T20-57-45-839Z",
+    "detectedAt": "2026-07-06T20:57:45.839Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2379",
+    "entityName": "Kinjutsu: Demonic Laser",
+    "field": "anims.hit",
+    "oldValue": "[109]",
+    "newValue": "[55]"
+  },
+  {
+    "syncId": "2026-07-06T20-57-45-839Z",
+    "detectedAt": "2026-07-06T20:57:45.839Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2380",
+    "entityName": "Kinjutsu: Hellfire Eruption",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-06T20-57-45-839Z",
+    "detectedAt": "2026-07-06T20:57:45.839Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3201",
+    "entityName": "Senjutsu: Slug Sage",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-06T20-57-45-839Z",
+    "detectedAt": "2026-07-06T20:57:45.839Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3202",
+    "entityName": "Senjutsu: Slug Protection",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-06T20-57-45-839Z",
+    "detectedAt": "2026-07-06T20:57:45.839Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3203",
+    "entityName": "Senjutsu: Slug Explosion",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-06T20-57-45-839Z",
+    "detectedAt": "2026-07-06T20:57:45.839Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3205",
+    "entityName": "Senjutsu: Chakra Kick",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-06T20-57-45-839Z",
+    "detectedAt": "2026-07-06T20:57:45.839Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3206",
+    "entityName": "Senjutsu: Chakra Mega Punch",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-06T20-57-45-839Z",
+    "detectedAt": "2026-07-06T20:57:45.839Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3207",
+    "entityName": "Senjutsu: Slug Blessing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-06T20-57-45-839Z",
+    "detectedAt": "2026-07-06T20:57:45.839Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3208",
+    "entityName": "Senjutsu: Stoneheart Fortitude",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  }
+]
