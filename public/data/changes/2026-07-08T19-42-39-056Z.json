@@ -1,0 +1,145 @@
+[
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3201",
+    "entityName": "Senjutsu: Slug Sage",
+    "field": "cp_cost",
+    "oldValue": 1000,
+    "newValue": 1500
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3202",
+    "entityName": "Senjutsu: Slug Protection",
+    "field": "cp_cost",
+    "oldValue": 400,
+    "newValue": 750
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3203",
+    "entityName": "Senjutsu: Slug Explosion",
+    "field": "cp_cost",
+    "oldValue": 550,
+    "newValue": 800
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3205",
+    "entityName": "Senjutsu: Chakra Kick",
+    "field": "damage",
+    "oldValue": 1000,
+    "newValue": 800
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3206",
+    "entityName": "Senjutsu: Chakra Mega Punch",
+    "field": "damage",
+    "oldValue": 1200,
+    "newValue": 900
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3206",
+    "entityName": "Senjutsu: Chakra Mega Punch",
+    "field": "cp_cost",
+    "oldValue": 800,
+    "newValue": 700
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3207",
+    "entityName": "Senjutsu: Slug Blessing",
+    "field": "cp_cost",
+    "oldValue": 1000,
+    "newValue": 700
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3209",
+    "entityName": "Senjutsu: Slug Absorption",
+    "field": "damage",
+    "oldValue": 900,
+    "newValue": 600
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3209",
+    "entityName": "Senjutsu: Slug Absorption",
+    "field": "cp_cost",
+    "oldValue": 800,
+    "newValue": 700
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3209",
+    "entityName": "Senjutsu: Slug Absorption",
+    "field": "cooldown",
+    "oldValue": 25,
+    "newValue": 22
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3210",
+    "entityName": "Senjutsu: Slug Breath",
+    "field": "damage",
+    "oldValue": 1200,
+    "newValue": 1000
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3210",
+    "entityName": "Senjutsu: Slug Breath",
+    "field": "cp_cost",
+    "oldValue": 1000,
+    "newValue": 800
+  },
+  {
+    "syncId": "2026-07-08T19-42-39-056Z",
+    "detectedAt": "2026-07-08T19:42:39.056Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_3210",
+    "entityName": "Senjutsu: Slug Breath",
+    "field": "cooldown",
+    "oldValue": 50,
+    "newValue": 30
+  }
+]
