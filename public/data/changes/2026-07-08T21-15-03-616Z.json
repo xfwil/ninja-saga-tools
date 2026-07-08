@@ -1,0 +1,13 @@
+[
+  {
+    "syncId": "2026-07-08T21-15-03-616Z",
+    "detectedAt": "2026-07-08T21:15:03.616Z",
+    "category": "back_effect",
+    "action": "modified",
+    "entityId": "back_2431",
+    "entityName": "Abyssal Queen's Embrace",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":7,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"recover_hp_after_purify\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"number\",\"amount\":500,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":10,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"recover_hp_after_purify\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":15,\"chance\":100}]"
+  }
+]
