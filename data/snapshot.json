@@ -253023,7 +253023,7 @@
   },
   "back_effect::back_2473": {
     "name": "Yokai Eye",
-    "hash": "020d01544201c89ccd7b664fcca35ece",
+    "hash": "748e211fa16b1c2efa9182b34b504dac",
     "data": {
       "id": "back_2473",
       "effects": [
@@ -253036,6 +253036,17 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "recover_cp_after_purify",
+          "effect_name": "Recover CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 14,
           "chance": 100
         }
       ]
