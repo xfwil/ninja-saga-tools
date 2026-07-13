@@ -1,0 +1,126 @@
+[
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7052",
+    "entityName": "S25 Kinjutsu: Ame no Kanata",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7053",
+    "entityName": "S25 Kinjutsu: Advanced Ame no Kanata",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7054",
+    "entityName": "S26 Kinjutsu: Phantom Time"
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7055",
+    "entityName": "S26 Kinjutsu: Advanced Phantom Time"
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_7020",
+    "entityName": "S25 Shadow War: Hada Kokuto",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_7021",
+    "entityName": "S26 Shadow War: Thief Sword"
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_7020",
+    "entityName": "S25 Shadow War: Ignia the Flame",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_7021",
+    "entityName": "S26 Shadow War: Thief Scarf"
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7078_0",
+    "entityName": "S26 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7078_1",
+    "entityName": "S26 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7079_0",
+    "entityName": "S26 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7079_1",
+    "entityName": "S26 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7080_0",
+    "entityName": "S26 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-07-13T07-27-45-307Z",
+    "detectedAt": "2026-07-13T07:27:45.307Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7080_1",
+    "entityName": "S26 Shadow War Participant"
+  }
+]

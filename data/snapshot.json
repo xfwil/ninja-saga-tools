@@ -35414,7 +35414,7 @@
   },
   "skill::skill_7052": {
     "name": "S25 Kinjutsu: Ame no Kanata",
-    "hash": "bed2cbadb180db5c64e48ae7b6d3693b",
+    "hash": "389452be399115f5aa442e92be334068",
     "data": {
       "id": "skill_7052",
       "price_tokens": 0,
@@ -35432,7 +35432,6 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           80
@@ -35451,7 +35450,7 @@
   },
   "skill::skill_7053": {
     "name": "S25 Kinjutsu: Advanced Ame no Kanata",
-    "hash": "bd3fef4a6774d584d866c6de7522c274",
+    "hash": "06e0c52eafea30b8bec8f747ccf62d24",
     "data": {
       "id": "skill_7053",
       "price_tokens": 0,
@@ -35469,7 +35468,6 @@
       "type": "7",
       "category": "shadowwar",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           101
@@ -35478,6 +35476,77 @@
           "add": 79,
           "remove": 147,
           "top": true
+        }
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "meele_2"
+    }
+  },
+  "skill::skill_7054": {
+    "name": "S26 Kinjutsu: Phantom Time",
+    "hash": "9d7e1f42b0effc1d0aac349a3fbe7cab",
+    "data": {
+      "id": "skill_7054",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 800,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflicts 'Blood Tax' for 2 turns. Whenever the target attacks, reduces their HP by 7% and recovers the same amount to the user. This effect cannot be purified.",
+      "name": "S26 Kinjutsu: Phantom Time",
+      "type": "7",
+      "category": "shadowwar",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          206
+        ],
+        "fullscreen": {
+          "add": 65,
+          "remove": 155
+        }
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "meele_2"
+    }
+  },
+  "skill::skill_7055": {
+    "name": "S26 Kinjutsu: Advanced Phantom Time",
+    "hash": "51bea4656f7306ec953ab6876e25d183",
+    "data": {
+      "id": "skill_7055",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 635,
+      "cooldown": 14,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Inflicts 'Recoil Curse' for 3 turns. Whenever the target attacks, reduces their HP by 10% and recovers the reduced amount to the user. For AoE attacks, HP reduction is applied to each affected target separately and accumulated. This effect cannot be purified.",
+      "name": "S26 Kinjutsu: Advanced Phantom Time",
+      "type": "7",
+      "category": "shadowwar",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          137
+        ],
+        "fullscreen": {
+          "add": 56,
+          "remove": 144
         }
       },
       "source": [
@@ -63461,7 +63530,7 @@
   },
   "library::wpn_7020": {
     "name": "S25 Shadow War: Hada Kokuto",
-    "hash": "a69cecff3a5a222c5c35095d4b3422ff",
+    "hash": "420ff9cebe219f957eebeecbd4d82e17",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -63474,6 +63543,31 @@
       "id": "wpn_7020",
       "price_gold": 0,
       "name": "S25 Shadow War: Hada Kokuto",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::wpn_7021": {
+    "name": "S26 Shadow War: Thief Sword",
+    "hash": "25e5bff85bcc45c2d9caea02cf62fbe3",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S26 Shadow War Reward: Increase accuracy by 40% and increase max SP by 200. Drain 7% of enemy CP after successful weapon attack.",
+      "level": 80,
+      "damage": 549,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_7021",
+      "price_gold": 0,
+      "name": "S26 Shadow War: Thief Sword",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -84045,7 +84139,7 @@
   },
   "library::back_7020": {
     "name": "S25 Shadow War: Ignia the Flame",
-    "hash": "b04173f2f0b6aa2679a20c38a2cee914",
+    "hash": "8d104e89f280bd9f9b20623a535b653f",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -84058,6 +84152,31 @@
       "id": "back_7020",
       "price_gold": 0,
       "name": "S25 Shadow War: Ignia the Flame",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::back_7021": {
+    "name": "S26 Shadow War: Thief Scarf",
+    "hash": "9eb7e4b4e8fee00a442c778e0769ccde",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S26 Shadow War Reward: Has 12% chance to rebound all damage.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_7021",
+      "price_gold": 0,
+      "name": "S26 Shadow War: Thief Scarf",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -150871,6 +150990,155 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7078_0": {
+    "name": "S26 Shadow War Champion",
+    "hash": "689efcc1395cf8a22dc1c620ced36aff",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 26 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7078_0",
+      "price_gold": 0,
+      "name": "S26 Shadow War Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7078_1": {
+    "name": "S26 Shadow War Champion",
+    "hash": "237725d6e880692e8c6649997cd088ac",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 26 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7078_1",
+      "price_gold": 0,
+      "name": "S26 Shadow War Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7079_0": {
+    "name": "S26 Shadow War Runner Up",
+    "hash": "34dadc299cd047dac917675cafd084e3",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 26 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7079_0",
+      "price_gold": 0,
+      "name": "S26 Shadow War Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7079_1": {
+    "name": "S26 Shadow War Runner Up",
+    "hash": "8c7e476cbf20b2576e567b1319e5855e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 26 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7079_1",
+      "price_gold": 0,
+      "name": "S26 Shadow War Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7080_0": {
+    "name": "S26 Shadow War Participant",
+    "hash": "8993ec87d0e4fe84147282456200d009",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 26",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7080_0",
+      "price_gold": 0,
+      "name": "S26 Shadow War Participant",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7080_1": {
+    "name": "S26 Shadow War Participant",
+    "hash": "e6d8e52e426626410e2c6860de18fe82",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 26",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7080_1",
+      "price_gold": 0,
+      "name": "S26 Shadow War Participant",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
       "source": [
         "sw"
       ]

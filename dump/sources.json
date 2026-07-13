@@ -2195,6 +2195,9 @@
   "wpn_7020": [
     "shadow_war"
   ],
+  "wpn_7021": [
+    "shadow_war"
+  ],
   "wpn_8001": [
     "crew_battle"
   ],
@@ -3567,6 +3570,9 @@
     "shadow_war"
   ],
   "back_7020": [
+    "shadow_war"
+  ],
+  "back_7021": [
     "shadow_war"
   ],
   "back_8001": [
@@ -8140,6 +8146,24 @@
   "set_7077_1": [
     "shadow_war"
   ],
+  "set_7078_0": [
+    "shadow_war"
+  ],
+  "set_7078_1": [
+    "shadow_war"
+  ],
+  "set_7079_0": [
+    "shadow_war"
+  ],
+  "set_7079_1": [
+    "shadow_war"
+  ],
+  "set_7080_0": [
+    "shadow_war"
+  ],
+  "set_7080_1": [
+    "shadow_war"
+  ],
   "set_8001_0": [
     "shop_crew"
   ],
@@ -12380,6 +12404,12 @@
     "shadow_war"
   ],
   "skill_7053": [
+    "shadow_war"
+  ],
+  "skill_7054": [
+    "shadow_war"
+  ],
+  "skill_7055": [
     "shadow_war"
   ],
   "skill_8001": [
