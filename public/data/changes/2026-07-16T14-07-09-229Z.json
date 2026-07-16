@@ -1,0 +1,91 @@
+[
+  {
+    "syncId": "2026-07-16T14-07-09-229Z",
+    "detectedAt": "2026-07-16T14:07:09.229Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_871",
+    "entityName": "skill_871"
+  },
+  {
+    "syncId": "2026-07-16T14-07-09-229Z",
+    "detectedAt": "2026-07-16T14:07:09.229Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_872",
+    "entityName": "skill_872"
+  },
+  {
+    "syncId": "2026-07-16T14-07-09-229Z",
+    "detectedAt": "2026-07-16T14:07:09.229Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_873",
+    "entityName": "skill_873"
+  },
+  {
+    "syncId": "2026-07-16T14-07-09-229Z",
+    "detectedAt": "2026-07-16T14:07:09.229Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_874",
+    "entityName": "skill_874"
+  },
+  {
+    "syncId": "2026-07-16T14-07-09-229Z",
+    "detectedAt": "2026-07-16T14:07:09.229Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_875",
+    "entityName": "skill_875"
+  },
+  {
+    "syncId": "2026-07-16T14-07-09-229Z",
+    "detectedAt": "2026-07-16T14:07:09.229Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_2380",
+    "entityName": "Kinjutsu: Hellfire Eruption",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"blaze\",\"effect_name\":\"Blaze\",\"duration\":5,\"calc_type\":\"percent\",\"amount\":3,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"blaze\",\"effect_name\":\"Blaze\",\"duration\":3,\"calc_type\":\"percent\",\"amount\":5,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-07-16T14-07-09-229Z",
+    "detectedAt": "2026-07-16T14:07:09.229Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7054",
+    "entityName": "S26 Kinjutsu: Phantom Time"
+  },
+  {
+    "syncId": "2026-07-16T14-07-09-229Z",
+    "detectedAt": "2026-07-16T14:07:09.229Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7055",
+    "entityName": "S26 Kinjutsu: Advanced Phantom Time"
+  },
+  {
+    "syncId": "2026-07-16T14-07-09-229Z",
+    "detectedAt": "2026-07-16T14:07:09.229Z",
+    "category": "back_effect",
+    "action": "modified",
+    "entityId": "back_2469",
+    "entityName": "Crimson Oni Banner",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"damage_reduce\",\"effect_name\":\"Reduce Damage\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"damage_reduce\",\"effect_name\":\"Reduce Damage\",\"duration\":0,\"calc_type\":\"number\",\"amount\":100,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-07-16T14-07-09-229Z",
+    "detectedAt": "2026-07-16T14:07:09.229Z",
+    "category": "back_effect",
+    "action": "modified",
+    "entityId": "back_2473",
+    "entityName": "Yokai Eye",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":7,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"recover_cp_after_purify\",\"effect_name\":\"Recover CP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":14,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":7,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"recover_hp_after_purify\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":13,\"chance\":100}]"
+  }
+]

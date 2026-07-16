@@ -187859,6 +187859,116 @@
       ]
     }
   },
+  "skill_effect::skill_871": {
+    "name": "skill_871",
+    "hash": "609e5fc5e710c44727da60a226134a35",
+    "data": {
+      "skill_id": "skill_871",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 3,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 75,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_872": {
+    "name": "skill_872",
+    "hash": "771b2671f9e47bb662517a5990b3fbb3",
+    "data": {
+      "skill_id": "skill_872",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "restriction",
+          "effect_name": "Restriction",
+          "duration": 2,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "flaming",
+          "effect_name": "Flaming",
+          "duration": 5,
+          "calc_type": "number",
+          "amount": 500,
+          "amount_cp": 500,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_873": {
+    "name": "skill_873",
+    "hash": "df1207a529c2e5f8f0b2906a87dd0c81",
+    "data": {
+      "skill_id": "skill_873",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "slow",
+          "effect_name": "Slow",
+          "duration": 3,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 20,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_874": {
+    "name": "skill_874",
+    "hash": "a71f10a573ea5cc852bd8c5a3bf481c1",
+    "data": {
+      "skill_id": "skill_874",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_cp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 75,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_875": {
+    "name": "skill_875",
+    "hash": "1230de5bbf6a2b582ff982449589fb1c",
+    "data": {
+      "skill_id": "skill_875",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "damage_to_hp",
+          "effect_name": "Convert Damage to HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_2001": {
     "name": "Kinjutsu: Shark Refresh",
     "hash": "ea15148f3824960e9fbd9ec954fc151b",
@@ -197127,7 +197237,7 @@
   },
   "skill_effect::skill_2380": {
     "name": "Kinjutsu: Hellfire Eruption",
-    "hash": "ffed1262576a57df0a8b9f38480d8939",
+    "hash": "041e5be47b06638fc582c4534aeaebed",
     "data": {
       "skill_id": "skill_2380",
       "skill_effect": [
@@ -197136,9 +197246,9 @@
           "type": "Debuff",
           "effect": "blaze",
           "effect_name": "Blaze",
-          "duration": 5,
+          "duration": 3,
           "calc_type": "percent",
-          "amount": 3,
+          "amount": 5,
           "chance": 100
         }
       ]
@@ -201508,6 +201618,45 @@
           "calc_type": "",
           "amount": 0,
           "background_id": "mission_1073",
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_7054": {
+    "name": "S26 Kinjutsu: Phantom Time",
+    "hash": "b13bd09a1ed76b05909aff24609a0223",
+    "data": {
+      "skill_id": "skill_7054",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "blood_tax",
+          "effect_name": "Blood Tax",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 7,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_7055": {
+    "name": "S26 Kinjutsu: Advanced Phantom Time",
+    "hash": "65e5b79dcef323f09b1e96c49023f04d",
+    "data": {
+      "skill_id": "skill_7055",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "recoil_curse",
+          "effect_name": "Recoil Curse",
+          "duration": 3,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 10,
           "chance": 100
         }
       ]
@@ -253189,7 +253338,7 @@
   },
   "back_effect::back_2469": {
     "name": "Crimson Oni Banner",
-    "hash": "af34c73b07d6fb7cfb5d9e9e792d6e3e",
+    "hash": "0093aba9b711f17f1fde2eb5c286845a",
     "data": {
       "id": "back_2469",
       "effects": [
@@ -253200,7 +253349,7 @@
           "effect": "damage_reduce",
           "effect_name": "Reduce Damage",
           "duration": 0,
-          "calc_type": "percent",
+          "calc_type": "number",
           "amount": 100,
           "chance": 100
         }
@@ -253291,7 +253440,7 @@
   },
   "back_effect::back_2473": {
     "name": "Yokai Eye",
-    "hash": "748e211fa16b1c2efa9182b34b504dac",
+    "hash": "abca69ca7cf24a094f727a32a3a84995",
     "data": {
       "id": "back_2473",
       "effects": [
@@ -253310,11 +253459,11 @@
           "passive": true,
           "type": "Buff",
           "target": "self",
-          "effect": "recover_cp_after_purify",
-          "effect_name": "Recover CP",
+          "effect": "recover_hp_after_purify",
+          "effect_name": "Recover HP",
           "duration": 0,
           "calc_type": "percent",
-          "amount": 14,
+          "amount": 13,
           "chance": 100
         }
       ]
