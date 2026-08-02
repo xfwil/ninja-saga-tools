@@ -1,0 +1,364 @@
+[
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_871",
+    "entityName": "skill_871",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"bleeding\",\"effect_name\":\"Bleeding\",\"duration\":3,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":75,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"bleeding\",\"effect_name\":\"Bleeding\",\"duration\":3,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":85,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_872",
+    "entityName": "skill_872",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"restriction\",\"effect_name\":\"Restriction\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"flaming\",\"effect_name\":\"Flaming\",\"duration\":5,\"calc_type\":\"number\",\"amount\":500,\"amount_cp\":500,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"restriction\",\"effect_name\":\"Restriction\",\"duration\":2,\"calc_type\":\"\",\"amount\":0,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"flaming\",\"effect_name\":\"Flaming\",\"duration\":4,\"calc_type\":\"number\",\"amount\":550,\"amount_cp\":550,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_873",
+    "entityName": "skill_873",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"slow\",\"effect_name\":\"Slow\",\"duration\":3,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":20,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"slow\",\"effect_name\":\"Slow\",\"duration\":3,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":30,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_874",
+    "entityName": "skill_874",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"insta_reduce_max_cp\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":75,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"insta_reduce_max_cp\",\"reduce_type\":\"MAX\",\"effect_name\":\"Reduce CP\",\"duration\":0,\"calc_type\":\"percent\",\"multi_hit\":true,\"amount\":70,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "modified",
+    "entityId": "skill_875",
+    "entityName": "skill_875",
+    "field": "skill_effect",
+    "oldValue": "[{\"target\":\"self\",\"type\":\"Buff\",\"effect\":\"damage_to_hp\",\"effect_name\":\"Convert Damage to HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100}]",
+    "newValue": "[{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"prison\",\"effect_name\":\"Prison\",\"duration\":2,\"calc_type\":\"percent\",\"amount\":10,\"amount_cp\":10,\"chance\":100},{\"target\":\"enemy\",\"type\":\"Debuff\",\"effect\":\"weaken\",\"effect_name\":\"Weaken\",\"duration\":2,\"calc_type\":\"percent\",\"amount\":100,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2381",
+    "entityName": "skill_2381"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2382",
+    "entityName": "skill_2382"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2383",
+    "entityName": "skill_2383"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2384",
+    "entityName": "skill_2384"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2385",
+    "entityName": "skill_2385"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2386",
+    "entityName": "skill_2386"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2387",
+    "entityName": "skill_2387"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2388",
+    "entityName": "skill_2388"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2389",
+    "entityName": "skill_2389"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2390",
+    "entityName": "skill_2390"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_8027",
+    "entityName": "skill_8027"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2463",
+    "entityName": "wpn_2463"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2464",
+    "entityName": "wpn_2464"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2465",
+    "entityName": "wpn_2465"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2466",
+    "entityName": "wpn_2466"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2467",
+    "entityName": "wpn_2467"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2468",
+    "entityName": "wpn_2468"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_5003",
+    "entityName": "wpn_5003"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_5004",
+    "entityName": "wpn_5004"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_7021",
+    "entityName": "S26 Shadow War: Thief Sword"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8108",
+    "entityName": "wpn_8108"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8109",
+    "entityName": "wpn_8109"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8110",
+    "entityName": "wpn_8110"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8111",
+    "entityName": "wpn_8111"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8112",
+    "entityName": "wpn_8112"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "modified",
+    "entityId": "back_2473",
+    "entityName": "Yokai Eye",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":7,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"recover_hp_after_purify\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":13,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"purify_increase\",\"effect_name\":\"Increase Purify Chance\",\"duration\":0,\"calc_type\":\"number\",\"amount\":7,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"recover_hp_after_purify\",\"effect_name\":\"Recover HP\",\"duration\":0,\"calc_type\":\"number\",\"amount\":500,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2474",
+    "entityName": "back_2474"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2475",
+    "entityName": "back_2475"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2476",
+    "entityName": "back_2476"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2477",
+    "entityName": "back_2477"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2478",
+    "entityName": "back_2478"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2479",
+    "entityName": "back_2479"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_5003",
+    "entityName": "back_5003"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_5004",
+    "entityName": "back_5004"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_7021",
+    "entityName": "S26 Shadow War: Thief Scarf"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_8043",
+    "entityName": "back_8043"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_8044",
+    "entityName": "back_8044"
+  },
+  {
+    "syncId": "2026-08-02T16-04-48-708Z",
+    "detectedAt": "2026-08-02T16:04:48.708Z",
+    "category": "skill_effect",
+    "action": "removed",
+    "entityId": "skill_5048",
+    "entityName": "Kinjutsu: Futen Bullet"
+  }
+]

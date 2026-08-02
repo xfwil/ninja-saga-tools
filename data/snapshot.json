@@ -187861,7 +187861,7 @@
   },
   "skill_effect::skill_871": {
     "name": "skill_871",
-    "hash": "609e5fc5e710c44727da60a226134a35",
+    "hash": "7db47340500cdc7a4dc1b0f2716b1a3c",
     "data": {
       "skill_id": "skill_871",
       "skill_effect": [
@@ -187873,7 +187873,7 @@
           "duration": 3,
           "calc_type": "percent",
           "multi_hit": true,
-          "amount": 75,
+          "amount": 85,
           "chance": 100
         }
       ]
@@ -187881,7 +187881,7 @@
   },
   "skill_effect::skill_872": {
     "name": "skill_872",
-    "hash": "771b2671f9e47bb662517a5990b3fbb3",
+    "hash": "da7d50385aa6334e0bac8dd631741ac4",
     "data": {
       "skill_id": "skill_872",
       "skill_effect": [
@@ -187900,10 +187900,10 @@
           "type": "Debuff",
           "effect": "flaming",
           "effect_name": "Flaming",
-          "duration": 5,
+          "duration": 4,
           "calc_type": "number",
-          "amount": 500,
-          "amount_cp": 500,
+          "amount": 550,
+          "amount_cp": 550,
           "chance": 100
         }
       ]
@@ -187911,7 +187911,7 @@
   },
   "skill_effect::skill_873": {
     "name": "skill_873",
-    "hash": "df1207a529c2e5f8f0b2906a87dd0c81",
+    "hash": "4aae528c5ba94e7f5e8d50be7c8e7a29",
     "data": {
       "skill_id": "skill_873",
       "skill_effect": [
@@ -187923,7 +187923,7 @@
           "duration": 3,
           "calc_type": "percent",
           "multi_hit": true,
-          "amount": 20,
+          "amount": 30,
           "chance": 100
         }
       ]
@@ -187931,7 +187931,7 @@
   },
   "skill_effect::skill_874": {
     "name": "skill_874",
-    "hash": "a71f10a573ea5cc852bd8c5a3bf481c1",
+    "hash": "7ce2f83536f2eda81eb62eb07bf77140",
     "data": {
       "skill_id": "skill_874",
       "skill_effect": [
@@ -187944,7 +187944,7 @@
           "duration": 0,
           "calc_type": "percent",
           "multi_hit": true,
-          "amount": 75,
+          "amount": 70,
           "chance": 100
         }
       ]
@@ -187952,16 +187952,27 @@
   },
   "skill_effect::skill_875": {
     "name": "skill_875",
-    "hash": "1230de5bbf6a2b582ff982449589fb1c",
+    "hash": "87ed70f44df2c5aad404e3774877087d",
     "data": {
       "skill_id": "skill_875",
       "skill_effect": [
         {
-          "target": "self",
-          "type": "Buff",
-          "effect": "damage_to_hp",
-          "effect_name": "Convert Damage to HP",
-          "duration": 0,
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "prison",
+          "effect_name": "Prison",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 10,
+          "amount_cp": 10,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "weaken",
+          "effect_name": "Weaken",
+          "duration": 2,
           "calc_type": "percent",
           "amount": 100,
           "chance": 100
@@ -197254,6 +197265,238 @@
       ]
     }
   },
+  "skill_effect::skill_2381": {
+    "name": "skill_2381",
+    "hash": "1a2278eb3fbfbe535eaa55ee2fb179ae",
+    "data": {
+      "skill_id": "skill_2381",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "flexible",
+          "effect_name": "Flexible",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 50,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2382": {
+    "name": "skill_2382",
+    "hash": "635cd9be6a9b580d637d713c40441d7e",
+    "data": {
+      "skill_id": "skill_2382",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "chaos",
+          "effect_name": "Chaos",
+          "duration": 3,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2383": {
+    "name": "skill_2383",
+    "hash": "f2296c381aa3c36732b8a61d65197cd4",
+    "data": {
+      "skill_id": "skill_2383",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 50,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2384": {
+    "name": "skill_2384",
+    "hash": "5038162b4b49096ab1ce821251020e78",
+    "data": {
+      "skill_id": "skill_2384",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 9,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2385": {
+    "name": "skill_2385",
+    "hash": "182ee9859cabb90e2d1c00b461be86de",
+    "data": {
+      "skill_id": "skill_2385",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "internal_injury",
+          "effect_name": "Internal Injury",
+          "duration": 3,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2386": {
+    "name": "skill_2386",
+    "hash": "ec55550746e10578390df0c2d1ac3191",
+    "data": {
+      "skill_id": "skill_2386",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "darkness",
+          "effect_name": "Darkness",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 20,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2387": {
+    "name": "skill_2387",
+    "hash": "d9bd4682a483e988ecd3d18724393d1e",
+    "data": {
+      "skill_id": "skill_2387",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "darkness",
+          "effect_name": "Darkness",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2388": {
+    "name": "skill_2388",
+    "hash": "e2e1b38880908359fb0d1f7b84b31be7",
+    "data": {
+      "skill_id": "skill_2388",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "numb",
+          "effect_name": "Numb",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 70,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "weaken",
+          "effect_name": "Weaken",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 70,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2389": {
+    "name": "skill_2389",
+    "hash": "b85d8fe5e458d228ae78f13a219d0249",
+    "data": {
+      "skill_id": "skill_2389",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 12,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2390": {
+    "name": "skill_2390",
+    "hash": "a8500e17b95830bf18f6b1f42ad2048e",
+    "data": {
+      "skill_id": "skill_2390",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "power_up",
+          "effect_name": "Strengthen",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 50,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "increase_agility",
+          "effect_name": "Agility Increase",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 50,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_5000": {
     "name": "Kinjutsu: Fiery Dance Strike",
     "hash": "f90c0a88545ce64163338b6e587d58e2",
@@ -199936,35 +200179,6 @@
       ]
     }
   },
-  "skill_effect::skill_5048": {
-    "name": "Kinjutsu: Futen Bullet",
-    "hash": "4422d88db14e4923b07dbac1431a7a10",
-    "data": {
-      "skill_id": "skill_5048",
-      "skill_effect": [
-        {
-          "target": "enemy",
-          "type": "Debuff",
-          "effect": "insta_reduce_max_hp",
-          "reduce_type": "MAX",
-          "effect_name": "Reduce HP",
-          "duration": 0,
-          "calc_type": "percent",
-          "amount": 5
-        },
-        {
-          "target": "enemy",
-          "type": "Debuff",
-          "effect": "bleeding",
-          "effect_name": "Bleeding",
-          "duration": 2,
-          "calc_type": "percent",
-          "amount": 20,
-          "chance": 100
-        }
-      ]
-    }
-  },
   "skill_effect::skill_5049": {
     "name": "Kinjutsu: Advanced Futen Bullet",
     "hash": "ebdca35a9a5c5220295fa9b470478f01",
@@ -202318,6 +202532,36 @@
           "duration": 3,
           "calc_type": "percent",
           "amount": 50,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_8027": {
+    "name": "skill_8027",
+    "hash": "59fc7220d53f73d5dd78f93050c57540",
+    "data": {
+      "skill_id": "skill_8027",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "damage_absorption",
+          "effect_name": "Damage Absorption",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 80,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "fire_wall",
+          "effect_name": "Fire Wall",
+          "duration": 3,
+          "amount_duration": 3,
+          "calc_type": "percent",
+          "amount": 5,
           "chance": 100
         }
       ]
@@ -226957,6 +227201,226 @@
       ]
     }
   },
+  "weapon_effect::wpn_2463": {
+    "name": "wpn_2463",
+    "hash": "d762d4d15faf03ec756dca791f0d2791",
+    "data": {
+      "id": "wpn_2463",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 25,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 150,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2464": {
+    "name": "wpn_2464",
+    "hash": "110fd677f0eb2878411b3c498c53bf29",
+    "data": {
+      "id": "wpn_2464",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 150,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2465": {
+    "name": "wpn_2465",
+    "hash": "79a06ca31ca8ca5fee88d2600f6ad633",
+    "data": {
+      "id": "wpn_2465",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 25,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_damage_bonus",
+          "effect_name": "Strengthen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 20,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2466": {
+    "name": "wpn_2466",
+    "hash": "4162ba7bcc2a8917e9da3142399bfc8b",
+    "data": {
+      "id": "wpn_2466",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 13,
+          "chance": 13
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2467": {
+    "name": "wpn_2467",
+    "hash": "d7d54d36900894e1d0679e0e1583dd00",
+    "data": {
+      "id": "wpn_2467",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "burn",
+          "effect_name": "Burn",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2468": {
+    "name": "wpn_2468",
+    "hash": "f7d4fa24d69ee0dd450a659fc9fbadd3",
+    "data": {
+      "id": "wpn_2468",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 6,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 250,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "weapon_effect::wpn_4001": {
     "name": "S0 Burning Maple Greatsword (Spirit)",
     "hash": "926d289789a6775fb1a5029f05204543",
@@ -228795,6 +229259,90 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_5003": {
+    "name": "wpn_5003",
+    "hash": "4d3219f2ed1cabaf12c7816c814b02d3",
+    "data": {
+      "id": "wpn_5003",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_5004": {
+    "name": "wpn_5004",
+    "hash": "ac83db76550d8db7b11ab2e905217d6b",
+    "data": {
+      "id": "wpn_5004",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 420,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "cp_recover",
+          "effect_name": "Recover CP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 420,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
           "chance": 100
         }
       ]
@@ -232965,6 +233513,49 @@
       ]
     }
   },
+  "weapon_effect::wpn_7021": {
+    "name": "S26 Shadow War: Thief Sword",
+    "hash": "f79762e34ac35190a4ef79857f409654",
+    "data": {
+      "id": "wpn_7021",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "drain_cp_with_attack",
+          "effect_name": "Drain CP",
+          "reduce_type": "MAX",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_sp_increase",
+          "effect_name": "Increase Max SP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 200,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "weapon_effect::wpn_8001": {
     "name": "S0 Crew: Sword of Adaptable",
     "hash": "b953f04c2daf53b68930341aa90be206",
@@ -237102,6 +237693,217 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8108": {
+    "name": "wpn_8108",
+    "hash": "8a782fb75345a43376cff2200c548d99",
+    "data": {
+      "id": "wpn_8108",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 15,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "burning",
+          "effect_name": "Burning",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8109": {
+    "name": "wpn_8109",
+    "hash": "1110f2880f554861bb6b1c6b98250228",
+    "data": {
+      "id": "wpn_8109",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "bleeding_attacker",
+          "effect_name": "Bleeding Attacker",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "burning",
+          "effect_name": "Burning",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 4,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8110": {
+    "name": "wpn_8110",
+    "hash": "27d0db9d5e90f0212332bcb1dc2dd7cc",
+    "data": {
+      "id": "wpn_8110",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_up_below_hp",
+          "effect_name": "Increase Accuracy",
+          "duration": 2,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 50
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 30,
+          "chance": 30
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8111": {
+    "name": "wpn_8111",
+    "hash": "e1be2ec4888e980a5c65c058a7f7bdea",
+    "data": {
+      "id": "wpn_8111",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 42,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Increase Agility",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 2,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "drain_hp_with_attack",
+          "effect_name": "Drain",
+          "reduce_type": "CURRENT",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 2,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8112": {
+    "name": "wpn_8112",
+    "hash": "a55d8302b69711aaa5264b3d41c0d40e",
+    "data": {
+      "id": "wpn_8112",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "inflict_burn",
+          "effect_name": "Burn",
+          "duration": 2,
+          "calc_type": "number",
+          "amount": 500,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "burning",
+          "effect_name": "Burning",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 7,
           "chance": 100
         }
       ]
@@ -253440,7 +254242,7 @@
   },
   "back_effect::back_2473": {
     "name": "Yokai Eye",
-    "hash": "abca69ca7cf24a094f727a32a3a84995",
+    "hash": "bcb63453ad4d57735ce39bd27a07ea77",
     "data": {
       "id": "back_2473",
       "effects": [
@@ -253462,8 +254264,161 @@
           "effect": "recover_hp_after_purify",
           "effect_name": "Recover HP",
           "duration": 0,
+          "calc_type": "number",
+          "amount": 500,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2474": {
+    "name": "back_2474",
+    "hash": "32a373a1027d1d83ad44a85eb43f02ab",
+    "data": {
+      "id": "back_2474",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 200,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2475": {
+    "name": "back_2475",
+    "hash": "1f72f9182a4278b2ee349aeca4d3b6d8",
+    "data": {
+      "id": "back_2475",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 200,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2476": {
+    "name": "back_2476",
+    "hash": "b8b219841d4da0d89bc09b6d7213c896",
+    "data": {
+      "id": "back_2476",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2477": {
+    "name": "back_2477",
+    "hash": "79fd8608ce97072e80abda94e858f821",
+    "data": {
+      "id": "back_2477",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 9,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
           "calc_type": "percent",
-          "amount": 13,
+          "amount": 9,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2478": {
+    "name": "back_2478",
+    "hash": "36beacf2512bb079e7bc7027b8e9188e",
+    "data": {
+      "id": "back_2478",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 9,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 9,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2479": {
+    "name": "back_2479",
+    "hash": "41130fa33bf5a6a568544c78fe0b161a",
+    "data": {
+      "id": "back_2479",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 20,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "cp_recover",
+          "effect_name": "Recover CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 7,
           "chance": 100
         }
       ]
@@ -253597,6 +254552,68 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 15,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_5003": {
+    "name": "back_5003",
+    "hash": "ac577c04bacf4ca415440f8c4ae44400",
+    "data": {
+      "id": "back_5003",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "ignore_dodge",
+          "effect_name": "Ignore Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 5,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_5004": {
+    "name": "back_5004",
+    "hash": "e8535865492bb7507442de0db1330600",
+    "data": {
+      "id": "back_5004",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "cp_recover",
+          "effect_name": "Recover CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
           "chance": 100
         }
       ]
@@ -255836,6 +256853,26 @@
       ]
     }
   },
+  "back_effect::back_7021": {
+    "name": "S26 Shadow War: Thief Scarf",
+    "hash": "3c1fae49e247d6c6e3faba4b2fc89e8c",
+    "data": {
+      "id": "back_7021",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "serene_mind_item",
+          "effect_name": "Serene Mind",
+          "duration": 0,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 12
+        }
+      ]
+    }
+  },
   "back_effect::back_8001": {
     "name": "S0 Crew: Fin of the Sea",
     "hash": "5229f834f0b8dfe7330332b763a2688d",
@@ -256951,6 +257988,46 @@
           "calc_type": "number",
           "amount": 1,
           "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_8043": {
+    "name": "back_8043",
+    "hash": "12e31b46fbeed83872e74319bc55efda",
+    "data": {
+      "id": "back_8043",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 4,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_8044": {
+    "name": "back_8044",
+    "hash": "94ac7ddadb82456249f9a8ab78550296",
+    "data": {
+      "id": "back_8044",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "convert_damage_taken_hp",
+          "effect_name": "Convert HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 9,
+          "chance": 9
         }
       ]
     }
