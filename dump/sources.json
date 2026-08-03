@@ -1630,6 +1630,24 @@
   "wpn_2462": [
     "event_seasonal"
   ],
+  "wpn_2463": [
+    "event_seasonal"
+  ],
+  "wpn_2464": [
+    "event_seasonal"
+  ],
+  "wpn_2465": [
+    "event_seasonal"
+  ],
+  "wpn_2466": [
+    "event_seasonal"
+  ],
+  "wpn_2467": [
+    "event_seasonal"
+  ],
+  "wpn_2468": [
+    "event_seasonal"
+  ],
   "wpn_4001": [
     "shop_clan",
     "clan_forge"
@@ -2132,6 +2150,9 @@
   "wpn_6093": [
     "clan_war"
   ],
+  "wpn_6094": [
+    "clan_war"
+  ],
   "wpn_7000": [
     "shadow_war"
   ],
@@ -2517,6 +2538,21 @@
     "crew_battle"
   ],
   "wpn_8107": [
+    "crew_battle"
+  ],
+  "wpn_8108": [
+    "crew_battle"
+  ],
+  "wpn_8109": [
+    "crew_battle"
+  ],
+  "wpn_8110": [
+    "crew_battle"
+  ],
+  "wpn_8111": [
+    "crew_battle"
+  ],
+  "wpn_8112": [
     "crew_battle"
   ],
   "back_01": [
@@ -3347,6 +3383,24 @@
   "back_2473": [
     "event_seasonal"
   ],
+  "back_2474": [
+    "event_seasonal"
+  ],
+  "back_2475": [
+    "event_seasonal"
+  ],
+  "back_2476": [
+    "event_seasonal"
+  ],
+  "back_2477": [
+    "event_seasonal"
+  ],
+  "back_2478": [
+    "event_seasonal"
+  ],
+  "back_2479": [
+    "event_seasonal"
+  ],
   "back_4001": [
     "shop_crew"
   ],
@@ -3507,6 +3561,9 @@
     "clan_war"
   ],
   "back_6052": [
+    "clan_war"
+  ],
+  "back_6053": [
     "clan_war"
   ],
   "back_7000": [
@@ -3699,6 +3756,12 @@
     "crew_battle"
   ],
   "back_8042": [
+    "crew_battle"
+  ],
+  "back_8043": [
+    "crew_battle"
+  ],
+  "back_8044": [
     "crew_battle"
   ],
   "accessory_01": [
@@ -4671,6 +4734,15 @@
     "event_seasonal"
   ],
   "material_2271": [
+    "event_seasonal"
+  ],
+  "material_2272": [
+    "event_seasonal"
+  ],
+  "material_2273": [
+    "event_seasonal"
+  ],
+  "material_2274": [
     "event_seasonal"
   ],
   "essential_01": [
@@ -6430,6 +6502,42 @@
   "set_2474_1": [
     "event_seasonal"
   ],
+  "set_2475_0": [
+    "event_seasonal"
+  ],
+  "set_2475_1": [
+    "event_seasonal"
+  ],
+  "set_2476_0": [
+    "event_seasonal"
+  ],
+  "set_2476_1": [
+    "event_seasonal"
+  ],
+  "set_2477_0": [
+    "event_seasonal"
+  ],
+  "set_2477_1": [
+    "event_seasonal"
+  ],
+  "set_2478_0": [
+    "event_seasonal"
+  ],
+  "set_2478_1": [
+    "event_seasonal"
+  ],
+  "set_2479_0": [
+    "event_seasonal"
+  ],
+  "set_2479_1": [
+    "event_seasonal"
+  ],
+  "set_2480_0": [
+    "event_seasonal"
+  ],
+  "set_2480_1": [
+    "event_seasonal"
+  ],
   "set_6000_0": [
     "clan_war"
   ],
@@ -7676,6 +7784,30 @@
     "clan_war"
   ],
   "set_6207_1": [
+    "clan_war"
+  ],
+  "set_6208_0": [
+    "clan_war"
+  ],
+  "set_6208_1": [
+    "clan_war"
+  ],
+  "set_6209_0": [
+    "clan_war"
+  ],
+  "set_6209_1": [
+    "clan_war"
+  ],
+  "set_6210_0": [
+    "clan_war"
+  ],
+  "set_6210_1": [
+    "clan_war"
+  ],
+  "set_6211_0": [
+    "clan_war"
+  ],
+  "set_6211_1": [
     "clan_war"
   ],
   "set_7000_0": [
@@ -9553,6 +9685,42 @@
   "hair_2433_1": [
     "event_seasonal"
   ],
+  "hair_2434_0": [
+    "event_seasonal"
+  ],
+  "hair_2434_1": [
+    "event_seasonal"
+  ],
+  "hair_2435_0": [
+    "event_seasonal"
+  ],
+  "hair_2435_1": [
+    "event_seasonal"
+  ],
+  "hair_2436_0": [
+    "event_seasonal"
+  ],
+  "hair_2436_1": [
+    "event_seasonal"
+  ],
+  "hair_2437_0": [
+    "event_seasonal"
+  ],
+  "hair_2437_1": [
+    "event_seasonal"
+  ],
+  "hair_2438_0": [
+    "event_seasonal"
+  ],
+  "hair_2438_1": [
+    "event_seasonal"
+  ],
+  "hair_2439_0": [
+    "event_seasonal"
+  ],
+  "hair_2439_1": [
+    "event_seasonal"
+  ],
   "hair_7000_0": [
     "shadow_war"
   ],
@@ -10790,9 +10958,6 @@
     "academy",
     "scroll_of_wisdom"
   ],
-  "skill_626": [
-    "limited_store"
-  ],
   "skill_624": [
     "academy"
   ],
@@ -10802,9 +10967,6 @@
   "skill_629": [
     "academy",
     "scroll_of_wisdom"
-  ],
-  "skill_628": [
-    "limited_store"
   ],
   "skill_630": [
     "academy"
@@ -10816,9 +10978,6 @@
     "academy",
     "scroll_of_wisdom"
   ],
-  "skill_634": [
-    "limited_store"
-  ],
   "skill_632": [
     "academy"
   ],
@@ -10829,9 +10988,6 @@
     "academy",
     "scroll_of_wisdom"
   ],
-  "skill_636": [
-    "limited_store"
-  ],
   "skill_638": [
     "academy"
   ],
@@ -10841,9 +10997,6 @@
   "skill_641": [
     "academy",
     "scroll_of_wisdom"
-  ],
-  "skill_640": [
-    "limited_store"
   ],
   "skill_642": [
     "academy"
@@ -10978,6 +11131,21 @@
   ],
   "skill_484": [
     "event:phantomkyunoki2026"
+  ],
+  "skill_871": [
+    "academy"
+  ],
+  "skill_872": [
+    "academy"
+  ],
+  "skill_873": [
+    "academy"
+  ],
+  "skill_874": [
+    "academy"
+  ],
+  "skill_875": [
+    "academy"
   ],
   "skill_1018": [
     "talent_shop"
@@ -11872,6 +12040,36 @@
   "skill_2380": [
     "event_seasonal"
   ],
+  "skill_2381": [
+    "event_seasonal"
+  ],
+  "skill_2382": [
+    "event_seasonal"
+  ],
+  "skill_2383": [
+    "event_seasonal"
+  ],
+  "skill_2384": [
+    "event_seasonal"
+  ],
+  "skill_2385": [
+    "event_seasonal"
+  ],
+  "skill_2386": [
+    "event_seasonal"
+  ],
+  "skill_2387": [
+    "event_seasonal"
+  ],
+  "skill_2388": [
+    "event_seasonal"
+  ],
+  "skill_2389": [
+    "event_seasonal"
+  ],
+  "skill_2390": [
+    "event_seasonal"
+  ],
   "skill_3001": [
     "senjutsu_shop"
   ],
@@ -12244,6 +12442,12 @@
   "skill_6104": [
     "clan_war"
   ],
+  "skill_6105": [
+    "clan_war"
+  ],
+  "skill_6106": [
+    "clan_war"
+  ],
   "skill_7000": [
     "shadow_war"
   ],
@@ -12488,6 +12692,9 @@
     "crew_battle"
   ],
   "skill_8026": [
+    "crew_battle"
+  ],
+  "skill_8027": [
     "crew_battle"
   ],
   "pet_jyubi": [

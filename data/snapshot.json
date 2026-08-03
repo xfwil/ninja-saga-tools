@@ -9054,27 +9054,6 @@
       ]
     }
   },
-  "skill::skill_626": {
-    "name": "Kinjutsu: Storm Boomerang",
-    "hash": "8ecfc4a40462721bff739d5b140f62a6",
-    "data": {
-      "id": "skill_626",
-      "price_tokens": 1000,
-      "buyable": true,
-      "price_gold": 0,
-      "level": 80,
-      "damage": 648,
-      "hit_chance": 0,
-      "cp_cost": 372,
-      "cooldown": 12,
-      "target": "Single",
-      "description": "(Kinjutsu) Creates a boomerang made of storm winds to strike the target. Inflicts 'Ultra Bleeding' status to target. This Ninjutsu has no turn limit. (Ultra Bleeding: 70%, increase 10% each turn)",
-      "name": "Kinjutsu: Storm Boomerang",
-      "type": "1",
-      "premium": false,
-      "na": true
-    }
-  },
   "skill::skill_624": {
     "name": "Tempest Dragon",
     "hash": "4f42cb09fc88fc2e251c0124e1282f51",
@@ -9168,27 +9147,6 @@
       "source": [
         "academy"
       ]
-    }
-  },
-  "skill::skill_628": {
-    "name": "Kinjutsu: Devouring Flames",
-    "hash": "7bca58cce16d943d63db9a7c206f530a",
-    "data": {
-      "id": "skill_628",
-      "price_tokens": 1000,
-      "buyable": true,
-      "price_gold": 0,
-      "level": 80,
-      "damage": 972,
-      "hit_chance": 0,
-      "cp_cost": 820,
-      "cooldown": 14,
-      "target": "Single",
-      "description": "(Kinjutsu) Burns the target with ardent flames. Inflicts 'Burn' status to target. (Burning: 5% HP, 3 turns) If target has got others negative status when this jutsu is using, inflicts 'Ultra Burning' status to target. (Ultra Burning: 3% HP for each negative status, 4 turns)",
-      "name": "Kinjutsu: Devouring Flames",
-      "type": "2",
-      "premium": false,
-      "na": true
     }
   },
   "skill::skill_630": {
@@ -9286,27 +9244,6 @@
       ]
     }
   },
-  "skill::skill_634": {
-    "name": "Kinjutsu: Thunder Beast Chasing",
-    "hash": "72bf461c583356733b1a28df7c01d8ea",
-    "data": {
-      "id": "skill_634",
-      "price_tokens": 900,
-      "buyable": true,
-      "price_gold": 0,
-      "level": 80,
-      "damage": 891,
-      "hit_chance": 0,
-      "cp_cost": 512,
-      "cooldown": 14,
-      "target": "Single",
-      "description": "(Kinjutsu) This Ninjutsu's accuracy increase 20% by each positive status from all attack targets. This Ninjutsu's critical damage bonus increase 30% by each positive status from all attack targets.",
-      "name": "Kinjutsu: Thunder Beast Chasing",
-      "type": "3",
-      "premium": false,
-      "na": true
-    }
-  },
   "skill::skill_632": {
     "name": "Electric Smash",
     "hash": "c3ffd532f4bb1fc5097d8fbaee114f82",
@@ -9395,27 +9332,6 @@
       ]
     }
   },
-  "skill::skill_636": {
-    "name": "Kinjutsu: Monolith Pressure",
-    "hash": "3c1a045b5c31a80a956b981834ca4ecd",
-    "data": {
-      "id": "skill_636",
-      "price_tokens": 1000,
-      "buyable": true,
-      "price_gold": 0,
-      "level": 80,
-      "damage": 810,
-      "hit_chance": 0,
-      "cp_cost": 465,
-      "cooldown": 14,
-      "target": "Single",
-      "description": "(Kinjutsu) Squeezes the target using hardened stones. Inflicts 'Weaken' status to all targets. (Weaken: 85%, 3 turns) Then, all targets need to consume 85% extra CP, and reduce 3% HP and CP when attack with weapon. (3 turns)",
-      "name": "Kinjutsu: Monolith Pressure",
-      "type": "4",
-      "premium": false,
-      "na": true
-    }
-  },
   "skill::skill_638": {
     "name": "Earth Dragon Spirit",
     "hash": "b357ea28c621c87c99ce6afbb7b22597",
@@ -9502,27 +9418,6 @@
       "source": [
         "academy"
       ]
-    }
-  },
-  "skill::skill_640": {
-    "name": "Kinjutsu: Giant Water Drill",
-    "hash": "d710160a549548eae7721b97f9821505",
-    "data": {
-      "id": "skill_640",
-      "price_tokens": 1000,
-      "buyable": true,
-      "price_gold": 0,
-      "level": 80,
-      "damage": 729,
-      "hit_chance": 0,
-      "cp_cost": 820,
-      "cooldown": 10,
-      "target": "Single",
-      "description": "",
-      "name": "Kinjutsu: Giant Water Drill",
-      "type": "5",
-      "premium": false,
-      "na": true
     }
   },
   "skill::skill_642": {
@@ -15683,6 +15578,175 @@
       "attack_hit_position": "range_3",
       "source": [
         "phantomkyunoki2026"
+      ]
+    }
+  },
+  "skill::skill_871": {
+    "name": "Kinjutsu: Twin Mega Tornado",
+    "hash": "528d410fdfee0ce423ee3af726207f2d",
+    "data": {
+      "id": "skill_871",
+      "price_tokens": 1000,
+      "buyable": true,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 700,
+      "hit_chance": 0,
+      "cp_cost": 950,
+      "cooldown": 13,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Inflict 'Bleeding' effect on all opponents (targets receive extra 85% damage - 3 turns).",
+      "name": "Kinjutsu: Twin Mega Tornado",
+      "type": "1",
+      "premium": false,
+      "anims": {
+        "hit": [
+          56
+        ],
+        "effects": [
+          {
+            "name": "effectMc",
+            "add": 34,
+            "type": "target"
+          }
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "academy"
+      ]
+    }
+  },
+  "skill::skill_872": {
+    "name": "Kinjutsu: Fire Breathing Shuriken",
+    "hash": "e07f1fa52a18ef669390913684f42ffa",
+    "data": {
+      "id": "skill_872",
+      "price_tokens": 1000,
+      "buyable": true,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 850,
+      "hit_chance": 0,
+      "cp_cost": 920,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Cast Restriction (target cannot use Ninjutsu) for 2 turns. Inflict 'Flaming' to the enemy - Reduce 550 HP and CP for 4 turns",
+      "name": "Kinjutsu: Fire Breathing Shuriken",
+      "type": "2",
+      "premium": false,
+      "anims": {
+        "hit": [
+          48
+        ]
+      },
+      "attack_hit_position": "meele_3",
+      "source": [
+        "academy"
+      ]
+    }
+  },
+  "skill::skill_873": {
+    "name": "Kinjutsu: Final Thunderstorm",
+    "hash": "485b1971a73c0f16420b66249f743232",
+    "data": {
+      "id": "skill_873",
+      "price_tokens": 1000,
+      "buyable": true,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 975,
+      "hit_chance": 0,
+      "cp_cost": 999,
+      "cooldown": 15,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Reduce all opponents agility by 30% for 3 turns.",
+      "name": "Kinjutsu: Final Thunderstorm",
+      "type": "3",
+      "premium": false,
+      "anims": {
+        "hit": [
+          46
+        ],
+        "effects": [
+          {
+            "name": "effectMc",
+            "add": 36,
+            "type": "target"
+          }
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "academy"
+      ]
+    }
+  },
+  "skill::skill_874": {
+    "name": "Kinjutsu: Earthquake",
+    "hash": "690146362a94a33db4488a5b5c7ade42",
+    "data": {
+      "id": "skill_874",
+      "price_tokens": 1000,
+      "buyable": true,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 1080,
+      "hit_chance": 0,
+      "cp_cost": 830,
+      "cooldown": 14,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Reduce all opponents CP by 70%. (Based on max CP)",
+      "name": "Kinjutsu: Earthquake",
+      "type": "4",
+      "premium": false,
+      "anims": {
+        "hit": [
+          68
+        ],
+        "effects": [
+          {
+            "name": "effectMc",
+            "add": 32,
+            "type": "target"
+          }
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "academy"
+      ]
+    }
+  },
+  "skill::skill_875": {
+    "name": "Kinjutsu: Water Bubble Trap",
+    "hash": "f21949f7fa518d87db93b94111769517",
+    "data": {
+      "id": "skill_875",
+      "price_tokens": 1000,
+      "buyable": true,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 750,
+      "hit_chance": 0,
+      "cp_cost": 810,
+      "cooldown": 13,
+      "target": "Single",
+      "description": "(Kinjutsu) Prison the target and reduce their attack damage by 100% 2 turns. (Prison: Reduce target HP & CP by 10%)",
+      "name": "Kinjutsu: Water Bubble Trap",
+      "type": "5",
+      "premium": false,
+      "anims": {
+        "hit": [
+          48
+        ]
+      },
+      "attack_hit_position": "range_1",
+      "source": [
+        "academy"
       ]
     }
   },
@@ -29246,6 +29310,301 @@
       "attack_hit_position": "range_1"
     }
   },
+  "skill::skill_2381": {
+    "name": "Kinjutsu: Trickster Blessing",
+    "hash": "4c3dca40fe43fdde9bc76e93e2b21913",
+    "data": {
+      "id": "skill_2381",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 14,
+      "target": "Self",
+      "description": "(Kinjutsu) Bless yourself with trickster's ability and increase dodge chance by 50% for 3 turns.",
+      "name": "Kinjutsu: Trickster Blessing",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          52
+        ]
+      },
+      "attack_hit_position": "startpos",
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "skill::skill_2382": {
+    "name": "Kinjutsu: Trickster Gambit",
+    "hash": "0eaf76eb2a8c371258186a20a09895f6",
+    "data": {
+      "id": "skill_2382",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Play a wicked trick on the target and inflict 'Chaos' for 3 turns.",
+      "name": "Kinjutsu: Trickster Gambit",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          58
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "skill::skill_2383": {
+    "name": "Kinjutsu: Confetti Shot",
+    "hash": "18517b30f9e29d0051a7eeb8eb9677d5",
+    "data": {
+      "id": "skill_2383",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Fire cursed confetti that inflict 'Bleeding' by 50% for 3 turns.",
+      "name": "Kinjutsu: Confetti Shot",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          44
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "skill::skill_2384": {
+    "name": "Kinjutsu: Jester Surprise",
+    "hash": "727f9efc2dd4b98b1ab2e5d47541b479",
+    "data": {
+      "id": "skill_2384",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 100,
+      "hit_chance": 0,
+      "cp_cost": 200,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Deal damage and reduce the target max HP by 9%.",
+      "name": "Kinjutsu: Jester Surprise",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          131
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "skill::skill_2385": {
+    "name": "Kinjutsu: Jester Box",
+    "hash": "c8aeb5c478b968d498dfb4b56817b2c0",
+    "data": {
+      "id": "skill_2385",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Summon projectile within the Jester's Box and inflict 'Internal Injury' for 3 turns.",
+      "name": "Kinjutsu: Jester Box",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          71
+        ]
+      },
+      "attack_hit_position": "meele_4",
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "skill::skill_2386": {
+    "name": "Kinjutsu: Abracadabra",
+    "hash": "7191e024edbf662d5e55db2d2cf6110e",
+    "data": {
+      "id": "skill_2386",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove all positive status effects from the target and inflict 'Darkness' by 20% for 3 turns.",
+      "name": "Kinjutsu: Abracadabra",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          95
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "skill::skill_2387": {
+    "name": "Kinjutsu: Advanced Abracadabra",
+    "hash": "3e1ca2d4f849a16ef360c281629ed680",
+    "data": {
+      "id": "skill_2387",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 200,
+      "cooldown": 13,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove all positive status effects from the target and inflict 'Darkness' by 40% for 4 turns.",
+      "name": "Kinjutsu: Advanced Abracadabra",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          95
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "skill::skill_2388": {
+    "name": "Kinjutsu: Critical Mass",
+    "hash": "af51eaf28774e2d8cffd77a1660af064",
+    "data": {
+      "id": "skill_2388",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 400,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Decrease target's rate to critical, dodge, combustion, purify and reactive force by 40% for 4 turns.",
+      "name": "Kinjutsu: Critical Mass",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          69
+        ]
+      },
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_2389": {
+    "name": "Kinjutsu: Tree Punishment",
+    "hash": "e6af0021d3ba762ebda3887332c22208",
+    "data": {
+      "id": "skill_2389",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 600,
+      "hit_chance": 1000,
+      "cp_cost": 450,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflict 'Numb' and 'Weaken' by 60% for 3 turns (This jutsu is high accuracy).",
+      "name": "Kinjutsu: Tree Punishment",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          113
+        ]
+      },
+      "attack_hit_position": "meele_1"
+    }
+  },
+  "skill::skill_2390": {
+    "name": "Kinjutsu: Goddess Embrace",
+    "hash": "b015e232940fc66e4134eaf31b18fc45",
+    "data": {
+      "id": "skill_2390",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 999,
+      "cooldown": 14,
+      "target": "Self",
+      "description": "(Kinjutsu) Focus your mind to feel the goddess gaze and embarce it. Increase agility and attack damage by 50% for 3 turns.",
+      "name": "Kinjutsu: Goddess Embrace",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          109
+        ],
+        "fullscreen": {
+          "add": 35,
+          "remove": 105
+        }
+      },
+      "attack_hit_position": "startpos"
+    }
+  },
   "skill::skill_3500": {
     "name": "Senjutsu: Super Charges",
     "hash": "0aa6dd05b82f6d6ff5d7fc12360fcb01",
@@ -30309,8 +30668,8 @@
     }
   },
   "skill::skill_5000": {
-    "name": "Kinjutsu: Fiery Dance Strike",
-    "hash": "da243146dbcb1e5ee4f9383b66c30d0f",
+    "name": "S0 Kinjutsu: Fiery Dance Strike",
+    "hash": "ab10f74dfcb8b0a39856305e86fbde6f",
     "data": {
       "id": "skill_5000",
       "price_tokens": 0,
@@ -30323,7 +30682,7 @@
       "cooldown": 14,
       "target": "Single",
       "description": "Increases the user damage by 100% for the next 2 turns.",
-      "name": "Kinjutsu: Fiery Dance Strike",
+      "name": "S0 Kinjutsu: Fiery Dance Strike",
       "type": "6",
       "category": "pvp",
       "premium": false,
@@ -30340,8 +30699,8 @@
     }
   },
   "skill::skill_5001": {
-    "name": "Kinjutsu: Crimson Torrent",
-    "hash": "b743aef44962758d63b833860281bf33",
+    "name": "S0 Kinjutsu: Crimson Torrent",
+    "hash": "b5fa2b80208cb3eddfa69e02f2642139",
     "data": {
       "id": "skill_5001",
       "price_tokens": 0,
@@ -30354,7 +30713,7 @@
       "cooldown": 14,
       "target": "Single",
       "description": "Inflicts 'Muddy' by 25% and burns the target max HP by 4% for 4 turns.",
-      "name": "Kinjutsu: Crimson Torrent",
+      "name": "S0 Kinjutsu: Crimson Torrent",
       "type": "6",
       "category": "pvp",
       "premium": false,
@@ -30371,8 +30730,8 @@
     }
   },
   "skill::skill_5002": {
-    "name": "Kinjutsu: Black Lightning Combo",
-    "hash": "53ef848fd11ba12f119d0ec6651f5e58",
+    "name": "S0 Kinjutsu: Black Lightning Combo",
+    "hash": "53f91af28a022dceaf5ebd5c68758c34",
     "data": {
       "id": "skill_5002",
       "price_tokens": 0,
@@ -30385,7 +30744,7 @@
       "cooldown": 14,
       "target": "Single",
       "description": "This jutsu is extremely accurate.",
-      "name": "Kinjutsu: Black Lightning Combo",
+      "name": "S0 Kinjutsu: Black Lightning Combo",
       "type": "6",
       "category": "pvp",
       "premium": false,
@@ -30399,6 +30758,68 @@
         "pvp_league_shop"
       ],
       "attack_hit_position": "range_1"
+    }
+  },
+  "skill::skill_5003": {
+    "name": "S1 Kinjutsu: Summon of Sand Monster",
+    "hash": "ba960151eec93fa6391aebd88fa2b8ba",
+    "data": {
+      "id": "skill_5003",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 400,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "Reduce enemy dodge rate by 100% for 3 turns.",
+      "name": "S1 Kinjutsu: Summon of Sand Monster",
+      "type": "7",
+      "category": "pvp",
+      "premium": false,
+      "anims": {
+        "hit": [
+          124
+        ]
+      },
+      "source": [
+        "pvp",
+        "pvp_league_shop"
+      ],
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_5004": {
+    "name": "S1 Kinjutsu: Sandstorm Heavy Strike",
+    "hash": "b968c66e7d26c8c6988004ec207866a6",
+    "data": {
+      "id": "skill_5004",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 400,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "Remove all positive status effects from the target. Inflict 'Blind' by 100% for 3 turns. Instantly reduce the target CP by 45%.",
+      "name": "S1 Kinjutsu: Sandstorm Heavy Strike",
+      "type": "7",
+      "category": "pvp",
+      "premium": false,
+      "anims": {
+        "hit": [
+          79
+        ]
+      },
+      "source": [
+        "pvp",
+        "pvp_league_shop"
+      ],
+      "attack_hit_position": "meele_3"
     }
   },
   "skill::skill_6001": {
@@ -33639,7 +34060,7 @@
   },
   "skill::skill_6101": {
     "name": "S50 Kinjutsu: Flash Step Bomb",
-    "hash": "63dcf2ed9437a13451899e674168d659",
+    "hash": "b14d1ab84108e6c35ebaffe54bf0988e",
     "data": {
       "id": "skill_6101",
       "price_tokens": 0,
@@ -33656,7 +34077,6 @@
       "type": "6",
       "category": "clan",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           84
@@ -33670,7 +34090,7 @@
   },
   "skill::skill_6102": {
     "name": "S50 Kinjutsu: Advance Flash Step Bomb",
-    "hash": "362baa4e2ddf0bbcc348bfbfc24bc0ad",
+    "hash": "dec4f7b538b7a507be033302aaa96871",
     "data": {
       "id": "skill_6102",
       "price_tokens": 0,
@@ -33687,7 +34107,6 @@
       "type": "6",
       "category": "clan",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           142
@@ -33701,7 +34120,7 @@
   },
   "skill::skill_6103": {
     "name": "S51 Kinjutsu: Time Distortion",
-    "hash": "1c7f925af09d78f08c332ff86d2dd3ea",
+    "hash": "bd8d8f6bf7ea79ca263a6c11dbbf6736",
     "data": {
       "id": "skill_6103",
       "price_tokens": 0,
@@ -33718,7 +34137,6 @@
       "type": "7",
       "category": "clan",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           65
@@ -33736,7 +34154,7 @@
   },
   "skill::skill_6104": {
     "name": "S51 Kinjutsu: Advance Time Distortion",
-    "hash": "3934fe59e84e4461bd67a486cedf81f9",
+    "hash": "d1951b6d5623ebc1c26ce03a03dd3455",
     "data": {
       "id": "skill_6104",
       "price_tokens": 0,
@@ -33752,7 +34170,6 @@
       "name": "S51 Kinjutsu: Advance Time Distortion",
       "type": "7",
       "category": "clan",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -33767,6 +34184,82 @@
         "clan"
       ],
       "attack_hit_position": "startpos"
+    }
+  },
+  "skill::skill_6105": {
+    "name": "S52 Kinjutsu: Gourd Punishment",
+    "hash": "d57dda4d81c26527bbcdf712734775fa",
+    "data": {
+      "id": "skill_6105",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 200,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "",
+      "name": "S52 Kinjutsu: Gourd Punishment",
+      "type": "7",
+      "category": "clan",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          52
+        ],
+        "effects": [
+          {
+            "name": "effectMc",
+            "add": 50,
+            "type": "target"
+          }
+        ]
+      },
+      "source": [
+        "clan"
+      ],
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_6106": {
+    "name": "S52 Kinjutsu: Advance Gourd Punishment",
+    "hash": "1b879d1d670ff5fd99eeac8413c7c7c9",
+    "data": {
+      "id": "skill_6106",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 100,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "",
+      "name": "S52 Kinjutsu: Advance Gourd Punishment",
+      "type": "7",
+      "category": "clan",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          68
+        ],
+        "effects": [
+          {
+            "name": "effectMc",
+            "add": 50,
+            "type": "target"
+          }
+        ]
+      },
+      "source": [
+        "clan"
+      ],
+      "attack_hit_position": "range_3"
     }
   },
   "skill::skill_7000": {
@@ -36355,6 +36848,37 @@
       "anims": {
         "hit": [
           30
+        ]
+      },
+      "source": [
+        "crew"
+      ],
+      "attack_hit_position": "startpos"
+    }
+  },
+  "skill::skill_8027": {
+    "name": "S22 Kinjutsu: Lava Barrier",
+    "hash": "f0b479dccbda5422ebbae39441a6b46b",
+    "data": {
+      "id": "skill_8027",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 500,
+      "cooldown": 18,
+      "target": "Self",
+      "description": "(Kinjutsu) Damage taken reduce 80% (3 turns). Burn enemy who attack user - Reduce 5% HP for 3 turns.",
+      "name": "S22 Kinjutsu: Lava Barrier",
+      "type": "7",
+      "category": "crew",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          83
         ]
       },
       "source": [
@@ -59306,6 +59830,156 @@
       ]
     }
   },
+  "library::wpn_2463": {
+    "name": "Nightmare Jester Blade",
+    "hash": "35ae7a5126975b107e1c6e3221cb54f5",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 25% and purify chance by 5%. Reduce all incoming damage by 150.",
+      "level": 40,
+      "damage": 240,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2463",
+      "price_gold": 0,
+      "name": "Nightmare Jester Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::wpn_2464": {
+    "name": "Nightmare Jester Fan",
+    "hash": "dc254807cbd7cf49d57fbcd044393ed2",
+    "data": {
+      "attack_type": "attack_05",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 10% and reduce all incoming damage by 150.",
+      "level": 20,
+      "damage": 140,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2464",
+      "price_gold": 0,
+      "name": "Nightmare Jester Fan",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::wpn_2465": {
+    "name": "Phantom Jester Spear",
+    "hash": "585ade0a0632c5febc418dc2a8c13409",
+    "data": {
+      "attack_type": "attack_07",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 25% and dodge chance by 10%. Successfully dodging an attack increases your damage by 20% for 1 turn.",
+      "level": 40,
+      "damage": 240,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2465",
+      "price_gold": 0,
+      "name": "Phantom Jester Spear",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::wpn_2466": {
+    "name": "Nightmare Circus Fan",
+    "hash": "644582314ec501b541dd2da3f0a9cf2a",
+    "data": {
+      "attack_type": "attack_04",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 35%. Successful weapon attacks have a 13% chance to remove a positive status effect from the target.",
+      "level": 60,
+      "damage": 340,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2466",
+      "price_gold": 0,
+      "name": "Nightmare Circus Fan",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::wpn_2467": {
+    "name": "Nightmare Circus Firearms",
+    "hash": "d30cc716925fb323f8f4144de2c32a34",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 35%. Successful attacks burn the target's Max HP by 5% for 3 turns.",
+      "level": 60,
+      "damage": 340,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2467",
+      "price_gold": 0,
+      "name": "Nightmare Circus Firearms",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::wpn_2468": {
+    "name": "Staff of Agony",
+    "hash": "d925fa851eb63e73f965f3983ef2db18",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 40%. Successful weapon attacks reduce the target's Max HP by 6%. Additionally, recover 250 HP at the start of each of your turns.",
+      "level": 60,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2468",
+      "price_gold": 0,
+      "name": "Staff of Agony",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
   "library::wpn_4001": {
     "name": "S0 Burning Maple Greatsword (Spirit)",
     "hash": "075254fdf7f8e08a60f921554fe01964",
@@ -60611,6 +61285,62 @@
       "id": "wpn_5002",
       "price_gold": 0,
       "name": "S0 PvP: Golden Black Skull Cleave",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::wpn_5003": {
+    "name": "S1 PvP: ",
+    "hash": "2d52b0ec3a3c52421a370b88eb32bdca",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S1 PvP League Shop: Increase accuracy by 45% and reduce incoming damage by 30%.",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_5003",
+      "price_gold": 0,
+      "name": "S1 PvP: ",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::wpn_5004": {
+    "name": "S1 PvP: Djinn Cutlass",
+    "hash": "a30d7df9a6eca3b0f7f1d5b53d6c510c",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S1 PvP League Shop: Increase accuracy by 45%. Recover 420 HP and 420 CP at the start of each of your turns and increase purify chance by 10%.",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_5004",
+      "price_gold": 0,
+      "name": "S1 PvP: Djinn Cutlass",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -63004,7 +63734,7 @@
   },
   "library::wpn_6093": {
     "name": "S51 Clan: Sacred Phoenix Greatblade",
-    "hash": "b444f1175169752dcabbe08152a74c04",
+    "hash": "715f923a933d5f65e37d93fb11b1dc41",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -63017,6 +63747,31 @@
       "id": "wpn_6093",
       "price_gold": 0,
       "name": "S51 Clan: Sacred Phoenix Greatblade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::wpn_6094": {
+    "name": "S52 Clan: Sacred Phoenix Greatblade",
+    "hash": "387234a4fb749646526a4b470dabd651",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S52 Clan Reward: ",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6094",
+      "price_gold": 0,
+      "name": "S52 Clan: Sacred Phoenix Greatblade",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -66253,6 +67008,136 @@
       "id": "wpn_8107",
       "price_gold": 0,
       "name": "S21 Crew: True Dragon Dagger",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8108": {
+    "name": "S22 Crew: Lava Hammer",
+    "hash": "034385fd58fb126d536461a8691829d4",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S22 Crew Reward: Increase 35% accurary and attack damage by 15%. Inflict burning when attack with weapon - Reduce 5% HP for 3 turns.",
+      "level": 80,
+      "damage": 512,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8108",
+      "price_gold": 0,
+      "name": "S22 Crew: Lava Hammer",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8109": {
+    "name": "S22 Crew: Lava Ax",
+    "hash": "6c43609be674356852e1c692e376eeb5",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S22 Crew Reward: Increases accurary by 35%. Inflicts ”Bleeding” status to all attackers for 2 turns. (Bleeding: 45%) Inflict burning when attack with weapon - Reduce 4% HP for 4 turns.",
+      "level": 80,
+      "damage": 512,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8109",
+      "price_gold": 0,
+      "name": "S22 Crew: Lava Ax",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8110": {
+    "name": "S22 Crew: Lava Sickle",
+    "hash": "701e8466d43bb95a17b7f4ab1f2b7c96",
+    "data": {
+      "attack_type": "attack_04",
+      "buyable_clan": false,
+      "description": "S22 Crew Reward: Increases accurary by 45%. Increases accurary by 30% whenever HP is less than 50% for 2 turns. Has 30% chance to remove target's positve status effect using weapon attack.",
+      "level": 85,
+      "damage": 565,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8110",
+      "price_gold": 0,
+      "name": "S22 Crew: Lava Sickle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8111": {
+    "name": "S22 Crew: Lava Shuriken",
+    "hash": "0c37833ddb3ed931d2a7191d5f2df967",
+    "data": {
+      "attack_type": "attack_05",
+      "buyable_clan": false,
+      "description": "S22 Crew Reward: Increase accurary by 42% and agility by 2. Directly drain their current 2% HP on every weapon attack.",
+      "level": 85,
+      "damage": 555,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8111",
+      "price_gold": 0,
+      "name": "S22 Crew: Lava Shuriken",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8112": {
+    "name": "S22 Crew: Lava Sword",
+    "hash": "7eae490757360ac56a916769cda5d5b9",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S22 Crew Reward: Increase accurary by 40%. Burn enemy upon each weapon attack - Additional 500 HP damage for 2 turns. Inflict Burning by 7% of target's max HP on successful weapon attack for 1 turn.",
+      "level": 80,
+      "damage": 500,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8112",
+      "price_gold": 0,
+      "name": "S22 Crew: Lava Sword",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -82201,6 +83086,156 @@
       ]
     }
   },
+  "library::back_2474": {
+    "name": "Arcana Trickster Blades",
+    "hash": "621825242b95c35901fc358df28bb45c",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduce incoming damage by 200.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2474",
+      "price_gold": 0,
+      "name": "Arcana Trickster Blades",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::back_2475": {
+    "name": "Trickster Soul Marionette",
+    "hash": "35c117b9b802bbb4473f987b5fb6fa10",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Recover 200 HP at the start of each of your turns.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2475",
+      "price_gold": 0,
+      "name": "Trickster Soul Marionette",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::back_2476": {
+    "name": "Puppet Master Robe",
+    "hash": "bb8d1255b5794a95986054b7848a65a5",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduce incoming damage by 100.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2476",
+      "price_gold": 0,
+      "name": "Puppet Master Robe",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::back_2477": {
+    "name": "Jester Comedic Fan",
+    "hash": "c2ea8f10bc9950112a2b643acec2e462",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase purify chance by 9% and max CP by 9%.",
+      "level": 60,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2477",
+      "price_gold": 0,
+      "name": "Jester Comedic Fan",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::back_2478": {
+    "name": "Circus Mace",
+    "hash": "e51cdf79743f4df179b26f385ca74b3d",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase dodge chance by 9% and max HP by 9%.",
+      "level": 60,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2478",
+      "price_gold": 0,
+      "name": "Circus Mace",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::back_2479": {
+    "name": "Chaos Matter",
+    "hash": "6f22d6337b2a13621aabb302ca8b0e67",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase max CP by 20% and recover 7% of your max CP at the start of each of your turns.",
+      "level": 60,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2479",
+      "price_gold": 0,
+      "name": "Chaos Matter",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
   "library::back_4001": {
     "name": "S2 Crew: Solar Aura (Spirit)",
     "hash": "4be3800fbdda8a366e9035f9efcea650",
@@ -82324,6 +83359,58 @@
       "id": "back_5002",
       "price_gold": 0,
       "name": "S0 PvP: Golden Black Grieving Souls",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::back_5003": {
+    "name": "S1 PvP: ",
+    "hash": "faac2fbbeac96545ad29296bf1d66cab",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S1 PvP League Shop: Ignore the target dodge chance by 10% and increase purify chance by 5%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_5003",
+      "price_gold": 0,
+      "name": "S1 PvP: ",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::back_5004": {
+    "name": "S1 PvP: Djinn Puppet",
+    "hash": "b905d766d07e48caaa84b5482b0abd1e",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S1 PvP League Shop: Recover CP by 8% every turn. Increase purify chance by 10%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_5004",
+      "price_gold": 0,
+      "name": "S1 PvP: Djinn Puppet",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -83587,7 +84674,7 @@
   },
   "library::back_6051": {
     "name": "S50 Clan: Blood Shade Magatama",
-    "hash": "6eaad3db773ac30167294f13d79dfd01",
+    "hash": "24d0559371f7ac65d107c68a15dba061",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83605,15 +84692,14 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::back_6052": {
-    "name": "S51 Clan: Blood Shade Magatama",
-    "hash": "a920c13c568c466ae3f442e0a711ff50",
+    "name": "S51 Clan: Enchanted Winged Carapace",
+    "hash": "d827c38909c2a85eb9664d0594eaec23",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83625,7 +84711,32 @@
       "price_tokens": 0,
       "id": "back_6052",
       "price_gold": 0,
-      "name": "S51 Clan: Blood Shade Magatama",
+      "name": "S51 Clan: Enchanted Winged Carapace",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::back_6053": {
+    "name": "S52 Clan: Gold Dragon Scroll",
+    "hash": "9c787616479b103671232960682925ba",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S52 Clan Reward: ",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_6053",
+      "price_gold": 0,
+      "name": "S52 Clan: Gold Dragon Scroll",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -85231,6 +86342,58 @@
       "id": "back_8042",
       "price_gold": 0,
       "name": "S21 Crew: True Dragon Sensu",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::back_8043": {
+    "name": "S22 Crew: Lava Crown",
+    "hash": "75416832001de119a4e0a2deaabf54b9",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S22 Crew Reward: Restores 4% of user's max HP.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_8043",
+      "price_gold": 0,
+      "name": "S22 Crew: Lava Crown",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::back_8044": {
+    "name": "S22 Crew: Lava Ball",
+    "hash": "804acfe07df983c648518644debd73fc",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S22 Crew Reward: Has 9% chance to convert damage taken to HP positively.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_8044",
+      "price_gold": 0,
+      "name": "S22 Crew: Lava Ball",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -102005,6 +103168,81 @@
       "sellable": true,
       "source": [
         "summer2026"
+      ]
+    }
+  },
+  "library::material_2272": {
+    "name": "Circus Magic Bottle",
+    "hash": "c10d1abc063827691c7fa90fc3f0e948",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Circus Magic Bottle can be used to exchange reward during Shadow Circus Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2272",
+      "price_gold": 0,
+      "name": "Circus Magic Bottle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::material_2273": {
+    "name": "Circus Medal",
+    "hash": "9ed5d079f9017354fe5bfa402e7c40e8",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Circus Medal can be used to exchange reward during Shadow Circus Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2273",
+      "price_gold": 0,
+      "name": "Circus Medal",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::material_2274": {
+    "name": "Circus Ticket",
+    "hash": "be6353acd41f14b4bd359b280d6bbd57",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Circus Ticket can be used to exchange reward during Shadow Circus Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2274",
+      "price_gold": 0,
+      "name": "Circus Ticket",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "circus2026"
       ]
     }
   },
@@ -137201,6 +138439,306 @@
       ]
     }
   },
+  "library::set_2475_0": {
+    "name": "Royal Trickster Costume",
+    "hash": "a59305084b86c0d709b02b086bba7dc5",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2475_0",
+      "price_gold": 0,
+      "name": "Royal Trickster Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2475_1": {
+    "name": "Royal Trickster Costume",
+    "hash": "c0a6191bcd7dbb2f4e193636f56652c8",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2475_1",
+      "price_gold": 0,
+      "name": "Royal Trickster Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2476_0": {
+    "name": "Midnight Circus Costume",
+    "hash": "4c58a1080cc02b60b8618eea6bf1e9a0",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2476_0",
+      "price_gold": 0,
+      "name": "Midnight Circus Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2476_1": {
+    "name": "Midnight Circus Costume",
+    "hash": "f95819a8685271428a5cf55c7a6ef559",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2476_1",
+      "price_gold": 0,
+      "name": "Midnight Circus Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2477_0": {
+    "name": "Circus Worker Costume",
+    "hash": "5d4e50cfc2590b25a46deda1a08d04f6",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2477_0",
+      "price_gold": 0,
+      "name": "Circus Worker Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2477_1": {
+    "name": "Circus Worker Costume",
+    "hash": "d8fadd42693961c4ab67462bd19f2a3c",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2477_1",
+      "price_gold": 0,
+      "name": "Circus Worker Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2478_0": {
+    "name": "Nightmare Jester Costume",
+    "hash": "6977d1b2d3fd5fd291f37679b595f4cd",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2478_0",
+      "price_gold": 0,
+      "name": "Nightmare Jester Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2478_1": {
+    "name": "Nightmare Jester Costume",
+    "hash": "74e5adeab99857c083c852ef1bb19b2d",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2478_1",
+      "price_gold": 0,
+      "name": "Nightmare Jester Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2479_0": {
+    "name": "Nightmare Circus Costume",
+    "hash": "e0c4da374afcf8415e6605faa6c85d0c",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2479_0",
+      "price_gold": 0,
+      "name": "Nightmare Circus Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2479_1": {
+    "name": "Nightmare Circus Costume",
+    "hash": "74c75328f35b495fd953a72df1af8cb1",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2479_1",
+      "price_gold": 0,
+      "name": "Nightmare Circus Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2480_0": {
+    "name": "Nightmare Clown Costume",
+    "hash": "100349c5ec420b714c8a75ce36830c03",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2480_0",
+      "price_gold": 0,
+      "name": "Nightmare Clown Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::set_2480_1": {
+    "name": "Nightmare Clown Costume",
+    "hash": "97c5ad31c955e23f15bca047cdc5be5a",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2480_1",
+      "price_gold": 0,
+      "name": "Nightmare Clown Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
   "library::set_5000_0": {
     "name": "S0 PvP Costume",
     "hash": "8e658a6078aa80ce852e797b1d31a08b",
@@ -137240,6 +138778,56 @@
       "id": "set_5000_1",
       "price_gold": 0,
       "name": "S0 PvP Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
+  "library::set_5001_0": {
+    "name": "S1 PvP Costume",
+    "hash": "c1e8d99a08e9b7c7c3675403b8dc3925",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for PvP Milestone Season 1",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_5001_0",
+      "price_gold": 0,
+      "name": "S1 PvP Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
+  "library::set_5001_1": {
+    "name": "S1 PvP Costume",
+    "hash": "47ea3b8a7a476c951f57e2af8ab79f3d",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for PvP Milestone Season 1",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_5001_1",
+      "price_gold": 0,
+      "name": "S1 PvP Costume",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -146853,7 +148441,7 @@
   },
   "library::set_6200_0": {
     "name": "S50 Liquid Vincere",
-    "hash": "6cddb0d33889ee19f338664d65a6aec8",
+    "hash": "ce0bc636f8a3532aa36cbd80c2f3d32c",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Champion",
@@ -146870,7 +148458,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -146878,7 +148465,7 @@
   },
   "library::set_6200_1": {
     "name": "S50 Liquid Vincere",
-    "hash": "30af8d683f124f402e16ea4e2c69720d",
+    "hash": "abe33948b36a1d225432a70f1b511fe5",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Champion",
@@ -146895,7 +148482,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -146903,7 +148489,7 @@
   },
   "library::set_6201_0": {
     "name": "S50 Liquid The Next Gen",
-    "hash": "b3714af5830bade361de607247e30e15",
+    "hash": "fa2096132fb7df2b24380d1290348784",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
@@ -146920,7 +148506,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -146928,7 +148513,7 @@
   },
   "library::set_6201_1": {
     "name": "S50 Liquid The Next Gen",
-    "hash": "4d16369fe8019b800995e29430399c11",
+    "hash": "51b2152853d5c4812035e9d1d89994b2",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
@@ -146945,7 +148530,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -146953,7 +148537,7 @@
   },
   "library::set_6202_0": {
     "name": "S50 NewJeans",
-    "hash": "25c1e4f7de4682e0beea86d6f65d2fcc",
+    "hash": "c5c0b906500f3b58a0b745aaa4263477",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
@@ -146970,7 +148554,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -146978,7 +148561,7 @@
   },
   "library::set_6202_1": {
     "name": "S50 NewJeans",
-    "hash": "0abe939d49fc35691dd129e11aff3425",
+    "hash": "aebb5b118b86e93f0a7379b655668439",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50 Runner Up",
@@ -146995,7 +148578,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -147003,7 +148585,7 @@
   },
   "library::set_6203_0": {
     "name": "S50 Costume",
-    "hash": "d94dc96c5b15f22cae740e17d6595626",
+    "hash": "10eba69d527691d086808831f666779c",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50",
@@ -147020,7 +148602,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -147028,7 +148609,7 @@
   },
   "library::set_6203_1": {
     "name": "S50 Costume",
-    "hash": "44a0675c15c080577613b21645e4e7ed",
+    "hash": "721901a534f675f668397ab9b7c701a4",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 50",
@@ -147045,15 +148626,14 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6204_0": {
-    "name": "S51 Champion",
-    "hash": "a0f4ec38774055d5f82dab9949ff31bc",
+    "name": "S51 Liquid Vincere",
+    "hash": "838e116a31d54b485dd825dd76c37d78",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 51 Champion",
@@ -147064,21 +148644,20 @@
       "level": 1,
       "id": "set_6204_0",
       "price_gold": 0,
-      "name": "S51 Champion",
+      "name": "S51 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6204_1": {
-    "name": "S51 Champion",
-    "hash": "d403a03c6ff415436acea247d0af8d4e",
+    "name": "S51 Liquid Vincere",
+    "hash": "ff0a7e5d44b981d06ace1ef7a7254fa4",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 51 Champion",
@@ -147089,21 +148668,20 @@
       "level": 1,
       "id": "set_6204_1",
       "price_gold": 0,
-      "name": "S51 Champion",
+      "name": "S51 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6205_0": {
-    "name": "S51 Runner Up",
-    "hash": "7d2d6d80d3dfbd833c15e1cbd5b2b0b0",
+    "name": "S51 Liquid The Next Gen",
+    "hash": "b83556c42364300dbfb8e85a54f8b42f",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 51 Runner Up",
@@ -147114,21 +148692,20 @@
       "level": 1,
       "id": "set_6205_0",
       "price_gold": 0,
-      "name": "S51 Runner Up",
+      "name": "S51 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6205_1": {
-    "name": "S51 Runner Up",
-    "hash": "b7f3c1dd990de351afc78a115ad414be",
+    "name": "S51 Liquid The Next Gen",
+    "hash": "fe58b3e21dce363ad58da489e25efc06",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 51 Runner Up",
@@ -147139,21 +148716,20 @@
       "level": 1,
       "id": "set_6205_1",
       "price_gold": 0,
-      "name": "S51 Runner Up",
+      "name": "S51 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6206_0": {
-    "name": "S51 Runner Up",
-    "hash": "dae5ac8898a096e416ba536310dc867a",
+    "name": "S51 Vengeance",
+    "hash": "141bbe3ada77f8bbdeb6f9331a20dc1e",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 51 Runner Up",
@@ -147164,21 +148740,20 @@
       "level": 1,
       "id": "set_6206_0",
       "price_gold": 0,
-      "name": "S51 Runner Up",
+      "name": "S51 Vengeance",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6206_1": {
-    "name": "S51 Runner Up",
-    "hash": "3b651e23737854fc70906718fbef80b9",
+    "name": "S51 Vengeance",
+    "hash": "50ae56dc34fd9dfcb6e4d1dc637de83d",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 51 Runner Up",
@@ -147189,13 +148764,12 @@
       "level": 1,
       "id": "set_6206_1",
       "price_gold": 0,
-      "name": "S51 Runner Up",
+      "name": "S51 Vengeance",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -147203,7 +148777,7 @@
   },
   "library::set_6207_0": {
     "name": "S51 Costume",
-    "hash": "2c5b987a60958cc178dbefbd0867d7d0",
+    "hash": "60ca00c9542e788a61f2631d4f15eed5",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 51",
@@ -147220,7 +148794,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -147228,7 +148801,7 @@
   },
   "library::set_6207_1": {
     "name": "S51 Costume",
-    "hash": "f626a0ee6da02192c44c5f56d31c7665",
+    "hash": "4e837f6165c680fe1ad137c1038b9f42",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 51",
@@ -147240,6 +148813,205 @@
       "id": "set_6207_1",
       "price_gold": 0,
       "name": "S51 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6208_0": {
+    "name": "S52 Champion",
+    "hash": "246391424f4d2725ec29bb96cc245bba",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 52 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6208_0",
+      "price_gold": 0,
+      "name": "S52 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6208_1": {
+    "name": "S52 Champion",
+    "hash": "59b171e890315ca042807dbb3f477fc3",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 52 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6208_1",
+      "price_gold": 0,
+      "name": "S52 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6209_0": {
+    "name": "S52 Runner Up",
+    "hash": "2b96dc3f976f44c672609192e4a28019",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 52 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6209_0",
+      "price_gold": 0,
+      "name": "S52 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6209_1": {
+    "name": "S52 Runner Up",
+    "hash": "ac7ce5946d2347c36b93e9826bd91b1e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 52 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6209_1",
+      "price_gold": 0,
+      "name": "S52 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6210_0": {
+    "name": "S52 Runner Up",
+    "hash": "c31b11e8e5a9402ce3d3321844d8f9f2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 52 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6210_0",
+      "price_gold": 0,
+      "name": "S52 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6210_1": {
+    "name": "S52 Runner Up",
+    "hash": "b22d8185bb94f3f8c76d5f82a34c35e2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 52 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6210_1",
+      "price_gold": 0,
+      "name": "S52 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6211_0": {
+    "name": "S52 Costume",
+    "hash": "aa8a616edea2eaec22e6e7f3225c7d0c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 52",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6211_0",
+      "price_gold": 0,
+      "name": "S52 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6211_1": {
+    "name": "S52 Costume",
+    "hash": "7ed6cfba3add100f42bdeac0a8f24c8a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 52",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6211_1",
+      "price_gold": 0,
+      "name": "S52 Costume",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -179231,6 +181003,294 @@
       ]
     }
   },
+  "library::hair_2434_0": {
+    "name": "Royal Trickster Hairstyle",
+    "hash": "0e4212c8f4dd86708b16c48eeca573df",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2434_0",
+      "price_gold": 0,
+      "name": "Royal Trickster Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2434_1": {
+    "name": "Royal Trickster Hairstyle",
+    "hash": "63a96e4fd48793dd07bd1affddf70ae1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2434_1",
+      "price_gold": 0,
+      "name": "Royal Trickster Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2435_0": {
+    "name": "Midnight Circus Hairstyle",
+    "hash": "cde97687974bdd38fb17b532fcb492fa",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2435_0",
+      "price_gold": 0,
+      "name": "Midnight Circus Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2435_1": {
+    "name": "Midnight Circus Hairstyle",
+    "hash": "437b135b1401d5b1ed0b69f81ad2cddd",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2435_1",
+      "price_gold": 0,
+      "name": "Midnight Circus Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2436_0": {
+    "name": "Circus Worker Hairstyle",
+    "hash": "de131c08b2d2ed6de8726510020cd8e3",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2436_0",
+      "price_gold": 0,
+      "name": "Circus Worker Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2436_1": {
+    "name": "Circus Worker Hairstyle",
+    "hash": "9b79353427b41db5c5bb6fe204b0e23c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2436_1",
+      "price_gold": 0,
+      "name": "Circus Worker Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2437_0": {
+    "name": "Nightmare Jester Hairstyle",
+    "hash": "29b2c5c1ac5f85d1a4e60b13e1299231",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2437_0",
+      "price_gold": 0,
+      "name": "Nightmare Jester Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2437_1": {
+    "name": "Nightmare Jester Hairstyle",
+    "hash": "325fb8e04ca14934ca3c8c575a884110",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2437_1",
+      "price_gold": 0,
+      "name": "Nightmare Jester Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2438_0": {
+    "name": "Nightmare Circus Hairstyle",
+    "hash": "e4f1d2282249a14f2fc840141e993ee4",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2438_0",
+      "price_gold": 0,
+      "name": "Nightmare Circus Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2438_1": {
+    "name": "Nightmare Circus Hairstyle",
+    "hash": "93d95686db5b1920095a6d4007f80d8d",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2438_1",
+      "price_gold": 0,
+      "name": "Nightmare Circus Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2439_0": {
+    "name": "Nightmare Circus Hairstyle",
+    "hash": "7253ce41571cad2e1de64fba95a3208f",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2439_0",
+      "price_gold": 0,
+      "name": "Nightmare Circus Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
+  "library::hair_2439_1": {
+    "name": "Nightmare Circus Hairstyle",
+    "hash": "4ca7e42d5b1576265d4d4ea35873f98a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow Circus Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2439_1",
+      "price_gold": 0,
+      "name": "Nightmare Circus Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "circus2026"
+      ]
+    }
+  },
   "library::hair_5000_0": {
     "name": "S0 PvP Hairstyle",
     "hash": "8595de2acba57795e5ad75c19c8c8dcd",
@@ -179270,6 +181330,56 @@
       "id": "hair_5000_1",
       "price_gold": 0,
       "name": "S0 PvP Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
+  "library::hair_5001_0": {
+    "name": "S1 PvP Hairstyle",
+    "hash": "b8bba7052626198132e3b0ea3489bd6c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for PvP Milestone Season 1",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_5001_0",
+      "price_gold": 0,
+      "name": "S1 PvP Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
+  "library::hair_5001_1": {
+    "name": "S1 PvP Hairstyle",
+    "hash": "244b6e46981df5921e7cf070e4a14e88",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for PvP Milestone Season 1",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_5001_1",
+      "price_gold": 0,
+      "name": "S1 PvP Hairstyle",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -187860,7 +189970,7 @@
     }
   },
   "skill_effect::skill_871": {
-    "name": "skill_871",
+    "name": "Kinjutsu: Twin Mega Tornado",
     "hash": "7db47340500cdc7a4dc1b0f2716b1a3c",
     "data": {
       "skill_id": "skill_871",
@@ -187880,7 +189990,7 @@
     }
   },
   "skill_effect::skill_872": {
-    "name": "skill_872",
+    "name": "Kinjutsu: Fire Breathing Shuriken",
     "hash": "da7d50385aa6334e0bac8dd631741ac4",
     "data": {
       "skill_id": "skill_872",
@@ -187910,7 +190020,7 @@
     }
   },
   "skill_effect::skill_873": {
-    "name": "skill_873",
+    "name": "Kinjutsu: Final Thunderstorm",
     "hash": "4aae528c5ba94e7f5e8d50be7c8e7a29",
     "data": {
       "skill_id": "skill_873",
@@ -187930,7 +190040,7 @@
     }
   },
   "skill_effect::skill_874": {
-    "name": "skill_874",
+    "name": "Kinjutsu: Earthquake",
     "hash": "7ce2f83536f2eda81eb62eb07bf77140",
     "data": {
       "skill_id": "skill_874",
@@ -187951,7 +190061,7 @@
     }
   },
   "skill_effect::skill_875": {
-    "name": "skill_875",
+    "name": "Kinjutsu: Water Bubble Trap",
     "hash": "87ed70f44df2c5aad404e3774877087d",
     "data": {
       "skill_id": "skill_875",
@@ -197266,7 +199376,7 @@
     }
   },
   "skill_effect::skill_2381": {
-    "name": "skill_2381",
+    "name": "Kinjutsu: Trickster Blessing",
     "hash": "1a2278eb3fbfbe535eaa55ee2fb179ae",
     "data": {
       "skill_id": "skill_2381",
@@ -197285,7 +199395,7 @@
     }
   },
   "skill_effect::skill_2382": {
-    "name": "skill_2382",
+    "name": "Kinjutsu: Trickster Gambit",
     "hash": "635cd9be6a9b580d637d713c40441d7e",
     "data": {
       "skill_id": "skill_2382",
@@ -197304,7 +199414,7 @@
     }
   },
   "skill_effect::skill_2383": {
-    "name": "skill_2383",
+    "name": "Kinjutsu: Confetti Shot",
     "hash": "f2296c381aa3c36732b8a61d65197cd4",
     "data": {
       "skill_id": "skill_2383",
@@ -197323,7 +199433,7 @@
     }
   },
   "skill_effect::skill_2384": {
-    "name": "skill_2384",
+    "name": "Kinjutsu: Jester Surprise",
     "hash": "5038162b4b49096ab1ce821251020e78",
     "data": {
       "skill_id": "skill_2384",
@@ -197343,7 +199453,7 @@
     }
   },
   "skill_effect::skill_2385": {
-    "name": "skill_2385",
+    "name": "Kinjutsu: Jester Box",
     "hash": "182ee9859cabb90e2d1c00b461be86de",
     "data": {
       "skill_id": "skill_2385",
@@ -197362,7 +199472,7 @@
     }
   },
   "skill_effect::skill_2386": {
-    "name": "skill_2386",
+    "name": "Kinjutsu: Abracadabra",
     "hash": "ec55550746e10578390df0c2d1ac3191",
     "data": {
       "skill_id": "skill_2386",
@@ -197391,7 +199501,7 @@
     }
   },
   "skill_effect::skill_2387": {
-    "name": "skill_2387",
+    "name": "Kinjutsu: Advanced Abracadabra",
     "hash": "d9bd4682a483e988ecd3d18724393d1e",
     "data": {
       "skill_id": "skill_2387",
@@ -197420,10 +199530,29 @@
     }
   },
   "skill_effect::skill_2388": {
-    "name": "skill_2388",
-    "hash": "e2e1b38880908359fb0d1f7b84b31be7",
+    "name": "Kinjutsu: Critical Mass",
+    "hash": "e2e6851fd619af540c2d4e73889fce43",
     "data": {
       "skill_id": "skill_2388",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disorient",
+          "effect_name": "Disorient",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2389": {
+    "name": "Kinjutsu: Tree Punishment",
+    "hash": "5d2e09af671de12b7606607e8497f253",
+    "data": {
+      "skill_id": "skill_2389",
       "skill_effect": [
         {
           "target": "enemy",
@@ -197432,7 +199561,7 @@
           "effect_name": "Numb",
           "duration": 3,
           "calc_type": "percent",
-          "amount": 70,
+          "amount": 60,
           "chance": 100
         },
         {
@@ -197442,34 +199571,14 @@
           "effect_name": "Weaken",
           "duration": 3,
           "calc_type": "percent",
-          "amount": 70,
-          "chance": 100
-        }
-      ]
-    }
-  },
-  "skill_effect::skill_2389": {
-    "name": "skill_2389",
-    "hash": "b85d8fe5e458d228ae78f13a219d0249",
-    "data": {
-      "skill_id": "skill_2389",
-      "skill_effect": [
-        {
-          "target": "enemy",
-          "type": "Debuff",
-          "effect": "insta_reduce_max_hp",
-          "reduce_type": "MAX",
-          "effect_name": "Reduce HP",
-          "duration": 0,
-          "calc_type": "percent",
-          "amount": 12,
+          "amount": 60,
           "chance": 100
         }
       ]
     }
   },
   "skill_effect::skill_2390": {
-    "name": "skill_2390",
+    "name": "Kinjutsu: Goddess Embrace",
     "hash": "a8500e17b95830bf18f6b1f42ad2048e",
     "data": {
       "skill_id": "skill_2390",
@@ -197498,7 +199607,7 @@
     }
   },
   "skill_effect::skill_5000": {
-    "name": "Kinjutsu: Fiery Dance Strike",
+    "name": "S0 Kinjutsu: Fiery Dance Strike",
     "hash": "f90c0a88545ce64163338b6e587d58e2",
     "data": {
       "skill_id": "skill_5000",
@@ -197517,7 +199626,7 @@
     }
   },
   "skill_effect::skill_5001": {
-    "name": "Kinjutsu: Crimson Torrent",
+    "name": "S0 Kinjutsu: Crimson Torrent",
     "hash": "1825806e9ed135e65abdb2b30c859bbf",
     "data": {
       "skill_id": "skill_5001",
@@ -202538,7 +204647,7 @@
     }
   },
   "skill_effect::skill_8027": {
-    "name": "skill_8027",
+    "name": "S22 Kinjutsu: Lava Barrier",
     "hash": "59fc7220d53f73d5dd78f93050c57540",
     "data": {
       "skill_id": "skill_8027",
@@ -202562,6 +204671,65 @@
           "amount_duration": 3,
           "calc_type": "percent",
           "amount": 5,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_5003": {
+    "name": "S1 Kinjutsu: Summon of Sand Monster",
+    "hash": "b70a5b545ee4e74f038d5949d2ef7e1e",
+    "data": {
+      "skill_id": "skill_5003",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "numb",
+          "effect_name": "Numb",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_5004": {
+    "name": "S1 Kinjutsu: Sandstorm Heavy Strike",
+    "hash": "4de92cd96511a6c2e410fde273e1144d",
+    "data": {
+      "skill_id": "skill_5004",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "blind",
+          "effect_name": "Blind",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_cp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 45,
           "chance": 100
         }
       ]
@@ -227202,7 +229370,7 @@
     }
   },
   "weapon_effect::wpn_2463": {
-    "name": "wpn_2463",
+    "name": "Nightmare Jester Blade",
     "hash": "d762d4d15faf03ec756dca791f0d2791",
     "data": {
       "id": "wpn_2463",
@@ -227244,7 +229412,7 @@
     }
   },
   "weapon_effect::wpn_2464": {
-    "name": "wpn_2464",
+    "name": "Nightmare Jester Fan",
     "hash": "110fd677f0eb2878411b3c498c53bf29",
     "data": {
       "id": "wpn_2464",
@@ -227275,7 +229443,7 @@
     }
   },
   "weapon_effect::wpn_2465": {
-    "name": "wpn_2465",
+    "name": "Phantom Jester Spear",
     "hash": "79a06ca31ca8ca5fee88d2600f6ad633",
     "data": {
       "id": "wpn_2465",
@@ -227317,7 +229485,7 @@
     }
   },
   "weapon_effect::wpn_2466": {
-    "name": "wpn_2466",
+    "name": "Nightmare Circus Fan",
     "hash": "4162ba7bcc2a8917e9da3142399bfc8b",
     "data": {
       "id": "wpn_2466",
@@ -227348,7 +229516,7 @@
     }
   },
   "weapon_effect::wpn_2467": {
-    "name": "wpn_2467",
+    "name": "Nightmare Circus Firearms",
     "hash": "d7d54d36900894e1d0679e0e1583dd00",
     "data": {
       "id": "wpn_2467",
@@ -227379,7 +229547,7 @@
     }
   },
   "weapon_effect::wpn_2468": {
-    "name": "wpn_2468",
+    "name": "Staff of Agony",
     "hash": "f7d4fa24d69ee0dd450a659fc9fbadd3",
     "data": {
       "id": "wpn_2468",
@@ -229265,7 +231433,7 @@
     }
   },
   "weapon_effect::wpn_5003": {
-    "name": "wpn_5003",
+    "name": "S1 PvP: ",
     "hash": "4d3219f2ed1cabaf12c7816c814b02d3",
     "data": {
       "id": "wpn_5003",
@@ -229296,7 +231464,7 @@
     }
   },
   "weapon_effect::wpn_5004": {
-    "name": "wpn_5004",
+    "name": "S1 PvP: Djinn Cutlass",
     "hash": "ac83db76550d8db7b11ab2e905217d6b",
     "data": {
       "id": "wpn_5004",
@@ -237699,7 +239867,7 @@
     }
   },
   "weapon_effect::wpn_8108": {
-    "name": "wpn_8108",
+    "name": "S22 Crew: Lava Hammer",
     "hash": "8a782fb75345a43376cff2200c548d99",
     "data": {
       "id": "wpn_8108",
@@ -237741,7 +239909,7 @@
     }
   },
   "weapon_effect::wpn_8109": {
-    "name": "wpn_8109",
+    "name": "S22 Crew: Lava Ax",
     "hash": "1110f2880f554861bb6b1c6b98250228",
     "data": {
       "id": "wpn_8109",
@@ -237783,7 +239951,7 @@
     }
   },
   "weapon_effect::wpn_8110": {
-    "name": "wpn_8110",
+    "name": "S22 Crew: Lava Sickle",
     "hash": "27d0db9d5e90f0212332bcb1dc2dd7cc",
     "data": {
       "id": "wpn_8110",
@@ -237825,7 +239993,7 @@
     }
   },
   "weapon_effect::wpn_8111": {
-    "name": "wpn_8111",
+    "name": "S22 Crew: Lava Shuriken",
     "hash": "e1be2ec4888e980a5c65c058a7f7bdea",
     "data": {
       "id": "wpn_8111",
@@ -237868,7 +240036,7 @@
     }
   },
   "weapon_effect::wpn_8112": {
-    "name": "wpn_8112",
+    "name": "S22 Crew: Lava Sword",
     "hash": "a55d8302b69711aaa5264b3d41c0d40e",
     "data": {
       "id": "wpn_8112",
@@ -254272,7 +256440,7 @@
     }
   },
   "back_effect::back_2474": {
-    "name": "back_2474",
+    "name": "Arcana Trickster Blades",
     "hash": "32a373a1027d1d83ad44a85eb43f02ab",
     "data": {
       "id": "back_2474",
@@ -254292,7 +256460,7 @@
     }
   },
   "back_effect::back_2475": {
-    "name": "back_2475",
+    "name": "Trickster Soul Marionette",
     "hash": "1f72f9182a4278b2ee349aeca4d3b6d8",
     "data": {
       "id": "back_2475",
@@ -254312,7 +256480,7 @@
     }
   },
   "back_effect::back_2476": {
-    "name": "back_2476",
+    "name": "Puppet Master Robe",
     "hash": "b8b219841d4da0d89bc09b6d7213c896",
     "data": {
       "id": "back_2476",
@@ -254332,7 +256500,7 @@
     }
   },
   "back_effect::back_2477": {
-    "name": "back_2477",
+    "name": "Jester Comedic Fan",
     "hash": "79fd8608ce97072e80abda94e858f821",
     "data": {
       "id": "back_2477",
@@ -254363,7 +256531,7 @@
     }
   },
   "back_effect::back_2478": {
-    "name": "back_2478",
+    "name": "Circus Mace",
     "hash": "36beacf2512bb079e7bc7027b8e9188e",
     "data": {
       "id": "back_2478",
@@ -254394,7 +256562,7 @@
     }
   },
   "back_effect::back_2479": {
-    "name": "back_2479",
+    "name": "Chaos Matter",
     "hash": "41130fa33bf5a6a568544c78fe0b161a",
     "data": {
       "id": "back_2479",
@@ -254558,7 +256726,7 @@
     }
   },
   "back_effect::back_5003": {
-    "name": "back_5003",
+    "name": "S1 PvP: ",
     "hash": "ac577c04bacf4ca415440f8c4ae44400",
     "data": {
       "id": "back_5003",
@@ -254589,7 +256757,7 @@
     }
   },
   "back_effect::back_5004": {
-    "name": "back_5004",
+    "name": "S1 PvP: Djinn Puppet",
     "hash": "e8535865492bb7507442de0db1330600",
     "data": {
       "id": "back_5004",
@@ -256126,7 +258294,7 @@
     }
   },
   "back_effect::back_6052": {
-    "name": "S51 Clan: Blood Shade Magatama",
+    "name": "S51 Clan: Enchanted Winged Carapace",
     "hash": "ff1583262c8537d39c9253889a22cd88",
     "data": {
       "id": "back_6052",
@@ -257993,7 +260161,7 @@
     }
   },
   "back_effect::back_8043": {
-    "name": "back_8043",
+    "name": "S22 Crew: Lava Crown",
     "hash": "12e31b46fbeed83872e74319bc55efda",
     "data": {
       "id": "back_8043",
@@ -258013,7 +260181,7 @@
     }
   },
   "back_effect::back_8044": {
-    "name": "back_8044",
+    "name": "S22 Crew: Lava Ball",
     "hash": "94ac7ddadb82456249f9a8ab78550296",
     "data": {
       "id": "back_8044",
