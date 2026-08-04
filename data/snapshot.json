@@ -15583,10 +15583,10 @@
   },
   "skill::skill_871": {
     "name": "Kinjutsu: Twin Mega Tornado",
-    "hash": "528d410fdfee0ce423ee3af726207f2d",
+    "hash": "96efd6d7623c773d99360087fe9cb3e9",
     "data": {
       "id": "skill_871",
-      "price_tokens": 1000,
+      "price_tokens": 1500,
       "buyable": true,
       "price_gold": 0,
       "level": 80,
@@ -15620,10 +15620,10 @@
   },
   "skill::skill_872": {
     "name": "Kinjutsu: Fire Breathing Shuriken",
-    "hash": "e07f1fa52a18ef669390913684f42ffa",
+    "hash": "7c1a13a56806a161887b56f9480482b8",
     "data": {
       "id": "skill_872",
-      "price_tokens": 1000,
+      "price_tokens": 1500,
       "buyable": true,
       "price_gold": 0,
       "level": 80,
@@ -15649,10 +15649,10 @@
   },
   "skill::skill_873": {
     "name": "Kinjutsu: Final Thunderstorm",
-    "hash": "485b1971a73c0f16420b66249f743232",
+    "hash": "b0e049107ffb5703239375b84d6c5ea4",
     "data": {
       "id": "skill_873",
-      "price_tokens": 1000,
+      "price_tokens": 1500,
       "buyable": true,
       "price_gold": 0,
       "level": 80,
@@ -15686,10 +15686,10 @@
   },
   "skill::skill_874": {
     "name": "Kinjutsu: Earthquake",
-    "hash": "690146362a94a33db4488a5b5c7ade42",
+    "hash": "76f4873741f013c0efc4f927fb6db39b",
     "data": {
       "id": "skill_874",
-      "price_tokens": 1000,
+      "price_tokens": 1500,
       "buyable": true,
       "price_gold": 0,
       "level": 80,
@@ -15723,10 +15723,10 @@
   },
   "skill::skill_875": {
     "name": "Kinjutsu: Water Bubble Trap",
-    "hash": "f21949f7fa518d87db93b94111769517",
+    "hash": "7c977cbeac36902130806dc96e769dbc",
     "data": {
       "id": "skill_875",
-      "price_tokens": 1000,
+      "price_tokens": 1500,
       "buyable": true,
       "price_gold": 0,
       "level": 80,
@@ -29522,7 +29522,7 @@
   },
   "skill::skill_2388": {
     "name": "Kinjutsu: Critical Mass",
-    "hash": "af51eaf28774e2d8cffd77a1660af064",
+    "hash": "184eb742d52ed185adb03d64c6b1202f",
     "data": {
       "id": "skill_2388",
       "price_tokens": 0,
@@ -29534,7 +29534,7 @@
       "cp_cost": 400,
       "cooldown": 14,
       "target": "Single",
-      "description": "(Kinjutsu) Decrease target's rate to critical, dodge, combustion, purify and reactive force by 40% for 4 turns.",
+      "description": "(Kinjutsu) Decrease target rate to critical, dodge, combustion, purify and reactive force by 40% for 4 turns.",
       "name": "Kinjutsu: Critical Mass",
       "type": "7",
       "category": "event",

@@ -1,0 +1,68 @@
+[
+  {
+    "syncId": "2026-08-04T09-41-27-986Z",
+    "detectedAt": "2026-08-04T09:41:27.986Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_871",
+    "entityName": "Kinjutsu: Twin Mega Tornado",
+    "field": "price_tokens",
+    "oldValue": 1000,
+    "newValue": 1500
+  },
+  {
+    "syncId": "2026-08-04T09-41-27-986Z",
+    "detectedAt": "2026-08-04T09:41:27.986Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_872",
+    "entityName": "Kinjutsu: Fire Breathing Shuriken",
+    "field": "price_tokens",
+    "oldValue": 1000,
+    "newValue": 1500
+  },
+  {
+    "syncId": "2026-08-04T09-41-27-986Z",
+    "detectedAt": "2026-08-04T09:41:27.986Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_873",
+    "entityName": "Kinjutsu: Final Thunderstorm",
+    "field": "price_tokens",
+    "oldValue": 1000,
+    "newValue": 1500
+  },
+  {
+    "syncId": "2026-08-04T09-41-27-986Z",
+    "detectedAt": "2026-08-04T09:41:27.986Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_874",
+    "entityName": "Kinjutsu: Earthquake",
+    "field": "price_tokens",
+    "oldValue": 1000,
+    "newValue": 1500
+  },
+  {
+    "syncId": "2026-08-04T09-41-27-986Z",
+    "detectedAt": "2026-08-04T09:41:27.986Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_875",
+    "entityName": "Kinjutsu: Water Bubble Trap",
+    "field": "price_tokens",
+    "oldValue": 1000,
+    "newValue": 1500
+  },
+  {
+    "syncId": "2026-08-04T09-41-27-986Z",
+    "detectedAt": "2026-08-04T09:41:27.986Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2388",
+    "entityName": "Kinjutsu: Critical Mass",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Decrease target's rate to critical, dodge, combustion, purify and reactive force by 40% for 4 turns.",
+    "newValue": "(Kinjutsu) Decrease target rate to critical, dodge, combustion, purify and reactive force by 40% for 4 turns."
+  }
+]
