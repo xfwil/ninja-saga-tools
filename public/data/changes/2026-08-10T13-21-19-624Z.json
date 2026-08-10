@@ -1,0 +1,123 @@
+[
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7054",
+    "entityName": "S26 Kinjutsu: Phantom Time",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7055",
+    "entityName": "S26 Kinjutsu: Advanced Phantom Time",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_7021",
+    "entityName": "S26 Shadow War: Thief Sword",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_7021",
+    "entityName": "S26 Shadow War: Thief Scarf",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7078_1",
+    "entityName": "S26 Shadow War Champion",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7079_0",
+    "entityName": "S26 Shadow War Runner Up",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7079_1",
+    "entityName": "S26 Shadow War Runner Up",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7080_0",
+    "entityName": "S26 Shadow War Participant",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7080_1",
+    "entityName": "S26 Shadow War Participant",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_7012_0",
+    "entityName": "S26 Shadow War Individual Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-10T13-21-19-624Z",
+    "detectedAt": "2026-08-10T13:21:19.624Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_7012_1",
+    "entityName": "S26 Shadow War Individual Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  }
+]

@@ -35979,7 +35979,7 @@
   },
   "skill::skill_7054": {
     "name": "S26 Kinjutsu: Phantom Time",
-    "hash": "9d7e1f42b0effc1d0aac349a3fbe7cab",
+    "hash": "f6b427c3eebf28cfe994ce1b0b68fc40",
     "data": {
       "id": "skill_7054",
       "price_tokens": 0,
@@ -35995,7 +35995,6 @@
       "name": "S26 Kinjutsu: Phantom Time",
       "type": "7",
       "category": "shadowwar",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -36014,7 +36013,7 @@
   },
   "skill::skill_7055": {
     "name": "S26 Kinjutsu: Advanced Phantom Time",
-    "hash": "51bea4656f7306ec953ab6876e25d183",
+    "hash": "939f42d771edb46f0cb88e50874d377e",
     "data": {
       "id": "skill_7055",
       "price_tokens": 0,
@@ -36031,7 +36030,6 @@
       "name": "S26 Kinjutsu: Advanced Phantom Time",
       "type": "7",
       "category": "shadowwar",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -64310,7 +64308,7 @@
   },
   "library::wpn_7021": {
     "name": "S26 Shadow War: Thief Sword",
-    "hash": "25e5bff85bcc45c2d9caea02cf62fbe3",
+    "hash": "f3848aa949ff2c89f376620e9fe014a9",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -64328,7 +64326,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -85275,7 +85272,7 @@
   },
   "library::back_7021": {
     "name": "S26 Shadow War: Thief Scarf",
-    "hash": "9eb7e4b4e8fee00a442c778e0769ccde",
+    "hash": "b121aa3e83d707373277fd808c4af8fd",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -85293,7 +85290,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -152793,7 +152789,7 @@
   },
   "library::set_7078_1": {
     "name": "S26 Shadow War Champion",
-    "hash": "237725d6e880692e8c6649997cd088ac",
+    "hash": "27d355017a2d474158a13d5e05dadba0",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 26 Champion",
@@ -152810,7 +152806,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -152818,7 +152813,7 @@
   },
   "library::set_7079_0": {
     "name": "S26 Shadow War Runner Up",
-    "hash": "34dadc299cd047dac917675cafd084e3",
+    "hash": "902e6baa198980723638f78d88150254",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 26 Runner Up",
@@ -152835,7 +152830,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -152843,7 +152837,7 @@
   },
   "library::set_7079_1": {
     "name": "S26 Shadow War Runner Up",
-    "hash": "8c7e476cbf20b2576e567b1319e5855e",
+    "hash": "ccd48fbd24fddfbd0499db644e3ed980",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 26 Runner Up",
@@ -152860,7 +152854,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -152868,7 +152861,7 @@
   },
   "library::set_7080_0": {
     "name": "S26 Shadow War Participant",
-    "hash": "8993ec87d0e4fe84147282456200d009",
+    "hash": "ab9c85fa62279a968c37370d6147aa85",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 26",
@@ -152885,7 +152878,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -152893,7 +152885,7 @@
   },
   "library::set_7080_1": {
     "name": "S26 Shadow War Participant",
-    "hash": "e6d8e52e426626410e2c6860de18fe82",
+    "hash": "b9e5b2a53afbc278b5ca4daa86237725",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 26",
@@ -152910,7 +152902,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -181971,7 +181962,7 @@
   },
   "library::hair_7012_0": {
     "name": "S26 Shadow War Individual Hairstyle",
-    "hash": "711abcef027fbac06c5198bbfdd692e3",
+    "hash": "d7ff366f86bf444981e76f464878088e",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 26",
@@ -181988,7 +181979,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -181996,7 +181986,7 @@
   },
   "library::hair_7012_1": {
     "name": "S26 Shadow War Individual Hairstyle",
-    "hash": "c6d4c990ee5299128d368e5dbc81afaf",
+    "hash": "50aabc95ce0cdd6229a63a852299433a",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 26",
@@ -182013,7 +182003,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
