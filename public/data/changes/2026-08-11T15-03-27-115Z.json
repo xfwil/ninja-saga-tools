@@ -1,0 +1,404 @@
+[
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_dummy",
+    "entityName": "Dummy Reverse Healing",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_6105",
+    "entityName": "S52 Kinjutsu: Gourd Punishment",
+    "field": "description",
+    "oldValue": "",
+    "newValue": "(Kinjutsu) Send the fiery gourd strike to your enemy. Inflict weaken target by 100% and internal injury for 2 turns."
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_6106",
+    "entityName": "S52 Kinjutsu: Advance Gourd Punishment",
+    "field": "description",
+    "oldValue": "",
+    "newValue": "(Kinjutsu) Send the fiery gourd strike to your enemy. Inflict weaken target by 100% and internal injury for 3 turns."
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7056",
+    "entityName": "S27 Kinjutsu: Nebula Strike"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7057",
+    "entityName": "S27 Kinjutsu: Advanced Nebula Strike"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_6094",
+    "entityName": "S52 Clan: Sacred Phoenix Greatblade",
+    "field": "description",
+    "oldValue": "S52 Clan Reward: ",
+    "newValue": "S52 Clan Reward: Increases accuracy by 45%. Recover HP and CP by 8% every turn."
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_7022",
+    "entityName": "S27 Shadow War: Nebula Blade"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_6053",
+    "entityName": "S52 Clan: Gold Dragon Scroll",
+    "field": "description",
+    "oldValue": "S52 Clan Reward: ",
+    "newValue": "S52 Clan Reward: Reduce damage taken by 10%. Ignore target dodge rate by 15%."
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_7022",
+    "entityName": "S27 Shadow War: Starcraft Nebula"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7081_0",
+    "entityName": "S27 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7081_1",
+    "entityName": "S27 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7082_0",
+    "entityName": "S27 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7082_1",
+    "entityName": "S27 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7083_0",
+    "entityName": "S27 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7083_1",
+    "entityName": "S27 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_7011_0",
+    "entityName": "S25 Shadow War Individual Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_7011_1",
+    "entityName": "S25 Shadow War Individual Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7013_0",
+    "entityName": "S27 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7013_1",
+    "entityName": "S27 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8001_1",
+    "entityName": "S1 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8002_0",
+    "entityName": "S2 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8002_1",
+    "entityName": "S2 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8003_0",
+    "entityName": "S3 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8003_1",
+    "entityName": "S3 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8004_0",
+    "entityName": "S4 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8004_1",
+    "entityName": "S4 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8005_0",
+    "entityName": "S5 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8005_1",
+    "entityName": "S5 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8006_0",
+    "entityName": "S6 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8006_1",
+    "entityName": "S6 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8007_0",
+    "entityName": "S7 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8007_1",
+    "entityName": "S7 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8008_0",
+    "entityName": "S8 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_8008_1",
+    "entityName": "S8 Crew Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_6105",
+    "entityName": "S52 Kinjutsu: Gourd Punishment"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_6106",
+    "entityName": "S52 Kinjutsu: Advance Gourd Punishment"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7056",
+    "entityName": "S27 Kinjutsu: Nebula Strike"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7057",
+    "entityName": "S27 Kinjutsu: Advanced Nebula Strike"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_6094",
+    "entityName": "S52 Clan: Sacred Phoenix Greatblade"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_7022",
+    "entityName": "S27 Shadow War: Nebula Blade"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_6053",
+    "entityName": "S52 Clan: Gold Dragon Scroll"
+  },
+  {
+    "syncId": "2026-08-11T15-03-27-115Z",
+    "detectedAt": "2026-08-11T15:03:27.115Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_7022",
+    "entityName": "S27 Shadow War: Starcraft Nebula"
+  }
+]

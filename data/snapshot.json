@@ -1,7 +1,7 @@
 {
   "skill::skill_dummy": {
     "name": "Dummy Reverse Healing",
-    "hash": "5ca190b8b0fd975f337f95c64439c4b4",
+    "hash": "bdc9441a93ee1bd6b0c1d1098866c9a7",
     "data": {
       "id": "skill_dummy",
       "price_tokens": 0,
@@ -18,6 +18,7 @@
       "attack_hit_position": "meele_1",
       "type": "3",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           33
@@ -34188,7 +34189,7 @@
   },
   "skill::skill_6105": {
     "name": "S52 Kinjutsu: Gourd Punishment",
-    "hash": "d57dda4d81c26527bbcdf712734775fa",
+    "hash": "2991aae37af6bf0a2453474d2f66085d",
     "data": {
       "id": "skill_6105",
       "price_tokens": 0,
@@ -34200,7 +34201,7 @@
       "cp_cost": 200,
       "cooldown": 16,
       "target": "Single",
-      "description": "",
+      "description": "(Kinjutsu) Send the fiery gourd strike to your enemy. Inflict weaken target by 100% and internal injury for 2 turns.",
       "name": "S52 Kinjutsu: Gourd Punishment",
       "type": "7",
       "category": "clan",
@@ -34226,7 +34227,7 @@
   },
   "skill::skill_6106": {
     "name": "S52 Kinjutsu: Advance Gourd Punishment",
-    "hash": "1b879d1d670ff5fd99eeac8413c7c7c9",
+    "hash": "7ba1255498d111f1bcf8aa7302d3f58f",
     "data": {
       "id": "skill_6106",
       "price_tokens": 0,
@@ -34238,7 +34239,7 @@
       "cp_cost": 100,
       "cooldown": 14,
       "target": "Single",
-      "description": "",
+      "description": "(Kinjutsu) Send the fiery gourd strike to your enemy. Inflict weaken target by 100% and internal injury for 3 turns.",
       "name": "S52 Kinjutsu: Advance Gourd Punishment",
       "type": "7",
       "category": "clan",
@@ -36044,6 +36045,68 @@
         "sw"
       ],
       "attack_hit_position": "meele_2"
+    }
+  },
+  "skill::skill_7056": {
+    "name": "S27 Kinjutsu: Nebula Strike",
+    "hash": "9a7b94d1b87ff4044a8ea2a2c8f3b4f3",
+    "data": {
+      "id": "skill_7056",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 333,
+      "hit_chance": 1000,
+      "cp_cost": 10,
+      "cooldown": 15,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove all positive status and chaos enemy for 2 turns. This jutsu is extremely accurate.",
+      "name": "S27 Kinjutsu: Nebula Strike",
+      "type": "6",
+      "category": "shadowwar",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          79
+        ]
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "range_2"
+    }
+  },
+  "skill::skill_7057": {
+    "name": "S27 Kinjutsu: Advanced Nebula Strike",
+    "hash": "0a4cab46212a356e324155bb96fca086",
+    "data": {
+      "id": "skill_7057",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 666,
+      "hit_chance": 1000,
+      "cp_cost": 10,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove all positive status and chaos enemy for 3 turns. This jutsu is extremely accurate.",
+      "name": "S27 Kinjutsu: Advanced Nebula Strike",
+      "type": "6",
+      "category": "shadowwar",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          115
+        ]
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "range_2"
     }
   },
   "skill::skill_8001": {
@@ -63757,11 +63820,11 @@
   },
   "library::wpn_6094": {
     "name": "S52 Clan: Sacred Phoenix Greatblade",
-    "hash": "387234a4fb749646526a4b470dabd651",
+    "hash": "0717141d5a2103141606caaa657e307f",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S52 Clan Reward: ",
+      "description": "S52 Clan Reward: Increases accuracy by 45%. Recover HP and CP by 8% every turn.",
       "level": 80,
       "damage": 480,
       "sell_price": 0,
@@ -64326,6 +64389,32 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::wpn_7022": {
+    "name": "S27 Shadow War: Nebula Blade",
+    "hash": "e5010a973bf875d83c55eb44cad882c8",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S27 Shadow War Reward: Increase accuracy 45%. Has 30% chance to converts 55% of damage received as HP. After receive damage, has 20% chance to 'Parry' incoming damage.",
+      "level": 80,
+      "damage": 549,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_7022",
+      "price_gold": 0,
+      "name": "S27 Shadow War: Nebula Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
       "source": [
         "sw"
       ]
@@ -84721,11 +84810,11 @@
   },
   "library::back_6053": {
     "name": "S52 Clan: Gold Dragon Scroll",
-    "hash": "9c787616479b103671232960682925ba",
+    "hash": "3f094ee2afa4cd0419219ba9e8f3fb34",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S52 Clan Reward: ",
+      "description": "S52 Clan Reward: Reduce damage taken by 10%. Ignore target dodge rate by 15%.",
       "level": 1,
       "damage": 0,
       "sell_price": 0,
@@ -85290,6 +85379,32 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::back_7022": {
+    "name": "S27 Shadow War: Starcraft Nebula",
+    "hash": "99f21674fb1049f5cd6f7760f75f3f01",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S27 Shadow War Reward: Recover CP by 7% every turn. Increase dodge chance by 10%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_7022",
+      "price_gold": 0,
+      "name": "S27 Shadow War: Starcraft Nebula",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
       "source": [
         "sw"
       ]
@@ -152907,6 +153022,155 @@
       ]
     }
   },
+  "library::set_7081_0": {
+    "name": "S27 Shadow War Champion",
+    "hash": "8eb70081c4b804491a5517161422749a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 27 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7081_0",
+      "price_gold": 0,
+      "name": "S27 Shadow War Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7081_1": {
+    "name": "S27 Shadow War Champion",
+    "hash": "8ae376efd615e628e57166e8c64b849a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 27 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7081_1",
+      "price_gold": 0,
+      "name": "S27 Shadow War Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7082_0": {
+    "name": "S27 Shadow War Runner Up",
+    "hash": "41d9b49dd7108da5c5ec35d68c6a3854",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 27 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7082_0",
+      "price_gold": 0,
+      "name": "S27 Shadow War Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7082_1": {
+    "name": "S27 Shadow War Runner Up",
+    "hash": "e4717b6b792dbd92206b0b880ba85169",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 27 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7082_1",
+      "price_gold": 0,
+      "name": "S27 Shadow War Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7083_0": {
+    "name": "S27 Shadow War Participant",
+    "hash": "ee302454664d59f2145cc5e1d2ecc275",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 27",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7083_0",
+      "price_gold": 0,
+      "name": "S27 Shadow War Participant",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7083_1": {
+    "name": "S27 Shadow War Participant",
+    "hash": "50db78020f23f33a585226cf30d41892",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 27",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7083_1",
+      "price_gold": 0,
+      "name": "S27 Shadow War Participant",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
   "library::set_8001_0": {
     "name": "S1 Crew Clothing",
     "hash": "a72e009419317a820cd7a9c948e80950",
@@ -181912,7 +182176,7 @@
   },
   "library::hair_7011_0": {
     "name": "S25 Shadow War Individual Hairstyle",
-    "hash": "6706fe24f28271d28ff8da242b232b62",
+    "hash": "7dc5bd5ffd854f4efc454c49a89fc437",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 25",
@@ -181929,7 +182193,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -181937,7 +182200,7 @@
   },
   "library::hair_7011_1": {
     "name": "S25 Shadow War Individual Hairstyle",
-    "hash": "4dd81932177fcbdfbbb9107132f74d7a",
+    "hash": "c6bc412a4d7d5f544d396ab7f5e4f625",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 25",
@@ -181954,7 +182217,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -182008,6 +182270,56 @@
       ]
     }
   },
+  "library::hair_7013_0": {
+    "name": "S27 Shadow War Individual Hairstyle",
+    "hash": "3c30960225dc170896c94febc63adabe",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for Shadow War Season 27",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_7013_0",
+      "price_gold": 0,
+      "name": "S27 Shadow War Individual Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::hair_7013_1": {
+    "name": "S27 Shadow War Individual Hairstyle",
+    "hash": "b0afa3bde4731e0566a2b1574ea727e6",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for Shadow War Season 27",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_7013_1",
+      "price_gold": 0,
+      "name": "S27 Shadow War Individual Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
   "library::hair_8001_0": {
     "name": "S1 Crew Hairstyle",
     "hash": "60d63aef888f48fe0a1d3c6d828d4979",
@@ -182036,7 +182348,7 @@
   },
   "library::hair_8001_1": {
     "name": "S1 Crew Hairstyle",
-    "hash": "6ffe3c1598fefc9f33b79d28c0ca99e5",
+    "hash": "1e4867e644c1fe392001d932803343e3",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182054,7 +182366,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182062,7 +182373,7 @@
   },
   "library::hair_8002_0": {
     "name": "S2 Crew Hairstyle",
-    "hash": "5486840481a4f4b1100595d68eb1ee93",
+    "hash": "4acd859c29d8678bf0fe9b00f5e56ee2",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182080,7 +182391,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182088,7 +182398,7 @@
   },
   "library::hair_8002_1": {
     "name": "S2 Crew Hairstyle",
-    "hash": "bf6df8262b3deda1ccb01607f0e17fca",
+    "hash": "5a146de2b9fb8dac58ebe4149a6431af",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182106,7 +182416,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182114,7 +182423,7 @@
   },
   "library::hair_8003_0": {
     "name": "S3 Crew Hairstyle",
-    "hash": "3f38dc549662852af7c0c534035b9555",
+    "hash": "bef286aaa0cbd447074a74003c4e93c3",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182132,7 +182441,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182140,7 +182448,7 @@
   },
   "library::hair_8003_1": {
     "name": "S3 Crew Hairstyle",
-    "hash": "7adf1700ba63f7539fedc27eb96cafdf",
+    "hash": "495c7c9cf8d7cd7325dbfd3967400329",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182158,7 +182466,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182166,7 +182473,7 @@
   },
   "library::hair_8004_0": {
     "name": "S4 Crew Hairstyle",
-    "hash": "2f93c7d3ad365717f3feb4916465890c",
+    "hash": "43561aad8fe24a3ee79fdfe150586b91",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182184,7 +182491,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182192,7 +182498,7 @@
   },
   "library::hair_8004_1": {
     "name": "S4 Crew Hairstyle",
-    "hash": "31634f5a2b6ff48552798d483d71adbb",
+    "hash": "8c2d56a6e24af64f5c877f7daabd72cb",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182210,7 +182516,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182218,7 +182523,7 @@
   },
   "library::hair_8005_0": {
     "name": "S5 Crew Hairstyle",
-    "hash": "9a41bdc92af72e480c690801ea342152",
+    "hash": "dd092d4493dc311de41452c1839540dd",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182236,7 +182541,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182244,7 +182548,7 @@
   },
   "library::hair_8005_1": {
     "name": "S5 Crew Hairstyle",
-    "hash": "37f08f2722f73d28723f570060ba2c49",
+    "hash": "0464372b329438f1a3c37ee2c5a8f9f3",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182262,7 +182566,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182270,7 +182573,7 @@
   },
   "library::hair_8006_0": {
     "name": "S6 Crew Hairstyle",
-    "hash": "a5777184c1d1631d3cdff75af2996f4a",
+    "hash": "ef561da3bacba97d90dc2ddee9e62af0",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182288,7 +182591,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182296,7 +182598,7 @@
   },
   "library::hair_8006_1": {
     "name": "S6 Crew Hairstyle",
-    "hash": "07f71554ffb96bc75ad92eb965daebe9",
+    "hash": "4e79d65ddb0f53148cf632c5ebd3adfa",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182314,7 +182616,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182322,7 +182623,7 @@
   },
   "library::hair_8007_0": {
     "name": "S7 Crew Hairstyle",
-    "hash": "22311a68de6d2813c45aa878d1ca98a6",
+    "hash": "6766ff66851977ebeb9fe167d6fe36e5",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182340,7 +182641,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182348,7 +182648,7 @@
   },
   "library::hair_8007_1": {
     "name": "S7 Crew Hairstyle",
-    "hash": "d870c6e8c6a7ee91ba4f2a2b400194f8",
+    "hash": "b71bd56c6ca61de5f8f9c07138f7b174",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182366,7 +182666,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182374,7 +182673,7 @@
   },
   "library::hair_8008_0": {
     "name": "S8 Crew Hairstyle",
-    "hash": "692d3a3c915c23b77324cfecbc55cdf5",
+    "hash": "b0ed0374fd98ee631a89d6d635884036",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182392,7 +182691,6 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
       ]
@@ -182400,7 +182698,7 @@
   },
   "library::hair_8008_1": {
     "name": "S8 Crew Hairstyle",
-    "hash": "d3429a4b30ac4550736dfe363520c23a",
+    "hash": "ef6c4263b3915a77c1deec2d10249cd8",
     "data": {
       "buyable_clan": false,
       "description": "Limited Crew Hairstyle",
@@ -182418,51 +182716,8 @@
       "price_merit": 10000,
       "category": "crew",
       "sellable": false,
-      "na": true,
       "source": [
         "crew"
-      ]
-    }
-  },
-  "skill_effect::skill_6103": {
-    "name": "S51 Kinjutsu: Time Distortion",
-    "hash": "00eeb7eeb0835268274847f42696fbb5",
-    "data": {
-      "skill_id": "skill_6103",
-      "skill_effect": [
-        {
-          "target": "self",
-          "type": "Buff",
-          "effect": "defer",
-          "effect_name": "Time Distortion",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 50,
-          "heal_block_turns": 2,
-          "chance": 100,
-          "no_disperse": true
-        }
-      ]
-    }
-  },
-  "skill_effect::skill_6104": {
-    "name": "S51 Kinjutsu: Advance Time Distortion",
-    "hash": "0d7a3976262b76387bdb25861bbc0311",
-    "data": {
-      "skill_id": "skill_6104",
-      "skill_effect": [
-        {
-          "target": "self",
-          "type": "Buff",
-          "effect": "defer",
-          "effect_name": "Time Distortion",
-          "duration": 4,
-          "calc_type": "percent",
-          "amount": 70,
-          "heal_block_turns": 2,
-          "chance": 100,
-          "no_disperse": true
-        }
       ]
     }
   },
@@ -202277,6 +202532,106 @@
       ]
     }
   },
+  "skill_effect::skill_6103": {
+    "name": "S51 Kinjutsu: Time Distortion",
+    "hash": "00eeb7eeb0835268274847f42696fbb5",
+    "data": {
+      "skill_id": "skill_6103",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "defer",
+          "effect_name": "Time Distortion",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 50,
+          "heal_block_turns": 2,
+          "chance": 100,
+          "no_disperse": true
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6104": {
+    "name": "S51 Kinjutsu: Advance Time Distortion",
+    "hash": "0d7a3976262b76387bdb25861bbc0311",
+    "data": {
+      "skill_id": "skill_6104",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "defer",
+          "effect_name": "Time Distortion",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 70,
+          "heal_block_turns": 2,
+          "chance": 100,
+          "no_disperse": true
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6105": {
+    "name": "S52 Kinjutsu: Gourd Punishment",
+    "hash": "6b80d347a08f36afddbd0a92773b6681",
+    "data": {
+      "skill_id": "skill_6105",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "weaken",
+          "effect_name": "Weaken",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "internal_injury",
+          "effect_name": "Internal Injury",
+          "duration": 2,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6106": {
+    "name": "S52 Kinjutsu: Advance Gourd Punishment",
+    "hash": "aeaeb350f2fa95457cb37693a189033a",
+    "data": {
+      "skill_id": "skill_6106",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "weaken",
+          "effect_name": "Weaken",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "internal_injury",
+          "effect_name": "Internal Injury",
+          "duration": 3,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_5049": {
     "name": "Kinjutsu: Advanced Futen Bullet",
     "hash": "ebdca35a9a5c5220295fa9b470478f01",
@@ -203969,6 +204324,64 @@
           "calc_type": "percent",
           "multi_hit": true,
           "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_7056": {
+    "name": "S27 Kinjutsu: Nebula Strike",
+    "hash": "9454aa32032e1b5a56f594565d1ed8b2",
+    "data": {
+      "skill_id": "skill_7056",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "chaos",
+          "effect_name": "Chaos",
+          "duration": 2,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_7057": {
+    "name": "S27 Kinjutsu: Advanced Nebula Strike",
+    "hash": "f6d301865b6cd441b13d08526e3ef0b6",
+    "data": {
+      "skill_id": "skill_7057",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "chaos",
+          "effect_name": "Chaos",
+          "duration": 3,
+          "calc_type": "",
+          "amount": 0,
           "chance": 100
         }
       ]
@@ -234813,6 +235226,38 @@
       ]
     }
   },
+  "weapon_effect::wpn_6094": {
+    "name": "S52 Clan: Sacred Phoenix Greatblade",
+    "hash": "2c10e2956006575d74fdae290e9fa018",
+    "data": {
+      "id": "wpn_6094",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_cp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "amount_cp": 8,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "weapon_effect::wpn_7000": {
     "name": "S1 Shadow War: Frosted Magica",
     "hash": "d86e91d1efe0532d0983c24ae8baf090",
@@ -235708,6 +236153,48 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_7022": {
+    "name": "S27 Shadow War: Nebula Blade",
+    "hash": "255419311a6c23bbceb9b34023643c98",
+    "data": {
+      "id": "wpn_7022",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "absorb_damage_to_hp",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 55,
+          "chance": 30
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "block_damage",
+          "effect_name": "Block Damage",
+          "duration": 0,
+          "calc_type": "",
+          "amount": 20,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
           "chance": 100
         }
       ]
@@ -258313,6 +258800,37 @@
       ]
     }
   },
+  "back_effect::back_6053": {
+    "name": "S52 Clan: Gold Dragon Scroll",
+    "hash": "ea9bc06941ccd18496932d8df3b01235",
+    "data": {
+      "id": "back_6053",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "ignore_dodge",
+          "effect_name": "Ignore Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 15,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "back_effect::back_7000": {
     "name": "S0 Shadow War: Fire Spirit",
     "hash": "db138d55879cf5588eb0c4b516d507cf",
@@ -259026,6 +259544,37 @@
           "calc_type": "",
           "amount": 0,
           "chance": 12
+        }
+      ]
+    }
+  },
+  "back_effect::back_7022": {
+    "name": "S27 Shadow War: Starcraft Nebula",
+    "hash": "7d32794f84ab882256fd14c3c31cc3ce",
+    "data": {
+      "id": "back_7022",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "cp_recover",
+          "effect_name": "Recover CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
         }
       ]
     }
