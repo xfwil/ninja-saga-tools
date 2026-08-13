@@ -1,0 +1,167 @@
+[
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_165",
+    "entityName": "Kinjutsu: Prison Colliding Wave",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Reduce target HP & CP by 2% and stun target for 2 turns.",
+    "newValue": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 2% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_264",
+    "entityName": "Kinjutsu: Prison Colliding Wave II",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Reduce target HP & CP by 3% and stun target for 2 turns.",
+    "newValue": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 3% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_263",
+    "entityName": "Kinjutsu: Prison Colliding Wave III",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Reduce target HP & CP by 5% and stun target for 2 turns.",
+    "newValue": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 5% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_265",
+    "entityName": "Kinjutsu: Prison Colliding Wave IV",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Reduce target HP & CP by 8% and stun target for 2 turns",
+    "newValue": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 8% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_875",
+    "entityName": "Kinjutsu: Water Bubble Trap",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Prison the target and reduce their attack damage by 100% 2 turns. (Prison: Reduce target HP & CP by 10%)",
+    "newValue": "(Kinjutsu) Prison the target and reduce their attack damage by 100% for 2 turns. (Prison: Reduce target HP & CP by 10% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2124",
+    "entityName": "Kinjutsu: Justice Crash",
+    "field": "description",
+    "oldValue": "Reduce all targets HP & CP by 7% and stun target for 2 turns.",
+    "newValue": "Prison all targets for 2 turns. (Prison: Reduce target HP & CP by 7% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2207",
+    "entityName": "Kinjutsu: Big Treant",
+    "field": "description",
+    "oldValue": "Reduce target HP & CP by 7% and stun target for 2 turns.",
+    "newValue": "Prison the target for 2 turns. (Prison: Reduce target HP & CP by 7% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2256",
+    "entityName": "Summoning: Black Turtle Water Cannon",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Reduce target HP & CP by 5% and stun target for 2 turns.",
+    "newValue": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 5% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2295",
+    "entityName": "Kinjutsu: Slashing Water Dash",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Reduce target HP & CP by 5% and stun target for 3 turns.",
+    "newValue": "(Kinjutsu) Prison the target for 3 turns. (Prison: Reduce target HP & CP by 5% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2340",
+    "entityName": "Kinjutsu: Art of Water Torrent",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Reduce target HP & CP by 3% and stun target for 2 turns.",
+    "newValue": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 3% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_5003",
+    "entityName": "S1 Kinjutsu: Summon of Sand Monster",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_5004",
+    "entityName": "S1 Kinjutsu: Sandstorm Heavy Strike",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_8016",
+    "entityName": "S11 Kinjutsu: Thorns Disaster",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Reduce all targets' HP & CP by 7% and stun target for 2 turns.",
+    "newValue": "(Kinjutsu) Prison all targets for 2 turns. (Prison: Reduce target HP & CP by 7% and stun target)"
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_5003",
+    "entityName": "S1 PvP: ",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-08-13T15-03-04-023Z",
+    "detectedAt": "2026-08-13T15:03:04.023Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_5004",
+    "entityName": "S1 PvP: Djinn Puppet",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  }
+]

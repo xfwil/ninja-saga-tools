@@ -4371,7 +4371,7 @@
   },
   "skill::skill_165": {
     "name": "Kinjutsu: Prison Colliding Wave",
-    "hash": "7cf07fdc7148d0a2fd7d2e03e2f90869",
+    "hash": "5004acbcbf08e60fd1a6b833dc590b10",
     "data": {
       "id": "skill_165",
       "price_tokens": 400,
@@ -4383,7 +4383,7 @@
       "cp_cost": 150,
       "cooldown": 10,
       "target": "Single",
-      "description": "(Kinjutsu) Reduce target HP & CP by 2% and stun target for 2 turns.",
+      "description": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 2% and stun target)",
       "name": "Kinjutsu: Prison Colliding Wave",
       "type": "5",
       "premium": false,
@@ -7614,7 +7614,7 @@
   },
   "skill::skill_264": {
     "name": "Kinjutsu: Prison Colliding Wave II",
-    "hash": "d4d4a078656d4d8954d20e3568676096",
+    "hash": "b1cdc6eeef7c606054161a5754e8a209",
     "data": {
       "id": "skill_264",
       "price_tokens": 200,
@@ -7626,7 +7626,7 @@
       "cp_cost": 315,
       "cooldown": 14,
       "target": "Single",
-      "description": "(Kinjutsu) Reduce target HP & CP by 3% and stun target for 2 turns.",
+      "description": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 3% and stun target)",
       "name": "Kinjutsu: Prison Colliding Wave II",
       "type": "5",
       "premium": false,
@@ -7650,7 +7650,7 @@
   },
   "skill::skill_263": {
     "name": "Kinjutsu: Prison Colliding Wave III",
-    "hash": "7676960a81e3e1b30687b0ca197e81ab",
+    "hash": "4b84be76695391fcf54f91988c2cc5b4",
     "data": {
       "id": "skill_263",
       "price_tokens": 250,
@@ -7662,7 +7662,7 @@
       "cp_cost": 390,
       "cooldown": 14,
       "target": "Single",
-      "description": "(Kinjutsu) Reduce target HP & CP by 5% and stun target for 2 turns.",
+      "description": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 5% and stun target)",
       "name": "Kinjutsu: Prison Colliding Wave III",
       "type": "5",
       "premium": false,
@@ -7686,7 +7686,7 @@
   },
   "skill::skill_265": {
     "name": "Kinjutsu: Prison Colliding Wave IV",
-    "hash": "f434706fb319433cd3de55314a79a9ab",
+    "hash": "9ffdbc25e8c6f4505430b3be2cdaab07",
     "data": {
       "id": "skill_265",
       "price_tokens": 300,
@@ -7698,7 +7698,7 @@
       "cp_cost": 465,
       "cooldown": 14,
       "target": "Single",
-      "description": "(Kinjutsu) Reduce target HP & CP by 8% and stun target for 2 turns",
+      "description": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 8% and stun target)",
       "name": "Kinjutsu: Prison Colliding Wave IV",
       "type": "5",
       "premium": false,
@@ -15724,7 +15724,7 @@
   },
   "skill::skill_875": {
     "name": "Kinjutsu: Water Bubble Trap",
-    "hash": "7c977cbeac36902130806dc96e769dbc",
+    "hash": "d0b23405ca1a82c30d749e64271f2c87",
     "data": {
       "id": "skill_875",
       "price_tokens": 1500,
@@ -15736,7 +15736,7 @@
       "cp_cost": 810,
       "cooldown": 13,
       "target": "Single",
-      "description": "(Kinjutsu) Prison the target and reduce their attack damage by 100% 2 turns. (Prison: Reduce target HP & CP by 10%)",
+      "description": "(Kinjutsu) Prison the target and reduce their attack damage by 100% for 2 turns. (Prison: Reduce target HP & CP by 10% and stun target)",
       "name": "Kinjutsu: Water Bubble Trap",
       "type": "5",
       "premium": false,
@@ -21429,7 +21429,7 @@
   },
   "skill::skill_2124": {
     "name": "Kinjutsu: Justice Crash",
-    "hash": "18665d8b3336320e6a063ccdc77e8813",
+    "hash": "180ef043b582946f69b60f364214a5a3",
     "data": {
       "id": "skill_2124",
       "price_tokens": 0,
@@ -21442,7 +21442,7 @@
       "cooldown": 13,
       "target": "All",
       "multi_hit": true,
-      "description": "Reduce all targets HP & CP by 7% and stun target for 2 turns.",
+      "description": "Prison all targets for 2 turns. (Prison: Reduce target HP & CP by 7% and stun target)",
       "name": "Kinjutsu: Justice Crash",
       "category": "spending",
       "type": "7",
@@ -23891,7 +23891,7 @@
   },
   "skill::skill_2207": {
     "name": "Kinjutsu: Big Treant",
-    "hash": "09177b12396643584c487acd83968a24",
+    "hash": "92adbd81041eea48cec1425dad3283f6",
     "data": {
       "id": "skill_2207",
       "price_tokens": 0,
@@ -23903,7 +23903,7 @@
       "cp_cost": 325,
       "cooldown": 13,
       "target": "Single",
-      "description": "Reduce target HP & CP by 7% and stun target for 2 turns.",
+      "description": "Prison the target for 2 turns. (Prison: Reduce target HP & CP by 7% and stun target)",
       "name": "Kinjutsu: Big Treant",
       "type": "7",
       "premium": false,
@@ -25435,7 +25435,7 @@
   },
   "skill::skill_2256": {
     "name": "Summoning: Black Turtle Water Cannon",
-    "hash": "29726796848f2dec5b69bc8178ed2daa",
+    "hash": "64313c6485109403959735dc353bdd7c",
     "data": {
       "id": "skill_2256",
       "price_tokens": 0,
@@ -25447,7 +25447,7 @@
       "cp_cost": 300,
       "cooldown": 15,
       "target": "Single",
-      "description": "(Kinjutsu) Reduce target HP & CP by 5% and stun target for 2 turns.",
+      "description": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 5% and stun target)",
       "name": "Summoning: Black Turtle Water Cannon",
       "type": "7",
       "premium": false,
@@ -26628,7 +26628,7 @@
   },
   "skill::skill_2295": {
     "name": "Kinjutsu: Slashing Water Dash",
-    "hash": "bbcf5cb76840a7ab2f00006f9462f916",
+    "hash": "6b0a12160e96e0681f1405838eef6dc0",
     "data": {
       "id": "skill_2295",
       "price_tokens": 0,
@@ -26640,7 +26640,7 @@
       "cp_cost": 200,
       "cooldown": 14,
       "target": "Single",
-      "description": "(Kinjutsu) Reduce target HP & CP by 5% and stun target for 3 turns.",
+      "description": "(Kinjutsu) Prison the target for 3 turns. (Prison: Reduce target HP & CP by 5% and stun target)",
       "name": "Kinjutsu: Slashing Water Dash",
       "type": "7",
       "premium": false,
@@ -28031,7 +28031,7 @@
   },
   "skill::skill_2340": {
     "name": "Kinjutsu: Art of Water Torrent",
-    "hash": "50c12adeab6d16b917ccece803b79d75",
+    "hash": "a2ba8debc12343082dca7619f910862b",
     "data": {
       "id": "skill_2340",
       "price_tokens": 0,
@@ -28043,7 +28043,7 @@
       "cp_cost": 315,
       "cooldown": 14,
       "target": "Single",
-      "description": "(Kinjutsu) Reduce target HP & CP by 3% and stun target for 2 turns.",
+      "description": "(Kinjutsu) Prison the target for 2 turns. (Prison: Reduce target HP & CP by 3% and stun target)",
       "name": "Kinjutsu: Art of Water Torrent",
       "type": "7",
       "category": "event",
@@ -30763,7 +30763,7 @@
   },
   "skill::skill_5003": {
     "name": "S1 Kinjutsu: Summon of Sand Monster",
-    "hash": "ba960151eec93fa6391aebd88fa2b8ba",
+    "hash": "e8a000aa3f3060e519a8a6f1d3c7f8bc",
     "data": {
       "id": "skill_5003",
       "price_tokens": 0,
@@ -30780,6 +30780,7 @@
       "type": "7",
       "category": "pvp",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           124
@@ -30794,7 +30795,7 @@
   },
   "skill::skill_5004": {
     "name": "S1 Kinjutsu: Sandstorm Heavy Strike",
-    "hash": "b968c66e7d26c8c6988004ec207866a6",
+    "hash": "86dfea57563de65ff19011aa7734f28e",
     "data": {
       "id": "skill_5004",
       "price_tokens": 0,
@@ -30811,6 +30812,7 @@
       "type": "7",
       "category": "pvp",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           79
@@ -36584,7 +36586,7 @@
   },
   "skill::skill_8016": {
     "name": "S11 Kinjutsu: Thorns Disaster",
-    "hash": "e016f8dd0d3c4b307bdb8d5e93e6141c",
+    "hash": "f7f89a598c3c3d7888fb464e3eb946a4",
     "data": {
       "id": "skill_8016",
       "price_tokens": 0,
@@ -36597,7 +36599,7 @@
       "cooldown": 13,
       "target": "All",
       "multi_hit": true,
-      "description": "(Kinjutsu) Reduce all targets' HP & CP by 7% and stun target for 2 turns.",
+      "description": "(Kinjutsu) Prison all targets for 2 turns. (Prison: Reduce target HP & CP by 7% and stun target)",
       "name": "S11 Kinjutsu: Thorns Disaster",
       "type": "7",
       "category": "crew",
@@ -83458,7 +83460,7 @@
   },
   "library::back_5003": {
     "name": "S1 PvP: ",
-    "hash": "faac2fbbeac96545ad29296bf1d66cab",
+    "hash": "90c59c69d3b4dde3f941903531abc541",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83476,6 +83478,7 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
+      "na": true,
       "source": [
         "pvp_league_shop",
         "pvp"
@@ -83484,7 +83487,7 @@
   },
   "library::back_5004": {
     "name": "S1 PvP: Djinn Puppet",
-    "hash": "b905d766d07e48caaa84b5482b0abd1e",
+    "hash": "0fc965394191ad20213a6c0db06fb09d",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83502,6 +83505,7 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
+      "na": true,
       "source": [
         "pvp_league_shop",
         "pvp"
