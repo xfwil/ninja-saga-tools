@@ -61362,8 +61362,8 @@
     }
   },
   "library::wpn_5003": {
-    "name": "S1 PvP: ",
-    "hash": "2d52b0ec3a3c52421a370b88eb32bdca",
+    "name": "S1 PvP: Cursed Aura Sword",
+    "hash": "3535b67d5cc1834e40a6185fbaf61209",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -61375,7 +61375,7 @@
       "price_tokens": 0,
       "id": "wpn_5003",
       "price_gold": 0,
-      "name": "S1 PvP: ",
+      "name": "S1 PvP: Cursed Aura Sword",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -63822,7 +63822,7 @@
   },
   "library::wpn_6094": {
     "name": "S52 Clan: Sacred Phoenix Greatblade",
-    "hash": "0717141d5a2103141606caaa657e307f",
+    "hash": "a8c1f5fab3ece3598bddbdc3a6b4f521",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -63840,7 +63840,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -83459,8 +83458,8 @@
     }
   },
   "library::back_5003": {
-    "name": "S1 PvP: ",
-    "hash": "90c59c69d3b4dde3f941903531abc541",
+    "name": "S1 PvP: Desert Eagle",
+    "hash": "f476db809460ac60a52e10ec20aed4f0",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -83472,7 +83471,7 @@
       "price_tokens": 0,
       "id": "back_5003",
       "price_gold": 0,
-      "name": "S1 PvP: ",
+      "name": "S1 PvP: Desert Eagle",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -84814,7 +84813,7 @@
   },
   "library::back_6053": {
     "name": "S52 Clan: Gold Dragon Scroll",
-    "hash": "3f094ee2afa4cd0419219ba9e8f3fb34",
+    "hash": "fb7421c5954b28fa356a811727f44a13",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -84832,7 +84831,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -148939,8 +148937,8 @@
     }
   },
   "library::set_6208_0": {
-    "name": "S52 Champion",
-    "hash": "246391424f4d2725ec29bb96cc245bba",
+    "name": "S52 Liquid Vincere",
+    "hash": "6188db85eb02b3d4921bf024b7c6744f",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 52 Champion",
@@ -148951,21 +148949,20 @@
       "level": 1,
       "id": "set_6208_0",
       "price_gold": 0,
-      "name": "S52 Champion",
+      "name": "S52 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6208_1": {
-    "name": "S52 Champion",
-    "hash": "59b171e890315ca042807dbb3f477fc3",
+    "name": "S52 Liquid Vincere",
+    "hash": "92ca0f6cd3281bfebe7c742218932843",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 52 Champion",
@@ -148976,21 +148973,20 @@
       "level": 1,
       "id": "set_6208_1",
       "price_gold": 0,
-      "name": "S52 Champion",
+      "name": "S52 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6209_0": {
-    "name": "S52 Runner Up",
-    "hash": "2b96dc3f976f44c672609192e4a28019",
+    "name": "S52 Liquid The Next Gen",
+    "hash": "8a0378c8c30b3347997ac37cea5ad903",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 52 Runner Up",
@@ -149001,21 +148997,20 @@
       "level": 1,
       "id": "set_6209_0",
       "price_gold": 0,
-      "name": "S52 Runner Up",
+      "name": "S52 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6209_1": {
-    "name": "S52 Runner Up",
-    "hash": "ac7ce5946d2347c36b93e9826bd91b1e",
+    "name": "S52 Liquid The Next Gen",
+    "hash": "0e5294aae7912c33944ec4797f40e04c",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 52 Runner Up",
@@ -149026,21 +149021,20 @@
       "level": 1,
       "id": "set_6209_1",
       "price_gold": 0,
-      "name": "S52 Runner Up",
+      "name": "S52 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6210_0": {
-    "name": "S52 Runner Up",
-    "hash": "c31b11e8e5a9402ce3d3321844d8f9f2",
+    "name": "S52 Vengeance",
+    "hash": "b4f5c206782fa7f76490059adea7b0a8",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 52 Runner Up",
@@ -149051,21 +149045,20 @@
       "level": 1,
       "id": "set_6210_0",
       "price_gold": 0,
-      "name": "S52 Runner Up",
+      "name": "S52 Vengeance",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6210_1": {
-    "name": "S52 Runner Up",
-    "hash": "b22d8185bb94f3f8c76d5f82a34c35e2",
+    "name": "S52 Vengeance",
+    "hash": "6971fcbd87475239e52422e5db41a648",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 52 Runner Up",
@@ -149076,13 +149069,12 @@
       "level": 1,
       "id": "set_6210_1",
       "price_gold": 0,
-      "name": "S52 Runner Up",
+      "name": "S52 Vengeance",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -149090,7 +149082,7 @@
   },
   "library::set_6211_0": {
     "name": "S52 Costume",
-    "hash": "aa8a616edea2eaec22e6e7f3225c7d0c",
+    "hash": "8dad2acf7f7f8afea76aeb9a170d1dac",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 52",
@@ -149107,7 +149099,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -149115,7 +149106,7 @@
   },
   "library::set_6211_1": {
     "name": "S52 Costume",
-    "hash": "7ed6cfba3add100f42bdeac0a8f24c8a",
+    "hash": "9a827fb056601cb87df3663ed39b701d",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 52",
@@ -149132,7 +149123,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -231839,7 +231829,7 @@
     }
   },
   "weapon_effect::wpn_5003": {
-    "name": "S1 PvP: ",
+    "name": "S1 PvP: Cursed Aura Sword",
     "hash": "4d3219f2ed1cabaf12c7816c814b02d3",
     "data": {
       "id": "wpn_5003",
@@ -257206,7 +257196,7 @@
     }
   },
   "back_effect::back_5003": {
-    "name": "S1 PvP: ",
+    "name": "S1 PvP: Desert Eagle",
     "hash": "ac577c04bacf4ca415440f8c4ae44400",
     "data": {
       "id": "back_5003",
