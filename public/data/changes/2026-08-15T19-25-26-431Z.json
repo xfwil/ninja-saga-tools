@@ -1,0 +1,24 @@
+[
+  {
+    "syncId": "2026-08-15T19-25-26-431Z",
+    "detectedAt": "2026-08-15T19:25:26.431Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_6105",
+    "entityName": "S52 Kinjutsu: Gourd Punishment",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-08-15T19-25-26-431Z",
+    "detectedAt": "2026-08-15T19:25:26.431Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_6106",
+    "entityName": "S52 Kinjutsu: Advance Gourd Punishment",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  }
+]

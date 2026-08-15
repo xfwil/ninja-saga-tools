@@ -34191,7 +34191,7 @@
   },
   "skill::skill_6105": {
     "name": "S52 Kinjutsu: Gourd Punishment",
-    "hash": "2991aae37af6bf0a2453474d2f66085d",
+    "hash": "e15ae49cc6521c28cef58c625e6563e3",
     "data": {
       "id": "skill_6105",
       "price_tokens": 0,
@@ -34208,7 +34208,6 @@
       "type": "7",
       "category": "clan",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           52
@@ -34229,7 +34228,7 @@
   },
   "skill::skill_6106": {
     "name": "S52 Kinjutsu: Advance Gourd Punishment",
-    "hash": "7ba1255498d111f1bcf8aa7302d3f58f",
+    "hash": "3548113c96632c0f95dcd5f01bdb6bd3",
     "data": {
       "id": "skill_6106",
       "price_tokens": 0,
@@ -34245,7 +34244,6 @@
       "name": "S52 Kinjutsu: Advance Gourd Punishment",
       "type": "7",
       "category": "clan",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
