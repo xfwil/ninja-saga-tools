@@ -783,10 +783,10 @@
   "wpn_644": [
     "shop_normal"
   ],
-  "wpn_1121": [
+  "wpn_1119": [
     "dragon_gacha"
   ],
-  "wpn_1122": [
+  "wpn_1120": [
     "dragon_gacha"
   ],
   "wpn_980": [
@@ -1648,6 +1648,39 @@
   "wpn_2468": [
     "event_seasonal"
   ],
+  "wpn_2469": [
+    "arena_rewards"
+  ],
+  "wpn_2470": [
+    "event_seasonal"
+  ],
+  "wpn_2471": [
+    "event_seasonal"
+  ],
+  "wpn_2472": [
+    "event_seasonal"
+  ],
+  "wpn_2473": [
+    "event_seasonal"
+  ],
+  "wpn_2474": [
+    "event_seasonal"
+  ],
+  "wpn_2475": [
+    "event_seasonal"
+  ],
+  "wpn_2476": [
+    "event_seasonal"
+  ],
+  "wpn_2477": [
+    "event_seasonal"
+  ],
+  "wpn_2478": [
+    "event_seasonal"
+  ],
+  "wpn_2479": [
+    "event_seasonal"
+  ],
   "wpn_4001": [
     "shop_clan",
     "clan_forge"
@@ -2151,6 +2184,12 @@
     "clan_war"
   ],
   "wpn_6094": [
+    "clan_war"
+  ],
+  "wpn_6095": [
+    "clan_war"
+  ],
+  "wpn_6096": [
     "clan_war"
   ],
   "wpn_7000": [
@@ -3404,6 +3443,42 @@
   "back_2479": [
     "event_seasonal"
   ],
+  "back_2480": [
+    "arena_rewards"
+  ],
+  "back_2481": [
+    "event_seasonal"
+  ],
+  "back_2482": [
+    "event_seasonal"
+  ],
+  "back_2483": [
+    "event_seasonal"
+  ],
+  "back_2484": [
+    "event_seasonal"
+  ],
+  "back_2485": [
+    "event_seasonal"
+  ],
+  "back_2486": [
+    "event_seasonal"
+  ],
+  "back_2487": [
+    "event_seasonal"
+  ],
+  "back_2488": [
+    "event_seasonal"
+  ],
+  "back_2489": [
+    "event_seasonal"
+  ],
+  "back_2490": [
+    "event_seasonal"
+  ],
+  "back_2491": [
+    "event_seasonal"
+  ],
   "back_4001": [
     "shop_crew"
   ],
@@ -3567,6 +3642,12 @@
     "clan_war"
   ],
   "back_6053": [
+    "clan_war"
+  ],
+  "back_6054": [
+    "clan_war"
+  ],
+  "back_6055": [
     "clan_war"
   ],
   "back_7000": [
@@ -3854,6 +3935,9 @@
   ],
   "accessory_2128": [
     "event:anniv2026"
+  ],
+  "accessory_2129": [
+    "event_seasonal"
   ],
   "accessory_7001": [
     "shadow_war"
@@ -4749,6 +4833,24 @@
     "event_seasonal"
   ],
   "material_2274": [
+    "event_seasonal"
+  ],
+  "material_2275": [
+    "event_seasonal"
+  ],
+  "material_2276": [
+    "event_seasonal"
+  ],
+  "material_2277": [
+    "event_seasonal"
+  ],
+  "material_2278": [
+    "event_seasonal"
+  ],
+  "material_2279": [
+    "event_seasonal"
+  ],
+  "material_2280": [
     "event_seasonal"
   ],
   "essential_01": [
@@ -6544,6 +6646,90 @@
   "set_2480_1": [
     "event_seasonal"
   ],
+  "set_2481_0": [
+    "event_seasonal"
+  ],
+  "set_2481_1": [
+    "event_seasonal"
+  ],
+  "set_2482_0": [
+    "event_seasonal"
+  ],
+  "set_2482_1": [
+    "event_seasonal"
+  ],
+  "set_2483_0": [
+    "event_seasonal"
+  ],
+  "set_2483_1": [
+    "event_seasonal"
+  ],
+  "set_2484_0": [
+    "event_seasonal"
+  ],
+  "set_2484_1": [
+    "event_seasonal"
+  ],
+  "set_2485_0": [
+    "event_seasonal"
+  ],
+  "set_2485_1": [
+    "event_seasonal"
+  ],
+  "set_2486_0": [
+    "event_seasonal"
+  ],
+  "set_2486_1": [
+    "event_seasonal"
+  ],
+  "set_2487_0": [
+    "event_seasonal"
+  ],
+  "set_2487_1": [
+    "event_seasonal"
+  ],
+  "set_2488_0": [
+    "event_seasonal"
+  ],
+  "set_2488_1": [
+    "event_seasonal"
+  ],
+  "set_2489_0": [
+    "event_seasonal"
+  ],
+  "set_2489_1": [
+    "event_seasonal"
+  ],
+  "set_2490_0": [
+    "event_seasonal"
+  ],
+  "set_2490_1": [
+    "event_seasonal"
+  ],
+  "set_2491_0": [
+    "event_seasonal"
+  ],
+  "set_2491_1": [
+    "event_seasonal"
+  ],
+  "set_2492_0": [
+    "event_seasonal"
+  ],
+  "set_2492_1": [
+    "event_seasonal"
+  ],
+  "set_2493_0": [
+    "event_seasonal"
+  ],
+  "set_2493_1": [
+    "event_seasonal"
+  ],
+  "set_2494_0": [
+    "event_seasonal"
+  ],
+  "set_2494_1": [
+    "event_seasonal"
+  ],
   "set_6000_0": [
     "clan_war"
   ],
@@ -7814,6 +8000,54 @@
     "clan_war"
   ],
   "set_6211_1": [
+    "clan_war"
+  ],
+  "set_6212_0": [
+    "clan_war"
+  ],
+  "set_6212_1": [
+    "clan_war"
+  ],
+  "set_6213_0": [
+    "clan_war"
+  ],
+  "set_6213_1": [
+    "clan_war"
+  ],
+  "set_6214_0": [
+    "clan_war"
+  ],
+  "set_6214_1": [
+    "clan_war"
+  ],
+  "set_6215_0": [
+    "clan_war"
+  ],
+  "set_6215_1": [
+    "clan_war"
+  ],
+  "set_6216_0": [
+    "clan_war"
+  ],
+  "set_6216_1": [
+    "clan_war"
+  ],
+  "set_6217_0": [
+    "clan_war"
+  ],
+  "set_6217_1": [
+    "clan_war"
+  ],
+  "set_6218_0": [
+    "clan_war"
+  ],
+  "set_6218_1": [
+    "clan_war"
+  ],
+  "set_6219_0": [
+    "clan_war"
+  ],
+  "set_6219_1": [
     "clan_war"
   ],
   "set_7000_0": [
@@ -9743,6 +9977,90 @@
     "event_seasonal"
   ],
   "hair_2439_1": [
+    "event_seasonal"
+  ],
+  "hair_2440_0": [
+    "event_seasonal"
+  ],
+  "hair_2440_1": [
+    "event_seasonal"
+  ],
+  "hair_2441_0": [
+    "event_seasonal"
+  ],
+  "hair_2441_1": [
+    "event_seasonal"
+  ],
+  "hair_2442_0": [
+    "event_seasonal"
+  ],
+  "hair_2442_1": [
+    "event_seasonal"
+  ],
+  "hair_2443_0": [
+    "event_seasonal"
+  ],
+  "hair_2443_1": [
+    "event_seasonal"
+  ],
+  "hair_2444_0": [
+    "event_seasonal"
+  ],
+  "hair_2444_1": [
+    "event_seasonal"
+  ],
+  "hair_2445_0": [
+    "event_seasonal"
+  ],
+  "hair_2445_1": [
+    "event_seasonal"
+  ],
+  "hair_2446_0": [
+    "event_seasonal"
+  ],
+  "hair_2446_1": [
+    "event_seasonal"
+  ],
+  "hair_2447_0": [
+    "event_seasonal"
+  ],
+  "hair_2447_1": [
+    "event_seasonal"
+  ],
+  "hair_2448_0": [
+    "event_seasonal"
+  ],
+  "hair_2448_1": [
+    "event_seasonal"
+  ],
+  "hair_2449_0": [
+    "event_seasonal"
+  ],
+  "hair_2449_1": [
+    "event_seasonal"
+  ],
+  "hair_2450_0": [
+    "event_seasonal"
+  ],
+  "hair_2450_1": [
+    "event_seasonal"
+  ],
+  "hair_2451_0": [
+    "event_seasonal"
+  ],
+  "hair_2451_1": [
+    "event_seasonal"
+  ],
+  "hair_2452_0": [
+    "event_seasonal"
+  ],
+  "hair_2452_1": [
+    "event_seasonal"
+  ],
+  "hair_2453_0": [
+    "event_seasonal"
+  ],
+  "hair_2453_1": [
     "event_seasonal"
   ],
   "hair_7000_0": [
@@ -12100,6 +12418,24 @@
   "skill_2390": [
     "event_seasonal"
   ],
+  "skill_2393": [
+    "event_seasonal"
+  ],
+  "skill_2394": [
+    "event_seasonal"
+  ],
+  "skill_2395": [
+    "event_seasonal"
+  ],
+  "skill_2396": [
+    "event_seasonal"
+  ],
+  "skill_2397": [
+    "event_seasonal"
+  ],
+  "skill_2398": [
+    "event_seasonal"
+  ],
   "skill_3001": [
     "senjutsu_shop"
   ],
@@ -12476,6 +12812,18 @@
     "clan_war"
   ],
   "skill_6106": [
+    "clan_war"
+  ],
+  "skill_6107": [
+    "clan_war"
+  ],
+  "skill_6108": [
+    "clan_war"
+  ],
+  "skill_6109": [
+    "clan_war"
+  ],
+  "skill_6110": [
     "clan_war"
   ],
   "skill_7000": [

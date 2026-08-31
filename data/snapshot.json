@@ -29606,6 +29606,248 @@
       "attack_hit_position": "startpos"
     }
   },
+  "skill::skill_2391": {
+    "name": "Kinjutsu: Reinforce Sacrifice (Limited)",
+    "hash": "133cfd64a86b2b47129095371a87989d",
+    "data": {
+      "id": "skill_2391",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 444,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove all positive status to the target. 35% chance to inflict 'Buff Negate' to enemy for 2 turns.",
+      "name": "Kinjutsu: Reinforce Sacrifice (Limited)",
+      "type": "6",
+      "category": "leaderboard",
+      "premium": false,
+      "anims": {
+        "hit": [
+          99
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "skill::skill_2392": {
+    "name": "Kinjutsu: Advanced Reinforce Sacrifice (Limited)",
+    "hash": "e59f7bc46ae1cc780aae19f568f70cf0",
+    "data": {
+      "id": "skill_2392",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 666,
+      "hit_chance": 1000,
+      "cp_cost": 10,
+      "cooldown": 12,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove all positive status to the target. Inflict 'Buff Negate' to enemy for 2 turns. This jutsu extremely accurate.",
+      "name": "Kinjutsu: Advanced Reinforce Sacrifice (Limited)",
+      "type": "6",
+      "category": "leaderboard",
+      "premium": false,
+      "anims": {
+        "hit": [
+          130
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "skill::skill_2393": {
+    "name": "Kinjutsu: Rolling Coin",
+    "hash": "31597c4177ad75a1d1e88d48a2d25418",
+    "data": {
+      "id": "skill_2393",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 18,
+      "target": "Single",
+      "description": "(Kinjutsu) Absorb 10% current HP from target.",
+      "name": "Kinjutsu: Rolling Coin",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          66
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "skill::skill_2394": {
+    "name": "Kinjutsu: Boiling Blood Trumpet",
+    "hash": "c6e062d247e241bad3442a33c826aab7",
+    "data": {
+      "id": "skill_2394",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 200,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 16,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Inflict 'Bleeding' on all enemies by 30% for 4 turns.",
+      "name": "Kinjutsu: Boiling Blood Trumpet",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          77
+        ]
+      },
+      "attack_hit_position": "range_1",
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "skill::skill_2395": {
+    "name": "Kinjutsu: Flawed Decree",
+    "hash": "ecd56e2efe9deb6d6dae8c8230e1cb96",
+    "data": {
+      "id": "skill_2395",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 549,
+      "cooldown": 15,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Inflict 'Corrupt' to all enemies by 8% for 3 turns. (Corrupt: Reduce HP overtime while also reduce healing effect by 50%. This jutsu cannot be purified)",
+      "name": "Kinjutsu: Flawed Decree",
+      "type": "7",
+      "category": "spending",
+      "premium": false,
+      "anims": {
+        "hit": [
+          94
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "skill::skill_2396": {
+    "name": "Kinjutsu: Moneycase Bash",
+    "hash": "8641df861fc58af765800e88ff8cbbbb",
+    "data": {
+      "id": "skill_2396",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflict 'Chaos' on target for 3 turns.",
+      "name": "Kinjutsu: Moneycase Bash",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          47
+        ]
+      },
+      "attack_hit_position": "meele_1",
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "skill::skill_2397": {
+    "name": "Kinjutsu: Gift of Freedom",
+    "hash": "e66d846698b7a604174010684ca52e42",
+    "data": {
+      "id": "skill_2397",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 100,
+      "cooldown": 18,
+      "target": "Self",
+      "description": "(Kinjutsu) Recover max HP by 20% for 3 turns.",
+      "name": "Kinjutsu: Gift of Freedom",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          47
+        ]
+      },
+      "attack_hit_position": "startpos",
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "skill::skill_2398": {
+    "name": "Kinjutsu: Strike of Justice",
+    "hash": "244a36707695df7ba8c246477713868e",
+    "data": {
+      "id": "skill_2398",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 100,
+      "hit_chance": 0,
+      "cp_cost": 150,
+      "cooldown": 18,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove all positive status effect from the target",
+      "name": "Kinjutsu: Strike of Justice",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "anims": {
+        "hit": [
+          71
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
   "skill::skill_3500": {
     "name": "Senjutsu: Super Charges",
     "hash": "0aa6dd05b82f6d6ff5d7fc12360fcb01",
@@ -34261,6 +34503,130 @@
         "clan"
       ],
       "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_6107": {
+    "name": "S53 Kinjutsu: Spirit Breaker",
+    "hash": "c93845a51b6a90fb194581f44a2c103a",
+    "data": {
+      "id": "skill_6107",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 200,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 18,
+      "target": "Single",
+      "description": "(Kinjutsu) Conjures ancient guiding spirits from another realm to strengthen your attack and strike the opponents vital chakra points. Reduces target's CP by 45% and causes all of target's skill suffer an additional cooldown for 2 turns. (Talent skill not included)",
+      "name": "S53 Kinjutsu: Spirit Breaker",
+      "type": "6",
+      "category": "clan",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          57
+        ]
+      },
+      "source": [
+        "clan"
+      ],
+      "attack_hit_position": "meele_1"
+    }
+  },
+  "skill::skill_6108": {
+    "name": "S53 Kinjutsu: Advance Spirit Breaker",
+    "hash": "8b63b8e6b1d93096f47609188085694f",
+    "data": {
+      "id": "skill_6108",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 500,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 15,
+      "target": "Single",
+      "description": "(Kinjutsu) Conjures ancient guiding spirits from another realm to strengthen your attack and strike the opponents vital chakra points. Reduces target's CP by 65% and causes all of target's skill suffer an additional cooldown for 3 turns. (Talent skill not included)",
+      "name": "S53 Kinjutsu: Advance Spirit Breaker",
+      "type": "6",
+      "category": "clan",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          57
+        ]
+      },
+      "source": [
+        "clan"
+      ],
+      "attack_hit_position": "meele_1"
+    }
+  },
+  "skill::skill_6109": {
+    "name": "S54 Kinjutsu: Ice Tower",
+    "hash": "0e5696f1e2b082216bbf6fc46724d879",
+    "data": {
+      "id": "skill_6109",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 400,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Confines your target with black ice to restrict their movement. Inflicts 'Frozen' status for 3 turns. (Frozen targets takes 80% reduced damage)",
+      "name": "S54 Kinjutsu: Ice Tower",
+      "type": "7",
+      "category": "clan",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          100
+        ]
+      },
+      "source": [
+        "clan"
+      ],
+      "attack_hit_position": "meele_4"
+    }
+  },
+  "skill::skill_6110": {
+    "name": "S54 Kinjutsu: Advance Ice Tower",
+    "hash": "679a7edee19ef34610b004d5c0dd5eec",
+    "data": {
+      "id": "skill_6110",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 15,
+      "target": "Single",
+      "description": "(Kinjutsu) Confines your target with black ice to restrict their movement. Inflicts 'Frozen' status for 4 turns. (Frozen targets takes 80% reduced damage)",
+      "name": "S54 Kinjutsu: Advance Ice Tower",
+      "type": "7",
+      "category": "clan",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          100
+        ]
+      },
+      "source": [
+        "clan"
+      ],
+      "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_7000": {
@@ -60041,6 +60407,281 @@
       ]
     }
   },
+  "library::wpn_2469": {
+    "name": "Sword of Flame Sacrifice (Limited)",
+    "hash": "51d61cb2a6cc6a24f1210be373acb36a",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 50%. Increase all attack damage by 350 and agility by 11.",
+      "level": 1,
+      "damage": 499,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2469",
+      "price_gold": 0,
+      "name": "Sword of Flame Sacrifice (Limited)",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "leaderboard",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::wpn_2470": {
+    "name": "Sanguis Reaper Scythe",
+    "hash": "8ee9d94bf7dc396128270bc316f12033",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 40%. Inflict 'Bleeding' by 30% for 2 turns upon a successful weapon attack and reduce incoming damage by 10%.",
+      "level": 40,
+      "damage": 242,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2470",
+      "price_gold": 0,
+      "name": "Sanguis Reaper Scythe",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::wpn_2471": {
+    "name": "Leech Knife",
+    "hash": "1ff2d0521d8d523869c8e5e8bd677771",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 35%. Reduce the target's max HP by 5% instantly after a successful weapon attack.",
+      "level": 40,
+      "damage": 255,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2471",
+      "price_gold": 0,
+      "name": "Leech Knife",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::wpn_2472": {
+    "name": "Greed Gauntlet",
+    "hash": "85dc278e65f5e534dda4873aa78d1461",
+    "data": {
+      "attack_type": "attack_09",
+      "buyable_clan": false,
+      "description": "Reduce incoming damage by 150 and increase dodge chance by 5%.",
+      "level": 20,
+      "damage": 145,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2472",
+      "price_gold": 0,
+      "name": "Greed Gauntlet",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::wpn_2473": {
+    "name": "Gilded Sword",
+    "hash": "c3e069973712fe2b3a7c2c0a641a24c0",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 40%, recover max HP and CP by 6% each turn.",
+      "level": 40,
+      "damage": 280,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2473",
+      "price_gold": 0,
+      "name": "Gilded Sword",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::wpn_2474": {
+    "name": "Vulture Claw",
+    "hash": "63527958627a5253289fefbaa2424685",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 40%, reduce incoming damage by 18%. Reduce skill CP usage by 18%.",
+      "level": 60,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2474",
+      "price_gold": 0,
+      "name": "Vulture Claw",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::wpn_2475": {
+    "name": "Blade of Greed",
+    "hash": "243a125759871882102472ccc4841b7d",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 10%. Recover 200 HP every turn.",
+      "level": 20,
+      "damage": 125,
+      "sell_price": 5000,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2475",
+      "price_gold": 0,
+      "name": "Blade of Greed",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::wpn_2476": {
+    "name": "Katana of Greed",
+    "hash": "23994708e25322711c10c635a20d24c3",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 15%. Reduce enemy max HP by 2% for 5 turns upon a successful weapon attack.",
+      "level": 20,
+      "damage": 129,
+      "sell_price": 5000,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2476",
+      "price_gold": 0,
+      "name": "Katana of Greed",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::wpn_2477": {
+    "name": "Black Greed Sword",
+    "hash": "af8293bf196f65199ee77d2567c54b26",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 35%, 10% chance to remove enemy positive status.",
+      "level": 40,
+      "damage": 254,
+      "sell_price": 5000,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2477",
+      "price_gold": 0,
+      "name": "Black Greed Sword",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::wpn_2478": {
+    "name": "Dark Corrupt Blade",
+    "hash": "7670ebec6941f00955fb347d03f4adb0",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 35%. Inflict 'Slow' on the enemy by 10% for 2 turns upon a successful weapon attack.",
+      "level": 40,
+      "damage": 245,
+      "sell_price": 5000,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2478",
+      "price_gold": 0,
+      "name": "Dark Corrupt Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::wpn_2479": {
+    "name": "Spear of Freedom",
+    "hash": "3c2c9ec6b84ac7f3a622222349467bae",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 45%. Increase damage by 281 and reduce damage taken by 28%.",
+      "level": 81,
+      "damage": 481,
+      "sell_price": 5000,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2479",
+      "price_gold": 0,
+      "name": "Spear of Freedom",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "spending",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
   "library::wpn_4001": {
     "name": "S0 Burning Maple Greatsword (Spirit)",
     "hash": "075254fdf7f8e08a60f921554fe01964",
@@ -63838,6 +64479,58 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::wpn_6095": {
+    "name": "S53 Clan: Ember Knife",
+    "hash": "91cef502a1bcdaaea99747a758a57063",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S53 Clan Reward: Increases accuracy by 45% and restore 7% of the user's max HP each turn. Has a 20% chance to block attack damage when HP is less than 40%.",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6095",
+      "price_gold": 0,
+      "name": "S53 Clan: Ember Knife",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::wpn_6096": {
+    "name": "S54 Clan: Tidal Spirit",
+    "hash": "3f380228841323478040d6aac32bed5d",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S54 Clan Reward: Increase accuracy by 45%. Inflict 'Bleeding' (30% additional damage) and 'Numb' (20% dodge reduction) for 3 turns upon every successful weapon attack.",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6096",
+      "price_gold": 0,
+      "name": "S54 Clan: Tidal Spirit",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
       "source": [
         "clan"
       ]
@@ -83321,6 +84014,306 @@
       ]
     }
   },
+  "library::back_2480": {
+    "name": "Orb of Sacrifice (Limited)",
+    "hash": "08c9118935c4a0ccb8799c69cceeb475",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "10% chance to block incoming damage.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2480",
+      "price_gold": 0,
+      "name": "Orb of Sacrifice (Limited)",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "leaderboard",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2481": {
+    "name": "Orb of Corruption",
+    "hash": "30268b4a72258df7932d7a66952a7bf5",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduce max HP by 10%, but increase max CP by 8% and recover 300 CP at the start of each of your turns.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2481",
+      "price_gold": 0,
+      "name": "Orb of Corruption",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2482": {
+    "name": "Leech Parasyte",
+    "hash": "4ccb26f2a6af27f1829ece04578d483b",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase reactive force by 7%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2482",
+      "price_gold": 0,
+      "name": "Leech Parasyte",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2483": {
+    "name": "Crimson Leech Wing",
+    "hash": "428e0cde1431b815ccfeb765346baf40",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase max HP and max CP by 800.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2483",
+      "price_gold": 0,
+      "name": "Crimson Leech Wing",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2484": {
+    "name": "Gilded Wing",
+    "hash": "d0d0740dd7df7682c5275b80cac7515e",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase agility by 8, recover max HP by 150 each turn.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2484",
+      "price_gold": 0,
+      "name": "Gilded Wing",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2485": {
+    "name": "Remnant of Vulture",
+    "hash": "e79b48f10042cca25d41de779fa6d2ff",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase all attack damage by 280.",
+      "level": 60,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2485",
+      "price_gold": 0,
+      "name": "Remnant of Vulture",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2486": {
+    "name": "Bag of Gold",
+    "hash": "41fda8cc404b280b7782a6ba7e0980d2",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase gold reward by by 5%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2486",
+      "price_gold": 0,
+      "name": "Bag of Gold",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2487": {
+    "name": "Suitcase of Cash",
+    "hash": "b38c9ac93cd662c30fd8e70d69cbcc8b",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase max hp and agility by 3%.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2487",
+      "price_gold": 0,
+      "name": "Suitcase of Cash",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2488": {
+    "name": "Bag of Cash",
+    "hash": "3a52de26cf44fe9c8aefe12a8cebc8d4",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase max HP and CP by 8%.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2488",
+      "price_gold": 0,
+      "name": "Bag of Cash",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2489": {
+    "name": "Suitcase of Money",
+    "hash": "4ca14db6740a384439410368729ca91a",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase attack damage by 200.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2489",
+      "price_gold": 0,
+      "name": "Suitcase of Money",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2490": {
+    "name": "Musket of Greed",
+    "hash": "7de755163b8f2d0815ae641c4d1e006c",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase dodge chance by 5%, 10% chance to absorb 2% of the attacker's max HP.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2490",
+      "price_gold": 0,
+      "name": "Musket of Greed",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::back_2491": {
+    "name": "Cape of Freedom",
+    "hash": "8a07db1d09dc54754d00431d8a772b1a",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase dodge chance by 10% and increase user agility by 8.",
+      "level": 45,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2491",
+      "price_gold": 0,
+      "name": "Cape of Freedom",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "spending",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
   "library::back_4001": {
     "name": "S2 Crew: Solar Aura (Spirit)",
     "hash": "4be3800fbdda8a366e9035f9efcea650",
@@ -84829,6 +85822,58 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::back_6054": {
+    "name": "S53 Clan: Frostfire Soul",
+    "hash": "72e73135d0d82258be6fde29315420a9",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S53 Clan Reward: Increase combustion chance by 15%. Has a 10% chances to freeze enemies who attacks the user for 1 turn. 'Frozen' target cannot act but takes 80% reduced damage.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_6054",
+      "price_gold": 0,
+      "name": "S53 Clan: Frostfire Soul",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::back_6055": {
+    "name": "S54 Clan: Ebony Nunchaku",
+    "hash": "e5de0db4a0f0cca0c361c46b530caff3",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S54 Clan Reward: Increase damage by 10%. Has 20% chance to apply 'Restriction' on enemies who attacks the user for 1 turn.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_6055",
+      "price_gold": 0,
+      "name": "S54 Clan: Ebony Nunchaku",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
       "source": [
         "clan"
       ]
@@ -90175,6 +91220,31 @@
       "sellable": false,
       "source": [
         "anniv2026"
+      ]
+    }
+  },
+  "library::accessory_2129": {
+    "name": "Symbol of Freedom",
+    "hash": "3748074ee9f14361c3587af2946959c9",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Recover HP & CP 5% every turn. But reduce user agility by 4.",
+      "level": 19,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "accessory",
+      "price_tokens": 0,
+      "id": "accessory_2129",
+      "price_gold": 0,
+      "name": "Symbol of Freedom",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "spending",
+      "sellable": false,
+      "source": [
+        "independence2026"
       ]
     }
   },
@@ -103355,6 +104425,153 @@
       "source": [
         "circus2026"
       ]
+    }
+  },
+  "library::material_2275": {
+    "name": "Greed Essence",
+    "hash": "a2e348a10e28909bd5fdf093a4e4a6ae",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Greed Essence can be used to exchange reward during Shadow of Greed Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2275",
+      "price_gold": 0,
+      "name": "Greed Essence",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::material_2276": {
+    "name": "Vulture Feather",
+    "hash": "9db0ed35988b07a9fb295f03477362a9",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Vulture Feather can be used to exchange reward during Shadow of Greed Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2276",
+      "price_gold": 0,
+      "name": "Vulture Feather",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::material_2277": {
+    "name": "Gold Rat",
+    "hash": "daef5b7db476a4f6052f941094b0c87b",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Gold Rat can be used to exchange reward during Shadow of Greed Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2277",
+      "price_gold": 0,
+      "name": "Gold Rat",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::material_2278": {
+    "name": "Worm Core",
+    "hash": "84cb74c36c5b579c1f749a13f8406b89",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Worm Core can be used to exchange reward during Shadow of Greed Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2278",
+      "price_gold": 0,
+      "name": "Worm Core",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::material_2279": {
+    "name": "Greed Card",
+    "hash": "abbdc54de49619b2c0504ed221a65548",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Greed Card can be used to Draw reward during Shadow of Greed Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2279",
+      "price_gold": 0,
+      "name": "Greed Card",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::material_2280": {
+    "name": "Blue Potion",
+    "hash": "66fed63ff6ad082702656c36ed61d337",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "Restore 100 stamina (For shadow war battle only).",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2280",
+      "price_gold": 0,
+      "name": "Blue Potion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true
     }
   },
   "library::essential_01": {
@@ -138850,6 +140067,706 @@
       ]
     }
   },
+  "library::set_2481_0": {
+    "name": "Leecher Armor Costume",
+    "hash": "0426cb583ef42063e211d42e1aa380ce",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2481_0",
+      "price_gold": 0,
+      "name": "Leecher Armor Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2481_1": {
+    "name": "Leecher Armor Costume",
+    "hash": "41333f7ad995bb70fb348e8ccc41de5b",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2481_1",
+      "price_gold": 0,
+      "name": "Leecher Armor Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2482_0": {
+    "name": "Leech Enforcer Costume",
+    "hash": "aa7a28372b9ae3a873a31a2c0eb187b3",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2482_0",
+      "price_gold": 0,
+      "name": "Leech Enforcer Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2482_1": {
+    "name": "Leech Enforcer Costume",
+    "hash": "98a67baa6f285ba887aa9c84ca9061d6",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2482_1",
+      "price_gold": 0,
+      "name": "Leech Enforcer Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2483_0": {
+    "name": "Corrupted Agent Costume",
+    "hash": "b7f042fc8d84badd41ba3b9700259bc2",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2483_0",
+      "price_gold": 0,
+      "name": "Corrupted Agent Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2483_1": {
+    "name": "Corrupted Agent Costume",
+    "hash": "a8a563283251cc6b41331e0fdff4ed8f",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2483_1",
+      "price_gold": 0,
+      "name": "Corrupted Agent Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2484_0": {
+    "name": "Gilded Rat Costume",
+    "hash": "621382f5d6082c803670dec777f55c90",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2484_0",
+      "price_gold": 0,
+      "name": "Gilded Rat Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2484_1": {
+    "name": "Gilded Rat Costume",
+    "hash": "0e10a9463a3e68899f78a93254a73000",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2484_1",
+      "price_gold": 0,
+      "name": "Gilded Rat Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2485_0": {
+    "name": "Vulture Armor Costume",
+    "hash": "0a8afe95af8879e54fdf72f3f0f980d4",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2485_0",
+      "price_gold": 0,
+      "name": "Vulture Armor Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2485_1": {
+    "name": "Vulture Armor Costume",
+    "hash": "3fde34ec0e0b5d3e3eb19ebb352d27a0",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2485_1",
+      "price_gold": 0,
+      "name": "Vulture Armor Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2486_0": {
+    "name": "Shadow of Greed 1 Costume",
+    "hash": "84cf5210b9fbc6eaa4fad9249ad41c13",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2486_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 1 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2486_1": {
+    "name": "Shadow of Greed 1 Costume",
+    "hash": "88f394b9396cbda44530bd8ce78d8d0f",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2486_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 1 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2487_0": {
+    "name": "Shadow of Greed 2 Costume",
+    "hash": "d37aa4e085652e008391aee2d13f1246",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2487_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 2 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2487_1": {
+    "name": "Shadow of Greed 2 Costume",
+    "hash": "60956110f3828dcb1676027aa0bf1f00",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2487_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 2 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2488_0": {
+    "name": "Shadow of Greed 3 Costume",
+    "hash": "07a13dcafa8b7c795ddc21662544a8fe",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2488_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 3 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2488_1": {
+    "name": "Shadow of Greed 3 Costume",
+    "hash": "1a7fe4c320e8557ee73670666f925276",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2488_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 3 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2489_0": {
+    "name": "Shadow of Greed 4 Costume",
+    "hash": "ec887a59e559732f22eb5be0d42940a4",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2489_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 4 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2489_1": {
+    "name": "Shadow of Greed 4 Costume",
+    "hash": "66c68e40ca021c2a1f5f4f7393e9b4c5",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2489_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 4 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2490_0": {
+    "name": "Shadow of Greed 5 Costume",
+    "hash": "7faa94e9c31b8a4f47f06ce5085ff1cf",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2490_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 5 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2490_1": {
+    "name": "Shadow of Greed 5 Costume",
+    "hash": "88f73cf9f8702fb4bba9fbcbe52db837",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2490_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 5 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2491_0": {
+    "name": "Shadow of Greed 6 Costume",
+    "hash": "34f7e96c30ecbd887005a53d58310000",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2491_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 6 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2491_1": {
+    "name": "Shadow of Greed 6 Costume",
+    "hash": "cb6df152e70fed25d3e9cc68dbe71b3e",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2491_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 6 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2492_0": {
+    "name": "Shadow of Greed 7 Costume",
+    "hash": "9ce0b85b698c2e058cb85b3854470065",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2492_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 7 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2492_1": {
+    "name": "Shadow of Greed 7 Costume",
+    "hash": "0b0f20dfc8446a6573b2742bff563a44",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2492_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 7 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2493_0": {
+    "name": "Shadow of Greed 8 Costume",
+    "hash": "4480fb59d33d958622bee52fc33c60a6",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2493_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 8 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2493_1": {
+    "name": "Shadow of Greed 8 Costume",
+    "hash": "25cd8ef19e1c40899feda986ed050e7e",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "set",
+      "level": 1,
+      "id": "set_2493_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 8 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2494_0": {
+    "name": "Spirit of Freedom Costume",
+    "hash": "a41597e1e175564d8a7364fff9432f05",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Spending Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2494_0",
+      "price_gold": 0,
+      "name": "Spirit of Freedom Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "spending",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::set_2494_1": {
+    "name": "Spirit of Freedom Costume",
+    "hash": "80854e418212af6df2c3186b97c6d4cc",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Spending Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2494_1",
+      "price_gold": 0,
+      "name": "Spirit of Freedom Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "spending",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
   "library::set_5000_0": {
     "name": "S0 PvP Costume",
     "hash": "8e658a6078aa80ce852e797b1d31a08b",
@@ -149121,6 +151038,406 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6212_0": {
+    "name": "S53 Champion",
+    "hash": "74e3842ddabaa7fa8ff097f9fbf53882",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 53 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6212_0",
+      "price_gold": 0,
+      "name": "S53 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6212_1": {
+    "name": "S53 Champion",
+    "hash": "b641b1db085f15618bcd543262814afd",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 53 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6212_1",
+      "price_gold": 0,
+      "name": "S53 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6213_0": {
+    "name": "S53 Runner Up",
+    "hash": "043be5d2247b69e69b804613ac0deeb4",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 53 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6213_0",
+      "price_gold": 0,
+      "name": "S53 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6213_1": {
+    "name": "S53 Runner Up",
+    "hash": "15bb05e4eba7c9ea3825451e39d95bd9",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 53 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6213_1",
+      "price_gold": 0,
+      "name": "S53 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6214_0": {
+    "name": "S53 Runner Up",
+    "hash": "9f7649fadacf14e2bb3f13c7b2020ee6",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 53 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6214_0",
+      "price_gold": 0,
+      "name": "S53 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6214_1": {
+    "name": "S53 Runner Up",
+    "hash": "b9c345b3fc4b8b39ec6e1a194e115f65",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 53 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6214_1",
+      "price_gold": 0,
+      "name": "S53 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6215_0": {
+    "name": "S53 Costume",
+    "hash": "0cd53550d61a8cd49d10c990e8559985",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 53",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6215_0",
+      "price_gold": 0,
+      "name": "S53 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6215_1": {
+    "name": "S53 Costume",
+    "hash": "300ccdf83906a40b3913aaea39d0f617",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 53",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6215_1",
+      "price_gold": 0,
+      "name": "S53 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6216_0": {
+    "name": "S54 Champion",
+    "hash": "7ef6b419ba5ce1d6f414d863894e7531",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 54 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6216_0",
+      "price_gold": 0,
+      "name": "S54 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6216_1": {
+    "name": "S54 Champion",
+    "hash": "67e7a3767501f77c2c26a9245a9bc2d1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 54 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6216_1",
+      "price_gold": 0,
+      "name": "S54 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6217_0": {
+    "name": "S54 Runner Up",
+    "hash": "1bd3c74e9c0b032f91071104c17dac45",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 54 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6217_0",
+      "price_gold": 0,
+      "name": "S54 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6217_1": {
+    "name": "S54 Runner Up",
+    "hash": "5d01422b940bde7777597d0c304724dc",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 54 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6217_1",
+      "price_gold": 0,
+      "name": "S54 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6218_0": {
+    "name": "S54 Runner Up",
+    "hash": "d18f2c01f9242a6815b797e7479c9486",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 54 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6218_0",
+      "price_gold": 0,
+      "name": "S54 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6218_1": {
+    "name": "S54 Runner Up",
+    "hash": "6fa6ef33d9cc802ff57df57d74fb6a32",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 54 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6218_1",
+      "price_gold": 0,
+      "name": "S54 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6219_0": {
+    "name": "S54 Costume",
+    "hash": "bd414b2743db0b073773cfab489296ab",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 54",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6219_0",
+      "price_gold": 0,
+      "name": "S54 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6219_1": {
+    "name": "S54 Costume",
+    "hash": "5b5911a00ba010625fbd5167c4365aea",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Clan Tournament Season 54",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6219_1",
+      "price_gold": 0,
+      "name": "S54 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
       "source": [
         "clan"
       ]
@@ -181538,6 +183855,678 @@
       ]
     }
   },
+  "library::hair_2440_0": {
+    "name": "Leecher Hairstyle",
+    "hash": "808952f3a384b829b2b1330cf8c5cbd2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2440_0",
+      "price_gold": 0,
+      "name": "Leecher Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2440_1": {
+    "name": "Leecher Hairstyle",
+    "hash": "2c42081d7d6f68050b8c888baa9a58b1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2440_1",
+      "price_gold": 0,
+      "name": "Leecher Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2441_0": {
+    "name": "Enforcer Hairstyle",
+    "hash": "ef4ee31c7b13560d1d1acc631268482e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2441_0",
+      "price_gold": 0,
+      "name": "Enforcer Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2441_1": {
+    "name": "Enforcer Hairstyle",
+    "hash": "f61fded0a3fba2d79a2e96181602cfc4",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2441_1",
+      "price_gold": 0,
+      "name": "Enforcer Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2442_0": {
+    "name": "Corrupted Agent Hairstyle",
+    "hash": "c96c051f1664f1dfe388d449db73d89b",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2442_0",
+      "price_gold": 0,
+      "name": "Corrupted Agent Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2442_1": {
+    "name": "Corrupted Agent Hairstyle",
+    "hash": "204bc60114ba4f07ec8485dd0d06ea83",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2442_1",
+      "price_gold": 0,
+      "name": "Corrupted Agent Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2443_0": {
+    "name": "Gilded Rat Hairstyle",
+    "hash": "9c714b568bcebaf95ac99a91b2d6b2e5",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2443_0",
+      "price_gold": 0,
+      "name": "Gilded Rat Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2443_1": {
+    "name": "Gilded Rat Hairstyle",
+    "hash": "ad156be1b663dd9d463e419da2c2540c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2443_1",
+      "price_gold": 0,
+      "name": "Gilded Rat Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2444_0": {
+    "name": "Vulture Crown Hairstyle",
+    "hash": "4be46ec0ac62c4a50309d81cb23259a9",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2444_0",
+      "price_gold": 0,
+      "name": "Vulture Crown Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2444_1": {
+    "name": "Vulture Crown Hairstyle",
+    "hash": "445ade22135c0de25ef25a2829172caa",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2444_1",
+      "price_gold": 0,
+      "name": "Vulture Crown Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2445_0": {
+    "name": "Spirit of Freedom Hairstyle",
+    "hash": "3caf4fa4423505bbc86d2e680c418591",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Spending Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2445_0",
+      "price_gold": 0,
+      "name": "Spirit of Freedom Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2445_1": {
+    "name": "Spirit of Freedom Hairstyle",
+    "hash": "68386451ffd6092f7516d185ac884c7c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Spending Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2445_1",
+      "price_gold": 0,
+      "name": "Spirit of Freedom Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2446_0": {
+    "name": "Shadow of Greed 1 Hairstyle",
+    "hash": "b1b00288ee9854d8e4e8b61654bd15a1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2446_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 1 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2446_1": {
+    "name": "Shadow of Greed 1 Hairstyle",
+    "hash": "569ef2a962691e27bd39da39f2741edb",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2446_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 1 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2447_0": {
+    "name": "Shadow of Greed 2 Hairstyle",
+    "hash": "ad4c2301a1f43a1389046a7ba38eddb6",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2447_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 2 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2447_1": {
+    "name": "Shadow of Greed 2 Hairstyle",
+    "hash": "e1ddbfb07382c5660c74df9d3de055c9",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2447_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 2 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2448_0": {
+    "name": "Shadow of Greed 3 Hairstyle",
+    "hash": "1f285c81da43408e7d8aaaf7d5894def",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2448_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 3 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2448_1": {
+    "name": "Shadow of Greed 3 Hairstyle",
+    "hash": "9d5bad3f6307c068cd5f163d2bf0c366",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2448_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 3 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2449_0": {
+    "name": "Shadow of Greed 4 Hairstyle",
+    "hash": "8ae3494664948c6652d59eb007be6e6d",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2449_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 4 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2449_1": {
+    "name": "Shadow of Greed 4 Hairstyle",
+    "hash": "f73bc959866ca92bfb0b669f3eadd605",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2449_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 4 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2450_0": {
+    "name": "Shadow of Greed 5 Hairstyle",
+    "hash": "3f1d5e1b11f4b4cf34b042dd19c6542d",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2450_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 5 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2450_1": {
+    "name": "Shadow of Greed 5 Hairstyle",
+    "hash": "029ad48a7dc6940541709c26df4a7349",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2450_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 5 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2451_0": {
+    "name": "Shadow of Greed 6 Hairstyle",
+    "hash": "bea7857bcc74c68e339137a35bc6985e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2451_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 6 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2451_1": {
+    "name": "Shadow of Greed 6 Hairstyle",
+    "hash": "4aea07aa6be7f3e4b2208032164ac037",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2451_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 6 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2452_0": {
+    "name": "Shadow of Greed 7 Hairstyle",
+    "hash": "a12ff3a2ea095f14c57b544a3fc1d712",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2452_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 7 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2452_1": {
+    "name": "Shadow of Greed 7 Hairstyle",
+    "hash": "598a6a9cb864ae447d4edd962c7bc3c0",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2452_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 7 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2453_0": {
+    "name": "Shadow of Greed 8 Hairstyle",
+    "hash": "c6f3f7aa06a96e40d7160fe329ed426a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2453_0",
+      "price_gold": 0,
+      "name": "Shadow of Greed 8 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
+  "library::hair_2453_1": {
+    "name": "Shadow of Greed 8 Hairstyle",
+    "hash": "e59b74b55e9983f28787abf14cb6c64e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Shadow of Greed Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 2500,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2453_1",
+      "price_gold": 0,
+      "name": "Shadow of Greed 8 Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "independence2026"
+      ]
+    }
+  },
   "library::hair_5000_0": {
     "name": "S0 PvP Hairstyle",
     "hash": "8595de2acba57795e5ad75c19c8c8dcd",
@@ -199842,6 +202831,181 @@
       ]
     }
   },
+  "skill_effect::skill_2391": {
+    "name": "Kinjutsu: Reinforce Sacrifice (Limited)",
+    "hash": "941862a5137a6509f5331814c0697447",
+    "data": {
+      "skill_id": "skill_2391",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "negate",
+          "effect_name": "Buff Negate",
+          "duration": 2,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 35
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2392": {
+    "name": "Kinjutsu: Advanced Reinforce Sacrifice (Limited)",
+    "hash": "f3bdeefab138dc9b3d88de67aa82fae4",
+    "data": {
+      "skill_id": "skill_2392",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "negate",
+          "effect_name": "Buff Negate",
+          "duration": 2,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2393": {
+    "name": "Kinjutsu: Rolling Coin",
+    "hash": "d11e38c4bc8fd115a4a5a45f40cd07f2",
+    "data": {
+      "skill_id": "skill_2393",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "current_hp_drain",
+          "reduce_type": "CURRENT",
+          "effect_name": "Drain HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2394": {
+    "name": "Kinjutsu: Boiling Blood Trumpet",
+    "hash": "39dd2aa1fcca23f6c34194428f68f110",
+    "data": {
+      "skill_id": "skill_2394",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 4,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2395": {
+    "name": "Kinjutsu: Flawed Decree",
+    "hash": "f1a35adea15ccb266d4421ffedfb2bee",
+    "data": {
+      "skill_id": "skill_2395",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "corrupt",
+          "effect_name": "Corrupt",
+          "duration": 3,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 8,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2396": {
+    "name": "Kinjutsu: Moneycase Bash",
+    "hash": "4305e2f4670fd9d72fb65feab719464e",
+    "data": {
+      "skill_id": "skill_2396",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "chaos",
+          "effect_name": "Chaos",
+          "duration": 3,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2397": {
+    "name": "Kinjutsu: Gift of Freedom",
+    "hash": "37f7a1cbecae968a075151043b7bdae9",
+    "data": {
+      "skill_id": "skill_2397",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "regenHP",
+          "effect_name": "Recover HP",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 20,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2398": {
+    "name": "Kinjutsu: Strike of Justice",
+    "hash": "be6c61e820876c49d458d5028c59ec79",
+    "data": {
+      "skill_id": "skill_2398",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_5000": {
     "name": "S0 Kinjutsu: Fiery Dance Strike",
     "hash": "f90c0a88545ce64163338b6e587d58e2",
@@ -202619,6 +205783,104 @@
           "duration": 3,
           "calc_type": "",
           "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6107": {
+    "name": "S53 Kinjutsu: Spirit Breaker",
+    "hash": "d3221e6a27a7cdfac9f50878d820a2a5",
+    "data": {
+      "skill_id": "skill_6107",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_cp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "add_cooldown_player",
+          "effect_name": "Cooldown +",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 2,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6108": {
+    "name": "S53 Kinjutsu: Advance Spirit Breaker",
+    "hash": "2fdc79e840f8fb101e959a26ef9b487b",
+    "data": {
+      "skill_id": "skill_6108",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_cp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 65,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "add_cooldown_player",
+          "effect_name": "Cooldown +",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 3,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6109": {
+    "name": "S54 Kinjutsu: Ice Tower",
+    "hash": "59b0e16be1065135e6f1c48aaa50cbc1",
+    "data": {
+      "skill_id": "skill_6109",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "frozen",
+          "effect_name": "Frozen",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 80,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6110": {
+    "name": "S54 Kinjutsu: Advance Ice Tower",
+    "hash": "cbd951a2ef6b8cf5e083eb9913b52351",
+    "data": {
+      "skill_id": "skill_6110",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "frozen",
+          "effect_name": "Frozen",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 80,
           "chance": 100
         }
       ]
@@ -229983,6 +233245,393 @@
       ]
     }
   },
+  "weapon_effect::wpn_2469": {
+    "name": "Sword of Flame Sacrifice (Limited)",
+    "hash": "02e2036969bfe263ec60b6f0203576ec",
+    "data": {
+      "id": "wpn_2469",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 350,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Increase Agility",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 11,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 50,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2470": {
+    "name": "Sanguis Reaper Scythe",
+    "hash": "4745ef35be85709c7b788bbdfc14effb",
+    "data": {
+      "id": "wpn_2470",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 30,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2471": {
+    "name": "Leech Knife",
+    "hash": "c40041c68ff03feaa827a571d0ad45ce",
+    "data": {
+      "id": "wpn_2471",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2472": {
+    "name": "Greed Gauntlet",
+    "hash": "ca57edd8e9b1eeca6254587f08ca7833",
+    "data": {
+      "id": "wpn_2472",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 150,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 5,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2473": {
+    "name": "Gilded Sword",
+    "hash": "bb70a94e202315707031125f78ccc2dd",
+    "data": {
+      "id": "wpn_2473",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_cp_recover",
+          "effect_name": "Recover HP CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 6,
+          "amount_cp": 6,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2474": {
+    "name": "Vulture Claw",
+    "hash": "3e58ddab54b3c5949245a014df53b8ec",
+    "data": {
+      "id": "wpn_2474",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 18,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "reduce_cp_consumption",
+          "effect_name": "Reduce CP Cost",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 18,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2475": {
+    "name": "Blade of Greed",
+    "hash": "355c8db90ea04dea957113f5002482a2",
+    "data": {
+      "id": "wpn_2475",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "recover_hp_every_turn",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 200,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2476": {
+    "name": "Katana of Greed",
+    "hash": "a1f7261b7a5cd13e8fbe23a209f22f23",
+    "data": {
+      "id": "wpn_2476",
+      "effects": [
+        {
+          "passive": false,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "reduce_hp",
+          "effect_name": "Reduce HP",
+          "duration": 5,
+          "calc_type": "percent",
+          "amount": 2,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 15,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2477": {
+    "name": "Black Greed Sword",
+    "hash": "4035713e249e8525c95608460dcd4a6b",
+    "data": {
+      "id": "wpn_2477",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 10
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2478": {
+    "name": "Dark Corrupt Blade",
+    "hash": "1a5ba3d4971404f497233086bb18bddc",
+    "data": {
+      "id": "wpn_2478",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "slow",
+          "effect_name": "Slow",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2479": {
+    "name": "Spear of Freedom",
+    "hash": "3b3ae851cc9f7d57674f6f3e22eab87d",
+    "data": {
+      "id": "wpn_2479",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 281,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 28,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "weapon_effect::wpn_4001": {
     "name": "S0 Burning Maple Greatsword (Spirit)",
     "hash": "926d289789a6775fb1a5029f05204543",
@@ -235245,6 +238894,90 @@
           "calc_type": "percent",
           "amount": 8,
           "amount_cp": 8,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6095": {
+    "name": "S53 Clan: Ember Knife",
+    "hash": "36a52c0bcc9cf878b812881041eda5e1",
+    "data": {
+      "id": "wpn_6095",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "guard_below_hp",
+          "effect_name": "Block Damage",
+          "duration": 0,
+          "calc_type": "",
+          "amount": 40,
+          "chance": 20
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6096": {
+    "name": "S54 Clan: Tidal Spirit",
+    "hash": "835878367fb5a85d0051dda7a6f342c3",
+    "data": {
+      "id": "wpn_6096",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 30,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "numb",
+          "effect_name": "Numb",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 20,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
           "chance": 100
         }
       ]
@@ -257060,6 +260793,314 @@
       ]
     }
   },
+  "back_effect::back_2480": {
+    "name": "Orb of Sacrifice (Limited)",
+    "hash": "04b8a8531997c2da666439cbc203e526",
+    "data": {
+      "id": "back_2480",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "block_damage",
+          "effect_name": "Block Damage",
+          "duration": 0,
+          "calc_type": "",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2481": {
+    "name": "Orb of Corruption",
+    "hash": "c688f7464a4e795dcdec74ea7646eb8c",
+    "data": {
+      "id": "back_2481",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_decrease",
+          "effect_name": "Decrease Max HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "cp_recover",
+          "effect_name": "Recover CP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 300,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2482": {
+    "name": "Leech Parasyte",
+    "hash": "40d81ac022a27804c684d02bf5c85b1f",
+    "data": {
+      "id": "back_2482",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "increase_reactive",
+          "effect_name": "Reactive Force",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 7,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2483": {
+    "name": "Crimson Leech Wing",
+    "hash": "2097e25007895441333d2a8521508012",
+    "data": {
+      "id": "back_2483",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max Hp",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 800,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 800,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2484": {
+    "name": "Gilded Wing",
+    "hash": "661a627b3ecf12d2c6eb1a7467f58e97",
+    "data": {
+      "id": "back_2484",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Increase Agility",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 150,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2485": {
+    "name": "Remnant of Vulture",
+    "hash": "18645ebfffa011af5dfa4ef9b0b920e9",
+    "data": {
+      "id": "back_2485",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 280,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2487": {
+    "name": "Suitcase of Cash",
+    "hash": "cf51fd76d1dda64dbfe51cbe6e8c9142",
+    "data": {
+      "id": "back_2487",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max Hp",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 3,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Increase Agility",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 3,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2488": {
+    "name": "Bag of Cash",
+    "hash": "0a945a87bfb4133a5d2e79d44715b3b3",
+    "data": {
+      "id": "back_2488",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max Hp",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2489": {
+    "name": "Suitcase of Money",
+    "hash": "4c821dea3d02902379d8ce8a456e2e51",
+    "data": {
+      "id": "back_2489",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 200,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2490": {
+    "name": "Musket of Greed",
+    "hash": "8b4cbe05f0b7adddb5d01991512ba655",
+    "data": {
+      "id": "back_2490",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "absorb_hp_attacker",
+          "effect_name": "Absorb HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 2,
+          "chance": 10
+        }
+      ]
+    }
+  },
+  "back_effect::back_2491": {
+    "name": "Cape of Freedom",
+    "hash": "429428e724a18231339e4d922ad93f0a",
+    "data": {
+      "id": "back_2491",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Increase Agility",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 8,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "back_effect::back_4001": {
     "name": "S2 Crew: Solar Aura (Spirit)",
     "hash": "861c0f53e44ddd5494f3f97b6ea19a5a",
@@ -258819,6 +262860,68 @@
           "calc_type": "number",
           "amount": 15,
           "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_6054": {
+    "name": "S53 Clan: Frostfire Soul",
+    "hash": "a4fe5c9b6f8535270f4b69bddace69d9",
+    "data": {
+      "id": "back_6054",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "combustion_increase",
+          "effect_name": "Increase Combustion",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 15,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "freeze_attacker",
+          "effect_name": "Frozen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 80,
+          "chance": 10
+        }
+      ]
+    }
+  },
+  "back_effect::back_6055": {
+    "name": "S54 Clan: Ebony Nunchaku",
+    "hash": "b8f0eff711a1e9a0acc43b050d2ba57d",
+    "data": {
+      "id": "back_6055",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "restrict_attacker",
+          "effect_name": "Restriction",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 20
         }
       ]
     }
@@ -264439,6 +268542,38 @@
           "calc_type": "number",
           "amount": 250,
           "amount_cp": 250,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "accessory_effect::accessory_2129": {
+    "name": "Symbol of Freedom",
+    "hash": "e972a04d0b347fbd6d2a6a257068d74a",
+    "data": {
+      "id": "accessory_2129",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_cp_recover",
+          "effect_name": "Recover HP & CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "amount_cp": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "self",
+          "effect": "agility_decrease",
+          "effect_name": "Decrease Agility",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 4,
           "chance": 100
         }
       ]
