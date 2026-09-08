@@ -9489,7 +9489,7 @@
   },
   "skill::skill_524": {
     "name": "Kinjutsu: Palm of Repression",
-    "hash": "063df410c5a9a91e18b64762a46aaf38",
+    "hash": "171de861f4a8e8b0877b4e78924e7e80",
     "data": {
       "id": "skill_524",
       "price_tokens": 0,
@@ -9506,6 +9506,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           20
@@ -9516,7 +9517,7 @@
   },
   "skill::skill_525": {
     "name": "Kinjutsu: Explosive Fire Bomb",
-    "hash": "a34f3e9c43a32e61a068075e7378f437",
+    "hash": "7f667fd40414dd2a17fea9b3ecff4cf0",
     "data": {
       "id": "skill_525",
       "price_tokens": 0,
@@ -9533,6 +9534,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           57
@@ -10767,7 +10769,7 @@
   },
   "skill::skill_344": {
     "name": "Kinjutsu: Detach of Soul",
-    "hash": "523f61027d5fa032daa811a941553586",
+    "hash": "26fac75632e64827cf4e6fa0fb14c33d",
     "data": {
       "id": "skill_344",
       "price_tokens": 0,
@@ -10785,6 +10787,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           102
@@ -18139,7 +18142,7 @@
   },
   "skill::skill_2011": {
     "name": "Kinjutsu: Long Arm Punch",
-    "hash": "80eb9d58fbcecb3983275bd9dcbb58bd",
+    "hash": "9740d69f4f96ddbe90f7be6e43a157fe",
     "data": {
       "id": "skill_2011",
       "price_tokens": 0,
@@ -18156,6 +18159,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           35
@@ -18166,7 +18170,7 @@
   },
   "skill::skill_2012": {
     "name": "Kinjutsu: Long Leg Kick",
-    "hash": "82c2253a0bcb4e5b760b0304c574b96e",
+    "hash": "6bc13d3d1fff8b5100c7c9e61105a2d2",
     "data": {
       "id": "skill_2012",
       "price_tokens": 0,
@@ -18183,6 +18187,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           22
@@ -18193,7 +18198,7 @@
   },
   "skill::skill_2013": {
     "name": "Kinjutsu: Pirate Barrage",
-    "hash": "b9767de23428f926b4ab9efe5a62e995",
+    "hash": "a9afdc1aed5067f457f0af9000616330",
     "data": {
       "id": "skill_2013",
       "price_tokens": 0,
@@ -18211,6 +18216,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           11
@@ -18421,7 +18427,7 @@
   },
   "skill::skill_2021": {
     "name": "Kinjutsu: Angry Strike",
-    "hash": "b24d9a395ea2e5c6fabb94a75d44ac0e",
+    "hash": "e924317ab0823bc58f6fda1f751cb4ef",
     "data": {
       "id": "skill_2021",
       "price_tokens": 0,
@@ -18438,6 +18444,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           77
@@ -18448,7 +18455,7 @@
   },
   "skill::skill_2022": {
     "name": "Kinjutsu: Turtle Wave",
-    "hash": "0178f2d1f36aa44f244ed28c90bd4f6c",
+    "hash": "5a25a14a752fde2ecad59f6070d679e2",
     "data": {
       "id": "skill_2022",
       "price_tokens": 0,
@@ -18465,6 +18472,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           39
@@ -18475,7 +18483,7 @@
   },
   "skill::skill_2023": {
     "name": "Kinjutsu: Crystal Clear Ball",
-    "hash": "cc92d214445c1f6c1c0dd1ded6e423e9",
+    "hash": "98bec51c0fc36219d3d2811801617ec3",
     "data": {
       "id": "skill_2023",
       "price_tokens": 0,
@@ -18492,6 +18500,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           124
@@ -19085,7 +19094,7 @@
   },
   "skill::skill_2044": {
     "name": "Kinjutsu: Overwhelm Aura",
-    "hash": "60313cc31c60693e388d35d11bd426d8",
+    "hash": "e5b2939d1b5cb54a02e7b05f8aabbe6a",
     "data": {
       "id": "skill_2044",
       "price_tokens": 0,
@@ -19102,6 +19111,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           120
@@ -19112,7 +19122,7 @@
   },
   "skill::skill_2045": {
     "name": "Kinjutsu: Blue Fang Slash",
-    "hash": "2fa1951d076a6dd8d9f687a2f404cb56",
+    "hash": "84683dbfc2aa633323c8d9c2e57289c5",
     "data": {
       "id": "skill_2045",
       "price_tokens": 0,
@@ -19129,6 +19139,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           76
@@ -19139,7 +19150,7 @@
   },
   "skill::skill_2046": {
     "name": "Kinjutsu: Thousand Cherry Wave",
-    "hash": "96087136af5c2329f90d8327667bfe08",
+    "hash": "d14658a5fa402941b83007b22e431e31",
     "data": {
       "id": "skill_2046",
       "price_tokens": 0,
@@ -19157,6 +19168,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           104
@@ -19232,7 +19244,7 @@
   },
   "skill::skill_2049": {
     "name": "Kinjutsu: Become Ashes",
-    "hash": "086b7fe578def24111850130c1d962b9",
+    "hash": "24de17de6150a4f3339c766c4c5c5002",
     "data": {
       "id": "skill_2049",
       "price_tokens": 0,
@@ -19250,6 +19262,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           94
@@ -19264,7 +19277,7 @@
   },
   "skill::skill_2050": {
     "name": "Kinjutsu: Full Hypnosis",
-    "hash": "577d45a991a2fc0e8d2f0d1b8478d44c",
+    "hash": "31aa5c36f7c15cf416eee09522c16be3",
     "data": {
       "id": "skill_2050",
       "price_tokens": 0,
@@ -19281,6 +19294,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           138
@@ -19291,7 +19305,7 @@
   },
   "skill::skill_2051": {
     "name": "Kinjutsu: All-Powerful Mode",
-    "hash": "ffe5a288c2c59ece77edee048ee2518e",
+    "hash": "0ccf301b64156593e1eb2bda610753b8",
     "data": {
       "id": "skill_2051",
       "price_tokens": 0,
@@ -19309,6 +19323,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           150
@@ -19496,7 +19511,7 @@
   },
   "skill::skill_2058": {
     "name": "Three Stages Kick",
-    "hash": "f876652f29ac436ea514974aa57f161d",
+    "hash": "df2dbbaacb375c6cd220e36abad8e781",
     "data": {
       "id": "skill_2058",
       "price_tokens": 0,
@@ -19513,6 +19528,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           25
@@ -19523,7 +19539,7 @@
   },
   "skill::skill_2059": {
     "name": "Recoilless Kick",
-    "hash": "3750742f9722df1e60a03fd7d065bc90",
+    "hash": "14960c01188f47c9b9b365706cea96cc",
     "data": {
       "id": "skill_2059",
       "price_tokens": 0,
@@ -19540,6 +19556,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           69
@@ -19550,7 +19567,7 @@
   },
   "skill::skill_2060": {
     "name": "Blue Dragon's Kick",
-    "hash": "4d3f870f56c0a5b689288152c17d5125",
+    "hash": "023ced70046517adfb10a6b54e5a401c",
     "data": {
       "id": "skill_2060",
       "price_tokens": 0,
@@ -19568,6 +19585,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           85
@@ -20397,7 +20415,7 @@
   },
   "skill::skill_2089": {
     "name": "Kinjutsu: Violet",
-    "hash": "2202a889bc5e1962ac1cad3fd090d395",
+    "hash": "0deb73f6ec0157b216e76bca4977aa54",
     "data": {
       "id": "skill_2089",
       "price_tokens": 0,
@@ -20414,6 +20432,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           99
@@ -20424,7 +20443,7 @@
   },
   "skill::skill_2090": {
     "name": "Kinjutsu: Nail Formation",
-    "hash": "a65831a0461ed7a1254df589039088ea",
+    "hash": "d0f9a65c63f435981cb6b68d8788d53f",
     "data": {
       "id": "skill_2090",
       "price_tokens": 0,
@@ -20441,6 +20460,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           57
@@ -20451,7 +20471,7 @@
   },
   "skill::skill_2091": {
     "name": "Kinjutsu: Alter Dimension",
-    "hash": "d30786931badcbd2e50dbbb9b89c9e7d",
+    "hash": "d2ebc492f24f2815b35f3f44f67a0f47",
     "data": {
       "id": "skill_2091",
       "price_tokens": 0,
@@ -20468,6 +20488,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           100
@@ -21044,7 +21065,7 @@
   },
   "skill::skill_2111": {
     "name": "Kinjutsu: Paralyze Shoot",
-    "hash": "8f3ce4e170ae74c4590e7cd02e3eb81a",
+    "hash": "8c5ea7864cc6a07322551e418459e20c",
     "data": {
       "id": "skill_2111",
       "price_tokens": 0,
@@ -21062,6 +21083,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           35
@@ -21072,7 +21094,7 @@
   },
   "skill::skill_2112": {
     "name": "Kinjutsu: Oozing Chaos",
-    "hash": "820a4bae072da59b8afb15b386f07b11",
+    "hash": "4115c78eb0692ed4dac179105c038690",
     "data": {
       "id": "skill_2112",
       "price_tokens": 0,
@@ -21090,6 +21112,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           44
@@ -21100,7 +21123,7 @@
   },
   "skill::skill_2113": {
     "name": "Kinjutsu: Overload Cannon",
-    "hash": "b915e27159636b3290dbd510cb6e549f",
+    "hash": "b516ed65878a32e9bb8d2c63a6ed1f63",
     "data": {
       "id": "skill_2113",
       "price_tokens": 0,
@@ -21117,6 +21140,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           97
@@ -21311,7 +21335,7 @@
   },
   "skill::skill_2120": {
     "name": "Storm Style: Water Cutter",
-    "hash": "0eb56b30d389fc7d85e000f7e6714de3",
+    "hash": "09f82d46cbb3e18dab6e2dfacaf9aceb",
     "data": {
       "id": "skill_2120",
       "price_tokens": 0,
@@ -21328,6 +21352,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           88
@@ -21338,7 +21363,7 @@
   },
   "skill::skill_2121": {
     "name": "Storm Style: Dark Red Thunder",
-    "hash": "725ccf4dd91386bc1cca0ab1a7459f11",
+    "hash": "bd647a7dd0b3f5f25c3b69d7a437097f",
     "data": {
       "id": "skill_2121",
       "price_tokens": 0,
@@ -21355,6 +21380,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           61
@@ -21372,7 +21398,7 @@
   },
   "skill::skill_2122": {
     "name": "Storm Style: Draco Buster",
-    "hash": "36e41fc55bcf1a91901d93d411115a1b",
+    "hash": "252a6311d91edf926f1ad28cc3767867",
     "data": {
       "id": "skill_2122",
       "price_tokens": 0,
@@ -21390,6 +21416,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           137
@@ -21838,7 +21865,7 @@
   },
   "skill::skill_2138": {
     "name": "Kinjutsu: Freedom Rage",
-    "hash": "66333354242e656e6d11bf06044cbf25",
+    "hash": "c9e62acf1ef20e99cfdd3437589ca2b3",
     "data": {
       "id": "skill_2138",
       "price_tokens": 0,
@@ -21856,6 +21883,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           81
@@ -21866,7 +21894,7 @@
   },
   "skill::skill_2139": {
     "name": "Kinjutsu: Titan Protection",
-    "hash": "5e0a3547821392cb72a439d23704065f",
+    "hash": "5d245b49cfe6ecb2471ddf6f730ad124",
     "data": {
       "id": "skill_2139",
       "price_tokens": 0,
@@ -21883,6 +21911,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           141
@@ -21893,7 +21922,7 @@
   },
   "skill::skill_2140": {
     "name": "Kinjutsu: Titan Ultimate Smash",
-    "hash": "6c36619865192060f286498602f4d357",
+    "hash": "249b4686f84ee9d9b964dcfccd18bc1e",
     "data": {
       "id": "skill_2140",
       "price_tokens": 0,
@@ -21911,6 +21940,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           85
@@ -22081,7 +22111,7 @@
   },
   "skill::skill_2146": {
     "name": "Kinjutsu: Quints Arsenal Shot",
-    "hash": "a56ab31a69bf23921f9075faa157c6e8",
+    "hash": "251cb8de273ee459c1a718e6dd0f4424",
     "data": {
       "id": "skill_2146",
       "price_tokens": 0,
@@ -22098,6 +22128,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           43
@@ -22108,7 +22139,7 @@
   },
   "skill::skill_2147": {
     "name": "Kinjutsu: Hazard Barrage",
-    "hash": "d23233eccdaa5114f6f759fc81576736",
+    "hash": "6ad4f6b72ad4267ad63bcbdbab78a624",
     "data": {
       "id": "skill_2147",
       "price_tokens": 0,
@@ -22126,6 +22157,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           69
@@ -22143,7 +22175,7 @@
   },
   "skill::skill_2148": {
     "name": "Kinjutsu: Hazard Sense",
-    "hash": "b522a4596e0f711da9f77c13026b5d94",
+    "hash": "2cf50fdf05268e37d8615ee6f23c8769",
     "data": {
       "id": "skill_2148",
       "price_tokens": 0,
@@ -22160,6 +22192,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           64
@@ -22461,7 +22494,7 @@
   },
   "skill::skill_2159": {
     "name": "Noroiji: Jugon",
-    "hash": "eab97529a5acbc6eccef0288e312b8a2",
+    "hash": "fa3a52f70a165e6481715aeaf011d845",
     "data": {
       "id": "skill_2159",
       "price_tokens": 0,
@@ -22478,6 +22511,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           52
@@ -22493,7 +22527,7 @@
   },
   "skill::skill_2160": {
     "name": "Noroiji: Blood Manipulation",
-    "hash": "fb0d1cfb8e0a8f9cf5518995b90d7cc3",
+    "hash": "f52d7f3fef94373280d1f6d20e5a60d9",
     "data": {
       "id": "skill_2160",
       "price_tokens": 0,
@@ -22510,6 +22544,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           143
@@ -22524,7 +22559,7 @@
   },
   "skill::skill_2161": {
     "name": "Noroiji: Love Beam",
-    "hash": "862e2468991813d23e9ed97e48fad011",
+    "hash": "29acf85a9d52914c78aa5b096a09208b",
     "data": {
       "id": "skill_2161",
       "price_tokens": 0,
@@ -22542,6 +22577,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           151
@@ -23155,7 +23191,7 @@
   },
   "skill::skill_2182": {
     "name": "Anti-Magic: Black Meteorite",
-    "hash": "32320b721dc7691b89942d061a9d0283",
+    "hash": "f6350557651d67363cf2617ff4ef5e74",
     "data": {
       "id": "skill_2182",
       "price_tokens": 0,
@@ -23172,6 +23208,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           162
@@ -23182,7 +23219,7 @@
   },
   "skill::skill_2183": {
     "name": "Union-Magic: Bone Spatial Rend",
-    "hash": "2095075243e008c968381f5963e0f9e0",
+    "hash": "6208b9c5db88348585287271f65b2d8b",
     "data": {
       "id": "skill_2183",
       "price_tokens": 0,
@@ -23200,6 +23237,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           143
@@ -23210,7 +23248,7 @@
   },
   "skill::skill_2184": {
     "name": "Dark-Magic: Equinox",
-    "hash": "1cf4d4966c623492e8244424e5ddb950",
+    "hash": "3144455ea88cff75dc6e6d6af2e007d0",
     "data": {
       "id": "skill_2184",
       "price_tokens": 0,
@@ -23227,6 +23265,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           178
@@ -23674,7 +23713,7 @@
   },
   "skill::skill_2200": {
     "name": "Conjuration: Condemnation Bindings",
-    "hash": "09e168510eed06d21aa84426d43dc5f4",
+    "hash": "a89570c258004198c2e8fdc7ddeecc1a",
     "data": {
       "id": "skill_2200",
       "price_tokens": 0,
@@ -23692,6 +23731,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           170
@@ -23707,7 +23747,7 @@
   },
   "skill::skill_2201": {
     "name": "Transmutation: Lightning Ascension",
-    "hash": "206b0bbbb5e5294223c4d6316b88c3c1",
+    "hash": "0dd9466e0e9831080632ca0a7bb303fb",
     "data": {
       "id": "skill_2201",
       "price_tokens": 0,
@@ -23724,6 +23764,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           92
@@ -23734,7 +23775,7 @@
   },
   "skill::skill_2202": {
     "name": "Enhancement: Jajanken, Rock Energy Blast",
-    "hash": "1a86470d4eb47f1de07c440155aab9e2",
+    "hash": "9cc2237cb137e08ef481241943b26a6f",
     "data": {
       "id": "skill_2202",
       "price_tokens": 0,
@@ -23751,6 +23792,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           184
@@ -28196,7 +28238,7 @@
   },
   "skill::skill_2345": {
     "name": "Kinjutsu: Spirit Purifying Aura",
-    "hash": "12ca63bd70c6738a434e96151409e7c1",
+    "hash": "0d78b40ee0b41e825f0c2a7905a791a3",
     "data": {
       "id": "skill_2345",
       "price_tokens": 0,
@@ -28213,6 +28255,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           91
@@ -28230,7 +28273,7 @@
   },
   "skill::skill_2346": {
     "name": "Kinjutsu: Dustveil Fortification",
-    "hash": "ad553edd0174a94925d6188ab8cac937",
+    "hash": "a77afecb01c3d92f293e345a3f4f8948",
     "data": {
       "id": "skill_2346",
       "price_tokens": 0,
@@ -28247,6 +28290,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           61
@@ -28260,7 +28304,7 @@
   },
   "skill::skill_2347": {
     "name": "Kinjutsu: Earthshatter Twin Cleave",
-    "hash": "6df0fbc47fdb161c5eaa570be004c533",
+    "hash": "902b6a1e062ea592677e4f55bd41c38b",
     "data": {
       "id": "skill_2347",
       "price_tokens": 0,
@@ -28277,6 +28321,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           59
@@ -28908,7 +28953,7 @@
   },
   "skill::skill_2368": {
     "name": "Kinjutsu: Chaos Demon Claw",
-    "hash": "1cfbcf91d173b47aab974c75201a9a66",
+    "hash": "9180af2ab02b9728cdf51f1ca886efc0",
     "data": {
       "id": "skill_2368",
       "price_tokens": 0,
@@ -28925,6 +28970,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           90
@@ -28938,7 +28984,7 @@
   },
   "skill::skill_2369": {
     "name": "Kinjutsu: Mirage Sword",
-    "hash": "dcda177b00cb1a9e91e6de568a7c1967",
+    "hash": "3c115a418fd58766eb1fae38cf30d704",
     "data": {
       "id": "skill_2369",
       "price_tokens": 0,
@@ -28956,6 +29002,7 @@
       "type": "6",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           100
@@ -28969,7 +29016,7 @@
   },
   "skill::skill_2370": {
     "name": "Kinjutsu: Chaos Realm Emergence",
-    "hash": "8a1441a04156abe9bc59dcd271fbbba1",
+    "hash": "c218a2bba5222498d6a911f0e3c817b4",
     "data": {
       "id": "skill_2370",
       "price_tokens": 0,
@@ -28986,6 +29033,7 @@
       "type": "7",
       "category": "package",
       "premium": false,
+      "na": true,
       "anims": {
         "hit": [
           111
@@ -29846,6 +29894,34 @@
       "source": [
         "independence2026"
       ]
+    }
+  },
+  "skill::skill_2402": {
+    "name": "Kinjutsu: Flash Thunderous Kick",
+    "hash": "c9d351df237989166ac1a69c9bcfaf1c",
+    "data": {
+      "id": "skill_2402",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 350,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "Has 50% chance to remove target positive status. Inflict 'Blind' 100% to target for 1 turns.",
+      "name": "Kinjutsu: Flash Thunderous Kick",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          56
+        ]
+      },
+      "attack_hit_position": "range_1"
     }
   },
   "skill::skill_3500": {
@@ -36415,7 +36491,7 @@
   },
   "skill::skill_7056": {
     "name": "S27 Kinjutsu: Nebula Strike",
-    "hash": "9a7b94d1b87ff4044a8ea2a2c8f3b4f3",
+    "hash": "824c832e70de529a4ac3b22b7c61adf6",
     "data": {
       "id": "skill_7056",
       "price_tokens": 0,
@@ -36431,7 +36507,6 @@
       "name": "S27 Kinjutsu: Nebula Strike",
       "type": "6",
       "category": "shadowwar",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -36446,7 +36521,7 @@
   },
   "skill::skill_7057": {
     "name": "S27 Kinjutsu: Advanced Nebula Strike",
-    "hash": "0a4cab46212a356e324155bb96fca086",
+    "hash": "08c2b5404498039579dad47a324d272d",
     "data": {
       "id": "skill_7057",
       "price_tokens": 0,
@@ -36462,7 +36537,6 @@
       "name": "S27 Kinjutsu: Advanced Nebula Strike",
       "type": "6",
       "category": "shadowwar",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -36473,6 +36547,68 @@
         "sw"
       ],
       "attack_hit_position": "range_2"
+    }
+  },
+  "skill::skill_7058": {
+    "name": "S28 Kinjutsu: Dragon Claw",
+    "hash": "605b891e7cfaa99ec3c8a5c617069d74",
+    "data": {
+      "id": "skill_7058",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 435,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Reduce target 10% HP and inflict negative effect 'Poison' on target for 2 turns (Poison: Reduce 7% HP each turn)",
+      "name": "S28 Kinjutsu: Dragon Claw",
+      "type": "7",
+      "category": "shadowwar",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          35
+        ]
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_7059": {
+    "name": "S28 Kinjutsu: Advanced Dragon Claw",
+    "hash": "5d3831e703a0e7c62d2950524a1eb284",
+    "data": {
+      "id": "skill_7059",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 200,
+      "cooldown": 13,
+      "target": "Single",
+      "description": "(Kinjutsu) Reduce target 15% HP and inflict negative effect 'Poison' on target for 2 turns (Poison: Reduce 10% HP each turn)",
+      "name": "S28 Kinjutsu: Advanced Dragon Claw",
+      "type": "7",
+      "category": "shadowwar",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          39
+        ]
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "range_3"
     }
   },
   "skill::skill_8001": {
@@ -37312,6 +37448,38 @@
         "crew"
       ],
       "attack_hit_position": "startpos"
+    }
+  },
+  "skill::skill_8028": {
+    "name": "S23 Kinjutsu: Desert Storm",
+    "hash": "8e12fb27ae4c6d247ce26f7553ec3e67",
+    "data": {
+      "id": "skill_8028",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 600,
+      "cooldown": 20,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Decrease all target's rate to critical, dodge, combustion, purify and reactive force by 50%. Reduces all target's agility by 50% for 4 turns.",
+      "name": "S23 Kinjutsu: Desert Storm",
+      "type": "7",
+      "category": "crew",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          70
+        ]
+      },
+      "source": [
+        "crew"
+      ],
+      "attack_hit_position": "range_3"
     }
   },
   "library::wpn_01": {
@@ -64273,32 +64441,6 @@
       ]
     }
   },
-  "library::wpn_6092": {
-    "name": "S50 Clan: Buster Blade",
-    "hash": "7abe4558dfeddbdaee709e8eaef02b3c",
-    "data": {
-      "attack_type": "attack_06",
-      "buyable_clan": false,
-      "description": "S50 Clan Reward: A gigantic sword with immense destructive that can rip even the sea. Increases accuracy by 40% and restores 7% of the user's max HP each turn. Has a 40% chance to inflict burning when attack with weapon - Reduce 8% HP for 1 turn.",
-      "level": 80,
-      "damage": 477,
-      "sell_price": 0,
-      "type": "wpn",
-      "price_tokens": 0,
-      "id": "wpn_6092",
-      "price_gold": 0,
-      "name": "S50 Clan: Buster Blade",
-      "buyable": false,
-      "premium": false,
-      "price_prestige": 0,
-      "category": "clan",
-      "sellable": false,
-      "na": true,
-      "source": [
-        "clan"
-      ]
-    }
-  },
   "library::wpn_6087": {
     "name": "S36 Clan: Advance Demon Shark Blade",
     "hash": "c459d8c3c94bdfb4b6a49805abf3096b",
@@ -64431,6 +64573,31 @@
         "clan",
         "clan_forge",
         "material_market"
+      ]
+    }
+  },
+  "library::wpn_6092": {
+    "name": "S50 Clan: Buster Blade",
+    "hash": "0c19ebbdcab949714251cfdc5452e849",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S50 Clan Reward: A gigantic sword with immense destructive that can rip even the sea. Increases accuracy by 40% and restores 7% of the user's max HP each turn. Has a 40% chance to inflict burning when attack with weapon - Reduce 8% HP for 1 turn.",
+      "level": 80,
+      "damage": 477,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6092",
+      "price_gold": 0,
+      "name": "S50 Clan: Buster Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "source": [
+        "clan"
       ]
     }
   },
@@ -65088,7 +65255,7 @@
   },
   "library::wpn_7022": {
     "name": "S27 Shadow War: Nebula Blade",
-    "hash": "e5010a973bf875d83c55eb44cad882c8",
+    "hash": "dc13c0155f83e6d24fa3506eac85fbe3",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -65101,6 +65268,31 @@
       "id": "wpn_7022",
       "price_gold": 0,
       "name": "S27 Shadow War: Nebula Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::wpn_7023": {
+    "name": "S28 Shadow War: Dragon Scythe",
+    "hash": "9f4cb62618d6e47c7041b2dc19e527a4",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S28 Shadow War Reward: Increase accuracy by 45%. Drain 1% enemy max HP every succesfull weapon attack. Kill target instanly when target's HP is less than 20%",
+      "level": 90,
+      "damage": 500,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_7023",
+      "price_gold": 0,
+      "name": "S28 Shadow War: Dragon Scythe",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -67927,16 +68119,146 @@
       ]
     }
   },
-  "library::back_01": {
-    "name": "Ninja Bag",
-    "hash": "55110fdef7310fcac5502873191491d6",
+  "library::wpn_8113": {
+    "name": "S23 Crew: Desert Scimitar",
+    "hash": "f2ab90de46ca75b50eb9f42802e427b2",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S23 Crew Reward: Increases accurary by 45% and dodge chance by 12%.",
+      "level": 90,
+      "damage": 610,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8113",
+      "price_gold": 0,
+      "name": "S23 Crew: Desert Scimitar",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8114": {
+    "name": "S23 Crew: Desert Scythe",
+    "hash": "be31db4bade2563d07f79602757022be",
+    "data": {
+      "attack_type": "attack_07",
+      "buyable_clan": false,
+      "description": "S23 Crew Reward: Increases accurary by 40%. Recover HP after using a jutsu. (Amount: 100% of jutsu CP consumption) but reduce HP by 2% every turn.",
+      "level": 90,
+      "damage": 610,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8114",
+      "price_gold": 0,
+      "name": "S23 Crew: Desert Scythe",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8115": {
+    "name": "S23 Crew: Desert Dagger",
+    "hash": "888ef9d1758f931c3796f0e9a8539e08",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "Reduce damage taken by 5%.",
+      "description": "S23 Crew Reward: Increases accurary by 35%. Increases all attack damage by 45% until the end of next after using the weapon attack.",
+      "level": 80,
+      "damage": 500,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8115",
+      "price_gold": 0,
+      "name": "S23 Crew: Desert Dagger",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8116": {
+    "name": "S23 Crew: Desert Ax",
+    "hash": "feebf7950afb551d1e2a41a7f0347cea",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S23 Crew Reward: Increases accurary by 35%. Has 45% chance to block an attack when user's is less than 10%.",
+      "level": 90,
+      "damage": 585,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8116",
+      "price_gold": 0,
+      "name": "S23 Crew: Desert Ax",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8117": {
+    "name": "S23 Crew: Desert Staff",
+    "hash": "63e5cb367c03458dfb973241e67cd679",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S23 Crew Reward: Increases accurary by 35%. Recovers 10% of user's max HP.",
+      "level": 90,
+      "damage": 570,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8117",
+      "price_gold": 0,
+      "name": "S23 Crew: Desert Staff",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::back_01": {
+    "name": "Ninja Bag",
+    "hash": "ea4dde7b810454bc08a9860b7bf4fab3",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "",
       "level": 1,
       "damage": 0,
-      "sell_price": 500,
+      "sell_price": 0,
       "type": "back",
       "price_tokens": 0,
       "id": "back_01",
@@ -86431,7 +86753,7 @@
   },
   "library::back_7022": {
     "name": "S27 Shadow War: Starcraft Nebula",
-    "hash": "99f21674fb1049f5cd6f7760f75f3f01",
+    "hash": "3cb2aae57bdf3cbf4cc269af8d1bcc43",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -86444,6 +86766,31 @@
       "id": "back_7022",
       "price_gold": 0,
       "name": "S27 Shadow War: Starcraft Nebula",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::back_7023": {
+    "name": "S28 Shadow War: Dragon Wing",
+    "hash": "c3d2181924e8812983a3147eb8b633e1",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S28 Shadow War Reward: Increase dodge chance by 8%. Has 30% chance to absorb 5% HP of enemy who attack you",
+      "level": 60,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_7023",
+      "price_gold": 0,
+      "name": "S28 Shadow War: Dragon Wing",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -87550,6 +87897,58 @@
       "id": "back_8044",
       "price_gold": 0,
       "name": "S22 Crew: Lava Ball",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::back_8045": {
+    "name": "S23 Crew: Desert Cross",
+    "hash": "86a37d8f8b082143b2cc3f4fe6c1ec4d",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S23 Crew Reward: Increase max HP by 6%. Recovers 6% HP every turn.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_8045",
+      "price_gold": 0,
+      "name": "S23 Crew: Desert Cross",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::back_8046": {
+    "name": "S23 Crew: Desert Shield",
+    "hash": "44d62a526f67de869767f5e7d34e5e0b",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S23 Crew Reward: Reduce damage taken by 200. Has 10% chance to convert damage taken to HP positively.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_8046",
+      "price_gold": 0,
+      "name": "S23 Crew: Desert Shield",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -155357,7 +155756,7 @@
   },
   "library::set_7081_1": {
     "name": "S27 Shadow War Champion",
-    "hash": "8ae376efd615e628e57166e8c64b849a",
+    "hash": "2ce414c21cace7a441f4cc31d549ff14",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 27 Champion",
@@ -155374,7 +155773,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -155382,7 +155780,7 @@
   },
   "library::set_7082_0": {
     "name": "S27 Shadow War Runner Up",
-    "hash": "41d9b49dd7108da5c5ec35d68c6a3854",
+    "hash": "ab75f61a3d15207cef79d6f93e8a9e58",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 27 Runner Up",
@@ -155399,7 +155797,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -155407,7 +155804,7 @@
   },
   "library::set_7082_1": {
     "name": "S27 Shadow War Runner Up",
-    "hash": "e4717b6b792dbd92206b0b880ba85169",
+    "hash": "f93890a78a02408f113142a0811bb1b4",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 27 Runner Up",
@@ -155424,7 +155821,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -155432,7 +155828,7 @@
   },
   "library::set_7083_0": {
     "name": "S27 Shadow War Participant",
-    "hash": "ee302454664d59f2145cc5e1d2ecc275",
+    "hash": "b934a2146fd937e0c41cc760b6e531b3",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 27",
@@ -155449,7 +155845,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -155457,7 +155852,7 @@
   },
   "library::set_7083_1": {
     "name": "S27 Shadow War Participant",
-    "hash": "50db78020f23f33a585226cf30d41892",
+    "hash": "23f9194ec408bb2b859a3feb71ecc68e",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 27",
@@ -155469,6 +155864,155 @@
       "id": "set_7083_1",
       "price_gold": 0,
       "name": "S27 Shadow War Participant",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7084_0": {
+    "name": "S28 Shadow War Champion",
+    "hash": "f3e3d37f4158cb747c4636e258b9ace6",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 28 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7084_0",
+      "price_gold": 0,
+      "name": "S28 Shadow War Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7084_1": {
+    "name": "S28 Shadow War Champion",
+    "hash": "8432e4e8c9287560b198d776695404bf",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 28 Champion",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7084_1",
+      "price_gold": 0,
+      "name": "S28 Shadow War Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7085_0": {
+    "name": "S28 Shadow War Runner Up",
+    "hash": "3e13efd1f858294eda96d72814c59609",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 28 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7085_0",
+      "price_gold": 0,
+      "name": "S28 Shadow War Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7085_1": {
+    "name": "S28 Shadow War Runner Up",
+    "hash": "77208cfa3c8e49d1ade5604c9e6b2557",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 28 Runner Up",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7085_1",
+      "price_gold": 0,
+      "name": "S28 Shadow War Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7086_0": {
+    "name": "S28 Shadow War Participant",
+    "hash": "93f4dff766782c457513ef2f54d49c92",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 28",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7086_0",
+      "price_gold": 0,
+      "name": "S28 Shadow War Participant",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7086_1": {
+    "name": "S28 Shadow War Participant",
+    "hash": "199e6b2d1fae439e41efa2613a3e05ae",
+    "data": {
+      "buyable_clan": false,
+      "description": "Clothing reward for Shadow War Season 28",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7086_1",
+      "price_gold": 0,
+      "name": "S28 Shadow War Participant",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -185253,7 +185797,7 @@
   },
   "library::hair_7013_0": {
     "name": "S27 Shadow War Individual Hairstyle",
-    "hash": "3c30960225dc170896c94febc63adabe",
+    "hash": "459a4d47f6ea48d9573781ace7ded772",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 27",
@@ -185270,7 +185814,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -185278,7 +185821,7 @@
   },
   "library::hair_7013_1": {
     "name": "S27 Shadow War Individual Hairstyle",
-    "hash": "b0afa3bde4731e0566a2b1574ea727e6",
+    "hash": "7c5248bc5a936999095b3f1bd10dd0fb",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 27",
@@ -185290,6 +185833,55 @@
       "id": "hair_7013_1",
       "price_gold": 0,
       "name": "S27 Shadow War Individual Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::hair_7014_0": {
+    "name": "S28 Shadow War Individual Hairstyle",
+    "hash": "97140da2b431ceb5bf6e07576f4d5b6e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for Shadow War Season 28",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_7014_0",
+      "price_gold": 0,
+      "name": "S28 Shadow War Individual Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::hair_7014_1": {
+    "name": "S28 Shadow War Individual Hairstyle",
+    "hash": "de9d35885fd1f9fdaa7c972de5999058",
+    "data": {
+      "buyable_clan": false,
+      "description": "Hair reward for Shadow War Season 28",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_7014_1",
+      "price_gold": 0,
+      "name": "S28 Shadow War Individual Hairstyle",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -203006,6 +203598,35 @@
       ]
     }
   },
+  "skill_effect::skill_2402": {
+    "name": "Kinjutsu: Flash Thunderous Kick",
+    "hash": "6d89c76b34675b8ab2613f8c0ad3e09c",
+    "data": {
+      "skill_id": "skill_2402",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 50
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "blind",
+          "effect_name": "Blind",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_5000": {
     "name": "S0 Kinjutsu: Fiery Dance Strike",
     "hash": "f90c0a88545ce64163338b6e587d58e2",
@@ -207641,6 +208262,66 @@
       ]
     }
   },
+  "skill_effect::skill_7058": {
+    "name": "S28 Kinjutsu: Dragon Claw",
+    "hash": "a73bfa583480de5ac6d63deac62df61d",
+    "data": {
+      "skill_id": "skill_7058",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "poison",
+          "effect_name": "Poison",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 7,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_7059": {
+    "name": "S28 Kinjutsu: Advanced Dragon Claw",
+    "hash": "53967ae4274d1829ea32e705ea432423",
+    "data": {
+      "skill_id": "skill_7059",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 15,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "poison",
+          "effect_name": "Poison",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_8001": {
     "name": "S0 Kinjutsu: Aether Consemination Blast",
     "hash": "9ae2a8f8b27116ec25014fb6d36428fb",
@@ -208327,6 +209008,37 @@
           "amount_duration": 3,
           "calc_type": "percent",
           "amount": 5,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_8028": {
+    "name": "S23 Kinjutsu: Desert Storm",
+    "hash": "3f34c95849c9a0377dccf1a3f1279cbe",
+    "data": {
+      "skill_id": "skill_8028",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disorient",
+          "effect_name": "Disorient",
+          "duration": 4,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 50,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "slow",
+          "effect_name": "Slow",
+          "duration": 4,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 50,
           "chance": 100
         }
       ]

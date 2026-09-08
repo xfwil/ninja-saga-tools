@@ -2157,9 +2157,6 @@
   "wpn_6086": [
     "clan_war"
   ],
-  "wpn_6092": [
-    "clan_war"
-  ],
   "wpn_6087": [
     "clan_forge",
     "clan_war"
@@ -2178,6 +2175,9 @@
   ],
   "wpn_6091": [
     "clan_forge",
+    "clan_war"
+  ],
+  "wpn_6092": [
     "clan_war"
   ],
   "wpn_6093": [
@@ -2259,6 +2259,9 @@
     "shadow_war"
   ],
   "wpn_7022": [
+    "shadow_war"
+  ],
+  "wpn_7023": [
     "shadow_war"
   ],
   "wpn_8001": [
@@ -2595,6 +2598,21 @@
     "crew_battle"
   ],
   "wpn_8112": [
+    "crew_battle"
+  ],
+  "wpn_8113": [
+    "crew_battle"
+  ],
+  "wpn_8114": [
+    "crew_battle"
+  ],
+  "wpn_8115": [
+    "crew_battle"
+  ],
+  "wpn_8116": [
+    "crew_battle"
+  ],
+  "wpn_8117": [
     "crew_battle"
   ],
   "back_01": [
@@ -3719,6 +3737,9 @@
   "back_7022": [
     "shadow_war"
   ],
+  "back_7023": [
+    "shadow_war"
+  ],
   "back_8001": [
     "crew_battle"
   ],
@@ -3849,6 +3870,12 @@
     "crew_battle"
   ],
   "back_8044": [
+    "crew_battle"
+  ],
+  "back_8045": [
+    "crew_battle"
+  ],
+  "back_8046": [
     "crew_battle"
   ],
   "accessory_01": [
@@ -8554,6 +8581,24 @@
   "set_7083_1": [
     "shadow_war"
   ],
+  "set_7084_0": [
+    "shadow_war"
+  ],
+  "set_7084_1": [
+    "shadow_war"
+  ],
+  "set_7085_0": [
+    "shadow_war"
+  ],
+  "set_7085_1": [
+    "shadow_war"
+  ],
+  "set_7086_0": [
+    "shadow_war"
+  ],
+  "set_7086_1": [
+    "shadow_war"
+  ],
   "set_8001_0": [
     "shop_crew"
   ],
@@ -10145,6 +10190,12 @@
     "shadow_war"
   ],
   "hair_7013_1": [
+    "shadow_war"
+  ],
+  "hair_7014_0": [
+    "shadow_war"
+  ],
+  "hair_7014_1": [
     "shadow_war"
   ],
   "hair_8001_0": [
@@ -12436,6 +12487,9 @@
   "skill_2398": [
     "event_seasonal"
   ],
+  "skill_2402": [
+    "event_seasonal"
+  ],
   "skill_3001": [
     "senjutsu_shop"
   ],
@@ -13000,6 +13054,12 @@
   "skill_7057": [
     "shadow_war"
   ],
+  "skill_7058": [
+    "shadow_war"
+  ],
+  "skill_7059": [
+    "shadow_war"
+  ],
   "skill_8001": [
     "crew_battle"
   ],
@@ -13079,6 +13139,9 @@
     "crew_battle"
   ],
   "skill_8027": [
+    "crew_battle"
+  ],
+  "skill_8028": [
     "crew_battle"
   ],
   "pet_jyubi": [

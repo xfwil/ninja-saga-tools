@@ -1,0 +1,884 @@
+[
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_524",
+    "entityName": "Kinjutsu: Palm of Repression",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_525",
+    "entityName": "Kinjutsu: Explosive Fire Bomb",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_344",
+    "entityName": "Kinjutsu: Detach of Soul",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2011",
+    "entityName": "Kinjutsu: Long Arm Punch",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2012",
+    "entityName": "Kinjutsu: Long Leg Kick",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2013",
+    "entityName": "Kinjutsu: Pirate Barrage",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2021",
+    "entityName": "Kinjutsu: Angry Strike",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2022",
+    "entityName": "Kinjutsu: Turtle Wave",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2023",
+    "entityName": "Kinjutsu: Crystal Clear Ball",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2044",
+    "entityName": "Kinjutsu: Overwhelm Aura",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2045",
+    "entityName": "Kinjutsu: Blue Fang Slash",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2046",
+    "entityName": "Kinjutsu: Thousand Cherry Wave",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2049",
+    "entityName": "Kinjutsu: Become Ashes",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2050",
+    "entityName": "Kinjutsu: Full Hypnosis",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2051",
+    "entityName": "Kinjutsu: All-Powerful Mode",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2058",
+    "entityName": "Three Stages Kick",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2059",
+    "entityName": "Recoilless Kick",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2060",
+    "entityName": "Blue Dragon's Kick",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2089",
+    "entityName": "Kinjutsu: Violet",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2090",
+    "entityName": "Kinjutsu: Nail Formation",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2091",
+    "entityName": "Kinjutsu: Alter Dimension",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2111",
+    "entityName": "Kinjutsu: Paralyze Shoot",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2112",
+    "entityName": "Kinjutsu: Oozing Chaos",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2113",
+    "entityName": "Kinjutsu: Overload Cannon",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2120",
+    "entityName": "Storm Style: Water Cutter",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2121",
+    "entityName": "Storm Style: Dark Red Thunder",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2122",
+    "entityName": "Storm Style: Draco Buster",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2138",
+    "entityName": "Kinjutsu: Freedom Rage",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2139",
+    "entityName": "Kinjutsu: Titan Protection",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2140",
+    "entityName": "Kinjutsu: Titan Ultimate Smash",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2146",
+    "entityName": "Kinjutsu: Quints Arsenal Shot",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2147",
+    "entityName": "Kinjutsu: Hazard Barrage",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2148",
+    "entityName": "Kinjutsu: Hazard Sense",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2159",
+    "entityName": "Noroiji: Jugon",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2160",
+    "entityName": "Noroiji: Blood Manipulation",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2161",
+    "entityName": "Noroiji: Love Beam",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2182",
+    "entityName": "Anti-Magic: Black Meteorite",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2183",
+    "entityName": "Union-Magic: Bone Spatial Rend",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2184",
+    "entityName": "Dark-Magic: Equinox",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2200",
+    "entityName": "Conjuration: Condemnation Bindings",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2201",
+    "entityName": "Transmutation: Lightning Ascension",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2202",
+    "entityName": "Enhancement: Jajanken, Rock Energy Blast",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2345",
+    "entityName": "Kinjutsu: Spirit Purifying Aura",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2346",
+    "entityName": "Kinjutsu: Dustveil Fortification",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2347",
+    "entityName": "Kinjutsu: Earthshatter Twin Cleave",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2368",
+    "entityName": "Kinjutsu: Chaos Demon Claw",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2369",
+    "entityName": "Kinjutsu: Mirage Sword",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2370",
+    "entityName": "Kinjutsu: Chaos Realm Emergence",
+    "field": "na",
+    "oldValue": null,
+    "newValue": true
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2402",
+    "entityName": "Kinjutsu: Flash Thunderous Kick"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7056",
+    "entityName": "S27 Kinjutsu: Nebula Strike",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7057",
+    "entityName": "S27 Kinjutsu: Advanced Nebula Strike",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7058",
+    "entityName": "S28 Kinjutsu: Dragon Claw"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7059",
+    "entityName": "S28 Kinjutsu: Advanced Dragon Claw"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_8028",
+    "entityName": "S23 Kinjutsu: Desert Storm"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_6092",
+    "entityName": "S50 Clan: Buster Blade",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_7022",
+    "entityName": "S27 Shadow War: Nebula Blade",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_7023",
+    "entityName": "S28 Shadow War: Dragon Scythe"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8113",
+    "entityName": "S23 Crew: Desert Scimitar"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8114",
+    "entityName": "S23 Crew: Desert Scythe"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8115",
+    "entityName": "S23 Crew: Desert Dagger"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8116",
+    "entityName": "S23 Crew: Desert Ax"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8117",
+    "entityName": "S23 Crew: Desert Staff"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_01",
+    "entityName": "Ninja Bag",
+    "field": "description",
+    "oldValue": "Reduce damage taken by 5%.",
+    "newValue": ""
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_01",
+    "entityName": "Ninja Bag",
+    "field": "sell_price",
+    "oldValue": 500,
+    "newValue": 0
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_7022",
+    "entityName": "S27 Shadow War: Starcraft Nebula",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_7023",
+    "entityName": "S28 Shadow War: Dragon Wing"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_8045",
+    "entityName": "S23 Crew: Desert Cross"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_8046",
+    "entityName": "S23 Crew: Desert Shield"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7081_1",
+    "entityName": "S27 Shadow War Champion",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7082_0",
+    "entityName": "S27 Shadow War Runner Up",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7082_1",
+    "entityName": "S27 Shadow War Runner Up",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7083_0",
+    "entityName": "S27 Shadow War Participant",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7083_1",
+    "entityName": "S27 Shadow War Participant",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7084_0",
+    "entityName": "S28 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7084_1",
+    "entityName": "S28 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7085_0",
+    "entityName": "S28 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7085_1",
+    "entityName": "S28 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7086_0",
+    "entityName": "S28 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7086_1",
+    "entityName": "S28 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_7013_0",
+    "entityName": "S27 Shadow War Individual Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_7013_1",
+    "entityName": "S27 Shadow War Individual Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7014_0",
+    "entityName": "S28 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7014_1",
+    "entityName": "S28 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2402",
+    "entityName": "Kinjutsu: Flash Thunderous Kick"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7058",
+    "entityName": "S28 Kinjutsu: Dragon Claw"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7059",
+    "entityName": "S28 Kinjutsu: Advanced Dragon Claw"
+  },
+  {
+    "syncId": "2026-09-08T18-26-22-510Z",
+    "detectedAt": "2026-09-08T18:26:22.510Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_8028",
+    "entityName": "S23 Kinjutsu: Desert Storm"
+  }
+]
