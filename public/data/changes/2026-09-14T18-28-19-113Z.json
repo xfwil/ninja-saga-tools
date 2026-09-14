@@ -1,0 +1,211 @@
+[
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2331",
+    "entityName": "Kinjutsu: Snow Break",
+    "field": "description",
+    "oldValue": "(Kinjutsu) Reduce enemy agility by 30% for 2 turns.",
+    "newValue": "(Kinjutsu) Reduce enemy agility by 30% for 4 turns."
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_6107",
+    "entityName": "S53 Kinjutsu: Spirit Breaker",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_6108",
+    "entityName": "S53 Kinjutsu: Advance Spirit Breaker",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_6095",
+    "entityName": "S53 Clan: Ember Knife",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_6054",
+    "entityName": "S53 Clan: Frostfire Soul",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6212_0",
+    "entityName": "S53 Liquid Vincere",
+    "field": "name",
+    "oldValue": "S53 Champion",
+    "newValue": "S53 Liquid Vincere"
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6212_0",
+    "entityName": "S53 Liquid Vincere",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6212_1",
+    "entityName": "S53 Liquid Vincere",
+    "field": "name",
+    "oldValue": "S53 Champion",
+    "newValue": "S53 Liquid Vincere"
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6212_1",
+    "entityName": "S53 Liquid Vincere",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6213_0",
+    "entityName": "S53 RuH Clan",
+    "field": "name",
+    "oldValue": "S53 Runner Up",
+    "newValue": "S53 RuH Clan"
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6213_0",
+    "entityName": "S53 RuH Clan",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6213_1",
+    "entityName": "S53 RuH Clan",
+    "field": "name",
+    "oldValue": "S53 Runner Up",
+    "newValue": "S53 RuH Clan"
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6213_1",
+    "entityName": "S53 RuH Clan",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6214_0",
+    "entityName": "S53 Liquid The Next Gen",
+    "field": "name",
+    "oldValue": "S53 Runner Up",
+    "newValue": "S53 Liquid The Next Gen"
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6214_0",
+    "entityName": "S53 Liquid The Next Gen",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6214_1",
+    "entityName": "S53 Liquid The Next Gen",
+    "field": "name",
+    "oldValue": "S53 Runner Up",
+    "newValue": "S53 Liquid The Next Gen"
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6214_1",
+    "entityName": "S53 Liquid The Next Gen",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6215_0",
+    "entityName": "S53 Costume",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-09-14T18-28-19-113Z",
+    "detectedAt": "2026-09-14T18:28:19.113Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_6215_1",
+    "entityName": "S53 Costume",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  }
+]

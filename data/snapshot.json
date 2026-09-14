@@ -27779,7 +27779,7 @@
   },
   "skill::skill_2331": {
     "name": "Kinjutsu: Snow Break",
-    "hash": "6bd439fb79a0b9836ec524cd9d5aee86",
+    "hash": "aa276be949c9f41b78052cbe2240628c",
     "data": {
       "id": "skill_2331",
       "price_tokens": 0,
@@ -27791,7 +27791,7 @@
       "cp_cost": 299,
       "cooldown": 14,
       "target": "Single",
-      "description": "(Kinjutsu) Reduce enemy agility by 30% for 2 turns.",
+      "description": "(Kinjutsu) Reduce enemy agility by 30% for 4 turns.",
       "name": "Kinjutsu: Snow Break",
       "type": "7",
       "category": "event",
@@ -34583,7 +34583,7 @@
   },
   "skill::skill_6107": {
     "name": "S53 Kinjutsu: Spirit Breaker",
-    "hash": "c93845a51b6a90fb194581f44a2c103a",
+    "hash": "e31a9d226630910fc1d739dfc4df9c0e",
     "data": {
       "id": "skill_6107",
       "price_tokens": 0,
@@ -34600,7 +34600,6 @@
       "type": "6",
       "category": "clan",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           57
@@ -34614,7 +34613,7 @@
   },
   "skill::skill_6108": {
     "name": "S53 Kinjutsu: Advance Spirit Breaker",
-    "hash": "8b63b8e6b1d93096f47609188085694f",
+    "hash": "7c7b9ce1550d239f6605ca3b0bdc4831",
     "data": {
       "id": "skill_6108",
       "price_tokens": 0,
@@ -34630,7 +34629,6 @@
       "name": "S53 Kinjutsu: Advance Spirit Breaker",
       "type": "6",
       "category": "clan",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -64653,7 +64651,7 @@
   },
   "library::wpn_6095": {
     "name": "S53 Clan: Ember Knife",
-    "hash": "91cef502a1bcdaaea99747a758a57063",
+    "hash": "698917318d676b035744010219e11768",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -64671,7 +64669,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -86151,7 +86148,7 @@
   },
   "library::back_6054": {
     "name": "S53 Clan: Frostfire Soul",
-    "hash": "72e73135d0d82258be6fde29315420a9",
+    "hash": "02f676dc01b135ecf3d5c4a2d478a3a4",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -86169,7 +86166,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -151443,8 +151439,8 @@
     }
   },
   "library::set_6212_0": {
-    "name": "S53 Champion",
-    "hash": "74e3842ddabaa7fa8ff097f9fbf53882",
+    "name": "S53 Liquid Vincere",
+    "hash": "d8e6dc5c0ab96db095f02d22b56ba198",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 53 Champion",
@@ -151455,21 +151451,20 @@
       "level": 1,
       "id": "set_6212_0",
       "price_gold": 0,
-      "name": "S53 Champion",
+      "name": "S53 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6212_1": {
-    "name": "S53 Champion",
-    "hash": "b641b1db085f15618bcd543262814afd",
+    "name": "S53 Liquid Vincere",
+    "hash": "edaaa88f2455b84c5c0fc82384372b85",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 53 Champion",
@@ -151480,21 +151475,20 @@
       "level": 1,
       "id": "set_6212_1",
       "price_gold": 0,
-      "name": "S53 Champion",
+      "name": "S53 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6213_0": {
-    "name": "S53 Runner Up",
-    "hash": "043be5d2247b69e69b804613ac0deeb4",
+    "name": "S53 RuH Clan",
+    "hash": "ec5bf1ef8fedfeb7a5d8f25465796994",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 53 Runner Up",
@@ -151505,21 +151499,20 @@
       "level": 1,
       "id": "set_6213_0",
       "price_gold": 0,
-      "name": "S53 Runner Up",
+      "name": "S53 RuH Clan",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6213_1": {
-    "name": "S53 Runner Up",
-    "hash": "15bb05e4eba7c9ea3825451e39d95bd9",
+    "name": "S53 RuH Clan",
+    "hash": "28b00f0e9f4cbd446725057413b02808",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 53 Runner Up",
@@ -151530,21 +151523,20 @@
       "level": 1,
       "id": "set_6213_1",
       "price_gold": 0,
-      "name": "S53 Runner Up",
+      "name": "S53 RuH Clan",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6214_0": {
-    "name": "S53 Runner Up",
-    "hash": "9f7649fadacf14e2bb3f13c7b2020ee6",
+    "name": "S53 Liquid The Next Gen",
+    "hash": "0d05531fc144259006ea1473732a02ec",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 53 Runner Up",
@@ -151555,21 +151547,20 @@
       "level": 1,
       "id": "set_6214_0",
       "price_gold": 0,
-      "name": "S53 Runner Up",
+      "name": "S53 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6214_1": {
-    "name": "S53 Runner Up",
-    "hash": "b9c345b3fc4b8b39ec6e1a194e115f65",
+    "name": "S53 Liquid The Next Gen",
+    "hash": "5a60fb38ebb86fad43edcb9034ae6a9e",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 53 Runner Up",
@@ -151580,13 +151571,12 @@
       "level": 1,
       "id": "set_6214_1",
       "price_gold": 0,
-      "name": "S53 Runner Up",
+      "name": "S53 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -151594,7 +151584,7 @@
   },
   "library::set_6215_0": {
     "name": "S53 Costume",
-    "hash": "0cd53550d61a8cd49d10c990e8559985",
+    "hash": "ebb2a03a7afaf7267fe191643b22ab07",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 53",
@@ -151611,7 +151601,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -151619,7 +151608,7 @@
   },
   "library::set_6215_1": {
     "name": "S53 Costume",
-    "hash": "300ccdf83906a40b3913aaea39d0f617",
+    "hash": "e55e8c53e82e98736b554836d02fdda1",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 53",
@@ -151636,7 +151625,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
