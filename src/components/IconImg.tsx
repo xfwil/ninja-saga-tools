@@ -79,10 +79,16 @@ export default function IconImg({
   const fallback = getFallbackEmoji(id);
 
   const handleError = useCallback(() => setFailed(true), []);
+  // A cached image can fail before hydration attaches onError.
+  const checkImage = useCallback((image: HTMLImageElement | null) => {
+    if (image?.complete && image.naturalWidth === 0) setFailed(true);
+  }, []);
 
   if (!url || failed) {
     return (
       <span
+        role="img"
+        aria-label="Ikon tidak tersedia"
         className={`inline-flex items-center justify-center shrink-0 ${className} ${fallbackClassName}`}
         style={{ width: size, height: size, fontSize: size * 0.65 }}
       >
@@ -94,6 +100,7 @@ export default function IconImg({
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
+      ref={checkImage}
       src={url}
       alt=""
       width={size}

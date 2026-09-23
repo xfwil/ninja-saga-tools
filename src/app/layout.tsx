@@ -20,11 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
-      <body className={`${geist.variable} antialiased min-h-screen bg-[#0a0a0f] text-[#e8e8e8]`}>
+      <body className={`${geist.variable} antialiased`}>
         <Navbar />
-        <main>{children}</main>
-        <footer className="border-t border-white/5 mt-20 py-8 text-center text-sm text-slate-600">
-          <p>Made with ❤️ by <a href="https://github.com/xfwil" className="text-white hover:text-red-400 transition-colors">xfwil</a></p>
+        <main id="main-content" className="workspace" tabIndex={-1}>{children}</main>
+        <footer className="site-footer">
+          <span>Ninja Saga Tools</span>
+          <p>Fan tools · Made by <a href="https://github.com/xfwil">xfwil</a></p>
         </footer>
       </body>
     </html>

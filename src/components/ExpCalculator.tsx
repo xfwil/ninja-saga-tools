@@ -63,14 +63,15 @@ export default function ExpCalculator() {
   const xpToNextLevel = levelXP[currentLevel] ?? 0;
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="calculator-layout">
 
       {/* Input section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="calculator-inputs">
         {/* Current level */}
         <div className="rounded-xl border border-white/8 bg-white/[0.03] p-4 flex flex-col gap-3">
           <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">Level Sekarang</p>
           <LevelStepper
+            label="Level sekarang"
             value={currentLevel}
             onChange={(v) => {
               const c = clamp(v, MIN_LEVEL, MAX_LEVEL - 1);
@@ -82,8 +83,9 @@ export default function ExpCalculator() {
             max={MAX_LEVEL - 1}
           />
           <div className="flex flex-col gap-1">
-            <label className="text-xs text-slate-600">XP Progress dalam level ini</label>
+            <label htmlFor="progress-xp" className="text-xs text-slate-600">XP Progress dalam level ini</label>
             <input
+              id="progress-xp"
               type="text"
               inputMode="numeric"
               value={progressXP === 0 ? "" : fmt(progressXP)}
@@ -104,6 +106,7 @@ export default function ExpCalculator() {
         <div className="rounded-xl border border-white/8 bg-white/[0.03] p-4 flex flex-col gap-3">
           <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">Level Target</p>
           <LevelStepper
+            label="Level target"
             value={targetLevel}
             onChange={(v) => {
               const t = clamp(v, MIN_LEVEL + 1, MAX_LEVEL);
@@ -115,8 +118,9 @@ export default function ExpCalculator() {
             color="green"
           />
           <div className="flex flex-col gap-1">
-            <label className="text-xs text-slate-600">XP per hari (opsional)</label>
+            <label htmlFor="daily-xp" className="text-xs text-slate-600">XP per hari (opsional)</label>
             <input
+              id="daily-xp"
               type="text"
               inputMode="numeric"
               value={dailyXP === 0 ? "" : dailyXP}
@@ -133,10 +137,10 @@ export default function ExpCalculator() {
 
       {/* Result */}
       {result ? (
-        <div className="flex flex-col gap-4">
+        <div className="calculator-result flex flex-col gap-4" aria-live="polite" aria-atomic="true">
 
           {/* Stat cards */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 gap-3">
             <StatCard
               label="Total XP Dibutuhkan"
               value={fmt(result.neededTotal)}
@@ -190,6 +194,7 @@ export default function ExpCalculator() {
           <div>
             <button
               onClick={() => setShowTable((p) => !p)}
+              aria-expanded={showTable}
               className="flex items-center gap-2 text-sm text-slate-500 hover:text-white transition-colors"
             >
               <span className={`transition-transform duration-200 ${showTable ? "rotate-90" : ""}`}>▶</span>
@@ -248,12 +253,14 @@ export default function ExpCalculator() {
 }
 
 function LevelStepper({
+  label,
   value,
   onChange,
   min,
   max,
   color = "blue",
 }: {
+  label: string;
   value: number;
   onChange: (v: number) => void;
   min: number;
@@ -265,6 +272,7 @@ function LevelStepper({
     <div className="flex items-center gap-2">
       <div className="flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 p-0.5 flex-1">
         <button
+          aria-label={`Kurangi ${label.toLowerCase()}`}
           onClick={() => onChange(value - 1)}
           disabled={value <= min}
           className="h-10 w-10 shrink-0 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-xl leading-none font-bold"
@@ -272,6 +280,7 @@ function LevelStepper({
           −
         </button>
         <input
+          aria-label={label}
           type="number"
           min={min}
           max={max}
@@ -283,6 +292,7 @@ function LevelStepper({
           className={`flex-1 text-center bg-transparent text-2xl font-black ${textColor} outline-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none`}
         />
         <button
+          aria-label={`Tambah ${label.toLowerCase()}`}
           onClick={() => onChange(value + 1)}
           disabled={value >= max}
           className="h-10 w-10 shrink-0 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-xl leading-none font-bold"

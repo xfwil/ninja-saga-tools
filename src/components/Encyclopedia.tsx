@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo, useCallback, useEffect } from "react";
+import useDialog from "./useDialog";
 import IconImg from "./IconImg";
 import skillsJson from "../../dump/skills.json";
 import talentsJson from "../../dump/talents.json";
@@ -338,7 +339,7 @@ function SourceBadges({ sources }: { sources: string[] }) {
       <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Sumber / Cara Dapat</p>
       {sources.length === 0 ? (
         <span className="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-bold bg-neutral-800/40 border-neutral-600/40 text-neutral-400">
-          ❓ Tidak Diketahui
+          —
         </span>
       ) : (
         <div className="flex flex-wrap gap-1.5">
@@ -430,6 +431,15 @@ function groupByBaseId<T extends { id: string }>(items: T[]) {
 
 export default function Encyclopedia() {
   const [activeTab, setActiveTab] = useState<"skills" | "items" | "talents" | "senjutsu" | "pets" | "enemies" | "effects" | "seasonal">("skills");
+  useEffect(() => {
+    const selectFromHash = () => {
+      const tab = window.location.hash.slice(1);
+      if (tab === "skills" || tab === "items" || tab === "talents" || tab === "senjutsu" || tab === "pets" || tab === "enemies" || tab === "effects" || tab === "seasonal") setActiveTab(tab);
+    };
+    selectFromHash();
+    window.addEventListener("hashchange", selectFromHash);
+    return () => window.removeEventListener("hashchange", selectFromHash);
+  }, []);
 
   const enemies = enemyJson as Enemy[];
 
@@ -454,23 +464,16 @@ export default function Encyclopedia() {
   return (
     <div>
       {/* Tab Bar */}
-      <div className="mb-8 overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">
-        <div className="inline-flex gap-1 rounded-xl border border-white/10 bg-white/[0.03] p-1 min-w-max sm:min-w-0 sm:flex sm:flex-wrap">
+      <div>
+        <div className="category-tabs" role="group" aria-label="Kategori database">
           {tabs.map((tab) => (
             <button
               key={tab.key}
-              onClick={() => setActiveTab(tab.key)}
-              className={`flex items-center justify-center gap-1.5 rounded-lg px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-semibold transition-all whitespace-nowrap sm:flex-1 ${
-                activeTab === tab.key
-                  ? "bg-red-600/80 text-white shadow-lg shadow-red-900/30"
-                  : "text-slate-400 hover:text-white hover:bg-white/5"
-              }`}
+              aria-pressed={activeTab === tab.key}
+              onClick={() => { setActiveTab(tab.key); window.history.replaceState(null, "", `#${tab.key}`); }}
             >
-              <span>{tab.icon}</span>
               <span>{tab.label}</span>
-              <span className={`hidden lg:inline-flex rounded-full px-2 py-0.5 text-[10px] font-bold ${
-                activeTab === tab.key ? "bg-white/20 text-white" : "bg-white/5 text-slate-500"
-              }`}>
+              <span className="category-count">
                 {tab.count}
               </span>
             </button>
@@ -598,15 +601,7 @@ function SkillModal({ skill, onClose, highlight = "" }: { skill: Skill; onClose:
   const effects = SKILL_EFFECTS_MAP[skill.id] ?? [];
   const hlLower = highlight.toLowerCase();
 
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
-    document.addEventListener("keydown", handler);
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.removeEventListener("keydown", handler);
-      document.body.style.overflow = "";
-    };
-  }, [onClose]);
+  const dialogRef = useDialog(onClose);
 
   const effectColor = (entry: SkillEffectEntry) => {
     if (entry.type === "Buff")   return "bg-emerald-950/50 border-emerald-700/40 text-emerald-300";
@@ -636,6 +631,7 @@ function SkillModal({ skill, onClose, highlight = "" }: { skill: Skill; onClose:
 
       {/* Panel */}
       <div
+        ref={dialogRef} role="dialog" aria-modal="true" aria-label={skill.name} tabIndex={-1}
         className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
         onClick={(e) => e.stopPropagation()}
       >
@@ -668,6 +664,7 @@ function SkillModal({ skill, onClose, highlight = "" }: { skill: Skill; onClose:
             </div>
           </div>
           <button
+            aria-label="Tutup detail"
             onClick={onClose}
             className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm mt-0.5"
           >
@@ -855,10 +852,11 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
   return (
     <div className="space-y-6">
       {/* Search + filters */}
-      <div className="flex flex-col gap-3">
+      <div className="filter-panel flex flex-col gap-3">
         {/* Name + Description search row */}
         <div className="flex flex-col sm:flex-row gap-2">
           <input
+            aria-label="Cari nama skill"
             type="text"
             placeholder="🔎 Cari nama skill..."
             value={nameSearch}
@@ -867,6 +865,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
           />
           <div className="relative flex-1">
             <input
+              aria-label="Filter efek atau deskripsi"
               type="text"
               placeholder="✨ Filter efek / deskripsi..."
               value={effectSearch}
@@ -879,6 +878,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
             />
             {effectSearch && (
               <button
+                aria-label="Hapus filter efek"
                 onClick={() => { setEffectSearch(""); resetPage(); }}
                 className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-300 text-xs"
               >
@@ -888,6 +888,9 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
           </div>
         </div>
 
+        <details>
+        <summary>Filter lanjutan</summary>
+        <div className="filter-options">
         {/* Effect quick-tags */}
         <div className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-3">
           <p className="text-[10px] text-slate-600 font-semibold uppercase tracking-wider mb-2">Quick filter efek</p>
@@ -1022,6 +1025,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
           <div className="flex items-center gap-2">
             <input
               type="number"
+              aria-label="CP minimum"
               min={0}
               placeholder="Min CP"
               value={cpMin}
@@ -1031,6 +1035,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
             <span className="text-slate-600 text-xs">—</span>
             <input
               type="number"
+              aria-label="CP maksimum"
               min={0}
               placeholder="Max CP"
               value={cpMax}
@@ -1047,8 +1052,10 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
           </div>
         </div>
 
+        </div>
+        </details>
         {/* Result count + view toggle */}
-        <div className="flex items-center justify-between gap-2">
+        <div className="results-toolbar flex items-center justify-between gap-2">
           <p className="text-xs text-slate-600">
             Menampilkan {filtered.length.toLocaleString("id-ID")} dari {skills.length.toLocaleString("id-ID")} skill
           </p>
@@ -1056,6 +1063,7 @@ function SkillsTab({ skills }: { skills: Skill[] }) {
             {(["grid", "list", "compact"] as ViewMode[]).map((mode) => (
               <button
                 key={mode}
+                aria-pressed={viewMode === mode}
                 onClick={() => setViewMode(mode)}
                 title={mode === "grid" ? "Grid" : mode === "list" ? "List" : "Compact"}
                 className={`rounded-md px-2 py-1 text-[11px] font-medium transition-all flex items-center gap-1 ${
@@ -1134,12 +1142,14 @@ function SkillCard({ skill, highlight = "", onSelect }: { skill: Skill; highligh
 
   return (
     <div
-      className={`group flex flex-col gap-3 rounded-xl border p-4 transition-all cursor-pointer ${
+      className={`inventory-card group flex flex-col gap-3 rounded-xl border p-4 transition-all cursor-pointer ${
         hasHighlight
           ? "border-violet-700/40 bg-violet-950/10 hover:border-violet-600/50 hover:bg-violet-950/20"
           : "border-white/[0.07] bg-white/[0.025] hover:border-white/15 hover:bg-white/[0.04]"
       }`}
       onClick={() => onSelect?.(skill)}
+      role="button" tabIndex={0} aria-label={`Detail ${skill.name}`}
+      onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); onSelect?.(skill); } }}
     >
       {/* Header */}
       <div className="flex items-start gap-3">
@@ -1275,6 +1285,8 @@ function SkillRow({ skill, highlight = "", onSelect }: { skill: Skill; highlight
           : "border-white/[0.07] bg-white/[0.025] hover:border-white/15 hover:bg-white/[0.04]"
       }`}
       onClick={() => onSelect?.(skill)}
+      role="button" tabIndex={0} aria-label={`Detail ${skill.name}`}
+      onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); onSelect?.(skill); } }}
     >
       {/* Icon */}
       <div className="shrink-0 mt-0.5 w-8 h-8 flex items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.04]">
@@ -1327,7 +1339,6 @@ function SkillRow({ skill, highlight = "", onSelect }: { skill: Skill; highlight
 // ─── Compact Row ──────────────────────────────────────────────────────────────
 
 function SkillCompactRow({ skill, highlight = "", onSelect }: { skill: Skill; highlight?: string; onSelect?: (s: Skill) => void }) {
-  const typeInfo = SKILL_TYPE_MAP[skill.type] ?? { label: `Type ${skill.type}`, icon: "❓", badge: "bg-slate-800/40 border-slate-600/40 text-slate-400" };
   const seasonNum = getSeasonNumber(skill.name);
   const hlLower = highlight.toLowerCase();
   const matchDesc   = !!highlight && skill.description.toLowerCase().includes(hlLower);
@@ -1340,6 +1351,8 @@ function SkillCompactRow({ skill, highlight = "", onSelect }: { skill: Skill; hi
         hasHighlight ? "bg-violet-950/20 hover:bg-violet-950/30" : "bg-transparent hover:bg-white/[0.03]"
       }`}
       onClick={() => onSelect?.(skill)}
+      role="button" tabIndex={0} aria-label={`Detail ${skill.name}`}
+      onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); onSelect?.(skill); } }}
     >
       {/* Icon */}
       <IconImg id={skill.id} size={18} className="shrink-0" />
@@ -1398,7 +1411,8 @@ function TalentsTab({ talents }: { talents: Talent[] }) {
       <div className="flex flex-col gap-3">
         <input
           type="text"
-          placeholder="Cari nama atau efek talent..."
+            placeholder="Cari nama atau efek talent..."
+            aria-label="Cari talent"
           value={search}
           onChange={(e) => { setSearch(e.target.value); }}
           className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
@@ -1523,7 +1537,8 @@ function SenjutsuTab({ senjutsu }: { senjutsu: Senjutsu[] }) {
       <div className="flex flex-col gap-3">
         <input
           type="text"
-          placeholder="Cari nama atau efek senjutsu..."
+            placeholder="Cari nama atau efek senjutsu..."
+            aria-label="Cari senjutsu"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
@@ -1685,7 +1700,8 @@ function PetsTab({ pets }: { pets: Pet[] }) {
       <div className="flex flex-col gap-3">
         <input
           type="text"
-          placeholder="Cari nama atau deskripsi pet..."
+            placeholder="Cari nama atau deskripsi pet..."
+            aria-label="Cari pet"
           value={search}
           onChange={(e) => { setSearch(e.target.value); resetPage(); }}
           className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
@@ -1790,20 +1806,13 @@ function PetsTab({ pets }: { pets: Pet[] }) {
 function PetSkillsModal({ pet, onClose }: { pet: Pet; onClose: () => void }) {
   const attacks = useMemo(() => [...(pet.attacks ?? [])].sort((a, b) => a.level - b.level), [pet]);
 
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
-    document.addEventListener("keydown", handler);
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.removeEventListener("keydown", handler);
-      document.body.style.overflow = "";
-    };
-  }, [onClose]);
+  const dialogRef = useDialog(onClose);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
       <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
       <div
+        ref={dialogRef} role="dialog" aria-modal="true" aria-label={pet.name} tabIndex={-1}
         className="relative z-10 w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
         onClick={(e) => e.stopPropagation()}
       >
@@ -1820,6 +1829,7 @@ function PetSkillsModal({ pet, onClose }: { pet: Pet; onClose: () => void }) {
           </div>
           <button
             onClick={onClose}
+            aria-label="Tutup detail"
             className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm"
           >
             ✕
@@ -2280,7 +2290,8 @@ function ItemsTab() {
       {/* Search */}
       <input
         type="text"
-        placeholder="🔎 Cari nama, ID, atau deskripsi item..."
+            placeholder="🔎 Cari nama, ID, atau deskripsi item..."
+            aria-label="Cari item"
         value={search}
         onChange={(e) => { setSearch(e.target.value); resetPage(); }}
         className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
@@ -2357,8 +2368,10 @@ function ItemGridCard({ item, onSelect, highlight = "" }: { item: LibItem; onSel
 
   return (
     <div
-      className={`group flex flex-col gap-3 rounded-xl border p-4 cursor-pointer transition-all ${typeCfg.border} ${typeCfg.bg} hover:brightness-110`}
+      className={`inventory-card group flex flex-col gap-3 rounded-xl border p-4 cursor-pointer transition-all ${typeCfg.border} ${typeCfg.bg} hover:brightness-110`}
       onClick={() => onSelect(item)}
+      role="button" tabIndex={0} aria-label={`Detail ${item.name}`}
+      onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); onSelect(item); } }}
     >
       {/* Header */}
       <div className="flex items-start gap-3">
@@ -2440,17 +2453,13 @@ function ItemDetailModal({ item, onClose }: { item: LibItem; onClose: () => void
   const seasonNum = getSeasonNumber(item.name);
   const effects: ItemEffect[] = item.type === "wpn" ? (_wfxMap[item.id] ?? []) : item.type === "back" ? (_bfxMap[item.id] ?? []) : [];
 
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
-    document.addEventListener("keydown", handler);
-    document.body.style.overflow = "hidden";
-    return () => { document.removeEventListener("keydown", handler); document.body.style.overflow = ""; };
-  }, [onClose]);
+  const dialogRef = useDialog(onClose);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
       <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
       <div
+        ref={dialogRef} role="dialog" aria-modal="true" aria-label={item.name} tabIndex={-1}
         className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
         onClick={(e) => e.stopPropagation()}
       >
@@ -2487,6 +2496,7 @@ function ItemDetailModal({ item, onClose }: { item: LibItem; onClose: () => void
           </div>
           <button
             onClick={onClose}
+            aria-label="Tutup detail"
             className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm mt-0.5"
           >
             ✕
@@ -2697,6 +2707,7 @@ function EnemyTab({ enemies }: { enemies: Enemy[] }) {
               min={1}
               max={200}
               value={playerLevel}
+              aria-label="Level pemain"
               onChange={(e) => setPlayerLevel(Math.max(1, Math.min(200, parseInt(e.target.value) || 1)))}
               className="w-20 rounded-lg border border-white/10 bg-white/[0.06] px-3 py-2 text-sm font-bold text-white text-center focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
             />
@@ -2750,7 +2761,8 @@ function EnemyTab({ enemies }: { enemies: Enemy[] }) {
       {/* Search */}
       <input
         type="text"
-        placeholder="🔎 Cari nama atau ID enemy..."
+            placeholder="🔎 Cari nama atau ID enemy..."
+            aria-label="Cari enemy"
         value={search}
         onChange={(e) => { setSearch(e.target.value); resetPage(); }}
         className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white placeholder:text-slate-600 focus:border-red-700/60 focus:outline-none focus:ring-1 focus:ring-red-700/40"
@@ -2831,8 +2843,10 @@ function EnemyCard({ enemy, playerLevel, onSelect }: { enemy: Enemy; playerLevel
 
   return (
     <div
-      className="group flex flex-col gap-3 rounded-xl border border-white/[0.07] bg-white/[0.025] p-4 cursor-pointer hover:border-white/15 hover:bg-white/[0.04] transition-all"
+      className="inventory-card group flex flex-col gap-3 rounded-xl border border-white/[0.07] bg-white/[0.025] p-4 cursor-pointer hover:border-white/15 hover:bg-white/[0.04] transition-all"
       onClick={() => onSelect(enemy)}
+      role="button" tabIndex={0} aria-label={`Detail ${enemy.name}`}
+      onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); onSelect(enemy); } }}
     >
       {/* Header */}
       <div className="flex items-start gap-3">
@@ -2886,17 +2900,13 @@ function EnemyDetailModal({ enemy, playerLevel, onClose }: { enemy: Enemy; playe
   const stats = calcEnemyStats(enemy, playerLevel);
   const attacks = enemy.attacks ?? [];
 
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
-    document.addEventListener("keydown", handler);
-    document.body.style.overflow = "hidden";
-    return () => { document.removeEventListener("keydown", handler); document.body.style.overflow = ""; };
-  }, [onClose]);
+  const dialogRef = useDialog(onClose);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
       <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
       <div
+        ref={dialogRef} role="dialog" aria-modal="true" aria-label={enemy.name} tabIndex={-1}
         className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
         onClick={(e) => e.stopPropagation()}
       >
@@ -2927,6 +2937,7 @@ function EnemyDetailModal({ enemy, playerLevel, onClose }: { enemy: Enemy; playe
           </div>
           <button
             onClick={onClose}
+            aria-label="Tutup detail"
             className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm mt-0.5"
           >
             ✕
@@ -3358,12 +3369,7 @@ function EffectSkillsModal({
   const catInfo  = EFFECT_CATEGORY_MAP[effect.category] ?? EFFECT_CATEGORY_MAP.hybrid;
   const kindInfo = EFFECT_KIND_MAP[effect.kind];
 
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") { if (selectedSkill) setSelectedSkill(null); else onClose(); } };
-    document.addEventListener("keydown", handler);
-    document.body.style.overflow = "hidden";
-    return () => { document.removeEventListener("keydown", handler); document.body.style.overflow = ""; };
-  }, [onClose, selectedSkill]);
+  const dialogRef = useDialog(onClose, selectedSkill !== null);
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -3379,6 +3385,7 @@ function EffectSkillsModal({
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
         <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
         <div
+          ref={dialogRef} role="dialog" aria-modal={!selectedSkill} aria-label={effect.name} tabIndex={-1}
           className="relative z-10 w-full max-w-xl max-h-[90vh] flex flex-col rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
           onClick={(e) => e.stopPropagation()}
         >
@@ -3398,6 +3405,7 @@ function EffectSkillsModal({
             </div>
             <button
               onClick={onClose}
+              aria-label="Tutup detail"
               className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm"
             >
               ✕
@@ -3410,6 +3418,7 @@ function EffectSkillsModal({
               <input
                 type="text"
                 placeholder="🔎 Cari skill..."
+                aria-label="Cari skill dengan efek ini"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 className="w-full rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-white placeholder:text-slate-600 focus:border-violet-700/60 focus:outline-none focus:ring-1 focus:ring-violet-700/40"
@@ -3430,7 +3439,6 @@ function EffectSkillsModal({
               <div className="py-10 text-center text-slate-600 text-sm">Tidak ada skill yang cocok.</div>
             ) : (
               filtered.map((skill) => {
-                const typeInfo = SKILL_TYPE_MAP[skill.type] ?? { icon: "❓", label: "?", badge: "bg-slate-800/40 border-slate-600/40 text-slate-400" };
                 const seasonNum = getSeasonNumber(skill.name);
                 return (
                   <button

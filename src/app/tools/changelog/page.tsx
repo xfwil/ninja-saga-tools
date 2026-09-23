@@ -1,6 +1,9 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
+import PageHeader from "@/components/PageHeader";
+import IconImg from "@/components/IconImg";
+import "./changelog.css";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -54,15 +57,6 @@ const ACTION_CONFIG: Record<ActionKey, { label: string; color: string; bg: strin
 };
 
 const ACTION_KEYS: ActionKey[] = ["added", "modified", "removed"];
-
-const CAT_ICON: Record<string, string> = {
-  skill:            "⚔️",
-  library:          "📦",
-  skill_effect:     "✨",
-  weapon_effect:    "🗡️",
-  back_effect:      "🎒",
-  accessory_effect: "💍",
-};
 
 const PAGE_SIZE = 50;
 
@@ -188,7 +182,7 @@ function SmartValue({ value, tone, counterpart }: { value: unknown; tone: "red" 
 
   // null / undefined
   if (parsed === null || parsed === undefined) {
-    return <span className="text-slate-600 italic text-xs">kosong</span>;
+      return <span className="text-slate-600 italic text-xs">—</span>;
   }
 
   // Array
@@ -244,92 +238,52 @@ function SmartValue({ value, tone, counterpart }: { value: unknown; tone: "red" 
 
 function SyncBadge({ run, active, onClick }: { run: SyncRun; active: boolean; onClick: () => void }) {
   return (
-    <button
-      onClick={onClick}
-      className={`w-full rounded-2xl border p-3.5 text-left transition-all duration-200 ${
-        active
-          ? "border-red-500/60 bg-red-950/25 shadow-[0_0_0_1px_rgba(239,68,68,0.2)]"
-          : "border-white/[0.08] bg-slate-900/35 hover:border-slate-500/40 hover:bg-slate-900/60"
-      }`}
-    >
-      <div className="flex items-start justify-between gap-3">
-        <div className="space-y-1">
-          <p className={`text-[11px] font-semibold uppercase tracking-wide ${active ? "text-red-300" : "text-slate-400"}`}>
-            {run.initial ? "Snapshot awal" : "Sesi sinkronisasi"}
-          </p>
-          <p className="text-sm font-semibold text-slate-100">{timeAgo(run.syncedAt)}</p>
-          <p className="text-[11px] text-slate-500">{formatDate(run.syncedAt)}</p>
-        </div>
-
-        <span className={`shrink-0 rounded-full border px-2.5 py-1 text-[10px] font-bold ${
-          run.initial
-            ? "border-slate-700/50 bg-slate-900/60 text-slate-400"
-            : run.changes === 0
-              ? "border-slate-700/40 bg-slate-900/40 text-slate-500"
-              : "border-amber-700/50 bg-amber-950/40 text-amber-300"
-        }`}>
-          {run.initial ? "Initial" : `${run.changes} perubahan`}
-        </span>
-      </div>
-
-      <div className="mt-2 flex flex-wrap gap-1.5">
-        <span className="rounded-md border border-white/[0.08] bg-white/[0.03] px-1.5 py-0.5 text-[10px] text-slate-400">⚔️ {run.totals.skills}</span>
-        <span className="rounded-md border border-white/[0.08] bg-white/[0.03] px-1.5 py-0.5 text-[10px] text-slate-400">📦 {run.totals.library}</span>
-        <span className="rounded-md border border-white/[0.08] bg-white/[0.03] px-1.5 py-0.5 text-[10px] text-slate-500">✨ {run.totals.skillEffects + run.totals.weaponEffects + run.totals.backEffects + run.totals.accessoryEffects}</span>
-      </div>
+    <button onClick={onClick} aria-pressed={active} className="journal-run">
+      <span className="run-marker" aria-hidden="true" />
+      <span><time dateTime={run.syncedAt}>{formatDate(run.syncedAt)}</time><small>{run.initial ? "Snapshot awal" : `${run.changes.toLocaleString("id-ID")} perubahan`} · {timeAgo(run.syncedAt)}</small></span>
+      <span aria-hidden="true" className="run-arrow">↗</span>
     </button>
   );
 }
 
 function ChangeCard({ entry, density }: { entry: ChangeEntry; density: "comfortable" | "compact" }) {
   const cfg = ACTION_CONFIG[entry.action as ActionKey];
-  const showDiff = entry.action === "modified" && entry.field;
   const compact = density === "compact";
+  const shortValue = (value: unknown) => value == null || typeof value === "number" || typeof value === "boolean";
+  const inlineDiff = entry.action === "modified" && shortValue(entry.oldValue) && shortValue(entry.newValue);
+  const categoryLabel = CATEGORIES.find((category) => category.key === entry.category)?.label ?? entry.category;
 
   return (
-    <div className={`rounded-2xl border shadow-sm ${cfg.border} ${cfg.bg} ${compact ? "p-3 sm:p-3.5" : "p-4 sm:p-5"}`}>
-      <div className={`flex items-start ${compact ? "gap-2.5" : "gap-3"}`}>
-        <span className="mt-0.5 shrink-0 text-base leading-none">{cfg.icon}</span>
-        <div className="flex-1 min-w-0">
-          <div className={`flex flex-wrap items-center gap-2 ${compact ? "mb-1.5" : "mb-2"}`}>
-            <span className={`rounded-full border px-2 py-0.5 text-[10px] font-bold ${cfg.border} ${cfg.color}`}>
-              {cfg.label}
-            </span>
-            <span className="rounded-full border border-white/10 bg-black/20 px-2 py-0.5 text-[10px] text-slate-400">
-              {CAT_ICON[entry.category]} {entry.category.replace(/_/g, " ")}
-            </span>
-            <span className="ml-auto text-[10px] text-slate-500">{formatDate(entry.detectedAt)}</span>
-          </div>
-
-          <h4 className={`font-semibold leading-snug text-white ${compact ? "text-sm" : "text-sm sm:text-base"}`}>{entry.entityName}</h4>
-          <p className={`mt-0.5 font-mono text-slate-500 ${compact ? "text-[10px]" : "text-[11px]"}`}>ID: {entry.entityId}</p>
-
-          {showDiff && (
-            <div className={`space-y-2 ${compact ? "mt-2" : "mt-3"}`}>
-              <p className="text-[11px] text-slate-500">
-                Field diubah: <span className="rounded bg-white/[0.05] px-1.5 py-0.5 font-mono text-slate-300">{entry.field}</span>
-              </p>
-              <div className={`grid grid-cols-1 sm:grid-cols-2 ${compact ? "gap-1.5" : "gap-2"}`}>
-                <div className={`rounded-xl border border-red-900/40 bg-red-950/20 ${compact ? "px-2.5 py-2" : "px-3 py-2.5"}`}>
-                  <p className="text-[9px] text-red-500 font-bold mb-1.5 uppercase tracking-wider">Sebelum</p>
-                  <SmartValue value={entry.oldValue} tone="red" counterpart={entry.newValue} />
-                </div>
-                <div className={`rounded-xl border border-emerald-900/40 bg-emerald-950/20 ${compact ? "px-2.5 py-2" : "px-3 py-2.5"}`}>
-                  <p className="text-[9px] text-emerald-500 font-bold mb-1.5 uppercase tracking-wider">Sesudah</p>
-                  <SmartValue value={entry.newValue} tone="green" counterpart={entry.oldValue} />
-                </div>
-              </div>
-            </div>
-          )}
+    <details className={`change-entry ${compact ? "is-compact" : ""}`}>
+      <summary>
+        <span className="change-art"><IconImg id={entry.entityId} size={36} /></span>
+        <span className="change-identity"><strong>{entry.entityName || "—"}</strong><span>{categoryLabel} <span aria-hidden="true">/</span> <code>{entry.field ?? "—"}</code></span></span>
+        {inlineDiff ? <span className="inline-diff" aria-label="Sebelum dan sesudah"><span>{entry.oldValue == null ? "—" : String(entry.oldValue)}</span><span aria-hidden="true">→</span><strong>{entry.newValue == null ? "—" : String(entry.newValue)}</strong></span> : <span className="change-hint">Lihat detail</span>}
+        <span className={`change-status status-${entry.action}`}>{cfg.label}</span>
+        <span className="change-chevron" aria-hidden="true">⌄</span>
+      </summary>
+      <div className="change-body">
+        <div className="change-provenance"><code>{entry.entityId || "—"}</code><time dateTime={entry.detectedAt}>{formatDate(entry.detectedAt)}</time></div>
+        <div className="change-comparison">
+          <section><h3><span aria-hidden="true">−</span> Sebelum</h3><SmartValue value={entry.oldValue} tone="red" counterpart={entry.newValue} /></section>
+          <section><h3><span aria-hidden="true">+</span> Sesudah</h3><SmartValue value={entry.newValue} tone="green" counterpart={entry.oldValue} /></section>
         </div>
       </div>
-    </div>
+    </details>
   );
 }
 
 // ─── Main Page ────────────────────────────────────────────────────────────────
 
 export default function ChangelogPage() {
+  const historyRef = useRef<HTMLDetailsElement>(null);
+  useEffect(() => {
+    const desktop = window.matchMedia("(min-width: 901px)");
+    const updateHistory = () => { if (historyRef.current) historyRef.current.open = desktop.matches; };
+    updateHistory();
+    desktop.addEventListener("change", updateHistory);
+    return () => desktop.removeEventListener("change", updateHistory);
+  }, []);
   const [syncs, setSyncs]             = useState<SyncRun[]>([]);
   const [activeSyncId, setActiveSync] = useState<string | null>(null);
   const [allEntries, setAllEntries]   = useState<ChangeEntry[]>([]);
@@ -404,38 +358,8 @@ export default function ChangelogPage() {
   }
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
-      <div className="mb-7 rounded-3xl border border-white/[0.08] bg-[radial-gradient(circle_at_20%_20%,rgba(245,158,11,0.08),transparent_40%),radial-gradient(circle_at_85%_0%,rgba(239,68,68,0.12),transparent_42%),rgba(2,6,23,0.7)] p-6 sm:p-7">
-        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-700/40 bg-amber-950/20 px-3 py-1 text-xs text-amber-300">
-          <span className="h-1.5 w-1.5 rounded-full bg-amber-500 animate-pulse inline-block" />
-          Game Data Tracker
-        </div>
-        <h1 className="mb-2 text-3xl font-black text-white sm:text-4xl">
-          Changelog{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">
-            Database
-          </span>
-        </h1>
-        <p className="max-w-2xl text-sm leading-relaxed text-slate-300">
-          Lacak semua perubahan data game — skill baru, buff/debuff, item diupdate, atau dihapus.
-          Setiap kali dump files diperbarui dan sync dijalankan, perubahan tercatat di sini.
-        </p>
-
-        <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-3">
-          <div className="rounded-2xl border border-white/10 bg-black/20 p-3.5">
-            <p className="text-[11px] uppercase tracking-wide text-slate-500">Perubahan tampil</p>
-            <p className="mt-1 text-xl font-bold text-white">{entriesLoading ? "..." : filtered.length.toLocaleString("id-ID")}</p>
-          </div>
-          <div className="rounded-2xl border border-white/10 bg-black/20 p-3.5">
-            <p className="text-[11px] uppercase tracking-wide text-slate-500">Sync aktif</p>
-            <p className="mt-1 text-xl font-bold text-white">{activeSync ? formatDate(activeSync.syncedAt) : "-"}</p>
-          </div>
-          <div className="rounded-2xl border border-white/10 bg-black/20 p-3.5">
-            <p className="text-[11px] uppercase tracking-wide text-slate-500">Total entitas</p>
-            <p className="mt-1 text-xl font-bold text-white">{activeSync ? totalEntities.toLocaleString("id-ID") : "-"}</p>
-          </div>
-        </div>
-      </div>
+    <div className="page-container changelog-page journal-page">
+      <PageHeader title="Changelog" description="Riwayat pembaruan skill, item, dan efek. Pilih tanggal untuk membandingkan perubahan data." />
 
       {error && (
         <div className="mb-6 rounded-xl border border-red-800/50 bg-red-950/30 px-4 py-3 text-sm text-red-300">
@@ -443,12 +367,13 @@ export default function ChangelogPage() {
         </div>
       )}
 
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[300px_1fr]">
+      <div className="changelog-layout">
         <div className="space-y-4">
-          <div className="space-y-4 lg:sticky lg:top-4">
+          <div className="sync-sidebar space-y-4">
             {/* Sync list */}
-            <div className="rounded-2xl border border-white/[0.08] bg-slate-900/45 p-4">
-              <h2 className="mb-3 text-xs font-bold uppercase tracking-wider text-slate-300">📅 Riwayat Sync</h2>
+            <details ref={historyRef} className="sync-history journal-history">
+              <summary>Arsip pembaruan <small>· Pilih tanggal</small></summary>
+              <div>
               {syncsLoading ? (
                 <div className="space-y-2">
                   {[...Array(4)].map((_, i) => (
@@ -478,45 +403,15 @@ export default function ChangelogPage() {
                   ))}
                 </div>
               )}
-            </div>
+              </div>
+            </details>
 
             {/* Active sync stats */}
-            {activeSync && (
-              <div className="rounded-2xl border border-white/[0.08] bg-slate-900/45 p-4">
-                <h3 className="mb-3 text-xs font-bold uppercase tracking-wider text-slate-400">📊 Ringkasan Sync</h3>
-                {activeSync.initial ? (
-                  <p className="text-xs leading-relaxed text-slate-500">
-                    Initial snapshot - {Object.values(activeSync.totals).reduce((a, b) => a + b, 0).toLocaleString()} entities diindeks.
-                  </p>
-                ) : (
-                  <div className="space-y-1.5 text-xs">
-                    {(
-                      [
-                        ["⚔️ Skills",       activeSync.totals.skills],
-                        ["📦 Library",      activeSync.totals.library],
-                        ["✨ Skill FX",     activeSync.totals.skillEffects],
-                        ["🗡️ Weapon FX",   activeSync.totals.weaponEffects],
-                        ["🎒 Back FX",      activeSync.totals.backEffects],
-                        ["💍 Accessory FX", activeSync.totals.accessoryEffects],
-                      ] as [string, number][]
-                    ).map(([label, val]) => (
-                      <div key={label} className="flex items-center justify-between rounded-md border border-white/[0.06] bg-black/20 px-2.5 py-1.5">
-                        <span className="text-slate-500">{label}</span>
-                        <span className="font-mono text-slate-300">{val.toLocaleString()}</span>
-                      </div>
-                    ))}
-                    <div className="flex justify-between border-t border-white/[0.06] pt-2 font-semibold">
-                      <span className="text-amber-400">Perubahan</span>
-                      <span className="text-amber-300">{activeSync.changes.toLocaleString()}</span>
-                    </div>
-                  </div>
-                )}
-              </div>
-            )}
+            {activeSync && <details className="journal-index"><summary>Isi snapshot · {totalEntities.toLocaleString("id-ID")} entitas</summary><dl>{Object.entries(activeSync.totals).map(([label, count]) => <div key={label}><dt>{label}</dt><dd>{count.toLocaleString("id-ID")}</dd></div>)}</dl></details>}
 
             {/* How to sync */}
-            <div className="rounded-2xl border border-white/[0.08] bg-slate-900/35 p-4">
-              <h3 className="mb-2 text-xs font-bold uppercase tracking-wider text-slate-500">🚀 Cara Sync</h3>
+            <details className="changelog-help">
+              <summary>Informasi sinkronisasi</summary>
               <p className="mb-2 text-[11px] text-slate-500">
                 Perbarui dump files, lalu jalankan:
               </p>
@@ -526,48 +421,32 @@ export default function ChangelogPage() {
               <p className="mt-2 text-[10px] text-slate-600">
                 Lalu commit <code className="font-mono">public/data/</code> ke repo.
               </p>
-            </div>
+            </details>
           </div>
         </div>
 
-        <div className="space-y-4">
-          <div className="rounded-2xl border border-white/[0.08] bg-slate-900/45 p-4 sm:p-5 space-y-4">
+        <div className="journal-content">
+          <header className="journal-edition"><div><h2>{activeSync ? formatDate(activeSync.syncedAt) : "Memuat pembaruan…"}</h2><p>{activeSync?.initial ? "Snapshot awal database" : "Catatan sinkronisasi database"}</p></div><span>{activeSync?.changes.toLocaleString("id-ID") ?? "—"}<small>perubahan tercatat</small></span></header>
+          <div className="journal-controls">
+            <div className="journal-search">
             <input
+              aria-label="Cari perubahan skill atau item"
               type="text"
-              placeholder="🔎 Cari nama skill / item…"
+              placeholder="Cari nama atau ID…"
               value={search}
               onChange={(e) => handleFilter(setSearch, e.target.value)}
               className="w-full rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:border-amber-700/60 focus:outline-none focus:ring-1 focus:ring-amber-700/30"
             />
-
-            <div>
-              <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-500">Kategori</p>
-              <div className="flex flex-wrap gap-1.5">
-              {CATEGORIES.map(({ key, label, icon }) => (
-                <button
-                  key={key}
-                  onClick={() => handleFilter(setCategory, key)}
-                  className={`rounded-full border px-2.5 py-1 text-xs font-medium transition-all ${
-                    category === key
-                      ? "border-red-500 bg-red-600/80 text-white"
-                      : "border-white/10 text-slate-500 hover:border-white/20 hover:text-slate-300"
-                  }`}
-                >
-                  {icon} {label}
-                </button>
-              ))}
-              </div>
+            <select aria-label="Kategori perubahan" value={category} onChange={(event) => handleFilter(setCategory, event.target.value)}>{CATEGORIES.map(({key, label}) => <option key={key} value={key}>{key === "all" ? "Semua kategori" : label}</option>)}</select>
             </div>
 
-            <div>
-              <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-500">Aksi</p>
-              <div className="flex flex-wrap gap-1.5">
+            <div className="journal-actions" role="group" aria-label="Jenis perubahan">
               {(["all", ...ACTION_KEYS] as const).map((key) => {
                 const cfg = key === "all" ? null : ACTION_CONFIG[key];
-                const count = key !== "all" ? actionCounts[key] : filtered.length;
                 return (
                   <button
                     key={key}
+                    aria-pressed={action === key}
                     onClick={() => handleFilter(setAction, key)}
                     className={`rounded-full border px-2.5 py-1 text-xs font-semibold transition-all ${
                       action === key
@@ -577,21 +456,17 @@ export default function ChangelogPage() {
                         : "border-white/10 text-slate-500 hover:border-white/20 hover:text-slate-300"
                     }`}
                   >
-                    {key === "all" ? "🗂️ Semua" : `${cfg!.icon} ${cfg!.label}`}
-                    {count != null && count > 0 && (
-                      <span className="ml-1 opacity-70">({count})</span>
-                    )}
+                    {key === "all" ? "Semua perubahan" : cfg!.label}
                   </button>
                 );
               })}
-              </div>
             </div>
 
-            <div>
-              <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-500">Mode tampilan</p>
+            <div className="journal-density">
               <div className="flex flex-wrap gap-1.5">
                 <button
                   onClick={() => setDensity("comfortable")}
+                  aria-pressed={density === "comfortable"}
                   className={`rounded-full border px-2.5 py-1 text-xs font-semibold transition-all ${
                     density === "comfortable"
                       ? "border-white/20 bg-white/10 text-white"
@@ -602,6 +477,7 @@ export default function ChangelogPage() {
                 </button>
                 <button
                   onClick={() => setDensity("compact")}
+                  aria-pressed={density === "compact"}
                   className={`rounded-full border px-2.5 py-1 text-xs font-semibold transition-all ${
                     density === "compact"
                       ? "border-white/20 bg-white/10 text-white"
@@ -614,10 +490,11 @@ export default function ChangelogPage() {
             </div>
           </div>
 
-          <div className="flex items-center justify-between rounded-xl border border-white/[0.06] bg-black/20 px-3 py-2 text-xs text-slate-500">
+          <div className="journal-results" role="status">
             <span>
               {entriesLoading ? "Memuat…" : `${filtered.length.toLocaleString("id-ID")} perubahan`}
               {totalPages > 1 && ` · Halaman ${page}/${totalPages}`}
+              {!entriesLoading && <span className="result-breakdown">{ACTION_KEYS.map((key) => <span key={key} className={`status-${key}`}>{actionCounts[key] ?? 0} {ACTION_CONFIG[key].label.toLowerCase()}</span>)}</span>}
             </span>
             {(search || category !== "all" || action !== "all") && (
               <button
@@ -651,9 +528,9 @@ export default function ChangelogPage() {
               </p>
             </div>
           ) : (
-            <div className={density === "compact" ? "space-y-2" : "space-y-3"}>
+            <div className="journal-entries">
               {paginated.map((entry, i) => (
-                <ChangeCard key={`${entry.entityId}-${entry.field ?? entry.action}-${i}`} entry={entry} density={density} />
+                <ChangeCard key={`${entry.syncId}-${entry.entityId}-${entry.field ?? entry.action}-${i}`} entry={entry} density={density} />
               ))}
             </div>
           )}
@@ -675,7 +552,8 @@ export default function ChangelogPage() {
                 else pg = page - 4 + i;
                 return (
                     <button
-                      key={pg}
+                       key={pg}
+                       aria-current={pg === page ? "page" : undefined}
                       onClick={() => setPage(pg)}
                       className={`rounded-xl border px-3 py-1.5 text-xs font-medium transition-all ${
                         pg === page

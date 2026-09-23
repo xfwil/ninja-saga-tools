@@ -41,10 +41,9 @@ export default function LevelCalculator({ xpPerSession }: { xpPerSession: number
   const clampLevel = (v: number) => Math.max(MIN_LEVEL, Math.min(MAX_LEVEL, v));
 
   return (
-    <div className="rounded-2xl border border-violet-900/40 bg-gradient-to-br from-violet-950/30 to-black/60 p-6">
+    <div className="garden-levels rounded-2xl border border-white/10 p-6">
       {/* Header */}
       <div className="flex items-center gap-2 mb-5">
-        <span className="text-xl">🎯</span>
         <div>
           <h3 className="font-bold text-white text-base">Level Target Calculator</h3>
           <p className="text-xs text-slate-500">Hitung XP yang dibutuhkan untuk naik level</p>
@@ -52,7 +51,7 @@ export default function LevelCalculator({ xpPerSession }: { xpPerSession: number
       </div>
 
       {/* Input grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
+      <div className="grid grid-cols-1 gap-4 mb-5">
         {/* Current Level */}
         <LevelInput
           label="Level Sekarang"
@@ -83,10 +82,11 @@ export default function LevelCalculator({ xpPerSession }: { xpPerSession: number
 
         {/* Current XP owned */}
         <div className="flex flex-col gap-1.5">
-          <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
+          <label htmlFor="garden-current-xp" className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
             XP Saat Ini
           </label>
           <input
+            id="garden-current-xp"
             type="text"
             inputMode="numeric"
             value={currentXP === 0 ? "" : formatNumber(currentXP)}
@@ -104,7 +104,7 @@ export default function LevelCalculator({ xpPerSession }: { xpPerSession: number
       {result ? (
         <div className="space-y-4">
           {/* XP needed breakdown */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 gap-3">
             <StatBox
               label="Total XP Dibutuhkan"
               value={`${formatNumber(result.needed)} XP`}
@@ -188,6 +188,7 @@ function LevelInput({
       <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider">{label}</label>
       <div className="flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 p-0.5">
         <button
+          aria-label={`Kurangi ${label.toLowerCase()}`}
           onClick={() => onChange(Math.max(min, value - 1))}
           disabled={value <= min}
           className="h-9 w-9 shrink-0 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg leading-none font-bold"
@@ -195,6 +196,7 @@ function LevelInput({
           −
         </button>
         <input
+          aria-label={label}
           type="number"
           min={min}
           max={max}
@@ -206,6 +208,7 @@ function LevelInput({
           className={`flex-1 min-w-0 text-center bg-transparent text-lg font-black text-white outline-none ${borderFocus} [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none`}
         />
         <button
+          aria-label={`Tambah ${label.toLowerCase()}`}
           onClick={() => onChange(Math.min(max, value + 1))}
           disabled={value >= max}
           className="h-9 w-9 shrink-0 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg leading-none font-bold"

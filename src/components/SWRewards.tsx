@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
+import useDialog from "./useDialog";
 import IconImg from "./IconImg";
 import skillsJson from "../../dump/skills.json";
 import libraryJson from "../../dump/library.json";
@@ -273,17 +274,13 @@ function normalizeRewardData(data: SeasonRewardData): SeasonRewardData {
 // ─── Detail Modal ─────────────────────────────────────────────────────────────
 
 function RewardDetailModal({ reward, onClose }: { reward: ResolvedReward; onClose: () => void }) {
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
-    document.addEventListener("keydown", handler);
-    document.body.style.overflow = "hidden";
-    return () => { document.removeEventListener("keydown", handler); document.body.style.overflow = ""; };
-  }, [onClose]);
+  const dialogRef = useDialog(onClose);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
       <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
       <div
+        ref={dialogRef} role="dialog" aria-modal="true" aria-label={reward.name} tabIndex={-1}
         className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
         onClick={(e) => e.stopPropagation()}
       >
@@ -299,6 +296,7 @@ function RewardDetailModal({ reward, onClose }: { reward: ResolvedReward; onClos
             </div>
           </div>
           <button
+            aria-label="Tutup detail"
             onClick={onClose}
             className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-slate-500 hover:text-white hover:bg-white/10 transition-all text-sm mt-0.5"
           >
@@ -593,14 +591,14 @@ function RewardBadge({ reward, onClick }: { reward: ResolvedReward; onClick: () 
   return (
     <button
       onClick={onClick}
-      className={`inline-flex items-center gap-2 rounded-lg border px-2.5 py-1.5 text-xs font-medium transition-all ${badgeClass} ${
+      className={`reward-item inline-flex items-center gap-2 rounded-lg border px-2.5 py-1.5 text-xs font-medium transition-all ${badgeClass} ${
         hasDetail
           ? "cursor-pointer hover:brightness-125 hover:scale-[1.03] active:scale-[0.98]"
           : "cursor-default"
       }`}
       title={hasDetail ? "Klik untuk detail" : reward.rawId}
     >
-      <IconImg id={reward.rawId} size={20} />
+      <IconImg id={reward.rawId} size={32} />
       <span className="leading-tight">{reward.name}</span>
       {hasDetail && (
         <span className="text-[10px] opacity-50">→</span>
@@ -634,13 +632,12 @@ function RewardSection({
   );
 
   return (
-    <div className={`rounded-2xl border ${config.border} ${config.bg} p-4 sm:p-5`}>
-      <h3 className={`flex items-center gap-2 text-sm font-bold ${config.color} mb-4`}>
-        <span className="text-lg">{config.icon}</span>
+    <div className="reward-section">
+      <h3>
         {config.label}
       </h3>
 
-      <div className="space-y-3">
+      <div>
         {resolvedEntries.map(({ rankKey, rewards }) => {
           const isLeague = categoryKey === "league";
           const leagueStyle = isLeague ? LEAGUE_COLORS[rankKey] : null;
@@ -648,11 +645,7 @@ function RewardSection({
           return (
             <div
               key={rankKey}
-              className={`rounded-xl border p-3 ${
-                leagueStyle
-                  ? `${leagueStyle.border} ${leagueStyle.bg}`
-                  : "border-white/[0.08] bg-black/20"
-              }`}
+              className="reward-rank"
             >
               <p className={`text-xs font-bold mb-2 ${leagueStyle ? leagueStyle.text : "text-slate-400"}`}>
                 {formatRankLabel(rankKey)}
@@ -687,7 +680,6 @@ export default function SWRewards() {
 
   // Load stored seasons from JSON + localStorage
   useEffect(() => {
-    setLoading(true);
     fetch(`${BASE}/data/sw-rewards.json`)
       .then((r) => r.json())
       .then((file: SWRewardsFile) => {
@@ -780,11 +772,12 @@ export default function SWRewards() {
   return (
     <div className="space-y-6">
       {/* Season Tabs + Fetch Button */}
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div className="reward-toolbar">
         <div className="flex flex-wrap gap-1.5">
           {seasons.map((s) => (
             <button
               key={s.season}
+              aria-pressed={activeSeason === s.season}
               onClick={() => setActiveSeason(s.season)}
               className={`rounded-xl border px-4 py-2 text-sm font-bold transition-all ${
                 activeSeason === s.season
@@ -809,7 +802,6 @@ export default function SWRewards() {
             </>
           ) : (
             <>
-              <span>🔄</span>
               Cek Season Baru
             </>
           )}
@@ -819,6 +811,7 @@ export default function SWRewards() {
       {/* Live status message */}
       {liveStatus && (
         <div
+          role="status"
           className={`rounded-xl border px-4 py-3 text-sm ${
             liveStatus.includes("Gagal")
               ? "border-red-800/50 bg-red-950/30 text-red-300"
@@ -847,7 +840,7 @@ export default function SWRewards() {
 
       {/* Reward Categories */}
       {activeData && (
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6">
           {CATEGORY_CONFIG.map((cat) => (
             <RewardSection
               key={cat.key}

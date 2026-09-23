@@ -66,8 +66,9 @@ export default function EudemonsTracker() {
         </div>
       </div>
 
+      <div className="tracker-layout">
       {/* Boss list */}
-      <div className="flex flex-col gap-2">
+      <div className="tracker-bosses">
         {bosses.map((boss) => (
           <BossRow
             key={boss.id}
@@ -78,6 +79,7 @@ export default function EudemonsTracker() {
         ))}
       </div>
 
+      <div className="tracker-summary">
       {/* Burn / Reset multiplier */}
       <BurnCounter burnCount={burnCount} onChange={setBurnCount} />
 
@@ -91,6 +93,8 @@ export default function EudemonsTracker() {
 
       {/* Level Calculator */}
       <LevelCalculator xpPerSession={xpPerRun * (burnCount + 1)} />
+      </div>
+      </div>
     </div>
   );
 }
@@ -110,7 +114,7 @@ function BossRow({
 
   return (
     <div
-      className={`group flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 rounded-xl border px-4 py-3.5 transition-all duration-150 ${
+      className={`boss-row group flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 rounded-xl border px-4 py-3.5 transition-all duration-150 ${
         isActive
           ? "border-red-800/40 bg-red-950/20"
           : "border-white/5 bg-white/[0.025] hover:border-white/10"
@@ -155,6 +159,7 @@ function BossRow({
         {/* Counter control */}
         <div className="flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 p-0.5">
           <button
+            aria-label={`Kurangi pertarungan ${boss.name}`}
             onClick={() => onCountChange(count - 1)}
             disabled={count === 0}
             className="h-8 w-8 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg leading-none font-bold"
@@ -162,10 +167,12 @@ function BossRow({
             −
           </button>
 
-          <div className="flex items-center gap-0.5 px-1">
+          <span className="boss-count" aria-live="polite">{count}</span>
+          <div className="flex items-center gap-0.5 px-1 boss-quick-count">
             {Array.from({ length: MAX_FIGHTS }).map((_, i) => (
-              <button
-                key={i}
+                <button
+                  key={i}
+                  aria-label={`Set ${boss.name} ${i + 1} pertarungan`}
                 onClick={() => onCountChange(i < count ? i : i + 1)}
                 className={`h-2.5 w-2.5 rounded-full transition-all duration-150 ${
                   i < count
@@ -178,6 +185,7 @@ function BossRow({
           </div>
 
           <button
+            aria-label={`Tambah pertarungan ${boss.name}`}
             onClick={() => onCountChange(count + 1)}
             disabled={count === MAX_FIGHTS}
             className="h-8 w-8 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg leading-none font-bold"
@@ -206,7 +214,7 @@ function BurnCounter({
       <div className="flex flex-col sm:flex-row sm:items-center gap-4">
         <div className="flex-1">
           <p className="font-semibold text-orange-300 text-sm">
-            🔥 Jumlah Burn / Reset Garden
+            Jumlah Burn / Reset Garden
           </p>
           <p className="text-xs text-slate-500 mt-0.5">
             0 = belum burn (1 run). Tiap +1 burn = reset dan ulang lagi dari awal.
@@ -217,6 +225,7 @@ function BurnCounter({
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 p-0.5">
             <button
+              aria-label="Kurangi burn"
               onClick={() => onChange(Math.max(0, burnCount - 1))}
               disabled={burnCount <= 0}
               className="h-9 w-9 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg leading-none font-bold"
@@ -225,6 +234,7 @@ function BurnCounter({
             </button>
 
             <input
+              aria-label="Jumlah burn"
               type="number"
               min={0}
               value={burnCount}
@@ -236,6 +246,7 @@ function BurnCounter({
             />
 
             <button
+              aria-label="Tambah burn"
               onClick={() => onChange(burnCount + 1)}
               className="h-9 w-9 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white transition-all text-lg leading-none font-bold"
             >
@@ -286,7 +297,7 @@ function SummaryPanel({
   const percentage = maxTotal > 0 ? Math.round((totalXP / maxTotal) * 100) : 0;
 
   return (
-    <div className="rounded-2xl border border-red-900/40 bg-gradient-to-br from-red-950/40 to-black/60 p-6">
+    <div className="garden-totals rounded-2xl border border-red-900/40 p-6" aria-live="polite">
       {/* Breakdown row (only when burned) */}
       {burnCount > 0 && xpPerRun > 0 && (
         <div className="flex flex-wrap gap-x-6 gap-y-1 mb-5 pb-5 border-b border-white/5 text-sm">
