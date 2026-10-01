@@ -29896,9 +29896,112 @@
       ]
     }
   },
+  "skill::skill_2399": {
+    "name": "Kinjutsu: Petal of Destruction",
+    "hash": "9d181b8709aa8b8005131c5ec08c5a04",
+    "data": {
+      "id": "skill_2399",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 300,
+      "hit_chance": 1000,
+      "cp_cost": 0,
+      "cooldown": 10,
+      "target": "Single",
+      "description": "(Kinjutsu) Removes all positive status to the target and negative status to user. This jutsu is extremely accurate.",
+      "name": "Kinjutsu: Petal of Destruction",
+      "type": "7",
+      "category": "package",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          63
+        ]
+      },
+      "attack_hit_position": "meele_4",
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "skill::skill_2400": {
+    "name": "Kinjutsu: Thorn of Affection",
+    "hash": "a923abf184ff7216a73d04c68fa06f4e",
+    "data": {
+      "id": "skill_2400",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 400,
+      "cooldown": 16,
+      "target": "Self",
+      "description": "(Kinjutsu) For 3 turns, Skill, Talent, and Senjutsu costs are reduced to 0, and the user gains 15% 'Energize' (the 'Energize' effect can be removed, but the 0-cost effect cannot).",
+      "name": "Kinjutsu: Thorn of Affection",
+      "type": "7",
+      "category": "package",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          80
+        ],
+        "fullscreen": {
+          "add": 13,
+          "remove": 70
+        }
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "skill::skill_2401": {
+    "name": "Kinjutsu: Willow Sacret Forest Execution",
+    "hash": "de2af6e3879161bda0232374c792c3b8",
+    "data": {
+      "id": "skill_2401",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 300,
+      "hit_chance": 0,
+      "cp_cost": 250,
+      "cooldown": 16,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Inflict 'Scarlet Rot' on all targets by 11% for 2 turns ('Scarlet Rot': reduces enemy max HP and CP, while preventing healing).",
+      "name": "Kinjutsu: Willow Sacret Forest Execution",
+      "type": "7",
+      "category": "package",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          55
+        ],
+        "fullscreen": {
+          "add": 14,
+          "remove": 104,
+          "top": true
+        }
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "akakage"
+      ]
+    }
+  },
   "skill::skill_2402": {
     "name": "Kinjutsu: Flash Thunderous Kick",
-    "hash": "c9d351df237989166ac1a69c9bcfaf1c",
+    "hash": "95ded9fcf19ba8e6cbf51c568eac91fd",
     "data": {
       "id": "skill_2402",
       "price_tokens": 0,
@@ -29915,13 +30018,279 @@
       "type": "6",
       "category": "event",
       "premium": false,
-      "na": true,
+      "na": false,
       "anims": {
         "hit": [
           56
         ]
       },
       "attack_hit_position": "range_1"
+    }
+  },
+  "skill::skill_2403": {
+    "name": "Kinjutsu: Lunar Moonfall",
+    "hash": "9f1a80a47e89db1dfed0f0e41cb80264",
+    "data": {
+      "id": "skill_2403",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 18,
+      "target": "Single",
+      "description": "(Kinjutsu) Reduce target Max HP by 10% instantly.",
+      "name": "Kinjutsu: Lunar Moonfall",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          79
+        ]
+      },
+      "attack_hit_position": "meele_4",
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "skill::skill_2404": {
+    "name": "Kinjutsu: Moon Slicer",
+    "hash": "412c962258f2efb5db91abfe324ec820",
+    "data": {
+      "id": "skill_2404",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 100,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 20,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove a positive status effect from target.",
+      "name": "Kinjutsu: Moon Slicer",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          87
+        ]
+      },
+      "attack_hit_position": "meele_2",
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "skill::skill_2405": {
+    "name": "Kinjutsu: Moonshard",
+    "hash": "7d56abafdf1e8b57c7c5622734fe549d",
+    "data": {
+      "id": "skill_2405",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 350,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflict 'Bleeding' by 40% for 3 turns.",
+      "name": "Kinjutsu: Moonshard",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          63
+        ]
+      },
+      "attack_hit_position": "range_1",
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "skill::skill_2407": {
+    "name": "Kinjutsu: Red Moon Strike",
+    "hash": "d4d8b9677555a3dca12085ddc8f234e2",
+    "data": {
+      "id": "skill_2407",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 300,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove a positive status effect from target and inflict 'Bleeding' by 60% for 3 turns.",
+      "name": "Kinjutsu: Red Moon Strike",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          104
+        ],
+        "fullscreen": {
+          "add": 15,
+          "remove": 94
+        }
+      },
+      "attack_hit_position": "range_1",
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "skill::skill_2408": {
+    "name": "Kinjutsu: Advanced Red Moon Strike",
+    "hash": "a2ac944f684d0a01ac4eb5254cf0dfc7",
+    "data": {
+      "id": "skill_2408",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 350,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Remove a positive status effect from target and inflict 'Bleeding' by 70% for 3 turns.",
+      "name": "Kinjutsu: Advanced Red Moon Strike",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          109
+        ],
+        "fullscreen": {
+          "add": 15,
+          "remove": 94
+        }
+      },
+      "attack_hit_position": "range_1",
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "skill::skill_2410": {
+    "name": "Kinjutsu: Moon Plants Stab",
+    "hash": "ebe746f8aef1da3f2f3e3d7e6aeeebf2",
+    "data": {
+      "id": "skill_2410",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 400,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Reduce target purify chance by 30% for 3 turns.",
+      "name": "Kinjutsu: Moon Plants Stab",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          81
+        ],
+        "effects": [
+          {
+            "name": "effectMc",
+            "add": 34,
+            "type": "target"
+          }
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "skill::skill_2411": {
+    "name": "Kinjutsu: Moon Crash",
+    "hash": "82898d6150d11c06ee4dd0481e21abb6",
+    "data": {
+      "id": "skill_2411",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 40,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 16,
+      "target": "All",
+      "multi_hit": true,
+      "description": "(Kinjutsu) Reduce target attack damage and dodge chance by 70% for 3 turns.",
+      "name": "Kinjutsu: Moon Crash",
+      "type": "7",
+      "category": "event",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          126
+        ],
+        "fullscreen": {
+          "add": 12,
+          "remove": 156
+        }
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "skill::skill_2412": {
+    "name": "Kinjutsu: Infected Scratch",
+    "hash": "719a48bbd5b077af893bfa52b3731dcf",
+    "data": {
+      "id": "skill_2412",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 25,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 15,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflict 'Covid' on target for 1 turn. ('Covid': Reduces HP by 6% each turn)",
+      "name": "Kinjutsu: Infected Scratch",
+      "type": "7",
+      "premium": false,
+      "anims": {
+        "hit": [
+          61
+        ]
+      },
+      "attack_hit_position": "range_3",
+      "source": [
+        "scratch"
+      ]
     }
   },
   "skill::skill_3500": {
@@ -34703,6 +35072,68 @@
       "attack_hit_position": "meele_4"
     }
   },
+  "skill::skill_6111": {
+    "name": "S55 Kinjutsu: Curse of the Infernal Seeds",
+    "hash": "f835b95e5231e2723b1fa5dd68c162e7",
+    "data": {
+      "id": "skill_6111",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 200,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Summon demonic seeds that latch onto the target and sprout, limiting their battle potential. Reduce target Critical, Dodge, Combustion, Purify, and Reactive Force Chance by 50% for 4 turns.",
+      "name": "S55 Kinjutsu: Curse of the Infernal Seeds",
+      "type": "7",
+      "category": "clan",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          116
+        ]
+      },
+      "source": [
+        "clan"
+      ],
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_6112": {
+    "name": "S55 Kinjutsu: Advance Curse of the Infernal Seeds",
+    "hash": "2df97a25cee4c2c99e8fed48a213287d",
+    "data": {
+      "id": "skill_6112",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 200,
+      "cooldown": 14,
+      "target": "Single",
+      "description": "(Kinjutsu) Summon demonic seeds that latch onto the target and sprout, limiting their battle potential. Reduce target critical, dodge, combustion, purify, and reactive force chance by 70% for 5 turns.",
+      "name": "S55 Kinjutsu: Advance Curse of the Infernal Seeds",
+      "type": "7",
+      "category": "clan",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          116
+        ]
+      },
+      "source": [
+        "clan"
+      ],
+      "attack_hit_position": "range_3"
+    }
+  },
   "skill::skill_7000": {
     "name": "S0 Kinjutsu: Katon Flare Flash Combo",
     "hash": "2e1bab848b1e11fd417546bd70c1d684",
@@ -37472,6 +37903,37 @@
       "anims": {
         "hit": [
           70
+        ]
+      },
+      "source": [
+        "crew"
+      ],
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_8029": {
+    "name": "S24 Kinjutsu: Purple Thunder Shooting",
+    "hash": "f7675395a71a6f012245c36fc21ab945",
+    "data": {
+      "id": "skill_8029",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 1000,
+      "cooldown": 17,
+      "target": "Single",
+      "description": "(Kinjutsu) Target gains negative status 'Restriction' and 'Blind' status for 5 turns (extra 50% dodge rate during target's attack)",
+      "name": "S24 Kinjutsu: Purple Thunder Shooting",
+      "type": "7",
+      "category": "crew",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          80
         ]
       },
       "source": [
@@ -60848,6 +61310,260 @@
       ]
     }
   },
+  "library::wpn_2480": {
+    "name": "Akakage Shuriken",
+    "hash": "50a67dba84565dd72a72f4bc59df08ca",
+    "data": {
+      "attack_type": "attack_13",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 40%, increase critical chance by 35%, and reduce skill cooldown by 1 for each successful weapon attack.",
+      "level": 40,
+      "damage": 350,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2480",
+      "price_gold": 0,
+      "name": "Akakage Shuriken",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::wpn_2481": {
+    "name": "Wandering Turmoil Eclipse",
+    "hash": "f5000590dd66dff12e1a57d334cf693d",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 25%. Reduce target Max HP by 2% instantly on each successful weapon attack.",
+      "level": 20,
+      "damage": 100,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2481",
+      "price_gold": 0,
+      "name": "Wandering Turmoil Eclipse",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::wpn_2482": {
+    "name": "Rabbit Moon Spear",
+    "hash": "7362c6634ebf7ac7816809c312d474b1",
+    "data": {
+      "attack_type": "attack_07",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 30%, Max HP and Max CP by 5%, and purify chance by 7%.",
+      "level": 40,
+      "damage": 380,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2482",
+      "price_gold": 0,
+      "name": "Rabbit Moon Spear",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::wpn_2483": {
+    "name": "Eclipse Oath Sword",
+    "hash": "c3d5775ee9c2ca9a799230cf1e31e270",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 30%. Reduce damage taken by 13%",
+      "level": 40,
+      "damage": 380,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2483",
+      "price_gold": 0,
+      "name": "Eclipse Oath Sword",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::wpn_2485": {
+    "name": "Silver Crane Greatsword",
+    "hash": "43e75f8d3466176ca84aca6572066ad9",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 35%, agility by 3, and critical chance by 7%.",
+      "level": 40,
+      "damage": 380,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2485",
+      "price_gold": 0,
+      "name": "Silver Crane Greatsword",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::wpn_2486": {
+    "name": "Moon Glaive",
+    "hash": "6186845f4a63d5006a5c304591724fca",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 45% and critical chance by 25%. 10% chance to remove a positive status effect from target upon a successful weapon attack.",
+      "level": 40,
+      "damage": 380,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2486",
+      "price_gold": 0,
+      "name": "Moon Glaive",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::wpn_2487": {
+    "name": "Heaven Piercing Moonlight",
+    "hash": "cd9c70f16832c0425169ef4d2cbe39b4",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 40%. Increase all attack damage by 15% and reduce 15% of user CP cost.",
+      "level": 60,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2487",
+      "price_gold": 0,
+      "name": "Heaven Piercing Moonlight",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::wpn_2488": {
+    "name": "Rust Flail",
+    "hash": "ee8e58408a5a11083a45355b29badfb3",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase all attack damage by 250.",
+      "level": 30,
+      "damage": 258,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2488",
+      "price_gold": 0,
+      "name": "Rust Flail",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "source": [
+        "scratch"
+      ]
+    }
+  },
+  "library::wpn_2489": {
+    "name": "Rust Blade",
+    "hash": "e2bd9eeb8bc4da04df37bf80291942f5",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 18%. Inflicts 'Poison' on each weapon attack, reducing HP by 150 for 1 turn.",
+      "level": 40,
+      "damage": 299,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2489",
+      "price_gold": 0,
+      "name": "Rust Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "source": [
+        "scratch"
+      ]
+    }
+  },
+  "library::wpn_2490": {
+    "name": "Crescent Spear",
+    "hash": "9349637440a4cf1bb0d0e78be172cf12",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase accuracy by 35%. Increase all attack damage by 5%.",
+      "level": 60,
+      "damage": 386,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2490",
+      "price_gold": 0,
+      "name": "Crescent Spear",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "source": [
+        "scratch"
+      ]
+    }
+  },
   "library::wpn_4001": {
     "name": "S0 Burning Maple Greatsword (Spirit)",
     "hash": "075254fdf7f8e08a60f921554fe01964",
@@ -64700,6 +65416,32 @@
       ]
     }
   },
+  "library::wpn_6097": {
+    "name": "S55 Clan: Wind Horizon",
+    "hash": "43e330ec6b2380d8a9170fc314b0f71b",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S55 Clan Reward: Increases accuracy by 45% and purify chance by 10%. Has 25% chance to reduce skill cooldown by 1 turn at the start of each. (Not effective on talent skill)",
+      "level": 80,
+      "damage": 480,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_6097",
+      "price_gold": 0,
+      "name": "S55 Clan: Wind Horizon",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
   "library::wpn_7000": {
     "name": "S1 Shadow War: Frosted Magica",
     "hash": "1720b569410c25ee976000dc7944e431",
@@ -67103,11 +67845,11 @@
   },
   "library::wpn_8073": {
     "name": "S15 Crew: Frozen Nunchaku",
-    "hash": "2e20fe16ca9c476b782a254dd4c03ad8",
+    "hash": "a0ad9a360631cce7368e86fdf9988fbb",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
-      "description": "S15 Crew Reward: Increases accurary by 38% and dodge chance by 8%. 20% chance to block attack damage.",
+      "description": "S15 Crew Reward: Increases accuracy by 38% and dodge chance by 8%. 20% chance to block attack damage.",
       "level": 80,
       "damage": 500,
       "sell_price": 0,
@@ -67128,11 +67870,11 @@
   },
   "library::wpn_8074": {
     "name": "S15 Crew: Frozen Yuanyang Yue",
-    "hash": "5ef85ec82dddeae7ff28758902bee3e5",
+    "hash": "c065ed81000dd936b57cb851c6b10cb1",
     "data": {
       "attack_type": "attack_09",
       "buyable_clan": false,
-      "description": "S15 Crew Reward: Increases accurary by 35%. Recover HP by 8% every turn. Increases critical rate by 35% whenever HP is less than 70% for 1 turn.",
+      "description": "S15 Crew Reward: Increases accuracy by 35%. Recover HP by 8% every turn. Increases critical rate by 35% whenever HP is less than 70% for 1 turn.",
       "level": 85,
       "damage": 525,
       "sell_price": 0,
@@ -67153,11 +67895,11 @@
   },
   "library::wpn_8075": {
     "name": "S15 Crew: Frozen Jitte",
-    "hash": "7ec52e69298633446f30a5483f34a34b",
+    "hash": "1c3ee07cb2a81cd22666d2a3fda08a6d",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S15 Crew Reward: Increases accurary by 40% and critical chance by 25%.",
+      "description": "S15 Crew Reward: Increases accuracy by 40% and critical chance by 25%.",
       "level": 80,
       "damage": 590,
       "sell_price": 0,
@@ -67178,11 +67920,11 @@
   },
   "library::wpn_8076": {
     "name": "S15 Crew: Frozen Triple Dagger",
-    "hash": "0eca2d99da4dfb43226a7be19f6994c0",
+    "hash": "e72da0fb80eaa9513121c17282c61649",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S15 Crew Reward: Increases accurary by 42%. Increase 20% reactive force chance.",
+      "description": "S15 Crew Reward: Increases accuracy by 42%. Increase 20% reactive force chance.",
       "level": 80,
       "damage": 455,
       "sell_price": 0,
@@ -67203,11 +67945,11 @@
   },
   "library::wpn_8077": {
     "name": "S15 Crew: Frozen Triple Dagger",
-    "hash": "4d3522ec6450d5d673ef3b73cf2235d4",
+    "hash": "eaa3117418629e65e07bc9252b036475",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S15 Crew Reward: Increases 44% accurary. Increase all attack damage by 17% and reduce damage taken by 20% until the end of next turn after using the weapon.",
+      "description": "S15 Crew Reward: Increases 44% accuracy. Increase all attack damage by 17% and reduce damage taken by 20% until the end of next turn after using the weapon.",
       "level": 80,
       "damage": 475,
       "sell_price": 0,
@@ -67603,11 +68345,11 @@
   },
   "library::wpn_8093": {
     "name": "S19 Crew: Primal Power Greatsword",
-    "hash": "82d874ef6b20a38da9d6a91c70f82892",
+    "hash": "28d01fb8de9f7cc559bb5281eb93f217",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Increase 45% accurary. Increase max HP by 15%. Reduce damage taken by 40%.",
+      "description": "S19 Crew Reward: Increase 45% accuracy. Increase max HP by 15%. Reduce damage taken by 40%.",
       "level": 80,
       "damage": 440,
       "sell_price": 0,
@@ -67628,11 +68370,11 @@
   },
   "library::wpn_8094": {
     "name": "S19 Crew: Primal Power Axe",
-    "hash": "40d8d853d0f3afdca6461c8304400cf5",
+    "hash": "c39e0f92378c0e66672d6b153ad01a89",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Increase 35% accurary. Has 20% chace to block attack damage when HP is less than 40%. Recover HP by 6% every turn.",
+      "description": "S19 Crew Reward: Increase 35% accuracy. Has 20% chace to block attack damage when HP is less than 40%. Recover HP by 6% every turn.",
       "level": 80,
       "damage": 450,
       "sell_price": 0,
@@ -67653,11 +68395,11 @@
   },
   "library::wpn_8095": {
     "name": "S19 Crew: Primal Power Kunai",
-    "hash": "bd4aef5409920b4538b1b17e96864e25",
+    "hash": "dc548d237fde960811fe07d7c9f743ef",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Increase accurary by 35%. Reduce jutsu CP consumption for 65%.",
+      "description": "S19 Crew Reward: Increase accuracy by 35%. Reduce jutsu CP consumption for 65%.",
       "level": 80,
       "damage": 470,
       "sell_price": 0,
@@ -67678,11 +68420,11 @@
   },
   "library::wpn_8096": {
     "name": "S19 Crew: Primal Power Shuriken",
-    "hash": "fdadeea596f3faa14f68ea71e966de3d",
+    "hash": "e1023988d8e1045cb48006130a9cf947",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Increase accurary by 40%. Has 70% chance to inflict bleeding when attack with weapon - Increase 45% damage taken for 2 turns. Has 10% chance to inflict 'Bloodfeed' (recovers HP after attack, amount: 100% of the attack damage)",
+      "description": "S19 Crew Reward: Increase accuracy by 40%. Has 70% chance to inflict bleeding when attack with weapon - Increase 45% damage taken for 2 turns. Has 10% chance to inflict 'Bloodfeed' (recovers HP after attack, amount: 100% of the attack damage)",
       "level": 85,
       "damage": 511,
       "sell_price": 0,
@@ -67703,11 +68445,11 @@
   },
   "library::wpn_8097": {
     "name": "S19 Crew: Primal Power Spear",
-    "hash": "2b18e01d369d92bc64408da12f6d8592",
+    "hash": "c6f8259e01342c5d9d9f691237679022",
     "data": {
       "attack_type": "attack_07",
       "buyable_clan": false,
-      "description": "S19 Crew Reward: Increase accurary by 40%. Each turn start when HP less than 99%, increase critical rate 15% for 2 turns. Every Critical landed, inflict 'Hemorrhage' by 4% for 3 turns.",
+      "description": "S19 Crew Reward: Increase accuracy by 40%. Each turn start when HP less than 99%, increase critical rate 15% for 2 turns. Every Critical landed, inflict 'Hemorrhage' by 4% for 3 turns.",
       "level": 80,
       "damage": 503,
       "sell_price": 0,
@@ -67728,11 +68470,11 @@
   },
   "library::wpn_8098": {
     "name": "S20 Crew: Lightning Talon",
-    "hash": "7fe668d0162b27fc087c58c42688b7af",
+    "hash": "24ae13bb273da0d262fdcd0d0c1fb389",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Increase accurary by 40%. Reduce target 6% HP and 25% CP on every weapon attack.",
+      "description": "S20 Crew Reward: Increase accuracy by 40%. Reduce target 6% HP and 25% CP on every weapon attack.",
       "level": 80,
       "damage": 460,
       "sell_price": 0,
@@ -67754,11 +68496,11 @@
   },
   "library::wpn_8099": {
     "name": "S20 Crew: Lightning Dagger",
-    "hash": "06ca32fd4f193ba6d3bd0d9315749e1c",
+    "hash": "dccb4030433b0a995d24783dc17ce0d4",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Increase accurary by 40%, critical rate by 17% and all attack damage by 17%.",
+      "description": "S20 Crew Reward: Increase accuracy by 40%, critical rate by 17% and all attack damage by 17%.",
       "level": 80,
       "damage": 450,
       "sell_price": 0,
@@ -67780,11 +68522,11 @@
   },
   "library::wpn_8100": {
     "name": "S20 Crew: Ligthning Mace",
-    "hash": "f77c21c0199e9b9b80d561f5021422dc",
+    "hash": "3c57d25e6c7a7858b66f9ffb0dd76680",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Increase accurary by 44% and purify chance by 8%. Recover HP by 7% every turn.",
+      "description": "S20 Crew Reward: Increase accuracy by 44% and purify chance by 8%. Recover HP by 7% every turn.",
       "level": 85,
       "damage": 530,
       "sell_price": 0,
@@ -67806,11 +68548,11 @@
   },
   "library::wpn_8101": {
     "name": "S20 Crew: Ligthning Lance",
-    "hash": "8d23df71c9cdda5ab79edc7ef16b0eca",
+    "hash": "be338b085ecb33752006bbc12ad52052",
     "data": {
       "attack_type": "attack_07",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Increase accurary by 40%. Reduce 300 HP damage taken.",
+      "description": "S20 Crew Reward: Increase accuracy by 40%. Reduce 300 HP damage taken.",
       "level": 80,
       "damage": 477,
       "sell_price": 0,
@@ -67832,11 +68574,11 @@
   },
   "library::wpn_8102": {
     "name": "S20 Crew: Ligthning Katana",
-    "hash": "8330c071d4c82ef419d0dd848a481eb6",
+    "hash": "aaf719a2c9ef5e58855f612f598dffb9",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S20 Crew Reward: Increase accurary by 40% and critical chance by 15%. Recover 15% HP on every successful critical attack.",
+      "description": "S20 Crew Reward: Increase accuracy by 40% and critical chance by 15%. Recover 15% HP on every successful critical attack.",
       "level": 85,
       "damage": 560,
       "sell_price": 0,
@@ -67858,11 +68600,11 @@
   },
   "library::wpn_8103": {
     "name": "S21 Crew: True Dragon Giant Blade",
-    "hash": "55d97b6ea0da0038225225c894eea609",
+    "hash": "04d818380031ae2b892ada4a32422020",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S21 Crew Reward: Increase accurary by 25% and reactive force chance by 12%. Increase max HP by 1200.",
+      "description": "S21 Crew Reward: Increase accuracy by 25% and reactive force chance by 12%. Increase max HP by 1200.",
       "level": 80,
       "damage": 525,
       "sell_price": 0,
@@ -67988,11 +68730,11 @@
   },
   "library::wpn_8108": {
     "name": "S22 Crew: Lava Hammer",
-    "hash": "034385fd58fb126d536461a8691829d4",
+    "hash": "9544290f30739fa5c4c66c449869b97c",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S22 Crew Reward: Increase 35% accurary and attack damage by 15%. Inflict burning when attack with weapon - Reduce 5% HP for 3 turns.",
+      "description": "S22 Crew Reward: Increase 35% accuracy and attack damage by 15%. Inflict burning when attack with weapon - Reduce 5% HP for 3 turns.",
       "level": 80,
       "damage": 512,
       "sell_price": 0,
@@ -68014,11 +68756,11 @@
   },
   "library::wpn_8109": {
     "name": "S22 Crew: Lava Ax",
-    "hash": "6c43609be674356852e1c692e376eeb5",
+    "hash": "3cd4007c8d99d5c120320170bf2c29ad",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S22 Crew Reward: Increases accurary by 35%. Inflicts ”Bleeding” status to all attackers for 2 turns. (Bleeding: 45%) Inflict burning when attack with weapon - Reduce 4% HP for 4 turns.",
+      "description": "S22 Crew Reward: Increases accuracy by 35%. Inflicts ”Bleeding” status to all attackers for 2 turns. (Bleeding: 45%) Inflict burning when attack with weapon - Reduce 4% HP for 4 turns.",
       "level": 80,
       "damage": 512,
       "sell_price": 0,
@@ -68040,11 +68782,11 @@
   },
   "library::wpn_8110": {
     "name": "S22 Crew: Lava Sickle",
-    "hash": "701e8466d43bb95a17b7f4ab1f2b7c96",
+    "hash": "272f635fef7caa277c8365201cb488a1",
     "data": {
       "attack_type": "attack_04",
       "buyable_clan": false,
-      "description": "S22 Crew Reward: Increases accurary by 45%. Increases accurary by 30% whenever HP is less than 50% for 2 turns. Has 30% chance to remove target's positve status effect using weapon attack.",
+      "description": "S22 Crew Reward: Increases accuracy by 45%. Increases accuracy by 30% whenever HP is less than 50% for 2 turns. Has 30% chance to remove target's positve status effect using weapon attack.",
       "level": 85,
       "damage": 565,
       "sell_price": 0,
@@ -68066,11 +68808,11 @@
   },
   "library::wpn_8111": {
     "name": "S22 Crew: Lava Shuriken",
-    "hash": "0c37833ddb3ed931d2a7191d5f2df967",
+    "hash": "f58717963cdcecae6e1ccacb96e28147",
     "data": {
       "attack_type": "attack_05",
       "buyable_clan": false,
-      "description": "S22 Crew Reward: Increase accurary by 42% and agility by 2. Directly drain their current 2% HP on every weapon attack.",
+      "description": "S22 Crew Reward: Increase accuracy by 42% and agility by 2. Directly drain their current 2% HP on every weapon attack.",
       "level": 85,
       "damage": 555,
       "sell_price": 0,
@@ -68092,11 +68834,11 @@
   },
   "library::wpn_8112": {
     "name": "S22 Crew: Lava Sword",
-    "hash": "7eae490757360ac56a916769cda5d5b9",
+    "hash": "0011155de7442583816f154f238e1fca",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S22 Crew Reward: Increase accurary by 40%. Burn enemy upon each weapon attack - Additional 500 HP damage for 2 turns. Inflict Burning by 7% of target's max HP on successful weapon attack for 1 turn.",
+      "description": "S22 Crew Reward: Increase accuracy by 40%. Burn enemy upon each weapon attack - Additional 500 HP damage for 2 turns. Inflict Burning by 7% of target's max HP on successful weapon attack for 1 turn.",
       "level": 80,
       "damage": 500,
       "sell_price": 0,
@@ -68118,11 +68860,11 @@
   },
   "library::wpn_8113": {
     "name": "S23 Crew: Desert Scimitar",
-    "hash": "f2ab90de46ca75b50eb9f42802e427b2",
+    "hash": "e543a7a0f988130a5869a92d651aa5dc",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S23 Crew Reward: Increases accurary by 45% and dodge chance by 12%.",
+      "description": "S23 Crew Reward: Increases accuracy by 45% and dodge chance by 12%.",
       "level": 90,
       "damage": 610,
       "sell_price": 0,
@@ -68144,11 +68886,11 @@
   },
   "library::wpn_8114": {
     "name": "S23 Crew: Desert Scythe",
-    "hash": "be31db4bade2563d07f79602757022be",
+    "hash": "93cc1c2fc2848a31bf3fa69d5c99dd12",
     "data": {
       "attack_type": "attack_07",
       "buyable_clan": false,
-      "description": "S23 Crew Reward: Increases accurary by 40%. Recover HP after using a jutsu. (Amount: 100% of jutsu CP consumption) but reduce HP by 2% every turn.",
+      "description": "S23 Crew Reward: Increases accuracy by 40%. Recover HP after using a jutsu. (Amount: 100% of jutsu CP consumption) but reduce HP by 2% every turn.",
       "level": 90,
       "damage": 610,
       "sell_price": 0,
@@ -68170,11 +68912,11 @@
   },
   "library::wpn_8115": {
     "name": "S23 Crew: Desert Dagger",
-    "hash": "888ef9d1758f931c3796f0e9a8539e08",
+    "hash": "f8ae9117a8ac634241ecf54ac9ee8997",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
-      "description": "S23 Crew Reward: Increases accurary by 35%. Increases all attack damage by 45% until the end of next after using the weapon attack.",
+      "description": "S23 Crew Reward: Increases accuracy by 35%. Increases all attack damage by 45% until the end of next after using the weapon attack.",
       "level": 80,
       "damage": 500,
       "sell_price": 0,
@@ -68196,11 +68938,11 @@
   },
   "library::wpn_8116": {
     "name": "S23 Crew: Desert Ax",
-    "hash": "feebf7950afb551d1e2a41a7f0347cea",
+    "hash": "1598652887fe861d01be08a330c62ce1",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S23 Crew Reward: Increases accurary by 35%. Has 45% chance to block an attack when user's is less than 10%.",
+      "description": "S23 Crew Reward: Increases accuracy by 35%. Has 45% chance to block an attack when user's is less than 10%.",
       "level": 90,
       "damage": 585,
       "sell_price": 0,
@@ -68222,11 +68964,11 @@
   },
   "library::wpn_8117": {
     "name": "S23 Crew: Desert Staff",
-    "hash": "63e5cb367c03458dfb973241e67cd679",
+    "hash": "3b39b906a2aeaf27f0c2362e18353796",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "S23 Crew Reward: Increases accurary by 35%. Recovers 10% of user's max HP.",
+      "description": "S23 Crew Reward: Increases accuracy by 35%. Recovers 10% of user's max HP.",
       "level": 90,
       "damage": 570,
       "sell_price": 0,
@@ -68235,6 +68977,136 @@
       "id": "wpn_8117",
       "price_gold": 0,
       "name": "S23 Crew: Desert Staff",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8118": {
+    "name": "S24 Crew: Purple Lightning Axe",
+    "hash": "26569cc5031b336397e90acc5f5bd6b9",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increases accuracy by 45%. Increase critical chance by 25% and critical damage by 25%.",
+      "level": 85,
+      "damage": 565,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8118",
+      "price_gold": 0,
+      "name": "S24 Crew: Purple Lightning Axe",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8119": {
+    "name": "S24 Crew: Purple Lightning Katana",
+    "hash": "e3bbd68b269c6ff79c2c18a787a7a91d",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increase 35% accuracy. Additional 550 damage on all attacks. Additional 550 HP damage upon critical attack.",
+      "level": 80,
+      "damage": 515,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8119",
+      "price_gold": 0,
+      "name": "S24 Crew: Purple Lightning Katana",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8120": {
+    "name": "S24 Crew: Purple Lightning Lance",
+    "hash": "bbba540b98f6666752d6ce4d315db78e",
+    "data": {
+      "attack_type": "attack_07",
+      "buyable_clan": false,
+      "description": "Increases accuracy by 50% whenever HP is less than 70% for 2 turns. Increases critical rate by 50% whenever HP is less than 40% for 2 turns. Has 20% chance to block attack damage when HP is less than 30%.",
+      "level": 80,
+      "damage": 520,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8120",
+      "price_gold": 0,
+      "name": "S24 Crew: Purple Lightning Lance",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8121": {
+    "name": "S24 Crew: Purple Lightning Sai",
+    "hash": "a839e5451dd22e208298ac5fc2e57a57",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increases accuracy by 48%. Increase critical damage by 50%.",
+      "level": 90,
+      "damage": 600,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8121",
+      "price_gold": 0,
+      "name": "S24 Crew: Purple Lightning Sai",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::wpn_8122": {
+    "name": "S24 Crew: Purple Lightning Dagger",
+    "hash": "eb82525da71ab3f62e3e6b045e7a9c4c",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "Increases accuracy by 40%. Increase critical chance by 22%. Has 35% chances of remove target's positive status effect with weapon attack.",
+      "level": 90,
+      "damage": 575,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_8122",
+      "price_gold": 0,
+      "name": "S24 Crew: Purple Lightning Dagger",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -84633,6 +85505,236 @@
       ]
     }
   },
+  "library::back_2492": {
+    "name": "Akakage Hidden Scroll",
+    "hash": "f4d48fb5e8eceaba250e1d0df499cf79",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Recover 250 HP and 250 CP every turn, increase purify chance by 7%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2492",
+      "price_gold": 0,
+      "name": "Akakage Hidden Scroll",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::back_2493": {
+    "name": "Moon of Wandering Charm",
+    "hash": "f7bb3998f0a0e9068fed5f71b0ddfa1b",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Recover 100 HP and increase dodge chance by 3%.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2493",
+      "price_gold": 0,
+      "name": "Moon of Wandering Charm",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::back_2494": {
+    "name": "Rabbit Retainer",
+    "hash": "f06d7d3bd4adb7f91f819f6af7379221",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase purify chance by 5% and recover 5% of Max HP upon each successful Purify.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2494",
+      "price_gold": 0,
+      "name": "Rabbit Retainer",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::back_2495": {
+    "name": "Moon Rabbit Celestial Court",
+    "hash": "97cff03031c85b050ffa42a2c66e721c",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase Max CP by 8% and dodge chance by 8%.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2495",
+      "price_gold": 0,
+      "name": "Moon Rabbit Celestial Court",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::back_2497": {
+    "name": "Bouquet of Moon Flower",
+    "hash": "ddc81bfb53cbf82cec7bd54d65611872",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase reactive force by 7% and ignore target Dodge Chance by 10%.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2497",
+      "price_gold": 0,
+      "name": "Bouquet of Moon Flower",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::back_2498": {
+    "name": "Broken Moon",
+    "hash": "dcd21ac5ba53bc53110c51502c599bd6",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase all attack damage by 10% and combustion chance by 10%.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2498",
+      "price_gold": 0,
+      "name": "Broken Moon",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::back_2499": {
+    "name": "Moon Sovereign's Embrace",
+    "hash": "91eb4ea9d580fd1f461ad1f1650b0fe6",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increase agility by 8 and dodge chance by 10%.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2499",
+      "price_gold": 0,
+      "name": "Moon Sovereign's Embrace",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::back_2500": {
+    "name": "Ent Gourd",
+    "hash": "f01e16986385ede6539afc4c7dcc520d",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Recover 100 HP at the start of each turn.",
+      "level": 10,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2500",
+      "price_gold": 0,
+      "name": "Ent Gourd",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "source": [
+        "scratch"
+      ]
+    }
+  },
+  "library::back_2501": {
+    "name": "Ent Guitar",
+    "hash": "e73edb2221582220c53e37205cf49de5",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduce damage taken by 81.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2501",
+      "price_gold": 0,
+      "name": "Ent Guitar",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "source": [
+        "scratch"
+      ]
+    }
+  },
   "library::back_4001": {
     "name": "S2 Crew: Solar Aura (Spirit)",
     "hash": "4be3800fbdda8a366e9035f9efcea650",
@@ -86186,6 +87288,32 @@
       "id": "back_6055",
       "price_gold": 0,
       "name": "S54 Clan: Ebony Nunchaku",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::back_6056": {
+    "name": "S55 Clan: Mirror of Fantasy",
+    "hash": "01d37aa9ecc633f1992f0f2eae67108a",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increases damage by 10% and accuracy by 5%. Has a 7% chance to convert any damage taken to HP.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_6056",
+      "price_gold": 0,
+      "name": "S55 Clan: Mirror of Fantasy",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -87945,6 +89073,58 @@
       "id": "back_8046",
       "price_gold": 0,
       "name": "S23 Crew: Desert Shield",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::back_8047": {
+    "name": "S24 Crew: Purple Lightning Scroll",
+    "hash": "a0d7aa0c78597c5bc05c678f8a5895c6",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increases critical rate by 11%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_8047",
+      "price_gold": 0,
+      "name": "S24 Crew: Purple Lightning Scroll",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "crew",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "crew"
+      ]
+    }
+  },
+  "library::back_8048": {
+    "name": "S24 Crew: Purple Lightning Folding Fan",
+    "hash": "f7d7ca6b68abb429fb09fb46e39ca66e",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Increases critical damage by 15%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_8048",
+      "price_gold": 0,
+      "name": "S24 Crew: Purple Lightning Folding Fan",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -91640,6 +92820,56 @@
       "sellable": false,
       "source": [
         "independence2026"
+      ]
+    }
+  },
+  "library::accessory_2130": {
+    "name": "Akakage Medal",
+    "hash": "9889bacb76d000e502f035a4b8ff6952",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Reduce damage taken by 10%. 10% chance when attacked to absorb 2% of the attacker's max HP.",
+      "level": 20,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "accessory",
+      "price_tokens": 0,
+      "id": "accessory_2130",
+      "price_gold": 0,
+      "name": "Akakage Medal",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::accessory_2131": {
+    "name": "Dragon Emerald Necklace",
+    "hash": "7a75596f88133ff15d9b4083d17371b7",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "Recover 120 HP and CP at the start of each turn.",
+      "level": 40,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "accessory",
+      "price_tokens": 0,
+      "id": "accessory_2131",
+      "price_gold": 0,
+      "name": "Dragon Emerald Necklace",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "source": [
+        "scratch"
       ]
     }
   },
@@ -104967,6 +106197,106 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": true
+    }
+  },
+  "library::material_2281": {
+    "name": "Moon Cake",
+    "hash": "06221299099c47bee38f3eb70fcca795",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Moon Cake can be used to exchange reward during Moonlight Festival Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2281",
+      "price_gold": 0,
+      "name": "Moon Cake",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::material_2282": {
+    "name": "Moon Tear Crystal",
+    "hash": "9eaf526e9a26306edf51625cc5b0be24",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Moon Tear Crystal can be used to exchange reward during Moonlight Festival Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2282",
+      "price_gold": 0,
+      "name": "Moon Tear Crystal",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::material_2283": {
+    "name": "Dango",
+    "hash": "a072d3b15c1bf5377c9877e44f31be61",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This Dango can be used to exchange reward during Moonlight Festival Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2283",
+      "price_gold": 0,
+      "name": "Dango",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::material_2284": {
+    "name": "White Feather",
+    "hash": "c79f7986e4555b9d89e16a65ee507336",
+    "data": {
+      "attack_type": "item",
+      "buyable_clan": false,
+      "description": "This White Feather can be used to exchange reward during Moonlight Festival Event 2026.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 100,
+      "type": "item",
+      "price_tokens": 0,
+      "id": "material_2284",
+      "price_gold": 0,
+      "name": "White Feather",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": true,
+      "source": [
+        "moonlight2026"
+      ]
     }
   },
   "library::essential_01": {
@@ -141162,6 +142492,422 @@
       ]
     }
   },
+  "library::set_2495_0": {
+    "name": "Crimson Petal Costume",
+    "hash": "65d8d96de0fc03da06a0037fbe18068a",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Akakage Package Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2495_0",
+      "price_gold": 0,
+      "name": "Crimson Petal Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::set_2495_1": {
+    "name": "Crimson Petal Costume",
+    "hash": "22b6a0a4b14457567d65091d2c5658d5",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Akakage Package Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2495_1",
+      "price_gold": 0,
+      "name": "Crimson Petal Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::set_2496_0": {
+    "name": "Bloodthorn Costume",
+    "hash": "66583decab7720659fbda4649dc4ef57",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Akakage Package Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2496_0",
+      "price_gold": 0,
+      "name": "Bloodthorn Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::set_2496_1": {
+    "name": "Bloodthorn Costume",
+    "hash": "9c2b368dd1cf85e38a38442e50bf8a4b",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Akakage Package Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2496_1",
+      "price_gold": 0,
+      "name": "Bloodthorn Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::set_2497_0": {
+    "name": "Moon Wanderer Costume",
+    "hash": "0663ded275b9c3e13b7e7b8e54a90f88",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2497_0",
+      "price_gold": 0,
+      "name": "Moon Wanderer Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2497_1": {
+    "name": "Moon Wanderer Costume",
+    "hash": "7f4ed95f0c80d4bc99a167e331e04525",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2497_1",
+      "price_gold": 0,
+      "name": "Moon Wanderer Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2498_0": {
+    "name": "Moon Retainer Costume",
+    "hash": "f60ef8881372a268f5c1116874b0b499",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2498_0",
+      "price_gold": 0,
+      "name": "Moon Retainer Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2498_1": {
+    "name": "Moon Retainer Costume",
+    "hash": "349373831396d282758834c787a164cd",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2498_1",
+      "price_gold": 0,
+      "name": "Moon Retainer Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2499_0": {
+    "name": "Moon Sentinel Costume",
+    "hash": "4ff941b4768209245203d41a37c27fd7",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2499_0",
+      "price_gold": 0,
+      "name": "Moon Sentinel Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2499_1": {
+    "name": "Moon Sentinel Costume",
+    "hash": "586d14791f2c0b48c343a95eee7fd5ff",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2499_1",
+      "price_gold": 0,
+      "name": "Moon Sentinel Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2501_0": {
+    "name": "Silver Crane Costume",
+    "hash": "69f31cfdb05754580d0213ea983d6cc2",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2501_0",
+      "price_gold": 0,
+      "name": "Silver Crane Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2501_1": {
+    "name": "Silver Crane Costume",
+    "hash": "be7db53ab8c90089be6533083346294a",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2501_1",
+      "price_gold": 0,
+      "name": "Silver Crane Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2502_0": {
+    "name": "Moon Royal Costume",
+    "hash": "a05a004009ac801089d92b839bf50d6b",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2502_0",
+      "price_gold": 0,
+      "name": "Moon Royal Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2502_1": {
+    "name": "Moon Royal Costume",
+    "hash": "de07def8eeba2deadb889cc9c948af44",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2502_1",
+      "price_gold": 0,
+      "name": "Moon Royal Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2503_0": {
+    "name": "Moon Sovereign Armor",
+    "hash": "a341cb3d11cbc096dc89ad4471c7f16d",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2503_0",
+      "price_gold": 0,
+      "name": "Moon Sovereign Armor",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::set_2503_1": {
+    "name": "Moon Sovereign Armor",
+    "hash": "a1c0a2400690815aa7959ed60e636e20",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Set",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2503_1",
+      "price_gold": 0,
+      "name": "Moon Sovereign Armor",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
   "library::set_5000_0": {
     "name": "S0 PvP Costume",
     "hash": "8e658a6078aa80ce852e797b1d31a08b",
@@ -151819,6 +153565,206 @@
       "id": "set_6219_1",
       "price_gold": 0,
       "name": "S54 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6220_0": {
+    "name": "S55 Champion",
+    "hash": "73c0318b4b694dea850259f21e824fa9",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6220_0",
+      "price_gold": 0,
+      "name": "S55 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6220_1": {
+    "name": "S55 Champion",
+    "hash": "5017fc46c2dc0cc0b27f42b1a670e4db",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6220_1",
+      "price_gold": 0,
+      "name": "S55 Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6221_0": {
+    "name": "S55 Runner Up",
+    "hash": "5bb661d881f8f4823a723b3d3cfcba41",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6221_0",
+      "price_gold": 0,
+      "name": "S55 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6221_1": {
+    "name": "S55 Runner Up",
+    "hash": "f64cca5d8407a34a97d602b48514db19",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6221_1",
+      "price_gold": 0,
+      "name": "S55 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6222_0": {
+    "name": "S55 Runner Up",
+    "hash": "65a3392a333b31156b54c7ee49c19ebe",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6222_0",
+      "price_gold": 0,
+      "name": "S55 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6222_1": {
+    "name": "S55 Runner Up",
+    "hash": "f302c5131a43da60261149a0f207919f",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6222_1",
+      "price_gold": 0,
+      "name": "S55 Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6223_0": {
+    "name": "S55 Costume",
+    "hash": "31c8cd63c95b7f1c345caa86debaf0c9",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6223_0",
+      "price_gold": 0,
+      "name": "S55 Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "clan",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "clan"
+      ]
+    }
+  },
+  "library::set_6223_1": {
+    "name": "S55 Costume",
+    "hash": "da36817b906286259c8cc44be4629e6e",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_6223_1",
+      "price_gold": 0,
+      "name": "S55 Costume",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -185059,6 +187005,406 @@
       ]
     }
   },
+  "library::hair_2454_0": {
+    "name": "Crimson Petal Hairstyle",
+    "hash": "10dc34d6a6c9f7c4834eceb2a8a47f5e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Akakage Package Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2454_0",
+      "price_gold": 0,
+      "name": "Crimson Petal Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::hair_2454_1": {
+    "name": "Crimson Petal Hairstyle",
+    "hash": "f827bbe909f54a1bb81f0014dc6a1639",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Akakage Package Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2454_1",
+      "price_gold": 0,
+      "name": "Crimson Petal Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::hair_2455_0": {
+    "name": "Bloodthorn Hairstyle",
+    "hash": "d491af803e97eaa55252653ad18a64ee",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Akakage Package Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2455_0",
+      "price_gold": 0,
+      "name": "Bloodthorn Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::hair_2455_1": {
+    "name": "Bloodthorn Hairstyle",
+    "hash": "88fdb35c5aebb6e746decfdea37ee044",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Akakage Package Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2455_1",
+      "price_gold": 0,
+      "name": "Bloodthorn Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "package",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "akakage"
+      ]
+    }
+  },
+  "library::hair_2456_0": {
+    "name": "Moon Wanderer Hairstyle",
+    "hash": "92f582fef9738e25c2b206ceb7cde5b1",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2456_0",
+      "price_gold": 0,
+      "name": "Moon Wanderer Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2456_1": {
+    "name": "Moon Wanderer Hairstyle",
+    "hash": "628f02305467086cf42f51b284c9c9db",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2456_1",
+      "price_gold": 0,
+      "name": "Moon Wanderer Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2457_0": {
+    "name": "Moon Retainer Hairstyle",
+    "hash": "6489469210838634c3a4dcfed88d438e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2457_0",
+      "price_gold": 0,
+      "name": "Moon Retainer Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2457_1": {
+    "name": "Moon Retainer Hairstyle",
+    "hash": "8c2a4af8047b50950a27550158efc7fc",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2457_1",
+      "price_gold": 0,
+      "name": "Moon Retainer Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2458_0": {
+    "name": "Moon Sentinel Hairstyle",
+    "hash": "c7aeec3c31e16859039f97c9c7d65d4f",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2458_0",
+      "price_gold": 0,
+      "name": "Moon Sentinel Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2458_1": {
+    "name": "Moon Sentinel Hairstyle",
+    "hash": "3c62dcacd86b88e9a9de8de0229915e2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2458_1",
+      "price_gold": 0,
+      "name": "Moon Sentinel Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2460_0": {
+    "name": "Silver Crane Hairstyle",
+    "hash": "d4e93d5d99d061e0d07c7e9f727458c0",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2460_0",
+      "price_gold": 0,
+      "name": "Silver Crane Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2460_1": {
+    "name": "Silver Crane Hairstyle",
+    "hash": "bfe91a88f3cd23c39dd7509cf48463e2",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2460_1",
+      "price_gold": 0,
+      "name": "Silver Crane Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2461_0": {
+    "name": "Moon Royal Hairstyle",
+    "hash": "d7c20529a6ce29f70b57cc004a1e0627",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2461_0",
+      "price_gold": 0,
+      "name": "Moon Royal Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2461_1": {
+    "name": "Moon Royal Hairstyle",
+    "hash": "4c4dd617d03d9429ecfd68d8ea0fad7e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2461_1",
+      "price_gold": 0,
+      "name": "Moon Royal Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2462_0": {
+    "name": "Moon Sovereign Hairstyle",
+    "hash": "bf2d8ec226fb95642c9026eb6c153b99",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2462_0",
+      "price_gold": 0,
+      "name": "Moon Sovereign Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
+  "library::hair_2462_1": {
+    "name": "Moon Sovereign Hairstyle",
+    "hash": "20e07013b1e66ff8ce1d493bdbe1353e",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Moonlight Festival Event Hairstyle",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2462_1",
+      "price_gold": 0,
+      "name": "Moon Sovereign Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "event",
+      "sellable": false,
+      "na": false,
+      "source": [
+        "moonlight2026"
+      ]
+    }
+  },
   "library::hair_5000_0": {
     "name": "S0 PvP Hairstyle",
     "hash": "8595de2acba57795e5ad75c19c8c8dcd",
@@ -203586,6 +205932,85 @@
       ]
     }
   },
+  "skill_effect::skill_2399": {
+    "name": "Kinjutsu: Petal of Destruction",
+    "hash": "c99f3fe5ed501a38a8fd224b47b46527",
+    "data": {
+      "skill_id": "skill_2399",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "purify",
+          "effect_name": "Purify",
+          "duration": 1,
+          "calc_type": "number",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2400": {
+    "name": "Kinjutsu: Thorn of Affection",
+    "hash": "ce3869de611e78f3d8834c46adf1c3d1",
+    "data": {
+      "skill_id": "skill_2400",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "boundless",
+          "effect_name": "Boundless",
+          "duration": 3,
+          "calc_type": "number",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "energize",
+          "effect_name": "Energize",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 15,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2401": {
+    "name": "Kinjutsu: Willow Sacret Forest Execution",
+    "hash": "daeec89cae72127d4e5234f9fe4c197d",
+    "data": {
+      "skill_id": "skill_2401",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "scarlet_rot",
+          "effect_name": "Scarlet Rot",
+          "duration": 2,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 11,
+          "amount_cp": 11,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_2402": {
     "name": "Kinjutsu: Flash Thunderous Kick",
     "hash": "6d89c76b34675b8ab2613f8c0ad3e09c",
@@ -203610,6 +206035,191 @@
           "duration": 1,
           "calc_type": "percent",
           "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2403": {
+    "name": "Kinjutsu: Lunar Moonfall",
+    "hash": "d544eee7a7bb81084bc6092a393bd66e",
+    "data": {
+      "skill_id": "skill_2403",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2404": {
+    "name": "Kinjutsu: Moon Slicer",
+    "hash": "25a0cfb2917283a85c44282e6fa0a459",
+    "data": {
+      "skill_id": "skill_2404",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2405": {
+    "name": "Kinjutsu: Moonshard",
+    "hash": "20f8dec2b9daf19392edc4e587c46bde",
+    "data": {
+      "skill_id": "skill_2405",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2407": {
+    "name": "Kinjutsu: Red Moon Strike",
+    "hash": "4ec472ded6228898b89775e9972ee6e8",
+    "data": {
+      "skill_id": "skill_2407",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 60,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2408": {
+    "name": "Kinjutsu: Advanced Red Moon Strike",
+    "hash": "9b1a179149039717ba0ae750de6876f7",
+    "data": {
+      "skill_id": "skill_2408",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "bleeding",
+          "effect_name": "Bleeding",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 70,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2410": {
+    "name": "Kinjutsu: Moon Plants Stab",
+    "hash": "fc79f6fbc1cb89a1796b2e7d5bb3430d",
+    "data": {
+      "skill_id": "skill_2410",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "decrease_purify_active",
+          "effect_name": "Muddy",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2411": {
+    "name": "Kinjutsu: Moon Crash",
+    "hash": "9c760d84189b7223b0455b1d92acf949",
+    "data": {
+      "skill_id": "skill_2411",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "weaken",
+          "effect_name": "Weaken",
+          "duration": 3,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 70,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "numb",
+          "effect_name": "Numb",
+          "duration": 3,
+          "calc_type": "percent",
+          "multi_hit": true,
+          "amount": 70,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_2412": {
+    "name": "Kinjutsu: Infected Scratch",
+    "hash": "a94fff14be7e638993ac660b56b94083",
+    "data": {
+      "skill_id": "skill_2412",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "covid",
+          "effect_name": "Covid",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 6,
           "chance": 100
         }
       ]
@@ -206495,6 +209105,44 @@
       ]
     }
   },
+  "skill_effect::skill_6111": {
+    "name": "S55 Kinjutsu: Curse of the Infernal Seeds",
+    "hash": "0e3f608bb3e95704af2702e68b428d02",
+    "data": {
+      "skill_id": "skill_6111",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disorient",
+          "effect_name": "Disorient",
+          "duration": 4,
+          "calc_type": "percent",
+          "amount": 50,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_6112": {
+    "name": "S55 Kinjutsu: Advance Curse of the Infernal Seeds",
+    "hash": "55976608734c97eb42d74798a1592848",
+    "data": {
+      "skill_id": "skill_6112",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disorient",
+          "effect_name": "Disorient",
+          "duration": 5,
+          "calc_type": "percent",
+          "amount": 70,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_5049": {
     "name": "Kinjutsu: Advanced Futen Bullet",
     "hash": "ebdca35a9a5c5220295fa9b470478f01",
@@ -209026,6 +211674,35 @@
           "duration": 4,
           "calc_type": "percent",
           "multi_hit": true,
+          "amount": 50,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_8029": {
+    "name": "S24 Kinjutsu: Purple Thunder Shooting",
+    "hash": "204e2d87e0ca0f1b1f564739b4e56aeb",
+    "data": {
+      "skill_id": "skill_8029",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "restriction",
+          "effect_name": "Restriction",
+          "duration": 5,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "blind",
+          "effect_name": "Blind",
+          "duration": 5,
+          "calc_type": "percent",
           "amount": 50,
           "chance": 100
         }
@@ -228691,7 +231368,7 @@
   },
   "weapon_effect::wpn_2320": {
     "name": "Kōun no Yari",
-    "hash": "42771aa6e4b7fd8abe8fbdd97b14f722",
+    "hash": "3c848e1d0d1b7aff9eea5c95760495c4",
     "data": {
       "id": "wpn_2320",
       "effects": [
@@ -228716,7 +231393,7 @@
           "duration": 1,
           "calc_type": "percent",
           "amount": 6,
-          "chance": 80
+          "chance": 100
         },
         {
           "passive": true,
@@ -234332,6 +237009,372 @@
       ]
     }
   },
+  "weapon_effect::wpn_2480": {
+    "name": "Akakage Shuriken",
+    "hash": "0a514127cf0829e5269bafb8344fce05",
+    "data": {
+      "id": "wpn_2480",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "critical_increase",
+          "effect_name": "Increase Critical",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "reduce_cd",
+          "effect_name": "Rewind",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 1,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2481": {
+    "name": "Wandering Turmoil Eclipse",
+    "hash": "865dd6e99592978bbd23c6d1b3f6e7e4",
+    "data": {
+      "id": "wpn_2481",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "insta_reduce_max_hp",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "reduce_type": "MAX",
+          "amount": 2,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 25,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2482": {
+    "name": "Rabbit Moon Spear",
+    "hash": "4768d5a14a75182adada2817fa72392b",
+    "data": {
+      "id": "wpn_2482",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max Hp",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2483": {
+    "name": "Eclipse Oath Sword",
+    "hash": "681b0261d65c17456b351deb72105457",
+    "data": {
+      "id": "wpn_2483",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 13,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 30,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2485": {
+    "name": "Silver Crane Greatsword",
+    "hash": "45e5af59167dcafd66e010aec95548b2",
+    "data": {
+      "id": "wpn_2485",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Agility Increase",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 3,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "critical_increase",
+          "effect_name": "Increase Critical Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2486": {
+    "name": "Moon Glaive",
+    "hash": "6b886cc1e30bbf56e9a7a60591be16b4",
+    "data": {
+      "id": "wpn_2486",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 10
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "critical_increase",
+          "effect_name": "Increase Critical Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 25,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2487": {
+    "name": "Heaven Piercing Moonlight",
+    "hash": "f5371e59f78f8a50e3f49f96e6ec0add",
+    "data": {
+      "id": "wpn_2487",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 15,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "reduce_cp_cost",
+          "effect_name": "Reduce CP Cost",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 15,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2488": {
+    "name": "Rust Flail",
+    "hash": "8d83bbefc4992c91666c13c0e1040fdd",
+    "data": {
+      "id": "wpn_2488",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 250,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2489": {
+    "name": "Rust Blade",
+    "hash": "24627f0937f8e8dc43a01b345e7e484e",
+    "data": {
+      "id": "wpn_2489",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "poison",
+          "effect_name": "Poison",
+          "duration": 1,
+          "calc_type": "number",
+          "amount": 150,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 18,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_2490": {
+    "name": "Crescent Spear",
+    "hash": "b9c74ed7de80d6364ccb4fc519bd22f5",
+    "data": {
+      "id": "wpn_2490",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "weapon_effect::wpn_4001": {
     "name": "S0 Burning Maple Greatsword (Spirit)",
     "hash": "926d289789a6775fb1a5029f05204543",
@@ -239525,6 +242568,48 @@
       ]
     }
   },
+  "weapon_effect::wpn_6092": {
+    "name": "S50 Clan: Buster Blade",
+    "hash": "bdf187af99641c3ec686db213e9b4065",
+    "data": {
+      "id": "wpn_6092",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "burning",
+          "effect_name": "Burning",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 40
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "weapon_effect::wpn_6093": {
     "name": "S51 Clan: Sacred Phoenix Greatblade",
     "hash": "85cbe9c084a31f8cfdac6ba247680022",
@@ -239679,6 +242764,48 @@
           "calc_type": "number",
           "amount": 45,
           "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_6097": {
+    "name": "S55 Clan: Wind Horizon",
+    "hash": "d6908a39e3f755477670c1112ba7634d",
+    "data": {
+      "id": "wpn_6097",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "rewind",
+          "effect_name": "Rewind",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 1,
+          "chance": 25
         }
       ]
     }
@@ -240608,6 +243735,49 @@
           "effect_name": "Block Damage",
           "duration": 0,
           "calc_type": "",
+          "amount": 20,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_7023": {
+    "name": "S28 Shadow War: Dragon Scythe",
+    "hash": "6a776a59530382034e0d6ab2c95959d0",
+    "data": {
+      "id": "wpn_7023",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "drain_hp_with_attack",
+          "reduce_type": "MAX",
+          "effect_name": "Drain HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 1,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "kill_instant_under",
+          "effect_name": "Instant Kill",
+          "duration": 0,
+          "calc_type": "percent",
           "amount": 20,
           "chance": 100
         },
@@ -244973,6 +248143,360 @@
           "duration": 1,
           "calc_type": "percent",
           "amount": 7,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8113": {
+    "name": "S23 Crew: Desert Scimitar",
+    "hash": "b71d314cd86603b55fcf7c32f265aaac",
+    "data": {
+      "id": "wpn_8113",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 12,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8114": {
+    "name": "S23 Crew: Desert Scythe",
+    "hash": "56799593ef77f784766c5818ba7ab095",
+    "data": {
+      "id": "wpn_8114",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "recover_hp_by_cp_cost",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8115": {
+    "name": "S23 Crew: Desert Dagger",
+    "hash": "47675093a53c66addae78a8038fe7328",
+    "data": {
+      "id": "wpn_8115",
+      "effects": [
+        {
+          "passive": false,
+          "type": "Buff",
+          "target": "self",
+          "effect": "power_up",
+          "effect_name": "Strengthen",
+          "duration": 1,
+          "calc_type": "percent",
+          "amount": 45,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8116": {
+    "name": "S23 Crew: Desert Ax",
+    "hash": "67fbf855893f33672935bfeeaccfe317",
+    "data": {
+      "id": "wpn_8116",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "guard_below_hp",
+          "effect_name": "Block Damage",
+          "duration": 0,
+          "calc_type": "",
+          "amount": 10,
+          "chance": 45
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8117": {
+    "name": "S23 Crew: Desert Staff",
+    "hash": "ccec12920f5c137a10deb012b7a6ee61",
+    "data": {
+      "id": "wpn_8117",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8118": {
+    "name": "S24 Crew: Purple Lightning Axe",
+    "hash": "807b1631a27479ffb7a918374fde4f6d",
+    "data": {
+      "id": "wpn_8118",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "critical_increase",
+          "effect_name": "Increase Critical Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 25,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "mortal",
+          "effect_name": "Mortal",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 25,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8119": {
+    "name": "S24 Crew: Purple Lightning Katana",
+    "hash": "c1cea5bb24e8674c29fdffa3a581b7ce",
+    "data": {
+      "id": "wpn_8119",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 550,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "mortal",
+          "effect_name": "Mortal",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 550,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 35,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8120": {
+    "name": "S24 Crew: Purple Lightning Lance",
+    "hash": "f7d0a89ec2b25e685a42e39471603cc6",
+    "data": {
+      "id": "wpn_8120",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_up_below_hp",
+          "effect_name": "Increase Accuracy",
+          "duration": 2,
+          "calc_type": "number",
+          "amount": 50,
+          "chance": 70
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "attribute_change",
+          "effect_name": "Increase Crit Chance",
+          "duration": 2,
+          "calc_type": "number",
+          "amount": 50,
+          "chance": 40
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "guard_below_hp",
+          "effect_name": "Block Damage",
+          "duration": 0,
+          "calc_type": "",
+          "amount": 30,
+          "chance": 20
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8121": {
+    "name": "S24 Crew: Purple Lightning Sai",
+    "hash": "d9b04883ce6b5ea94438526e614ec938",
+    "data": {
+      "id": "wpn_8121",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "mortal",
+          "effect_name": "Mortal",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 50,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 48,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_8122": {
+    "name": "S24 Crew: Purple Lightning Dagger",
+    "hash": "f081d40472561ce466f2d0b0464ec0ee",
+    "data": {
+      "id": "wpn_8122",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 35,
+          "chance": 35
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "critical_increase",
+          "effect_name": "Increase Critical Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 22,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
           "chance": 100
         }
       ]
@@ -261741,21 +265265,10 @@
   },
   "back_effect::back_2490": {
     "name": "Musket of Greed",
-    "hash": "8b4cbe05f0b7adddb5d01991512ba655",
+    "hash": "954495106f1ab364b327b6ab7f423680",
     "data": {
       "id": "back_2490",
       "effects": [
-        {
-          "passive": true,
-          "type": "Buff",
-          "target": "self",
-          "effect": "dodge_increase",
-          "effect_name": "Increase Dodge",
-          "duration": 0,
-          "calc_type": "number",
-          "amount": 5,
-          "chance": 100
-        },
         {
           "passive": true,
           "type": "Debuff",
@@ -261766,6 +265279,17 @@
           "calc_type": "percent",
           "amount": 2,
           "chance": 10
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 5,
+          "chance": 100
         }
       ]
     }
@@ -261796,6 +265320,264 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 8,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2492": {
+    "name": "Akakage Hidden Scroll",
+    "hash": "b7516134f4ec20b2c641c39b61d91521",
+    "data": {
+      "id": "back_2492",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_cp_recover",
+          "effect_name": "Recover HP & CP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 250,
+          "amount_cp": 250,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 7,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2493": {
+    "name": "Moon of Wandering Charm",
+    "hash": "0df4775b4868ff7331eb51910870d832",
+    "data": {
+      "id": "back_2493",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 100,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 3,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2494": {
+    "name": "Rabbit Retainer",
+    "hash": "1aa0bd8b4e3d7069309d887976a193cb",
+    "data": {
+      "id": "back_2494",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Increase Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "recover_hp_after_purify",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2495": {
+    "name": "Moon Rabbit Celestial Court",
+    "hash": "e38b0aec87ae1a3915c3d9bed4c34560",
+    "data": {
+      "id": "back_2495",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 8,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2497": {
+    "name": "Bouquet of Moon Flower",
+    "hash": "94aa7a1f5a5324c4830e1b7448671308",
+    "data": {
+      "id": "back_2497",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "increase_reactive",
+          "effect_name": "Reactive Force",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "ignore_dodge",
+          "effect_name": "Ignore Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2498": {
+    "name": "Broken Moon",
+    "hash": "6811b444058da23392e44d6a8124c559",
+    "data": {
+      "id": "back_2498",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "combustion_increase",
+          "effect_name": "Combustion",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2499": {
+    "name": "Moon Sovereign's Embrace",
+    "hash": "e120d20cc3e70645909c72204966342f",
+    "data": {
+      "id": "back_2499",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Agility Increase",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2500": {
+    "name": "Ent Gourd",
+    "hash": "e593defdd12bde2bac283b856afea8a6",
+    "data": {
+      "id": "back_2500",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_2501": {
+    "name": "Ent Guitar",
+    "hash": "7d3a7e55731989decef802d396e4954a",
+    "data": {
+      "id": "back_2501",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 81,
           "chance": 100
         }
       ]
@@ -263626,6 +267408,48 @@
       ]
     }
   },
+  "back_effect::back_6056": {
+    "name": "S55 Clan: Mirror of Fantasy",
+    "hash": "7be021eaa6be357e245607eb565cf3de",
+    "data": {
+      "id": "back_6056",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "convert_damage_taken_hp",
+          "effect_name": "Convert HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 7,
+          "chance": 7
+        }
+      ]
+    }
+  },
   "back_effect::back_7000": {
     "name": "S0 Shadow War: Fire Spirit",
     "hash": "db138d55879cf5588eb0c4b516d507cf",
@@ -264370,6 +268194,37 @@
           "calc_type": "number",
           "amount": 10,
           "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_7023": {
+    "name": "S28 Shadow War: Dragon Wing",
+    "hash": "981da1f315ba163f6b6e82481f4827a4",
+    "data": {
+      "id": "back_7023",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "dodge_increase",
+          "effect_name": "Increase Dodge",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "absorb_hp_attacker",
+          "effect_name": "Absorb HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "chance": 30
         }
       ]
     }
@@ -265529,6 +269384,108 @@
           "calc_type": "percent",
           "amount": 9,
           "chance": 9
+        }
+      ]
+    }
+  },
+  "back_effect::back_8045": {
+    "name": "S23 Crew: Desert Cross",
+    "hash": "4a43185c4bf8f2cdabc946970559b7fa",
+    "data": {
+      "id": "back_8045",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max Hp",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 6,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 6,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_8046": {
+    "name": "S23 Crew: Desert Shield",
+    "hash": "df74dec3a3fdcc884fef9c8fce978fc4",
+    "data": {
+      "id": "back_8046",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 200,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "convert_damage_taken_hp",
+          "effect_name": "Convert HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 10
+        }
+      ]
+    }
+  },
+  "back_effect::back_8047": {
+    "name": "S24 Crew: Purple Lightning Scroll",
+    "hash": "0bbb61f841ff19b619d4202081623713",
+    "data": {
+      "id": "back_8047",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "critical_increase",
+          "effect_name": "Increase Critical Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 11,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_8048": {
+    "name": "S24 Crew: Purple Lightning Folding Fan",
+    "hash": "65b2fe834d53df96f78b820027f8a8b1",
+    "data": {
+      "id": "back_8048",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "mortal",
+          "effect_name": "Mortal",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 15,
+          "chance": 100
         }
       ]
     }
@@ -269274,6 +273231,58 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 4,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "accessory_effect::accessory_2130": {
+    "name": "Akakage Medal",
+    "hash": "408bfd8bde3d1bace1a7b1c7dd24285e",
+    "data": {
+      "id": "accessory_2130",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "absorb_hp_attacker",
+          "effect_name": "Absorb HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 2,
+          "chance": 10
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "accessory_effect::accessory_2131": {
+    "name": "Dragon Emerald Necklace",
+    "hash": "29051c9b30208fb7300006bb6ffebdf9",
+    "data": {
+      "id": "accessory_2131",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_cp_recover",
+          "effect_name": "Recover HP & CP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 120,
+          "amount_cp": 120,
           "chance": 100
         }
       ]

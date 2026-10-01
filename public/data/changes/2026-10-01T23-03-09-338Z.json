@@ -1,0 +1,1457 @@
+[
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2399",
+    "entityName": "Kinjutsu: Petal of Destruction"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2400",
+    "entityName": "Kinjutsu: Thorn of Affection"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2401",
+    "entityName": "Kinjutsu: Willow Sacret Forest Execution"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2402",
+    "entityName": "Kinjutsu: Flash Thunderous Kick",
+    "field": "na",
+    "oldValue": true,
+    "newValue": false
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2403",
+    "entityName": "Kinjutsu: Lunar Moonfall"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2404",
+    "entityName": "Kinjutsu: Moon Slicer"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2405",
+    "entityName": "Kinjutsu: Moonshard"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2407",
+    "entityName": "Kinjutsu: Red Moon Strike"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2408",
+    "entityName": "Kinjutsu: Advanced Red Moon Strike"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2410",
+    "entityName": "Kinjutsu: Moon Plants Stab"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2411",
+    "entityName": "Kinjutsu: Moon Crash"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2412",
+    "entityName": "Kinjutsu: Infected Scratch"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_6111",
+    "entityName": "S55 Kinjutsu: Curse of the Infernal Seeds"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_6112",
+    "entityName": "S55 Kinjutsu: Advance Curse of the Infernal Seeds"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_8029",
+    "entityName": "S24 Kinjutsu: Purple Thunder Shooting"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2480",
+    "entityName": "Akakage Shuriken"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2481",
+    "entityName": "Wandering Turmoil Eclipse"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2482",
+    "entityName": "Rabbit Moon Spear"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2483",
+    "entityName": "Eclipse Oath Sword"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2485",
+    "entityName": "Silver Crane Greatsword"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2486",
+    "entityName": "Moon Glaive"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2487",
+    "entityName": "Heaven Piercing Moonlight"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2488",
+    "entityName": "Rust Flail"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2489",
+    "entityName": "Rust Blade"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_2490",
+    "entityName": "Crescent Spear"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_6097",
+    "entityName": "S55 Clan: Wind Horizon"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8073",
+    "entityName": "S15 Crew: Frozen Nunchaku",
+    "field": "description",
+    "oldValue": "S15 Crew Reward: Increases accurary by 38% and dodge chance by 8%. 20% chance to block attack damage.",
+    "newValue": "S15 Crew Reward: Increases accuracy by 38% and dodge chance by 8%. 20% chance to block attack damage."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8074",
+    "entityName": "S15 Crew: Frozen Yuanyang Yue",
+    "field": "description",
+    "oldValue": "S15 Crew Reward: Increases accurary by 35%. Recover HP by 8% every turn. Increases critical rate by 35% whenever HP is less than 70% for 1 turn.",
+    "newValue": "S15 Crew Reward: Increases accuracy by 35%. Recover HP by 8% every turn. Increases critical rate by 35% whenever HP is less than 70% for 1 turn."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8075",
+    "entityName": "S15 Crew: Frozen Jitte",
+    "field": "description",
+    "oldValue": "S15 Crew Reward: Increases accurary by 40% and critical chance by 25%.",
+    "newValue": "S15 Crew Reward: Increases accuracy by 40% and critical chance by 25%."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8076",
+    "entityName": "S15 Crew: Frozen Triple Dagger",
+    "field": "description",
+    "oldValue": "S15 Crew Reward: Increases accurary by 42%. Increase 20% reactive force chance.",
+    "newValue": "S15 Crew Reward: Increases accuracy by 42%. Increase 20% reactive force chance."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8077",
+    "entityName": "S15 Crew: Frozen Triple Dagger",
+    "field": "description",
+    "oldValue": "S15 Crew Reward: Increases 44% accurary. Increase all attack damage by 17% and reduce damage taken by 20% until the end of next turn after using the weapon.",
+    "newValue": "S15 Crew Reward: Increases 44% accuracy. Increase all attack damage by 17% and reduce damage taken by 20% until the end of next turn after using the weapon."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8093",
+    "entityName": "S19 Crew: Primal Power Greatsword",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Increase 45% accurary. Increase max HP by 15%. Reduce damage taken by 40%.",
+    "newValue": "S19 Crew Reward: Increase 45% accuracy. Increase max HP by 15%. Reduce damage taken by 40%."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8094",
+    "entityName": "S19 Crew: Primal Power Axe",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Increase 35% accurary. Has 20% chace to block attack damage when HP is less than 40%. Recover HP by 6% every turn.",
+    "newValue": "S19 Crew Reward: Increase 35% accuracy. Has 20% chace to block attack damage when HP is less than 40%. Recover HP by 6% every turn."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8095",
+    "entityName": "S19 Crew: Primal Power Kunai",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Increase accurary by 35%. Reduce jutsu CP consumption for 65%.",
+    "newValue": "S19 Crew Reward: Increase accuracy by 35%. Reduce jutsu CP consumption for 65%."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8096",
+    "entityName": "S19 Crew: Primal Power Shuriken",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Increase accurary by 40%. Has 70% chance to inflict bleeding when attack with weapon - Increase 45% damage taken for 2 turns. Has 10% chance to inflict 'Bloodfeed' (recovers HP after attack, amount: 100% of the attack damage)",
+    "newValue": "S19 Crew Reward: Increase accuracy by 40%. Has 70% chance to inflict bleeding when attack with weapon - Increase 45% damage taken for 2 turns. Has 10% chance to inflict 'Bloodfeed' (recovers HP after attack, amount: 100% of the attack damage)"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8097",
+    "entityName": "S19 Crew: Primal Power Spear",
+    "field": "description",
+    "oldValue": "S19 Crew Reward: Increase accurary by 40%. Each turn start when HP less than 99%, increase critical rate 15% for 2 turns. Every Critical landed, inflict 'Hemorrhage' by 4% for 3 turns.",
+    "newValue": "S19 Crew Reward: Increase accuracy by 40%. Each turn start when HP less than 99%, increase critical rate 15% for 2 turns. Every Critical landed, inflict 'Hemorrhage' by 4% for 3 turns."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8098",
+    "entityName": "S20 Crew: Lightning Talon",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Increase accurary by 40%. Reduce target 6% HP and 25% CP on every weapon attack.",
+    "newValue": "S20 Crew Reward: Increase accuracy by 40%. Reduce target 6% HP and 25% CP on every weapon attack."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8099",
+    "entityName": "S20 Crew: Lightning Dagger",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Increase accurary by 40%, critical rate by 17% and all attack damage by 17%.",
+    "newValue": "S20 Crew Reward: Increase accuracy by 40%, critical rate by 17% and all attack damage by 17%."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8100",
+    "entityName": "S20 Crew: Ligthning Mace",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Increase accurary by 44% and purify chance by 8%. Recover HP by 7% every turn.",
+    "newValue": "S20 Crew Reward: Increase accuracy by 44% and purify chance by 8%. Recover HP by 7% every turn."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8101",
+    "entityName": "S20 Crew: Ligthning Lance",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Increase accurary by 40%. Reduce 300 HP damage taken.",
+    "newValue": "S20 Crew Reward: Increase accuracy by 40%. Reduce 300 HP damage taken."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8102",
+    "entityName": "S20 Crew: Ligthning Katana",
+    "field": "description",
+    "oldValue": "S20 Crew Reward: Increase accurary by 40% and critical chance by 15%. Recover 15% HP on every successful critical attack.",
+    "newValue": "S20 Crew Reward: Increase accuracy by 40% and critical chance by 15%. Recover 15% HP on every successful critical attack."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8103",
+    "entityName": "S21 Crew: True Dragon Giant Blade",
+    "field": "description",
+    "oldValue": "S21 Crew Reward: Increase accurary by 25% and reactive force chance by 12%. Increase max HP by 1200.",
+    "newValue": "S21 Crew Reward: Increase accuracy by 25% and reactive force chance by 12%. Increase max HP by 1200."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8108",
+    "entityName": "S22 Crew: Lava Hammer",
+    "field": "description",
+    "oldValue": "S22 Crew Reward: Increase 35% accurary and attack damage by 15%. Inflict burning when attack with weapon - Reduce 5% HP for 3 turns.",
+    "newValue": "S22 Crew Reward: Increase 35% accuracy and attack damage by 15%. Inflict burning when attack with weapon - Reduce 5% HP for 3 turns."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8109",
+    "entityName": "S22 Crew: Lava Ax",
+    "field": "description",
+    "oldValue": "S22 Crew Reward: Increases accurary by 35%. Inflicts ”Bleeding” status to all attackers for 2 turns. (Bleeding: 45%) Inflict burning when attack with weapon - Reduce 4% HP for 4 turns.",
+    "newValue": "S22 Crew Reward: Increases accuracy by 35%. Inflicts ”Bleeding” status to all attackers for 2 turns. (Bleeding: 45%) Inflict burning when attack with weapon - Reduce 4% HP for 4 turns."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8110",
+    "entityName": "S22 Crew: Lava Sickle",
+    "field": "description",
+    "oldValue": "S22 Crew Reward: Increases accurary by 45%. Increases accurary by 30% whenever HP is less than 50% for 2 turns. Has 30% chance to remove target's positve status effect using weapon attack.",
+    "newValue": "S22 Crew Reward: Increases accuracy by 45%. Increases accuracy by 30% whenever HP is less than 50% for 2 turns. Has 30% chance to remove target's positve status effect using weapon attack."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8111",
+    "entityName": "S22 Crew: Lava Shuriken",
+    "field": "description",
+    "oldValue": "S22 Crew Reward: Increase accurary by 42% and agility by 2. Directly drain their current 2% HP on every weapon attack.",
+    "newValue": "S22 Crew Reward: Increase accuracy by 42% and agility by 2. Directly drain their current 2% HP on every weapon attack."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8112",
+    "entityName": "S22 Crew: Lava Sword",
+    "field": "description",
+    "oldValue": "S22 Crew Reward: Increase accurary by 40%. Burn enemy upon each weapon attack - Additional 500 HP damage for 2 turns. Inflict Burning by 7% of target's max HP on successful weapon attack for 1 turn.",
+    "newValue": "S22 Crew Reward: Increase accuracy by 40%. Burn enemy upon each weapon attack - Additional 500 HP damage for 2 turns. Inflict Burning by 7% of target's max HP on successful weapon attack for 1 turn."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8113",
+    "entityName": "S23 Crew: Desert Scimitar",
+    "field": "description",
+    "oldValue": "S23 Crew Reward: Increases accurary by 45% and dodge chance by 12%.",
+    "newValue": "S23 Crew Reward: Increases accuracy by 45% and dodge chance by 12%."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8114",
+    "entityName": "S23 Crew: Desert Scythe",
+    "field": "description",
+    "oldValue": "S23 Crew Reward: Increases accurary by 40%. Recover HP after using a jutsu. (Amount: 100% of jutsu CP consumption) but reduce HP by 2% every turn.",
+    "newValue": "S23 Crew Reward: Increases accuracy by 40%. Recover HP after using a jutsu. (Amount: 100% of jutsu CP consumption) but reduce HP by 2% every turn."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8115",
+    "entityName": "S23 Crew: Desert Dagger",
+    "field": "description",
+    "oldValue": "S23 Crew Reward: Increases accurary by 35%. Increases all attack damage by 45% until the end of next after using the weapon attack.",
+    "newValue": "S23 Crew Reward: Increases accuracy by 35%. Increases all attack damage by 45% until the end of next after using the weapon attack."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8116",
+    "entityName": "S23 Crew: Desert Ax",
+    "field": "description",
+    "oldValue": "S23 Crew Reward: Increases accurary by 35%. Has 45% chance to block an attack when user's is less than 10%.",
+    "newValue": "S23 Crew Reward: Increases accuracy by 35%. Has 45% chance to block an attack when user's is less than 10%."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_8117",
+    "entityName": "S23 Crew: Desert Staff",
+    "field": "description",
+    "oldValue": "S23 Crew Reward: Increases accurary by 35%. Recovers 10% of user's max HP.",
+    "newValue": "S23 Crew Reward: Increases accuracy by 35%. Recovers 10% of user's max HP."
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8118",
+    "entityName": "S24 Crew: Purple Lightning Axe"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8119",
+    "entityName": "S24 Crew: Purple Lightning Katana"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8120",
+    "entityName": "S24 Crew: Purple Lightning Lance"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8121",
+    "entityName": "S24 Crew: Purple Lightning Sai"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_8122",
+    "entityName": "S24 Crew: Purple Lightning Dagger"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2492",
+    "entityName": "Akakage Hidden Scroll"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2493",
+    "entityName": "Moon of Wandering Charm"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2494",
+    "entityName": "Rabbit Retainer"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2495",
+    "entityName": "Moon Rabbit Celestial Court"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2497",
+    "entityName": "Bouquet of Moon Flower"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2498",
+    "entityName": "Broken Moon"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2499",
+    "entityName": "Moon Sovereign's Embrace"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2500",
+    "entityName": "Ent Gourd"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_2501",
+    "entityName": "Ent Guitar"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_6056",
+    "entityName": "S55 Clan: Mirror of Fantasy"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_8047",
+    "entityName": "S24 Crew: Purple Lightning Scroll"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_8048",
+    "entityName": "S24 Crew: Purple Lightning Folding Fan"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "accessory_2130",
+    "entityName": "Akakage Medal"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "accessory_2131",
+    "entityName": "Dragon Emerald Necklace"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2281",
+    "entityName": "Moon Cake"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2282",
+    "entityName": "Moon Tear Crystal"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2283",
+    "entityName": "Dango"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "material_2284",
+    "entityName": "White Feather"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2495_0",
+    "entityName": "Crimson Petal Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2495_1",
+    "entityName": "Crimson Petal Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2496_0",
+    "entityName": "Bloodthorn Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2496_1",
+    "entityName": "Bloodthorn Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2497_0",
+    "entityName": "Moon Wanderer Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2497_1",
+    "entityName": "Moon Wanderer Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2498_0",
+    "entityName": "Moon Retainer Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2498_1",
+    "entityName": "Moon Retainer Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2499_0",
+    "entityName": "Moon Sentinel Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2499_1",
+    "entityName": "Moon Sentinel Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2501_0",
+    "entityName": "Silver Crane Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2501_1",
+    "entityName": "Silver Crane Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2502_0",
+    "entityName": "Moon Royal Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2502_1",
+    "entityName": "Moon Royal Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2503_0",
+    "entityName": "Moon Sovereign Armor"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_2503_1",
+    "entityName": "Moon Sovereign Armor"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6220_0",
+    "entityName": "S55 Champion"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6220_1",
+    "entityName": "S55 Champion"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6221_0",
+    "entityName": "S55 Runner Up"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6221_1",
+    "entityName": "S55 Runner Up"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6222_0",
+    "entityName": "S55 Runner Up"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6222_1",
+    "entityName": "S55 Runner Up"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6223_0",
+    "entityName": "S55 Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_6223_1",
+    "entityName": "S55 Costume"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2454_0",
+    "entityName": "Crimson Petal Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2454_1",
+    "entityName": "Crimson Petal Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2455_0",
+    "entityName": "Bloodthorn Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2455_1",
+    "entityName": "Bloodthorn Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2456_0",
+    "entityName": "Moon Wanderer Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2456_1",
+    "entityName": "Moon Wanderer Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2457_0",
+    "entityName": "Moon Retainer Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2457_1",
+    "entityName": "Moon Retainer Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2458_0",
+    "entityName": "Moon Sentinel Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2458_1",
+    "entityName": "Moon Sentinel Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2460_0",
+    "entityName": "Silver Crane Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2460_1",
+    "entityName": "Silver Crane Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2461_0",
+    "entityName": "Moon Royal Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2461_1",
+    "entityName": "Moon Royal Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2462_0",
+    "entityName": "Moon Sovereign Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_2462_1",
+    "entityName": "Moon Sovereign Hairstyle"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2399",
+    "entityName": "Kinjutsu: Petal of Destruction"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2400",
+    "entityName": "Kinjutsu: Thorn of Affection"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2401",
+    "entityName": "Kinjutsu: Willow Sacret Forest Execution"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2403",
+    "entityName": "Kinjutsu: Lunar Moonfall"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2404",
+    "entityName": "Kinjutsu: Moon Slicer"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2405",
+    "entityName": "Kinjutsu: Moonshard"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2407",
+    "entityName": "Kinjutsu: Red Moon Strike"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2408",
+    "entityName": "Kinjutsu: Advanced Red Moon Strike"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2410",
+    "entityName": "Kinjutsu: Moon Plants Stab"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2411",
+    "entityName": "Kinjutsu: Moon Crash"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2412",
+    "entityName": "Kinjutsu: Infected Scratch"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_6111",
+    "entityName": "S55 Kinjutsu: Curse of the Infernal Seeds"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_6112",
+    "entityName": "S55 Kinjutsu: Advance Curse of the Infernal Seeds"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_8029",
+    "entityName": "S24 Kinjutsu: Purple Thunder Shooting"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "modified",
+    "entityId": "wpn_2320",
+    "entityName": "Kōun no Yari",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"insta_reduce_max_hp\",\"effect_name\":\"Reduce HP\",\"duration\":0,\"calc_type\":\"percent\",\"reduce_type\":\"MAX\",\"amount\":3,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"burning\",\"effect_name\":\"Burning\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":6,\"chance\":80},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":29,\"chance\":100}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"insta_reduce_max_hp\",\"effect_name\":\"Reduce HP\",\"duration\":0,\"calc_type\":\"percent\",\"reduce_type\":\"MAX\",\"amount\":3,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"burning\",\"effect_name\":\"Burning\",\"duration\":1,\"calc_type\":\"percent\",\"amount\":6,\"chance\":100},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"accuracy_increase\",\"effect_name\":\"Increase Accuracy\",\"duration\":0,\"calc_type\":\"number\",\"amount\":29,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2480",
+    "entityName": "Akakage Shuriken"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2481",
+    "entityName": "Wandering Turmoil Eclipse"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2482",
+    "entityName": "Rabbit Moon Spear"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2483",
+    "entityName": "Eclipse Oath Sword"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2485",
+    "entityName": "Silver Crane Greatsword"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2486",
+    "entityName": "Moon Glaive"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2487",
+    "entityName": "Heaven Piercing Moonlight"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2488",
+    "entityName": "Rust Flail"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2489",
+    "entityName": "Rust Blade"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_2490",
+    "entityName": "Crescent Spear"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_6092",
+    "entityName": "S50 Clan: Buster Blade"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_6097",
+    "entityName": "S55 Clan: Wind Horizon"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_7023",
+    "entityName": "S28 Shadow War: Dragon Scythe"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8113",
+    "entityName": "S23 Crew: Desert Scimitar"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8114",
+    "entityName": "S23 Crew: Desert Scythe"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8115",
+    "entityName": "S23 Crew: Desert Dagger"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8116",
+    "entityName": "S23 Crew: Desert Ax"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8117",
+    "entityName": "S23 Crew: Desert Staff"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8118",
+    "entityName": "S24 Crew: Purple Lightning Axe"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8119",
+    "entityName": "S24 Crew: Purple Lightning Katana"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8120",
+    "entityName": "S24 Crew: Purple Lightning Lance"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8121",
+    "entityName": "S24 Crew: Purple Lightning Sai"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "weapon_effect",
+    "action": "added",
+    "entityId": "wpn_8122",
+    "entityName": "S24 Crew: Purple Lightning Dagger"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "modified",
+    "entityId": "back_2490",
+    "entityName": "Musket of Greed",
+    "field": "effects",
+    "oldValue": "[{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"dodge_increase\",\"effect_name\":\"Increase Dodge\",\"duration\":0,\"calc_type\":\"number\",\"amount\":5,\"chance\":100},{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"absorb_hp_attacker\",\"effect_name\":\"Absorb HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":2,\"chance\":10}]",
+    "newValue": "[{\"passive\":true,\"type\":\"Debuff\",\"target\":\"enemy\",\"effect\":\"absorb_hp_attacker\",\"effect_name\":\"Absorb HP\",\"duration\":0,\"calc_type\":\"percent\",\"amount\":2,\"chance\":10},{\"passive\":true,\"type\":\"Buff\",\"target\":\"self\",\"effect\":\"dodge_increase\",\"effect_name\":\"Increase Dodge\",\"duration\":0,\"calc_type\":\"number\",\"amount\":5,\"chance\":100}]"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2492",
+    "entityName": "Akakage Hidden Scroll"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2493",
+    "entityName": "Moon of Wandering Charm"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2494",
+    "entityName": "Rabbit Retainer"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2495",
+    "entityName": "Moon Rabbit Celestial Court"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2497",
+    "entityName": "Bouquet of Moon Flower"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2498",
+    "entityName": "Broken Moon"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2499",
+    "entityName": "Moon Sovereign's Embrace"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2500",
+    "entityName": "Ent Gourd"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_2501",
+    "entityName": "Ent Guitar"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_6056",
+    "entityName": "S55 Clan: Mirror of Fantasy"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_7023",
+    "entityName": "S28 Shadow War: Dragon Wing"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_8045",
+    "entityName": "S23 Crew: Desert Cross"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_8046",
+    "entityName": "S23 Crew: Desert Shield"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_8047",
+    "entityName": "S24 Crew: Purple Lightning Scroll"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "back_effect",
+    "action": "added",
+    "entityId": "back_8048",
+    "entityName": "S24 Crew: Purple Lightning Folding Fan"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "accessory_effect",
+    "action": "added",
+    "entityId": "accessory_2130",
+    "entityName": "Akakage Medal"
+  },
+  {
+    "syncId": "2026-10-01T23-03-09-338Z",
+    "detectedAt": "2026-10-01T23:03:09.338Z",
+    "category": "accessory_effect",
+    "action": "added",
+    "entityId": "accessory_2131",
+    "entityName": "Dragon Emerald Necklace"
+  }
+]
