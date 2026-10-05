@@ -2288,6 +2288,9 @@
   "wpn_7023": [
     "shadow_war"
   ],
+  "wpn_7024": [
+    "shadow_war"
+  ],
   "wpn_8001": [
     "crew_battle"
   ],
@@ -3801,6 +3804,9 @@
     "shadow_war"
   ],
   "back_7023": [
+    "shadow_war"
+  ],
+  "back_7024": [
     "shadow_war"
   ],
   "back_8001": [
@@ -8755,6 +8761,24 @@
   "set_7086_1": [
     "shadow_war"
   ],
+  "set_7087_0": [
+    "shadow_war"
+  ],
+  "set_7087_1": [
+    "shadow_war"
+  ],
+  "set_7088_0": [
+    "shadow_war"
+  ],
+  "set_7088_1": [
+    "shadow_war"
+  ],
+  "set_7089_0": [
+    "shadow_war"
+  ],
+  "set_7089_1": [
+    "shadow_war"
+  ],
   "set_8001_0": [
     "shop_crew"
   ],
@@ -10400,6 +10424,12 @@
     "shadow_war"
   ],
   "hair_7014_1": [
+    "shadow_war"
+  ],
+  "hair_7015_0": [
+    "shadow_war"
+  ],
+  "hair_7015_1": [
     "shadow_war"
   ],
   "hair_8001_0": [
@@ -12712,6 +12742,9 @@
   "skill_2405": [
     "event_seasonal"
   ],
+  "skill_2406": [
+    "event_seasonal"
+  ],
   "skill_2407": [
     "event_seasonal"
   ],
@@ -13298,6 +13331,12 @@
     "shadow_war"
   ],
   "skill_7059": [
+    "shadow_war"
+  ],
+  "skill_7060": [
+    "shadow_war"
+  ],
+  "skill_7061": [
     "shadow_war"
   ],
   "skill_8001": [

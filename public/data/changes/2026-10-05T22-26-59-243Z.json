@@ -1,0 +1,260 @@
+[
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_91",
+    "entityName": "Kinjutsu: Heavenly Illumination",
+    "field": "attack_hit_position",
+    "oldValue": "startpos",
+    "newValue": "range_1"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_2406",
+    "entityName": "Kinjutsu: Shadow Multi Strike"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7058",
+    "entityName": "S28 Kinjutsu: Dragon Claw",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_7059",
+    "entityName": "S28 Kinjutsu: Advanced Dragon Claw",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7060",
+    "entityName": "S29 Kinjutsu: Flash Oni Punch"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "skill",
+    "action": "added",
+    "entityId": "skill_7061",
+    "entityName": "S29 Kinjutsu: Advanced Flash Oni Punch"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_8029",
+    "entityName": "S24 Kinjutsu: Purple Thunder Shooting",
+    "field": "cp_cost",
+    "oldValue": 1000,
+    "newValue": 450
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "wpn_7023",
+    "entityName": "S28 Shadow War: Dragon Scythe",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "wpn_7024",
+    "entityName": "S29 Shadow War: Imperial Oni Nodachi"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "back_7023",
+    "entityName": "S28 Shadow War: Dragon Wing",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "back_7024",
+    "entityName": "S29 Shadow War: Imperial Oni Halo"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7084_0",
+    "entityName": "S28 Shadow War Champion",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7084_1",
+    "entityName": "S28 Shadow War Champion",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7085_0",
+    "entityName": "S28 Shadow War Runner Up",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7085_1",
+    "entityName": "S28 Shadow War Runner Up",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7086_0",
+    "entityName": "S28 Shadow War Participant",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "set_7086_1",
+    "entityName": "S28 Shadow War Participant",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7087_0",
+    "entityName": "S29 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7087_1",
+    "entityName": "S29 Shadow War Champion"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7088_0",
+    "entityName": "S29 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7088_1",
+    "entityName": "S29 Shadow War Runner Up"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7089_0",
+    "entityName": "S29 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "set_7089_1",
+    "entityName": "S29 Shadow War Participant"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_7014_0",
+    "entityName": "S28 Shadow War Individual Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "modified",
+    "entityId": "hair_7014_1",
+    "entityName": "S28 Shadow War Individual Hairstyle",
+    "field": "na",
+    "oldValue": true,
+    "newValue": null
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7015_0",
+    "entityName": "S29 Shadow War Individual Hairstyle"
+  },
+  {
+    "syncId": "2026-10-05T22-26-59-243Z",
+    "detectedAt": "2026-10-05T22:26:59.243Z",
+    "category": "library",
+    "action": "added",
+    "entityId": "hair_7015_1",
+    "entityName": "S29 Shadow War Individual Hairstyle"
+  }
+]

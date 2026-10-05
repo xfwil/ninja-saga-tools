@@ -10711,7 +10711,7 @@
   },
   "skill::skill_91": {
     "name": "Kinjutsu: Heavenly Illumination",
-    "hash": "7213cc37617cb7d3968475b30eb82fa2",
+    "hash": "1ed65b31e936c57316db42db8d6ae9a2",
     "data": {
       "id": "skill_91",
       "price_tokens": 0,
@@ -10732,7 +10732,7 @@
           40
         ]
       },
-      "attack_hit_position": "startpos",
+      "attack_hit_position": "range_1",
       "source": [
         "valentine2022"
       ]
@@ -30120,6 +30120,34 @@
       ]
     }
   },
+  "skill::skill_2406": {
+    "name": "Kinjutsu: Shadow Multi Strike",
+    "hash": "587c634ed1456eee35fcb8759a5e3a6f",
+    "data": {
+      "id": "skill_2406",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 20,
+      "damage": 300,
+      "hit_chance": 0,
+      "cp_cost": 10,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "(Kinjutsu) Inflict 'Embrace' by 25% for 5 turns.",
+      "name": "Kinjutsu: Shadow Multi Strike",
+      "type": "6",
+      "category": "event",
+      "premium": false,
+      "na": false,
+      "anims": {
+        "hit": [
+          85
+        ]
+      },
+      "attack_hit_position": "range_3"
+    }
+  },
   "skill::skill_2407": {
     "name": "Kinjutsu: Red Moon Strike",
     "hash": "d4d8b9677555a3dca12085ddc8f234e2",
@@ -36980,7 +37008,7 @@
   },
   "skill::skill_7058": {
     "name": "S28 Kinjutsu: Dragon Claw",
-    "hash": "605b891e7cfaa99ec3c8a5c617069d74",
+    "hash": "f8cfda9f286507a76d8caef3a79c262a",
     "data": {
       "id": "skill_7058",
       "price_tokens": 0,
@@ -36996,7 +37024,6 @@
       "name": "S28 Kinjutsu: Dragon Claw",
       "type": "7",
       "category": "shadowwar",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -37011,7 +37038,7 @@
   },
   "skill::skill_7059": {
     "name": "S28 Kinjutsu: Advanced Dragon Claw",
-    "hash": "5d3831e703a0e7c62d2950524a1eb284",
+    "hash": "a5f9c631b618f18e793d124f70945dbb",
     "data": {
       "id": "skill_7059",
       "price_tokens": 0,
@@ -37027,7 +37054,6 @@
       "name": "S28 Kinjutsu: Advanced Dragon Claw",
       "type": "7",
       "category": "shadowwar",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -37038,6 +37064,76 @@
         "sw"
       ],
       "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_7060": {
+    "name": "S29 Kinjutsu: Flash Oni Punch",
+    "hash": "09502402bb43332a3d391ef6d9e8649e",
+    "data": {
+      "id": "skill_7060",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 80,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 600,
+      "cooldown": 15,
+      "target": "Single",
+      "description": "(Kinjutsu) Instantly reduce target's max HP by 600. 55% chance to make target skip the next action for 1 turn.",
+      "name": "S29 Kinjutsu: Flash Oni Punch",
+      "type": "7",
+      "category": "shadowwar",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          86
+        ],
+        "fullscreen": {
+          "add": 25,
+          "remove": 96
+        }
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "range_1"
+    }
+  },
+  "skill::skill_7061": {
+    "name": "S29 Kinjutsu: Advanced Flash Oni Punch",
+    "hash": "ff6a897343c6455d043626a21ecc8614",
+    "data": {
+      "id": "skill_7061",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 450,
+      "cooldown": 13,
+      "target": "Single",
+      "description": "(Kinjutsu) Instantly reduce target's max HP by 900. 100% chance to make target skip the next action for 1 turn.",
+      "name": "S29 Kinjutsu: Advanced Flash Oni Punch",
+      "type": "7",
+      "category": "shadowwar",
+      "na": true,
+      "premium": false,
+      "anims": {
+        "hit": [
+          86
+        ],
+        "fullscreen": {
+          "add": 25,
+          "remove": 96
+        }
+      },
+      "source": [
+        "sw"
+      ],
+      "attack_hit_position": "range_1"
     }
   },
   "skill::skill_8001": {
@@ -37913,7 +38009,7 @@
   },
   "skill::skill_8029": {
     "name": "S24 Kinjutsu: Purple Thunder Shooting",
-    "hash": "f7675395a71a6f012245c36fc21ab945",
+    "hash": "8c3cefd49583efd0cdd060e42a1e723f",
     "data": {
       "id": "skill_8029",
       "price_tokens": 0,
@@ -37922,7 +38018,7 @@
       "level": 1,
       "damage": 0,
       "hit_chance": 0,
-      "cp_cost": 1000,
+      "cp_cost": 450,
       "cooldown": 17,
       "target": "Single",
       "description": "(Kinjutsu) Target gains negative status 'Restriction' and 'Blind' status for 5 turns (extra 50% dodge rate during target's attack)",
@@ -66019,7 +66115,7 @@
   },
   "library::wpn_7023": {
     "name": "S28 Shadow War: Dragon Scythe",
-    "hash": "9f4cb62618d6e47c7041b2dc19e527a4",
+    "hash": "a545706eac57d821d7d2f1b4ec4a4302",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -66032,6 +66128,31 @@
       "id": "wpn_7023",
       "price_gold": 0,
       "name": "S28 Shadow War: Dragon Scythe",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::wpn_7024": {
+    "name": "S29 Shadow War: Imperial Oni Nodachi",
+    "hash": "5ee1508fd2e348f2c2e54157bc9bc64c",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S29 Shadow War Reward: Increase accuracy by 70%. Increase purify chance by 7%.",
+      "level": 95,
+      "damage": 570,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_7024",
+      "price_gold": 0,
+      "name": "S29 Shadow War: Imperial Oni Nodachi",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -87902,7 +88023,7 @@
   },
   "library::back_7023": {
     "name": "S28 Shadow War: Dragon Wing",
-    "hash": "c3d2181924e8812983a3147eb8b633e1",
+    "hash": "fed7928b961e63d68a71ecfb4b9e6fa0",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -87915,6 +88036,31 @@
       "id": "back_7023",
       "price_gold": 0,
       "name": "S28 Shadow War: Dragon Wing",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::back_7024": {
+    "name": "S29 Shadow War: Imperial Oni Halo",
+    "hash": "997c2d6ec7f0a2364f38d3675cfbcf4d",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S29 Shadow War Reward: Reduce damage taken by 300. Recover 2% of the user's max HP.",
+      "level": 95,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_7024",
+      "price_gold": 0,
+      "name": "S29 Shadow War: Imperial Oni Halo",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -157810,7 +157956,7 @@
   },
   "library::set_7084_0": {
     "name": "S28 Shadow War Champion",
-    "hash": "f3e3d37f4158cb747c4636e258b9ace6",
+    "hash": "66f478513b554789ed88a3d399124c87",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 28 Champion",
@@ -157827,7 +157973,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -157835,7 +157980,7 @@
   },
   "library::set_7084_1": {
     "name": "S28 Shadow War Champion",
-    "hash": "8432e4e8c9287560b198d776695404bf",
+    "hash": "4882137bbe21a12c36fdb994f5d3a664",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 28 Champion",
@@ -157852,7 +157997,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -157860,7 +158004,7 @@
   },
   "library::set_7085_0": {
     "name": "S28 Shadow War Runner Up",
-    "hash": "3e13efd1f858294eda96d72814c59609",
+    "hash": "952f4b7dc2306cfe8127a10f0a5a1d91",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 28 Runner Up",
@@ -157877,7 +158021,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -157885,7 +158028,7 @@
   },
   "library::set_7085_1": {
     "name": "S28 Shadow War Runner Up",
-    "hash": "77208cfa3c8e49d1ade5604c9e6b2557",
+    "hash": "2132cab1f1a8ee6fc792160820b5d03a",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 28 Runner Up",
@@ -157902,7 +158045,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -157910,7 +158052,7 @@
   },
   "library::set_7086_0": {
     "name": "S28 Shadow War Participant",
-    "hash": "93f4dff766782c457513ef2f54d49c92",
+    "hash": "639ec163429ebd928c7588ed3d334f15",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 28",
@@ -157927,7 +158069,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -157935,7 +158076,7 @@
   },
   "library::set_7086_1": {
     "name": "S28 Shadow War Participant",
-    "hash": "199e6b2d1fae439e41efa2613a3e05ae",
+    "hash": "3244940149b15b05edcbd997172beb20",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Shadow War Season 28",
@@ -157947,6 +158088,155 @@
       "id": "set_7086_1",
       "price_gold": 0,
       "name": "S28 Shadow War Participant",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7087_0": {
+    "name": "S29 Shadow War Champion",
+    "hash": "c7de7b438b89eaecb8c961612a076c5a",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7087_0",
+      "price_gold": 0,
+      "name": "S29 Shadow War Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7087_1": {
+    "name": "S29 Shadow War Champion",
+    "hash": "874b1555d817522949a600fd4116d7c1",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7087_1",
+      "price_gold": 0,
+      "name": "S29 Shadow War Champion",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7088_0": {
+    "name": "S29 Shadow War Runner Up",
+    "hash": "91139fff0ddbff03a4a8ef574f461497",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7088_0",
+      "price_gold": 0,
+      "name": "S29 Shadow War Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7088_1": {
+    "name": "S29 Shadow War Runner Up",
+    "hash": "b954bfe9623657cfafa195cc597cf667",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7088_1",
+      "price_gold": 0,
+      "name": "S29 Shadow War Runner Up",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7089_0": {
+    "name": "S29 Shadow War Participant",
+    "hash": "50e80c8647a647298256ae7dc1777f12",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7089_0",
+      "price_gold": 0,
+      "name": "S29 Shadow War Participant",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::set_7089_1": {
+    "name": "S29 Shadow War Participant",
+    "hash": "9138f52d78a8ceff0f877b0da3beed1f",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_7089_1",
+      "price_gold": 0,
+      "name": "S29 Shadow War Participant",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -188179,7 +188469,7 @@
   },
   "library::hair_7014_0": {
     "name": "S28 Shadow War Individual Hairstyle",
-    "hash": "97140da2b431ceb5bf6e07576f4d5b6e",
+    "hash": "c1f65e0364407726336684fa1ec9fba8",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 28",
@@ -188196,7 +188486,6 @@
       "price_prestige": 0,
       "category": "shadowwar",
       "sellable": false,
-      "na": true,
       "source": [
         "sw"
       ]
@@ -188204,7 +188493,7 @@
   },
   "library::hair_7014_1": {
     "name": "S28 Shadow War Individual Hairstyle",
-    "hash": "de9d35885fd1f9fdaa7c972de5999058",
+    "hash": "06ee1cab0d5fd63e64841f461964e122",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for Shadow War Season 28",
@@ -188216,6 +188505,55 @@
       "id": "hair_7014_1",
       "price_gold": 0,
       "name": "S28 Shadow War Individual Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::hair_7015_0": {
+    "name": "S29 Shadow War Individual Hairstyle",
+    "hash": "5015a1d3623fd841dccceddc695bf828",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_7015_0",
+      "price_gold": 0,
+      "name": "S29 Shadow War Individual Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "shadowwar",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "sw"
+      ]
+    }
+  },
+  "library::hair_7015_1": {
+    "name": "S29 Shadow War Individual Hairstyle",
+    "hash": "615d132057b1b3bdadc30c8f9f571bf5",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_7015_1",
+      "price_gold": 0,
+      "name": "S29 Shadow War Individual Hairstyle",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
