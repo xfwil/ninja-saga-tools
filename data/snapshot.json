@@ -60,7 +60,7 @@
   },
   "skill::skill_02": {
     "name": "Monkey Transformation",
-    "hash": "18ff808943ab4ba3aac6afc77a6247a3",
+    "hash": "50e677957e3b7630f7fda3a8066c6c2c",
     "data": {
       "id": "skill_02",
       "price_tokens": 0,
@@ -70,7 +70,7 @@
       "damage": 0,
       "hit_chance": 0,
       "cp_cost": 45,
-      "cooldown": 0,
+      "cooldown": 18,
       "target": "Self",
       "description": "Transforms into a Monkey and stuns target for 3 turns.",
       "name": "Monkey Transformation",

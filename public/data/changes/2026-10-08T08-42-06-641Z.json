@@ -1,0 +1,13 @@
+[
+  {
+    "syncId": "2026-10-08T08-42-06-641Z",
+    "detectedAt": "2026-10-08T08:42:06.641Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_02",
+    "entityName": "Monkey Transformation",
+    "field": "cooldown",
+    "oldValue": 0,
+    "newValue": 18
+  }
+]
