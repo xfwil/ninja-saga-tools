@@ -1,0 +1,26 @@
+[
+  {
+    "syncId": "2026-10-09T16-01-29-512Z",
+    "detectedAt": "2026-10-09T16:01:29.512Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_2406",
+    "entityName": "Kinjutsu: Shadow Multi Strike"
+  },
+  {
+    "syncId": "2026-10-09T16-01-29-512Z",
+    "detectedAt": "2026-10-09T16:01:29.512Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7060",
+    "entityName": "S29 Kinjutsu: Flash Oni Punch"
+  },
+  {
+    "syncId": "2026-10-09T16-01-29-512Z",
+    "detectedAt": "2026-10-09T16:01:29.512Z",
+    "category": "skill_effect",
+    "action": "added",
+    "entityId": "skill_7061",
+    "entityName": "S29 Kinjutsu: Advanced Flash Oni Punch"
+  }
+]

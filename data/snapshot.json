@@ -206436,6 +206436,25 @@
       ]
     }
   },
+  "skill_effect::skill_2406": {
+    "name": "Kinjutsu: Shadow Multi Strike",
+    "hash": "9d09a57aea90c7b338d49ec65a860de7",
+    "data": {
+      "skill_id": "skill_2406",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "embrace",
+          "effect_name": "Embrace",
+          "duration": 5,
+          "calc_type": "percent",
+          "amount": 25,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_2407": {
     "name": "Kinjutsu: Red Moon Strike",
     "hash": "4ec472ded6228898b89775e9972ee6e8",
@@ -206606,6 +206625,65 @@
           "duration": 4,
           "calc_type": "percent",
           "amount": 4,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_5003": {
+    "name": "S1 Kinjutsu: Summon of Sand Monster",
+    "hash": "b70a5b545ee4e74f038d5949d2ef7e1e",
+    "data": {
+      "skill_id": "skill_5003",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "numb",
+          "effect_name": "Numb",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_5004": {
+    "name": "S1 Kinjutsu: Sandstorm Heavy Strike",
+    "hash": "4de92cd96511a6c2e410fde273e1144d",
+    "data": {
+      "skill_id": "skill_5004",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "disperse",
+          "effect_name": "Disperse",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "blind",
+          "effect_name": "Blind",
+          "duration": 3,
+          "calc_type": "percent",
+          "amount": 100,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_cp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 45,
           "chance": 100
         }
       ]
@@ -211296,6 +211374,66 @@
       ]
     }
   },
+  "skill_effect::skill_7060": {
+    "name": "S29 Kinjutsu: Flash Oni Punch",
+    "hash": "eb1df3d426ed26bb1f4f0c438c6224d2",
+    "data": {
+      "skill_id": "skill_7060",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 600,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "skip_turn",
+          "effect_name": "Skip Turn",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 55
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_7061": {
+    "name": "S29 Kinjutsu: Advanced Flash Oni Punch",
+    "hash": "f3559d863f180e2cf79cce914dcaa488",
+    "data": {
+      "skill_id": "skill_7061",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 900,
+          "chance": 100
+        },
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "skip_turn",
+          "effect_name": "Skip Turn",
+          "duration": 1,
+          "calc_type": "",
+          "amount": 0,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "skill_effect::skill_8001": {
     "name": "S0 Kinjutsu: Aether Consemination Blast",
     "hash": "9ae2a8f8b27116ec25014fb6d36428fb",
@@ -212042,65 +212180,6 @@
           "duration": 5,
           "calc_type": "percent",
           "amount": 50,
-          "chance": 100
-        }
-      ]
-    }
-  },
-  "skill_effect::skill_5003": {
-    "name": "S1 Kinjutsu: Summon of Sand Monster",
-    "hash": "b70a5b545ee4e74f038d5949d2ef7e1e",
-    "data": {
-      "skill_id": "skill_5003",
-      "skill_effect": [
-        {
-          "target": "enemy",
-          "type": "Debuff",
-          "effect": "numb",
-          "effect_name": "Numb",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 100,
-          "chance": 100
-        }
-      ]
-    }
-  },
-  "skill_effect::skill_5004": {
-    "name": "S1 Kinjutsu: Sandstorm Heavy Strike",
-    "hash": "4de92cd96511a6c2e410fde273e1144d",
-    "data": {
-      "skill_id": "skill_5004",
-      "skill_effect": [
-        {
-          "target": "enemy",
-          "type": "Debuff",
-          "effect": "disperse",
-          "effect_name": "Disperse",
-          "duration": 1,
-          "calc_type": "",
-          "amount": 0,
-          "chance": 100
-        },
-        {
-          "target": "enemy",
-          "type": "Debuff",
-          "effect": "blind",
-          "effect_name": "Blind",
-          "duration": 3,
-          "calc_type": "percent",
-          "amount": 100,
-          "chance": 100
-        },
-        {
-          "target": "enemy",
-          "type": "Debuff",
-          "effect": "insta_reduce_max_cp",
-          "reduce_type": "MAX",
-          "effect_name": "Reduce CP",
-          "duration": 0,
-          "calc_type": "percent",
-          "amount": 45,
           "chance": 100
         }
       ]
