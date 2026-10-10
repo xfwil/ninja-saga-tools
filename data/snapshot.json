@@ -31540,6 +31540,70 @@
       "attack_hit_position": "meele_3"
     }
   },
+  "skill::skill_5005": {
+    "name": "S2 Kinjutsu: Tri-Element Break",
+    "hash": "24eeabf44f24548829950522b9a6a5fb",
+    "data": {
+      "id": "skill_5005",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 100,
+      "hit_chance": 0,
+      "cp_cost": 300,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "Reduce enemy max HP instantly by 12%.",
+      "name": "S2 Kinjutsu: Tri-Element Break",
+      "type": "7",
+      "category": "pvp",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          99
+        ]
+      },
+      "source": [
+        "pvp",
+        "pvp_league_shop"
+      ],
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_5006": {
+    "name": "S2 Kinjutsu: Element Burst Charge",
+    "hash": "a3790563d1b3bb938f48958f1a6936e0",
+    "data": {
+      "id": "skill_5006",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 60,
+      "damage": 333,
+      "hit_chance": 0,
+      "cp_cost": 400,
+      "cooldown": 16,
+      "target": "Single",
+      "description": "Remove enemy positive status. Stun target for 2 turns.",
+      "name": "S2 Kinjutsu: Element Burst Charge",
+      "type": "7",
+      "category": "pvp",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          123
+        ]
+      },
+      "source": [
+        "pvp",
+        "pvp_league_shop"
+      ],
+      "attack_hit_position": "range_3"
+    }
+  },
   "skill::skill_6001": {
     "name": "S0 Kinjutsu: Bijuu Blaster",
     "hash": "5a594dc26b060bb5777bf2df77acf192",
@@ -63034,6 +63098,62 @@
       ]
     }
   },
+  "library::wpn_5005": {
+    "name": "S2 PvP: Gay Blade",
+    "hash": "1ae3039cfe7ec794832aa1b1c63dcf06",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S2 PvP League Shop: Increase accuracy by 40%. Increase attack damage by 333.",
+      "level": 80,
+      "damage": 299,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_5005",
+      "price_gold": 0,
+      "name": "S2 PvP: Gay Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::wpn_5006": {
+    "name": "S2 PvP: Jogan Spear",
+    "hash": "7eddc54620cc7c5af30a548796552d4e",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "S2 PvP League Shop: Increase accuracy by 45%. Poison target for 10% for 2 turns every successful weapon attack.",
+      "level": 80,
+      "damage": 499,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_5006",
+      "price_gold": 0,
+      "name": "S2 PvP: Jogan Spear",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "price_merit": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
   "library::wpn_6001": {
     "name": "S0 Burning Maple Greatsword",
     "hash": "bb7f9138ddfe2bf888618ca47f15c60e",
@@ -69137,11 +69257,11 @@
   },
   "library::wpn_8119": {
     "name": "S24 Crew: Purple Lightning Katana",
-    "hash": "e3bbd68b269c6ff79c2c18a787a7a91d",
+    "hash": "580fecc3a382b663a1c973136f24acf1",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
-      "description": "Increase 35% accuracy. Additional 550 damage on all attacks. Additional 550 HP damage upon critical attack.",
+      "description": "Increase 40% accuracy. Additional 550 damage on all attacks. Additional 550 HP damage upon critical attack.",
       "level": 80,
       "damage": 515,
       "sell_price": 0,
@@ -86032,6 +86152,60 @@
       "id": "back_5004",
       "price_gold": 0,
       "name": "S1 PvP: Djinn Puppet",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::back_5005": {
+    "name": "S2 PvP: Element Essence",
+    "hash": "cfc29872fb9baa41116a0ae73b0e3af5",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S2 PvP League Shop: Increase critical chance by 15%.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_5005",
+      "price_gold": 0,
+      "name": "S2 PvP: Element Essence",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp_league_shop",
+        "pvp"
+      ]
+    }
+  },
+  "library::back_5006": {
+    "name": "S2 PvP: Jogan Wings",
+    "hash": "b087b2d142f4d9fd651965a9e40dc65a",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "S2 PvP League Shop: Increase max HP and CP by 8%. Regen HP and CP by 5% every turn. Increase agility by 2.",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_5006",
+      "price_gold": 0,
+      "name": "S2 PvP: Jogan Wings",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -143154,6 +143328,56 @@
       ]
     }
   },
+  "library::set_5002_0": {
+    "name": "S2 PvP Costume",
+    "hash": "8dbe84d4c8f47b56eac085dfdd19bb0a",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_5002_0",
+      "price_gold": 0,
+      "name": "S2 PvP Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
+  "library::set_5002_1": {
+    "name": "S2 PvP Costume",
+    "hash": "6be7613082b503454a88151101d3e4d6",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_5002_1",
+      "price_gold": 0,
+      "name": "S2 PvP Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
   "library::set_6000_0": {
     "name": "S0 Captive",
     "hash": "6f747c9d2daa8a507d3349aa106c40c5",
@@ -187784,6 +188008,56 @@
       "id": "hair_5001_1",
       "price_gold": 0,
       "name": "S1 PvP Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
+  "library::hair_5002_0": {
+    "name": "S2 PvP Hairstyle",
+    "hash": "29d8e50a2d21661df0f2eb5780f9c5ae",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_5002_0",
+      "price_gold": 0,
+      "name": "S2 PvP Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "pvp",
+      "sellable": false,
+      "na": true,
+      "source": [
+        "pvp"
+      ]
+    }
+  },
+  "library::hair_5002_1": {
+    "name": "S2 PvP Hairstyle",
+    "hash": "03099becb43b84b835c27ae47c28ba42",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_5002_1",
+      "price_gold": 0,
+      "name": "S2 PvP Hairstyle",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -239719,6 +239993,68 @@
       ]
     }
   },
+  "weapon_effect::wpn_5005": {
+    "name": "S2 PvP: Gay Blade",
+    "hash": "646fef33f3961a423f6c4dda42a5c04a",
+    "data": {
+      "id": "wpn_5005",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_increase",
+          "effect_name": "Increase Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 333,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 40,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_5006": {
+    "name": "S2 PvP: Jogan Spear",
+    "hash": "a705f7ddbe89bdba3113914ebd8defee",
+    "data": {
+      "id": "wpn_5006",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Debuff",
+          "target": "enemy",
+          "effect": "poison",
+          "effect_name": "Poison",
+          "duration": 2,
+          "calc_type": "percent",
+          "amount": 10,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 45,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "weapon_effect::wpn_6001": {
     "name": "S0 Burning Maple Greatsword",
     "hash": "6273b609c840e979e3d30e7b0a7fabec",
@@ -244207,6 +244543,37 @@
           "duration": 0,
           "calc_type": "number",
           "amount": 45,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "weapon_effect::wpn_7024": {
+    "name": "S29 Shadow War: Imperial Oni Nodachi",
+    "hash": "a8e09067b37bd5cc8b13f7f0648ac483",
+    "data": {
+      "id": "wpn_7024",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "purify_increase",
+          "effect_name": "Purify",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 7,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "accuracy_increase",
+          "effect_name": "Increase Accuracy",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 70,
           "chance": 100
         }
       ]
@@ -248764,7 +249131,7 @@
   },
   "weapon_effect::wpn_8119": {
     "name": "S24 Crew: Purple Lightning Katana",
-    "hash": "c1cea5bb24e8674c29fdffa3a581b7ce",
+    "hash": "b3972457a5f4608bccb407e701966c68",
     "data": {
       "id": "wpn_8119",
       "effects": [
@@ -248798,7 +249165,7 @@
           "effect_name": "Increase Accuracy",
           "duration": 0,
           "calc_type": "number",
-          "amount": 35,
+          "amount": 40,
           "chance": 100
         }
       ]
