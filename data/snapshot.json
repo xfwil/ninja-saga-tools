@@ -35104,7 +35104,7 @@
   },
   "skill::skill_6109": {
     "name": "S54 Kinjutsu: Ice Tower",
-    "hash": "0e5696f1e2b082216bbf6fc46724d879",
+    "hash": "d34e46dcd452f3eac62761d033b6201b",
     "data": {
       "id": "skill_6109",
       "price_tokens": 0,
@@ -35121,7 +35121,6 @@
       "type": "7",
       "category": "clan",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           100
@@ -35135,7 +35134,7 @@
   },
   "skill::skill_6110": {
     "name": "S54 Kinjutsu: Advance Ice Tower",
-    "hash": "679a7edee19ef34610b004d5c0dd5eec",
+    "hash": "740cebae40509a902f011e7fb78f0b26",
     "data": {
       "id": "skill_6110",
       "price_tokens": 0,
@@ -35151,7 +35150,6 @@
       "name": "S54 Kinjutsu: Advance Ice Tower",
       "type": "7",
       "category": "clan",
-      "na": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -65608,7 +65606,7 @@
   },
   "library::wpn_6096": {
     "name": "S54 Clan: Tidal Spirit",
-    "hash": "3f380228841323478040d6aac32bed5d",
+    "hash": "ff7f1e36029af176cc0aeab6794ab031",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -65626,7 +65624,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -87570,7 +87567,7 @@
   },
   "library::back_6055": {
     "name": "S54 Clan: Ebony Nunchaku",
-    "hash": "e5de0db4a0f0cca0c361c46b530caff3",
+    "hash": "6d3158e646a3da5a70f7b15642a19bc7",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -87588,7 +87585,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -153747,8 +153743,8 @@
     }
   },
   "library::set_6216_0": {
-    "name": "S54 Champion",
-    "hash": "7ef6b419ba5ce1d6f414d863894e7531",
+    "name": "S54 Liquid Vincere",
+    "hash": "f6649210611a2377a184fa6ad541e915",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 54 Champion",
@@ -153759,21 +153755,20 @@
       "level": 1,
       "id": "set_6216_0",
       "price_gold": 0,
-      "name": "S54 Champion",
+      "name": "S54 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6216_1": {
-    "name": "S54 Champion",
-    "hash": "67e7a3767501f77c2c26a9245a9bc2d1",
+    "name": "S54 Liquid Vincere",
+    "hash": "92c1c3966ec4ed66e627f2a0ef585424",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 54 Champion",
@@ -153784,21 +153779,20 @@
       "level": 1,
       "id": "set_6216_1",
       "price_gold": 0,
-      "name": "S54 Champion",
+      "name": "S54 Liquid Vincere",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6217_0": {
-    "name": "S54 Runner Up",
-    "hash": "1bd3c74e9c0b032f91071104c17dac45",
+    "name": "S54 Liquid The Next Gen",
+    "hash": "a7a485cb552e556e4d89fb725f2765d3",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 54 Runner Up",
@@ -153809,21 +153803,20 @@
       "level": 1,
       "id": "set_6217_0",
       "price_gold": 0,
-      "name": "S54 Runner Up",
+      "name": "S54 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6217_1": {
-    "name": "S54 Runner Up",
-    "hash": "5d01422b940bde7777597d0c304724dc",
+    "name": "S54 Liquid The Next Gen",
+    "hash": "78d88d64cfe774ea6a9ffa5ae4be51f3",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 54 Runner Up",
@@ -153834,21 +153827,20 @@
       "level": 1,
       "id": "set_6217_1",
       "price_gold": 0,
-      "name": "S54 Runner Up",
+      "name": "S54 Liquid The Next Gen",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6218_0": {
-    "name": "S54 Runner Up",
-    "hash": "d18f2c01f9242a6815b797e7479c9486",
+    "name": "S54 RuH Clan",
+    "hash": "b2c2b77a1e476964fd55495db1a10056",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 54 Runner Up",
@@ -153859,21 +153851,20 @@
       "level": 1,
       "id": "set_6218_0",
       "price_gold": 0,
-      "name": "S54 Runner Up",
+      "name": "S54 RuH Clan",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
     }
   },
   "library::set_6218_1": {
-    "name": "S54 Runner Up",
-    "hash": "6fa6ef33d9cc802ff57df57d74fb6a32",
+    "name": "S54 RuH Clan",
+    "hash": "243033eda93dbb7ac7ab68ad3b130843",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 54 Runner Up",
@@ -153884,13 +153875,12 @@
       "level": 1,
       "id": "set_6218_1",
       "price_gold": 0,
-      "name": "S54 Runner Up",
+      "name": "S54 RuH Clan",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -153898,7 +153888,7 @@
   },
   "library::set_6219_0": {
     "name": "S54 Costume",
-    "hash": "bd414b2743db0b073773cfab489296ab",
+    "hash": "ee26d79ed1a27a61c6f98a8cb27de40b",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 54",
@@ -153915,7 +153905,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
@@ -153923,7 +153912,7 @@
   },
   "library::set_6219_1": {
     "name": "S54 Costume",
-    "hash": "5b5911a00ba010625fbd5167c4365aea",
+    "hash": "b8a5c22f3a25328c0df056e4cadaadb7",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for Clan Tournament Season 54",
@@ -153940,7 +153929,6 @@
       "price_prestige": 0,
       "category": "clan",
       "sellable": false,
-      "na": true,
       "source": [
         "clan"
       ]
