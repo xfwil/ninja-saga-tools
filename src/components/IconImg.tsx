@@ -4,7 +4,16 @@ import { useState, useCallback } from "react";
 
 // ─── Icon CDN ─────────────────────────────────────────────────────────────────
 
-const ICON_CDN = "https://play.huki.dev/sage";
+const ICON_CDN = "https://ns-cdn.wil.moe";
+
+// ID prefix -> CDN folder; anything not listed lives under /items/
+const ICON_FOLDERS: Record<string, string> = {
+  skill: "skills",
+  pet: "pets",
+  ene: "enemy",
+  essential: "essentials",
+  material: "materials",
+};
 
 /** Build the icon URL for a given item/skill ID */
 export function getIconUrl(id: string): string | null {
@@ -16,11 +25,7 @@ export function getIconUrl(id: string): string | null {
   // Strip quantity suffix: essential_09:1 -> essential_09
   const base = cleaned.split(":")[0];
 
-  // Skills go under /skills/
-  if (base.startsWith("skill_")) return `${ICON_CDN}/skills/${base}.png`;
-
-  // Everything else (items, pets) go under /items/
-  return `${ICON_CDN}/items/${base}.png`;
+  return `${ICON_CDN}/${ICON_FOLDERS[base.split("_")[0]] ?? "items"}/${base}.png`;
 }
 
 // ─── Fallback Emoji ───────────────────────────────────────────────────────────
@@ -58,8 +63,8 @@ export function getFallbackEmoji(id: string): string {
 /**
  * Game icon image with automatic fallback to emoji when the CDN returns 404.
  *
- * - Skills:  https://play.huki.dev/sage/skills/{id}.png
- * - Items:   https://play.huki.dev/sage/items/{id}.png
+ * - Skills:  https://ns-cdn.wil.moe/skills/{id}.png
+ * - Items:   https://ns-cdn.wil.moe/items/{id}.png
  */
 export default function IconImg({
   id,
