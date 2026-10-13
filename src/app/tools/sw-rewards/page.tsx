@@ -6,8 +6,8 @@ export const metadata: Metadata = { title: "Shadow War Rewards — Ninja Saga To
 
 export default function SWRewardsPage() {
   return (
-    <div className="page-container">
-      <PageHeader title="Shadow War Rewards" description="Pilih season, temukan rank, lalu buka detail reward untuk melihat stat dan efeknya." />
+    <div className="page-container rewards-page">
+      <PageHeader title="Shadow War Rewards" description="Pilih season, telusuri ranking, dan periksa stat serta efek reward." />
       <SWRewards />
     </div>
   );

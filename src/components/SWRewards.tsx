@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo } from "react";
 import useDialog from "./useDialog";
 import IconImg from "./IconImg";
+import "./rewards-workshop.css";
 import skillsJson from "../../dump/skills.json";
 import libraryJson from "../../dump/library.json";
 import petJson from "../../dump/pet.json";
@@ -277,15 +278,15 @@ function RewardDetailModal({ reward, onClose }: { reward: ResolvedReward; onClos
   const dialogRef = useDialog(onClose);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+    <div className="rewards-detail-overlay" onClick={onClose}>
+      <div className="rewards-detail-backdrop" />
       <div
         ref={dialogRef} role="dialog" aria-modal="true" aria-label={reward.name} tabIndex={-1}
-        className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+        className="rewards-detail-panel"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="sticky top-0 z-10 flex items-start justify-between gap-3 p-5 pb-4 border-b border-white/[0.07] bg-[#0e0e14]">
+        <div className="rewards-detail-heading">
           <div className="flex items-start gap-3 flex-1 min-w-0">
             <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.04]">
               <IconImg id={reward.rawId} size={36} />
@@ -572,37 +573,11 @@ function StatBox({ label, value }: { label: string; value: string | number }) {
 // ─── Reward Badge (Clickable) ─────────────────────────────────────────────────
 
 function RewardBadge({ reward, onClick }: { reward: ResolvedReward; onClick: () => void }) {
-  const hasDetail = reward.skill || reward.item || reward.pet;
-
-  // Determine badge color based on type
-  let badgeClass = "border-white/10 bg-white/[0.04] text-slate-300";
-  const id = reward.rawId;
-  if (id.startsWith("skill_"))          badgeClass = "border-red-700/40 bg-red-950/25 text-red-300";
-  else if (id.startsWith("set_"))       badgeClass = "border-purple-700/40 bg-purple-950/25 text-purple-300";
-  else if (id.startsWith("back_"))      badgeClass = "border-blue-700/40 bg-blue-950/25 text-blue-300";
-  else if (id.startsWith("hair_"))      badgeClass = "border-pink-700/40 bg-pink-950/25 text-pink-300";
-  else if (id.startsWith("pet_"))       badgeClass = "border-emerald-700/40 bg-emerald-950/25 text-emerald-300";
-  else if (id.startsWith("tokens_"))    badgeClass = "border-amber-700/40 bg-amber-950/25 text-amber-300";
-  else if (id.startsWith("tp_"))        badgeClass = "border-cyan-700/40 bg-cyan-950/25 text-cyan-300";
-  else if (id.startsWith("ss_"))        badgeClass = "border-orange-700/40 bg-orange-950/25 text-orange-300";
-  else if (id.startsWith("essential_")) badgeClass = "border-lime-700/40 bg-lime-950/25 text-lime-300";
-  else if (id.startsWith("wpn_"))       badgeClass = "border-orange-700/40 bg-orange-950/25 text-orange-300";
-
   return (
-    <button
-      onClick={onClick}
-      className={`reward-item inline-flex items-center gap-2 rounded-lg border px-2.5 py-1.5 text-xs font-medium transition-all ${badgeClass} ${
-        hasDetail
-          ? "cursor-pointer hover:brightness-125 hover:scale-[1.03] active:scale-[0.98]"
-          : "cursor-default"
-      }`}
-      title={hasDetail ? "Klik untuk detail" : reward.rawId}
-    >
+    <button onClick={onClick} className="reward-record" title="Buka detail reward">
       <IconImg id={reward.rawId} size={32} />
-      <span className="leading-tight">{reward.name}</span>
-      {hasDetail && (
-        <span className="text-[10px] opacity-50">→</span>
-      )}
+      <span><strong>{reward.name}</strong><code>{reward.rawId}</code></span>
+      <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" /></svg>
     </button>
   );
 }
@@ -632,38 +607,19 @@ function RewardSection({
   );
 
   return (
-    <div className="reward-section">
-      <h3>
-        {config.label}
-      </h3>
-
-      <div>
-        {resolvedEntries.map(({ rankKey, rewards }) => {
-          const isLeague = categoryKey === "league";
-          const leagueStyle = isLeague ? LEAGUE_COLORS[rankKey] : null;
-
-          return (
-            <div
-              key={rankKey}
-              className="reward-rank"
-            >
-              <p className={`text-xs font-bold mb-2 ${leagueStyle ? leagueStyle.text : "text-slate-400"}`}>
-                {formatRankLabel(rankKey)}
-              </p>
-              <div className="flex flex-wrap gap-1.5">
-                {rewards.map((reward, i) => (
-                  <RewardBadge
-                    key={`${reward.rawId}-${i}`}
-                    reward={reward}
-                    onClick={() => onSelectReward(reward)}
-                  />
-                ))}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
+    <section className="rewards-ledger" id={`rewards-${categoryKey}`} aria-labelledby={`rewards-title-${categoryKey}`}>
+      <header><h3 id={`rewards-title-${categoryKey}`}>{config.label}</h3><span>{resolvedEntries.length} rank</span></header>
+      <table>
+        <thead><tr><th scope="col">Rank / League</th><th scope="col">Reward · pilih untuk detail</th></tr></thead>
+        <tbody>{resolvedEntries.map(({ rankKey, rewards }) => {
+          const leagueStyle = categoryKey === "league" ? LEAGUE_COLORS[rankKey] : null;
+          return <tr key={rankKey}>
+            <th scope="row" className={leagueStyle?.text}>{formatRankLabel(rankKey)}</th>
+            <td><div className="reward-records">{rewards.map((reward, i) => <RewardBadge key={`${reward.rawId}-${i}`} reward={reward} onClick={() => onSelectReward(reward)} />)}</div></td>
+          </tr>;
+        })}</tbody>
+      </table>
+    </section>
   );
 }
 
@@ -752,129 +708,32 @@ export default function SWRewards() {
   const activeData = seasons.find((s) => s.season === activeSeason);
 
   if (loading) {
-    return (
-      <div className="space-y-4">
-        {[...Array(4)].map((_, i) => (
-          <div key={i} className="h-32 animate-pulse rounded-2xl bg-white/[0.04]" />
-        ))}
-      </div>
-    );
+    return <div className="rewards-state" role="status">Memuat arsip reward…</div>;
   }
 
   if (error) {
-    return (
-      <div className="rounded-xl border border-red-800/50 bg-red-950/30 px-4 py-3 text-sm text-red-300">
-        {error}
-      </div>
-    );
+    return <div className="rewards-state rewards-error" role="alert">{error}</div>;
   }
 
   return (
-    <div className="space-y-6">
-      {/* Season Tabs + Fetch Button */}
-      <div className="reward-toolbar">
-        <div className="flex flex-wrap gap-1.5">
-          {seasons.map((s) => (
-            <button
-              key={s.season}
-              aria-pressed={activeSeason === s.season}
-              onClick={() => setActiveSeason(s.season)}
-              className={`rounded-xl border px-4 py-2 text-sm font-bold transition-all ${
-                activeSeason === s.season
-                  ? "border-red-500/60 bg-red-950/30 text-red-300 shadow-[0_0_0_1px_rgba(239,68,68,0.2)]"
-                  : "border-white/[0.08] bg-slate-900/35 text-slate-400 hover:border-slate-500/40 hover:text-slate-300"
-              }`}
-            >
-              {s.season}
-            </button>
-          ))}
-        </div>
-
-        <button
-          onClick={fetchLiveData}
-          disabled={fetchingLive}
-          className="inline-flex items-center gap-2 rounded-xl border border-emerald-700/50 bg-emerald-950/25 px-4 py-2 text-sm font-semibold text-emerald-300 transition-all hover:bg-emerald-950/40 disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          {fetchingLive ? (
-            <>
-              <span className="h-3 w-3 animate-spin rounded-full border-2 border-emerald-400 border-t-transparent" />
-              Fetching...
-            </>
-          ) : (
-            <>
-              Cek Season Baru
-            </>
-          )}
-        </button>
+    <div className="rewards-workspace">
+      <aside className="rewards-sidebar" aria-label="Navigasi reward">
+        <details open className="rewards-seasons">
+          <summary>Arsip season <span>{seasons.length}</span></summary>
+          <nav aria-label="Pilih season">{seasons.map((s) => <button key={s.season} aria-pressed={activeSeason === s.season} onClick={() => setActiveSeason(s.season)}><strong>{s.season}</strong><time dateTime={s.fetchedAt}>{formatDate(s.fetchedAt)}</time></button>)}</nav>
+        </details>
+        <button className="rewards-fetch" onClick={fetchLiveData} disabled={fetchingLive}>{fetchingLive ? "Fetching…" : "Cek Season Baru"}</button>
+        <p className="rewards-source">Cek reward terbaru melalui API Ninja Sage. Season baru disimpan di browser ini.</p>
+        {activeData && <nav className="rewards-category-nav" aria-label="Kategori reward"><h2>Dalam season ini</h2>{CATEGORY_CONFIG.map(cat => <a key={cat.key} href={`#rewards-${cat.key}`}>{cat.label}<span>{Object.keys(activeData.data[cat.key]).length}</span></a>)}</nav>}
+      </aside>
+      <div className="rewards-content">
+        {liveStatus && <p role="status" className={`rewards-notice${liveStatus.includes("Gagal") ? " rewards-error" : ""}`}>{liveStatus}</p>}
+        {activeData ? <>
+          <header className="rewards-edition"><div><h2>Season {activeData.season}</h2><p>Reward berdasarkan ranking dan league.</p></div><div><span>Data diambil</span><time dateTime={activeData.fetchedAt}>{formatDate(activeData.fetchedAt)}</time></div></header>
+          {CATEGORY_CONFIG.map(cat => <RewardSection key={cat.key} categoryKey={cat.key} data={activeData.data[cat.key]} onSelectReward={setSelectedReward} />)}
+        </> : <div className="rewards-state"><h2>{seasons.length ? "Pilih season" : "Belum ada data rewards"}</h2><p>{seasons.length ? "Pilih season dari arsip untuk membaca reward." : 'Klik “Cek Season Baru” untuk fetch dari API.'}</p></div>}
       </div>
-
-      {/* Live status message */}
-      {liveStatus && (
-        <div
-          role="status"
-          className={`rounded-xl border px-4 py-3 text-sm ${
-            liveStatus.includes("Gagal")
-              ? "border-red-800/50 bg-red-950/30 text-red-300"
-              : liveStatus.includes("baru")
-                ? "border-emerald-800/50 bg-emerald-950/30 text-emerald-300"
-                : "border-amber-800/50 bg-amber-950/30 text-amber-300"
-          }`}
-        >
-          {liveStatus}
-        </div>
-      )}
-
-      {/* Active season info */}
-      {activeData && (
-        <div className="rounded-xl border border-white/[0.08] bg-white/[0.02] px-4 py-3 flex items-center justify-between">
-          <div>
-            <span className="text-xs text-slate-500">Season</span>
-            <p className="text-lg font-bold text-white">{activeData.season}</p>
-          </div>
-          <div className="text-right">
-            <span className="text-xs text-slate-500">Fetched</span>
-            <p className="text-sm text-slate-400">{formatDate(activeData.fetchedAt)}</p>
-          </div>
-        </div>
-      )}
-
-      {/* Reward Categories */}
-      {activeData && (
-        <div className="grid grid-cols-1 gap-6">
-          {CATEGORY_CONFIG.map((cat) => (
-            <RewardSection
-              key={cat.key}
-              categoryKey={cat.key}
-              data={activeData.data[cat.key]}
-              onSelectReward={setSelectedReward}
-            />
-          ))}
-        </div>
-      )}
-
-      {!activeData && seasons.length > 0 && (
-        <div className="rounded-2xl border border-white/[0.08] bg-slate-900/35 py-16 text-center">
-          <p className="text-3xl mb-2">👈</p>
-          <p className="text-slate-500 text-sm">Pilih season di atas.</p>
-        </div>
-      )}
-
-      {seasons.length === 0 && (
-        <div className="rounded-2xl border border-white/[0.08] bg-slate-900/35 py-16 text-center">
-          <p className="text-3xl mb-2">📭</p>
-          <p className="text-slate-500 text-sm">
-            Belum ada data rewards. Klik &quot;Cek Season Baru&quot; untuk fetch dari API.
-          </p>
-        </div>
-      )}
-
-      {/* Detail Modal */}
-      {selectedReward && (
-        <RewardDetailModal
-          reward={selectedReward}
-          onClose={() => setSelectedReward(null)}
-        />
-      )}
+      {selectedReward && <RewardDetailModal reward={selectedReward} onClose={() => setSelectedReward(null)} />}
     </div>
   );
 }

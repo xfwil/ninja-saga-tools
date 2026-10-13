@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { levelXP, xpBetween, MIN_LEVEL, MAX_LEVEL } from "@/data/levels";
+import "./planning-workshop.css";
 
 function fmt(n: number) {
   return n.toLocaleString("id-ID");
@@ -34,7 +35,7 @@ export default function ExpCalculator() {
   const [targetLevel, setTargetLevel] = useState(50);
   const [progressXP, setProgressXP] = useState(0); // XP earned within current level
   const [dailyXP, setDailyXP] = useState(0);
-  const [showTable, setShowTable] = useState(false);
+  const [showTable, setShowTable] = useState(true);
 
   const clamp = (v: number, min: number, max: number) => Math.max(min, Math.min(max, v));
 
@@ -63,278 +64,65 @@ export default function ExpCalculator() {
   const xpToNextLevel = levelXP[currentLevel] ?? 0;
 
   return (
-    <div className="calculator-layout">
-
-      {/* Input section */}
-      <div className="calculator-inputs">
-        {/* Current level */}
-        <div className="rounded-xl border border-white/8 bg-white/[0.03] p-4 flex flex-col gap-3">
-          <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">Level Sekarang</p>
-          <LevelStepper
-            label="Level sekarang"
-            value={currentLevel}
-            onChange={(v) => {
-              const c = clamp(v, MIN_LEVEL, MAX_LEVEL - 1);
-              setCurrentLevel(c);
-              setProgressXP(0);
-              if (c >= targetLevel) setTargetLevel(Math.min(MAX_LEVEL, c + 1));
-            }}
-            min={MIN_LEVEL}
-            max={MAX_LEVEL - 1}
-          />
-          <div className="flex flex-col gap-1">
-            <label htmlFor="progress-xp" className="text-xs text-slate-600">XP Progress dalam level ini</label>
-            <input
-              id="progress-xp"
-              type="text"
-              inputMode="numeric"
-              value={progressXP === 0 ? "" : fmt(progressXP)}
-              onChange={(e) => {
-                const v = parseLocalizedNumber(e.target.value);
-                setProgressXP(clamp(v, 0, xpToNextLevel));
-              }}
-              placeholder="0"
-              className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-white outline-none focus:border-blue-600/50 transition-all [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
-            />
-            <p className="text-[11px] text-slate-700">
-              Maks: {fmt(xpToNextLevel)} XP (ke Lv. {currentLevel + 1})
-            </p>
-          </div>
-        </div>
-
-        {/* Target level + daily XP */}
-        <div className="rounded-xl border border-white/8 bg-white/[0.03] p-4 flex flex-col gap-3">
-          <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">Level Target</p>
-          <LevelStepper
-            label="Level target"
-            value={targetLevel}
-            onChange={(v) => {
-              const t = clamp(v, MIN_LEVEL + 1, MAX_LEVEL);
-              setTargetLevel(t);
-              if (t <= currentLevel) setCurrentLevel(Math.max(MIN_LEVEL, t - 1));
-            }}
-            min={MIN_LEVEL + 1}
-            max={MAX_LEVEL}
-            color="green"
-          />
-          <div className="flex flex-col gap-1">
-            <label htmlFor="daily-xp" className="text-xs text-slate-600">XP per hari (opsional)</label>
-            <input
-              id="daily-xp"
-              type="text"
-              inputMode="numeric"
-              value={dailyXP === 0 ? "" : dailyXP}
-              onChange={(e) => {
-                setDailyXP(parseLocalizedNumber(e.target.value));
-              }}
-              placeholder="Masukkan XP harian kamu..."
-              className="rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-white outline-none focus:border-green-600/50 transition-all [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
-            />
-            <p className="text-[11px] text-slate-700">Untuk estimasi hari yang dibutuhkan</p>
-          </div>
-        </div>
+    <section className="planning-sheet" aria-label="Lembar perhitungan XP">
+      <div className="planning-section-heading"><h2>Parameter perhitungan</h2><p>Dihitung otomatis saat diubah</p></div>
+      <div className="planning-input-row">
+        <div className="planning-row-description"><h3>Rentang level</h3><p>Dari level sekarang ke tujuanmu.</p></div>
+        <LevelStepper label="Level sekarang" value={currentLevel} min={MIN_LEVEL} max={MAX_LEVEL - 1} onChange={(v) => {
+          const c = clamp(v, MIN_LEVEL, MAX_LEVEL - 1);
+          setCurrentLevel(c);
+          setProgressXP(0);
+          if (c >= targetLevel) setTargetLevel(Math.min(MAX_LEVEL, c + 1));
+        }} />
+        <span className="planning-operator" aria-hidden="true">→</span>
+        <LevelStepper label="Level target" value={targetLevel} min={MIN_LEVEL + 1} max={MAX_LEVEL} onChange={(v) => {
+          const t = clamp(v, MIN_LEVEL + 1, MAX_LEVEL);
+          setTargetLevel(t);
+          if (t <= currentLevel) setCurrentLevel(Math.max(MIN_LEVEL, t - 1));
+        }} />
+        <p className="planning-row-note">{targetLevel - currentLevel} level</p>
       </div>
-
-      {/* Result */}
-      {result ? (
-        <div className="calculator-result flex flex-col gap-4" aria-live="polite" aria-atomic="true">
-
-          {/* Stat cards */}
-          <div className="grid grid-cols-2 gap-3">
-            <StatCard
-              label="Total XP Dibutuhkan"
-              value={fmt(result.neededTotal)}
-              unit="XP"
-              color="blue"
-            />
-            <StatCard
-              label="XP Tersisa"
-              value={fmt(result.remaining)}
-              unit="XP"
-              color="red"
-              sub={progressXP > 0 ? `Sudah: ${fmt(progressXP)} XP` : undefined}
-            />
-            <StatCard
-              label="Jumlah Level"
-              value={String(targetLevel - currentLevel)}
-              unit="level"
-              color="violet"
-              sub={`Lv.${currentLevel} → ${targetLevel}`}
-            />
-            <StatCard
-              label="Estimasi Waktu"
-              value={result.daysNeeded !== null ? formatDuration(result.daysNeeded) : "—"}
-              unit=""
-              color="amber"
-              sub={result.daysNeeded !== null ? `${fmt(dailyXP)} XP/hari` : "Isi XP harian"}
-            />
-          </div>
-
-          {/* Progress bar */}
-          {progressXP > 0 && (
-            <div className="rounded-xl border border-white/5 bg-white/[0.02] p-4">
-              <div className="flex justify-between text-xs text-slate-500 mb-2">
-                <span>Progress Lv.{currentLevel} → Lv.{targetLevel}</span>
-                <span className="font-semibold text-white">{result.progressPct}%</span>
-              </div>
-              <div className="h-3 w-full rounded-full bg-white/5 overflow-hidden">
-                <div
-                  className="h-full rounded-full bg-gradient-to-r from-blue-700 to-blue-400 transition-all duration-500"
-                  style={{ width: `${result.progressPct}%` }}
-                />
-              </div>
-              <div className="flex justify-between mt-1.5 text-[11px] text-slate-700">
-                <span>Lv. {currentLevel}</span>
-                <span>Lv. {targetLevel}</span>
-              </div>
-            </div>
-          )}
-
-          {/* Level-by-level table toggle */}
-          <div>
-            <button
-              onClick={() => setShowTable((p) => !p)}
-              aria-expanded={showTable}
-              className="flex items-center gap-2 text-sm text-slate-500 hover:text-white transition-colors"
-            >
-              <span className={`transition-transform duration-200 ${showTable ? "rotate-90" : ""}`}>▶</span>
-              {showTable ? "Sembunyikan" : "Lihat"} tabel XP per level
-              <span className="text-xs text-slate-700">({targetLevel - currentLevel} level)</span>
-            </button>
-
-            {showTable && (
-              <div className="mt-3 rounded-xl border border-white/5 overflow-hidden">
-                <div className="overflow-x-auto max-h-72 overflow-y-auto">
-                  <table className="w-full text-sm">
-                    <thead className="sticky top-0 bg-[#0f0f17] border-b border-white/5">
-                      <tr>
-                        <th className="text-left px-4 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wider">Level</th>
-                        <th className="text-right px-4 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wider">XP Level Ini</th>
-                        <th className="text-right px-4 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wider">Kumulatif</th>
-                        {dailyXP > 0 && (
-                          <th className="text-right px-4 py-2.5 text-xs font-semibold text-slate-500 uppercase tracking-wider">Hari ke-</th>
-                        )}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {result.levelSteps.map((step, i) => (
-                        <tr
-                          key={step.from}
-                          className={`border-t border-white/[0.03] ${i % 2 === 0 ? "bg-white/[0.01]" : ""}`}
-                        >
-                          <td className="px-4 py-2 text-slate-400">
-                            <span className="text-slate-600">Lv.</span> {step.from}
-                            <span className="text-slate-700 mx-1">→</span>
-                            <span className="text-white font-medium">{step.to}</span>
-                          </td>
-                          <td className="px-4 py-2 text-right text-slate-300 font-mono text-xs">{fmt(step.xp)}</td>
-                          <td className="px-4 py-2 text-right text-blue-400 font-mono text-xs">{fmt(step.cumulative)}</td>
-                          {dailyXP > 0 && (
-                            <td className="px-4 py-2 text-right text-amber-500 font-mono text-xs">
-                              {Math.ceil(step.cumulative / dailyXP)}
-                            </td>
-                          )}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            )}
-          </div>
+      <div className="planning-input-row">
+        <div className="planning-row-description"><h3>Progres XP</h3><p>XP yang sudah diperoleh dalam level ini.</p></div>
+        <label className="planning-field" htmlFor="progress-xp">XP saat ini<input id="progress-xp" type="text" inputMode="numeric" value={progressXP === 0 ? "" : fmt(progressXP)} onChange={(e) => {
+          const v = parseLocalizedNumber(e.target.value);
+          setProgressXP(clamp(v, 0, xpToNextLevel));
+        }} placeholder="0" /></label>
+        <span className="planning-operator" aria-hidden="true">/</span>
+        <div className="planning-static"><span>XP ke level berikutnya</span><strong>{fmt(xpToNextLevel)}</strong></div>
+        <p className="planning-row-note">Maks. {fmt(xpToNextLevel)} XP · ke Lv. {currentLevel + 1}</p>
+      </div>
+      <div className="planning-input-row">
+        <div className="planning-row-description"><h3>Ritme harian</h3><p>Opsional, untuk estimasi waktu.</p></div>
+        <label className="planning-field" htmlFor="daily-xp">XP per hari<input id="daily-xp" type="text" inputMode="numeric" value={dailyXP === 0 ? "" : dailyXP} onChange={(e) => setDailyXP(parseLocalizedNumber(e.target.value))} placeholder="Masukkan XP harian" /></label>
+        <span className="planning-operator" aria-hidden="true">=</span>
+        <div className="planning-static"><span>Estimasi waktu</span><strong>{result && result.daysNeeded !== null ? formatDuration(result.daysNeeded) : "—"}</strong></div>
+        <p className="planning-row-note">{dailyXP > 0 ? `${fmt(dailyXP)} XP / hari` : "Isi XP harian untuk estimasi"}</p>
+      </div>
+      {result ? <>
+        <div className="planning-equation" role="status" aria-live="polite">
+          <div><span>Total XP dibutuhkan</span><strong>{fmt(result.neededTotal)}</strong></div><span aria-hidden="true">−</span>
+          <div><span>Progres saat ini</span><strong>{fmt(progressXP)}</strong></div><span aria-hidden="true">=</span>
+          <div className="planning-answer"><span>Sisa menuju Lv. {targetLevel}</span><strong>{fmt(result.remaining)} <small>XP</small></strong></div>
         </div>
-      ) : (
-        <div className="rounded-xl border border-white/5 bg-white/[0.02] p-6 text-center text-sm text-slate-600">
-          Level target harus lebih tinggi dari level sekarang.
-        </div>
-      )}
-    </div>
+        {progressXP > 0 && <div className="planning-progress"><div><span>Progress Lv. {currentLevel} → Lv. {targetLevel}</span><strong>{result.progressPct}%</strong></div><progress value={result.progressPct} max={100} aria-label={`Progress menuju level ${targetLevel}`} /></div>}
+        <div className="planning-section-heading planning-table-heading"><div><h2>Rincian per level</h2><p>XP dasar sebelum dikurangi progres level saat ini.</p></div><button onClick={() => setShowTable((p) => !p)} aria-expanded={showTable} aria-controls="xp-level-table">{showTable ? "Sembunyikan" : "Lihat"} tabel · {targetLevel - currentLevel} level</button></div>
+        {showTable && <div id="xp-level-table" className="planning-table-scroll" role="region" aria-label="Tabel XP per level, geser untuk semua kolom" tabIndex={0}><table className="planning-table"><thead><tr><th scope="col">Level</th><th scope="col">XP level ini</th><th scope="col">Kumulatif</th>{dailyXP > 0 && <th scope="col">Hari ke-</th>}</tr></thead><tbody>{result.levelSteps.map((step) => <tr key={step.from}><td>Lv. {step.from} → <strong>{step.to}</strong></td><td>{fmt(step.xp)}</td><td>{fmt(step.cumulative)}</td>{dailyXP > 0 && <td>{Math.ceil(step.cumulative / dailyXP)}</td>}</tr>)}</tbody><tfoot><tr><th scope="row">Total kebutuhan</th><td>{fmt(result.neededTotal)} XP</td><td>{targetLevel - currentLevel} level</td>{dailyXP > 0 && <td>{Math.ceil(result.neededTotal / dailyXP)}</td>}</tr></tfoot></table></div>}
+        <p className="planning-footnote">Estimasi mengikuti XP harian yang kamu masukkan. Kolom hari pada tabel memakai XP kumulatif sebelum dikurangi progres saat ini.</p>
+      </> : <p className="planning-empty">Level target harus lebih tinggi dari level sekarang.</p>}
+    </section>
   );
 }
 
-function LevelStepper({
-  label,
-  value,
-  onChange,
-  min,
-  max,
-  color = "blue",
-}: {
-  label: string;
-  value: number;
-  onChange: (v: number) => void;
-  min: number;
-  max: number;
-  color?: "blue" | "green";
+function LevelStepper({ label, value, onChange, min, max }: {
+  label: string; value: number; onChange: (v: number) => void; min: number; max: number;
 }) {
-  const textColor = color === "green" ? "text-green-300" : "text-blue-300";
-  return (
-    <div className="flex items-center gap-2">
-      <div className="flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 p-0.5 flex-1">
-        <button
-          aria-label={`Kurangi ${label.toLowerCase()}`}
-          onClick={() => onChange(value - 1)}
-          disabled={value <= min}
-          className="h-10 w-10 shrink-0 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-xl leading-none font-bold"
-        >
-          −
-        </button>
-        <input
-          aria-label={label}
-          type="number"
-          min={min}
-          max={max}
-          value={value}
-          onChange={(e) => {
-            const v = parseInt(e.target.value, 10);
-            if (!isNaN(v)) onChange(Math.max(min, Math.min(max, v)));
-          }}
-          className={`flex-1 text-center bg-transparent text-2xl font-black ${textColor} outline-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none`}
-        />
-        <button
-          aria-label={`Tambah ${label.toLowerCase()}`}
-          onClick={() => onChange(value + 1)}
-          disabled={value >= max}
-          className="h-10 w-10 shrink-0 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-xl leading-none font-bold"
-        >
-          +
-        </button>
-      </div>
-      <div className="text-right shrink-0">
-        <p className="text-[10px] text-slate-700 leading-tight">Threshold</p>
-        <p className="text-xs font-semibold text-slate-500">{fmt(levelXP[value] ?? 0)}</p>
-      </div>
-    </div>
-  );
-}
-
-function StatCard({
-  label,
-  value,
-  unit,
-  color,
-  sub,
-}: {
-  label: string;
-  value: string;
-  unit: string;
-  color: "blue" | "red" | "violet" | "amber";
-  sub?: string;
-}) {
-  const colors = {
-    blue:   "text-blue-300",
-    red:    "text-red-400",
-    violet: "text-violet-300",
-    amber:  "text-amber-300",
-  };
-  return (
-    <div className="rounded-xl border border-white/5 bg-white/[0.025] p-4">
-      <p className="text-[11px] text-slate-600 uppercase tracking-wider mb-2 leading-tight">{label}</p>
-      <p className={`text-lg font-black ${colors[color]} leading-none`}>
-        {value}
-        {unit && <span className="text-xs font-semibold ml-1 opacity-70">{unit}</span>}
-      </p>
-      {sub && <p className="text-[11px] text-slate-600 mt-1">{sub}</p>}
-    </div>
-  );
+  return <div className="planning-field"><span>{label}</span><div className="planning-stepper">
+    <button aria-label={`Kurangi ${label.toLowerCase()}`} onClick={() => onChange(value - 1)} disabled={value <= min}>−</button>
+    <input aria-label={label} type="number" min={min} max={max} value={value} onChange={(e) => {
+      const v = parseInt(e.target.value, 10);
+      if (!isNaN(v)) onChange(Math.max(min, Math.min(max, v)));
+    }} />
+    <button aria-label={`Tambah ${label.toLowerCase()}`} onClick={() => onChange(value + 1)} disabled={value >= max}>+</button>
+  </div><small>Threshold: {fmt(levelXP[value] ?? 0)}</small></div>;
 }

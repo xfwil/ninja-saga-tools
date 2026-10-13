@@ -14,6 +14,7 @@ import weaponEffectJson from "../../dump/weapon-effect.json";
 import backEffectJson from "../../dump/back_item-effect.json";
 import enemyJson from "../../dump/enemy.json";
 import sourcesJson from "../../dump/sources.json";
+import "./encyclopedia-workshop.css";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -431,14 +432,22 @@ function groupByBaseId<T extends { id: string }>(items: T[]) {
 
 export default function Encyclopedia() {
   const [activeTab, setActiveTab] = useState<"skills" | "items" | "talents" | "senjutsu" | "pets" | "enemies" | "effects" | "seasonal">("skills");
+  const [query, setQuery] = useState<string | null>(null);
+  const [subcategory, setSubcategory] = useState("all");
   useEffect(() => {
     const selectFromHash = () => {
       const tab = window.location.hash.slice(1);
       if (tab === "skills" || tab === "items" || tab === "talents" || tab === "senjutsu" || tab === "pets" || tab === "enemies" || tab === "effects" || tab === "seasonal") setActiveTab(tab);
+      setQuery(new URLSearchParams(window.location.search).get("q") ?? "");
+      setSubcategory("all");
     };
     selectFromHash();
     window.addEventListener("hashchange", selectFromHash);
-    return () => window.removeEventListener("hashchange", selectFromHash);
+    window.addEventListener("popstate", selectFromHash);
+    return () => {
+      window.removeEventListener("hashchange", selectFromHash);
+      window.removeEventListener("popstate", selectFromHash);
+    };
   }, []);
 
   const enemies = enemyJson as Enemy[];
@@ -461,35 +470,48 @@ export default function Encyclopedia() {
     { key: "seasonal", label: "Seasonal", count: totalSeasonal,                                  icon: "🏆" },
   ] as const;
 
-  return (
-    <div>
-      {/* Tab Bar */}
-      <div>
-        <div className="category-tabs" role="group" aria-label="Kategori database">
-          {tabs.map((tab) => (
-            <button
-              key={tab.key}
-              aria-pressed={activeTab === tab.key}
-              onClick={() => { setActiveTab(tab.key); window.history.replaceState(null, "", `#${tab.key}`); }}
-            >
-              <span>{tab.label}</span>
-              <span className="category-count">
-                {tab.count}
-              </span>
-            </button>
-          ))}
-        </div>
-      </div>
+  const subcategories: { key: string; label: string }[] = activeTab === "skills"
+    ? [{ key: "all", label: "Semua skills" }, ...Object.entries(SKILL_TYPE_MAP).map(([key, value]) => ({ key, label: value.label })), { key: "seasonal", label: "Seasonal" }]
+    : activeTab === "items" ? [...ITEM_SUB_TYPES]
+    : activeTab === "talents" ? [{ key: "all", label: "Semua talents" }, ...Object.entries(TALENT_TYPE_MAP).map(([key, value]) => ({ key, label: value.label }))]
+    : activeTab === "senjutsu" ? [{ key: "all", label: "Semua senjutsu" }, ...Object.entries(SENJUTSU_TYPE_MAP).map(([key, value]) => ({ key, label: value.label }))]
+    : activeTab === "pets" ? [{ key: "all", label: "Semua pets" }, { key: "has-skills", label: "Punya skill" }, { key: "no-skills", label: "Tanpa skill" }]
+    : activeTab === "enemies" ? [...ENEMY_CALC_FILTERS]
+    : activeTab === "effects" ? [{ key: "all", label: "Semua kategori" }, ...Object.entries(EFFECT_CATEGORY_MAP).map(([key, value]) => ({ key, label: value.label }))]
+    : Object.entries(SEASONAL_CAT_CONFIG).map(([key, value]) => ({ key, label: value.label }));
+  const activeLabel = tabs.find(tab => tab.key === activeTab)!.label;
+  const filters = { subcategory, onSubcategory: setSubcategory, initialQuery: query ?? "" };
 
-      {/* Tab Content */}
-      {activeTab === "skills"   && <SkillsTab   skills={skills} />}
-      {activeTab === "items"    && <ItemsTab />}
-      {activeTab === "talents"  && <TalentsTab  talents={talents} />}
-      {activeTab === "senjutsu" && <SenjutsuTab senjutsu={senjutsu} />}
-      {activeTab === "pets"     && <PetsTab pets={pets} />}
-      {activeTab === "enemies"  && <EnemyTab enemies={enemies} />}
-      {activeTab === "effects"  && <EffectsTab  />}
-      {activeTab === "seasonal" && <SeasonalTab />}
+  return (
+    <div className="ency-workshop">
+      <details className="ency-sidebar" open>
+        <summary>Kategori database</summary>
+        <nav aria-label="Kategori database">
+          {tabs.map(tab => <div key={tab.key} className="ency-tree-group">
+            <a href={`#${tab.key}`} aria-current={activeTab === tab.key ? "page" : undefined}
+              onClick={event => { event.preventDefault(); setActiveTab(tab.key); setSubcategory("all"); window.history.replaceState(null, "", `#${tab.key}`); }}>
+              <span>{tab.label}</span><span>{tab.count.toLocaleString("id-ID")}</span>
+            </a>
+            {activeTab === tab.key && <div className="ency-subcategories">
+              {subcategories.map(sub => <button key={sub.key} aria-pressed={(activeTab === "seasonal" && subcategory === "all" ? "clan" : subcategory) === sub.key} onClick={() => setSubcategory(sub.key)}>{sub.label}</button>)}
+            </div>}
+          </div>)}
+        </nav>
+        <p className="ency-sidebar-note">Pilih kategori, saring hasil, lalu buka record untuk memeriksa detail.</p>
+      </details>
+      <section className="ency-content" aria-label={`Database ${activeLabel}`}>
+        <header className="ency-workspace-heading"><div><p>Database / {activeLabel}</p><h1>{activeLabel}</h1></div><span>Encyclopedia</span></header>
+        {query !== null && <div key={`${activeTab}:${query}`} className="ency-results-workspace">
+          {activeTab === "skills" && <SkillsTab skills={skills} {...filters} />}
+          {activeTab === "items" && <ItemsTab {...filters} />}
+          {activeTab === "talents" && <TalentsTab talents={talents} {...filters} />}
+          {activeTab === "senjutsu" && <SenjutsuTab senjutsu={senjutsu} {...filters} />}
+          {activeTab === "pets" && <PetsTab pets={pets} {...filters} />}
+          {activeTab === "enemies" && <EnemyTab enemies={enemies} {...filters} />}
+          {activeTab === "effects" && <EffectsTab {...filters} />}
+          {activeTab === "seasonal" && <SeasonalTab {...filters} />}
+        </div>}
+      </section>
     </div>
   );
 }
@@ -623,16 +645,16 @@ function SkillModal({ skill, onClose, highlight = "" }: { skill: Skill; onClose:
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4"
+      className="ency-inspector-overlay"
       onClick={onClose}
     >
       {/* Backdrop */}
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+      <div className="ency-inspector-backdrop" />
 
       {/* Panel */}
       <div
         ref={dialogRef} role="dialog" aria-modal="true" aria-label={skill.name} tabIndex={-1}
-        className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+        className="ency-inspector-panel"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
@@ -781,19 +803,22 @@ function StatLarge({ label, value }: { label: string; value: string | number }) 
 
 type ViewMode = "grid" | "list" | "compact";
 
-function SkillsTab({ skills }: { skills: Skill[] }) {
-  const [nameSearch, setNameSearch] = useState("");
+type CategoryFilters = { subcategory: string; onSubcategory: (value: string) => void; initialQuery: string };
+
+function SkillsTab({ skills, subcategory: typeFilter, onSubcategory: setTypeFilter, initialQuery }: { skills: Skill[] } & CategoryFilters) {
+  const [nameSearch, setNameSearch] = useState(initialQuery);
   const [effectSearch, setEffectSearch] = useState("");
-  const [typeFilter, setTypeFilter] = useState("all");
   const [seasonFilter, setSeasonFilter] = useState<number | "all">("all");
   const [premFilter, setPremFilter] = useState<"all" | "premium" | "free">("all");
   const [cpMin, setCpMin] = useState<number | "">("");
   const [cpMax, setCpMax] = useState<number | "">("");
   const [page, setPage] = useState(1);
   const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
-  const [viewMode, setViewMode] = useState<ViewMode>("grid");
+  const [viewMode, setViewMode] = useState<ViewMode>("list");
 
   const resetPage = useCallback(() => setPage(1), []);
+  const [previousType, setPreviousType] = useState(typeFilter);
+  if (previousType !== typeFilter) { setPreviousType(typeFilter); setPage(1); setSeasonFilter("all"); }
 
   // Collect available season numbers from data
   const availableSeasons = useMemo(() => {
@@ -1382,9 +1407,8 @@ function SkillCompactRow({ skill, highlight = "", onSelect }: { skill: Skill; hi
 
 // ─── Talents Tab ──────────────────────────────────────────────────────────────
 
-function TalentsTab({ talents }: { talents: Talent[] }) {
-  const [search, setSearch] = useState("");
-  const [typeFilter, setTypeFilter] = useState("all");
+function TalentsTab({ talents, subcategory: typeFilter, onSubcategory: setTypeFilter, initialQuery }: { talents: Talent[] } & CategoryFilters) {
+  const [search, setSearch] = useState(initialQuery);
 
   const groups = useMemo<TalentGroup[]>(() => {
     const map = groupByBaseId(talents);
@@ -1436,10 +1460,11 @@ function TalentsTab({ talents }: { talents: Talent[] }) {
       {filtered.length === 0 ? (
         <EmptyState text="Tidak ada talent yang cocok dengan filter." />
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {filtered.map((group) => (
-            <TalentGroupCard key={group.baseId} group={group} />
-          ))}
+        <div className="ency-record-list">
+          {filtered.map(group => <details className="ency-expandable-record" key={group.baseId}>
+            <summary><IconImg id={group.baseId} size={28} /><strong>{group.name}</strong><span>{TALENT_TYPE_MAP[group.type]?.label ?? group.type}</span><span>{group.levels.length} level</span></summary>
+            <TalentGroupCard group={group} />
+          </details>)}
         </div>
       )}
     </div>
@@ -1508,9 +1533,8 @@ function TalentGroupCard({ group }: { group: TalentGroup }) {
 
 // ─── Senjutsu Tab ─────────────────────────────────────────────────────────────
 
-function SenjutsuTab({ senjutsu }: { senjutsu: Senjutsu[] }) {
-  const [search, setSearch] = useState("");
-  const [typeFilter, setTypeFilter] = useState("all");
+function SenjutsuTab({ senjutsu, subcategory: typeFilter, onSubcategory: setTypeFilter, initialQuery }: { senjutsu: Senjutsu[] } & CategoryFilters) {
+  const [search, setSearch] = useState(initialQuery);
 
   const groups = useMemo<SenjutsuGroup[]>(() => {
     const map = groupByBaseId(senjutsu);
@@ -1562,10 +1586,11 @@ function SenjutsuTab({ senjutsu }: { senjutsu: Senjutsu[] }) {
       {filtered.length === 0 ? (
         <EmptyState text="Tidak ada senjutsu yang cocok dengan filter." />
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {filtered.map((group) => (
-            <SenjutsuGroupCard key={group.baseId} group={group} />
-          ))}
+        <div className="ency-record-list">
+          {filtered.map(group => <details className="ency-expandable-record" key={group.baseId}>
+            <summary><IconImg id={group.baseId} size={28} /><strong>{group.name}</strong><span>{SENJUTSU_TYPE_MAP[group.type]?.label ?? group.type}</span><span>{group.levels.length} level</span></summary>
+            <SenjutsuGroupCard group={group} />
+          </details>)}
         </div>
       )}
     </div>
@@ -1672,12 +1697,13 @@ function formatPetAttackEffects(effects: PetAttackEffect[] = []): string {
     .join("; ");
 }
 
-function PetsTab({ pets }: { pets: Pet[] }) {
-  const [search, setSearch] = useState("");
-  const [attackFilter, setAttackFilter] = useState<"all" | "has-skills" | "no-skills">("all");
+function PetsTab({ pets, subcategory: attackFilter, onSubcategory: setAttackFilter, initialQuery }: { pets: Pet[] } & CategoryFilters) {
+  const [search, setSearch] = useState(initialQuery);
   const [selectedPet, setSelectedPet] = useState<Pet | null>(null);
   const [page, setPage] = useState(1);
   const resetPage = useCallback(() => setPage(1), []);
+  const [previousType, setPreviousType] = useState(attackFilter);
+  if (previousType !== attackFilter) { setPreviousType(attackFilter); setPage(1); }
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -1723,10 +1749,12 @@ function PetsTab({ pets }: { pets: Pet[] }) {
       {filtered.length === 0 ? (
         <EmptyState text="Tidak ada pet yang cocok dengan filter." />
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div className="ency-record-list">
           {paginated.map((pet) => {
             const attacks = [...(pet.attacks ?? [])].sort((a, b) => a.level - b.level);
             return (
+              <details className="ency-expandable-record" key={pet.id}>
+                <summary><IconImg id={pet.id} size={28} /><strong>{pet.name}<code>{pet.id}</code></strong><span>Lv. {pet.level}</span><span>{attacks.length} skill</span></summary>
               <div key={pet.id} className="flex flex-col gap-3 rounded-xl border border-white/[0.07] bg-white/[0.025] p-4 hover:border-white/15 hover:bg-white/[0.04] transition-all">
                 <div className="flex items-start gap-3">
                   <div className="shrink-0 w-10 h-10 flex items-center justify-center rounded-lg border border-emerald-700/30 bg-emerald-950/20">
@@ -1787,6 +1815,7 @@ function PetsTab({ pets }: { pets: Pet[] }) {
                   )}
                 </div>
               </div>
+              </details>
             );
           })}
         </div>
@@ -1809,11 +1838,11 @@ function PetSkillsModal({ pet, onClose }: { pet: Pet; onClose: () => void }) {
   const dialogRef = useDialog(onClose);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+    <div className="ency-inspector-overlay" onClick={onClose}>
+      <div className="ency-inspector-backdrop" />
       <div
         ref={dialogRef} role="dialog" aria-modal="true" aria-label={pet.name} tabIndex={-1}
-        className="relative z-10 w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+        className="ency-inspector-panel"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="sticky top-0 z-10 flex items-start justify-between gap-3 p-5 pb-4 border-b border-white/[0.07] bg-[#0e0e14]">
@@ -1883,9 +1912,11 @@ const ITEM_TYPE_CONFIG: Record<string, { label: string; icon: string; color: str
   skill:     { label: "Kinjutsu",  icon: "🌀",  color: "text-indigo-300", bg: "bg-indigo-950/30", border: "border-indigo-800/40" },
 };
 
-function SeasonalTab() {
-  const [cat, setCat]       = useState<SeasonalCategory>("clan");
+function SeasonalTab({ subcategory, onSubcategory: setCat }: CategoryFilters) {
+  const cat: SeasonalCategory = subcategory === "crew" || subcategory === "shadowwar" ? subcategory : "clan";
   const [season, setSeason] = useState<number>(0);
+  const [previousCategory, setPreviousCategory] = useState(cat);
+  if (previousCategory !== cat) { setPreviousCategory(cat); setSeason(SEASONAL_MAPS[cat].keys().next().value ?? 0); }
 
   const seasonMap   = SEASONAL_MAPS[cat];
   const seasons     = useMemo(() => [...seasonMap.keys()], [seasonMap]);
@@ -2254,13 +2285,14 @@ const ITEM_CATEGORY_FILTERS = [
   { key: "leaderboard", label: "Leaderboard" },
 ] as const;
 
-function ItemsTab() {
-  const [search, setSearch]       = useState("");
-  const [typeFilter, setType]     = useState("all");
+function ItemsTab({ subcategory: typeFilter, onSubcategory: setType, initialQuery }: CategoryFilters) {
+  const [search, setSearch] = useState(initialQuery);
   const [catFilter, setCat]       = useState("all");
   const [page, setPage]           = useState(1);
   const [selectedItem, setSelected] = useState<LibItem | null>(null);
   const resetPage = useCallback(() => setPage(1), []);
+  const [previousType, setPreviousType] = useState(typeFilter);
+  if (previousType !== typeFilter) { setPreviousType(typeFilter); setPage(1); }
 
   const items = _libItems;
 
@@ -2346,10 +2378,12 @@ function ItemsTab() {
       {filtered.length === 0 ? (
         <EmptyState text="Tidak ada item yang cocok dengan filter." />
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {paginated.map((item) => (
-            <ItemGridCard key={item.id} item={item} onSelect={setSelected} highlight={search} />
-          ))}
+        <div className="ency-record-list">
+          <div className="ency-list-heading"><span>Nama / ID</span><span>Tipe · Level · Damage</span></div>
+          {paginated.map(item => <details className="ency-expandable-record" key={item.id}>
+            <summary><IconImg id={item.id} size={28} /><strong>{highlightText(item.name, search)}<code>{item.id}</code></strong><span>{ITEM_TYPE_CONFIG[item.type]?.label ?? item.type}</span><span>Lv. {item.level}</span><span>{item.damage > 0 ? `${item.damage} DMG` : "—"}</span></summary>
+            <ItemGridCard item={item} onSelect={setSelected} highlight={search} />
+          </details>)}
         </div>
       )}
 
@@ -2456,11 +2490,11 @@ function ItemDetailModal({ item, onClose }: { item: LibItem; onClose: () => void
   const dialogRef = useDialog(onClose);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+    <div className="ency-inspector-overlay" onClick={onClose}>
+      <div className="ency-inspector-backdrop" />
       <div
         ref={dialogRef} role="dialog" aria-modal="true" aria-label={item.name} tabIndex={-1}
-        className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+        className="ency-inspector-panel"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
@@ -2642,14 +2676,15 @@ const ENEMY_SORT_OPTIONS = [
   { key: "level",   label: "Level ↓" },
 ] as const;
 
-function EnemyTab({ enemies }: { enemies: Enemy[] }) {
-  const [search, setSearch]       = useState("");
-  const [calcFilter, setCalcFilter] = useState("all");
+function EnemyTab({ enemies, subcategory: calcFilter, onSubcategory: setCalcFilter, initialQuery }: { enemies: Enemy[] } & CategoryFilters) {
+  const [search, setSearch] = useState(initialQuery);
   const [sortBy, setSortBy]       = useState<string>("name");
   const [playerLevel, setPlayerLevel] = useState(95);
   const [page, setPage]           = useState(1);
   const [selectedEnemy, setSelected] = useState<Enemy | null>(null);
   const resetPage = useCallback(() => setPage(1), []);
+  const [previousType, setPreviousType] = useState(calcFilter);
+  if (previousType !== calcFilter) { setPreviousType(calcFilter); setPage(1); }
 
   // Top agility leaderboard (always based on current player level)
   const topAgility = useMemo(() => {
@@ -2716,8 +2751,8 @@ function EnemyTab({ enemies }: { enemies: Enemy[] }) {
       </div>
 
       {/* Top Agility Leaderboard */}
-      <div className="rounded-xl border border-violet-800/30 bg-violet-950/10 p-4">
-        <p className="text-sm font-bold text-violet-300 mb-3">🏅 Top 10 Highest Agility <span className="text-[11px] font-normal text-slate-500">(@ Lv. {playerLevel})</span></p>
+      <details className="ency-leaderboard">
+        <summary>Top 10 Highest Agility <span>(@ Lv. {playerLevel})</span></summary>
         <div className="overflow-x-auto">
           <table className="w-full text-xs">
             <thead>
@@ -2735,12 +2770,11 @@ function EnemyTab({ enemies }: { enemies: Enemy[] }) {
                 <tr
                   key={enemy.id}
                   className="border-b border-white/[0.03] hover:bg-white/[0.03] cursor-pointer transition-colors"
-                  onClick={() => setSelected(enemy)}
                 >
                   <td className={`py-1.5 pr-2 font-bold ${i < 3 ? "text-amber-400" : "text-slate-600"}`}>
                     {i + 1}
                   </td>
-                  <td className="py-1.5 pr-2 font-semibold text-white truncate max-w-[180px]">{enemy.name}</td>
+                  <td className="py-1.5 pr-2 font-semibold text-white truncate max-w-[180px]"><button onClick={() => setSelected(enemy)} className="ency-table-link">{enemy.name}</button></td>
                   <td className="py-1.5 px-2 text-right font-bold text-violet-300">{stats.agility}</td>
                   <td className="py-1.5 px-2 text-right text-slate-400">{stats.hp.toLocaleString("id-ID")}</td>
                   <td className="py-1.5 px-2 text-right text-slate-500">{stats.level}</td>
@@ -2756,7 +2790,7 @@ function EnemyTab({ enemies }: { enemies: Enemy[] }) {
             </tbody>
           </table>
         </div>
-      </div>
+      </details>
 
       {/* Search */}
       <input
@@ -2819,10 +2853,15 @@ function EnemyTab({ enemies }: { enemies: Enemy[] }) {
       {filtered.length === 0 ? (
         <EmptyState text="Tidak ada enemy yang cocok dengan filter." />
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {paginated.map((enemy) => (
-            <EnemyCard key={enemy.id} enemy={enemy} playerLevel={playerLevel} onSelect={setSelected} />
-          ))}
+        <div className="ency-record-list">
+          <div className="ency-list-heading"><span>Nama / ID</span><span>Level · HP · Agility</span></div>
+          {paginated.map(enemy => {
+            const stats = calcEnemyStats(enemy, playerLevel);
+            return <details className="ency-expandable-record" key={enemy.id}>
+              <summary><strong>{enemy.name}<code>{enemy.id}</code></strong><span>Lv. {stats.level}</span><span>{stats.hp.toLocaleString("id-ID")} HP</span><span>{stats.agility} AGI</span></summary>
+              <EnemyCard enemy={enemy} playerLevel={playerLevel} onSelect={setSelected} />
+            </details>;
+          })}
         </div>
       )}
 
@@ -2903,11 +2942,11 @@ function EnemyDetailModal({ enemy, playerLevel, onClose }: { enemy: Enemy; playe
   const dialogRef = useDialog(onClose);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+    <div className="ency-inspector-overlay" onClick={onClose}>
+      <div className="ency-inspector-backdrop" />
       <div
         ref={dialogRef} role="dialog" aria-modal="true" aria-label={enemy.name} tabIndex={-1}
-        className="relative z-10 w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+        className="ency-inspector-panel"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
@@ -3073,11 +3112,12 @@ const EFFECT_KIND_MAP = {
   debuff: { label: "Debuff", badge: "bg-red-950/50 border-red-600/40 text-red-300" },
 } as const;
 
-function EffectsTab() {
-  const [search, setSearch]   = useState("");
+function EffectsTab({ subcategory, onSubcategory, initialQuery }: CategoryFilters) {
+  const [search, setSearch] = useState(initialQuery);
   const [kindFilter, setKind] = useState<"all" | "buff" | "debuff">("all");
-  const [catFilter,  setCat]  = useState<"all" | "offense" | "defense" | "hybrid" | "control">("all");
-  const [viewMode, setView]   = useState<ViewMode>("grid");
+  const catFilter = subcategory;
+  const setCat = onSubcategory;
+  const [viewMode, setView] = useState<ViewMode>("list");
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -3095,6 +3135,7 @@ function EffectsTab() {
       <div className="flex flex-col gap-3">
         <input
           type="text"
+          aria-label="Cari nama atau deskripsi efek"
           placeholder="🔎 Cari nama atau deskripsi efek..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -3382,11 +3423,11 @@ function EffectSkillsModal({
 
   return (
     <>
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
-        <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+      <div className="ency-inspector-overlay" onClick={onClose}>
+        <div className="ency-inspector-backdrop" />
         <div
           ref={dialogRef} role="dialog" aria-modal={!selectedSkill} aria-label={effect.name} tabIndex={-1}
-          className="relative z-10 w-full max-w-xl max-h-[90vh] flex flex-col rounded-2xl border border-white/10 bg-[#0e0e14] shadow-2xl shadow-black/60"
+          className="ency-inspector-panel ency-inspector-related"
           onClick={(e) => e.stopPropagation()}
         >
           {/* Modal header */}
@@ -3502,6 +3543,7 @@ function TypeChip({
   return (
     <button
       onClick={onClick}
+      aria-pressed={active}
       className={`rounded-full px-3 py-1 text-xs font-medium border transition-all ${
         active
           ? "bg-red-600/80 border-red-500 text-white"

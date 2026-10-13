@@ -359,20 +359,20 @@ export default function ChangelogPage() {
 
   return (
     <div className="page-container changelog-page journal-page">
-      <PageHeader title="Changelog" description="Riwayat pembaruan skill, item, dan efek. Pilih tanggal untuk membandingkan perubahan data." />
+      <PageHeader title="Changelog" description="Pilih sinkronisasi, saring record, lalu bandingkan data sebelum dan sesudah pembaruan." />
 
       {error && (
-        <div className="mb-6 rounded-xl border border-red-800/50 bg-red-950/30 px-4 py-3 text-sm text-red-300">
-          ⚠️ {error}
+        <div className="journal-error" role="alert">
+          {error}
         </div>
       )}
 
       <div className="changelog-layout">
-        <div className="space-y-4">
-          <div className="sync-sidebar space-y-4">
+        <aside className="journal-sidebar" aria-label="Riwayat dan filter perubahan">
+          <div className="sync-sidebar">
             {/* Sync list */}
             <details ref={historyRef} className="sync-history journal-history">
-              <summary>Arsip pembaruan <small>· Pilih tanggal</small></summary>
+              <summary>Riwayat sinkronisasi <small>{syncs.length}</small></summary>
               <div>
               {syncsLoading ? (
                 <div className="space-y-2">
@@ -382,7 +382,6 @@ export default function ChangelogPage() {
                 </div>
               ) : syncs.length === 0 ? (
                 <div className="space-y-2 py-6 text-center">
-                  <p className="text-2xl">📭</p>
                   <p className="text-slate-600 text-sm">Belum ada sync.</p>
                   <p className="text-slate-700 text-xs leading-relaxed">
                     Jalankan sekali untuk mulai tracking:
@@ -392,7 +391,7 @@ export default function ChangelogPage() {
                   </code>
                 </div>
               ) : (
-                <div className="max-h-[52vh] space-y-2 overflow-y-auto pr-1 [scrollbar-width:thin]">
+                <div className="journal-run-list">
                   {syncs.map((run) => (
                     <SyncBadge
                       key={run.id}
@@ -405,41 +404,10 @@ export default function ChangelogPage() {
               )}
               </div>
             </details>
-
-            {/* Active sync stats */}
-            {activeSync && <details className="journal-index"><summary>Isi snapshot · {totalEntities.toLocaleString("id-ID")} entitas</summary><dl>{Object.entries(activeSync.totals).map(([label, count]) => <div key={label}><dt>{label}</dt><dd>{count.toLocaleString("id-ID")}</dd></div>)}</dl></details>}
-
-            {/* How to sync */}
-            <details className="changelog-help">
-              <summary>Informasi sinkronisasi</summary>
-              <p className="mb-2 text-[11px] text-slate-500">
-                Perbarui dump files, lalu jalankan:
-              </p>
-              <code className="block rounded-lg bg-black/30 px-3 py-2 text-[11px] font-mono text-slate-400">
-                node scripts/sync-dump.js
-              </code>
-              <p className="mt-2 text-[10px] text-slate-600">
-                Lalu commit <code className="font-mono">public/data/</code> ke repo.
-              </p>
-            </details>
-          </div>
-        </div>
-
-        <div className="journal-content">
-          <header className="journal-edition"><div><h2>{activeSync ? formatDate(activeSync.syncedAt) : "Memuat pembaruan…"}</h2><p>{activeSync?.initial ? "Snapshot awal database" : "Catatan sinkronisasi database"}</p></div><span>{activeSync?.changes.toLocaleString("id-ID") ?? "—"}<small>perubahan tercatat</small></span></header>
-          <div className="journal-controls">
-            <div className="journal-search">
-            <input
-              aria-label="Cari perubahan skill atau item"
-              type="text"
-              placeholder="Cari nama atau ID…"
-              value={search}
-              onChange={(e) => handleFilter(setSearch, e.target.value)}
-              className="w-full rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:border-amber-700/60 focus:outline-none focus:ring-1 focus:ring-amber-700/30"
-            />
-            <select aria-label="Kategori perubahan" value={category} onChange={(event) => handleFilter(setCategory, event.target.value)}>{CATEGORIES.map(({key, label}) => <option key={key} value={key}>{key === "all" ? "Semua kategori" : label}</option>)}</select>
-            </div>
-
+            <section className="journal-filter-panel" aria-labelledby="journal-filter-title">
+              <h2 id="journal-filter-title">Filter perubahan</h2>
+              <label htmlFor="journal-category">Kategori record</label>
+            <select id="journal-category" value={category} onChange={(event) => handleFilter(setCategory, event.target.value)}>{CATEGORIES.map(({key, label}) => <option key={key} value={key}>{key === "all" ? "Semua kategori" : label}</option>)}</select>
             <div className="journal-actions" role="group" aria-label="Jenis perubahan">
               {(["all", ...ACTION_KEYS] as const).map((key) => {
                 const cfg = key === "all" ? null : ACTION_CONFIG[key];
@@ -461,6 +429,41 @@ export default function ChangelogPage() {
                 );
               })}
             </div>
+            </section>
+
+            {/* Active sync stats */}
+            {activeSync && <details className="journal-index"><summary>Isi snapshot · {totalEntities.toLocaleString("id-ID")} entitas</summary><dl>{Object.entries(activeSync.totals).map(([label, count]) => <div key={label}><dt>{label}</dt><dd>{count.toLocaleString("id-ID")}</dd></div>)}</dl></details>}
+
+            {/* How to sync */}
+            <details className="changelog-help">
+              <summary>Informasi sinkronisasi</summary>
+              <p className="mb-2 text-[11px] text-slate-500">
+                Perbarui dump files, lalu jalankan:
+              </p>
+              <code className="block rounded-lg bg-black/30 px-3 py-2 text-[11px] font-mono text-slate-400">
+                node scripts/sync-dump.js
+              </code>
+              <p className="mt-2 text-[10px] text-slate-600">
+                Lalu commit <code className="font-mono">public/data/</code> ke repo.
+              </p>
+            </details>
+          </div>
+        </aside>
+
+        <section className="journal-content" aria-label="Rincian perubahan">
+          <header className="journal-edition"><div><h2>{activeSync ? formatDate(activeSync.syncedAt) : syncsLoading ? "Memuat pembaruan…" : "Pilih sinkronisasi"}</h2><p>{activeSync?.initial ? "Snapshot awal database" : "Catatan sinkronisasi database"}</p></div><span>{activeSync?.changes.toLocaleString("id-ID") ?? "—"}<small>perubahan tercatat</small></span></header>
+          <div className="journal-controls">
+            <div className="journal-search">
+            <input
+              aria-label="Cari perubahan skill atau item"
+              type="text"
+              placeholder="Cari nama atau ID…"
+              value={search}
+              onChange={(e) => handleFilter(setSearch, e.target.value)}
+              className="journal-search-input"
+            />
+            </div>
+
 
             <div className="journal-density">
               <div className="flex flex-wrap gap-1.5">
@@ -499,12 +502,13 @@ export default function ChangelogPage() {
             {(search || category !== "all" || action !== "all") && (
               <button
                 onClick={() => { setSearch(""); setCategory("all"); setAction("all"); setPage(1); }}
-                className="text-red-400 transition-colors hover:text-red-300"
+                className="journal-reset"
               >
-                ✕ Reset filter
+                Reset filter
               </button>
             )}
           </div>
+          <div className="journal-ledger-heading" aria-hidden="true"><span>Record / atribut</span><span>Perubahan nilai</span><span>Status</span></div>
 
           {/* Entries list */}
           {entriesLoading ? (
@@ -515,12 +519,10 @@ export default function ChangelogPage() {
             </div>
           ) : !activeSyncId ? (
             <div className="rounded-2xl border border-white/[0.08] bg-slate-900/35 py-16 text-center">
-              <p className="text-3xl mb-2">👈</p>
               <p className="text-slate-500 text-sm">Pilih sync run di sidebar.</p>
             </div>
           ) : paginated.length === 0 ? (
             <div className="rounded-2xl border border-white/[0.08] bg-slate-900/35 py-16 text-center">
-              <p className="text-3xl mb-2">📭</p>
               <p className="text-slate-500 text-sm">
                 {activeSync?.initial
                   ? "Ini adalah initial snapshot — belum ada perubahan yang bisa ditampilkan."
@@ -536,7 +538,7 @@ export default function ChangelogPage() {
           )}
 
           {totalPages > 1 && (
-            <div className="flex flex-wrap items-center justify-center gap-1.5 pt-2">
+            <nav className="journal-pagination" aria-label="Halaman perubahan">
               <button
                 onClick={() => setPage(p => Math.max(1, p - 1))}
                 disabled={page === 1}
@@ -572,9 +574,9 @@ export default function ChangelogPage() {
               >
                 Next →
               </button>
-            </div>
+            </nav>
           )}
-        </div>
+        </section>
       </div>
     </div>
   );

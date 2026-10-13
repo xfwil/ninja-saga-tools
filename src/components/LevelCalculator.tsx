@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { levelXP, xpBetween, MIN_LEVEL, MAX_LEVEL } from "@/data/levels";
+import "./planning-workshop.css";
 
 function formatNumber(n: number) {
   return n.toLocaleString("id-ID");
@@ -40,210 +41,47 @@ export default function LevelCalculator({ xpPerSession }: { xpPerSession: number
 
   const clampLevel = (v: number) => Math.max(MIN_LEVEL, Math.min(MAX_LEVEL, v));
 
-  return (
-    <div className="garden-levels rounded-2xl border border-white/10 p-6">
-      {/* Header */}
-      <div className="flex items-center gap-2 mb-5">
-        <div>
-          <h3 className="font-bold text-white text-base">Level Target Calculator</h3>
-          <p className="text-xs text-slate-500">Hitung XP yang dibutuhkan untuk naik level</p>
-        </div>
-      </div>
-
-      {/* Input grid */}
-      <div className="grid grid-cols-1 gap-4 mb-5">
-        {/* Current Level */}
-        <LevelInput
-          label="Level Sekarang"
-          value={currentLevel}
-          onChange={(v) => {
-            const clamped = clampLevel(v);
-            setCurrentLevel(clamped);
-            if (clamped >= targetLevel) setTargetLevel(Math.min(MAX_LEVEL, clamped + 1));
-          }}
-          min={MIN_LEVEL}
-          max={MAX_LEVEL - 1}
-          color="violet"
-        />
-
-        {/* Target Level */}
-        <LevelInput
-          label="Level Target"
-          value={targetLevel}
-          onChange={(v) => {
-            const clamped = clampLevel(v);
-            setTargetLevel(clamped);
-            if (clamped <= currentLevel) setCurrentLevel(Math.max(MIN_LEVEL, clamped - 1));
-          }}
-          min={MIN_LEVEL + 1}
-          max={MAX_LEVEL}
-          color="violet"
-        />
-
-        {/* Current XP owned */}
-        <div className="flex flex-col gap-1.5">
-          <label htmlFor="garden-current-xp" className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-            XP Saat Ini
-          </label>
-          <input
-            id="garden-current-xp"
-            type="text"
-            inputMode="numeric"
-            value={currentXP === 0 ? "" : formatNumber(currentXP)}
-            onChange={(e) => {
-              setCurrentXP(parseLocalizedNumber(e.target.value));
-            }}
-            placeholder="0"
-            className="rounded-lg border border-white/10 bg-white/5 px-3 py-2.5 text-sm text-white outline-none focus:border-violet-600/60 focus:bg-violet-950/20 transition-all [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
-          />
-          <p className="text-[11px] text-slate-700">XP yang sudah kamu punya sekarang</p>
-        </div>
-      </div>
-
-      {/* Result */}
-      {result ? (
-        <div className="space-y-4">
-          {/* XP needed breakdown */}
-          <div className="grid grid-cols-2 gap-3">
-            <StatBox
-              label="Total XP Dibutuhkan"
-              value={`${formatNumber(result.needed)} XP`}
-              sub={`Lv. ${currentLevel} → ${targetLevel}`}
-              color="violet"
-            />
-            <StatBox
-              label="XP Tersisa"
-              value={`${formatNumber(result.remaining)} XP`}
-              sub={currentXP > 0 ? `Sudah punya ${formatNumber(currentXP)} XP` : "Belum punya XP"}
-              color="red"
-            />
-            {result.sessionsNeeded !== null ? (
-              <StatBox
-                label="Estimasi Sesi"
-                value={`${formatNumber(result.sessionsNeeded)} sesi`}
-                sub={formatDays(result.sessionsNeeded)}
-                color="amber"
-              />
-            ) : (
-              <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3 flex items-center justify-center text-center">
-                <p className="text-xs text-slate-600">Set boss & burn dulu untuk estimasi sesi</p>
-              </div>
-            )}
-          </div>
-
-          {/* Progress bar */}
-          {currentXP > 0 && (
-            <div>
-              <div className="flex justify-between text-xs text-slate-600 mb-1.5">
-                <span>Progress menuju Lv. {targetLevel}</span>
-                <span>{result.progress}%</span>
-              </div>
-              <div className="h-2 w-full rounded-full bg-white/5 overflow-hidden">
-                <div
-                  className="h-full rounded-full bg-gradient-to-r from-violet-700 to-violet-400 transition-all duration-500"
-                  style={{ width: `${result.progress}%` }}
-                />
-              </div>
-            </div>
-          )}
-
-          {/* XP per session note */}
-          {xpPerSession > 0 && (
-            <p className="text-xs text-slate-600 border-t border-white/5 pt-3">
-              Berdasarkan setting saat ini:{" "}
-              <span className="text-slate-400 font-medium">{formatNumber(xpPerSession)} XP / sesi</span>
-              {result.sessionsNeeded !== null && result.sessionsNeeded > 0 && (
-                <> · butuh <span className="text-violet-400 font-medium">{formatNumber(result.sessionsNeeded)} sesi</span> lagi</>
-              )}
-            </p>
-          )}
-        </div>
-      ) : (
-        <p className="text-sm text-slate-600 italic">
-          Level target harus lebih tinggi dari level sekarang.
-        </p>
-      )}
+  return <section className="planning-sheet garden-level-sheet" aria-labelledby="garden-level-heading">
+    <div className="planning-section-heading"><div><h2 id="garden-level-heading">Rencana level</h2><p>Hitung XP dan jumlah sesi dari pengaturan Garden.</p></div><span>{formatNumber(xpPerSession)} XP / sesi</span></div>
+    <div className="planning-input-row">
+      <div className="planning-row-description"><h3>Rentang level</h3><p>Tentukan level tujuan.</p></div>
+      <LevelInput label="Level sekarang" value={currentLevel} onChange={(v) => {
+        const clamped = clampLevel(v);
+        setCurrentLevel(clamped);
+        if (clamped >= targetLevel) setTargetLevel(Math.min(MAX_LEVEL, clamped + 1));
+      }} min={MIN_LEVEL} max={MAX_LEVEL - 1} />
+      <span className="planning-operator" aria-hidden="true">→</span>
+      <LevelInput label="Level target" value={targetLevel} onChange={(v) => {
+        const clamped = clampLevel(v);
+        setTargetLevel(clamped);
+        if (clamped <= currentLevel) setCurrentLevel(Math.max(MIN_LEVEL, clamped - 1));
+      }} min={MIN_LEVEL + 1} max={MAX_LEVEL} />
+      <p className="planning-row-note">Lv. {currentLevel} → {targetLevel}</p>
     </div>
-  );
+    <div className="planning-input-row">
+      <div className="planning-row-description"><h3>XP yang dimiliki</h3><p>Dikurangi dari total kebutuhan XP.</p></div>
+      <label className="planning-field" htmlFor="garden-current-xp">XP saat ini<input id="garden-current-xp" type="text" inputMode="numeric" value={currentXP === 0 ? "" : formatNumber(currentXP)} onChange={(e) => setCurrentXP(parseLocalizedNumber(e.target.value))} placeholder="0" /></label>
+      <span className="planning-operator" aria-hidden="true">→</span>
+      <div className="planning-static"><span>Estimasi sesi</span><strong>{result && result.sessionsNeeded !== null ? `${formatNumber(result.sessionsNeeded)} sesi` : "—"}</strong></div>
+      <p className="planning-row-note">{result && result.sessionsNeeded !== null ? formatDays(result.sessionsNeeded) : "Set boss & burn dulu untuk estimasi sesi"}</p>
+    </div>
+    {result ? <>
+      <div className="planning-equation" role="status"><div><span>Total XP dibutuhkan</span><strong>{formatNumber(result.needed)}</strong></div><span aria-hidden="true">−</span><div><span>XP saat ini</span><strong>{formatNumber(currentXP)}</strong></div><span aria-hidden="true">=</span><div className="planning-answer"><span>XP tersisa</span><strong>{formatNumber(result.remaining)} <small>XP</small></strong></div></div>
+      {currentXP > 0 && <div className="planning-progress"><div><span>Progress menuju Lv. {targetLevel}</span><strong>{result.progress}%</strong></div><progress value={result.progress} max={100} aria-label={`Progress menuju level ${targetLevel}`} /></div>}
+      {xpPerSession > 0 && <p className="planning-footnote">Berdasarkan setting saat ini: {formatNumber(xpPerSession)} XP / sesi{result.sessionsNeeded !== null && result.sessionsNeeded > 0 && <> · butuh {formatNumber(result.sessionsNeeded)} sesi lagi</>}. Estimasi hari memakai satu sesi per hari.</p>}
+    </> : <p className="planning-empty">Level target harus lebih tinggi dari level sekarang.</p>}
+  </section>;
 }
 
-function LevelInput({
-  label,
-  value,
-  onChange,
-  min,
-  max,
-  color,
-}: {
-  label: string;
-  value: number;
-  onChange: (v: number) => void;
-  min: number;
-  max: number;
-  color: string;
+function LevelInput({ label, value, onChange, min, max }: {
+  label: string; value: number; onChange: (v: number) => void; min: number; max: number;
 }) {
-  const borderFocus = color === "violet" ? "focus:border-violet-600/60 focus:bg-violet-950/20" : "";
-  return (
-    <div className="flex flex-col gap-1.5">
-      <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider">{label}</label>
-      <div className="flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 p-0.5">
-        <button
-          aria-label={`Kurangi ${label.toLowerCase()}`}
-          onClick={() => onChange(Math.max(min, value - 1))}
-          disabled={value <= min}
-          className="h-9 w-9 shrink-0 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg leading-none font-bold"
-        >
-          −
-        </button>
-        <input
-          aria-label={label}
-          type="number"
-          min={min}
-          max={max}
-          value={value}
-          onChange={(e) => {
-            const v = parseInt(e.target.value, 10);
-            if (!isNaN(v)) onChange(Math.max(min, Math.min(max, v)));
-          }}
-          className={`flex-1 min-w-0 text-center bg-transparent text-lg font-black text-white outline-none ${borderFocus} [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none`}
-        />
-        <button
-          aria-label={`Tambah ${label.toLowerCase()}`}
-          onClick={() => onChange(Math.min(max, value + 1))}
-          disabled={value >= max}
-          className="h-9 w-9 shrink-0 rounded-md flex items-center justify-center text-slate-400 hover:bg-white/10 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg leading-none font-bold"
-        >
-          +
-        </button>
-      </div>
-      <p className="text-[11px] text-slate-700">
-        XP threshold: {formatNumber(levelXP[value] ?? 0)}
-      </p>
-    </div>
-  );
-}
-
-function StatBox({
-  label,
-  value,
-  sub,
-  color,
-}: {
-  label: string;
-  value: string;
-  sub: string;
-  color: "violet" | "red" | "amber";
-}) {
-  const colors = {
-    violet: "text-violet-300",
-    red: "text-red-400",
-    amber: "text-amber-300",
-  };
-  return (
-    <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3">
-      <p className="text-[11px] text-slate-600 uppercase tracking-wider mb-1">{label}</p>
-      <p className={`text-base font-bold ${colors[color]}`}>{value}</p>
-      <p className="text-[11px] text-slate-600 mt-0.5">{sub}</p>
-    </div>
-  );
+  return <div className="planning-field"><span>{label}</span><div className="planning-stepper">
+    <button aria-label={`Kurangi ${label.toLowerCase()}`} onClick={() => onChange(Math.max(min, value - 1))} disabled={value <= min}>−</button>
+    <input aria-label={label} type="number" min={min} max={max} value={value} onChange={(e) => {
+      const v = parseInt(e.target.value, 10);
+      if (!isNaN(v)) onChange(Math.max(min, Math.min(max, v)));
+    }} />
+    <button aria-label={`Tambah ${label.toLowerCase()}`} onClick={() => onChange(Math.min(max, value + 1))} disabled={value >= max}>+</button>
+  </div><small>XP threshold: {formatNumber(levelXP[value] ?? 0)}</small></div>;
 }

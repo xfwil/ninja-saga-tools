@@ -1,0 +1,81 @@
+.rewards-page .page-header { margin-bottom: 22px; }
+.rewards-page .page-heading { display: block; }
+.rewards-page .page-heading h1 { font-size: 27px; letter-spacing: -.025em; }
+.rewards-page .page-heading p { margin-top: 8px; color: var(--muted); font-size: 13px; }
+.rewards-workspace { display: grid; grid-template-columns: 220px minmax(0,1fr); border: 1px solid var(--line); background: var(--surface); align-items: start; }
+.rewards-sidebar { padding: 18px 14px; position: sticky; top: 80px; }
+.rewards-seasons summary { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 650; min-height: 32px; cursor: pointer; }
+.rewards-seasons summary span { color: var(--muted); font-variant-numeric: tabular-nums; }
+.rewards-seasons nav { max-height: 330px; overflow-y: auto; margin: 12px -14px 16px; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+.rewards-seasons button { display: flex; width: 100%; align-items: center; justify-content: space-between; padding: 12px 14px; border-block: 1px solid transparent; text-align: left; }
+.rewards-seasons button strong { font-size: 13px; }
+.rewards-seasons button time { font-size: 11px; color: var(--muted); }
+.rewards-seasons button:hover { background: var(--surface-raised); }
+.rewards-seasons button[aria-pressed="true"] { color: var(--accent); background: var(--surface-raised); border-color: var(--line); }
+.rewards-fetch { width: 100%; padding: 10px; border: 1px solid var(--accent); color: var(--accent); border-radius: 4px; font-size: 12px; font-weight: 600; }
+.rewards-fetch:hover { background: var(--surface-raised); }
+.rewards-fetch:disabled { opacity: .6; cursor: wait; }
+.rewards-source { font-size: 11px; line-height: 1.65; color: var(--muted); margin-top: 12px; }
+.rewards-category-nav { border-top: 1px solid var(--line); margin-top: 22px; padding-top: 16px; }
+.rewards-category-nav h2 { font-size: 12px; margin-bottom: 10px; font-weight: 600; }
+.rewards-category-nav a { display: flex; justify-content: space-between; gap: 10px; padding: 9px 0; color: var(--muted); font-size: 12px; }
+.rewards-category-nav a:hover { color: var(--accent); }
+.rewards-content { min-width: 0; border-left: 1px solid var(--line); background: var(--background); }
+.rewards-edition { display: flex; justify-content: space-between; gap: 18px; align-items: center; padding: 22px 24px; border-bottom: 1px solid var(--line); }
+.rewards-edition h2 { font-size: 22px; font-weight: 600; letter-spacing: -.02em; }
+.rewards-edition p { color: var(--muted); font-size: 12px; margin-top: 6px; }
+.rewards-edition > div:last-child { text-align: right; font-size: 12px; }
+.rewards-edition span { display: block; color: var(--muted); margin-bottom: 6px; font-size: 11px; }
+.rewards-ledger { scroll-margin-top: 90px; }
+.rewards-ledger > header { display: flex; justify-content: space-between; padding: 16px 24px; background: var(--surface); border-bottom: 1px solid var(--line); }
+.rewards-ledger h3 { font-size: 14px; font-weight: 650; }
+.rewards-ledger > header > span { color: var(--muted); font-size: 11px; }
+.rewards-ledger table { border-collapse: collapse; width: 100%; table-layout: fixed; }
+.rewards-ledger thead th { background: var(--surface); color: var(--muted); text-align: left; font-size: 11px; font-weight: 500; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+.rewards-ledger thead th:first-child { width: 128px; padding-left: 24px; }
+.rewards-ledger tbody th { font-size: 12px; font-weight: 600; text-align: left; vertical-align: top; padding: 20px 12px 20px 24px; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.rewards-ledger td { padding: 8px 16px 8px 0; border-bottom: 1px solid var(--line); }
+.reward-records { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 2px 8px; }
+.reward-record { display: flex; align-items: center; gap: 10px; min-width: 0; text-align: left; padding: 8px; border-radius: 3px; }
+.reward-record:hover { background: var(--surface-raised); }
+.reward-record > span { flex: 1; min-width: 0; }
+.reward-record strong { display: block; font-size: 12px; font-weight: 500; line-height: 1.5; overflow-wrap: anywhere; }
+.reward-record code { display: block; color: var(--muted); font-size: 10px; margin-top: 3px; overflow-wrap: anywhere; }
+.reward-record svg { flex-shrink: 0; color: var(--accent); }
+.rewards-notice { padding: 14px 24px; color: var(--accent); border-bottom: 1px solid var(--line); font-size: 13px; }
+.rewards-state { padding: 40px 24px; background: var(--surface); font-size: 14px; color: var(--muted); }
+.rewards-state h2 { color: var(--foreground); font-size: 18px; margin-bottom: 8px; }
+.rewards-error { color: #f1aaa2; }
+.rewards-detail-overlay { position: fixed; inset: 0; z-index: 60; display: flex; justify-content: flex-end; }
+.rewards-detail-backdrop { position: absolute; inset: 0; background: rgb(16 23 31 / 65%); }
+.rewards-detail-panel { position: relative; z-index: 1; width: min(560px,100%); height: 100%; overflow-y: auto; background: var(--surface); color: var(--foreground); box-shadow: -16px 0 40px rgb(0 0 0 / 18%); scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+.rewards-detail-heading { position: sticky; top: 0; z-index: 1; display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 24px 20px; background: var(--surface); border-bottom: 1px solid var(--line); }
+.rewards-detail-panel :is(.text-slate-400,.text-slate-500,.text-slate-600,.text-slate-300) { color: var(--muted); }
+.rewards-detail-panel .text-white { color: var(--foreground); }
+.rewards-detail-panel .truncate { white-space: normal; overflow-wrap: anywhere; }
+.rewards-detail-panel .shrink-0 { flex-shrink: 1; }
+.rewards-detail-panel .opacity-60,.rewards-detail-panel .opacity-70,.rewards-detail-panel .opacity-80 { opacity: 1; }
+.rewards-detail-panel .grid > div { background: var(--surface-raised); border-color: var(--line); border-radius: 3px; }
+.rewards-workspace :is(button,a,summary):focus-visible,.rewards-detail-panel button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media(max-width:1100px) { .reward-records { grid-template-columns: 1fr; } }
+@media(max-width:760px) {
+  .rewards-workspace { grid-template-columns: 1fr; }
+  .rewards-sidebar { position: static; display: grid; grid-template-columns: 1fr auto; gap: 12px; }
+  .rewards-seasons { grid-column: 1 / -1; }
+  .rewards-seasons nav { display: flex; margin: 10px 0 0; max-height: 160px; gap: 6px; }
+  .rewards-seasons button { flex: 0 0 auto; width: auto; flex-direction: column; align-items: flex-start; gap: 4px; border: 1px solid var(--line); border-radius: 3px; }
+  .rewards-fetch { grid-column: 2; grid-row: 2; width: auto; align-self: start; }
+  .rewards-source { grid-column: 1; grid-row: 2; margin: 0; }
+  .rewards-category-nav { grid-column: 1/-1; margin: 0; padding-top: 10px; display: flex; flex-wrap: wrap; gap: 4px 16px; }
+  .rewards-category-nav h2 { display: none; }
+  .rewards-category-nav a { gap: 6px; }
+  .rewards-content { border-left: 0; border-top: 1px solid var(--line); }
+  .rewards-edition { padding: 18px 14px; }
+  .rewards-edition h2 { font-size: 20px; }
+  .rewards-ledger > header { padding: 14px; }
+  .rewards-ledger thead th:first-child { width: 92px; padding-left: 14px; }
+  .rewards-ledger tbody th { padding: 20px 8px 20px 14px; font-size: 11px; }
+  .rewards-ledger td { padding-right: 6px; }
+  .reward-record { gap: 7px; padding: 8px 4px; }
+  .reward-record svg { display: none; }
+}

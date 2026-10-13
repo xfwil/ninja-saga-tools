@@ -1,0 +1,142 @@
+.planning-page { color: var(--foreground); }
+.planning-page-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; padding: 8px 0 25px; }
+.planning-page-header h1 { margin: 0; font-size: clamp(25px, 3vw, 34px); font-weight: 650; letter-spacing: -.035em; line-height: 1.2; }
+.planning-page-header p { max-width: 68ch; margin: 9px 0 0; color: var(--muted); font-size: 14px; line-height: 1.6; }
+.planning-page-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; flex-shrink: 0; padding-top: 4px; font-size: 12px; color: var(--muted); }
+.planning-page-meta a { color: var(--accent); text-underline-offset: 4px; }
+.planning-page-meta a:hover { text-decoration: underline; }
+.planning-sheet, .garden-ledger { min-width: 0; border: 1px solid var(--line); background: var(--surface); }
+.planning-section-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 22px; border-bottom: 1px solid var(--line); }
+.planning-section-heading h2, .garden-inspector h2 { font-size: 15px; line-height: 1.4; font-weight: 650; margin: 0; }
+.planning-section-heading p, .planning-section-heading > span { color: var(--muted); font-size: 12px; margin: 4px 0 0; line-height: 1.5; }
+.planning-input-row { display: grid; grid-template-columns: minmax(190px, 1.25fr) minmax(145px, 1fr) 24px minmax(145px, 1fr) minmax(135px, .9fr); gap: 20px; align-items: center; padding: 22px; border-bottom: 1px solid var(--line); }
+.planning-row-description h3 { margin: 0 0 5px; font-size: 14px; font-weight: 600; }
+.planning-row-description p, .planning-row-note { color: var(--muted); font-size: 12px; line-height: 1.6; margin: 0; }
+.planning-field { display: flex; flex-direction: column; gap: 7px; min-width: 0; color: var(--muted); font-size: 12px; }
+.planning-field small { font-size: 11px; font-variant-numeric: tabular-nums; }
+.planning-page input { min-width: 0; width: 100%; border: 1px solid var(--line); border-radius: 3px; background: var(--background); padding: 11px 12px; color: var(--foreground); font-size: 14px; font-variant-numeric: tabular-nums; caret-color: var(--accent); }
+.planning-page input::placeholder { color: var(--muted); opacity: .85; }
+.planning-page input[type=number] { appearance: textfield; }
+.planning-page input::-webkit-inner-spin-button, .planning-page input::-webkit-outer-spin-button { appearance: none; }
+.planning-page button { cursor: pointer; }
+.planning-page :is(button, input, a, [tabindex]):focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.planning-page button:disabled { opacity: .38; cursor: not-allowed; }
+.planning-stepper { display: flex; align-items: center; min-width: 0; background: var(--background); border: 1px solid var(--line); border-radius: 3px; }
+.planning-stepper button { flex: 0 0 38px; min-height: 42px; border: 0; background: transparent; color: var(--muted); font-size: 20px; }
+.planning-stepper button:hover:not(:disabled) { background: var(--surface-raised); color: var(--foreground); }
+.planning-stepper input { border: 0; background: transparent; text-align: center; padding: 8px 2px; font-size: 18px; }
+.planning-stepper > span { min-width: 28px; text-align: center; font-size: 16px; font-variant-numeric: tabular-nums; }
+.planning-operator { text-align: center; color: var(--muted); font-size: 18px; }
+.planning-static { display: flex; flex-direction: column; gap: 9px; min-width: 0; }
+.planning-static > span { color: var(--muted); font-size: 12px; }
+.planning-static strong { font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.planning-equation { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; padding: 25px 22px; background: var(--background); border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.planning-equation > div { display: flex; flex-direction: column; gap: 8px; flex: 1; min-width: 145px; }
+.planning-equation > span { font-size: 22px; color: var(--muted); }
+.planning-equation div > span { color: var(--muted); font-size: 12px; }
+.planning-equation strong { font-size: clamp(18px, 2vw, 25px); font-weight: 600; overflow-wrap: anywhere; }
+.planning-equation small { font-size: 13px; }
+.planning-equation .planning-answer { flex: 1.2; color: var(--accent); }
+.planning-equation .planning-answer > span { color: var(--accent); }
+.planning-progress { padding: 18px 22px; color: var(--muted); font-size: 11px; }
+.planning-progress > div { display: flex; justify-content: space-between; gap: 12px; line-height: 1.5; }
+.planning-progress progress { appearance: none; display: block; width: 100%; height: 5px; margin: 9px 0; border: none; background: var(--line); accent-color: var(--accent); }
+.planning-progress progress::-webkit-progress-bar { background: var(--line); }
+.planning-progress progress::-webkit-progress-value { background: var(--accent); }
+.planning-progress progress::-moz-progress-bar { background: var(--accent); }
+.planning-table-heading { margin-top: 8px; }
+.planning-section-heading button { border: 1px solid var(--line); border-radius: 3px; padding: 9px 12px; color: var(--foreground); font-size: 12px; background: var(--background); }
+.planning-section-heading button:hover { background: var(--surface-raised); }
+.planning-table-scroll { overflow: auto; max-height: 560px; scrollbar-color: var(--line) var(--background); scrollbar-width: thin; }
+.planning-table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; text-align: right; }
+.planning-table th, .planning-table td { padding: 12px 20px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.planning-table th:first-child, .planning-table td:first-child { text-align: left; }
+.planning-table thead { position: sticky; top: 0; z-index: 1; background: var(--surface-raised); color: var(--muted); font-size: 11px; }
+.planning-table thead th { font-weight: 600; }
+.planning-table tbody tr:hover { background: var(--surface-raised); }
+.planning-table tbody td:last-child { color: var(--accent); }
+.planning-table tfoot { background: var(--background); font-size: 12px; }
+.planning-table tfoot th, .planning-table tfoot td { border-bottom: 0; padding-top: 15px; padding-bottom: 15px; }
+.planning-footnote, .planning-empty { padding: 18px 22px; margin: 0; color: var(--muted); line-height: 1.65; font-size: 12px; }
+.garden-ledger-facts { display: flex; flex-wrap: wrap; gap: 12px 32px; padding: 14px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+.garden-ledger-facts strong { color: var(--foreground); font-weight: 600; }
+.garden-workspace { display: flex; flex-direction: column; gap: 30px; }
+.garden-ledger-layout { display: grid; grid-template-columns: minmax(0, 1fr) 310px; border: 1px solid var(--line); background: var(--surface); align-items: start; }
+.garden-ledger { border: 0; }
+.garden-ledger .planning-section-heading { align-items: flex-start; }
+.planning-actions { display: flex; gap: 6px; flex-shrink: 0; }
+.garden-boss-table th, .garden-boss-table td { padding: 13px 16px; }
+.garden-boss-table tbody th { font-weight: 400; }
+.garden-boss-name { display: flex; gap: 12px; align-items: center; }
+.garden-boss-name strong { font-weight: 550; font-size: 13px; }
+.garden-boss-name small, .garden-subtotal small { display: block; font-size: 11px; color: var(--muted); margin-top: 5px; }
+.garden-grade { display: flex; justify-content: center; align-items: center; min-width: 28px; height: 28px; background: var(--background); border: 1px solid var(--line); color: var(--accent); font-size: 11px; font-weight: 650; }
+.garden-fight-control { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.garden-fight-control .planning-stepper button { min-height: 36px; flex-basis: 32px; }
+.garden-quick-count { display: flex; gap: 4px; }
+.garden-quick-count button { min-width: 28px; min-height: 28px; font-size: 11px; border: 1px solid var(--line); background: var(--background); color: var(--muted); border-radius: 2px; }
+.garden-quick-count button[aria-pressed=true] { color: var(--accent); background: var(--surface-raised); border-color: var(--accent); }
+.garden-quick-count button:hover { color: var(--foreground); background: var(--surface-raised); }
+.garden-subtotal strong { font-weight: 600; }
+.garden-boss-table tr[data-active=false] .garden-boss-name { color: var(--muted); }
+.garden-inspector { min-width: 0; border-left: 1px solid var(--line); background: var(--background); align-self: stretch; }
+.garden-burn, .garden-summary { padding: 22px; }
+.garden-burn { border-bottom: 1px solid var(--line); }
+.garden-burn > p { color: var(--muted); font-size: 12px; line-height: 1.7; margin: 10px 0 18px; }
+.garden-burn-input { display: flex; align-items: center; gap: 12px; margin-top: 8px; }
+.garden-burn-input .planning-stepper { width: 145px; }
+.garden-burn-input > strong { color: var(--accent); font-size: 12px; font-weight: 600; white-space: nowrap; }
+.garden-burn > .garden-burn-note { margin: 12px 0 0; font-size: 11px; }
+.garden-token-cost { display: grid; grid-template-columns: 1fr auto; gap: 8px; border-top: 1px solid var(--line); margin-top: 18px; padding-top: 15px; font-size: 12px; }
+.garden-token-cost span, .garden-token-cost small { color: var(--muted); }
+.garden-token-cost strong { color: var(--accent); }
+.garden-token-cost small { grid-column: 1 / -1; }
+.garden-summary-equation { color: var(--muted); font-size: 12px; line-height: 1.6; margin: 12px 0; }
+.garden-total-lines { margin: 15px 0 0; font-variant-numeric: tabular-nums; }
+.garden-total-lines > div { padding: 14px 0; border-bottom: 1px solid var(--line); display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.garden-total-lines dt { color: var(--muted); font-size: 12px; }
+.garden-total-lines dd { margin: 0; font-size: 18px; text-align: right; font-weight: 600; overflow-wrap: anywhere; }
+.garden-total-lines dd small { font-size: 11px; }
+.garden-total-lines dd span { display: block; color: var(--muted); font-size: 11px; margin-top: 5px; font-weight: 400; }
+.garden-total-lines .garden-total-xp { flex-direction: column; gap: 6px; padding-top: 0; }
+.garden-total-xp dd { color: var(--accent); font-size: 27px; }
+.garden-summary .planning-progress { padding: 20px 0 0; }
+.garden-summary .planning-empty { padding: 18px 0 0; }
+@media (max-width: 1100px) {
+  .planning-input-row { grid-template-columns: minmax(170px, 1fr) minmax(130px, 1fr) 18px minmax(130px, 1fr); gap: 16px; }
+  .planning-row-note { grid-column: 2 / -1; }
+  .garden-ledger-layout { grid-template-columns: minmax(0, 1fr); }
+  .garden-inspector { border-left: 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: 1fr 1fr; }
+  .garden-burn { border-bottom: 0; border-right: 1px solid var(--line); }
+}
+@media (max-width: 700px) {
+  .planning-page-header { flex-direction: column; gap: 15px; padding-bottom: 20px; }
+  .planning-page-meta { align-items: flex-start; flex-direction: row; flex-wrap: wrap; gap: 12px 20px; }
+  .planning-section-heading { padding: 16px; align-items: flex-start; flex-wrap: wrap; gap: 10px; }
+  .planning-input-row { padding: 18px 16px; grid-template-columns: minmax(0, 1fr) 18px minmax(0, 1fr); gap: 14px 10px; }
+  .planning-row-description { grid-column: 1 / -1; }
+  .planning-row-note { grid-column: 1 / -1; }
+  .planning-static strong { font-size: 16px; }
+  .planning-equation { gap: 14px; padding: 20px 16px; }
+  .planning-equation > div { min-width: 95px; }
+  .planning-equation .planning-answer { flex-basis: calc(100% - 44px); }
+  .planning-equation strong { font-size: 20px; }
+  .planning-equation > span:nth-of-type(2) { order: 1; }
+  .planning-equation .planning-answer { order: 2; }
+  .planning-progress, .planning-footnote, .planning-empty { padding: 16px; }
+  .planning-table th, .planning-table td { padding: 12px 16px; }
+  .garden-ledger-facts { gap: 10px 20px; line-height: 1.6; }
+  .garden-inspector { grid-template-columns: 1fr; }
+  .garden-burn { border-right: 0; border-bottom: 1px solid var(--line); }
+  .garden-burn, .garden-summary { padding: 20px 16px; }
+  .garden-total-lines .garden-total-xp { flex-direction: row; align-items: baseline; }
+  .garden-boss-table th:first-child { position: sticky; left: 0; background: var(--surface); z-index: 1; }
+  .garden-boss-table thead th:first-child { background: var(--surface-raised); }
+  .garden-boss-table tfoot th:first-child { background: var(--background); }
+  .garden-boss-name { gap: 8px; }
+  .garden-boss-name strong { white-space: normal; display: block; min-width: 90px; max-width: 150px; }
+  .garden-boss-table th, .garden-boss-table td { padding: 12px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .planning-page button { transition: background-color 120ms ease-out, color 120ms ease-out; }
+}
