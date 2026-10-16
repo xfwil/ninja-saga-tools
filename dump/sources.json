@@ -1702,6 +1702,9 @@
   "wpn_2490": [
     "daily_scratch"
   ],
+  "wpn_2491": [
+    "special_deals"
+  ],
   "wpn_4001": [
     "shop_clan",
     "clan_forge"
@@ -3559,6 +3562,9 @@
   ],
   "back_2501": [
     "daily_scratch"
+  ],
+  "back_2502": [
+    "special_deals"
   ],
   "back_4001": [
     "shop_crew"
@@ -6894,6 +6900,12 @@
   ],
   "set_2503_1": [
     "event_seasonal"
+  ],
+  "set_2504_0": [
+    "special_deals"
+  ],
+  "set_2504_1": [
+    "special_deals"
   ],
   "set_6000_0": [
     "clan_war"
@@ -10336,6 +10348,12 @@
   "hair_2462_1": [
     "event_seasonal"
   ],
+  "hair_2463_0": [
+    "special_deals"
+  ],
+  "hair_2463_1": [
+    "special_deals"
+  ],
   "hair_7000_0": [
     "shadow_war"
   ],
@@ -12756,6 +12774,9 @@
   ],
   "skill_2411": [
     "event_seasonal"
+  ],
+  "skill_2413": [
+    "special_deals"
   ],
   "skill_3001": [
     "senjutsu_shop"

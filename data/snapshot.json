@@ -29898,7 +29898,7 @@
   },
   "skill::skill_2399": {
     "name": "Kinjutsu: Petal of Destruction",
-    "hash": "9d181b8709aa8b8005131c5ec08c5a04",
+    "hash": "dc973a849a23c6ad92baf653bd83d1f7",
     "data": {
       "id": "skill_2399",
       "price_tokens": 0,
@@ -29915,7 +29915,6 @@
       "type": "7",
       "category": "package",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           63
@@ -29929,7 +29928,7 @@
   },
   "skill::skill_2400": {
     "name": "Kinjutsu: Thorn of Affection",
-    "hash": "a923abf184ff7216a73d04c68fa06f4e",
+    "hash": "5fc4e9b41b1256851041eade4aa59645",
     "data": {
       "id": "skill_2400",
       "price_tokens": 0,
@@ -29946,7 +29945,6 @@
       "type": "7",
       "category": "package",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           80
@@ -29964,7 +29962,7 @@
   },
   "skill::skill_2401": {
     "name": "Kinjutsu: Willow Sacret Forest Execution",
-    "hash": "de2af6e3879161bda0232374c792c3b8",
+    "hash": "242b5e919ebd4a205fba679c8c8ce7d5",
     "data": {
       "id": "skill_2401",
       "price_tokens": 0,
@@ -29982,7 +29980,6 @@
       "type": "7",
       "category": "package",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           55
@@ -30001,7 +29998,7 @@
   },
   "skill::skill_2402": {
     "name": "Kinjutsu: Flash Thunderous Kick",
-    "hash": "95ded9fcf19ba8e6cbf51c568eac91fd",
+    "hash": "4436fb231565f3ef4b16ebe2149119cc",
     "data": {
       "id": "skill_2402",
       "price_tokens": 0,
@@ -30018,7 +30015,6 @@
       "type": "6",
       "category": "event",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           56
@@ -30029,7 +30025,7 @@
   },
   "skill::skill_2403": {
     "name": "Kinjutsu: Lunar Moonfall",
-    "hash": "9f1a80a47e89db1dfed0f0e41cb80264",
+    "hash": "a39d8cd2af761888e5640445d72e990f",
     "data": {
       "id": "skill_2403",
       "price_tokens": 0,
@@ -30046,7 +30042,6 @@
       "type": "7",
       "category": "event",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           79
@@ -30060,7 +30055,7 @@
   },
   "skill::skill_2404": {
     "name": "Kinjutsu: Moon Slicer",
-    "hash": "412c962258f2efb5db91abfe324ec820",
+    "hash": "4372ac5fec2184aed5f0bc8181edbf1e",
     "data": {
       "id": "skill_2404",
       "price_tokens": 0,
@@ -30077,7 +30072,6 @@
       "type": "6",
       "category": "event",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           87
@@ -30091,7 +30085,7 @@
   },
   "skill::skill_2405": {
     "name": "Kinjutsu: Moonshard",
-    "hash": "7d56abafdf1e8b57c7c5622734fe549d",
+    "hash": "0acdde21993dc7f37b193636200c41d6",
     "data": {
       "id": "skill_2405",
       "price_tokens": 0,
@@ -30108,7 +30102,6 @@
       "type": "7",
       "category": "event",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           63
@@ -30122,7 +30115,7 @@
   },
   "skill::skill_2406": {
     "name": "Kinjutsu: Shadow Multi Strike",
-    "hash": "587c634ed1456eee35fcb8759a5e3a6f",
+    "hash": "319409a7f13e341f850927e562d54915",
     "data": {
       "id": "skill_2406",
       "price_tokens": 0,
@@ -30139,7 +30132,6 @@
       "type": "6",
       "category": "event",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           85
@@ -30150,7 +30142,7 @@
   },
   "skill::skill_2407": {
     "name": "Kinjutsu: Red Moon Strike",
-    "hash": "d4d8b9677555a3dca12085ddc8f234e2",
+    "hash": "71bc8d1c48402d8d52e44166d4ddc74b",
     "data": {
       "id": "skill_2407",
       "price_tokens": 0,
@@ -30167,7 +30159,6 @@
       "type": "7",
       "category": "event",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           104
@@ -30185,7 +30176,7 @@
   },
   "skill::skill_2408": {
     "name": "Kinjutsu: Advanced Red Moon Strike",
-    "hash": "a2ac944f684d0a01ac4eb5254cf0dfc7",
+    "hash": "88c8d574f1332e1ad4cce64d864160a0",
     "data": {
       "id": "skill_2408",
       "price_tokens": 0,
@@ -30202,7 +30193,6 @@
       "type": "7",
       "category": "event",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           109
@@ -30220,7 +30210,7 @@
   },
   "skill::skill_2410": {
     "name": "Kinjutsu: Moon Plants Stab",
-    "hash": "ebe746f8aef1da3f2f3e3d7e6aeeebf2",
+    "hash": "7cf491d90c360d429df0506b76f3741d",
     "data": {
       "id": "skill_2410",
       "price_tokens": 0,
@@ -30237,7 +30227,6 @@
       "type": "7",
       "category": "event",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           81
@@ -30258,7 +30247,7 @@
   },
   "skill::skill_2411": {
     "name": "Kinjutsu: Moon Crash",
-    "hash": "82898d6150d11c06ee4dd0481e21abb6",
+    "hash": "c3090670df463a1ffc4bf35f6e8dca51",
     "data": {
       "id": "skill_2411",
       "price_tokens": 0,
@@ -30276,7 +30265,6 @@
       "type": "7",
       "category": "event",
       "premium": false,
-      "na": false,
       "anims": {
         "hit": [
           126
@@ -30319,6 +30307,61 @@
       "source": [
         "scratch"
       ]
+    }
+  },
+  "skill::skill_2413": {
+    "name": "Kinjutsu: Symphony Shadow Blood",
+    "hash": "801592498cacef34cee3e89b20b4224f",
+    "data": {
+      "id": "skill_2413",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 0,
+      "cooldown": 0,
+      "target": "Single",
+      "description": "(Kinjutsu) ",
+      "name": "Kinjutsu: Symphony Shadow Blood",
+      "type": "7",
+      "premium": false,
+      "category": "deals",
+      "na": true,
+      "anims": {
+        "hit": [
+          181
+        ]
+      },
+      "attack_hit_position": "range_3"
+    }
+  },
+  "skill::skill_2414": {
+    "name": "Kinjutsu: Southern Water Tribe Strike",
+    "hash": "735cdbf93bdb7980770e508b62620afd",
+    "data": {
+      "id": "skill_2414",
+      "price_tokens": 0,
+      "buyable": false,
+      "price_gold": 0,
+      "level": 1,
+      "damage": 0,
+      "hit_chance": 0,
+      "cp_cost": 0,
+      "cooldown": 0,
+      "target": "Single",
+      "description": "",
+      "name": "Kinjutsu: Southern Water Tribe Strike",
+      "type": "7",
+      "premium": false,
+      "na": true,
+      "anims": {
+        "hit": [
+          56
+        ]
+      },
+      "attack_hit_position": "range_3"
     }
   },
   "skill::skill_3500": {
@@ -31385,7 +31428,7 @@
   },
   "skill::skill_5000": {
     "name": "S0 Kinjutsu: Fiery Dance Strike",
-    "hash": "ab10f74dfcb8b0a39856305e86fbde6f",
+    "hash": "7b0b4c85b9ed87bf6ef680e8bb45ee3e",
     "data": {
       "id": "skill_5000",
       "price_tokens": 0,
@@ -31397,7 +31440,7 @@
       "cp_cost": 10,
       "cooldown": 14,
       "target": "Single",
-      "description": "Increases the user damage by 100% for the next 2 turns.",
+      "description": "(Kinjutsu) Increases the user damage by 100% for the next 2 turns.",
       "name": "S0 Kinjutsu: Fiery Dance Strike",
       "type": "6",
       "category": "pvp",
@@ -31416,7 +31459,7 @@
   },
   "skill::skill_5001": {
     "name": "S0 Kinjutsu: Crimson Torrent",
-    "hash": "b5fa2b80208cb3eddfa69e02f2642139",
+    "hash": "2fe6fa0d434f0c79c917d1dcff339110",
     "data": {
       "id": "skill_5001",
       "price_tokens": 0,
@@ -31428,7 +31471,7 @@
       "cp_cost": 10,
       "cooldown": 14,
       "target": "Single",
-      "description": "Inflicts 'Muddy' by 25% and burns the target max HP by 4% for 4 turns.",
+      "description": "(Kinjutsu) Inflicts 'Muddy' by 25% and burns the target max HP by 4% for 4 turns.",
       "name": "S0 Kinjutsu: Crimson Torrent",
       "type": "6",
       "category": "pvp",
@@ -31447,7 +31490,7 @@
   },
   "skill::skill_5002": {
     "name": "S0 Kinjutsu: Black Lightning Combo",
-    "hash": "53f91af28a022dceaf5ebd5c68758c34",
+    "hash": "39874b925b074963b2729aa566f73c76",
     "data": {
       "id": "skill_5002",
       "price_tokens": 0,
@@ -31459,7 +31502,7 @@
       "cp_cost": 10,
       "cooldown": 14,
       "target": "Single",
-      "description": "This jutsu is extremely accurate.",
+      "description": "(Kinjutsu) This jutsu is extremely accurate.",
       "name": "S0 Kinjutsu: Black Lightning Combo",
       "type": "6",
       "category": "pvp",
@@ -31478,7 +31521,7 @@
   },
   "skill::skill_5003": {
     "name": "S1 Kinjutsu: Summon of Sand Monster",
-    "hash": "e8a000aa3f3060e519a8a6f1d3c7f8bc",
+    "hash": "64d2eae65ccfb5561a4dd457a6a09965",
     "data": {
       "id": "skill_5003",
       "price_tokens": 0,
@@ -31490,7 +31533,7 @@
       "cp_cost": 400,
       "cooldown": 16,
       "target": "Single",
-      "description": "Reduce enemy dodge rate by 100% for 3 turns.",
+      "description": "(Kinjutsu) Reduce enemy dodge rate by 100% for 3 turns.",
       "name": "S1 Kinjutsu: Summon of Sand Monster",
       "type": "7",
       "category": "pvp",
@@ -31510,7 +31553,7 @@
   },
   "skill::skill_5004": {
     "name": "S1 Kinjutsu: Sandstorm Heavy Strike",
-    "hash": "86dfea57563de65ff19011aa7734f28e",
+    "hash": "2785780a32ec11c951f9f74a1143706d",
     "data": {
       "id": "skill_5004",
       "price_tokens": 0,
@@ -31522,7 +31565,7 @@
       "cp_cost": 400,
       "cooldown": 16,
       "target": "Single",
-      "description": "Remove all positive status effects from the target. Inflict 'Blind' by 100% for 3 turns. Instantly reduce the target CP by 45%.",
+      "description": "(Kinjutsu) Remove all positive status effects from the target. Inflict 'Blind' by 100% for 3 turns. Instantly reduce the target CP by 45%.",
       "name": "S1 Kinjutsu: Sandstorm Heavy Strike",
       "type": "7",
       "category": "pvp",
@@ -31542,7 +31585,7 @@
   },
   "skill::skill_5005": {
     "name": "S2 Kinjutsu: Tri-Element Break",
-    "hash": "24eeabf44f24548829950522b9a6a5fb",
+    "hash": "78c8c54fb391a4ec28685b87f42527d3",
     "data": {
       "id": "skill_5005",
       "price_tokens": 0,
@@ -31554,7 +31597,7 @@
       "cp_cost": 300,
       "cooldown": 16,
       "target": "Single",
-      "description": "Reduce enemy max HP instantly by 12%.",
+      "description": "(Kinjutsu) Reduce enemy max HP instantly by 12%.",
       "name": "S2 Kinjutsu: Tri-Element Break",
       "type": "7",
       "category": "pvp",
@@ -31574,19 +31617,19 @@
   },
   "skill::skill_5006": {
     "name": "S2 Kinjutsu: Element Burst Charge",
-    "hash": "a3790563d1b3bb938f48958f1a6936e0",
+    "hash": "35a19f57ab8aa8f6550d36fdf281895b",
     "data": {
       "id": "skill_5006",
       "price_tokens": 0,
       "buyable": false,
       "price_gold": 0,
       "level": 60,
-      "damage": 333,
+      "damage": 0,
       "hit_chance": 0,
       "cp_cost": 400,
       "cooldown": 16,
-      "target": "Single",
-      "description": "Remove enemy positive status. Stun target for 2 turns.",
+      "target": "Self",
+      "description": "(Kinjutsu) Purify the user, also Recover 50% HP and CP.",
       "name": "S2 Kinjutsu: Element Burst Charge",
       "type": "7",
       "category": "pvp",
@@ -61470,7 +61513,7 @@
   },
   "library::wpn_2480": {
     "name": "Akakage Shuriken",
-    "hash": "50a67dba84565dd72a72f4bc59df08ca",
+    "hash": "35a2b7fc189f074bc2324ca30d5011df",
     "data": {
       "attack_type": "attack_13",
       "buyable_clan": false,
@@ -61488,7 +61531,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -61496,7 +61538,7 @@
   },
   "library::wpn_2481": {
     "name": "Wandering Turmoil Eclipse",
-    "hash": "f5000590dd66dff12e1a57d334cf693d",
+    "hash": "0312b75441ee9f04f9f37c7609b1bd55",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -61514,7 +61556,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -61522,7 +61563,7 @@
   },
   "library::wpn_2482": {
     "name": "Rabbit Moon Spear",
-    "hash": "7362c6634ebf7ac7816809c312d474b1",
+    "hash": "32c791dbfb4144a47998e149ed96c010",
     "data": {
       "attack_type": "attack_07",
       "buyable_clan": false,
@@ -61540,7 +61581,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -61548,7 +61588,7 @@
   },
   "library::wpn_2483": {
     "name": "Eclipse Oath Sword",
-    "hash": "c3d5775ee9c2ca9a799230cf1e31e270",
+    "hash": "bfdd5d35d6ef7f5182a8a35a6b24c72c",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -61566,7 +61606,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -61574,7 +61613,7 @@
   },
   "library::wpn_2485": {
     "name": "Silver Crane Greatsword",
-    "hash": "43e75f8d3466176ca84aca6572066ad9",
+    "hash": "f1b55856ab444cff1e16f74dfda8c93e",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -61592,7 +61631,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -61600,7 +61638,7 @@
   },
   "library::wpn_2486": {
     "name": "Moon Glaive",
-    "hash": "6186845f4a63d5006a5c304591724fca",
+    "hash": "8792c53447f4ed854e3523095f3320bc",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -61618,7 +61656,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -61626,7 +61663,7 @@
   },
   "library::wpn_2487": {
     "name": "Heaven Piercing Moonlight",
-    "hash": "cd9c70f16832c0425169ef4d2cbe39b4",
+    "hash": "afa048df99ab10b184c220cffa465292",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -61644,7 +61681,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -61720,6 +61756,73 @@
       "source": [
         "scratch"
       ]
+    }
+  },
+  "library::wpn_2491": {
+    "name": "Harmbringer",
+    "hash": "d6fc0a8ecb8e17cd31a9cf00ad3400b0",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2491",
+      "price_gold": 0,
+      "name": "Harmbringer",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "deals",
+      "sellable": false,
+      "na": true
+    }
+  },
+  "library::wpn_2492": {
+    "name": "Ice Trident",
+    "hash": "658b5b390f06736d8a7a1b87f77e1b91",
+    "data": {
+      "attack_type": "attack_07",
+      "buyable_clan": false,
+      "description": "",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2492",
+      "price_gold": 0,
+      "name": "Ice Trident",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "na": true
+    }
+  },
+  "library::wpn_2493": {
+    "name": "Ice Crescent Blade",
+    "hash": "c876197b1938958efbff95ee8a447f0d",
+    "data": {
+      "attack_type": "attack_06",
+      "buyable_clan": false,
+      "description": "",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "wpn",
+      "price_tokens": 0,
+      "id": "wpn_2493",
+      "price_gold": 0,
+      "name": "Ice Crescent Blade",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "na": true
     }
   },
   "library::wpn_4001": {
@@ -62958,7 +63061,7 @@
   },
   "library::wpn_5000": {
     "name": "S0 PvP: Golden Black Skull Sword",
-    "hash": "94fb223cfc86a6da57f1dce9383ac12e",
+    "hash": "58491384bbf1d1e2aa43a2617ae08365",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -62977,7 +63080,6 @@
       "price_merit": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp_league_shop",
         "pvp"
@@ -62986,7 +63088,7 @@
   },
   "library::wpn_5001": {
     "name": "S0 PvP: Golden Black Skull Specter",
-    "hash": "01ec75e2ce71449365acce0e8bb25ea5",
+    "hash": "c9d4a70e782e88a2ca0bb58d1c96c7fb",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -63005,7 +63107,6 @@
       "price_merit": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp_league_shop",
         "pvp"
@@ -63014,7 +63115,7 @@
   },
   "library::wpn_5002": {
     "name": "S0 PvP: Golden Black Skull Cleave",
-    "hash": "a40a25ebcc42d26aa34d13794d7d188b",
+    "hash": "4c766f5f5be96a14fe8146e1cb293749",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -63033,7 +63134,6 @@
       "price_merit": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp_league_shop",
         "pvp"
@@ -63097,8 +63197,8 @@
     }
   },
   "library::wpn_5005": {
-    "name": "S2 PvP: Gay Blade",
-    "hash": "1ae3039cfe7ec794832aa1b1c63dcf06",
+    "name": "S2 PvP: Crystal Prism Blade",
+    "hash": "bd1bf7f530820308e417536019626c18",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -63110,7 +63210,7 @@
       "price_tokens": 0,
       "id": "wpn_5005",
       "price_gold": 0,
-      "name": "S2 PvP: Gay Blade",
+      "name": "S2 PvP: Crystal Prism Blade",
       "buyable": false,
       "premium": false,
       "price_prestige": 0,
@@ -63126,13 +63226,13 @@
   },
   "library::wpn_5006": {
     "name": "S2 PvP: Jogan Spear",
-    "hash": "7eddc54620cc7c5af30a548796552d4e",
+    "hash": "b1c0c264796a193af83de75567cf8170",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
       "description": "S2 PvP League Shop: Increase accuracy by 45%. Poison target for 10% for 2 turns every successful weapon attack.",
       "level": 80,
-      "damage": 499,
+      "damage": 350,
       "sell_price": 0,
       "type": "wpn",
       "price_tokens": 0,
@@ -85745,7 +85845,7 @@
   },
   "library::back_2492": {
     "name": "Akakage Hidden Scroll",
-    "hash": "f4d48fb5e8eceaba250e1d0df499cf79",
+    "hash": "ad3f2f5629e5e7c0a84cb0b035facccd",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -85763,7 +85863,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -85771,7 +85870,7 @@
   },
   "library::back_2493": {
     "name": "Moon of Wandering Charm",
-    "hash": "f7bb3998f0a0e9068fed5f71b0ddfa1b",
+    "hash": "9618847bd5ce99ebfb53d28b28e18759",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -85789,7 +85888,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -85797,7 +85895,7 @@
   },
   "library::back_2494": {
     "name": "Rabbit Retainer",
-    "hash": "f06d7d3bd4adb7f91f819f6af7379221",
+    "hash": "cc28cff43716666c04005a010f9e1a92",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -85815,7 +85913,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -85823,7 +85920,7 @@
   },
   "library::back_2495": {
     "name": "Moon Rabbit Celestial Court",
-    "hash": "97cff03031c85b050ffa42a2c66e721c",
+    "hash": "c8ed86183b8d2e1d25c8027b65c94f24",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -85841,7 +85938,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -85849,7 +85945,7 @@
   },
   "library::back_2497": {
     "name": "Bouquet of Moon Flower",
-    "hash": "ddc81bfb53cbf82cec7bd54d65611872",
+    "hash": "10a617e33024f56db3c77012c221c680",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -85867,7 +85963,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -85875,7 +85970,7 @@
   },
   "library::back_2498": {
     "name": "Broken Moon",
-    "hash": "dcd21ac5ba53bc53110c51502c599bd6",
+    "hash": "f8f0509a2dee79c8d3d53e1227678325",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -85893,7 +85988,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -85901,7 +85995,7 @@
   },
   "library::back_2499": {
     "name": "Moon Sovereign's Embrace",
-    "hash": "91eb4ea9d580fd1f461ad1f1650b0fe6",
+    "hash": "8f2bc7f630d1f3eb70097093cfa51996",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -85919,7 +86013,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -85971,6 +86064,73 @@
       "source": [
         "scratch"
       ]
+    }
+  },
+  "library::back_2502": {
+    "name": "Regalia Heir Cape",
+    "hash": "db693019f7a6abb1ed5f752071310976",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2502",
+      "price_gold": 0,
+      "name": "Regalia Heir Cape",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "deals",
+      "sellable": false,
+      "na": true
+    }
+  },
+  "library::back_2503": {
+    "name": "Southern Water Tribe Bag",
+    "hash": "a9a8d01e3a9c4cf92eadc66a4401f7b0",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2503",
+      "price_gold": 0,
+      "name": "Southern Water Tribe Bag",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "na": true
+    }
+  },
+  "library::back_2504": {
+    "name": "Southern Water Tribe Coat",
+    "hash": "8662416403d17fac850222791338c0cf",
+    "data": {
+      "attack_type": "attack_01",
+      "buyable_clan": false,
+      "description": "",
+      "level": 1,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "back",
+      "price_tokens": 0,
+      "id": "back_2504",
+      "price_gold": 0,
+      "name": "Southern Water Tribe Coat",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "na": true
     }
   },
   "library::back_4001": {
@@ -93141,7 +93301,7 @@
   },
   "library::accessory_2130": {
     "name": "Akakage Medal",
-    "hash": "9889bacb76d000e502f035a4b8ff6952",
+    "hash": "444f9624bacc7c972e6004c914982c0f",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -93159,7 +93319,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -142810,7 +142969,7 @@
   },
   "library::set_2495_0": {
     "name": "Crimson Petal Costume",
-    "hash": "65d8d96de0fc03da06a0037fbe18068a",
+    "hash": "066a42db98302b53d2e38ce5cd2be1be",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -142828,7 +142987,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -142836,7 +142994,7 @@
   },
   "library::set_2495_1": {
     "name": "Crimson Petal Costume",
-    "hash": "22b6a0a4b14457567d65091d2c5658d5",
+    "hash": "0f4a333ed9bf5e9cb86a7b3ae7656cbf",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -142854,7 +143012,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -142862,7 +143019,7 @@
   },
   "library::set_2496_0": {
     "name": "Bloodthorn Costume",
-    "hash": "66583decab7720659fbda4649dc4ef57",
+    "hash": "fead3345c2b6733cd76d324a431a38d4",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -142880,7 +143037,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -142888,7 +143044,7 @@
   },
   "library::set_2496_1": {
     "name": "Bloodthorn Costume",
-    "hash": "9c2b368dd1cf85e38a38442e50bf8a4b",
+    "hash": "a53662fc2de928653a9f2d97942e69c9",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -142906,7 +143062,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -142914,7 +143069,7 @@
   },
   "library::set_2497_0": {
     "name": "Moon Wanderer Costume",
-    "hash": "0663ded275b9c3e13b7e7b8e54a90f88",
+    "hash": "3c26d67dcb15d24073bfa33ba8a760c4",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -142932,7 +143087,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -142940,7 +143094,7 @@
   },
   "library::set_2497_1": {
     "name": "Moon Wanderer Costume",
-    "hash": "7f4ed95f0c80d4bc99a167e331e04525",
+    "hash": "e24cd6ebca2427c998c818b9efa0ee1c",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -142958,7 +143112,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -142966,7 +143119,7 @@
   },
   "library::set_2498_0": {
     "name": "Moon Retainer Costume",
-    "hash": "f60ef8881372a268f5c1116874b0b499",
+    "hash": "758b858a1e5925725754301d975e1b4d",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -142984,7 +143137,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -142992,7 +143144,7 @@
   },
   "library::set_2498_1": {
     "name": "Moon Retainer Costume",
-    "hash": "349373831396d282758834c787a164cd",
+    "hash": "181f108fc2a0a163305b657d39338a1c",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -143010,7 +143162,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -143018,7 +143169,7 @@
   },
   "library::set_2499_0": {
     "name": "Moon Sentinel Costume",
-    "hash": "4ff941b4768209245203d41a37c27fd7",
+    "hash": "fe06af87725bb4978ef922a473e4e396",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -143036,7 +143187,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -143044,7 +143194,7 @@
   },
   "library::set_2499_1": {
     "name": "Moon Sentinel Costume",
-    "hash": "586d14791f2c0b48c343a95eee7fd5ff",
+    "hash": "19681fa249ce3de6a7289281ac14f4ed",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -143062,7 +143212,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -143070,7 +143219,7 @@
   },
   "library::set_2501_0": {
     "name": "Silver Crane Costume",
-    "hash": "69f31cfdb05754580d0213ea983d6cc2",
+    "hash": "e57ef7d836654b96d175902180ab2c26",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -143088,7 +143237,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -143096,7 +143244,7 @@
   },
   "library::set_2501_1": {
     "name": "Silver Crane Costume",
-    "hash": "be7db53ab8c90089be6533083346294a",
+    "hash": "2edd9391a0369e901841798cc80efa4b",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -143114,7 +143262,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -143122,7 +143269,7 @@
   },
   "library::set_2502_0": {
     "name": "Moon Royal Costume",
-    "hash": "a05a004009ac801089d92b839bf50d6b",
+    "hash": "a1c79fdd2eed15bdd8045896b413e7a8",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -143140,7 +143287,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -143148,7 +143294,7 @@
   },
   "library::set_2502_1": {
     "name": "Moon Royal Costume",
-    "hash": "de07def8eeba2deadb889cc9c948af44",
+    "hash": "8042bf9b8bc7c3fae9987368fa157120",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -143166,7 +143312,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -143174,7 +143319,7 @@
   },
   "library::set_2503_0": {
     "name": "Moon Sovereign Armor",
-    "hash": "a341cb3d11cbc096dc89ad4471c7f16d",
+    "hash": "6fb89e915c1fce42f47e75d9c2a401aa",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -143192,7 +143337,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -143200,7 +143344,7 @@
   },
   "library::set_2503_1": {
     "name": "Moon Sovereign Armor",
-    "hash": "a1c0a2400690815aa7959ed60e636e20",
+    "hash": "0ca033d4ac9d01975ffa431f180e2509",
     "data": {
       "price_pvp": 0,
       "buyable_clan": false,
@@ -143218,15 +143362,104 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
     }
   },
+  "library::set_2504_0": {
+    "name": "Bloodveil Regalia Costume",
+    "hash": "3870965d89d8dc4c3801ecb51a0eee82",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Blood Regalia Package Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2504_0",
+      "price_gold": 0,
+      "name": "Bloodveil Regalia Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "deals",
+      "sellable": false,
+      "na": true
+    }
+  },
+  "library::set_2504_1": {
+    "name": "Bloodveil Regalia Costume",
+    "hash": "76182f25b45572d9602454aebd03d80c",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "Limited Blood Regalia Package Set.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2504_1",
+      "price_gold": 0,
+      "name": "Bloodveil Regalia Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "deals",
+      "sellable": false,
+      "na": true
+    }
+  },
+  "library::set_2505_0": {
+    "name": "Southern Water Tribe Costume",
+    "hash": "2520d9a8cf3e91d8e5b77d849758095c",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2505_0",
+      "price_gold": 0,
+      "name": "Southern Water Tribe Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "na": true
+    }
+  },
+  "library::set_2505_1": {
+    "name": "Southern Water Tribe Costume",
+    "hash": "436120d882167e47ad233b9bd8e556ad",
+    "data": {
+      "price_pvp": 0,
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "set",
+      "level": 1,
+      "id": "set_2505_1",
+      "price_gold": 0,
+      "name": "Southern Water Tribe Costume",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "na": true
+    }
+  },
   "library::set_5000_0": {
     "name": "S0 PvP Costume",
-    "hash": "8e658a6078aa80ce852e797b1d31a08b",
+    "hash": "5ae1b0f7f11013448b8f5c7d2fbac07c",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for PvP Milestone Season 0",
@@ -143243,7 +143476,6 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp"
       ]
@@ -143251,7 +143483,7 @@
   },
   "library::set_5000_1": {
     "name": "S0 PvP Costume",
-    "hash": "27dc4099617ae0864243a0fb38cd154c",
+    "hash": "5b8a046225f85455cb8efc9c3866e773",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for PvP Milestone Season 0",
@@ -143268,7 +143500,6 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp"
       ]
@@ -187509,7 +187740,7 @@
   },
   "library::hair_2454_0": {
     "name": "Crimson Petal Hairstyle",
-    "hash": "10dc34d6a6c9f7c4834eceb2a8a47f5e",
+    "hash": "06f755fc8cc61eb153224bc657d1a902",
     "data": {
       "buyable_clan": false,
       "description": "Limited Akakage Package Hairstyle",
@@ -187526,7 +187757,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -187534,7 +187764,7 @@
   },
   "library::hair_2454_1": {
     "name": "Crimson Petal Hairstyle",
-    "hash": "f827bbe909f54a1bb81f0014dc6a1639",
+    "hash": "68bbd9a3b7682991ccd3ef4f42c5caca",
     "data": {
       "buyable_clan": false,
       "description": "Limited Akakage Package Hairstyle",
@@ -187551,7 +187781,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -187559,7 +187788,7 @@
   },
   "library::hair_2455_0": {
     "name": "Bloodthorn Hairstyle",
-    "hash": "d491af803e97eaa55252653ad18a64ee",
+    "hash": "3af7e8ab23759431e2b6192ed50805bf",
     "data": {
       "buyable_clan": false,
       "description": "Limited Akakage Package Hairstyle",
@@ -187576,7 +187805,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -187584,7 +187812,7 @@
   },
   "library::hair_2455_1": {
     "name": "Bloodthorn Hairstyle",
-    "hash": "88fdb35c5aebb6e746decfdea37ee044",
+    "hash": "c16cd6ef3b411eeb4a9900e11cc984b3",
     "data": {
       "buyable_clan": false,
       "description": "Limited Akakage Package Hairstyle",
@@ -187601,7 +187829,6 @@
       "price_prestige": 0,
       "category": "package",
       "sellable": false,
-      "na": false,
       "source": [
         "akakage"
       ]
@@ -187609,7 +187836,7 @@
   },
   "library::hair_2456_0": {
     "name": "Moon Wanderer Hairstyle",
-    "hash": "92f582fef9738e25c2b206ceb7cde5b1",
+    "hash": "d99c081076cbf15df43b53ad0a9583ce",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187626,7 +187853,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187634,7 +187860,7 @@
   },
   "library::hair_2456_1": {
     "name": "Moon Wanderer Hairstyle",
-    "hash": "628f02305467086cf42f51b284c9c9db",
+    "hash": "c5ee1f560ba07b03305ad62fb133f52a",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187651,7 +187877,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187659,7 +187884,7 @@
   },
   "library::hair_2457_0": {
     "name": "Moon Retainer Hairstyle",
-    "hash": "6489469210838634c3a4dcfed88d438e",
+    "hash": "8fe52133ceed7ab1783ebf7abfdc9f90",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187676,7 +187901,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187684,7 +187908,7 @@
   },
   "library::hair_2457_1": {
     "name": "Moon Retainer Hairstyle",
-    "hash": "8c2a4af8047b50950a27550158efc7fc",
+    "hash": "96e8ee3144941335da1a32b4f58da791",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187701,7 +187925,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187709,7 +187932,7 @@
   },
   "library::hair_2458_0": {
     "name": "Moon Sentinel Hairstyle",
-    "hash": "c7aeec3c31e16859039f97c9c7d65d4f",
+    "hash": "f6ba78d2c09674ca223ad512bae90343",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187726,7 +187949,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187734,7 +187956,7 @@
   },
   "library::hair_2458_1": {
     "name": "Moon Sentinel Hairstyle",
-    "hash": "3c62dcacd86b88e9a9de8de0229915e2",
+    "hash": "367ea980a31cffd75e5b47db31ff8d0a",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187751,7 +187973,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187759,7 +187980,7 @@
   },
   "library::hair_2460_0": {
     "name": "Silver Crane Hairstyle",
-    "hash": "d4e93d5d99d061e0d07c7e9f727458c0",
+    "hash": "6351ead5d4b6222177f4a15290c837f3",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187776,7 +187997,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187784,7 +188004,7 @@
   },
   "library::hair_2460_1": {
     "name": "Silver Crane Hairstyle",
-    "hash": "bfe91a88f3cd23c39dd7509cf48463e2",
+    "hash": "567dd610b219d27070152b40a0042a65",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187801,7 +188021,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187809,7 +188028,7 @@
   },
   "library::hair_2461_0": {
     "name": "Moon Royal Hairstyle",
-    "hash": "d7c20529a6ce29f70b57cc004a1e0627",
+    "hash": "718e43df017bac72515c14d59de1421a",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187826,7 +188045,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187834,7 +188052,7 @@
   },
   "library::hair_2461_1": {
     "name": "Moon Royal Hairstyle",
-    "hash": "4c4dd617d03d9429ecfd68d8ea0fad7e",
+    "hash": "40a468a437efdba7b6281136721e3bd2",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187851,7 +188069,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187859,7 +188076,7 @@
   },
   "library::hair_2462_0": {
     "name": "Moon Sovereign Hairstyle",
-    "hash": "bf2d8ec226fb95642c9026eb6c153b99",
+    "hash": "e902d97a982cd8c5f54c6c4c7571ba0f",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187876,7 +188093,6 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
       "source": [
         "moonlight2026"
       ]
@@ -187884,7 +188100,7 @@
   },
   "library::hair_2462_1": {
     "name": "Moon Sovereign Hairstyle",
-    "hash": "20e07013b1e66ff8ce1d493bdbe1353e",
+    "hash": "5007a57057a71f0da573cbcbd605e03a",
     "data": {
       "buyable_clan": false,
       "description": "Limited Moonlight Festival Event Hairstyle",
@@ -187901,15 +188117,101 @@
       "price_prestige": 0,
       "category": "event",
       "sellable": false,
-      "na": false,
+      "na": true,
       "source": [
         "moonlight2026"
       ]
     }
   },
+  "library::hair_2463_0": {
+    "name": "Bloodveil Regalia Hairstyle",
+    "hash": "541fe461c335c5e162c2160a1e04176a",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Blood Regalia Package Hairstyle.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2463_0",
+      "price_gold": 0,
+      "name": "Bloodveil Regalia Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "deals",
+      "sellable": false,
+      "na": true
+    }
+  },
+  "library::hair_2463_1": {
+    "name": "Bloodveil Regalia Hairstyle",
+    "hash": "d23782df417b5d325b872223932cb78c",
+    "data": {
+      "buyable_clan": false,
+      "description": "Limited Blood Regalia Package Hairstyle.",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2463_1",
+      "price_gold": 0,
+      "name": "Bloodveil Regalia Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "category": "deals",
+      "sellable": false,
+      "na": true
+    }
+  },
+  "library::hair_2464_0": {
+    "name": "Southern Water Tribe Hairstyle",
+    "hash": "f4b65b7deb4fbdf903dea4a5f1c4116c",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2464_0",
+      "price_gold": 0,
+      "name": "Southern Water Tribe Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "na": true
+    }
+  },
+  "library::hair_2464_1": {
+    "name": "Southern Water Tribe Hairstyle",
+    "hash": "6906e3c9b9aa9913b25b4072325853c3",
+    "data": {
+      "buyable_clan": false,
+      "description": "",
+      "price_tokens": 0,
+      "damage": 0,
+      "sell_price": 0,
+      "type": "hair",
+      "level": 1,
+      "id": "hair_2464_1",
+      "price_gold": 0,
+      "name": "Southern Water Tribe Hairstyle",
+      "buyable": false,
+      "premium": false,
+      "price_prestige": 0,
+      "sellable": false,
+      "na": true
+    }
+  },
   "library::hair_5000_0": {
     "name": "S0 PvP Hairstyle",
-    "hash": "8595de2acba57795e5ad75c19c8c8dcd",
+    "hash": "9397055bf05105133ebe35f17dc41437",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for PvP Milestone Season 0",
@@ -187926,7 +188228,6 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp"
       ]
@@ -187934,7 +188235,7 @@
   },
   "library::hair_5000_1": {
     "name": "S0 PvP Hairstyle",
-    "hash": "0a5bc3f8ca335fbe81d66d70f308440f",
+    "hash": "053cd0561a253c4d84aae0bfe3359d9c",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for PvP Milestone Season 0",
@@ -187951,7 +188252,6 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp"
       ]
@@ -206946,6 +207246,55 @@
           "duration": 0,
           "calc_type": "percent",
           "amount": 45,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_5005": {
+    "name": "S2 Kinjutsu: Tri-Element Break",
+    "hash": "87523d0515d85375a1840c6a3b095f52",
+    "data": {
+      "skill_id": "skill_5005",
+      "skill_effect": [
+        {
+          "target": "enemy",
+          "type": "Debuff",
+          "effect": "insta_reduce_max_hp",
+          "reduce_type": "MAX",
+          "effect_name": "Reduce HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 12,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "skill_effect::skill_5006": {
+    "name": "S2 Kinjutsu: Element Burst Charge",
+    "hash": "4da64b7184ff3fa3ab2b7fe710be53d5",
+    "data": {
+      "skill_id": "skill_5006",
+      "skill_effect": [
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "purify",
+          "effect_name": "Purify",
+          "duration": 1,
+          "calc_type": "number",
+          "amount": 0,
+          "chance": 100
+        },
+        {
+          "target": "self",
+          "type": "Buff",
+          "effect": "hpcp_up",
+          "effect_name": "HealCP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 50,
           "chance": 100
         }
       ]
@@ -239982,7 +240331,7 @@
     }
   },
   "weapon_effect::wpn_5005": {
-    "name": "S2 PvP: Gay Blade",
+    "name": "S2 PvP: Crystal Prism Blade",
     "hash": "646fef33f3961a423f6c4dda42a5c04a",
     "data": {
       "id": "wpn_5005",
@@ -266550,6 +266899,80 @@
       ]
     }
   },
+  "back_effect::back_5005": {
+    "name": "S2 PvP: Element Essence",
+    "hash": "d76d610b64e3cf051589f9abc0e0ce10",
+    "data": {
+      "id": "back_5005",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "critical_increase",
+          "effect_name": "Increase Critical Chance",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 15,
+          "chance": 100
+        }
+      ]
+    }
+  },
+  "back_effect::back_5006": {
+    "name": "S2 PvP: Jogan Wings",
+    "hash": "a58174a3c2f94b825afc544330510745",
+    "data": {
+      "id": "back_5006",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_hp_increase",
+          "effect_name": "Increase Max Hp",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "max_cp_increase",
+          "effect_name": "Increase Max CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 8,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_cp_recover",
+          "effect_name": "Recover HP & CP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 5,
+          "amount_cp": 5,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "agility_increase",
+          "effect_name": "Agility Increase",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 2,
+          "chance": 100
+        }
+      ]
+    }
+  },
   "back_effect::back_6001": {
     "name": "S0 Samurai Armament",
     "hash": "b3a9d673c8e9d23d588b362c68afc427",
@@ -268997,6 +269420,37 @@
           "calc_type": "percent",
           "amount": 5,
           "chance": 30
+        }
+      ]
+    }
+  },
+  "back_effect::back_7024": {
+    "name": "S29 Shadow War: Imperial Oni Halo",
+    "hash": "925281efb5a081f91874762d0b6e0cd5",
+    "data": {
+      "id": "back_7024",
+      "effects": [
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "damage_reduce",
+          "effect_name": "Reduce Damage",
+          "duration": 0,
+          "calc_type": "number",
+          "amount": 300,
+          "chance": 100
+        },
+        {
+          "passive": true,
+          "type": "Buff",
+          "target": "self",
+          "effect": "hp_recover",
+          "effect_name": "Recover HP",
+          "duration": 0,
+          "calc_type": "percent",
+          "amount": 2,
+          "chance": 100
         }
       ]
     }
