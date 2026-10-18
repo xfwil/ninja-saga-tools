@@ -31521,7 +31521,7 @@
   },
   "skill::skill_5003": {
     "name": "S1 Kinjutsu: Summon of Sand Monster",
-    "hash": "64d2eae65ccfb5561a4dd457a6a09965",
+    "hash": "1086c585a27cab0a2777d250e709c33e",
     "data": {
       "id": "skill_5003",
       "price_tokens": 0,
@@ -31538,7 +31538,6 @@
       "type": "7",
       "category": "pvp",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           124
@@ -31553,7 +31552,7 @@
   },
   "skill::skill_5004": {
     "name": "S1 Kinjutsu: Sandstorm Heavy Strike",
-    "hash": "2785780a32ec11c951f9f74a1143706d",
+    "hash": "7a7f810c727e34a3724c2327a667a487",
     "data": {
       "id": "skill_5004",
       "price_tokens": 0,
@@ -31570,7 +31569,6 @@
       "type": "7",
       "category": "pvp",
       "premium": false,
-      "na": true,
       "anims": {
         "hit": [
           79
@@ -63142,7 +63140,7 @@
   },
   "library::wpn_5003": {
     "name": "S1 PvP: Cursed Aura Sword",
-    "hash": "3535b67d5cc1834e40a6185fbaf61209",
+    "hash": "beb9ff7a63d3d344daa3f4f83b54323d",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -63161,7 +63159,6 @@
       "price_merit": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp_league_shop",
         "pvp"
@@ -63170,7 +63167,7 @@
   },
   "library::wpn_5004": {
     "name": "S1 PvP: Djinn Cutlass",
-    "hash": "a30d7df9a6eca3b0f7f1d5b53d6c510c",
+    "hash": "559f1665f88aa35bda2fdf6f65c9c750",
     "data": {
       "attack_type": "attack_06",
       "buyable_clan": false,
@@ -63189,7 +63186,6 @@
       "price_merit": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp_league_shop",
         "pvp"
@@ -86269,7 +86265,7 @@
   },
   "library::back_5003": {
     "name": "S1 PvP: Desert Eagle",
-    "hash": "f476db809460ac60a52e10ec20aed4f0",
+    "hash": "cb426c54ca3014303aafbce2d842f533",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -86287,7 +86283,6 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp_league_shop",
         "pvp"
@@ -86296,7 +86291,7 @@
   },
   "library::back_5004": {
     "name": "S1 PvP: Djinn Puppet",
-    "hash": "0fc965394191ad20213a6c0db06fb09d",
+    "hash": "b905d766d07e48caaa84b5482b0abd1e",
     "data": {
       "attack_type": "attack_01",
       "buyable_clan": false,
@@ -86314,7 +86309,6 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp_league_shop",
         "pvp"
@@ -143507,7 +143501,7 @@
   },
   "library::set_5001_0": {
     "name": "S1 PvP Costume",
-    "hash": "c1e8d99a08e9b7c7c3675403b8dc3925",
+    "hash": "900a36d696da72ad6dbdfc25c43e12a1",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for PvP Milestone Season 1",
@@ -143524,7 +143518,6 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp"
       ]
@@ -143532,7 +143525,7 @@
   },
   "library::set_5001_1": {
     "name": "S1 PvP Costume",
-    "hash": "47ea3b8a7a476c951f57e2af8ab79f3d",
+    "hash": "0bdd2b923ee82d9e4a01e5d01cd06224",
     "data": {
       "buyable_clan": false,
       "description": "Clothing reward for PvP Milestone Season 1",
@@ -143549,7 +143542,6 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp"
       ]
@@ -143557,10 +143549,10 @@
   },
   "library::set_5002_0": {
     "name": "S2 PvP Costume",
-    "hash": "8dbe84d4c8f47b56eac085dfdd19bb0a",
+    "hash": "8db12e048be75bbf6d99f06a8d1c9028",
     "data": {
       "buyable_clan": false,
-      "description": "",
+      "description": "Clothing reward for PvP Milestone Season 2",
       "price_tokens": 0,
       "damage": 0,
       "sell_price": 0,
@@ -143582,10 +143574,10 @@
   },
   "library::set_5002_1": {
     "name": "S2 PvP Costume",
-    "hash": "6be7613082b503454a88151101d3e4d6",
+    "hash": "39b1abd8d09d6c1df28c639555b94d5c",
     "data": {
       "buyable_clan": false,
-      "description": "",
+      "description": "Clothing reward for PvP Milestone Season 2",
       "price_tokens": 0,
       "damage": 0,
       "sell_price": 0,
@@ -188259,7 +188251,7 @@
   },
   "library::hair_5001_0": {
     "name": "S1 PvP Hairstyle",
-    "hash": "b8bba7052626198132e3b0ea3489bd6c",
+    "hash": "f5db116edff2024b5d5468924ac8d50b",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for PvP Milestone Season 1",
@@ -188276,7 +188268,6 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp"
       ]
@@ -188284,7 +188275,7 @@
   },
   "library::hair_5001_1": {
     "name": "S1 PvP Hairstyle",
-    "hash": "244b6e46981df5921e7cf070e4a14e88",
+    "hash": "7f7071882bd57088f5d6b874a89b4799",
     "data": {
       "buyable_clan": false,
       "description": "Hair reward for PvP Milestone Season 1",
@@ -188301,7 +188292,6 @@
       "price_prestige": 0,
       "category": "pvp",
       "sellable": false,
-      "na": true,
       "source": [
         "pvp"
       ]
@@ -188309,10 +188299,10 @@
   },
   "library::hair_5002_0": {
     "name": "S2 PvP Hairstyle",
-    "hash": "29d8e50a2d21661df0f2eb5780f9c5ae",
+    "hash": "b5dad4165fcec8640fd339bc214df5a9",
     "data": {
       "buyable_clan": false,
-      "description": "",
+      "description": "Hair reward for PvP Milestone Season 2",
       "price_tokens": 0,
       "damage": 0,
       "sell_price": 0,
@@ -188334,10 +188324,10 @@
   },
   "library::hair_5002_1": {
     "name": "S2 PvP Hairstyle",
-    "hash": "03099becb43b84b835c27ae47c28ba42",
+    "hash": "7f5049ea46af7b98ad4a40ba671ff5dd",
     "data": {
       "buyable_clan": false,
-      "description": "",
+      "description": "Hair reward for PvP Milestone Season 2",
       "price_tokens": 0,
       "damage": 0,
       "sell_price": 0,
