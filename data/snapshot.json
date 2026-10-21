@@ -17023,7 +17023,7 @@
   },
   "skill::skill_1047": {
     "name": "Saint Fist",
-    "hash": "54bf4460841a5bba8b2cef4d886e5eba",
+    "hash": "e111ddc6401b662ccfab643ca1fea5c4",
     "data": {
       "id": "skill_1047",
       "price_tokens": 0,
@@ -17034,11 +17034,11 @@
       "hit_chance": 0,
       "cp_cost": 11.5,
       "cooldown": 18,
-      "target": "Single",
+      "target": "All",
+      "multi_hit": true,
       "description": "75% chance to clear all targets' positive status.",
       "name": "Saint Fist",
       "type": "9",
-      "multi_hit": true,
       "premium": false,
       "anims": {
         "hit": [
@@ -30311,19 +30311,19 @@
   },
   "skill::skill_2413": {
     "name": "Kinjutsu: Symphony Shadow Blood",
-    "hash": "801592498cacef34cee3e89b20b4224f",
+    "hash": "00cada1fecc6f9ac529e87d3a2fc3ae1",
     "data": {
       "id": "skill_2413",
       "price_tokens": 0,
       "buyable": false,
       "price_gold": 0,
-      "level": 1,
-      "damage": 0,
+      "level": 40,
+      "damage": 330,
       "hit_chance": 0,
-      "cp_cost": 0,
-      "cooldown": 0,
-      "target": "Single",
-      "description": "(Kinjutsu) ",
+      "cp_cost": 600,
+      "cooldown": 16,
+      "target": "All",
+      "description": "(Kinjutsu) Reduce all target max HP by 8% for 1 turn. 30% chance to 'Chaos' all target for 1 turn.",
       "name": "Kinjutsu: Symphony Shadow Blood",
       "type": "7",
       "premium": false,
@@ -30334,24 +30334,24 @@
           181
         ]
       },
-      "attack_hit_position": "range_3"
+      "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_2414": {
     "name": "Kinjutsu: Southern Water Tribe Strike",
-    "hash": "735cdbf93bdb7980770e508b62620afd",
+    "hash": "dbf1dcc470ac38794ecf5892a89b2c7f",
     "data": {
       "id": "skill_2414",
       "price_tokens": 0,
       "buyable": false,
       "price_gold": 0,
-      "level": 1,
+      "level": 70,
       "damage": 0,
       "hit_chance": 0,
-      "cp_cost": 0,
-      "cooldown": 0,
+      "cp_cost": 450,
+      "cooldown": 15,
       "target": "Single",
-      "description": "",
+      "description": "(Kinjutsu) Prison the target for 1 turn. (Prison: Reduce target HP & CP by 10% and stun target)",
       "name": "Kinjutsu: Southern Water Tribe Strike",
       "type": "7",
       "premium": false,
@@ -30361,7 +30361,7 @@
           56
         ]
       },
-      "attack_hit_position": "range_3"
+      "attack_hit_position": "meele_4"
     }
   },
   "skill::skill_3500": {

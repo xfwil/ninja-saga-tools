@@ -1,0 +1,145 @@
+[
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_1047",
+    "entityName": "Saint Fist",
+    "field": "target",
+    "oldValue": "Single",
+    "newValue": "All"
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2413",
+    "entityName": "Kinjutsu: Symphony Shadow Blood",
+    "field": "level",
+    "oldValue": 1,
+    "newValue": 40
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2413",
+    "entityName": "Kinjutsu: Symphony Shadow Blood",
+    "field": "damage",
+    "oldValue": 0,
+    "newValue": 330
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2413",
+    "entityName": "Kinjutsu: Symphony Shadow Blood",
+    "field": "cp_cost",
+    "oldValue": 0,
+    "newValue": 600
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2413",
+    "entityName": "Kinjutsu: Symphony Shadow Blood",
+    "field": "cooldown",
+    "oldValue": 0,
+    "newValue": 16
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2413",
+    "entityName": "Kinjutsu: Symphony Shadow Blood",
+    "field": "target",
+    "oldValue": "Single",
+    "newValue": "All"
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2413",
+    "entityName": "Kinjutsu: Symphony Shadow Blood",
+    "field": "description",
+    "oldValue": "(Kinjutsu) ",
+    "newValue": "(Kinjutsu) Reduce all target max HP by 8% for 1 turn. 30% chance to 'Chaos' all target for 1 turn."
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2413",
+    "entityName": "Kinjutsu: Symphony Shadow Blood",
+    "field": "attack_hit_position",
+    "oldValue": "range_3",
+    "newValue": "meele_4"
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2414",
+    "entityName": "Kinjutsu: Southern Water Tribe Strike",
+    "field": "level",
+    "oldValue": 1,
+    "newValue": 70
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2414",
+    "entityName": "Kinjutsu: Southern Water Tribe Strike",
+    "field": "cp_cost",
+    "oldValue": 0,
+    "newValue": 450
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2414",
+    "entityName": "Kinjutsu: Southern Water Tribe Strike",
+    "field": "cooldown",
+    "oldValue": 0,
+    "newValue": 15
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2414",
+    "entityName": "Kinjutsu: Southern Water Tribe Strike",
+    "field": "description",
+    "oldValue": "",
+    "newValue": "(Kinjutsu) Prison the target for 1 turn. (Prison: Reduce target HP & CP by 10% and stun target)"
+  },
+  {
+    "syncId": "2026-10-21T19-59-55-068Z",
+    "detectedAt": "2026-10-21T19:59:55.068Z",
+    "category": "skill",
+    "action": "modified",
+    "entityId": "skill_2414",
+    "entityName": "Kinjutsu: Southern Water Tribe Strike",
+    "field": "attack_hit_position",
+    "oldValue": "range_3",
+    "newValue": "meele_4"
+  }
+]
